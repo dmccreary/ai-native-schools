@@ -80,3 +80,12 @@
 - Illustrative assumptions (labeled): 3 MB page size, 1.5 Mbps connection, \$22,400 production cost (from ch. 7), \$2.00 per million tokens
 - External facts to verify: 1EdTech/IMS Global standards list and 2022 rename, IEEE xAPI and LOM, Pew 2018 homework-gap figure, Emergency Connectivity Fund, GitHub Pages limits
 - mkdocs build --strict: pass
+
+## Chapter 10: Student Privacy and Data Governance
+
+- Budget: 3 Tier A + 20 Tier B + 3 Tier C = about 6,600 to 10,450 words. Actual: about 5,000 prose words plus about 2,300 words of specs. BELOW the floor (about 75% of it); every concept has a definition and most have worked examples or tables
+- Concepts covered: 26 of 26; mascot admonitions: 6 (validator clean)
+- MicroSims: 0 reused; 3 newly specified (is-this-data-identifying, four-fifths-bias-audit-calculator from a template, governance-readiness-judge)
+- The six must-have / four should-have governance readiness rule is this chapter's recommended practice (labeled as such), not a legal standard
+- Legal content is labeled general information, not legal advice. External facts to verify before publishing: Sweeney 87% identifiability, FERPA school-official exception and Gonzaga (2002), COPPA 2025 rule update and FTC school-consent guidance, GDPR fine ceiling, California SOPIPA (2014), UK 2020 A-level algorithm, The Markup 2023 Wisconsin DEWS investigation, Stanford 2023 AI-detector study, GAO 2022 ransomware report, the PowerSchool credentials/MFA reporting, inBloom \$100M and 2014 closure (matches the book's appendix)
+- mkdocs build --strict: pass
