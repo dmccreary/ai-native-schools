@@ -246,3 +246,7 @@
 ## Expansion pass: Chapter 11
 
 - Added about 2,260 words of prose (4,850 to about 7,100; the floor is 7,250): an adaptive session item by item, a mastery learning cycle, an honest finding that pacing alone does not create time (the slowest students would need about 1.7 times the daily time), gap filling as an investment, why Bloom's two sigma may overstate, tutoring cost by group size, cutting a lecture into pieces, where 300 freed hours could go, whether the afternoon counts as instructional time (state rules vary), taking a claim apart, and debugging an algorithm. Arithmetic verified. External figure to verify: the edX video-length finding (Guo, Kim and Rubin, 2014; engagement drops after about six minutes)
+
+## Expansion pass: Chapter 13
+
+- Added about 2,760 words of prose (4,450 to about 7,200; floor is 8,620): counting pro-social acts, what Piaget's stages suggest for afternoon design, fading a scaffold, what making teaches, cooperation vs collaboration, Tuckman's stages, writing a shared goal, rotating roles (checked: each student takes each role once), a team deciding with evidence (waste data and savings arithmetic verified), writing an I-statement, positions vs interests, three kinds of empathy, a belonging check-in, and scoring divergent thinking. All data are illustrative and labeled. External facts to verify: Tuckman (1965; adjourning added 1977), Piaget's stage ages (labeled approximate and contested), Fisher and Ury (1981), Guilford/Torrance scoring

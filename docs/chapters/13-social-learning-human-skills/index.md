@@ -88,6 +88,20 @@ There is a practical case as well. Employers consistently rank skills such as co
 | Settling a disagreement within a team | No | It needs the real people involved |
 | Noticing that a teammate is upset | No | It requires reading another person in the moment |
 
+### Worked Example: Counting Pro-Social Acts
+
+Pro-social behavior can be observed, and a teacher who watches for it learns where it grows. Over three weeks of the food-waste project, Ms. Rivera tallies four kinds of acts she sees during the project block: *helping* (offering unasked-for assistance), *sharing* (giving up a turn or a resource), *including* (inviting a quiet teammate in), and *comforting* (responding to a teammate's frustration). The counts are illustrative.
+
+| Kind of act | Week 1 | Week 2 | Week 3 |
+|---|---|---|---|
+| Helping | 6 | 9 | 12 |
+| Sharing | 3 | 4 | 6 |
+| Including | 2 | 5 | 7 |
+| Comforting | 1 | 2 | 2 |
+| Total | 12 | 20 | 27 |
+
+The total more than doubled, from 12 to 27, as the team learned its roles (the next section) and she began debriefing at the end of each block. Two cautions are worth making. The tally is a teacher's observation and not a measurement, and what she notices depends on where she stands. And Chapter 2's finding on rewards applies: handing out stickers for pro-social acts can turn kindness into a transaction, so the better reinforcement is to name the act and its effect: "When you asked Maya for her idea, she shared the survey plan we needed."
+
 ## How Students Learn: Four Theories
 
 Four related theories explain why building and doing things with others is such a powerful way to learn. They are easy to confuse, and the differences matter for designing an afternoon.
@@ -95,6 +109,19 @@ Four related theories explain why building and doing things with others is such 
 **Constructivism** is the theory that learners actively build their own understanding by connecting new experiences to what they already know, rather than receiving knowledge ready-made. It draws on the work of the Swiss psychologist Jean Piaget, who described how children assimilate new information into existing mental structures and, when it does not fit, accommodate by changing the structures. It connects directly to the prior knowledge of Chapter 2: what a student already knows shapes what they can learn next.
 
 **Hands-on learning** is learning by doing, through direct experience with materials, tools, experiments, or projects. Its modern roots are in John Dewey's argument, in *Experience and Education* (1938), that students learn through experiences connected to their lives. Hands-on activity is effective when it is guided and tied to the concepts being learned, and it is much weaker when students simply do things without direction, a point on which the Kirschner, Sweller, and Clark paper of Chapter 2 was right. A popular chart called Dale's Cone of Experience, which claims that people remember 10 percent of what they read and 90 percent of what they do, is a myth: the percentages were added later and have no research behind them.
+
+### Worked Example: What Piaget's Stages Suggest for Afternoon Design
+
+Piaget described four broad stages of cognitive development. The ages are approximate, and modern research finds children vary and that the stages overlap, so treat the table as a rough guide for design and not as a rule.
+
+| Stage (approximate age) | How children tend to think | A design implication for the afternoon |
+|---|---|---|
+| Sensorimotor (birth to 2) | Through senses and actions | Not a school-age stage |
+| Preoperational (2 to 7) | Through symbols and play; difficulty seeing other viewpoints | Play-based, hands-on activity; very short teams of two |
+| Concrete operational (7 to 11) | Logical about concrete things they can handle | Projects with real objects and clear roles; teams of three or four |
+| Formal operational (11 and up) | Abstract and hypothetical reasoning | Debate, design under constraints, and projects that weigh trade-offs |
+
+A kindergarten afternoon built around a debate would fail for a reason that has nothing to do with the teacher, and a high school afternoon of only stacking blocks would waste students' abilities. The stages are the reason the grade-band models of Chapter 20 differ.
 
 ### Worked Example: Constructivism and Hands-On Learning in a Fraction Lesson
 
@@ -146,6 +173,35 @@ Reused from the MicroSim catalog (WHAT match score 0.827).
 | Social constructivism | Vygotsky | Understanding is built through interaction, with help from others | A student solves a problem with a peer's hint that she could not solve alone |
 | Constructionism | Papert | Learning is strongest when making a shareable artifact | A student builds a working robot and debugs it |
 | Social constructionism (this book's sense) | Papert's ideas applied in groups | Learning is strongest when a team builds something together | A team builds a food-waste dashboard and argues over its design |
+
+### Worked Example: Fading the Scaffold
+
+Scaffolding is temporary. It is offered in the zone of proximal development and then withdrawn, so that the learner does the task alone. Here is a six-session fade for a student learning to set up a ratio table, using the support levels from the hint ladder of Chapter 2.
+
+| Session | Support offered | Who does the thinking |
+|---|---|---|
+| 1 | A fully worked example, with every step explained | The tutor, with the student watching |
+| 2 | A worked example with the last two steps left blank | Mostly the tutor |
+| 3 | A partly filled table and a prompt for each step | Shared |
+| 4 | A blank table and one question: "What is the unit?" | Mostly the student |
+| 5 | A blank table and no prompts; hints on request | The student |
+| 6 | A new problem type, no help, and a check afterward | The student alone |
+
+The skill of scaffolding is knowing when to step back. A tutor who stays at session 3 forever creates dependence, and one who jumps from session 1 to session 6 leaves the student stranded outside the zone. The observation that the student keeps asking for the next hint is the signal that the scaffold is still needed, and the observation that she no longer reads the hints is the signal to remove it. Adaptive software can read both signals from the log.
+
+### Worked Example: What Making Teaches
+
+A seventh grader builds a small computer game that teaches a younger child to compare fractions. Constructionism predicts that the building teaches more than the topic.
+
+| What the student did | What it required her to understand or practice |
+|---|---|
+| Chose which fraction pairs to show | Which comparisons are easy and which are hard |
+| Wrote the rule that decides "bigger" | An exact, step-by-step procedure (algorithmic thinking) |
+| Tested it on a friend, who found a bug with 2/4 and 1/2 | That equivalent fractions break a naive rule |
+| Fixed the bug and added a hint | Her own explanation of equivalence, in her own words |
+| Showed the game at the exhibition | Explaining her thinking to an audience |
+
+The assignment "do fractions worksheet 4" would give her one of these. The artifact gave her five, and it left something she could show and be proud of, which is the point of Papert's argument.
 
 !!! mascot-thinking "Making makes thinking visible"
     ![Indigo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
@@ -227,6 +283,80 @@ Research on cooperative learning, led by David and Roger Johnson and by Robert S
 **Team problem solving** is a team's process for working through a problem it has not seen before. A simple version has six steps: define the problem, break it into parts, assign the parts to roles, gather and judge the evidence, decide, and reflect on how the team and the result went.
 
 **Applying thinking on teams** is using the thinking skills of Chapters 11 and 12 inside that process. *Decomposition* splits the problem into tasks, *pattern recognition* spots what the data shows, *abstraction* keeps the team focused on what matters, and *algorithmic thinking* turns a plan into clear steps. The evidence evaluation and argument analysis of Chapter 11 are what a team uses to decide, instead of simply following the loudest voice.
+
+### Worked Example: Cooperation Versus Collaboration
+
+The two words are used loosely, and the difference matters for how a task is designed. Take the same project, a poster about the water cycle, done two ways.
+
+| | Cooperation | Collaboration |
+|---|---|---|
+| How the work is divided | Each student does a panel alone and the panels are stuck together | The team decides together what the poster must say, and parts are drawn from that |
+| Where the thinking happens | Within each student | Between the students, in conversation |
+| What if one student misunderstands | Only that panel is wrong | The team's discussion is likely to catch it |
+| What each student learns | Their own panel's topic | The topic, and how to reason with others |
+
+Cooperation is efficient, and it is sometimes the right choice. Collaboration is what the afternoon is for, because it exercises the skills of Chapter 13 and not just the product. A simple test of a design is to ask whether the task *requires* students to talk with each other to succeed. If each could finish alone, it is cooperation at best.
+
+### Worked Example: Tuckman's Stages in a Team's Life
+
+Teams rarely work smoothly from the start. In 1965, the psychologist Bruce Tuckman described four stages, with a fifth added later, that groups pass through. The food-waste team shows each.
+
+| Stage | What it looks like | The food-waste team |
+|---|---|---|
+| Forming | Polite, uncertain, looking to the leader | Week 1: students wait for the teacher to say what to do |
+| Storming | Disagreement about goals and roles; frustration | The forty-minute argument about a poster versus a survey |
+| Norming | Agreeing on roles and ways of working | After the rescue: roles assigned, a rotation agreed |
+| Performing | Working fluently toward the goal | Weeks 3 to 5: data collected, a plan made |
+| Adjourning | Wrapping up, reflecting, saying goodbye | The exhibition and a debrief |
+
+The useful message is that the storming stage is normal, not a sign of failure. A teacher who knows this does not step in to end the argument at once, and does not let it harden into a grudge. The structure questions of the earlier worked example are the tools for moving a team from storming to norming.
+
+### Worked Example: Writing a Shared Goal
+
+A shared goal is specific, visible, and accepted by every member. Compare drafts of the food-waste team's goal.
+
+| Draft | Problem | Revision |
+|---|---|---|
+| "Work on food waste." | Not measurable; any activity counts | "Reduce the cafeteria's food waste." |
+| "Reduce the cafeteria's food waste." | No size and no date | "Cut food waste by 20 percent in two weeks." |
+| "Cut food waste by 20 percent in two weeks." | Not clear how it will be measured, or by whom | "Cut weekly cafeteria food waste, weighed by the kitchen staff, from 120 kg to 96 kg or less within two weeks." |
+
+The last version has a number, a date, a method, and a witness. It can also be tested, so the team will know whether it succeeded, which is the property that makes a goal shared and not merely stated.
+
+### Worked Example: Rotating the Roles
+
+Roles are most useful when they rotate, so that every student practices each. With four roles and four students, a simple rotation gives each student every role over four weeks.
+
+| Week | Facilitator | Recorder | Timekeeper | Reporter |
+|---|---|---|---|---|
+| 1 | Priya | Maya | Dev | Jordan |
+| 2 | Maya | Dev | Jordan | Priya |
+| 3 | Dev | Jordan | Priya | Maya |
+| 4 | Jordan | Priya | Maya | Dev |
+
+Each column and each row contains every student exactly once. Maya, who rarely spoke, is the reporter in week 3 and the facilitator in week 2, which is how she is given the practice that her quietness would otherwise avoid. A teacher may adjust the order so a student takes on a harder role after a success, and not on the first day.
+
+### Worked Example: A Team Uses Evidence to Decide
+
+Team problem solving means deciding on evidence, not on the loudest voice. After weighing the cafeteria's waste for a week, the team has this table (illustrative). Total waste is 120 kg.
+
+| Food | Weekly waste (kg) | Share |
+|---|---|---|
+| Vegetables | 46 | 38% |
+| Bread | 24 | 20% |
+| Milk | 18 | 15% |
+| Entrees | 18 | 15% |
+| Fruit | 14 | 12% |
+
+The team brainstorms three fixes and estimates what each would save. Their estimates are guesses to be tested.
+
+| Idea | Estimated effect | Saving |
+|---|---|---|
+| A: smaller vegetable portions, with seconds available | Cuts vegetable waste by 30% | \( 0.30 \times 46 = 13.8 \) kg |
+| B: bread served on request | Cuts bread waste by 40% | \( 0.40 \times 24 = 9.6 \) kg |
+| C: milk taken only on request | Cuts milk waste by 50% | \( 0.50 \times 18 = 9.0 \) kg |
+
+Their goal is a 20 percent cut, or 24 kg. Idea A alone saves 13.8 kg, 11.5 percent. A and B together save 23.4 kg, 19.5 percent, just short. All three save 32.4 kg, 27 percent, which meets the goal. The team chooses all three, with A first because it saves the most, and plans to re-weigh after a week to check the estimates. Notice that the decision came from decomposition (the table), pattern recognition (vegetables dominate), and evidence evaluation (estimates to be tested), which is the "applying thinking on teams" of this section.
 
 ### Worked Example: Rescuing the Food-Waste Team
 
@@ -315,6 +445,29 @@ Six vignettes:
 **Active listening** is listening with full attention to understand the speaker, and showing that you have understood. It goes beyond waiting for your turn to talk. The psychologist Carl Rogers popularized it in counseling, and its parts are simple: give your full attention; paraphrase what you heard ("So you're saying the poster should come after the survey"); ask a clarifying question; reflect feelings ("It sounds like you're frustrated"); and hold back judgment and advice until the speaker has finished. It is also one of the clearest places where an AI cannot stand in for a person: a student learns to listen by being listened to.
 
 **Conflict resolution** is the process of working through a disagreement so that the people involved reach an outcome they can accept, while keeping the relationship intact. A widely taught approach, from Roger Fisher and William Ury's *Getting to Yes* (1981), is to focus on *interests* instead of *positions*: Jordan's position is "the poster comes first," but his interest may be "I want us to finish on time," and a plan that meets the interest may suit everyone.
+
+### Worked Example: Saying It Clearly
+
+Communication skills include writing a message so that it can be understood and acted on. Jordan sends the team a message after a bad meeting. Compare two versions.
+
+| Version | Text | Problem or strength |
+|---|---|---|
+| 1 | "You guys never listen, and I'm tired of doing everything." | Accuses, generalizes, and gives no request; invites defensiveness |
+| 2 | "In today's meeting I felt unheard when my idea about the survey was skipped. I'd like us to give each person two minutes to propose before we vote. Can we try that tomorrow?" | Names a specific moment and a feeling, makes a concrete request, and asks for agreement |
+
+The second version is an *I-statement*: it describes what happened, how the speaker felt, and what they want, without judging the others. It does not guarantee a good reply, but it makes one possible.
+
+### Worked Example: Positions and Interests
+
+Conflict resolution, in the approach of Fisher and Ury, separates what people say they want (a position) from why they want it (an interest). In the food-waste team's argument, Jordan says "the poster comes first" and Maya says "the survey comes first."
+
+| | Jordan | Maya |
+|---|---|---|
+| Position | Poster first | Survey first |
+| Interest | "I want us to finish on time, and a poster is quick" | "I want to find out why food is thrown away before we design anything" |
+| What both need | A plan that finishes on time and rests on real data | The same |
+
+Once the interests are on the table, a plan that satisfies both is easy to find: spend two days on a short survey, then make the poster from what it shows. Neither position wins, and both interests are met. The skill is to ask "why do you want that?" before arguing about "what," and active listening is how the question gets an honest answer.
 
 ### Worked Example: Responses to a Teammate
 
@@ -414,6 +567,32 @@ Several of the concepts of this chapter are parts of SEL.
 
 **Belonging** is the feeling of being a valued member of a group, accepted and able to be oneself. Research by Gregory Walton, Geoffrey Cohen, and colleagues suggests that students who feel they belong in a school or subject engage more and do better, and that brief efforts to build belonging can help students from groups who are at risk of feeling out of place, though the size of the effect varies by setting. **Human connection** is the experience of meaningful, caring relationships with other people, of which belonging is one form. It is what a student with a screen-heavy morning most needs from the afternoon.
 
+### Worked Example: Three Kinds of Empathy
+
+Psychologists often distinguish kinds of empathy, which can be developed separately. Suppose a teammate, Dev, learns that his project idea was not chosen and goes quiet.
+
+| Kind | What it is | What it looks like for a teammate |
+|---|---|---|
+| Cognitive empathy (perspective taking) | Understanding what the other person thinks and feels | "He probably feels his idea wasn't valued." |
+| Affective empathy | Feeling something of what the other feels | A pang of disappointment on his behalf |
+| Compassionate empathy | Being moved to help | "Dev, I liked your idea about taste tests; can we use part of it?" |
+
+Cognitive empathy can be taught directly, through activities such as retelling an event from another person's point of view. Affective empathy grows through relationships. Compassionate empathy is the one that produces pro-social behavior, and it needs the other two plus a chance to act, which a team project provides.
+
+### Worked Example: A Belonging Check-In
+
+Belonging can be checked with a few questions asked regularly. A teacher gives each student a five-question check at the start and end of the project, answered from 1 (not at all) to 5 (very much). The numbers are illustrative.
+
+| Question | Class average, start | Class average, end |
+|---|---|---|
+| I feel I belong in this team | 3.4 | 4.1 |
+| My ideas are listened to | 3.1 | 3.9 |
+| I can disagree without worrying | 2.8 | 3.7 |
+| I know my teammates care about me | 3.5 | 4.2 |
+| I look forward to this class | 3.3 | 4.0 |
+
+The biggest gain was on disagreeing without worry, which is what the structure and the listening practice were meant to build. The teacher also looks at the *lowest* individual scores, since an average can hide the student for whom nothing changed, and follows up with a conversation. The check is an input for the teacher's attention, not a grade.
+
 ### Worked Example: SEL in One Project
 
 Over the two weeks of the food-waste project, a teacher watches for SEL competencies and records one example of each.
@@ -438,6 +617,27 @@ The teacher is not adding SEL as an extra lesson. The project is the lesson: the
 **Divergent thinking** is the generation of many different ideas or solutions to an open-ended question, in contrast to *convergent thinking*, which narrows to the single best answer. The psychologist J. P. Guilford drew attention to it in the 1950s, and E. Paul Torrance developed tests of it. Typical tasks ask, "How many uses can you think of for a paperclip?" Fluency (the number of ideas), flexibility (the variety), and originality (how unusual) are the usual measures. Creative work alternates the two: diverge to generate, converge to choose.
 
 **Creative confidence** is the belief that one can come up with new ideas and act on them, an application of the psychologist Albert Bandura's idea of self-efficacy. Tom and David Kelley of the design firm IDEO use the term for the confidence that many people lose when they decide they are "not creative." It matters because creative work involves being wrong in public, and students who fear that will not try.
+
+### Worked Example: Scoring Divergent Thinking
+
+Divergent thinking is scored on three measures, introduced by Guilford and used in Torrance's tests. A student has two minutes to list uses for a paperclip and writes 12 ideas.
+
+| Idea | Category | Given by fewer than 5% of the class? |
+|---|---|---|
+| Hold papers together | Fastening | No |
+| Bookmark | Marking | No |
+| Reset a phone | Tools | No |
+| Zipper pull | Fastening | No |
+| Pick a lock | Tools | Yes |
+| Earring | Jewelry | No |
+| Chain for decoration | Jewelry | No |
+| Cleaning tool | Tools | No |
+| Antenna for a toy | Building | Yes |
+| Sculpture wire | Art | No |
+| Hang a poster | Fastening | No |
+| Tiny hook for a plant | Fastening | No |
+
+Her *fluency*, the number of ideas, is 12. Her *flexibility*, the number of different categories, is 6 (fastening, marking, tools, jewelry, building, art). Her *originality*, the number of ideas that few others gave, is 2. A teacher can use the three scores to coach: a student with high fluency and low flexibility is stuck in one kind of idea and can be asked "what is a completely different kind of use?" The scores are a conversation starter, not a verdict on a child's creativity.
 
 ### Worked Example: A Divergent Round
 
