@@ -198,3 +198,13 @@
 - Contract guidance is labeled not legal advice
 - External facts to verify: ESSER spending deadline (2024), the Student Data Privacy Consortium National Data Privacy Agreement, Stanovich's Matthew effect, Tutor CoPilot (from the book's appendix), Emergency Connectivity Fund, LA "Ed" figures (from the appendix), Alpha tuition range (from the project facts)
 - mkdocs build --strict: pass
+
+## Chapter 22: AI-First Case Studies I: Promise and Peril
+
+- Budget: 11 Tier B + 12 Tier C (23 rows) = about 4,320 to 7,000 words. Actual: about 3,450 prose words plus about 2,500 words of specs (about 80% of the floor)
+- Concepts covered: 23 of 23; mascot admonitions: 4 (validator clean)
+- Cases: Alpha, Unbound, Turkish study, Harvard physics, Summit Learning, each read with one framework (benefit, risk, response, lesson), plus a pilot risk checklist built from the course description's seven named risks. Details come only from the book's own AI-First Stories appendix and the project facts (Alpha tuition about \$40,000 to \$65,000 by campus). The appendix itself warns that several stories were written from memory and not yet checked online, so EVERY figure in this chapter should be checked against primary sources before publishing
+- Uses the real-case / composite-story / illustrated-story distinction and labels the book's own characters (Maya, Lincoln Middle and so on) as composites
+- MicroSims: 0 reused; 3 newly specified (which-benefit-or-risk, alpha-or-unbound, find-the-missing-safeguard); the plan-gap sim was checked so each plan lacks exactly one risk and the six answers are distinct
+- The statement that Alpha has no independent evaluation cited "in this book's sources" is deliberately limited to the book's sources; confirm against current reporting
+- mkdocs build --strict: pass
