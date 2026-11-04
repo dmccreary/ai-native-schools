@@ -614,13 +614,13 @@ The teacher is not adding SEL as an extra lesson. The project is the lesson: the
 
 **Creativity** is the ability to produce ideas or products that are both novel and useful or valuable. It is not only for artists: a student who finds a new way to sort the cafeteria's waste is being creative. Creativity depends on knowledge, as the earlier chapters stress, since one has to know what has been done to do something new, and it is nourished by freedom, challenge, and an audience.
 
-**Divergent thinking** is the generation of many different ideas or solutions to an open-ended question, in contrast to *convergent thinking*, which narrows to the single best answer. The psychologist J. P. Guilford drew attention to it in the 1950s, and E. Paul Torrance developed tests of it. Typical tasks ask, "How many uses can you think of for a paperclip?" Fluency (the number of ideas), flexibility (the variety), and originality (how unusual) are the usual measures. Creative work alternates the two: diverge to generate, converge to choose.
+**Divergent thinking** is the generation of many different ideas or solutions to an open-ended question, in contrast to *convergent thinking*, which narrows to the single best answer. The psychologist J. P. Guilford drew attention to it in the 1950s, and E. Paul Torrance developed tests of it. Typical tasks ask, "How many uses can you think of for a paperclip?" Fluency (the number of ideas), flexibility (the variety), and originality (how unusual) are the usual measures, and Guilford's list also included elaboration (the amount of detail). Creative work alternates the two: diverge to generate, converge to choose.
 
 **Creative confidence** is the belief that one can come up with new ideas and act on them, an application of the psychologist Albert Bandura's idea of self-efficacy. Tom and David Kelley of the design firm IDEO use the term for the confidence that many people lose when they decide they are "not creative." It matters because creative work involves being wrong in public, and students who fear that will not try.
 
 ### Worked Example: Scoring Divergent Thinking
 
-Divergent thinking is scored on three measures, introduced by Guilford and used in Torrance's tests. A student has two minutes to list uses for a paperclip and writes 12 ideas.
+Divergent thinking is often scored on three measures from Guilford's work, which Torrance's tests also used (Torrance later dropped flexibility from the figural test because it tracked fluency so closely). A student has two minutes to list uses for a paperclip and writes 12 ideas.
 
 | Idea | Category | Given by fewer than 5% of the class? |
 |---|---|---|
