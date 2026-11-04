@@ -591,7 +591,7 @@ The penny-per-day figure covers content and hosting, and it should not be read a
 | Level 4 with a chatbot, guardrails, and training | \$23.00 | about 12.8 cents |
 | Any digital level, adding a new device | add \$75.00 | add about 42 cents |
 
-So a fair statement of the vision is that *content* costs about a penny a day, and a complete program costs between three and thirteen cents, before devices. Even the largest figure is about 0.15 percent of the roughly \\$87 a public school spends per pupil per school day. A district that promises "a penny a day" and delivers a bill of 40 cents because it forgot the devices will lose trust, which is why the full table matters.
+So a fair statement of the vision is that *content* costs about a penny a day, and a complete program costs between three and thirteen cents, before devices. Even the largest figure is about 0.15 percent of the roughly \$87 a public school spends per pupil per school day. A district that promises "a penny a day" and delivers a bill of 40 cents because it forgot the devices will lose trust, which is why the full table matters.
 
 !!! mascot-encourage "Cost tables look scarier than they are"
     ![Indigo encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
