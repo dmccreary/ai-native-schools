@@ -140,3 +140,13 @@
 - The 5-attribute scores for Level 2 vs Level 4, the Eastside barrier diagnosis, and the hype-cycle placement of generative AI are illustrative readings and are labeled as such. Estonia's AI Leap is presented as a method example with results not yet known (consistent with the appendix)
 - External facts to verify: Rogers (1962; 5th ed. 2003), the Ryan and Gross (1943) hybrid-corn study, adopter percentages, Moore (1991), Gartner's hype cycle (mid-1990s) and the academic critique, the 2012 "year of the MOOC" and the 2013 Thrun quote, MOOC completion under 10 percent, LAUSD iPad rollout (2013), Estonia TI-Hupe (2025)
 - mkdocs build --strict: pass
+
+## Chapter 16: Organizational Change Models
+
+- Budget: 1 Tier A + 10 Tier B = about 3,000 to 4,750 words. Actual: about 3,500 prose words plus about 1,900 words of specs (within budget)
+- Concepts covered: 11 of 11; mascot admonitions: 4 (validator clean)
+- This is an overview chapter; Lewin, Bridges, Schein, stages of concern and Kotter's individual steps are named here and developed in Ch. 17 (their concepts are assigned there)
+- MicroSims: 0 reused; 2 newly specified (name-that-change-model, is-this-a-normal-dip). The dip rule (low in months 2-4, depth up to 15 percent, recovery by month 8) and all series data are ILLUSTRATIVE and labeled as such; every series value was checked against the rule
+- Notes that the often-cited "70 percent of change efforts fail" figure is poorly sourced (citing Hughes 2011)
+- External facts to verify: Kotter (1995, 1996), Lewin (1947), Hiatt/Prosci ADKAR (2006), Bridges (1991), Schein, Senge (1990), Fullan and the implementation dip, CBAM (Hall, Hord, Univ. of Texas, 1970s), Deal and Peterson on school culture, Hughes (2011)
+- mkdocs build --strict: pass
