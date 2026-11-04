@@ -22,9 +22,12 @@ CONTENT-GENERATION-GUIDE.md
 ```
 
 It defines the concept-depth and word-count targets, the anti-padding and
-writing-style rules, the MicroSim expectations, and the Markdown formatting
-rules for this book. Content that ignores it produces broken layouts and an
-inconsistent student experience.
+writing-style rules, the MicroSim expectations, the Markdown formatting
+rules, and the learning mascot (Indigo the Barn Owl) placement rules for
+this book. Content that ignores it produces broken layouts and an
+inconsistent student experience. Note that the teacher guide, instructor
+guide, or other instructor-facing content does not use the mascot
+described in CONTENT-GENERATION-GUIDE.md.
 
 ## Project facts
 
