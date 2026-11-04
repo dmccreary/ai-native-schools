@@ -51,6 +51,7 @@ nav:
 
   - MicroSims:
       - List of MicroSims: sims/index.md
+      - Learning Graph Viewer: sims/graph-viewer/index.md
 
   - Appendices:
       - AI-First Stories: appendices/ai-first-stories.md
