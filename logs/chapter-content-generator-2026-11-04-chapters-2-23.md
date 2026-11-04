@@ -234,3 +234,7 @@
 ## Expansion pass: Chapter 6
 
 - Added about 2,100 words of prose (6,100 to about 8,200): the anatomy of a textbook, hidden print costs (shows the ch. 7 print baseline is conservative, about \$87 vs \$53), PDF accessibility, one book in four deliveries, testing the five-level model as a framework (with its real weaknesses), three people hearing "adaptive", an SAE-to-textbook mapping labeled as this book's analogy, drivers of the intelligent textbook movement, growth through reuse (using this book's own 13 of 78 reused sims), and an annotated tutoring dialogue. Arithmetic verified. Still below the 12,750 floor
+
+## Expansion pass: Chapter 7
+
+- Added about 2,100 words of prose (5,200 to about 7,350) and one reused sim (quality-reusability-quadrant from OER Evaluator): publisher edition economics, who chooses vs who pays, review-vs-error tradeoff, the human-review cost floor under falling AI prices, which licenses grant which 5Rs, license compatibility, reading Q and R together, an accessibility metric up close, marginal cost of a digital copy, and penny-a-day vs the full per-day price. Arithmetic verified (one wording fix: the Level 4 per-day cost is about 0.15 percent of per-pupil daily spending). The error-rate and review-catch figures are explicitly assumed. Still below the 11,110 floor

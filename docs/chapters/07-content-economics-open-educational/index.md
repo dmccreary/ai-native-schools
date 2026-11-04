@@ -94,6 +94,34 @@ The table gives an illustrative breakdown for one chapter of a traditional textb
 
 For a 20-chapter book the content cost in this illustration is about \$80,000, before marketing and sales. Notice that the largest items, drafting and building simulations, are exactly the tasks that AI is getting better at, which leads to the next section.
 
+### Worked Example: Why Publishers Revise Every Few Years
+
+The classic business model depends on a sales pattern. A new edition sells to a wave of buyers, then a used market forms, and sales fall each year until the next edition resets them. Suppose a college textbook priced at \$150 sells the following numbers of new copies over a four-year edition. The figures are illustrative.
+
+| Year of the edition | New copies sold | Revenue |
+|---|---|---|
+| 1 | 10,000 | \$1,500,000 |
+| 2 | 6,000 | \$900,000 |
+| 3 | 3,500 | \$525,000 |
+| 4 | 2,000 | \$300,000 |
+| Total | 21,500 | \$3,225,000 |
+
+Sales fall by 80 percent from year 1 to year 4, which is why a publisher releases a new edition even when the subject has not changed: the revision restarts the curve. Now suppose a quarter of the adopting instructors switch to a free open textbook of comparable quality. Revenue drops to 75 percent of the total, or \$2,418,750, a loss of \$806,250 per edition, and the publisher cannot cut its fixed costs of authors, editors, and sales staff by the same fraction. A business built on high price and a four-year cycle is under pressure from content that costs nothing to copy and can be revised weekly, which is the content commoditization of the next sections.
+
+### Worked Example: The Person Who Chooses Is Not the Person Who Pays
+
+Textbook price has been hard to discipline because the usual purchasing roles are split.
+
+| | College | K-12 |
+|---|---|---|
+| Who chooses the book | The instructor | A district committee, usually for several years |
+| Who pays | The student | Taxpayers, through the district |
+| What the chooser sees | Quality and convenience | Quality, alignment to standards, and the sales presentation |
+| What limits the price | The used and rental market | The district budget and procurement rules |
+| Why this favors high prices | The chooser does not feel the cost | A multi-year adoption locks in the choice |
+
+An instructor who assigns a \$150 book bears none of its cost. Open textbooks change the incentive by removing the price from the decision, and a district that applies the scorecard of Chapter 20 puts the price back in front of the chooser.
+
 ## AI and Falling Production Costs
 
 **AI-generated content** is text, images, simulations, quizzes, and other learning materials produced mainly by an AI system, typically a large language model (Chapter 4), from a prompt or an outline, and then reviewed and edited by a person. The people review it because of the hallucination problem of Chapter 5.
@@ -115,6 +143,31 @@ Take the 80-hour chapter above and suppose AI generates the first draft of the t
 | AI computing for generation | n/a | about \$20 |
 
 The illustrative cost falls from about \$4,000 to about \$1,120 per chapter, a fall of about 72 percent, and for a 20-chapter book from about \$80,000 to about \$22,400. Two cautions apply. First, the saving depends on the review step: skipping it moves the cost into errors that students learn. Second, the assumptions are illustrative, and an author who measures their own hours will find different values.
+
+### Worked Example: How Much Review Is Enough?
+
+AI-generated content can carry errors, and review catches some of them. The more a reviewer does, the fewer errors remain and the more it costs. Suppose an AI draft of one chapter contains 6 errors on average (an assumed figure), and consider four ways to produce the chapter, with the costs of the Chapter 7 illustration.
+
+| Approach | Review | Errors caught (assumed) | Errors left | Cost per chapter |
+|---|---|---|---|---|
+| AI draft, no review | None | 0% | 6.0 | about \$20 |
+| AI draft, spot check | 2 hours | 40% | 3.6 | about \$120 |
+| AI draft, expert review and fact-checking | 11 hours | 90% | 0.6 | about \$570 |
+| Written by hand, then edited | 80 hours | 95% of a smaller base | about 0.2 | about \$4,000 |
+
+The first row is cheapest and leaves ten times as many errors as the third. The jump from spot check to expert review costs about \$450 and removes three errors, or about \$150 per error avoided. For content that students will rely on, that is a reasonable price. The table also shows a property of the whole economics: the AI draft cost is tiny, and what matters is how much human judgment you buy afterward. The figures are assumptions, and a school can measure its own: count the errors an expert finds in a sample of AI drafts.
+
+### Worked Example: The Floor Under Falling Costs
+
+Falling AI prices make generation nearly free. They do not make a chapter free, because human review dominates the cost. Suppose generation costs \$20 per chapter today and its price falls nineteen-fold a year, as in Chapter 4, while review stays at \$1,100.
+
+| Year | Generation cost | Review cost | Total per chapter |
+|---|---|---|---|
+| 0 | \$20.00 | \$1,100 | \$1,120 |
+| 1 | \$1.05 | \$1,100 | \$1,101 |
+| 2 | \$0.06 | \$1,100 | \$1,100 |
+
+A thousandfold fall in the AI cost lowers the total by under 2 percent. The cost floor is human time. The real prospect for further savings is better tools that cut review hours: halving the 22 hours of skilled work in the earlier example to 11 would bring the chapter to about \$550. This is why the book's cost claims rest on review practices as well as on AI prices.
 
 !!! mascot-warning "Cheap to write is not cheap to trust"
     ![Indigo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
@@ -175,6 +228,41 @@ Type: microsim
 
 Reused from the author's companion book OER Evaluator, whose index marks it as built.
 </details>
+
+### Worked Example: Which License Grants Which Rights?
+
+The six Creative Commons licenses grant the 5R permissions to different degrees. The table shows what each allows. NC means non-commercial and SA means share-alike.
+
+| License | Retain | Reuse | Revise | Remix | Redistribute | Conditions |
+|---|---|---|---|---|---|---|
+| CC BY | Yes | Yes | Yes | Yes | Yes | Credit the author |
+| CC BY-SA | Yes | Yes | Yes | Yes | Yes | Credit; share adaptations under the same license |
+| CC BY-NC | Yes | Yes | Yes | Yes | Yes, non-commercially | Credit; no commercial use |
+| CC BY-NC-SA | Yes | Yes | Yes | Yes | Yes, non-commercially | Credit; no commercial use; same license |
+| CC BY-ND | Yes | Yes | No | No | Unchanged copies only | Credit |
+| CC BY-NC-ND | Yes | Yes | No | No | Unchanged, non-commercial | Credit; no commercial use |
+
+A free textbook, as defined earlier, is about price, and an open one is about this table. Three cases show the difference.
+
+| The textbook | Free to read? | Open? | Why |
+|---|---|---|---|
+| A PDF posted free on a publisher's site, "all rights reserved" | Yes | No | You may read it, but not edit, translate, or share it |
+| An OpenStax textbook under CC BY | Yes | Yes | All five permissions with credit |
+| A textbook under CC BY-ND | Yes | Partly | You can share it unchanged, but cannot adapt it |
+
+### Worked Example: Can We Combine These?
+
+A district wants to build one course from several open sources. Combining works is called remixing, and the licenses must be compatible. The following reflects the general rules; the Creative Commons compatibility chart and the district's counsel settle real cases.
+
+| Combination | Allowed? | The result must be licensed as |
+|---|---|---|
+| CC BY with CC BY | Yes | CC BY or any license that keeps credit |
+| CC BY with CC BY-SA | Yes | CC BY-SA |
+| CC BY with CC BY-NC | Yes | CC BY-NC, so it may not be sold |
+| CC BY-SA with CC BY-NC-SA | No, in general | Each requires adaptations to carry its own license, which cannot both be satisfied |
+| CC BY-ND with anything | Not as an adaptation | The no-derivatives work cannot be changed or merged |
+
+A district that plans to sell a course, or that wants its own teachers to adapt freely, should prefer CC BY and CC BY-SA sources and avoid NC and ND ones. The book you are reading uses CC BY-NC-SA, which is a good choice for its author's goals and a limit on certain reuses, and the example shows why the choice of license is itself a design decision.
 
 !!! mascot-tip "License check in thirty seconds"
     ![Indigo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
@@ -246,6 +334,54 @@ Reused from the author's companion book OER Evaluator, whose index marks it as b
     ![Indigo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
     Notice how two books with nearly the same total can be good for different jobs. A single number hides which half is weak, which is why a careful buyer always asks for Q and R separately. This is the same lesson as the effect-size habit of Chapter 2: the headline number is where you start asking questions.
 
+### Reading Q and R Together
+
+The two subscores do different jobs, and plotting each resource on a grid of Q against R makes the decision visible. Splitting each axis at its midpoint of 25 (an illustrative threshold) gives four regions.
+
+| Region | Q | R | What it means | A sensible use |
+|---|---|---|---|---|
+| High quality, high reuse | At least 25 | At least 25 | Good for students and easy to adapt | Adopt, and contribute improvements |
+| High quality, low reuse | At least 25 | Under 25 | Good, but hard to change or find | Use as is; ask the author for open source files |
+| Low quality, high reuse | Under 25 | At least 25 | Weak, but easy to rework | Raw material: improve it |
+| Low quality, low reuse | Under 25 | Under 25 | Weak and hard to change | Skip it |
+
+The sim below, from the companion book *OER Evaluator*, lets you place resource profiles in the four regions.
+
+#### Diagram: Quality and Reusability Quadrant Sorter
+
+<iframe src="https://dmccreary.github.io/oer-evaluator/sims/quality-reusability-quadrant/main.html" width="100%" height="750px" scrolling="no"></iframe>
+
+[Run the Quality and Reusability Quadrant Sorter MicroSim fullscreen](https://dmccreary.github.io/oer-evaluator/sims/quality-reusability-quadrant/main.html){ .md-button }
+
+<details markdown="1">
+<summary>Quality and Reusability Quadrant Sorter (reused MicroSim)</summary>
+Type: microsim
+**sim-id:** quality-reusability-quadrant<br/>
+**Library:** p5.js<br/>
+**Status:** Reused<br/>
+**Source:** https://dmccreary.github.io/oer-evaluator/sims/quality-reusability-quadrant/<br/>
+**Source Repo:** https://github.com/dmccreary/oer-evaluator/tree/main/docs/sims/quality-reusability-quadrant<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** differentiate<br/>
+**Learning Objective:** The learner will differentiate resources that need quality work from resources that need reusability work by placing each of eight profiles in the correct one of four quadrants.
+
+Reused from the author's companion book OER Evaluator, whose index marks it as built.
+</details>
+
+### Worked Example: One Quality Metric Up Close
+
+The accessibility metric is one of the five quality metrics and shows how a vague word becomes a checkable list. An illustrative review of one page of an open textbook:
+
+| Check | Standard | Result on the page | Fix |
+|---|---|---|---|
+| Every image has a text description | Alt text | 4 of 9 images have it | Add descriptions to the other five |
+| Headings are in order | Heading levels (H1, H2, H3) | One page jumps from H2 to H4 | Correct the levels |
+| Text contrast | At least 4.5 to 1 for normal text (WCAG AA) | Light gray text measures 3.1 to 1 | Darken the text |
+| Everything works from the keyboard | Keyboard operable | A simulation needs a mouse | Add keyboard controls |
+| Videos have captions | Captions | No captions | Add captions |
+
+Two of the five checks pass and three fail, so a reviewer would score the metric low and attach this evidence. That is what makes the OpenBook QR Score repeatable: each metric is a list of checks with evidence, not an impression. It is also where AI helps most, since alt text, heading repair, and captions are tasks it does well, which is why the scores of such books tend to rise quickly.
+
 ### Rising Quality Scores
 
 **Rising quality scores** is the trend of open textbooks improving on measures like the OpenBook QR Score over time. The reason follows from the structure of the score. Several of its ten metrics are mechanical improvements that AI does cheaply and well: rewriting for readability, adding text descriptions to images for accessibility, generating practice questions with feedback, writing metadata, and splitting content into modules. These are the tasks that a human editor skips because they are tedious.
@@ -277,6 +413,18 @@ The book moves from Fair to Good, and the reusability half rises most. A caution
 **Content commoditization** is the process by which a product becomes interchangeable with competitors and its price falls toward its cost of production, because buyers can no longer tell it apart on quality. When AI makes content cheap to produce, and open licenses make it free to copy, level 1 and level 2 content (Chapter 6), meaning fixed text and interactive pages, tends toward a commodity. A publisher that sells such content competes with a free open textbook of comparable quality.
 
 **Publisher disruption** is the change that results for publishers: pressure on revenue from the content itself, and a forced shift to other ways of earning. A company like Chegg, which sold homework help and textbook services to students, saw its stock price drop by about half in a single day in May 2023 after its chief executive said that ChatGPT was hurting its growth, which is an early and public example of how quickly AI can undercut a content-based business. Established textbook publishers face a slower version of the same pressure.
+
+### Worked Example: The Marginal Cost of One More Student
+
+Commoditization follows from a simple fact: serving one more student a digital page costs almost nothing. Suppose each of 12,000 students loads 100 pages a year at about half a megabyte each, and bandwidth costs about \$0.05 per gigabyte (an illustrative figure).
+
+| Quantity | Calculation | Result |
+|---|---|---|
+| Data served | \( 12{,}000 \times 100 \times 0.5 \) MB | 600,000 MB, or 600 GB |
+| Bandwidth cost | 600 GB × \$0.05 | about \$30 a year |
+| Per student | \$30 ÷ 12,000 | about \$0.0025, a quarter of a cent |
+
+Compare a quarter of a cent with the \$53 per student for print. When the cost of one more copy is this small, any seller competing on price is pushed toward it, which is the meaning of commoditization. The real costs are in making and checking the content, and in everything around it.
 
 The question for a school leader is not whether publishers will adapt but what they will sell. **Value beyond content** names what stays valuable when content is cheap:
 
@@ -430,6 +578,20 @@ The **penny-per-day vision** is the book's name for a target: high-quality inter
 ### Worked Example: Pennies at Scale
 
 For the 12,000-student district, the penny-per-day content cost is \( 12{,}000 \times \$1.80 = \$21{,}600 \) a year. The district's total spending at the Chapter 1 figure is \( 12{,}000 \times \$15{,}600 = \$187.2 \) million. The content line is \( 21{,}600 / 187{,}200{,}000 \approx 0.012\% \), about one dollar in every 8,700. Compare this with the \$240,000 content license in the publisher's \$900,000 proposal, which is more than eleven times as much for content with an open equivalent.
+
+### Worked Example: The Penny and the Real Price
+
+The penny-per-day figure covers content and hosting, and it should not be read as the whole cost. Dividing the Chapter 7 totals by a 180-day year shows the difference.
+
+| What is counted | Per student per year | Per student per school day |
+|---|---|---|
+| Content and hosting only | \$1.80 | 1.0 cent |
+| Level 2 with teacher training | \$5.80 | about 3.2 cents |
+| Level 3 with records, governance, and training | \$12.80 | about 7.1 cents |
+| Level 4 with a chatbot, guardrails, and training | \$23.00 | about 12.8 cents |
+| Any digital level, adding a new device | add \$75.00 | add about 42 cents |
+
+So a fair statement of the vision is that *content* costs about a penny a day, and a complete program costs between three and thirteen cents, before devices. Even the largest figure is about 0.15 percent of the roughly \\$87 a public school spends per pupil per school day. A district that promises "a penny a day" and delivers a bill of 40 cents because it forgot the devices will lose trust, which is why the full table matters.
 
 !!! mascot-encourage "Cost tables look scarier than they are"
     ![Indigo encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
