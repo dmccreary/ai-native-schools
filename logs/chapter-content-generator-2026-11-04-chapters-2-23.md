@@ -14,3 +14,10 @@
 - MicroSims: 1 reused (effect-size-visualizer, 0.7557); 2 from templates (prerequisite-chain-diagnosis, school-decision-stakeholder-match); 2 newly specified (evidence-tier-claim-checker, challenge-knowledge-zone-explorer)
 - Also fixed chapter 1: bloom-level-task-sorter was labeled Apply with the verb classify; classify is an Understand verb in the book's verb list
 - mkdocs build --strict: pass
+
+## Chapter 3: School Structures, Equity, and the Industrial-Era Legacy
+
+- Budget: 9 Tier B + 11 Tier C concepts = about 3,570 to 5,800 words. Actual: about 5,300 prose words plus about 3,700 words of MicroSim specs
+- Concepts covered: 20 of 20; mascot admonitions: 5 (validator clean)
+- MicroSims: 0 reused; 2 from templates (source-credibility-checker, equal-vs-equitable-tutoring); 2 newly specified (seat-time-vs-mastery, schooling-edtech-timeline)
+- mkdocs build --strict: pass
