@@ -208,3 +208,12 @@
 - MicroSims: 0 reused; 3 newly specified (which-benefit-or-risk, alpha-or-unbound, find-the-missing-safeguard); the plan-gap sim was checked so each plan lacks exactly one risk and the six answers are distinct
 - The statement that Alpha has no independent evaluation cited "in this book's sources" is deliberately limited to the book's sources; confirm against current reporting
 - mkdocs build --strict: pass
+
+## Chapter 23: AI-First Case Studies II: Lessons for Practice
+
+- Budget: 23 Tier C concepts = about 2,760 to 4,600 words. Actual: about 3,900 prose words plus about 1,650 words of specs (within budget)
+- Concepts covered: 23 of 23; mascot admonitions: 4 (validator clean)
+- MicroSims: 0 reused; 2 newly specified (which-lesson-does-failure-teach, ask-the-right-question)
+- Case facts come only from the book's AI-First Stories appendix and the project facts. The appendix warns that several stories were written from memory and not yet checked online. The LAUSD "Ed"/AllHere account includes the appendix's statement that the superintendent has not been charged with a crime; it is a developing story and was written without naming individuals other than as the appendix does. VERIFY every case before publication
+- The "Affordable Alpha" cost (about \$64 net added per student per year) combines ILLUSTRATIVE figures from chapters 7, 12 and 21 and explicitly excludes devices, facilities and transport; the chapter says the comparison to Alpha's tuition must be made with care (increment vs whole-school cost)
+- mkdocs build --strict: pass
