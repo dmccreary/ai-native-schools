@@ -1,0 +1,651 @@
+# TAX | Label | dependencies (semicolon-separated labels)
+FOUND | Education |
+FOUND | School | Education
+FOUND | Student |
+FOUND | Teacher |
+FOUND | Learning |
+FOUND | Curriculum | Education
+FOUND | Classroom | School
+FOUND | School Day | School
+FOUND | K-12 Education | Education; School
+FOUND | Direct Instruction | Teacher; Learning; Classroom
+FOUND | Lecture-Based Teaching | Direct Instruction
+FOUND | Industrial-Era School Model | School Day; Direct Instruction
+FOUND | Age-Based Grade Levels | Industrial-Era School Model
+FOUND | Seat Time | School Day
+FOUND | Carnegie Unit | Seat Time
+FOUND | Bell Schedule | School Day
+FOUND | Student Engagement | Student; Learning
+FOUND | Student Boredom | Student Engagement; Lecture-Based Teaching
+FOUND | Learning Outcome | Learning
+FOUND | Bloom's Taxonomy | Learning Outcome
+FOUND | Higher-Order Thinking | Bloom's Taxonomy
+FOUND | Prior Knowledge | Learning
+FOUND | Prerequisite Concept | Prior Knowledge
+FOUND | Formative Assessment | Learning Outcome
+FOUND | Summative Assessment | Learning Outcome
+FOUND | Standardized Testing | Summative Assessment
+FOUND | Learning Gap | Learning Outcome
+FOUND | Achievement Gap | Learning Gap
+FOUND | Educational Equity | Achievement Gap
+FOUND | Public School Funding | School
+FOUND | Per-Pupil Spending | Public School Funding
+FOUND | Private School Tuition | School
+FOUND | Charter School | School; Public School Funding
+FOUND | Virtual School | School
+FOUND | Microschool | School
+FOUND | Education Policy | Education
+FOUND | School Board | Education Policy; School
+FOUND | School Administrator | School
+FOUND | Principal | School Administrator
+FOUND | Parent and Family | Student
+FOUND | Student Agency | Student; Learning
+FOUND | Intrinsic Motivation | Student Engagement
+FOUND | Curiosity | Intrinsic Motivation
+FOUND | Curiosity-Driven Learning | Curiosity; Student Agency
+FOUND | Self-Paced Learning | Student Agency
+FOUND | Screen Time | Student
+FOUND | Teacher Workload | Teacher
+FOUND | Teacher Burnout | Teacher Workload
+FOUND | Educational Technology | Education
+FOUND | History of EdTech | Educational Technology
+FOUND | Evidence-Based Practice | Education
+FOUND | Randomized Controlled Trial | Evidence-Based Practice
+FOUND | Effect Size | Randomized Controlled Trial
+FOUND | Learning Gains | Effect Size; Learning Outcome
+FOUND | Self-Reported Results | Evidence-Based Practice
+FOUND | Independent Evaluation | Evidence-Based Practice
+FOUND | Preprint | Evidence-Based Practice
+FOUND | Case Study Method | Evidence-Based Practice
+FOUND | Spaced Practice | Learning
+FOUND | Retrieval Practice | Learning
+FOUND | Productive Struggle | Learning
+FOUND | Immediate Feedback | Formative Assessment
+
+AIGRO | Artificial Intelligence |
+AIGRO | Machine Learning | Artificial Intelligence
+AIGRO | Large Language Model | Machine Learning
+AIGRO | Generative AI | Large Language Model
+AIGRO | Chatbot | Large Language Model
+AIGRO | AI Hallucination | Large Language Model
+AIGRO | AI Agent | Large Language Model
+AIGRO | AI Capability | Artificial Intelligence
+AIGRO | AI Benchmark | AI Capability
+AIGRO | METR | AI Benchmark
+AIGRO | Task Horizon | METR; AI Capability
+AIGRO | 50 Percent Time Horizon | Task Horizon
+AIGRO | Human Working Time | Task Horizon
+AIGRO | Benchmark Task Suite | AI Benchmark; METR
+AIGRO | Long-Running Task | Task Horizon; AI Agent
+AIGRO | Task Success Rate | Task Horizon
+AIGRO | Exponential Growth |
+AIGRO | Linear Growth |
+AIGRO | Doubling Time | Exponential Growth
+AIGRO | Five-Month Doubling | Doubling Time; Task Horizon
+AIGRO | Logarithmic Scale | Exponential Growth
+AIGRO | Log-Scale Chart | Logarithmic Scale
+AIGRO | Trend Extrapolation | Exponential Growth; Linear Growth
+AIGRO | Planning Window | Trend Extrapolation
+AIGRO | Three-to-Four-Year Forecast | Planning Window; Five-Month Doubling
+AIGRO | Forecast Uncertainty | Trend Extrapolation
+AIGRO | Limits to AI Growth | Forecast Uncertainty; Compute Scaling
+AIGRO | Compute Scaling | AI Capability
+AIGRO | AI Inference Cost | Large Language Model
+AIGRO | Falling AI Costs | AI Inference Cost; Five-Month Doubling
+AIGRO | Planning Under Uncertainty | Forecast Uncertainty
+AIGRO | AI in Education | Artificial Intelligence; Educational Technology
+AIGRO | AI Literacy | AI in Education
+AIGRO | Staff AI Literacy | AI Literacy; Teacher
+AIGRO | AI Energy Use | AI Inference Cost
+AIGRO | Data Center Energy | AI Energy Use
+AIGRO | AI Prediction for Schools | Three-to-Four-Year Forecast; AI in Education
+AIGRO | Prediction Assumptions | AI Prediction for Schools; Forecast Uncertainty
+AIGRO | Prediction Failure Scenario | Prediction Assumptions; Limits to AI Growth
+
+LEVEL | Textbook | Curriculum
+LEVEL | Print Textbook | Textbook
+LEVEL | Digital Textbook | Textbook
+LEVEL | PDF Textbook | Digital Textbook
+LEVEL | Intelligent Textbook | Digital Textbook; AI in Education
+LEVEL | Intelligent Textbook Movement | Intelligent Textbook
+LEVEL | Classification Framework |
+LEVEL | SAE J3016 Standard | Classification Framework
+LEVEL | Levels of Driving Automation | SAE J3016 Standard
+LEVEL | Shared Vocabulary | Classification Framework
+LEVEL | Graduated Regulation | SAE J3016 Standard
+LEVEL | Realistic Expectations | Shared Vocabulary
+LEVEL | Five-Level Textbook Model | Intelligent Textbook; Levels of Driving Automation; Shared Vocabulary
+LEVEL | Level 1 Static Textbook | Five-Level Textbook Model; Print Textbook; PDF Textbook
+LEVEL | Level 2 Interactive Textbook | Level 1 Static Textbook
+LEVEL | Level 3 Adaptive Textbook | Level 2 Interactive Textbook
+LEVEL | Level 4 Chatbot Textbook | Level 3 Adaptive Textbook; Chatbot
+LEVEL | Level 5 Autonomous Textbook | Level 4 Chatbot Textbook; Generative AI
+LEVEL | Embedded Simulation | Level 2 Interactive Textbook
+LEVEL | Path Recommendation | Level 2 Interactive Textbook
+LEVEL | Student Goal Setting | Level 3 Adaptive Textbook; Student Agency
+LEVEL | Progress Tracking | Level 3 Adaptive Textbook
+LEVEL | Conversational Tutoring | Level 4 Chatbot Textbook
+LEVEL | Real-Time Content Generation | Level 5 Autonomous Textbook
+LEVEL | Full Personalization | Level 5 Autonomous Textbook
+LEVEL | Level Classification | Five-Level Textbook Model
+LEVEL | Product Level Assessment | Level Classification
+LEVEL | Level Terminology Precision | Level Classification
+LEVEL | AI-Powered Marketing Claims | Level Terminology Precision
+LEVEL | Vendor Level Claim | AI-Powered Marketing Claims; Product Level Assessment
+LEVEL | Level-Specific Policy | Level Classification; Graduated Regulation; Education Policy
+LEVEL | Level Adoption Timeline | Five-Level Textbook Model; AI Prediction for Schools
+LEVEL | Growth of Level 2 Textbooks | Level 2 Interactive Textbook; Intelligent Textbook Movement
+LEVEL | Levels 3 to 5 on the Horizon | Level Adoption Timeline; Level 5 Autonomous Textbook
+
+ECON | Content Creation Cost | Textbook
+ECON | Textbook Publisher | Textbook
+ECON | Publisher Business Model | Textbook Publisher
+ECON | Textbook Price | Publisher Business Model
+ECON | Open Educational Resource | Textbook
+ECON | Open License | Open Educational Resource
+ECON | Creative Commons License | Open License
+ECON | 5R Permissions | Open License
+ECON | Free Textbook | Open Educational Resource
+ECON | AI-Generated Content | Generative AI; Content Creation Cost
+ECON | Falling Production Cost | AI-Generated Content; Falling AI Costs
+ECON | Content Commoditization | Falling Production Cost; Level 2 Interactive Textbook
+ECON | Penny-Per-Day Vision | Content Commoditization; Per-Pupil Spending
+ECON | Publisher Disruption | Content Commoditization; Publisher Business Model
+ECON | Value Beyond Content | Publisher Disruption
+ECON | Textbook Quality | Textbook
+ECON | OpenBook QR Score | Textbook Quality; Open Educational Resource
+ECON | Quality Subscore | OpenBook QR Score
+ECON | Reusability Subscore | OpenBook QR Score; 5R Permissions
+ECON | Rising Quality Scores | OpenBook QR Score; AI-Generated Content
+ECON | Universal Textbook Access | Free Textbook; Rising Quality Scores; Penny-Per-Day Vision
+ECON | Cost Per Student | Per-Pupil Spending
+ECON | Cost Modeling | Cost Per Student
+ECON | Level 2 Cost Per Student | Cost Modeling; Level 2 Interactive Textbook
+ECON | Level 3 Cost Per Student | Cost Modeling; Level 3 Adaptive Textbook
+ECON | Level 4 Cost Per Student | Cost Modeling; Level 4 Chatbot Textbook; AI Inference Cost
+ECON | Total Cost of Ownership | Cost Modeling
+
+TECH | Web Browser |
+TECH | Static Website | Web Browser
+TECH | Web Page Hosting | Static Website
+TECH | Generate Once Serve Many | Static Website; AI-Generated Content
+TECH | Learning Graph | Prerequisite Concept; Intelligent Textbook
+TECH | Concept Node | Learning Graph
+TECH | Learning Dependency | Learning Graph; Prerequisite Concept
+TECH | Directed Acyclic Graph | Learning Dependency
+TECH | Foundational Concept | Concept Node; Learning Dependency
+TECH | Learning Path | Learning Dependency; Directed Acyclic Graph
+TECH | Next-Concept Selection | Learning Path; Path Recommendation; Mastery Data
+TECH | Mastery Data | Formative Assessment
+TECH | MicroSim | Embedded Simulation
+TECH | Browser-Based Simulation | MicroSim; Web Browser
+TECH | Interactive Visualization | MicroSim
+TECH | Learning Analytics | Mastery Data
+TECH | xAPI | Learning Analytics
+TECH | xAPI Statement | xAPI
+TECH | Actor Verb Object | xAPI Statement
+TECH | Learning Record Store | xAPI
+TECH | Learning Record | Learning Record Store
+TECH | Data Portability | Learning Record Store
+TECH | Student-Controlled Data | Data Portability
+TECH | Adaptation Without Live AI | Next-Concept Selection; Learning Record Store; Generate Once Serve Many
+TECH | Low-Cost Adaptive Design | Adaptation Without Live AI; Browser-Based Simulation
+TECH | Energy-Efficient Learning | Low-Cost Adaptive Design; AI Energy Use
+TECH | Selective Chatbot Use | Low-Cost Adaptive Design; Level 4 Chatbot Textbook
+TECH | Learning Management System | Educational Technology
+TECH | Interoperability Standards | Learning Management System; xAPI
+TECH | IMS Global Standards | Interoperability Standards
+TECH | IEEE Learning Standards | Interoperability Standards
+TECH | Device Access | Educational Technology
+TECH | Internet Connectivity | Device Access
+TECH | Offline Access | Static Website; Internet Connectivity
+TECH | Student Progress Dashboard | Progress Tracking; Mastery Data
+
+PRIV | Student Data | Student
+PRIV | Personally Identifiable Data | Student Data
+PRIV | Student Data Privacy | Personally Identifiable Data
+PRIV | FERPA | Student Data Privacy
+PRIV | COPPA | Student Data Privacy
+PRIV | GDPR | Student Data Privacy
+PRIV | Privacy Inflection Point | Level 3 Adaptive Textbook; Student Data Privacy
+PRIV | Detailed Learning History | Privacy Inflection Point; Learning Record
+PRIV | Behavioral Data | Detailed Learning History
+PRIV | Data Governance | Student Data Privacy
+PRIV | Data Minimization | Data Governance
+PRIV | Informed Consent | Data Governance; Parent and Family
+PRIV | Data Retention Policy | Data Governance
+PRIV | Data Ownership | Data Governance; Student-Controlled Data
+PRIV | Trust Paradox | Privacy Inflection Point; Data Governance
+PRIV | Family Trust | Trust Paradox; Parent and Family
+PRIV | Algorithmic Bias | Machine Learning
+PRIV | Algorithmic Bias Auditing | Algorithmic Bias; Data Governance
+PRIV | Algorithmic Transparency | Algorithmic Bias
+PRIV | Data Breach | Student Data
+PRIV | Vendor Risk | Data Breach
+PRIV | Centralized Student Records | Data Breach; Detailed Learning History
+PRIV | Cybersecurity in Schools | Data Breach
+PRIV | Responsible AI with Minors | Student Data Privacy; AI in Education
+PRIV | Age-Appropriate AI Design | Responsible AI with Minors
+PRIV | Governance Readiness | Data Governance; Privacy Inflection Point
+
+MORN | Adaptive Learning | Learning; Self-Paced Learning
+MORN | Mastery Learning | Adaptive Learning; Mastery Data
+MORN | Mastery Threshold | Mastery Learning
+MORN | Bloom's Two-Sigma Problem | Mastery Learning; Effect Size
+MORN | One-on-One Tutoring | Teacher; Learning
+MORN | AI Tutor | One-on-One Tutoring; Chatbot
+MORN | AI Tutor Strengths | AI Tutor
+MORN | AI Tutor Failures | AI Tutor; AI Hallucination
+MORN | Confidently Wrong Answers | AI Hallucination
+MORN | Personalized Pacing | Adaptive Learning
+MORN | Gap Filling | Adaptive Learning; Learning Gap
+MORN | Academic Morning | School Day; Adaptive Learning
+MORN | Compressed Academic Morning | Academic Morning; Universal Textbook Access
+MORN | Two-to-Three-Hour Learning | Compressed Academic Morning; Learning Gains
+MORN | Reduced Direct Instruction | Compressed Academic Morning; Direct Instruction
+MORN | Freed-Up School Time | Reduced Direct Instruction
+MORN | Cognitive Offloading | AI Tutor
+MORN | Over-Reliance on AI | Cognitive Offloading
+MORN | AI Guardrails | AI Tutor; Productive Struggle
+MORN | Hints Instead of Answers | AI Guardrails
+MORN | Socratic Questioning | Hints Instead of Answers
+MORN | Open Chatbot Access | Chatbot; Cognitive Offloading
+MORN | Guided AI vs Open AI | Open Chatbot Access; AI Guardrails
+MORN | Design Over Raw AI Power | Guided AI vs Open AI
+MORN | Critical Thinking | Higher-Order Thinking
+MORN | Computational Thinking | Critical Thinking
+MORN | Decomposition | Computational Thinking
+MORN | Pattern Recognition | Computational Thinking
+MORN | Abstraction | Computational Thinking
+MORN | Algorithmic Thinking | Computational Thinking
+MORN | Evidence Evaluation | Critical Thinking
+MORN | Argument Analysis | Critical Thinking
+MORN | Teaching Thinking with AI | Critical Thinking; Computational Thinking; AI Tutor
+MORN | Skills AI Teaches Well | Teaching Thinking with AI
+MORN | Morning Screen-Time Limits | Screen Time; Academic Morning
+MORN | Curiosity-Led Morning | Curiosity-Driven Learning; Academic Morning
+
+SOCL | Pro-Social Behavior |
+SOCL | Hands-On Learning | Learning
+SOCL | Constructivism | Learning; Prior Knowledge
+SOCL | Constructionism | Constructivism; Hands-On Learning
+SOCL | Social Constructivism | Constructivism
+SOCL | Social Constructionism | Social Constructivism; Constructionism
+SOCL | Zone of Proximal Development | Social Constructivism
+SOCL | Learning by Building Together | Social Constructionism
+SOCL | Collaboration | Pro-Social Behavior
+SOCL | Teamwork | Collaboration
+SOCL | Communication Skills | Collaboration
+SOCL | Active Listening | Communication Skills
+SOCL | Conflict Resolution | Communication Skills
+SOCL | Shared Goals | Teamwork
+SOCL | Team Roles | Teamwork
+SOCL | Team Problem Solving | Teamwork; Critical Thinking
+SOCL | Applying Thinking on Teams | Team Problem Solving; Computational Thinking; Learning by Building Together
+SOCL | Creativity |
+SOCL | Creative Confidence | Creativity
+SOCL | Divergent Thinking | Creativity
+SOCL | Empathy | Pro-Social Behavior
+SOCL | Perspective Taking | Empathy
+SOCL | Social-Emotional Learning | Empathy
+SOCL | Self-Awareness | Social-Emotional Learning
+SOCL | Relationship Skills | Social-Emotional Learning; Communication Skills
+SOCL | Belonging | Relationship Skills
+SOCL | Human Connection | Belonging
+SOCL | Skills That Need People | Teamwork; Empathy; Skills AI Teaches Well
+
+AFTN | Afternoon Program | School Day; Freed-Up School Time
+AFTN | Pro-Social Activity | Pro-Social Behavior; Afternoon Program
+AFTN | Project-Based Learning | Hands-On Learning; Team Problem Solving
+AFTN | Driving Question | Project-Based Learning
+AFTN | Public Exhibition | Project-Based Learning
+AFTN | Phenomenon-Based Learning | Project-Based Learning
+AFTN | Maker Space | Hands-On Learning; Constructionism
+AFTN | Coding Club | Computational Thinking; Afternoon Program
+AFTN | Robotics Club | Coding Club; Maker Space
+AFTN | Music Education | Afternoon Program
+AFTN | Ensemble Music | Music Education; Pro-Social Activity
+AFTN | Dance | Afternoon Program
+AFTN | Theater | Afternoon Program
+AFTN | Visual Arts | Afternoon Program
+AFTN | Arts Education | Music Education; Dance; Theater; Visual Arts; Creativity
+AFTN | Sports and Athletics | Afternoon Program
+AFTN | Team Sports | Sports and Athletics; Pro-Social Activity
+AFTN | Clubs and Extracurriculars | Afternoon Program
+AFTN | Life-Skills Workshop | Afternoon Program
+AFTN | Service Learning | Pro-Social Activity; Empathy
+AFTN | Community Partnership | Afternoon Program
+AFTN | Structured Afternoon | Afternoon Program
+AFTN | Unstructured Afternoon Drift | Structured Afternoon
+AFTN | Activity-Skill Matching | Pro-Social Activity; Skills That Need People
+AFTN | Afternoon Program Quality | Structured Afternoon; Activity-Skill Matching
+AFTN | Pro-Social Afternoon | Pro-Social Activity; Arts Education; Project-Based Learning; Team Sports
+
+ADOPT | Innovation |
+ADOPT | Diffusion of Innovations | Innovation
+ADOPT | Technology Adoption Curve | Diffusion of Innovations
+ADOPT | S-Curve of Adoption | Technology Adoption Curve
+ADOPT | Innovators | Technology Adoption Curve
+ADOPT | Early Adopters | Technology Adoption Curve
+ADOPT | Early Majority | Technology Adoption Curve
+ADOPT | Late Majority | Technology Adoption Curve
+ADOPT | Laggards | Technology Adoption Curve
+ADOPT | Five Innovation Attributes | Diffusion of Innovations
+ADOPT | Relative Advantage | Five Innovation Attributes
+ADOPT | Compatibility | Five Innovation Attributes
+ADOPT | Complexity | Five Innovation Attributes
+ADOPT | Trialability | Five Innovation Attributes
+ADOPT | Observability | Five Innovation Attributes
+ADOPT | Opinion Leader | Diffusion of Innovations
+ADOPT | Change Agent | Diffusion of Innovations
+ADOPT | The Chasm | Early Adopters; Early Majority
+ADOPT | Crossing the Chasm | The Chasm
+ADOPT | Pragmatist Buyers | Early Majority
+ADOPT | Whole Product | Crossing the Chasm; Pragmatist Buyers
+ADOPT | Beachhead Strategy | Crossing the Chasm
+ADOPT | Hype Cycle | Innovation
+ADOPT | Peak of Inflated Expectations | Hype Cycle
+ADOPT | Trough of Disillusionment | Hype Cycle
+ADOPT | Plateau of Productivity | Hype Cycle
+ADOPT | Managing Expectations | Hype Cycle; Realistic Expectations
+ADOPT | Adoption Readiness | Technology Adoption Curve
+ADOPT | Stakeholder Adoption Map | Technology Adoption Curve; Stakeholder
+ADOPT | EdTech Hype Waves | Hype Cycle; History of EdTech
+ADOPT | Why School Reforms Fail | EdTech Hype Waves; Grammar of Schooling
+
+CHNG | Organizational Change |
+CHNG | Organizational Culture | Organizational Change
+CHNG | School Culture | Organizational Culture; School
+CHNG | Shared Beliefs and Norms | School Culture
+CHNG | School Rituals | School Culture
+CHNG | Grammar of Schooling | School Culture; Industrial-Era School Model
+CHNG | Reform Without Real Change | Grammar of Schooling
+CHNG | Schein's Culture Model | Organizational Culture
+CHNG | Cultural Artifacts | Schein's Culture Model
+CHNG | Espoused Values | Schein's Culture Model
+CHNG | Basic Assumptions | Schein's Culture Model
+CHNG | Culture Assessment | Schein's Culture Model; School Culture
+CHNG | Lewin's Change Model | Organizational Change
+CHNG | Unfreeze Stage | Lewin's Change Model
+CHNG | Change Stage | Lewin's Change Model
+CHNG | Refreeze Stage | Lewin's Change Model
+CHNG | Kotter's Eight Steps | Organizational Change
+CHNG | Sense of Urgency | Kotter's Eight Steps
+CHNG | Guiding Coalition | Kotter's Eight Steps
+CHNG | Change Vision | Kotter's Eight Steps
+CHNG | Communicating the Vision | Change Vision
+CHNG | Removing Obstacles | Kotter's Eight Steps
+CHNG | Short-Term Wins | Kotter's Eight Steps
+CHNG | Building on Change | Short-Term Wins
+CHNG | Anchoring in Culture | Kotter's Eight Steps; School Culture
+CHNG | ADKAR Model | Organizational Change
+CHNG | ADKAR Awareness | ADKAR Model
+CHNG | ADKAR Desire | ADKAR Model
+CHNG | ADKAR Knowledge | ADKAR Model
+CHNG | ADKAR Ability | ADKAR Model
+CHNG | ADKAR Reinforcement | ADKAR Model
+CHNG | Bridges' Transition Model | Organizational Change
+CHNG | Endings and Losses | Bridges' Transition Model
+CHNG | Neutral Zone | Bridges' Transition Model
+CHNG | New Beginnings | Bridges' Transition Model
+CHNG | Change Versus Transition | Bridges' Transition Model
+CHNG | Learning Organization | Organizational Change
+CHNG | Senge's Five Disciplines | Learning Organization
+CHNG | Systems Thinking | Senge's Five Disciplines
+CHNG | Feedback Loop | Systems Thinking
+CHNG | Causal Loop Diagram | Feedback Loop
+CHNG | Mental Models | Senge's Five Disciplines
+CHNG | Shared Vision | Senge's Five Disciplines
+CHNG | Team Learning | Senge's Five Disciplines
+CHNG | Personal Mastery | Senge's Five Disciplines
+CHNG | Fullan's Educational Change | Organizational Change; School Culture
+CHNG | Coherence Framework | Fullan's Educational Change
+CHNG | Capacity Building | Fullan's Educational Change
+CHNG | Implementation Dip | Fullan's Educational Change
+CHNG | Concerns-Based Adoption Model | Organizational Change; Teacher
+CHNG | Stages of Concern | Concerns-Based Adoption Model
+CHNG | Self Concerns | Stages of Concern
+CHNG | Task Concerns | Stages of Concern
+CHNG | Impact Concerns | Stages of Concern
+CHNG | Levels of Use | Concerns-Based Adoption Model
+CHNG | Innovation Configuration | Concerns-Based Adoption Model
+CHNG | Whole-Organization Change | Organizational Change
+CHNG | Choosing a Change Model | Kotter's Eight Steps; ADKAR Model; Lewin's Change Model; Bridges' Transition Model; Culture Assessment
+CHNG | Change Fatigue | Organizational Change
+CHNG | National AI Adoption | Whole-Organization Change; AI in Education
+CHNG | Holistic Plus Micro Change | Whole-Organization Change; Microstrategy
+
+MICRO | Microstrategy | Organizational Change
+MICRO | Teacher Champion | Microstrategy; Early Adopters; Opinion Leader
+MICRO | Pilot Classroom | Microstrategy; Trialability
+MICRO | Early Visible Results | Microstrategy; Observability; Short-Term Wins
+MICRO | Shrinking the First Step | Microstrategy
+MICRO | Bright Spots | Microstrategy
+MICRO | Positive Deviance | Bright Spots
+MICRO | Switch Framework | Microstrategy
+MICRO | Direct the Rider | Switch Framework
+MICRO | Motivate the Elephant | Switch Framework
+MICRO | Shape the Path | Switch Framework
+MICRO | Peer Observation | Microstrategy; Teacher
+MICRO | Professional Learning Community | Microstrategy; Team Learning
+MICRO | Instructional Coaching | Teacher
+MICRO | Professional Development | Teacher
+MICRO | Resistance to Change | Organizational Change
+MICRO | Sources of Resistance | Resistance to Change
+MICRO | Legitimate Concern | Resistance to Change; Stages of Concern
+MICRO | Responding with Empathy | Resistance to Change; Empathy
+MICRO | Fear of Job Loss | Resistance to Change; Teacher
+MICRO | Teacher Union | Teacher
+MICRO | Stakeholder | School
+MICRO | Stakeholder Engagement | Stakeholder
+MICRO | Family Communication | Stakeholder Engagement; Parent and Family
+MICRO | Communicating Before Rumors | Family Communication
+MICRO | Community Communication | Stakeholder Engagement
+MICRO | Board Presentation | School Board; Stakeholder Engagement
+MICRO | Student Voice | Stakeholder Engagement; Student Agency
+MICRO | Union Engagement | Teacher Union; Stakeholder Engagement
+MICRO | Matching Strategy to Concern | Stages of Concern; Microstrategy
+MICRO | Matching Strategy to Adopter | Technology Adoption Curve; Microstrategy
+MICRO | Compounding Small Changes | Matching Strategy to Concern; Matching Strategy to Adopter
+
+PRAC | Teacher as Coach | Teacher; Instructional Coaching
+PRAC | Teacher as Mentor | Teacher
+PRAC | Teacher as Facilitator | Teacher
+PRAC | Changing Teacher Role | Teacher as Coach; Teacher as Mentor; Teacher as Facilitator; Reduced Direct Instruction
+PRAC | Learning Guide | Changing Teacher Role
+PRAC | AI Coaching Teachers | Changing Teacher Role; AI Tutor
+PRAC | AI-First School | AI in Education; School
+PRAC | Morning-Afternoon Model | Academic Morning; Afternoon Program
+PRAC | AI-Native School | AI-First School; Morning-Afternoon Model; Universal Textbook Access
+PRAC | AI-Native School Day | AI-Native School; Compressed Academic Morning; Pro-Social Afternoon
+PRAC | Schedule Redesign | Bell Schedule; AI-Native School Day
+PRAC | Block Scheduling | Schedule Redesign
+PRAC | Staffing Model | Schedule Redesign; Changing Teacher Role
+PRAC | Afternoon Specialist Staff | Staffing Model; Afternoon Program
+PRAC | Grade-Level Design | AI-Native School Day; Age-Based Grade Levels
+PRAC | Elementary School Model | Grade-Level Design
+PRAC | Middle School Model | Grade-Level Design
+PRAC | High School Model | Grade-Level Design
+PRAC | Procurement | School Administrator
+PRAC | Procurement Criteria | Procurement; Level Classification
+PRAC | Vendor Evaluation | Procurement Criteria; Vendor Risk
+PRAC | Vendor Lock-In | Vendor Evaluation
+PRAC | Rushed Procurement Risk | Procurement
+PRAC | Contract Due Diligence | Vendor Evaluation
+PRAC | Pilot Program | Pilot Classroom; AI-Native School Day
+PRAC | Pilot Goals | Pilot Program
+PRAC | Success Measures | Pilot Program; Learning Outcome
+PRAC | Pilot Governance | Pilot Program; Data Governance
+PRAC | Pilot Risk Checklist | Pilot Program; Risk-and-Response Framework
+PRAC | School Readiness Assessment | Pilot Program; Adoption Readiness; Governance Readiness
+PRAC | Scaling a Pilot | Pilot Program; Crossing the Chasm
+PRAC | Assessment Redesign | Formative Assessment; Summative Assessment
+PRAC | Mastery-Based Assessment | Mastery Learning; Assessment Redesign
+PRAC | Portfolio Assessment | Assessment Redesign
+PRAC | Performance Assessment | Assessment Redesign
+PRAC | Combined Assessment Plan | Mastery-Based Assessment; Portfolio Assessment; Performance Assessment
+PRAC | Teamwork Rubric | Performance Assessment; Teamwork
+PRAC | Academic Integrity | Assessment Redesign; Cognitive Offloading
+PRAC | AI Cheating Detector | Academic Integrity
+PRAC | Detector False Positives | AI Cheating Detector
+PRAC | Bias Against ELL Writers | Detector False Positives; Algorithmic Bias
+PRAC | Redesign Not Policing | Academic Integrity; Bias Against ELL Writers
+PRAC | Program Evaluation | Success Measures; Independent Evaluation
+PRAC | A/B Testing | Program Evaluation; Randomized Controlled Trial
+PRAC | Equity of Access | Educational Equity; Device Access
+PRAC | Digital Divide | Equity of Access; Internet Connectivity
+PRAC | Cost Barrier to AI Schools | Private School Tuition; Equity of Access
+PRAC | Closing or Widening Gaps | Equity of Access; Achievement Gap
+PRAC | Sustaining Change | Anchoring in Culture; Refreeze Stage
+PRAC | Policy Embedding | Sustaining Change; Education Policy
+PRAC | Hiring for New Roles | Sustaining Change; Staffing Model
+PRAC | Budget Reallocation | Staffing Model; Total Cost of Ownership
+PRAC | Culture Change Plan | Choosing a Change Model; Holistic Plus Micro Change; Pilot Program
+PRAC | School Board Recommendation | Board Presentation; Program Evaluation
+
+CASE | Storytelling |
+CASE | Real Case Study | Storytelling; Case Study Method
+CASE | Composite Story | Storytelling
+CASE | Illustrated Story | Storytelling
+CASE | Graphic Novel Scene | Illustrated Story
+CASE | Lesson From a Case | Real Case Study
+CASE | Benefits of AI-First Schools | AI-First School
+CASE | Risks of AI-First Schools | AI-First School
+CASE | Risk-and-Response Framework | Benefits of AI-First Schools; Risks of AI-First Schools
+CASE | Strengthen the Positives | Risk-and-Response Framework
+CASE | Reduce the Negatives | Risk-and-Response Framework
+CASE | Risk Mitigation | Reduce the Negatives
+CASE | Two-Sided Story | Composite Story; Risk-and-Response Framework
+CASE | Alpha School | Morning-Afternoon Model; Private School Tuition; Real Case Study
+CASE | 2 Hour Learning | Alpha School; Adaptive Learning
+CASE | Alpha Tuition Range | Alpha School
+CASE | Alpha Adult Guides | Alpha School; Learning Guide
+CASE | Unbound Academy | 2 Hour Learning; Virtual School; Charter School
+CASE | Software Is Not the Model | Alpha Adult Guides; Unbound Academy
+CASE | Affordable Alpha Model | Alpha Tuition Range; Low-Cost Adaptive Design; Software Is Not the Model
+CASE | Evaluating Result Claims | Self-Reported Results; Independent Evaluation; Unbound Academy
+CASE | Nigeria AI Tutoring Pilot | AI Tutor; Real Case Study
+CASE | Harvard Physics AI Tutor | AI Tutor; Randomized Controlled Trial; Real Case Study
+CASE | Tutor CoPilot | AI Coaching Teachers; Real Case Study
+CASE | Estonia AI Leap | National AI Adoption; Real Case Study
+CASE | David Game College | AI-First School; Real Case Study
+CASE | Turkish High School Study | Guided AI vs Open AI; Randomized Controlled Trial; Real Case Study
+CASE | Your Brain on ChatGPT | Cognitive Offloading; Real Case Study
+CASE | Khanmigo | AI Tutor; Real Case Study
+CASE | LAUSD Ed Chatbot | Rushed Procurement Risk; Vendor Risk; Real Case Study
+CASE | AllHere Collapse | LAUSD Ed Chatbot
+CASE | AltSchool | Microschool; Why School Reforms Fail; Real Case Study
+CASE | Summit Learning | Screen Time; Real Case Study
+CASE | Student Walkouts | Summit Learning; Student Voice
+CASE | inBloom | Family Trust; Real Case Study
+CASE | PowerSchool Data Breach | Centralized Student Records; Real Case Study
+CASE | LAUSD iPad Rollout | EdTech Hype Waves; Procurement; Real Case Study
+CASE | High Tech High | Project-Based Learning; Public Exhibition; Real Case Study
+CASE | Finland's Phenomenon Learning | Phenomenon-Based Learning; Real Case Study
+CASE | El Sistema | Ensemble Music; Real Case Study
+CASE | Stanford Detector Study | Bias Against ELL Writers; Real Case Study
+
+# ---- Cross-links (+ adds dependencies, = replaces them) ----
+= | School Readiness Assessment | Adoption Readiness; Governance Readiness; AI-Native School Day; Staff AI Literacy; Levels 3 to 5 on the Horizon
++ | Pilot Program | School Readiness Assessment; Family Communication; Innovation Configuration; Managing Expectations
+= | AltSchool | Microschool; EdTech Hype Waves; Real Case Study
++ | Why School Reforms Fail | AltSchool; Summit Learning; LAUSD iPad Rollout; Reform Without Real Change
++ | AI Tutor | Bloom's Two-Sigma Problem; Conversational Tutoring; Immediate Feedback
++ | Compressed Academic Morning | Personalized Pacing; Gap Filling; Retrieval Practice; Spaced Practice
++ | Next-Concept Selection | Mastery Threshold; Student Goal Setting; Foundational Concept
++ | Guided AI vs Open AI | AI Tutor Strengths; AI Tutor Failures
++ | AI Tutor Failures | Confidently Wrong Answers
++ | Open Chatbot Access | Over-Reliance on AI
++ | Khanmigo | Socratic Questioning
++ | Design Over Raw AI Power | Turkish High School Study
++ | Harvard Physics AI Tutor | Design Over Raw AI Power
++ | Two-to-Three-Hour Learning | Harvard Physics AI Tutor
++ | 2 Hour Learning | Two-to-Three-Hour Learning
++ | Coding Club | Decomposition; Pattern Recognition; Abstraction; Algorithmic Thinking
++ | Team Problem Solving | Evidence Evaluation; Argument Analysis; Shared Goals; Team Roles
++ | Evaluating Result Claims | Evidence Evaluation; Preprint
++ | AI-Native School Day | Morning Screen-Time Limits; Curiosity-Led Morning; Afternoon Program Quality
++ | Curiosity-Led Morning | Student Boredom
++ | Learning by Building Together | Zone of Proximal Development
++ | Relationship Skills | Active Listening; Self-Awareness
++ | Teamwork Rubric | Conflict Resolution
++ | Pro-Social Afternoon | Applying Thinking on Teams; Robotics Club; Clubs and Extracurriculars; Service Learning
++ | Arts Education | Creative Confidence; Divergent Thinking
++ | Service Learning | Perspective Taking
++ | Responding with Empathy | Perspective Taking; Legitimate Concern
++ | Skills That Need People | Human Connection
++ | High Tech High | Driving Question
++ | Alpha School | Life-Skills Workshop
++ | Afternoon Program Quality | Unstructured Afternoon Drift
++ | Afternoon Specialist Staff | Community Partnership
++ | Stakeholder Adoption Map | Innovators; Late Majority; Laggards
++ | Adoption Readiness | Relative Advantage; Compatibility; Complexity; Trialability; Observability
++ | Scaling a Pilot | S-Curve of Adoption; Whole Product; Beachhead Strategy; Pilot Governance
++ | Teacher Champion | Change Agent
++ | Managing Expectations | Peak of Inflated Expectations; Trough of Disillusionment; Plateau of Productivity; Implementation Dip
++ | EdTech Hype Waves | Trough of Disillusionment
++ | Pilot Goals | Managing Expectations
++ | Grammar of Schooling | Shared Beliefs and Norms; School Rituals
++ | Culture Assessment | Cultural Artifacts; Espoused Values; Basic Assumptions
++ | Basic Assumptions | Mental Models
++ | Change Stage | Unfreeze Stage
++ | Refreeze Stage | Change Stage
++ | Guiding Coalition | Sense of Urgency; Principal
++ | Change Vision | Guiding Coalition; Shared Vision
++ | Removing Obstacles | Communicating the Vision
++ | Short-Term Wins | Removing Obstacles
++ | Anchoring in Culture | Building on Change
++ | ADKAR Desire | ADKAR Awareness
++ | ADKAR Knowledge | ADKAR Desire
++ | ADKAR Ability | ADKAR Knowledge
++ | ADKAR Reinforcement | ADKAR Ability
++ | Neutral Zone | Endings and Losses
++ | New Beginnings | Neutral Zone
++ | Choosing a Change Model | ADKAR Reinforcement; New Beginnings; Change Versus Transition; Anchoring in Culture
++ | Professional Development | Personal Mastery
++ | Staff AI Literacy | Professional Development
++ | Culture Change Plan | Coherence Framework; Capacity Building; Stakeholder Adoption Map; Communicating Before Rumors; Community Communication; Responding with Empathy; Union Engagement; Compounding Small Changes; Policy Embedding; Hiring for New Roles
++ | Task Concerns | Self Concerns
++ | Impact Concerns | Task Concerns
++ | Matching Strategy to Concern | Impact Concerns; Levels of Use
++ | Sources of Resistance | Change Fatigue
++ | Legitimate Concern | Sources of Resistance
++ | Union Engagement | Fear of Job Loss
++ | Compounding Small Changes | Teacher Champion; Early Visible Results; Shrinking the First Step; Positive Deviance; Peer Observation; Professional Learning Community
++ | Shrinking the First Step | Shape the Path
++ | Early Visible Results | Motivate the Elephant
++ | Bright Spots | Direct the Rider
++ | High School Model | Block Scheduling
++ | Budget Reallocation | Afternoon Specialist Staff
++ | Pilot Governance | Vendor Lock-In
+
++ | Success Measures | Pilot Goals
++ | Program Evaluation | Combined Assessment Plan; Standardized Testing; Afternoon Program Quality
++ | Combined Assessment Plan | Teamwork Rubric; Redesign Not Policing
++ | School Board Recommendation | Closing or Widening Gaps; Scaling a Pilot; Pilot Risk Checklist; Evaluating Result Claims; Affordable Alpha Model
++ | Closing or Widening Gaps | Digital Divide
++ | Affordable Alpha Model | Cost Barrier to AI Schools; Budget Reallocation; Energy-Efficient Learning; Selective Chatbot Use
++ | Two-Sided Story | Strengthen the Positives; Risk Mitigation
++ | Risk-and-Response Framework | Lesson From a Case
++ | Pilot Risk Checklist | Risk Mitigation; Prediction Failure Scenario
++ | Governance Readiness | FERPA; COPPA; GDPR; Data Minimization; Informed Consent; Data Retention Policy; Data Ownership; Algorithmic Bias Auditing; Algorithmic Transparency
++ | Risks of AI-First Schools | Over-Reliance on AI; Unstructured Afternoon Drift; Confidently Wrong Answers
++ | Selective Chatbot Use | Level 4 Cost Per Student; Age-Appropriate AI Design
++ | Five-Month Doubling | 50 Percent Time Horizon; Human Working Time; Benchmark Task Suite; Task Success Rate; Long-Running Task
++ | AI Prediction for Schools | Planning Under Uncertainty
++ | Levels 3 to 5 on the Horizon | Real-Time Content Generation; Full Personalization
++ | Procurement Criteria | Vendor Level Claim; Level-Specific Policy; Value Beyond Content; IMS Global Standards; IEEE Learning Standards
++ | Universal Textbook Access | Growth of Level 2 Textbooks
++ | Penny-Per-Day Vision | Textbook Price
++ | Free Textbook | Creative Commons License
++ | Rising Quality Scores | Quality Subscore; Reusability Subscore
++ | Total Cost of Ownership | Level 2 Cost Per Student; Level 3 Cost Per Student; Level 4 Cost Per Student
++ | Generate Once Serve Many | Web Page Hosting
++ | Low-Cost Adaptive Design | Interactive Visualization
++ | Learning Record | Actor Verb Object
++ | Digital Divide | Offline Access
++ | Mastery-Based Assessment | Student Progress Dashboard
++ | Algorithmic Bias Auditing | Behavioral Data
++ | Vendor Evaluation | Cybersecurity in Schools
++ | AI-Native School | K-12 Education
++ | Policy Embedding | Carnegie Unit

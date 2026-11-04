@@ -1,0 +1,7166 @@
+{
+  "metadata": {
+    "title": "AI-Native Schools: Mornings with AI, Afternoons with Each Other",
+    "description": "An interactive intelligent textbook about how AI is enabling more pro-social behaviors in schools. It covers the METR task-horizon evidence, the five-level model of intelligent textbooks, the shorter academic morning, the pro-social afternoon, school culture change, and real stories of AI-first schools that worked and failed.",
+    "creator": "Dan McCreary",
+    "date": "2026-11-03",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundations of Schooling and Learning",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "AIGRO": {
+      "classifierName": "AI Capability Growth",
+      "color": "Orange",
+      "font": {
+        "color": "black"
+      }
+    },
+    "LEVEL": {
+      "classifierName": "Five-Level Textbook Model",
+      "color": "DarkSlateBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "ECON": {
+      "classifierName": "Content Economics and OER",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "TECH": {
+      "classifierName": "Low-Cost Learning Technology",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PRIV": {
+      "classifierName": "Privacy and Data Governance",
+      "color": "DarkRed",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MORN": {
+      "classifierName": "The Academic Morning",
+      "color": "DodgerBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SOCL": {
+      "classifierName": "Social Learning and Human Skills",
+      "color": "HotPink",
+      "font": {
+        "color": "black"
+      }
+    },
+    "AFTN": {
+      "classifierName": "The Pro-Social Afternoon",
+      "color": "LimeGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ADOPT": {
+      "classifierName": "Technology Adoption",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CHNG": {
+      "classifierName": "Organizational Change Models",
+      "color": "Indigo",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MICRO": {
+      "classifierName": "Microstrategies and Stakeholders",
+      "color": "DarkOrchid",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PRAC": {
+      "classifierName": "School Design and Practice",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "CASE": {
+      "classifierName": "Stories and Case Studies",
+      "color": "Peru",
+      "font": {
+        "color": "black"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Education",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 29180
+    },
+    {
+      "id": 2,
+      "label": "School",
+      "group": "FOUND",
+      "cis": 4343
+    },
+    {
+      "id": 3,
+      "label": "Student",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 3868
+    },
+    {
+      "id": 4,
+      "label": "Teacher",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 1361
+    },
+    {
+      "id": 5,
+      "label": "Learning",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 13231
+    },
+    {
+      "id": 6,
+      "label": "Curriculum",
+      "group": "FOUND",
+      "cis": 20670
+    },
+    {
+      "id": 7,
+      "label": "Classroom",
+      "group": "FOUND",
+      "cis": 960
+    },
+    {
+      "id": 8,
+      "label": "School Day",
+      "group": "FOUND",
+      "cis": 2038
+    },
+    {
+      "id": 9,
+      "label": "K-12 Education",
+      "group": "FOUND",
+      "cis": 57
+    },
+    {
+      "id": 10,
+      "label": "Direct Instruction",
+      "group": "FOUND",
+      "cis": 959
+    },
+    {
+      "id": 11,
+      "label": "Lecture-Based Teaching",
+      "group": "FOUND",
+      "cis": 58
+    },
+    {
+      "id": 12,
+      "label": "Industrial-Era School Model",
+      "group": "FOUND",
+      "cis": 10
+    },
+    {
+      "id": 13,
+      "label": "Age-Based Grade Levels",
+      "group": "FOUND",
+      "cis": 5
+    },
+    {
+      "id": 14,
+      "label": "Seat Time",
+      "group": "FOUND",
+      "cis": 4
+    },
+    {
+      "id": 15,
+      "label": "Carnegie Unit",
+      "group": "FOUND",
+      "cis": 3
+    },
+    {
+      "id": 16,
+      "label": "Bell Schedule",
+      "group": "FOUND",
+      "cis": 14
+    },
+    {
+      "id": 17,
+      "label": "Student Engagement",
+      "group": "FOUND",
+      "cis": 117
+    },
+    {
+      "id": 18,
+      "label": "Student Boredom",
+      "group": "FOUND",
+      "cis": 57
+    },
+    {
+      "id": 19,
+      "label": "Learning Outcome",
+      "group": "FOUND",
+      "cis": 2507
+    },
+    {
+      "id": 20,
+      "label": "Bloom's Taxonomy",
+      "group": "FOUND",
+      "cis": 851
+    },
+    {
+      "id": 21,
+      "label": "Higher-Order Thinking",
+      "group": "FOUND",
+      "cis": 850
+    },
+    {
+      "id": 22,
+      "label": "Prior Knowledge",
+      "group": "FOUND",
+      "cis": 330
+    },
+    {
+      "id": 23,
+      "label": "Prerequisite Concept",
+      "group": "FOUND",
+      "cis": 91
+    },
+    {
+      "id": 24,
+      "label": "Formative Assessment",
+      "group": "FOUND",
+      "cis": 632
+    },
+    {
+      "id": 25,
+      "label": "Summative Assessment",
+      "group": "FOUND",
+      "cis": 41
+    },
+    {
+      "id": 26,
+      "label": "Standardized Testing",
+      "group": "FOUND",
+      "cis": 4
+    },
+    {
+      "id": 27,
+      "label": "Learning Gap",
+      "group": "FOUND",
+      "cis": 969
+    },
+    {
+      "id": 28,
+      "label": "Achievement Gap",
+      "group": "FOUND",
+      "cis": 13
+    },
+    {
+      "id": 29,
+      "label": "Educational Equity",
+      "group": "FOUND",
+      "cis": 10
+    },
+    {
+      "id": 30,
+      "label": "Public School Funding",
+      "group": "FOUND",
+      "cis": 1045
+    },
+    {
+      "id": 31,
+      "label": "Per-Pupil Spending",
+      "group": "FOUND",
+      "cis": 1037
+    },
+    {
+      "id": 32,
+      "label": "Private School Tuition",
+      "group": "FOUND",
+      "cis": 19
+    },
+    {
+      "id": 33,
+      "label": "Charter School",
+      "group": "FOUND",
+      "cis": 7
+    },
+    {
+      "id": 34,
+      "label": "Virtual School",
+      "group": "FOUND",
+      "cis": 7
+    },
+    {
+      "id": 35,
+      "label": "Microschool",
+      "group": "FOUND",
+      "cis": 3
+    },
+    {
+      "id": 36,
+      "label": "Education Policy",
+      "group": "FOUND",
+      "cis": 14
+    },
+    {
+      "id": 37,
+      "label": "School Board",
+      "group": "FOUND",
+      "cis": 3
+    },
+    {
+      "id": 38,
+      "label": "School Administrator",
+      "group": "FOUND",
+      "cis": 32
+    },
+    {
+      "id": 39,
+      "label": "Principal",
+      "group": "FOUND",
+      "cis": 18
+    },
+    {
+      "id": 40,
+      "label": "Parent and Family",
+      "group": "FOUND",
+      "cis": 45
+    },
+    {
+      "id": 41,
+      "label": "Student Agency",
+      "group": "FOUND",
+      "cis": 3374
+    },
+    {
+      "id": 42,
+      "label": "Intrinsic Motivation",
+      "group": "FOUND",
+      "cis": 59
+    },
+    {
+      "id": 43,
+      "label": "Curiosity",
+      "group": "FOUND",
+      "cis": 58
+    },
+    {
+      "id": 44,
+      "label": "Curiosity-Driven Learning",
+      "group": "FOUND",
+      "cis": 57
+    },
+    {
+      "id": 45,
+      "label": "Self-Paced Learning",
+      "group": "FOUND",
+      "cis": 3302
+    },
+    {
+      "id": 46,
+      "label": "Screen Time",
+      "group": "FOUND",
+      "cis": 60
+    },
+    {
+      "id": 47,
+      "label": "Teacher Workload",
+      "group": "FOUND",
+      "cis": 2
+    },
+    {
+      "id": 48,
+      "label": "Teacher Burnout",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 49,
+      "label": "Educational Technology",
+      "group": "FOUND",
+      "cis": 3754
+    },
+    {
+      "id": 50,
+      "label": "History of EdTech",
+      "group": "FOUND",
+      "cis": 7
+    },
+    {
+      "id": 51,
+      "label": "Evidence-Based Practice",
+      "group": "FOUND",
+      "cis": 341
+    },
+    {
+      "id": 52,
+      "label": "Randomized Controlled Trial",
+      "group": "FOUND",
+      "cis": 258
+    },
+    {
+      "id": 53,
+      "label": "Effect Size",
+      "group": "FOUND",
+      "cis": 236
+    },
+    {
+      "id": 54,
+      "label": "Learning Gains",
+      "group": "FOUND",
+      "cis": 9
+    },
+    {
+      "id": 55,
+      "label": "Self-Reported Results",
+      "group": "FOUND",
+      "cis": 3
+    },
+    {
+      "id": 56,
+      "label": "Independent Evaluation",
+      "group": "FOUND",
+      "cis": 6
+    },
+    {
+      "id": 57,
+      "label": "Preprint",
+      "group": "FOUND",
+      "cis": 3
+    },
+    {
+      "id": 58,
+      "label": "Case Study Method",
+      "group": "FOUND",
+      "cis": 70
+    },
+    {
+      "id": 59,
+      "label": "Spaced Practice",
+      "group": "FOUND",
+      "cis": 955
+    },
+    {
+      "id": 60,
+      "label": "Retrieval Practice",
+      "group": "FOUND",
+      "cis": 955
+    },
+    {
+      "id": 61,
+      "label": "Productive Struggle",
+      "group": "FOUND",
+      "cis": 27
+    },
+    {
+      "id": 62,
+      "label": "Immediate Feedback",
+      "group": "FOUND",
+      "cis": 226
+    },
+    {
+      "id": 63,
+      "label": "Artificial Intelligence",
+      "group": "AIGRO",
+      "shape": "box",
+      "cis": 21220
+    },
+    {
+      "id": 64,
+      "label": "Machine Learning",
+      "group": "AIGRO",
+      "cis": 4865
+    },
+    {
+      "id": 65,
+      "label": "Large Language Model",
+      "group": "AIGRO",
+      "cis": 4814
+    },
+    {
+      "id": 66,
+      "label": "Generative AI",
+      "group": "AIGRO",
+      "cis": 2111
+    },
+    {
+      "id": 67,
+      "label": "Chatbot",
+      "group": "AIGRO",
+      "cis": 550
+    },
+    {
+      "id": 68,
+      "label": "AI Hallucination",
+      "group": "AIGRO",
+      "cis": 60
+    },
+    {
+      "id": 69,
+      "label": "AI Agent",
+      "group": "AIGRO",
+      "cis": 1054
+    },
+    {
+      "id": 70,
+      "label": "AI Capability",
+      "group": "AIGRO",
+      "cis": 12644
+    },
+    {
+      "id": 71,
+      "label": "AI Benchmark",
+      "group": "AIGRO",
+      "cis": 7373
+    },
+    {
+      "id": 72,
+      "label": "METR",
+      "group": "AIGRO",
+      "cis": 6319
+    },
+    {
+      "id": 73,
+      "label": "Task Horizon",
+      "group": "AIGRO",
+      "cis": 5265
+    },
+    {
+      "id": 74,
+      "label": "50 Percent Time Horizon",
+      "group": "AIGRO",
+      "cis": 1053
+    },
+    {
+      "id": 75,
+      "label": "Human Working Time",
+      "group": "AIGRO",
+      "cis": 1053
+    },
+    {
+      "id": 76,
+      "label": "Benchmark Task Suite",
+      "group": "AIGRO",
+      "cis": 1053
+    },
+    {
+      "id": 77,
+      "label": "Long-Running Task",
+      "group": "AIGRO",
+      "cis": 1053
+    },
+    {
+      "id": 78,
+      "label": "Task Success Rate",
+      "group": "AIGRO",
+      "cis": 1053
+    },
+    {
+      "id": 79,
+      "label": "Exponential Growth",
+      "group": "AIGRO",
+      "shape": "box",
+      "cis": 1121
+    },
+    {
+      "id": 80,
+      "label": "Linear Growth",
+      "group": "AIGRO",
+      "shape": "box",
+      "cis": 66
+    },
+    {
+      "id": 81,
+      "label": "Doubling Time",
+      "group": "AIGRO",
+      "cis": 1053
+    },
+    {
+      "id": 82,
+      "label": "Five-Month Doubling",
+      "group": "AIGRO",
+      "cis": 1052
+    },
+    {
+      "id": 83,
+      "label": "Logarithmic Scale",
+      "group": "AIGRO",
+      "cis": 2
+    },
+    {
+      "id": 84,
+      "label": "Log-Scale Chart",
+      "group": "AIGRO",
+      "cis": 1
+    },
+    {
+      "id": 85,
+      "label": "Trend Extrapolation",
+      "group": "AIGRO",
+      "cis": 65
+    },
+    {
+      "id": 86,
+      "label": "Planning Window",
+      "group": "AIGRO",
+      "cis": 28
+    },
+    {
+      "id": 87,
+      "label": "Three-to-Four-Year Forecast",
+      "group": "AIGRO",
+      "cis": 27
+    },
+    {
+      "id": 88,
+      "label": "Forecast Uncertainty",
+      "group": "AIGRO",
+      "cis": 36
+    },
+    {
+      "id": 89,
+      "label": "Compute Scaling",
+      "group": "AIGRO",
+      "cis": 5
+    },
+    {
+      "id": 90,
+      "label": "Limits to AI Growth",
+      "group": "AIGRO",
+      "cis": 4
+    },
+    {
+      "id": 91,
+      "label": "AI Inference Cost",
+      "group": "AIGRO",
+      "cis": 1038
+    },
+    {
+      "id": 92,
+      "label": "Falling AI Costs",
+      "group": "AIGRO",
+      "cis": 1024
+    },
+    {
+      "id": 93,
+      "label": "Planning Under Uncertainty",
+      "group": "AIGRO",
+      "cis": 27
+    },
+    {
+      "id": 94,
+      "label": "AI in Education",
+      "group": "AIGRO",
+      "cis": 3710
+    },
+    {
+      "id": 95,
+      "label": "AI Literacy",
+      "group": "AIGRO",
+      "cis": 21
+    },
+    {
+      "id": 96,
+      "label": "AI Energy Use",
+      "group": "AIGRO",
+      "cis": 5
+    },
+    {
+      "id": 97,
+      "label": "Data Center Energy",
+      "group": "AIGRO",
+      "cis": 1
+    },
+    {
+      "id": 98,
+      "label": "AI Prediction for Schools",
+      "group": "AIGRO",
+      "cis": 26
+    },
+    {
+      "id": 99,
+      "label": "Prediction Assumptions",
+      "group": "AIGRO",
+      "cis": 4
+    },
+    {
+      "id": 100,
+      "label": "Prediction Failure Scenario",
+      "group": "AIGRO",
+      "cis": 3
+    },
+    {
+      "id": 101,
+      "label": "Textbook",
+      "group": "LEVEL",
+      "cis": 20669
+    },
+    {
+      "id": 102,
+      "label": "Print Textbook",
+      "group": "LEVEL",
+      "cis": 2451
+    },
+    {
+      "id": 103,
+      "label": "Digital Textbook",
+      "group": "LEVEL",
+      "cis": 6025
+    },
+    {
+      "id": 104,
+      "label": "PDF Textbook",
+      "group": "LEVEL",
+      "cis": 2451
+    },
+    {
+      "id": 105,
+      "label": "Intelligent Textbook",
+      "group": "LEVEL",
+      "cis": 3573
+    },
+    {
+      "id": 106,
+      "label": "Intelligent Textbook Movement",
+      "group": "LEVEL",
+      "cis": 1013
+    },
+    {
+      "id": 107,
+      "label": "Classification Framework",
+      "group": "LEVEL",
+      "shape": "box",
+      "cis": 5052
+    },
+    {
+      "id": 108,
+      "label": "SAE J3016 Standard",
+      "group": "LEVEL",
+      "cis": 2518
+    },
+    {
+      "id": 109,
+      "label": "Levels of Driving Automation",
+      "group": "LEVEL",
+      "cis": 2508
+    },
+    {
+      "id": 110,
+      "label": "Shared Vocabulary",
+      "group": "LEVEL",
+      "cis": 2533
+    },
+    {
+      "id": 111,
+      "label": "Graduated Regulation",
+      "group": "LEVEL",
+      "cis": 9
+    },
+    {
+      "id": 112,
+      "label": "Realistic Expectations",
+      "group": "LEVEL",
+      "cis": 25
+    },
+    {
+      "id": 113,
+      "label": "Five-Level Textbook Model",
+      "group": "LEVEL",
+      "cis": 2507
+    },
+    {
+      "id": 114,
+      "label": "Level 1 Static Textbook",
+      "group": "LEVEL",
+      "cis": 2450
+    },
+    {
+      "id": 115,
+      "label": "Level 2 Interactive Textbook",
+      "group": "LEVEL",
+      "cis": 2449
+    },
+    {
+      "id": 116,
+      "label": "Level 3 Adaptive Textbook",
+      "group": "LEVEL",
+      "cis": 375
+    },
+    {
+      "id": 117,
+      "label": "Level 4 Chatbot Textbook",
+      "group": "LEVEL",
+      "cis": 301
+    },
+    {
+      "id": 118,
+      "label": "Level 5 Autonomous Textbook",
+      "group": "LEVEL",
+      "cis": 63
+    },
+    {
+      "id": 119,
+      "label": "Embedded Simulation",
+      "group": "LEVEL",
+      "cis": 22
+    },
+    {
+      "id": 120,
+      "label": "Path Recommendation",
+      "group": "LEVEL",
+      "cis": 12
+    },
+    {
+      "id": 121,
+      "label": "Student Goal Setting",
+      "group": "LEVEL",
+      "cis": 12
+    },
+    {
+      "id": 122,
+      "label": "Progress Tracking",
+      "group": "LEVEL",
+      "cis": 7
+    },
+    {
+      "id": 123,
+      "label": "Conversational Tutoring",
+      "group": "LEVEL",
+      "cis": 226
+    },
+    {
+      "id": 124,
+      "label": "Real-Time Content Generation",
+      "group": "LEVEL",
+      "cis": 21
+    },
+    {
+      "id": 125,
+      "label": "Full Personalization",
+      "group": "LEVEL",
+      "cis": 21
+    },
+    {
+      "id": 126,
+      "label": "Level Classification",
+      "group": "LEVEL",
+      "cis": 35
+    },
+    {
+      "id": 127,
+      "label": "Product Level Assessment",
+      "group": "LEVEL",
+      "cis": 9
+    },
+    {
+      "id": 128,
+      "label": "Level Terminology Precision",
+      "group": "LEVEL",
+      "cis": 10
+    },
+    {
+      "id": 129,
+      "label": "AI-Powered Marketing Claims",
+      "group": "LEVEL",
+      "cis": 9
+    },
+    {
+      "id": 130,
+      "label": "Vendor Level Claim",
+      "group": "LEVEL",
+      "cis": 8
+    },
+    {
+      "id": 131,
+      "label": "Level-Specific Policy",
+      "group": "LEVEL",
+      "cis": 8
+    },
+    {
+      "id": 132,
+      "label": "Level Adoption Timeline",
+      "group": "LEVEL",
+      "cis": 21
+    },
+    {
+      "id": 133,
+      "label": "Growth of Level 2 Textbooks",
+      "group": "LEVEL",
+      "cis": 1012
+    },
+    {
+      "id": 134,
+      "label": "Levels 3 to 5 on the Horizon",
+      "group": "LEVEL",
+      "cis": 20
+    },
+    {
+      "id": 135,
+      "label": "Content Creation Cost",
+      "group": "ECON",
+      "cis": 2048
+    },
+    {
+      "id": 136,
+      "label": "Textbook Publisher",
+      "group": "ECON",
+      "cis": 1024
+    },
+    {
+      "id": 137,
+      "label": "Publisher Business Model",
+      "group": "ECON",
+      "cis": 1023
+    },
+    {
+      "id": 138,
+      "label": "Textbook Price",
+      "group": "ECON",
+      "cis": 1013
+    },
+    {
+      "id": 139,
+      "label": "Open Educational Resource",
+      "group": "ECON",
+      "cis": 6080
+    },
+    {
+      "id": 140,
+      "label": "Open License",
+      "group": "ECON",
+      "cis": 2028
+    },
+    {
+      "id": 141,
+      "label": "Creative Commons License",
+      "group": "ECON",
+      "cis": 1013
+    },
+    {
+      "id": 142,
+      "label": "5R Permissions",
+      "group": "ECON",
+      "cis": 1014
+    },
+    {
+      "id": 143,
+      "label": "Free Textbook",
+      "group": "ECON",
+      "cis": 1012
+    },
+    {
+      "id": 144,
+      "label": "AI-Generated Content",
+      "group": "ECON",
+      "cis": 2047
+    },
+    {
+      "id": 145,
+      "label": "Falling Production Cost",
+      "group": "ECON",
+      "cis": 1023
+    },
+    {
+      "id": 146,
+      "label": "Content Commoditization",
+      "group": "ECON",
+      "cis": 1022
+    },
+    {
+      "id": 147,
+      "label": "Penny-Per-Day Vision",
+      "group": "ECON",
+      "cis": 1012
+    },
+    {
+      "id": 148,
+      "label": "Publisher Disruption",
+      "group": "ECON",
+      "cis": 9
+    },
+    {
+      "id": 149,
+      "label": "Value Beyond Content",
+      "group": "ECON",
+      "cis": 8
+    },
+    {
+      "id": 150,
+      "label": "Textbook Quality",
+      "group": "ECON",
+      "cis": 3040
+    },
+    {
+      "id": 151,
+      "label": "OpenBook QR Score",
+      "group": "ECON",
+      "cis": 3039
+    },
+    {
+      "id": 152,
+      "label": "Quality Subscore",
+      "group": "ECON",
+      "cis": 1013
+    },
+    {
+      "id": 153,
+      "label": "Reusability Subscore",
+      "group": "ECON",
+      "cis": 1013
+    },
+    {
+      "id": 154,
+      "label": "Rising Quality Scores",
+      "group": "ECON",
+      "cis": 1012
+    },
+    {
+      "id": 155,
+      "label": "Universal Textbook Access",
+      "group": "ECON",
+      "cis": 1011
+    },
+    {
+      "id": 156,
+      "label": "Cost Per Student",
+      "group": "ECON",
+      "cis": 24
+    },
+    {
+      "id": 157,
+      "label": "Cost Modeling",
+      "group": "ECON",
+      "cis": 23
+    },
+    {
+      "id": 158,
+      "label": "Level 2 Cost Per Student",
+      "group": "ECON",
+      "cis": 5
+    },
+    {
+      "id": 159,
+      "label": "Level 3 Cost Per Student",
+      "group": "ECON",
+      "cis": 5
+    },
+    {
+      "id": 160,
+      "label": "Level 4 Cost Per Student",
+      "group": "ECON",
+      "cis": 8
+    },
+    {
+      "id": 161,
+      "label": "Total Cost of Ownership",
+      "group": "ECON",
+      "cis": 4
+    },
+    {
+      "id": 162,
+      "label": "Web Browser",
+      "group": "TECH",
+      "shape": "box",
+      "cis": 39
+    },
+    {
+      "id": 163,
+      "label": "Static Website",
+      "group": "TECH",
+      "cis": 28
+    },
+    {
+      "id": 164,
+      "label": "Web Page Hosting",
+      "group": "TECH",
+      "cis": 12
+    },
+    {
+      "id": 165,
+      "label": "Generate Once Serve Many",
+      "group": "TECH",
+      "cis": 11
+    },
+    {
+      "id": 166,
+      "label": "Learning Graph",
+      "group": "TECH",
+      "cis": 52
+    },
+    {
+      "id": 167,
+      "label": "Concept Node",
+      "group": "TECH",
+      "cis": 13
+    },
+    {
+      "id": 168,
+      "label": "Learning Dependency",
+      "group": "TECH",
+      "cis": 38
+    },
+    {
+      "id": 169,
+      "label": "Directed Acyclic Graph",
+      "group": "TECH",
+      "cis": 13
+    },
+    {
+      "id": 170,
+      "label": "Foundational Concept",
+      "group": "TECH",
+      "cis": 12
+    },
+    {
+      "id": 171,
+      "label": "Learning Path",
+      "group": "TECH",
+      "cis": 12
+    },
+    {
+      "id": 172,
+      "label": "Mastery Data",
+      "group": "TECH",
+      "cis": 369
+    },
+    {
+      "id": 173,
+      "label": "MicroSim",
+      "group": "TECH",
+      "cis": 21
+    },
+    {
+      "id": 174,
+      "label": "Browser-Based Simulation",
+      "group": "TECH",
+      "cis": 10
+    },
+    {
+      "id": 175,
+      "label": "Interactive Visualization",
+      "group": "TECH",
+      "cis": 10
+    },
+    {
+      "id": 176,
+      "label": "Learning Analytics",
+      "group": "TECH",
+      "cis": 107
+    },
+    {
+      "id": 177,
+      "label": "xAPI",
+      "group": "TECH",
+      "cis": 106
+    },
+    {
+      "id": 178,
+      "label": "xAPI Statement",
+      "group": "TECH",
+      "cis": 28
+    },
+    {
+      "id": 179,
+      "label": "Actor Verb Object",
+      "group": "TECH",
+      "cis": 27
+    },
+    {
+      "id": 180,
+      "label": "Learning Record Store",
+      "group": "TECH",
+      "cis": 60
+    },
+    {
+      "id": 181,
+      "label": "Learning Record",
+      "group": "TECH",
+      "cis": 26
+    },
+    {
+      "id": 182,
+      "label": "Data Portability",
+      "group": "TECH",
+      "cis": 23
+    },
+    {
+      "id": 183,
+      "label": "Student-Controlled Data",
+      "group": "TECH",
+      "cis": 22
+    },
+    {
+      "id": 184,
+      "label": "Learning Management System",
+      "group": "TECH",
+      "cis": 18
+    },
+    {
+      "id": 185,
+      "label": "Interoperability Standards",
+      "group": "TECH",
+      "cis": 17
+    },
+    {
+      "id": 186,
+      "label": "IMS Global Standards",
+      "group": "TECH",
+      "cis": 8
+    },
+    {
+      "id": 187,
+      "label": "IEEE Learning Standards",
+      "group": "TECH",
+      "cis": 8
+    },
+    {
+      "id": 188,
+      "label": "Device Access",
+      "group": "TECH",
+      "cis": 18
+    },
+    {
+      "id": 189,
+      "label": "Internet Connectivity",
+      "group": "TECH",
+      "cis": 8
+    },
+    {
+      "id": 190,
+      "label": "Offline Access",
+      "group": "TECH",
+      "cis": 4
+    },
+    {
+      "id": 191,
+      "label": "Student Progress Dashboard",
+      "group": "TECH",
+      "cis": 6
+    },
+    {
+      "id": 192,
+      "label": "Student Data",
+      "group": "PRIV",
+      "cis": 271
+    },
+    {
+      "id": 193,
+      "label": "Personally Identifiable Data",
+      "group": "PRIV",
+      "cis": 251
+    },
+    {
+      "id": 194,
+      "label": "Student Data Privacy",
+      "group": "PRIV",
+      "cis": 250
+    },
+    {
+      "id": 195,
+      "label": "FERPA",
+      "group": "PRIV",
+      "cis": 21
+    },
+    {
+      "id": 196,
+      "label": "COPPA",
+      "group": "PRIV",
+      "cis": 21
+    },
+    {
+      "id": 197,
+      "label": "GDPR",
+      "group": "PRIV",
+      "cis": 21
+    },
+    {
+      "id": 198,
+      "label": "Privacy Inflection Point",
+      "group": "PRIV",
+      "cis": 49
+    },
+    {
+      "id": 199,
+      "label": "Detailed Learning History",
+      "group": "PRIV",
+      "cis": 25
+    },
+    {
+      "id": 200,
+      "label": "Behavioral Data",
+      "group": "PRIV",
+      "cis": 22
+    },
+    {
+      "id": 201,
+      "label": "Data Governance",
+      "group": "PRIV",
+      "cis": 132
+    },
+    {
+      "id": 202,
+      "label": "Data Minimization",
+      "group": "PRIV",
+      "cis": 21
+    },
+    {
+      "id": 203,
+      "label": "Informed Consent",
+      "group": "PRIV",
+      "cis": 21
+    },
+    {
+      "id": 204,
+      "label": "Data Retention Policy",
+      "group": "PRIV",
+      "cis": 21
+    },
+    {
+      "id": 205,
+      "label": "Data Ownership",
+      "group": "PRIV",
+      "cis": 21
+    },
+    {
+      "id": 206,
+      "label": "Trust Paradox",
+      "group": "PRIV",
+      "cis": 3
+    },
+    {
+      "id": 207,
+      "label": "Family Trust",
+      "group": "PRIV",
+      "cis": 2
+    },
+    {
+      "id": 208,
+      "label": "Algorithmic Bias",
+      "group": "PRIV",
+      "cis": 50
+    },
+    {
+      "id": 209,
+      "label": "Algorithmic Bias Auditing",
+      "group": "PRIV",
+      "cis": 21
+    },
+    {
+      "id": 210,
+      "label": "Algorithmic Transparency",
+      "group": "PRIV",
+      "cis": 21
+    },
+    {
+      "id": 211,
+      "label": "Data Breach",
+      "group": "PRIV",
+      "cis": 19
+    },
+    {
+      "id": 212,
+      "label": "Vendor Risk",
+      "group": "PRIV",
+      "cis": 9
+    },
+    {
+      "id": 213,
+      "label": "Centralized Student Records",
+      "group": "PRIV",
+      "cis": 2
+    },
+    {
+      "id": 214,
+      "label": "Cybersecurity in Schools",
+      "group": "PRIV",
+      "cis": 7
+    },
+    {
+      "id": 215,
+      "label": "Responsible AI with Minors",
+      "group": "PRIV",
+      "cis": 5
+    },
+    {
+      "id": 216,
+      "label": "Age-Appropriate AI Design",
+      "group": "PRIV",
+      "cis": 4
+    },
+    {
+      "id": 217,
+      "label": "Governance Readiness",
+      "group": "PRIV",
+      "cis": 20
+    },
+    {
+      "id": 218,
+      "label": "Adaptive Learning",
+      "group": "MORN",
+      "cis": 3301
+    },
+    {
+      "id": 219,
+      "label": "Mastery Learning",
+      "group": "MORN",
+      "cis": 244
+    },
+    {
+      "id": 220,
+      "label": "Mastery Threshold",
+      "group": "MORN",
+      "cis": 12
+    },
+    {
+      "id": 221,
+      "label": "Next-Concept Selection",
+      "group": "TECH",
+      "cis": 11
+    },
+    {
+      "id": 222,
+      "label": "Adaptation Without Live AI",
+      "group": "TECH",
+      "cis": 10
+    },
+    {
+      "id": 223,
+      "label": "Low-Cost Adaptive Design",
+      "group": "TECH",
+      "cis": 9
+    },
+    {
+      "id": 224,
+      "label": "Energy-Efficient Learning",
+      "group": "TECH",
+      "cis": 3
+    },
+    {
+      "id": 225,
+      "label": "Selective Chatbot Use",
+      "group": "TECH",
+      "cis": 3
+    },
+    {
+      "id": 226,
+      "label": "Bloom's Two-Sigma Problem",
+      "group": "MORN",
+      "cis": 226
+    },
+    {
+      "id": 227,
+      "label": "One-on-One Tutoring",
+      "group": "MORN",
+      "cis": 226
+    },
+    {
+      "id": 228,
+      "label": "AI Tutor",
+      "group": "MORN",
+      "cis": 225
+    },
+    {
+      "id": 229,
+      "label": "AI Tutor Strengths",
+      "group": "MORN",
+      "cis": 23
+    },
+    {
+      "id": 230,
+      "label": "Confidently Wrong Answers",
+      "group": "MORN",
+      "cis": 36
+    },
+    {
+      "id": 231,
+      "label": "AI Tutor Failures",
+      "group": "MORN",
+      "cis": 23
+    },
+    {
+      "id": 232,
+      "label": "Personalized Pacing",
+      "group": "MORN",
+      "cis": 955
+    },
+    {
+      "id": 233,
+      "label": "Gap Filling",
+      "group": "MORN",
+      "cis": 955
+    },
+    {
+      "id": 234,
+      "label": "Academic Morning",
+      "group": "MORN",
+      "cis": 1139
+    },
+    {
+      "id": 235,
+      "label": "Compressed Academic Morning",
+      "group": "MORN",
+      "cis": 954
+    },
+    {
+      "id": 236,
+      "label": "Reduced Direct Instruction",
+      "group": "MORN",
+      "cis": 890
+    },
+    {
+      "id": 237,
+      "label": "Freed-Up School Time",
+      "group": "MORN",
+      "cis": 871
+    },
+    {
+      "id": 238,
+      "label": "Cognitive Offloading",
+      "group": "MORN",
+      "cis": 76
+    },
+    {
+      "id": 239,
+      "label": "Over-Reliance on AI",
+      "group": "MORN",
+      "cis": 36
+    },
+    {
+      "id": 240,
+      "label": "AI Guardrails",
+      "group": "MORN",
+      "cis": 26
+    },
+    {
+      "id": 241,
+      "label": "Hints Instead of Answers",
+      "group": "MORN",
+      "cis": 3
+    },
+    {
+      "id": 242,
+      "label": "Socratic Questioning",
+      "group": "MORN",
+      "cis": 2
+    },
+    {
+      "id": 243,
+      "label": "Open Chatbot Access",
+      "group": "MORN",
+      "cis": 23
+    },
+    {
+      "id": 244,
+      "label": "Guided AI vs Open AI",
+      "group": "MORN",
+      "cis": 22
+    },
+    {
+      "id": 245,
+      "label": "Critical Thinking",
+      "group": "MORN",
+      "cis": 849
+    },
+    {
+      "id": 246,
+      "label": "Computational Thinking",
+      "group": "MORN",
+      "cis": 415
+    },
+    {
+      "id": 247,
+      "label": "Decomposition",
+      "group": "MORN",
+      "cis": 59
+    },
+    {
+      "id": 248,
+      "label": "Pattern Recognition",
+      "group": "MORN",
+      "cis": 59
+    },
+    {
+      "id": 249,
+      "label": "Abstraction",
+      "group": "MORN",
+      "cis": 59
+    },
+    {
+      "id": 250,
+      "label": "Algorithmic Thinking",
+      "group": "MORN",
+      "cis": 59
+    },
+    {
+      "id": 251,
+      "label": "Evidence Evaluation",
+      "group": "MORN",
+      "cis": 125
+    },
+    {
+      "id": 252,
+      "label": "Argument Analysis",
+      "group": "MORN",
+      "cis": 123
+    },
+    {
+      "id": 253,
+      "label": "Teaching Thinking with AI",
+      "group": "MORN",
+      "cis": 63
+    },
+    {
+      "id": 254,
+      "label": "Skills AI Teaches Well",
+      "group": "MORN",
+      "cis": 62
+    },
+    {
+      "id": 255,
+      "label": "Morning Screen-Time Limits",
+      "group": "MORN",
+      "cis": 56
+    },
+    {
+      "id": 256,
+      "label": "Curiosity-Led Morning",
+      "group": "MORN",
+      "cis": 56
+    },
+    {
+      "id": 257,
+      "label": "Pro-Social Behavior",
+      "group": "SOCL",
+      "shape": "box",
+      "cis": 1117
+    },
+    {
+      "id": 258,
+      "label": "Hands-On Learning",
+      "group": "SOCL",
+      "cis": 241
+    },
+    {
+      "id": 259,
+      "label": "Constructivism",
+      "group": "SOCL",
+      "cis": 238
+    },
+    {
+      "id": 260,
+      "label": "Constructionism",
+      "group": "SOCL",
+      "cis": 118
+    },
+    {
+      "id": 261,
+      "label": "Social Constructivism",
+      "group": "SOCL",
+      "cis": 119
+    },
+    {
+      "id": 262,
+      "label": "Social Constructionism",
+      "group": "SOCL",
+      "cis": 59
+    },
+    {
+      "id": 263,
+      "label": "Zone of Proximal Development",
+      "group": "SOCL",
+      "cis": 59
+    },
+    {
+      "id": 264,
+      "label": "Learning by Building Together",
+      "group": "SOCL",
+      "cis": 58
+    },
+    {
+      "id": 265,
+      "label": "Collaboration",
+      "group": "SOCL",
+      "cis": 572
+    },
+    {
+      "id": 266,
+      "label": "Teamwork",
+      "group": "SOCL",
+      "cis": 435
+    },
+    {
+      "id": 267,
+      "label": "Communication Skills",
+      "group": "SOCL",
+      "cis": 136
+    },
+    {
+      "id": 268,
+      "label": "Active Listening",
+      "group": "SOCL",
+      "cis": 65
+    },
+    {
+      "id": 269,
+      "label": "Conflict Resolution",
+      "group": "SOCL",
+      "cis": 6
+    },
+    {
+      "id": 270,
+      "label": "Shared Goals",
+      "group": "SOCL",
+      "cis": 123
+    },
+    {
+      "id": 271,
+      "label": "Team Roles",
+      "group": "SOCL",
+      "cis": 123
+    },
+    {
+      "id": 272,
+      "label": "Team Problem Solving",
+      "group": "SOCL",
+      "cis": 122
+    },
+    {
+      "id": 273,
+      "label": "Applying Thinking on Teams",
+      "group": "SOCL",
+      "cis": 57
+    },
+    {
+      "id": 274,
+      "label": "Creativity",
+      "group": "SOCL",
+      "shape": "box",
+      "cis": 174
+    },
+    {
+      "id": 275,
+      "label": "Creative Confidence",
+      "group": "SOCL",
+      "cis": 58
+    },
+    {
+      "id": 276,
+      "label": "Divergent Thinking",
+      "group": "SOCL",
+      "cis": 58
+    },
+    {
+      "id": 277,
+      "label": "Empathy",
+      "group": "SOCL",
+      "cis": 311
+    },
+    {
+      "id": 278,
+      "label": "Perspective Taking",
+      "group": "SOCL",
+      "cis": 60
+    },
+    {
+      "id": 279,
+      "label": "Social-Emotional Learning",
+      "group": "SOCL",
+      "cis": 130
+    },
+    {
+      "id": 280,
+      "label": "Self-Awareness",
+      "group": "SOCL",
+      "cis": 65
+    },
+    {
+      "id": 281,
+      "label": "Relationship Skills",
+      "group": "SOCL",
+      "cis": 64
+    },
+    {
+      "id": 282,
+      "label": "Belonging",
+      "group": "SOCL",
+      "cis": 63
+    },
+    {
+      "id": 283,
+      "label": "Human Connection",
+      "group": "SOCL",
+      "cis": 62
+    },
+    {
+      "id": 284,
+      "label": "Skills That Need People",
+      "group": "SOCL",
+      "cis": 61
+    },
+    {
+      "id": 285,
+      "label": "Afternoon Program",
+      "group": "AFTN",
+      "cis": 870
+    },
+    {
+      "id": 286,
+      "label": "Pro-Social Activity",
+      "group": "AFTN",
+      "cis": 233
+    },
+    {
+      "id": 287,
+      "label": "Project-Based Learning",
+      "group": "AFTN",
+      "cis": 64
+    },
+    {
+      "id": 288,
+      "label": "Driving Question",
+      "group": "AFTN",
+      "cis": 2
+    },
+    {
+      "id": 289,
+      "label": "Public Exhibition",
+      "group": "AFTN",
+      "cis": 2
+    },
+    {
+      "id": 290,
+      "label": "Phenomenon-Based Learning",
+      "group": "AFTN",
+      "cis": 2
+    },
+    {
+      "id": 291,
+      "label": "Maker Space",
+      "group": "AFTN",
+      "cis": 58
+    },
+    {
+      "id": 292,
+      "label": "Coding Club",
+      "group": "AFTN",
+      "cis": 58
+    },
+    {
+      "id": 293,
+      "label": "Robotics Club",
+      "group": "AFTN",
+      "cis": 57
+    },
+    {
+      "id": 294,
+      "label": "Music Education",
+      "group": "AFTN",
+      "cis": 60
+    },
+    {
+      "id": 295,
+      "label": "Ensemble Music",
+      "group": "AFTN",
+      "cis": 2
+    },
+    {
+      "id": 296,
+      "label": "Dance",
+      "group": "AFTN",
+      "cis": 58
+    },
+    {
+      "id": 297,
+      "label": "Theater",
+      "group": "AFTN",
+      "cis": 58
+    },
+    {
+      "id": 298,
+      "label": "Visual Arts",
+      "group": "AFTN",
+      "cis": 58
+    },
+    {
+      "id": 299,
+      "label": "Arts Education",
+      "group": "AFTN",
+      "cis": 57
+    },
+    {
+      "id": 300,
+      "label": "Sports and Athletics",
+      "group": "AFTN",
+      "cis": 58
+    },
+    {
+      "id": 301,
+      "label": "Team Sports",
+      "group": "AFTN",
+      "cis": 57
+    },
+    {
+      "id": 302,
+      "label": "Clubs and Extracurriculars",
+      "group": "AFTN",
+      "cis": 57
+    },
+    {
+      "id": 303,
+      "label": "Life-Skills Workshop",
+      "group": "AFTN",
+      "cis": 16
+    },
+    {
+      "id": 304,
+      "label": "Service Learning",
+      "group": "AFTN",
+      "cis": 57
+    },
+    {
+      "id": 305,
+      "label": "Community Partnership",
+      "group": "AFTN",
+      "cis": 5
+    },
+    {
+      "id": 306,
+      "label": "Structured Afternoon",
+      "group": "AFTN",
+      "cis": 132
+    },
+    {
+      "id": 307,
+      "label": "Unstructured Afternoon Drift",
+      "group": "AFTN",
+      "cis": 72
+    },
+    {
+      "id": 308,
+      "label": "Activity-Skill Matching",
+      "group": "AFTN",
+      "cis": 60
+    },
+    {
+      "id": 309,
+      "label": "Afternoon Program Quality",
+      "group": "AFTN",
+      "cis": 59
+    },
+    {
+      "id": 310,
+      "label": "Pro-Social Afternoon",
+      "group": "AFTN",
+      "cis": 56
+    },
+    {
+      "id": 311,
+      "label": "Innovation",
+      "group": "ADOPT",
+      "shape": "box",
+      "cis": 317
+    },
+    {
+      "id": 312,
+      "label": "Diffusion of Innovations",
+      "group": "ADOPT",
+      "cis": 204
+    },
+    {
+      "id": 313,
+      "label": "Technology Adoption Curve",
+      "group": "ADOPT",
+      "cis": 67
+    },
+    {
+      "id": 314,
+      "label": "S-Curve of Adoption",
+      "group": "ADOPT",
+      "cis": 3
+    },
+    {
+      "id": 315,
+      "label": "Innovators",
+      "group": "ADOPT",
+      "cis": 3
+    },
+    {
+      "id": 316,
+      "label": "Early Adopters",
+      "group": "ADOPT",
+      "cis": 14
+    },
+    {
+      "id": 317,
+      "label": "Early Majority",
+      "group": "ADOPT",
+      "cis": 15
+    },
+    {
+      "id": 318,
+      "label": "Late Majority",
+      "group": "ADOPT",
+      "cis": 3
+    },
+    {
+      "id": 319,
+      "label": "Laggards",
+      "group": "ADOPT",
+      "cis": 3
+    },
+    {
+      "id": 320,
+      "label": "Five Innovation Attributes",
+      "group": "ADOPT",
+      "cis": 128
+    },
+    {
+      "id": 321,
+      "label": "Relative Advantage",
+      "group": "ADOPT",
+      "cis": 21
+    },
+    {
+      "id": 322,
+      "label": "Compatibility",
+      "group": "ADOPT",
+      "cis": 21
+    },
+    {
+      "id": 323,
+      "label": "Complexity",
+      "group": "ADOPT",
+      "cis": 21
+    },
+    {
+      "id": 324,
+      "label": "Trialability",
+      "group": "ADOPT",
+      "cis": 40
+    },
+    {
+      "id": 325,
+      "label": "Observability",
+      "group": "ADOPT",
+      "cis": 24
+    },
+    {
+      "id": 326,
+      "label": "Opinion Leader",
+      "group": "ADOPT",
+      "cis": 4
+    },
+    {
+      "id": 327,
+      "label": "Change Agent",
+      "group": "ADOPT",
+      "cis": 4
+    },
+    {
+      "id": 328,
+      "label": "The Chasm",
+      "group": "ADOPT",
+      "cis": 10
+    },
+    {
+      "id": 329,
+      "label": "Crossing the Chasm",
+      "group": "ADOPT",
+      "cis": 9
+    },
+    {
+      "id": 330,
+      "label": "Pragmatist Buyers",
+      "group": "ADOPT",
+      "cis": 4
+    },
+    {
+      "id": 331,
+      "label": "Whole Product",
+      "group": "ADOPT",
+      "cis": 3
+    },
+    {
+      "id": 332,
+      "label": "Beachhead Strategy",
+      "group": "ADOPT",
+      "cis": 3
+    },
+    {
+      "id": 333,
+      "label": "Hype Cycle",
+      "group": "ADOPT",
+      "cis": 112
+    },
+    {
+      "id": 334,
+      "label": "Peak of Inflated Expectations",
+      "group": "ADOPT",
+      "cis": 25
+    },
+    {
+      "id": 335,
+      "label": "Trough of Disillusionment",
+      "group": "ADOPT",
+      "cis": 31
+    },
+    {
+      "id": 336,
+      "label": "Plateau of Productivity",
+      "group": "ADOPT",
+      "cis": 25
+    },
+    {
+      "id": 337,
+      "label": "Adoption Readiness",
+      "group": "ADOPT",
+      "cis": 20
+    },
+    {
+      "id": 338,
+      "label": "EdTech Hype Waves",
+      "group": "ADOPT",
+      "cis": 6
+    },
+    {
+      "id": 339,
+      "label": "Organizational Change",
+      "group": "CHNG",
+      "shape": "box",
+      "cis": 446
+    },
+    {
+      "id": 340,
+      "label": "Organizational Culture",
+      "group": "CHNG",
+      "cis": 73
+    },
+    {
+      "id": 341,
+      "label": "School Culture",
+      "group": "CHNG",
+      "cis": 56
+    },
+    {
+      "id": 342,
+      "label": "Shared Beliefs and Norms",
+      "group": "CHNG",
+      "cis": 5
+    },
+    {
+      "id": 343,
+      "label": "School Rituals",
+      "group": "CHNG",
+      "cis": 5
+    },
+    {
+      "id": 344,
+      "label": "Grammar of Schooling",
+      "group": "CHNG",
+      "cis": 4
+    },
+    {
+      "id": 345,
+      "label": "Reform Without Real Change",
+      "group": "CHNG",
+      "cis": 2
+    },
+    {
+      "id": 346,
+      "label": "Schein's Culture Model",
+      "group": "CHNG",
+      "cis": 16
+    },
+    {
+      "id": 347,
+      "label": "Cultural Artifacts",
+      "group": "CHNG",
+      "cis": 4
+    },
+    {
+      "id": 348,
+      "label": "Espoused Values",
+      "group": "CHNG",
+      "cis": 4
+    },
+    {
+      "id": 349,
+      "label": "Lewin's Change Model",
+      "group": "CHNG",
+      "cis": 24
+    },
+    {
+      "id": 350,
+      "label": "Unfreeze Stage",
+      "group": "CHNG",
+      "cis": 8
+    },
+    {
+      "id": 351,
+      "label": "Change Stage",
+      "group": "CHNG",
+      "cis": 7
+    },
+    {
+      "id": 352,
+      "label": "Refreeze Stage",
+      "group": "CHNG",
+      "cis": 6
+    },
+    {
+      "id": 353,
+      "label": "Kotter's Eight Steps",
+      "group": "CHNG",
+      "cis": 89
+    },
+    {
+      "id": 354,
+      "label": "Sense of Urgency",
+      "group": "CHNG",
+      "cis": 18
+    },
+    {
+      "id": 355,
+      "label": "Guiding Coalition",
+      "group": "CHNG",
+      "cis": 17
+    },
+    {
+      "id": 356,
+      "label": "ADKAR Model",
+      "group": "CHNG",
+      "cis": 28
+    },
+    {
+      "id": 357,
+      "label": "ADKAR Awareness",
+      "group": "CHNG",
+      "cis": 7
+    },
+    {
+      "id": 358,
+      "label": "ADKAR Desire",
+      "group": "CHNG",
+      "cis": 6
+    },
+    {
+      "id": 359,
+      "label": "ADKAR Knowledge",
+      "group": "CHNG",
+      "cis": 5
+    },
+    {
+      "id": 360,
+      "label": "ADKAR Ability",
+      "group": "CHNG",
+      "cis": 4
+    },
+    {
+      "id": 361,
+      "label": "ADKAR Reinforcement",
+      "group": "CHNG",
+      "cis": 3
+    },
+    {
+      "id": 362,
+      "label": "Bridges' Transition Model",
+      "group": "CHNG",
+      "cis": 18
+    },
+    {
+      "id": 363,
+      "label": "Endings and Losses",
+      "group": "CHNG",
+      "cis": 5
+    },
+    {
+      "id": 364,
+      "label": "Neutral Zone",
+      "group": "CHNG",
+      "cis": 4
+    },
+    {
+      "id": 365,
+      "label": "New Beginnings",
+      "group": "CHNG",
+      "cis": 3
+    },
+    {
+      "id": 366,
+      "label": "Change Versus Transition",
+      "group": "CHNG",
+      "cis": 3
+    },
+    {
+      "id": 367,
+      "label": "Learning Organization",
+      "group": "CHNG",
+      "cis": 53
+    },
+    {
+      "id": 368,
+      "label": "Senge's Five Disciplines",
+      "group": "CHNG",
+      "cis": 52
+    },
+    {
+      "id": 369,
+      "label": "Systems Thinking",
+      "group": "CHNG",
+      "cis": 3
+    },
+    {
+      "id": 370,
+      "label": "Feedback Loop",
+      "group": "CHNG",
+      "cis": 2
+    },
+    {
+      "id": 371,
+      "label": "Causal Loop Diagram",
+      "group": "CHNG",
+      "cis": 1
+    },
+    {
+      "id": 372,
+      "label": "Mental Models",
+      "group": "CHNG",
+      "cis": 5
+    },
+    {
+      "id": 373,
+      "label": "Basic Assumptions",
+      "group": "CHNG",
+      "cis": 4
+    },
+    {
+      "id": 374,
+      "label": "Culture Assessment",
+      "group": "CHNG",
+      "cis": 3
+    },
+    {
+      "id": 375,
+      "label": "Shared Vision",
+      "group": "CHNG",
+      "cis": 17
+    },
+    {
+      "id": 376,
+      "label": "Change Vision",
+      "group": "CHNG",
+      "cis": 16
+    },
+    {
+      "id": 377,
+      "label": "Communicating the Vision",
+      "group": "CHNG",
+      "cis": 15
+    },
+    {
+      "id": 378,
+      "label": "Removing Obstacles",
+      "group": "CHNG",
+      "cis": 14
+    },
+    {
+      "id": 379,
+      "label": "Short-Term Wins",
+      "group": "CHNG",
+      "cis": 13
+    },
+    {
+      "id": 380,
+      "label": "Building on Change",
+      "group": "CHNG",
+      "cis": 9
+    },
+    {
+      "id": 381,
+      "label": "Anchoring in Culture",
+      "group": "CHNG",
+      "cis": 8
+    },
+    {
+      "id": 382,
+      "label": "Team Learning",
+      "group": "CHNG",
+      "cis": 4
+    },
+    {
+      "id": 383,
+      "label": "Personal Mastery",
+      "group": "CHNG",
+      "cis": 22
+    },
+    {
+      "id": 384,
+      "label": "Fullan's Educational Change",
+      "group": "CHNG",
+      "cis": 30
+    },
+    {
+      "id": 385,
+      "label": "Coherence Framework",
+      "group": "CHNG",
+      "cis": 2
+    },
+    {
+      "id": 386,
+      "label": "Capacity Building",
+      "group": "CHNG",
+      "cis": 2
+    },
+    {
+      "id": 387,
+      "label": "Implementation Dip",
+      "group": "CHNG",
+      "cis": 25
+    },
+    {
+      "id": 388,
+      "label": "Managing Expectations",
+      "group": "ADOPT",
+      "cis": 24
+    },
+    {
+      "id": 389,
+      "label": "Concerns-Based Adoption Model",
+      "group": "CHNG",
+      "cis": 46
+    },
+    {
+      "id": 390,
+      "label": "Stages of Concern",
+      "group": "CHNG",
+      "cis": 22
+    },
+    {
+      "id": 391,
+      "label": "Self Concerns",
+      "group": "CHNG",
+      "cis": 6
+    },
+    {
+      "id": 392,
+      "label": "Task Concerns",
+      "group": "CHNG",
+      "cis": 5
+    },
+    {
+      "id": 393,
+      "label": "Impact Concerns",
+      "group": "CHNG",
+      "cis": 4
+    },
+    {
+      "id": 394,
+      "label": "Levels of Use",
+      "group": "CHNG",
+      "cis": 4
+    },
+    {
+      "id": 395,
+      "label": "Innovation Configuration",
+      "group": "CHNG",
+      "cis": 19
+    },
+    {
+      "id": 396,
+      "label": "Whole-Organization Change",
+      "group": "CHNG",
+      "cis": 5
+    },
+    {
+      "id": 397,
+      "label": "Choosing a Change Model",
+      "group": "CHNG",
+      "cis": 2
+    },
+    {
+      "id": 398,
+      "label": "Change Fatigue",
+      "group": "CHNG",
+      "cis": 5
+    },
+    {
+      "id": 399,
+      "label": "National AI Adoption",
+      "group": "CHNG",
+      "cis": 2
+    },
+    {
+      "id": 400,
+      "label": "Microstrategy",
+      "group": "MICRO",
+      "cis": 61
+    },
+    {
+      "id": 401,
+      "label": "Holistic Plus Micro Change",
+      "group": "CHNG",
+      "cis": 2
+    },
+    {
+      "id": 402,
+      "label": "Teacher Champion",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 403,
+      "label": "Pilot Classroom",
+      "group": "MICRO",
+      "cis": 19
+    },
+    {
+      "id": 404,
+      "label": "Switch Framework",
+      "group": "MICRO",
+      "cis": 14
+    },
+    {
+      "id": 405,
+      "label": "Direct the Rider",
+      "group": "MICRO",
+      "cis": 5
+    },
+    {
+      "id": 406,
+      "label": "Bright Spots",
+      "group": "MICRO",
+      "cis": 4
+    },
+    {
+      "id": 407,
+      "label": "Positive Deviance",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 408,
+      "label": "Motivate the Elephant",
+      "group": "MICRO",
+      "cis": 4
+    },
+    {
+      "id": 409,
+      "label": "Early Visible Results",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 410,
+      "label": "Shape the Path",
+      "group": "MICRO",
+      "cis": 4
+    },
+    {
+      "id": 411,
+      "label": "Shrinking the First Step",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 412,
+      "label": "Peer Observation",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 413,
+      "label": "Professional Learning Community",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 414,
+      "label": "Instructional Coaching",
+      "group": "MICRO",
+      "cis": 20
+    },
+    {
+      "id": 415,
+      "label": "Professional Development",
+      "group": "MICRO",
+      "cis": 21
+    },
+    {
+      "id": 416,
+      "label": "Staff AI Literacy",
+      "group": "AIGRO",
+      "cis": 20
+    },
+    {
+      "id": 417,
+      "label": "Resistance to Change",
+      "group": "MICRO",
+      "cis": 13
+    },
+    {
+      "id": 418,
+      "label": "Sources of Resistance",
+      "group": "MICRO",
+      "cis": 4
+    },
+    {
+      "id": 419,
+      "label": "Legitimate Concern",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 420,
+      "label": "Responding with Empathy",
+      "group": "MICRO",
+      "cis": 2
+    },
+    {
+      "id": 421,
+      "label": "Fear of Job Loss",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 422,
+      "label": "Teacher Union",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 423,
+      "label": "Stakeholder",
+      "group": "MICRO",
+      "cis": 33
+    },
+    {
+      "id": 424,
+      "label": "Stakeholder Adoption Map",
+      "group": "ADOPT",
+      "cis": 2
+    },
+    {
+      "id": 425,
+      "label": "Stakeholder Engagement",
+      "group": "MICRO",
+      "cis": 30
+    },
+    {
+      "id": 426,
+      "label": "Family Communication",
+      "group": "MICRO",
+      "cis": 21
+    },
+    {
+      "id": 427,
+      "label": "Communicating Before Rumors",
+      "group": "MICRO",
+      "cis": 2
+    },
+    {
+      "id": 428,
+      "label": "Community Communication",
+      "group": "MICRO",
+      "cis": 2
+    },
+    {
+      "id": 429,
+      "label": "Board Presentation",
+      "group": "MICRO",
+      "cis": 2
+    },
+    {
+      "id": 430,
+      "label": "Student Voice",
+      "group": "MICRO",
+      "cis": 2
+    },
+    {
+      "id": 431,
+      "label": "Union Engagement",
+      "group": "MICRO",
+      "cis": 2
+    },
+    {
+      "id": 432,
+      "label": "Matching Strategy to Concern",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 433,
+      "label": "Matching Strategy to Adopter",
+      "group": "MICRO",
+      "cis": 3
+    },
+    {
+      "id": 434,
+      "label": "Compounding Small Changes",
+      "group": "MICRO",
+      "cis": 2
+    },
+    {
+      "id": 435,
+      "label": "Teacher as Coach",
+      "group": "PRAC",
+      "cis": 19
+    },
+    {
+      "id": 436,
+      "label": "Teacher as Mentor",
+      "group": "PRAC",
+      "cis": 19
+    },
+    {
+      "id": 437,
+      "label": "Teacher as Facilitator",
+      "group": "PRAC",
+      "cis": 19
+    },
+    {
+      "id": 438,
+      "label": "Changing Teacher Role",
+      "group": "PRAC",
+      "cis": 18
+    },
+    {
+      "id": 439,
+      "label": "Learning Guide",
+      "group": "PRAC",
+      "cis": 5
+    },
+    {
+      "id": 440,
+      "label": "AI Coaching Teachers",
+      "group": "PRAC",
+      "cis": 2
+    },
+    {
+      "id": 441,
+      "label": "AI-First School",
+      "group": "PRAC",
+      "cis": 82
+    },
+    {
+      "id": 442,
+      "label": "Morning-Afternoon Model",
+      "group": "PRAC",
+      "cis": 72
+    },
+    {
+      "id": 443,
+      "label": "AI-Native School",
+      "group": "PRAC",
+      "cis": 56
+    },
+    {
+      "id": 444,
+      "label": "AI-Native School Day",
+      "group": "PRAC",
+      "cis": 55
+    },
+    {
+      "id": 445,
+      "label": "Schedule Redesign",
+      "group": "PRAC",
+      "cis": 13
+    },
+    {
+      "id": 446,
+      "label": "Block Scheduling",
+      "group": "PRAC",
+      "cis": 2
+    },
+    {
+      "id": 447,
+      "label": "Staffing Model",
+      "group": "PRAC",
+      "cis": 10
+    },
+    {
+      "id": 448,
+      "label": "Afternoon Specialist Staff",
+      "group": "PRAC",
+      "cis": 4
+    },
+    {
+      "id": 449,
+      "label": "Grade-Level Design",
+      "group": "PRAC",
+      "cis": 4
+    },
+    {
+      "id": 450,
+      "label": "Elementary School Model",
+      "group": "PRAC",
+      "cis": 1
+    },
+    {
+      "id": 451,
+      "label": "Middle School Model",
+      "group": "PRAC",
+      "cis": 1
+    },
+    {
+      "id": 452,
+      "label": "High School Model",
+      "group": "PRAC",
+      "cis": 1
+    },
+    {
+      "id": 453,
+      "label": "Procurement",
+      "group": "PRAC",
+      "cis": 13
+    },
+    {
+      "id": 454,
+      "label": "Procurement Criteria",
+      "group": "PRAC",
+      "cis": 7
+    },
+    {
+      "id": 455,
+      "label": "Vendor Evaluation",
+      "group": "PRAC",
+      "cis": 6
+    },
+    {
+      "id": 456,
+      "label": "Vendor Lock-In",
+      "group": "PRAC",
+      "cis": 4
+    },
+    {
+      "id": 457,
+      "label": "Rushed Procurement Risk",
+      "group": "PRAC",
+      "cis": 3
+    },
+    {
+      "id": 458,
+      "label": "Contract Due Diligence",
+      "group": "PRAC",
+      "cis": 1
+    },
+    {
+      "id": 459,
+      "label": "School Readiness Assessment",
+      "group": "PRAC",
+      "cis": 19
+    },
+    {
+      "id": 460,
+      "label": "Pilot Program",
+      "group": "PRAC",
+      "cis": 18
+    },
+    {
+      "id": 461,
+      "label": "Pilot Goals",
+      "group": "PRAC",
+      "cis": 5
+    },
+    {
+      "id": 462,
+      "label": "Success Measures",
+      "group": "PRAC",
+      "cis": 4
+    },
+    {
+      "id": 463,
+      "label": "Pilot Governance",
+      "group": "PRAC",
+      "cis": 3
+    },
+    {
+      "id": 464,
+      "label": "Scaling a Pilot",
+      "group": "PRAC",
+      "cis": 2
+    },
+    {
+      "id": 465,
+      "label": "Assessment Redesign",
+      "group": "PRAC",
+      "cis": 36
+    },
+    {
+      "id": 466,
+      "label": "Mastery-Based Assessment",
+      "group": "PRAC",
+      "cis": 5
+    },
+    {
+      "id": 467,
+      "label": "Portfolio Assessment",
+      "group": "PRAC",
+      "cis": 5
+    },
+    {
+      "id": 468,
+      "label": "Performance Assessment",
+      "group": "PRAC",
+      "cis": 10
+    },
+    {
+      "id": 469,
+      "label": "Teamwork Rubric",
+      "group": "PRAC",
+      "cis": 5
+    },
+    {
+      "id": 470,
+      "label": "Academic Integrity",
+      "group": "PRAC",
+      "cis": 15
+    },
+    {
+      "id": 471,
+      "label": "AI Cheating Detector",
+      "group": "PRAC",
+      "cis": 9
+    },
+    {
+      "id": 472,
+      "label": "Detector False Positives",
+      "group": "PRAC",
+      "cis": 8
+    },
+    {
+      "id": 473,
+      "label": "Bias Against ELL Writers",
+      "group": "PRAC",
+      "cis": 7
+    },
+    {
+      "id": 474,
+      "label": "Redesign Not Policing",
+      "group": "PRAC",
+      "cis": 5
+    },
+    {
+      "id": 475,
+      "label": "Combined Assessment Plan",
+      "group": "PRAC",
+      "cis": 4
+    },
+    {
+      "id": 476,
+      "label": "Program Evaluation",
+      "group": "PRAC",
+      "cis": 3
+    },
+    {
+      "id": 477,
+      "label": "A/B Testing",
+      "group": "PRAC",
+      "cis": 1
+    },
+    {
+      "id": 478,
+      "label": "Equity of Access",
+      "group": "PRAC",
+      "cis": 9
+    },
+    {
+      "id": 479,
+      "label": "Digital Divide",
+      "group": "PRAC",
+      "cis": 3
+    },
+    {
+      "id": 480,
+      "label": "Cost Barrier to AI Schools",
+      "group": "PRAC",
+      "cis": 3
+    },
+    {
+      "id": 481,
+      "label": "Closing or Widening Gaps",
+      "group": "PRAC",
+      "cis": 2
+    },
+    {
+      "id": 482,
+      "label": "Sustaining Change",
+      "group": "PRAC",
+      "cis": 5
+    },
+    {
+      "id": 483,
+      "label": "Policy Embedding",
+      "group": "PRAC",
+      "cis": 2
+    },
+    {
+      "id": 484,
+      "label": "Hiring for New Roles",
+      "group": "PRAC",
+      "cis": 2
+    },
+    {
+      "id": 485,
+      "label": "Budget Reallocation",
+      "group": "PRAC",
+      "cis": 3
+    },
+    {
+      "id": 486,
+      "label": "Culture Change Plan",
+      "group": "PRAC",
+      "cis": 1
+    },
+    {
+      "id": 487,
+      "label": "Storytelling",
+      "group": "CASE",
+      "shape": "box",
+      "cis": 74
+    },
+    {
+      "id": 488,
+      "label": "Real Case Study",
+      "group": "CASE",
+      "cis": 69
+    },
+    {
+      "id": 489,
+      "label": "Composite Story",
+      "group": "CASE",
+      "cis": 2
+    },
+    {
+      "id": 490,
+      "label": "Illustrated Story",
+      "group": "CASE",
+      "cis": 2
+    },
+    {
+      "id": 491,
+      "label": "Graphic Novel Scene",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 492,
+      "label": "Lesson From a Case",
+      "group": "CASE",
+      "cis": 12
+    },
+    {
+      "id": 493,
+      "label": "Benefits of AI-First Schools",
+      "group": "CASE",
+      "cis": 12
+    },
+    {
+      "id": 494,
+      "label": "Risks of AI-First Schools",
+      "group": "CASE",
+      "cis": 12
+    },
+    {
+      "id": 495,
+      "label": "Risk-and-Response Framework",
+      "group": "CASE",
+      "cis": 11
+    },
+    {
+      "id": 496,
+      "label": "Strengthen the Positives",
+      "group": "CASE",
+      "cis": 2
+    },
+    {
+      "id": 497,
+      "label": "Reduce the Negatives",
+      "group": "CASE",
+      "cis": 5
+    },
+    {
+      "id": 498,
+      "label": "Risk Mitigation",
+      "group": "CASE",
+      "cis": 4
+    },
+    {
+      "id": 499,
+      "label": "Pilot Risk Checklist",
+      "group": "PRAC",
+      "cis": 2
+    },
+    {
+      "id": 500,
+      "label": "Two-Sided Story",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 501,
+      "label": "Alpha School",
+      "group": "CASE",
+      "cis": 15
+    },
+    {
+      "id": 502,
+      "label": "Alpha Tuition Range",
+      "group": "CASE",
+      "cis": 3
+    },
+    {
+      "id": 503,
+      "label": "Alpha Adult Guides",
+      "group": "CASE",
+      "cis": 4
+    },
+    {
+      "id": 504,
+      "label": "Nigeria AI Tutoring Pilot",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 505,
+      "label": "Tutor CoPilot",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 506,
+      "label": "Estonia AI Leap",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 507,
+      "label": "David Game College",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 508,
+      "label": "Turkish High School Study",
+      "group": "CASE",
+      "cis": 11
+    },
+    {
+      "id": 509,
+      "label": "Design Over Raw AI Power",
+      "group": "MORN",
+      "cis": 10
+    },
+    {
+      "id": 510,
+      "label": "Harvard Physics AI Tutor",
+      "group": "CASE",
+      "cis": 9
+    },
+    {
+      "id": 511,
+      "label": "Two-to-Three-Hour Learning",
+      "group": "MORN",
+      "cis": 8
+    },
+    {
+      "id": 512,
+      "label": "2 Hour Learning",
+      "group": "CASE",
+      "cis": 7
+    },
+    {
+      "id": 513,
+      "label": "Unbound Academy",
+      "group": "CASE",
+      "cis": 6
+    },
+    {
+      "id": 514,
+      "label": "Software Is Not the Model",
+      "group": "CASE",
+      "cis": 3
+    },
+    {
+      "id": 515,
+      "label": "Affordable Alpha Model",
+      "group": "CASE",
+      "cis": 2
+    },
+    {
+      "id": 516,
+      "label": "Evaluating Result Claims",
+      "group": "CASE",
+      "cis": 2
+    },
+    {
+      "id": 517,
+      "label": "School Board Recommendation",
+      "group": "PRAC",
+      "cis": 1
+    },
+    {
+      "id": 518,
+      "label": "Your Brain on ChatGPT",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 519,
+      "label": "Khanmigo",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 520,
+      "label": "LAUSD Ed Chatbot",
+      "group": "CASE",
+      "cis": 2
+    },
+    {
+      "id": 521,
+      "label": "AllHere Collapse",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 522,
+      "label": "AltSchool",
+      "group": "CASE",
+      "cis": 2
+    },
+    {
+      "id": 523,
+      "label": "Summit Learning",
+      "group": "CASE",
+      "cis": 3
+    },
+    {
+      "id": 524,
+      "label": "Student Walkouts",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 525,
+      "label": "inBloom",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 526,
+      "label": "PowerSchool Data Breach",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 527,
+      "label": "LAUSD iPad Rollout",
+      "group": "CASE",
+      "cis": 2
+    },
+    {
+      "id": 528,
+      "label": "Why School Reforms Fail",
+      "group": "ADOPT",
+      "cis": 1
+    },
+    {
+      "id": 529,
+      "label": "High Tech High",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 530,
+      "label": "Finland's Phenomenon Learning",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 531,
+      "label": "El Sistema",
+      "group": "CASE",
+      "cis": 1
+    },
+    {
+      "id": 532,
+      "label": "Stanford Detector Study",
+      "group": "CASE",
+      "cis": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 6,
+      "to": 1
+    },
+    {
+      "from": 7,
+      "to": 2
+    },
+    {
+      "from": 8,
+      "to": 2
+    },
+    {
+      "from": 9,
+      "to": 1
+    },
+    {
+      "from": 9,
+      "to": 2
+    },
+    {
+      "from": 10,
+      "to": 4
+    },
+    {
+      "from": 10,
+      "to": 5
+    },
+    {
+      "from": 10,
+      "to": 7
+    },
+    {
+      "from": 11,
+      "to": 10
+    },
+    {
+      "from": 12,
+      "to": 8
+    },
+    {
+      "from": 12,
+      "to": 10
+    },
+    {
+      "from": 13,
+      "to": 12
+    },
+    {
+      "from": 14,
+      "to": 8
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 8
+    },
+    {
+      "from": 17,
+      "to": 3
+    },
+    {
+      "from": 17,
+      "to": 5
+    },
+    {
+      "from": 18,
+      "to": 11
+    },
+    {
+      "from": 18,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 5
+    },
+    {
+      "from": 20,
+      "to": 19
+    },
+    {
+      "from": 21,
+      "to": 20
+    },
+    {
+      "from": 22,
+      "to": 5
+    },
+    {
+      "from": 23,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 19
+    },
+    {
+      "from": 25,
+      "to": 19
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 19
+    },
+    {
+      "from": 28,
+      "to": 27
+    },
+    {
+      "from": 29,
+      "to": 28
+    },
+    {
+      "from": 30,
+      "to": 2
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 2
+    },
+    {
+      "from": 33,
+      "to": 2
+    },
+    {
+      "from": 33,
+      "to": 30
+    },
+    {
+      "from": 34,
+      "to": 2
+    },
+    {
+      "from": 35,
+      "to": 2
+    },
+    {
+      "from": 36,
+      "to": 1
+    },
+    {
+      "from": 37,
+      "to": 2
+    },
+    {
+      "from": 37,
+      "to": 36
+    },
+    {
+      "from": 38,
+      "to": 2
+    },
+    {
+      "from": 39,
+      "to": 38
+    },
+    {
+      "from": 40,
+      "to": 3
+    },
+    {
+      "from": 41,
+      "to": 3
+    },
+    {
+      "from": 41,
+      "to": 5
+    },
+    {
+      "from": 42,
+      "to": 17
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 41
+    },
+    {
+      "from": 44,
+      "to": 43
+    },
+    {
+      "from": 45,
+      "to": 41
+    },
+    {
+      "from": 46,
+      "to": 3
+    },
+    {
+      "from": 47,
+      "to": 4
+    },
+    {
+      "from": 48,
+      "to": 47
+    },
+    {
+      "from": 49,
+      "to": 1
+    },
+    {
+      "from": 50,
+      "to": 49
+    },
+    {
+      "from": 51,
+      "to": 1
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 52
+    },
+    {
+      "from": 54,
+      "to": 19
+    },
+    {
+      "from": 54,
+      "to": 53
+    },
+    {
+      "from": 55,
+      "to": 51
+    },
+    {
+      "from": 56,
+      "to": 51
+    },
+    {
+      "from": 57,
+      "to": 51
+    },
+    {
+      "from": 58,
+      "to": 51
+    },
+    {
+      "from": 59,
+      "to": 5
+    },
+    {
+      "from": 60,
+      "to": 5
+    },
+    {
+      "from": 61,
+      "to": 5
+    },
+    {
+      "from": 62,
+      "to": 24
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 66,
+      "to": 65
+    },
+    {
+      "from": 67,
+      "to": 65
+    },
+    {
+      "from": 68,
+      "to": 65
+    },
+    {
+      "from": 69,
+      "to": 65
+    },
+    {
+      "from": 70,
+      "to": 63
+    },
+    {
+      "from": 71,
+      "to": 70
+    },
+    {
+      "from": 72,
+      "to": 71
+    },
+    {
+      "from": 73,
+      "to": 70
+    },
+    {
+      "from": 73,
+      "to": 72
+    },
+    {
+      "from": 74,
+      "to": 73
+    },
+    {
+      "from": 75,
+      "to": 73
+    },
+    {
+      "from": 76,
+      "to": 71
+    },
+    {
+      "from": 76,
+      "to": 72
+    },
+    {
+      "from": 77,
+      "to": 69
+    },
+    {
+      "from": 77,
+      "to": 73
+    },
+    {
+      "from": 78,
+      "to": 73
+    },
+    {
+      "from": 81,
+      "to": 79
+    },
+    {
+      "from": 82,
+      "to": 73
+    },
+    {
+      "from": 82,
+      "to": 74
+    },
+    {
+      "from": 82,
+      "to": 75
+    },
+    {
+      "from": 82,
+      "to": 76
+    },
+    {
+      "from": 82,
+      "to": 77
+    },
+    {
+      "from": 82,
+      "to": 78
+    },
+    {
+      "from": 82,
+      "to": 81
+    },
+    {
+      "from": 83,
+      "to": 79
+    },
+    {
+      "from": 84,
+      "to": 83
+    },
+    {
+      "from": 85,
+      "to": 79
+    },
+    {
+      "from": 85,
+      "to": 80
+    },
+    {
+      "from": 86,
+      "to": 85
+    },
+    {
+      "from": 87,
+      "to": 82
+    },
+    {
+      "from": 87,
+      "to": 86
+    },
+    {
+      "from": 88,
+      "to": 85
+    },
+    {
+      "from": 89,
+      "to": 70
+    },
+    {
+      "from": 90,
+      "to": 88
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 65
+    },
+    {
+      "from": 92,
+      "to": 82
+    },
+    {
+      "from": 92,
+      "to": 91
+    },
+    {
+      "from": 93,
+      "to": 88
+    },
+    {
+      "from": 94,
+      "to": 49
+    },
+    {
+      "from": 94,
+      "to": 63
+    },
+    {
+      "from": 95,
+      "to": 94
+    },
+    {
+      "from": 96,
+      "to": 91
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 87
+    },
+    {
+      "from": 98,
+      "to": 93
+    },
+    {
+      "from": 98,
+      "to": 94
+    },
+    {
+      "from": 99,
+      "to": 88
+    },
+    {
+      "from": 99,
+      "to": 98
+    },
+    {
+      "from": 100,
+      "to": 90
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 6
+    },
+    {
+      "from": 102,
+      "to": 101
+    },
+    {
+      "from": 103,
+      "to": 101
+    },
+    {
+      "from": 104,
+      "to": 103
+    },
+    {
+      "from": 105,
+      "to": 94
+    },
+    {
+      "from": 105,
+      "to": 103
+    },
+    {
+      "from": 106,
+      "to": 105
+    },
+    {
+      "from": 108,
+      "to": 107
+    },
+    {
+      "from": 109,
+      "to": 108
+    },
+    {
+      "from": 110,
+      "to": 107
+    },
+    {
+      "from": 111,
+      "to": 108
+    },
+    {
+      "from": 112,
+      "to": 110
+    },
+    {
+      "from": 113,
+      "to": 105
+    },
+    {
+      "from": 113,
+      "to": 109
+    },
+    {
+      "from": 113,
+      "to": 110
+    },
+    {
+      "from": 114,
+      "to": 102
+    },
+    {
+      "from": 114,
+      "to": 104
+    },
+    {
+      "from": 114,
+      "to": 113
+    },
+    {
+      "from": 115,
+      "to": 114
+    },
+    {
+      "from": 116,
+      "to": 115
+    },
+    {
+      "from": 117,
+      "to": 67
+    },
+    {
+      "from": 117,
+      "to": 116
+    },
+    {
+      "from": 118,
+      "to": 66
+    },
+    {
+      "from": 118,
+      "to": 117
+    },
+    {
+      "from": 119,
+      "to": 115
+    },
+    {
+      "from": 120,
+      "to": 115
+    },
+    {
+      "from": 121,
+      "to": 41
+    },
+    {
+      "from": 121,
+      "to": 116
+    },
+    {
+      "from": 122,
+      "to": 116
+    },
+    {
+      "from": 123,
+      "to": 117
+    },
+    {
+      "from": 124,
+      "to": 118
+    },
+    {
+      "from": 125,
+      "to": 118
+    },
+    {
+      "from": 126,
+      "to": 113
+    },
+    {
+      "from": 127,
+      "to": 126
+    },
+    {
+      "from": 128,
+      "to": 126
+    },
+    {
+      "from": 129,
+      "to": 128
+    },
+    {
+      "from": 130,
+      "to": 127
+    },
+    {
+      "from": 130,
+      "to": 129
+    },
+    {
+      "from": 131,
+      "to": 36
+    },
+    {
+      "from": 131,
+      "to": 111
+    },
+    {
+      "from": 131,
+      "to": 126
+    },
+    {
+      "from": 132,
+      "to": 98
+    },
+    {
+      "from": 132,
+      "to": 113
+    },
+    {
+      "from": 133,
+      "to": 106
+    },
+    {
+      "from": 133,
+      "to": 115
+    },
+    {
+      "from": 134,
+      "to": 118
+    },
+    {
+      "from": 134,
+      "to": 124
+    },
+    {
+      "from": 134,
+      "to": 125
+    },
+    {
+      "from": 134,
+      "to": 132
+    },
+    {
+      "from": 135,
+      "to": 101
+    },
+    {
+      "from": 136,
+      "to": 101
+    },
+    {
+      "from": 137,
+      "to": 136
+    },
+    {
+      "from": 138,
+      "to": 137
+    },
+    {
+      "from": 139,
+      "to": 101
+    },
+    {
+      "from": 140,
+      "to": 139
+    },
+    {
+      "from": 141,
+      "to": 140
+    },
+    {
+      "from": 142,
+      "to": 140
+    },
+    {
+      "from": 143,
+      "to": 139
+    },
+    {
+      "from": 143,
+      "to": 141
+    },
+    {
+      "from": 144,
+      "to": 66
+    },
+    {
+      "from": 144,
+      "to": 135
+    },
+    {
+      "from": 145,
+      "to": 92
+    },
+    {
+      "from": 145,
+      "to": 144
+    },
+    {
+      "from": 146,
+      "to": 115
+    },
+    {
+      "from": 146,
+      "to": 145
+    },
+    {
+      "from": 147,
+      "to": 31
+    },
+    {
+      "from": 147,
+      "to": 138
+    },
+    {
+      "from": 147,
+      "to": 146
+    },
+    {
+      "from": 148,
+      "to": 137
+    },
+    {
+      "from": 148,
+      "to": 146
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 150,
+      "to": 101
+    },
+    {
+      "from": 151,
+      "to": 139
+    },
+    {
+      "from": 151,
+      "to": 150
+    },
+    {
+      "from": 152,
+      "to": 151
+    },
+    {
+      "from": 153,
+      "to": 142
+    },
+    {
+      "from": 153,
+      "to": 151
+    },
+    {
+      "from": 154,
+      "to": 144
+    },
+    {
+      "from": 154,
+      "to": 151
+    },
+    {
+      "from": 154,
+      "to": 152
+    },
+    {
+      "from": 154,
+      "to": 153
+    },
+    {
+      "from": 155,
+      "to": 133
+    },
+    {
+      "from": 155,
+      "to": 143
+    },
+    {
+      "from": 155,
+      "to": 147
+    },
+    {
+      "from": 155,
+      "to": 154
+    },
+    {
+      "from": 156,
+      "to": 31
+    },
+    {
+      "from": 157,
+      "to": 156
+    },
+    {
+      "from": 158,
+      "to": 115
+    },
+    {
+      "from": 158,
+      "to": 157
+    },
+    {
+      "from": 159,
+      "to": 116
+    },
+    {
+      "from": 159,
+      "to": 157
+    },
+    {
+      "from": 160,
+      "to": 91
+    },
+    {
+      "from": 160,
+      "to": 117
+    },
+    {
+      "from": 160,
+      "to": 157
+    },
+    {
+      "from": 161,
+      "to": 157
+    },
+    {
+      "from": 161,
+      "to": 158
+    },
+    {
+      "from": 161,
+      "to": 159
+    },
+    {
+      "from": 161,
+      "to": 160
+    },
+    {
+      "from": 163,
+      "to": 162
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 144
+    },
+    {
+      "from": 165,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 164
+    },
+    {
+      "from": 166,
+      "to": 23
+    },
+    {
+      "from": 166,
+      "to": 105
+    },
+    {
+      "from": 167,
+      "to": 166
+    },
+    {
+      "from": 168,
+      "to": 23
+    },
+    {
+      "from": 168,
+      "to": 166
+    },
+    {
+      "from": 169,
+      "to": 168
+    },
+    {
+      "from": 170,
+      "to": 167
+    },
+    {
+      "from": 170,
+      "to": 168
+    },
+    {
+      "from": 171,
+      "to": 168
+    },
+    {
+      "from": 171,
+      "to": 169
+    },
+    {
+      "from": 172,
+      "to": 24
+    },
+    {
+      "from": 173,
+      "to": 119
+    },
+    {
+      "from": 174,
+      "to": 162
+    },
+    {
+      "from": 174,
+      "to": 173
+    },
+    {
+      "from": 175,
+      "to": 173
+    },
+    {
+      "from": 176,
+      "to": 172
+    },
+    {
+      "from": 177,
+      "to": 176
+    },
+    {
+      "from": 178,
+      "to": 177
+    },
+    {
+      "from": 179,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 177
+    },
+    {
+      "from": 181,
+      "to": 179
+    },
+    {
+      "from": 181,
+      "to": 180
+    },
+    {
+      "from": 182,
+      "to": 180
+    },
+    {
+      "from": 183,
+      "to": 182
+    },
+    {
+      "from": 184,
+      "to": 49
+    },
+    {
+      "from": 185,
+      "to": 177
+    },
+    {
+      "from": 185,
+      "to": 184
+    },
+    {
+      "from": 186,
+      "to": 185
+    },
+    {
+      "from": 187,
+      "to": 185
+    },
+    {
+      "from": 188,
+      "to": 49
+    },
+    {
+      "from": 189,
+      "to": 188
+    },
+    {
+      "from": 190,
+      "to": 163
+    },
+    {
+      "from": 190,
+      "to": 189
+    },
+    {
+      "from": 191,
+      "to": 122
+    },
+    {
+      "from": 191,
+      "to": 172
+    },
+    {
+      "from": 192,
+      "to": 3
+    },
+    {
+      "from": 193,
+      "to": 192
+    },
+    {
+      "from": 194,
+      "to": 193
+    },
+    {
+      "from": 195,
+      "to": 194
+    },
+    {
+      "from": 196,
+      "to": 194
+    },
+    {
+      "from": 197,
+      "to": 194
+    },
+    {
+      "from": 198,
+      "to": 116
+    },
+    {
+      "from": 198,
+      "to": 194
+    },
+    {
+      "from": 199,
+      "to": 181
+    },
+    {
+      "from": 199,
+      "to": 198
+    },
+    {
+      "from": 200,
+      "to": 199
+    },
+    {
+      "from": 201,
+      "to": 194
+    },
+    {
+      "from": 202,
+      "to": 201
+    },
+    {
+      "from": 203,
+      "to": 40
+    },
+    {
+      "from": 203,
+      "to": 201
+    },
+    {
+      "from": 204,
+      "to": 201
+    },
+    {
+      "from": 205,
+      "to": 183
+    },
+    {
+      "from": 205,
+      "to": 201
+    },
+    {
+      "from": 206,
+      "to": 198
+    },
+    {
+      "from": 206,
+      "to": 201
+    },
+    {
+      "from": 207,
+      "to": 40
+    },
+    {
+      "from": 207,
+      "to": 206
+    },
+    {
+      "from": 208,
+      "to": 64
+    },
+    {
+      "from": 209,
+      "to": 200
+    },
+    {
+      "from": 209,
+      "to": 201
+    },
+    {
+      "from": 209,
+      "to": 208
+    },
+    {
+      "from": 210,
+      "to": 208
+    },
+    {
+      "from": 211,
+      "to": 192
+    },
+    {
+      "from": 212,
+      "to": 211
+    },
+    {
+      "from": 213,
+      "to": 199
+    },
+    {
+      "from": 213,
+      "to": 211
+    },
+    {
+      "from": 214,
+      "to": 211
+    },
+    {
+      "from": 215,
+      "to": 94
+    },
+    {
+      "from": 215,
+      "to": 194
+    },
+    {
+      "from": 216,
+      "to": 215
+    },
+    {
+      "from": 217,
+      "to": 195
+    },
+    {
+      "from": 217,
+      "to": 196
+    },
+    {
+      "from": 217,
+      "to": 197
+    },
+    {
+      "from": 217,
+      "to": 198
+    },
+    {
+      "from": 217,
+      "to": 201
+    },
+    {
+      "from": 217,
+      "to": 202
+    },
+    {
+      "from": 217,
+      "to": 203
+    },
+    {
+      "from": 217,
+      "to": 204
+    },
+    {
+      "from": 217,
+      "to": 205
+    },
+    {
+      "from": 217,
+      "to": 209
+    },
+    {
+      "from": 217,
+      "to": 210
+    },
+    {
+      "from": 218,
+      "to": 5
+    },
+    {
+      "from": 218,
+      "to": 45
+    },
+    {
+      "from": 219,
+      "to": 172
+    },
+    {
+      "from": 219,
+      "to": 218
+    },
+    {
+      "from": 220,
+      "to": 219
+    },
+    {
+      "from": 221,
+      "to": 120
+    },
+    {
+      "from": 221,
+      "to": 121
+    },
+    {
+      "from": 221,
+      "to": 170
+    },
+    {
+      "from": 221,
+      "to": 171
+    },
+    {
+      "from": 221,
+      "to": 172
+    },
+    {
+      "from": 221,
+      "to": 220
+    },
+    {
+      "from": 222,
+      "to": 165
+    },
+    {
+      "from": 222,
+      "to": 180
+    },
+    {
+      "from": 222,
+      "to": 221
+    },
+    {
+      "from": 223,
+      "to": 174
+    },
+    {
+      "from": 223,
+      "to": 175
+    },
+    {
+      "from": 223,
+      "to": 222
+    },
+    {
+      "from": 224,
+      "to": 96
+    },
+    {
+      "from": 224,
+      "to": 223
+    },
+    {
+      "from": 225,
+      "to": 117
+    },
+    {
+      "from": 225,
+      "to": 160
+    },
+    {
+      "from": 225,
+      "to": 216
+    },
+    {
+      "from": 225,
+      "to": 223
+    },
+    {
+      "from": 226,
+      "to": 53
+    },
+    {
+      "from": 226,
+      "to": 219
+    },
+    {
+      "from": 227,
+      "to": 4
+    },
+    {
+      "from": 227,
+      "to": 5
+    },
+    {
+      "from": 228,
+      "to": 62
+    },
+    {
+      "from": 228,
+      "to": 67
+    },
+    {
+      "from": 228,
+      "to": 123
+    },
+    {
+      "from": 228,
+      "to": 226
+    },
+    {
+      "from": 228,
+      "to": 227
+    },
+    {
+      "from": 229,
+      "to": 228
+    },
+    {
+      "from": 230,
+      "to": 68
+    },
+    {
+      "from": 231,
+      "to": 68
+    },
+    {
+      "from": 231,
+      "to": 228
+    },
+    {
+      "from": 231,
+      "to": 230
+    },
+    {
+      "from": 232,
+      "to": 218
+    },
+    {
+      "from": 233,
+      "to": 27
+    },
+    {
+      "from": 233,
+      "to": 218
+    },
+    {
+      "from": 234,
+      "to": 8
+    },
+    {
+      "from": 234,
+      "to": 218
+    },
+    {
+      "from": 235,
+      "to": 59
+    },
+    {
+      "from": 235,
+      "to": 60
+    },
+    {
+      "from": 235,
+      "to": 155
+    },
+    {
+      "from": 235,
+      "to": 232
+    },
+    {
+      "from": 235,
+      "to": 233
+    },
+    {
+      "from": 235,
+      "to": 234
+    },
+    {
+      "from": 236,
+      "to": 10
+    },
+    {
+      "from": 236,
+      "to": 235
+    },
+    {
+      "from": 237,
+      "to": 236
+    },
+    {
+      "from": 238,
+      "to": 228
+    },
+    {
+      "from": 239,
+      "to": 238
+    },
+    {
+      "from": 240,
+      "to": 61
+    },
+    {
+      "from": 240,
+      "to": 228
+    },
+    {
+      "from": 241,
+      "to": 240
+    },
+    {
+      "from": 242,
+      "to": 241
+    },
+    {
+      "from": 243,
+      "to": 67
+    },
+    {
+      "from": 243,
+      "to": 238
+    },
+    {
+      "from": 243,
+      "to": 239
+    },
+    {
+      "from": 244,
+      "to": 229
+    },
+    {
+      "from": 244,
+      "to": 231
+    },
+    {
+      "from": 244,
+      "to": 240
+    },
+    {
+      "from": 244,
+      "to": 243
+    },
+    {
+      "from": 245,
+      "to": 21
+    },
+    {
+      "from": 246,
+      "to": 245
+    },
+    {
+      "from": 247,
+      "to": 246
+    },
+    {
+      "from": 248,
+      "to": 246
+    },
+    {
+      "from": 249,
+      "to": 246
+    },
+    {
+      "from": 250,
+      "to": 246
+    },
+    {
+      "from": 251,
+      "to": 245
+    },
+    {
+      "from": 252,
+      "to": 245
+    },
+    {
+      "from": 253,
+      "to": 228
+    },
+    {
+      "from": 253,
+      "to": 245
+    },
+    {
+      "from": 253,
+      "to": 246
+    },
+    {
+      "from": 254,
+      "to": 253
+    },
+    {
+      "from": 255,
+      "to": 46
+    },
+    {
+      "from": 255,
+      "to": 234
+    },
+    {
+      "from": 256,
+      "to": 18
+    },
+    {
+      "from": 256,
+      "to": 44
+    },
+    {
+      "from": 256,
+      "to": 234
+    },
+    {
+      "from": 258,
+      "to": 5
+    },
+    {
+      "from": 259,
+      "to": 5
+    },
+    {
+      "from": 259,
+      "to": 22
+    },
+    {
+      "from": 260,
+      "to": 258
+    },
+    {
+      "from": 260,
+      "to": 259
+    },
+    {
+      "from": 261,
+      "to": 259
+    },
+    {
+      "from": 262,
+      "to": 260
+    },
+    {
+      "from": 262,
+      "to": 261
+    },
+    {
+      "from": 263,
+      "to": 261
+    },
+    {
+      "from": 264,
+      "to": 262
+    },
+    {
+      "from": 264,
+      "to": 263
+    },
+    {
+      "from": 265,
+      "to": 257
+    },
+    {
+      "from": 266,
+      "to": 265
+    },
+    {
+      "from": 267,
+      "to": 265
+    },
+    {
+      "from": 268,
+      "to": 267
+    },
+    {
+      "from": 269,
+      "to": 267
+    },
+    {
+      "from": 270,
+      "to": 266
+    },
+    {
+      "from": 271,
+      "to": 266
+    },
+    {
+      "from": 272,
+      "to": 245
+    },
+    {
+      "from": 272,
+      "to": 251
+    },
+    {
+      "from": 272,
+      "to": 252
+    },
+    {
+      "from": 272,
+      "to": 266
+    },
+    {
+      "from": 272,
+      "to": 270
+    },
+    {
+      "from": 272,
+      "to": 271
+    },
+    {
+      "from": 273,
+      "to": 246
+    },
+    {
+      "from": 273,
+      "to": 264
+    },
+    {
+      "from": 273,
+      "to": 272
+    },
+    {
+      "from": 275,
+      "to": 274
+    },
+    {
+      "from": 276,
+      "to": 274
+    },
+    {
+      "from": 277,
+      "to": 257
+    },
+    {
+      "from": 278,
+      "to": 277
+    },
+    {
+      "from": 279,
+      "to": 277
+    },
+    {
+      "from": 280,
+      "to": 279
+    },
+    {
+      "from": 281,
+      "to": 267
+    },
+    {
+      "from": 281,
+      "to": 268
+    },
+    {
+      "from": 281,
+      "to": 279
+    },
+    {
+      "from": 281,
+      "to": 280
+    },
+    {
+      "from": 282,
+      "to": 281
+    },
+    {
+      "from": 283,
+      "to": 282
+    },
+    {
+      "from": 284,
+      "to": 254
+    },
+    {
+      "from": 284,
+      "to": 266
+    },
+    {
+      "from": 284,
+      "to": 277
+    },
+    {
+      "from": 284,
+      "to": 283
+    },
+    {
+      "from": 285,
+      "to": 8
+    },
+    {
+      "from": 285,
+      "to": 237
+    },
+    {
+      "from": 286,
+      "to": 257
+    },
+    {
+      "from": 286,
+      "to": 285
+    },
+    {
+      "from": 287,
+      "to": 258
+    },
+    {
+      "from": 287,
+      "to": 272
+    },
+    {
+      "from": 288,
+      "to": 287
+    },
+    {
+      "from": 289,
+      "to": 287
+    },
+    {
+      "from": 290,
+      "to": 287
+    },
+    {
+      "from": 291,
+      "to": 258
+    },
+    {
+      "from": 291,
+      "to": 260
+    },
+    {
+      "from": 292,
+      "to": 246
+    },
+    {
+      "from": 292,
+      "to": 247
+    },
+    {
+      "from": 292,
+      "to": 248
+    },
+    {
+      "from": 292,
+      "to": 249
+    },
+    {
+      "from": 292,
+      "to": 250
+    },
+    {
+      "from": 292,
+      "to": 285
+    },
+    {
+      "from": 293,
+      "to": 291
+    },
+    {
+      "from": 293,
+      "to": 292
+    },
+    {
+      "from": 294,
+      "to": 285
+    },
+    {
+      "from": 295,
+      "to": 286
+    },
+    {
+      "from": 295,
+      "to": 294
+    },
+    {
+      "from": 296,
+      "to": 285
+    },
+    {
+      "from": 297,
+      "to": 285
+    },
+    {
+      "from": 298,
+      "to": 285
+    },
+    {
+      "from": 299,
+      "to": 274
+    },
+    {
+      "from": 299,
+      "to": 275
+    },
+    {
+      "from": 299,
+      "to": 276
+    },
+    {
+      "from": 299,
+      "to": 294
+    },
+    {
+      "from": 299,
+      "to": 296
+    },
+    {
+      "from": 299,
+      "to": 297
+    },
+    {
+      "from": 299,
+      "to": 298
+    },
+    {
+      "from": 300,
+      "to": 285
+    },
+    {
+      "from": 301,
+      "to": 286
+    },
+    {
+      "from": 301,
+      "to": 300
+    },
+    {
+      "from": 302,
+      "to": 285
+    },
+    {
+      "from": 303,
+      "to": 285
+    },
+    {
+      "from": 304,
+      "to": 277
+    },
+    {
+      "from": 304,
+      "to": 278
+    },
+    {
+      "from": 304,
+      "to": 286
+    },
+    {
+      "from": 305,
+      "to": 285
+    },
+    {
+      "from": 306,
+      "to": 285
+    },
+    {
+      "from": 307,
+      "to": 306
+    },
+    {
+      "from": 308,
+      "to": 284
+    },
+    {
+      "from": 308,
+      "to": 286
+    },
+    {
+      "from": 309,
+      "to": 306
+    },
+    {
+      "from": 309,
+      "to": 307
+    },
+    {
+      "from": 309,
+      "to": 308
+    },
+    {
+      "from": 310,
+      "to": 273
+    },
+    {
+      "from": 310,
+      "to": 286
+    },
+    {
+      "from": 310,
+      "to": 287
+    },
+    {
+      "from": 310,
+      "to": 293
+    },
+    {
+      "from": 310,
+      "to": 299
+    },
+    {
+      "from": 310,
+      "to": 301
+    },
+    {
+      "from": 310,
+      "to": 302
+    },
+    {
+      "from": 310,
+      "to": 304
+    },
+    {
+      "from": 312,
+      "to": 311
+    },
+    {
+      "from": 313,
+      "to": 312
+    },
+    {
+      "from": 314,
+      "to": 313
+    },
+    {
+      "from": 315,
+      "to": 313
+    },
+    {
+      "from": 316,
+      "to": 313
+    },
+    {
+      "from": 317,
+      "to": 313
+    },
+    {
+      "from": 318,
+      "to": 313
+    },
+    {
+      "from": 319,
+      "to": 313
+    },
+    {
+      "from": 320,
+      "to": 312
+    },
+    {
+      "from": 321,
+      "to": 320
+    },
+    {
+      "from": 322,
+      "to": 320
+    },
+    {
+      "from": 323,
+      "to": 320
+    },
+    {
+      "from": 324,
+      "to": 320
+    },
+    {
+      "from": 325,
+      "to": 320
+    },
+    {
+      "from": 326,
+      "to": 312
+    },
+    {
+      "from": 327,
+      "to": 312
+    },
+    {
+      "from": 328,
+      "to": 316
+    },
+    {
+      "from": 328,
+      "to": 317
+    },
+    {
+      "from": 329,
+      "to": 328
+    },
+    {
+      "from": 330,
+      "to": 317
+    },
+    {
+      "from": 331,
+      "to": 329
+    },
+    {
+      "from": 331,
+      "to": 330
+    },
+    {
+      "from": 332,
+      "to": 329
+    },
+    {
+      "from": 333,
+      "to": 311
+    },
+    {
+      "from": 334,
+      "to": 333
+    },
+    {
+      "from": 335,
+      "to": 333
+    },
+    {
+      "from": 336,
+      "to": 333
+    },
+    {
+      "from": 337,
+      "to": 313
+    },
+    {
+      "from": 337,
+      "to": 321
+    },
+    {
+      "from": 337,
+      "to": 322
+    },
+    {
+      "from": 337,
+      "to": 323
+    },
+    {
+      "from": 337,
+      "to": 324
+    },
+    {
+      "from": 337,
+      "to": 325
+    },
+    {
+      "from": 338,
+      "to": 50
+    },
+    {
+      "from": 338,
+      "to": 333
+    },
+    {
+      "from": 338,
+      "to": 335
+    },
+    {
+      "from": 340,
+      "to": 339
+    },
+    {
+      "from": 341,
+      "to": 2
+    },
+    {
+      "from": 341,
+      "to": 340
+    },
+    {
+      "from": 342,
+      "to": 341
+    },
+    {
+      "from": 343,
+      "to": 341
+    },
+    {
+      "from": 344,
+      "to": 12
+    },
+    {
+      "from": 344,
+      "to": 341
+    },
+    {
+      "from": 344,
+      "to": 342
+    },
+    {
+      "from": 344,
+      "to": 343
+    },
+    {
+      "from": 345,
+      "to": 344
+    },
+    {
+      "from": 346,
+      "to": 340
+    },
+    {
+      "from": 347,
+      "to": 346
+    },
+    {
+      "from": 348,
+      "to": 346
+    },
+    {
+      "from": 349,
+      "to": 339
+    },
+    {
+      "from": 350,
+      "to": 349
+    },
+    {
+      "from": 351,
+      "to": 349
+    },
+    {
+      "from": 351,
+      "to": 350
+    },
+    {
+      "from": 352,
+      "to": 349
+    },
+    {
+      "from": 352,
+      "to": 351
+    },
+    {
+      "from": 353,
+      "to": 339
+    },
+    {
+      "from": 354,
+      "to": 353
+    },
+    {
+      "from": 355,
+      "to": 39
+    },
+    {
+      "from": 355,
+      "to": 353
+    },
+    {
+      "from": 355,
+      "to": 354
+    },
+    {
+      "from": 356,
+      "to": 339
+    },
+    {
+      "from": 357,
+      "to": 356
+    },
+    {
+      "from": 358,
+      "to": 356
+    },
+    {
+      "from": 358,
+      "to": 357
+    },
+    {
+      "from": 359,
+      "to": 356
+    },
+    {
+      "from": 359,
+      "to": 358
+    },
+    {
+      "from": 360,
+      "to": 356
+    },
+    {
+      "from": 360,
+      "to": 359
+    },
+    {
+      "from": 361,
+      "to": 356
+    },
+    {
+      "from": 361,
+      "to": 360
+    },
+    {
+      "from": 362,
+      "to": 339
+    },
+    {
+      "from": 363,
+      "to": 362
+    },
+    {
+      "from": 364,
+      "to": 362
+    },
+    {
+      "from": 364,
+      "to": 363
+    },
+    {
+      "from": 365,
+      "to": 362
+    },
+    {
+      "from": 365,
+      "to": 364
+    },
+    {
+      "from": 366,
+      "to": 362
+    },
+    {
+      "from": 367,
+      "to": 339
+    },
+    {
+      "from": 368,
+      "to": 367
+    },
+    {
+      "from": 369,
+      "to": 368
+    },
+    {
+      "from": 370,
+      "to": 369
+    },
+    {
+      "from": 371,
+      "to": 370
+    },
+    {
+      "from": 372,
+      "to": 368
+    },
+    {
+      "from": 373,
+      "to": 346
+    },
+    {
+      "from": 373,
+      "to": 372
+    },
+    {
+      "from": 374,
+      "to": 341
+    },
+    {
+      "from": 374,
+      "to": 346
+    },
+    {
+      "from": 374,
+      "to": 347
+    },
+    {
+      "from": 374,
+      "to": 348
+    },
+    {
+      "from": 374,
+      "to": 373
+    },
+    {
+      "from": 375,
+      "to": 368
+    },
+    {
+      "from": 376,
+      "to": 353
+    },
+    {
+      "from": 376,
+      "to": 355
+    },
+    {
+      "from": 376,
+      "to": 375
+    },
+    {
+      "from": 377,
+      "to": 376
+    },
+    {
+      "from": 378,
+      "to": 353
+    },
+    {
+      "from": 378,
+      "to": 377
+    },
+    {
+      "from": 379,
+      "to": 353
+    },
+    {
+      "from": 379,
+      "to": 378
+    },
+    {
+      "from": 380,
+      "to": 379
+    },
+    {
+      "from": 381,
+      "to": 341
+    },
+    {
+      "from": 381,
+      "to": 353
+    },
+    {
+      "from": 381,
+      "to": 380
+    },
+    {
+      "from": 382,
+      "to": 368
+    },
+    {
+      "from": 383,
+      "to": 368
+    },
+    {
+      "from": 384,
+      "to": 339
+    },
+    {
+      "from": 384,
+      "to": 341
+    },
+    {
+      "from": 385,
+      "to": 384
+    },
+    {
+      "from": 386,
+      "to": 384
+    },
+    {
+      "from": 387,
+      "to": 384
+    },
+    {
+      "from": 388,
+      "to": 112
+    },
+    {
+      "from": 388,
+      "to": 333
+    },
+    {
+      "from": 388,
+      "to": 334
+    },
+    {
+      "from": 388,
+      "to": 335
+    },
+    {
+      "from": 388,
+      "to": 336
+    },
+    {
+      "from": 388,
+      "to": 387
+    },
+    {
+      "from": 389,
+      "to": 4
+    },
+    {
+      "from": 389,
+      "to": 339
+    },
+    {
+      "from": 390,
+      "to": 389
+    },
+    {
+      "from": 391,
+      "to": 390
+    },
+    {
+      "from": 392,
+      "to": 390
+    },
+    {
+      "from": 392,
+      "to": 391
+    },
+    {
+      "from": 393,
+      "to": 390
+    },
+    {
+      "from": 393,
+      "to": 392
+    },
+    {
+      "from": 394,
+      "to": 389
+    },
+    {
+      "from": 395,
+      "to": 389
+    },
+    {
+      "from": 396,
+      "to": 339
+    },
+    {
+      "from": 397,
+      "to": 349
+    },
+    {
+      "from": 397,
+      "to": 353
+    },
+    {
+      "from": 397,
+      "to": 356
+    },
+    {
+      "from": 397,
+      "to": 361
+    },
+    {
+      "from": 397,
+      "to": 362
+    },
+    {
+      "from": 397,
+      "to": 365
+    },
+    {
+      "from": 397,
+      "to": 366
+    },
+    {
+      "from": 397,
+      "to": 374
+    },
+    {
+      "from": 397,
+      "to": 381
+    },
+    {
+      "from": 398,
+      "to": 339
+    },
+    {
+      "from": 399,
+      "to": 94
+    },
+    {
+      "from": 399,
+      "to": 396
+    },
+    {
+      "from": 400,
+      "to": 339
+    },
+    {
+      "from": 401,
+      "to": 396
+    },
+    {
+      "from": 401,
+      "to": 400
+    },
+    {
+      "from": 402,
+      "to": 316
+    },
+    {
+      "from": 402,
+      "to": 326
+    },
+    {
+      "from": 402,
+      "to": 327
+    },
+    {
+      "from": 402,
+      "to": 400
+    },
+    {
+      "from": 403,
+      "to": 324
+    },
+    {
+      "from": 403,
+      "to": 400
+    },
+    {
+      "from": 404,
+      "to": 400
+    },
+    {
+      "from": 405,
+      "to": 404
+    },
+    {
+      "from": 406,
+      "to": 400
+    },
+    {
+      "from": 406,
+      "to": 405
+    },
+    {
+      "from": 407,
+      "to": 406
+    },
+    {
+      "from": 408,
+      "to": 404
+    },
+    {
+      "from": 409,
+      "to": 325
+    },
+    {
+      "from": 409,
+      "to": 379
+    },
+    {
+      "from": 409,
+      "to": 400
+    },
+    {
+      "from": 409,
+      "to": 408
+    },
+    {
+      "from": 410,
+      "to": 404
+    },
+    {
+      "from": 411,
+      "to": 400
+    },
+    {
+      "from": 411,
+      "to": 410
+    },
+    {
+      "from": 412,
+      "to": 4
+    },
+    {
+      "from": 412,
+      "to": 400
+    },
+    {
+      "from": 413,
+      "to": 382
+    },
+    {
+      "from": 413,
+      "to": 400
+    },
+    {
+      "from": 414,
+      "to": 4
+    },
+    {
+      "from": 415,
+      "to": 4
+    },
+    {
+      "from": 415,
+      "to": 383
+    },
+    {
+      "from": 416,
+      "to": 4
+    },
+    {
+      "from": 416,
+      "to": 95
+    },
+    {
+      "from": 416,
+      "to": 415
+    },
+    {
+      "from": 417,
+      "to": 339
+    },
+    {
+      "from": 418,
+      "to": 398
+    },
+    {
+      "from": 418,
+      "to": 417
+    },
+    {
+      "from": 419,
+      "to": 390
+    },
+    {
+      "from": 419,
+      "to": 417
+    },
+    {
+      "from": 419,
+      "to": 418
+    },
+    {
+      "from": 420,
+      "to": 277
+    },
+    {
+      "from": 420,
+      "to": 278
+    },
+    {
+      "from": 420,
+      "to": 417
+    },
+    {
+      "from": 420,
+      "to": 419
+    },
+    {
+      "from": 421,
+      "to": 4
+    },
+    {
+      "from": 421,
+      "to": 417
+    },
+    {
+      "from": 422,
+      "to": 4
+    },
+    {
+      "from": 423,
+      "to": 2
+    },
+    {
+      "from": 424,
+      "to": 313
+    },
+    {
+      "from": 424,
+      "to": 315
+    },
+    {
+      "from": 424,
+      "to": 318
+    },
+    {
+      "from": 424,
+      "to": 319
+    },
+    {
+      "from": 424,
+      "to": 423
+    },
+    {
+      "from": 425,
+      "to": 423
+    },
+    {
+      "from": 426,
+      "to": 40
+    },
+    {
+      "from": 426,
+      "to": 425
+    },
+    {
+      "from": 427,
+      "to": 426
+    },
+    {
+      "from": 428,
+      "to": 425
+    },
+    {
+      "from": 429,
+      "to": 37
+    },
+    {
+      "from": 429,
+      "to": 425
+    },
+    {
+      "from": 430,
+      "to": 41
+    },
+    {
+      "from": 430,
+      "to": 425
+    },
+    {
+      "from": 431,
+      "to": 421
+    },
+    {
+      "from": 431,
+      "to": 422
+    },
+    {
+      "from": 431,
+      "to": 425
+    },
+    {
+      "from": 432,
+      "to": 390
+    },
+    {
+      "from": 432,
+      "to": 393
+    },
+    {
+      "from": 432,
+      "to": 394
+    },
+    {
+      "from": 432,
+      "to": 400
+    },
+    {
+      "from": 433,
+      "to": 313
+    },
+    {
+      "from": 433,
+      "to": 400
+    },
+    {
+      "from": 434,
+      "to": 402
+    },
+    {
+      "from": 434,
+      "to": 407
+    },
+    {
+      "from": 434,
+      "to": 409
+    },
+    {
+      "from": 434,
+      "to": 411
+    },
+    {
+      "from": 434,
+      "to": 412
+    },
+    {
+      "from": 434,
+      "to": 413
+    },
+    {
+      "from": 434,
+      "to": 432
+    },
+    {
+      "from": 434,
+      "to": 433
+    },
+    {
+      "from": 435,
+      "to": 4
+    },
+    {
+      "from": 435,
+      "to": 414
+    },
+    {
+      "from": 436,
+      "to": 4
+    },
+    {
+      "from": 437,
+      "to": 4
+    },
+    {
+      "from": 438,
+      "to": 236
+    },
+    {
+      "from": 438,
+      "to": 435
+    },
+    {
+      "from": 438,
+      "to": 436
+    },
+    {
+      "from": 438,
+      "to": 437
+    },
+    {
+      "from": 439,
+      "to": 438
+    },
+    {
+      "from": 440,
+      "to": 228
+    },
+    {
+      "from": 440,
+      "to": 438
+    },
+    {
+      "from": 441,
+      "to": 2
+    },
+    {
+      "from": 441,
+      "to": 94
+    },
+    {
+      "from": 442,
+      "to": 234
+    },
+    {
+      "from": 442,
+      "to": 285
+    },
+    {
+      "from": 443,
+      "to": 9
+    },
+    {
+      "from": 443,
+      "to": 155
+    },
+    {
+      "from": 443,
+      "to": 441
+    },
+    {
+      "from": 443,
+      "to": 442
+    },
+    {
+      "from": 444,
+      "to": 235
+    },
+    {
+      "from": 444,
+      "to": 255
+    },
+    {
+      "from": 444,
+      "to": 256
+    },
+    {
+      "from": 444,
+      "to": 309
+    },
+    {
+      "from": 444,
+      "to": 310
+    },
+    {
+      "from": 444,
+      "to": 443
+    },
+    {
+      "from": 445,
+      "to": 16
+    },
+    {
+      "from": 445,
+      "to": 444
+    },
+    {
+      "from": 446,
+      "to": 445
+    },
+    {
+      "from": 447,
+      "to": 438
+    },
+    {
+      "from": 447,
+      "to": 445
+    },
+    {
+      "from": 448,
+      "to": 285
+    },
+    {
+      "from": 448,
+      "to": 305
+    },
+    {
+      "from": 448,
+      "to": 447
+    },
+    {
+      "from": 449,
+      "to": 13
+    },
+    {
+      "from": 449,
+      "to": 444
+    },
+    {
+      "from": 450,
+      "to": 449
+    },
+    {
+      "from": 451,
+      "to": 449
+    },
+    {
+      "from": 452,
+      "to": 446
+    },
+    {
+      "from": 452,
+      "to": 449
+    },
+    {
+      "from": 453,
+      "to": 38
+    },
+    {
+      "from": 454,
+      "to": 126
+    },
+    {
+      "from": 454,
+      "to": 130
+    },
+    {
+      "from": 454,
+      "to": 131
+    },
+    {
+      "from": 454,
+      "to": 149
+    },
+    {
+      "from": 454,
+      "to": 186
+    },
+    {
+      "from": 454,
+      "to": 187
+    },
+    {
+      "from": 454,
+      "to": 453
+    },
+    {
+      "from": 455,
+      "to": 212
+    },
+    {
+      "from": 455,
+      "to": 214
+    },
+    {
+      "from": 455,
+      "to": 454
+    },
+    {
+      "from": 456,
+      "to": 455
+    },
+    {
+      "from": 457,
+      "to": 453
+    },
+    {
+      "from": 458,
+      "to": 455
+    },
+    {
+      "from": 459,
+      "to": 134
+    },
+    {
+      "from": 459,
+      "to": 217
+    },
+    {
+      "from": 459,
+      "to": 337
+    },
+    {
+      "from": 459,
+      "to": 416
+    },
+    {
+      "from": 459,
+      "to": 444
+    },
+    {
+      "from": 460,
+      "to": 388
+    },
+    {
+      "from": 460,
+      "to": 395
+    },
+    {
+      "from": 460,
+      "to": 403
+    },
+    {
+      "from": 460,
+      "to": 426
+    },
+    {
+      "from": 460,
+      "to": 444
+    },
+    {
+      "from": 460,
+      "to": 459
+    },
+    {
+      "from": 461,
+      "to": 388
+    },
+    {
+      "from": 461,
+      "to": 460
+    },
+    {
+      "from": 462,
+      "to": 19
+    },
+    {
+      "from": 462,
+      "to": 460
+    },
+    {
+      "from": 462,
+      "to": 461
+    },
+    {
+      "from": 463,
+      "to": 201
+    },
+    {
+      "from": 463,
+      "to": 456
+    },
+    {
+      "from": 463,
+      "to": 460
+    },
+    {
+      "from": 464,
+      "to": 314
+    },
+    {
+      "from": 464,
+      "to": 329
+    },
+    {
+      "from": 464,
+      "to": 331
+    },
+    {
+      "from": 464,
+      "to": 332
+    },
+    {
+      "from": 464,
+      "to": 460
+    },
+    {
+      "from": 464,
+      "to": 463
+    },
+    {
+      "from": 465,
+      "to": 24
+    },
+    {
+      "from": 465,
+      "to": 25
+    },
+    {
+      "from": 466,
+      "to": 191
+    },
+    {
+      "from": 466,
+      "to": 219
+    },
+    {
+      "from": 466,
+      "to": 465
+    },
+    {
+      "from": 467,
+      "to": 465
+    },
+    {
+      "from": 468,
+      "to": 465
+    },
+    {
+      "from": 469,
+      "to": 266
+    },
+    {
+      "from": 469,
+      "to": 269
+    },
+    {
+      "from": 469,
+      "to": 468
+    },
+    {
+      "from": 470,
+      "to": 238
+    },
+    {
+      "from": 470,
+      "to": 465
+    },
+    {
+      "from": 471,
+      "to": 470
+    },
+    {
+      "from": 472,
+      "to": 471
+    },
+    {
+      "from": 473,
+      "to": 208
+    },
+    {
+      "from": 473,
+      "to": 472
+    },
+    {
+      "from": 474,
+      "to": 470
+    },
+    {
+      "from": 474,
+      "to": 473
+    },
+    {
+      "from": 475,
+      "to": 466
+    },
+    {
+      "from": 475,
+      "to": 467
+    },
+    {
+      "from": 475,
+      "to": 468
+    },
+    {
+      "from": 475,
+      "to": 469
+    },
+    {
+      "from": 475,
+      "to": 474
+    },
+    {
+      "from": 476,
+      "to": 26
+    },
+    {
+      "from": 476,
+      "to": 56
+    },
+    {
+      "from": 476,
+      "to": 309
+    },
+    {
+      "from": 476,
+      "to": 462
+    },
+    {
+      "from": 476,
+      "to": 475
+    },
+    {
+      "from": 477,
+      "to": 52
+    },
+    {
+      "from": 477,
+      "to": 476
+    },
+    {
+      "from": 478,
+      "to": 29
+    },
+    {
+      "from": 478,
+      "to": 188
+    },
+    {
+      "from": 479,
+      "to": 189
+    },
+    {
+      "from": 479,
+      "to": 190
+    },
+    {
+      "from": 479,
+      "to": 478
+    },
+    {
+      "from": 480,
+      "to": 32
+    },
+    {
+      "from": 480,
+      "to": 478
+    },
+    {
+      "from": 481,
+      "to": 28
+    },
+    {
+      "from": 481,
+      "to": 478
+    },
+    {
+      "from": 481,
+      "to": 479
+    },
+    {
+      "from": 482,
+      "to": 352
+    },
+    {
+      "from": 482,
+      "to": 381
+    },
+    {
+      "from": 483,
+      "to": 15
+    },
+    {
+      "from": 483,
+      "to": 36
+    },
+    {
+      "from": 483,
+      "to": 482
+    },
+    {
+      "from": 484,
+      "to": 447
+    },
+    {
+      "from": 484,
+      "to": 482
+    },
+    {
+      "from": 485,
+      "to": 161
+    },
+    {
+      "from": 485,
+      "to": 447
+    },
+    {
+      "from": 485,
+      "to": 448
+    },
+    {
+      "from": 486,
+      "to": 385
+    },
+    {
+      "from": 486,
+      "to": 386
+    },
+    {
+      "from": 486,
+      "to": 397
+    },
+    {
+      "from": 486,
+      "to": 401
+    },
+    {
+      "from": 486,
+      "to": 420
+    },
+    {
+      "from": 486,
+      "to": 424
+    },
+    {
+      "from": 486,
+      "to": 427
+    },
+    {
+      "from": 486,
+      "to": 428
+    },
+    {
+      "from": 486,
+      "to": 431
+    },
+    {
+      "from": 486,
+      "to": 434
+    },
+    {
+      "from": 486,
+      "to": 460
+    },
+    {
+      "from": 486,
+      "to": 483
+    },
+    {
+      "from": 486,
+      "to": 484
+    },
+    {
+      "from": 488,
+      "to": 58
+    },
+    {
+      "from": 488,
+      "to": 487
+    },
+    {
+      "from": 489,
+      "to": 487
+    },
+    {
+      "from": 490,
+      "to": 487
+    },
+    {
+      "from": 491,
+      "to": 490
+    },
+    {
+      "from": 492,
+      "to": 488
+    },
+    {
+      "from": 493,
+      "to": 441
+    },
+    {
+      "from": 494,
+      "to": 230
+    },
+    {
+      "from": 494,
+      "to": 239
+    },
+    {
+      "from": 494,
+      "to": 307
+    },
+    {
+      "from": 494,
+      "to": 441
+    },
+    {
+      "from": 495,
+      "to": 492
+    },
+    {
+      "from": 495,
+      "to": 493
+    },
+    {
+      "from": 495,
+      "to": 494
+    },
+    {
+      "from": 496,
+      "to": 495
+    },
+    {
+      "from": 497,
+      "to": 495
+    },
+    {
+      "from": 498,
+      "to": 497
+    },
+    {
+      "from": 499,
+      "to": 100
+    },
+    {
+      "from": 499,
+      "to": 460
+    },
+    {
+      "from": 499,
+      "to": 495
+    },
+    {
+      "from": 499,
+      "to": 498
+    },
+    {
+      "from": 500,
+      "to": 489
+    },
+    {
+      "from": 500,
+      "to": 495
+    },
+    {
+      "from": 500,
+      "to": 496
+    },
+    {
+      "from": 500,
+      "to": 498
+    },
+    {
+      "from": 501,
+      "to": 32
+    },
+    {
+      "from": 501,
+      "to": 303
+    },
+    {
+      "from": 501,
+      "to": 442
+    },
+    {
+      "from": 501,
+      "to": 488
+    },
+    {
+      "from": 502,
+      "to": 501
+    },
+    {
+      "from": 503,
+      "to": 439
+    },
+    {
+      "from": 503,
+      "to": 501
+    },
+    {
+      "from": 504,
+      "to": 228
+    },
+    {
+      "from": 504,
+      "to": 488
+    },
+    {
+      "from": 505,
+      "to": 440
+    },
+    {
+      "from": 505,
+      "to": 488
+    },
+    {
+      "from": 506,
+      "to": 399
+    },
+    {
+      "from": 506,
+      "to": 488
+    },
+    {
+      "from": 507,
+      "to": 441
+    },
+    {
+      "from": 507,
+      "to": 488
+    },
+    {
+      "from": 508,
+      "to": 52
+    },
+    {
+      "from": 508,
+      "to": 244
+    },
+    {
+      "from": 508,
+      "to": 488
+    },
+    {
+      "from": 509,
+      "to": 244
+    },
+    {
+      "from": 509,
+      "to": 508
+    },
+    {
+      "from": 510,
+      "to": 52
+    },
+    {
+      "from": 510,
+      "to": 228
+    },
+    {
+      "from": 510,
+      "to": 488
+    },
+    {
+      "from": 510,
+      "to": 509
+    },
+    {
+      "from": 511,
+      "to": 54
+    },
+    {
+      "from": 511,
+      "to": 235
+    },
+    {
+      "from": 511,
+      "to": 510
+    },
+    {
+      "from": 512,
+      "to": 218
+    },
+    {
+      "from": 512,
+      "to": 501
+    },
+    {
+      "from": 512,
+      "to": 511
+    },
+    {
+      "from": 513,
+      "to": 33
+    },
+    {
+      "from": 513,
+      "to": 34
+    },
+    {
+      "from": 513,
+      "to": 512
+    },
+    {
+      "from": 514,
+      "to": 503
+    },
+    {
+      "from": 514,
+      "to": 513
+    },
+    {
+      "from": 515,
+      "to": 223
+    },
+    {
+      "from": 515,
+      "to": 224
+    },
+    {
+      "from": 515,
+      "to": 225
+    },
+    {
+      "from": 515,
+      "to": 480
+    },
+    {
+      "from": 515,
+      "to": 485
+    },
+    {
+      "from": 515,
+      "to": 502
+    },
+    {
+      "from": 515,
+      "to": 514
+    },
+    {
+      "from": 516,
+      "to": 55
+    },
+    {
+      "from": 516,
+      "to": 56
+    },
+    {
+      "from": 516,
+      "to": 57
+    },
+    {
+      "from": 516,
+      "to": 251
+    },
+    {
+      "from": 516,
+      "to": 513
+    },
+    {
+      "from": 517,
+      "to": 429
+    },
+    {
+      "from": 517,
+      "to": 464
+    },
+    {
+      "from": 517,
+      "to": 476
+    },
+    {
+      "from": 517,
+      "to": 481
+    },
+    {
+      "from": 517,
+      "to": 499
+    },
+    {
+      "from": 517,
+      "to": 515
+    },
+    {
+      "from": 517,
+      "to": 516
+    },
+    {
+      "from": 518,
+      "to": 238
+    },
+    {
+      "from": 518,
+      "to": 488
+    },
+    {
+      "from": 519,
+      "to": 228
+    },
+    {
+      "from": 519,
+      "to": 242
+    },
+    {
+      "from": 519,
+      "to": 488
+    },
+    {
+      "from": 520,
+      "to": 212
+    },
+    {
+      "from": 520,
+      "to": 457
+    },
+    {
+      "from": 520,
+      "to": 488
+    },
+    {
+      "from": 521,
+      "to": 520
+    },
+    {
+      "from": 522,
+      "to": 35
+    },
+    {
+      "from": 522,
+      "to": 338
+    },
+    {
+      "from": 522,
+      "to": 488
+    },
+    {
+      "from": 523,
+      "to": 46
+    },
+    {
+      "from": 523,
+      "to": 488
+    },
+    {
+      "from": 524,
+      "to": 430
+    },
+    {
+      "from": 524,
+      "to": 523
+    },
+    {
+      "from": 525,
+      "to": 207
+    },
+    {
+      "from": 525,
+      "to": 488
+    },
+    {
+      "from": 526,
+      "to": 213
+    },
+    {
+      "from": 526,
+      "to": 488
+    },
+    {
+      "from": 527,
+      "to": 338
+    },
+    {
+      "from": 527,
+      "to": 453
+    },
+    {
+      "from": 527,
+      "to": 488
+    },
+    {
+      "from": 528,
+      "to": 338
+    },
+    {
+      "from": 528,
+      "to": 344
+    },
+    {
+      "from": 528,
+      "to": 345
+    },
+    {
+      "from": 528,
+      "to": 522
+    },
+    {
+      "from": 528,
+      "to": 523
+    },
+    {
+      "from": 528,
+      "to": 527
+    },
+    {
+      "from": 529,
+      "to": 287
+    },
+    {
+      "from": 529,
+      "to": 288
+    },
+    {
+      "from": 529,
+      "to": 289
+    },
+    {
+      "from": 529,
+      "to": 488
+    },
+    {
+      "from": 530,
+      "to": 290
+    },
+    {
+      "from": 530,
+      "to": 488
+    },
+    {
+      "from": 531,
+      "to": 295
+    },
+    {
+      "from": 531,
+      "to": 488
+    },
+    {
+      "from": 532,
+      "to": 473
+    },
+    {
+      "from": 532,
+      "to": 488
+    }
+  ]
+}

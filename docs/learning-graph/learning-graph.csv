@@ -1,0 +1,533 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Education,,FOUND
+2,School,1,FOUND
+3,Student,,FOUND
+4,Teacher,,FOUND
+5,Learning,,FOUND
+6,Curriculum,1,FOUND
+7,Classroom,2,FOUND
+8,School Day,2,FOUND
+9,K-12 Education,1|2,FOUND
+10,Direct Instruction,4|5|7,FOUND
+11,Lecture-Based Teaching,10,FOUND
+12,Industrial-Era School Model,8|10,FOUND
+13,Age-Based Grade Levels,12,FOUND
+14,Seat Time,8,FOUND
+15,Carnegie Unit,14,FOUND
+16,Bell Schedule,8,FOUND
+17,Student Engagement,3|5,FOUND
+18,Student Boredom,11|17,FOUND
+19,Learning Outcome,5,FOUND
+20,Bloom's Taxonomy,19,FOUND
+21,Higher-Order Thinking,20,FOUND
+22,Prior Knowledge,5,FOUND
+23,Prerequisite Concept,22,FOUND
+24,Formative Assessment,19,FOUND
+25,Summative Assessment,19,FOUND
+26,Standardized Testing,25,FOUND
+27,Learning Gap,19,FOUND
+28,Achievement Gap,27,FOUND
+29,Educational Equity,28,FOUND
+30,Public School Funding,2,FOUND
+31,Per-Pupil Spending,30,FOUND
+32,Private School Tuition,2,FOUND
+33,Charter School,2|30,FOUND
+34,Virtual School,2,FOUND
+35,Microschool,2,FOUND
+36,Education Policy,1,FOUND
+37,School Board,2|36,FOUND
+38,School Administrator,2,FOUND
+39,Principal,38,FOUND
+40,Parent and Family,3,FOUND
+41,Student Agency,3|5,FOUND
+42,Intrinsic Motivation,17,FOUND
+43,Curiosity,42,FOUND
+44,Curiosity-Driven Learning,41|43,FOUND
+45,Self-Paced Learning,41,FOUND
+46,Screen Time,3,FOUND
+47,Teacher Workload,4,FOUND
+48,Teacher Burnout,47,FOUND
+49,Educational Technology,1,FOUND
+50,History of EdTech,49,FOUND
+51,Evidence-Based Practice,1,FOUND
+52,Randomized Controlled Trial,51,FOUND
+53,Effect Size,52,FOUND
+54,Learning Gains,19|53,FOUND
+55,Self-Reported Results,51,FOUND
+56,Independent Evaluation,51,FOUND
+57,Preprint,51,FOUND
+58,Case Study Method,51,FOUND
+59,Spaced Practice,5,FOUND
+60,Retrieval Practice,5,FOUND
+61,Productive Struggle,5,FOUND
+62,Immediate Feedback,24,FOUND
+63,Artificial Intelligence,,AIGRO
+64,Machine Learning,63,AIGRO
+65,Large Language Model,64,AIGRO
+66,Generative AI,65,AIGRO
+67,Chatbot,65,AIGRO
+68,AI Hallucination,65,AIGRO
+69,AI Agent,65,AIGRO
+70,AI Capability,63,AIGRO
+71,AI Benchmark,70,AIGRO
+72,METR,71,AIGRO
+73,Task Horizon,70|72,AIGRO
+74,50 Percent Time Horizon,73,AIGRO
+75,Human Working Time,73,AIGRO
+76,Benchmark Task Suite,71|72,AIGRO
+77,Long-Running Task,69|73,AIGRO
+78,Task Success Rate,73,AIGRO
+79,Exponential Growth,,AIGRO
+80,Linear Growth,,AIGRO
+81,Doubling Time,79,AIGRO
+82,Five-Month Doubling,73|74|75|76|77|78|81,AIGRO
+83,Logarithmic Scale,79,AIGRO
+84,Log-Scale Chart,83,AIGRO
+85,Trend Extrapolation,79|80,AIGRO
+86,Planning Window,85,AIGRO
+87,Three-to-Four-Year Forecast,82|86,AIGRO
+88,Forecast Uncertainty,85,AIGRO
+89,Compute Scaling,70,AIGRO
+90,Limits to AI Growth,88|89,AIGRO
+91,AI Inference Cost,65,AIGRO
+92,Falling AI Costs,82|91,AIGRO
+93,Planning Under Uncertainty,88,AIGRO
+94,AI in Education,49|63,AIGRO
+95,AI Literacy,94,AIGRO
+96,AI Energy Use,91,AIGRO
+97,Data Center Energy,96,AIGRO
+98,AI Prediction for Schools,87|93|94,AIGRO
+99,Prediction Assumptions,88|98,AIGRO
+100,Prediction Failure Scenario,90|99,AIGRO
+101,Textbook,6,LEVEL
+102,Print Textbook,101,LEVEL
+103,Digital Textbook,101,LEVEL
+104,PDF Textbook,103,LEVEL
+105,Intelligent Textbook,94|103,LEVEL
+106,Intelligent Textbook Movement,105,LEVEL
+107,Classification Framework,,LEVEL
+108,SAE J3016 Standard,107,LEVEL
+109,Levels of Driving Automation,108,LEVEL
+110,Shared Vocabulary,107,LEVEL
+111,Graduated Regulation,108,LEVEL
+112,Realistic Expectations,110,LEVEL
+113,Five-Level Textbook Model,105|109|110,LEVEL
+114,Level 1 Static Textbook,102|104|113,LEVEL
+115,Level 2 Interactive Textbook,114,LEVEL
+116,Level 3 Adaptive Textbook,115,LEVEL
+117,Level 4 Chatbot Textbook,67|116,LEVEL
+118,Level 5 Autonomous Textbook,66|117,LEVEL
+119,Embedded Simulation,115,LEVEL
+120,Path Recommendation,115,LEVEL
+121,Student Goal Setting,41|116,LEVEL
+122,Progress Tracking,116,LEVEL
+123,Conversational Tutoring,117,LEVEL
+124,Real-Time Content Generation,118,LEVEL
+125,Full Personalization,118,LEVEL
+126,Level Classification,113,LEVEL
+127,Product Level Assessment,126,LEVEL
+128,Level Terminology Precision,126,LEVEL
+129,AI-Powered Marketing Claims,128,LEVEL
+130,Vendor Level Claim,127|129,LEVEL
+131,Level-Specific Policy,36|111|126,LEVEL
+132,Level Adoption Timeline,98|113,LEVEL
+133,Growth of Level 2 Textbooks,106|115,LEVEL
+134,Levels 3 to 5 on the Horizon,118|124|125|132,LEVEL
+135,Content Creation Cost,101,ECON
+136,Textbook Publisher,101,ECON
+137,Publisher Business Model,136,ECON
+138,Textbook Price,137,ECON
+139,Open Educational Resource,101,ECON
+140,Open License,139,ECON
+141,Creative Commons License,140,ECON
+142,5R Permissions,140,ECON
+143,Free Textbook,139|141,ECON
+144,AI-Generated Content,66|135,ECON
+145,Falling Production Cost,92|144,ECON
+146,Content Commoditization,115|145,ECON
+147,Penny-Per-Day Vision,31|138|146,ECON
+148,Publisher Disruption,137|146,ECON
+149,Value Beyond Content,148,ECON
+150,Textbook Quality,101,ECON
+151,OpenBook QR Score,139|150,ECON
+152,Quality Subscore,151,ECON
+153,Reusability Subscore,142|151,ECON
+154,Rising Quality Scores,144|151|152|153,ECON
+155,Universal Textbook Access,133|143|147|154,ECON
+156,Cost Per Student,31,ECON
+157,Cost Modeling,156,ECON
+158,Level 2 Cost Per Student,115|157,ECON
+159,Level 3 Cost Per Student,116|157,ECON
+160,Level 4 Cost Per Student,91|117|157,ECON
+161,Total Cost of Ownership,157|158|159|160,ECON
+162,Web Browser,,TECH
+163,Static Website,162,TECH
+164,Web Page Hosting,163,TECH
+165,Generate Once Serve Many,144|163|164,TECH
+166,Learning Graph,23|105,TECH
+167,Concept Node,166,TECH
+168,Learning Dependency,23|166,TECH
+169,Directed Acyclic Graph,168,TECH
+170,Foundational Concept,167|168,TECH
+171,Learning Path,168|169,TECH
+172,Mastery Data,24,TECH
+173,MicroSim,119,TECH
+174,Browser-Based Simulation,162|173,TECH
+175,Interactive Visualization,173,TECH
+176,Learning Analytics,172,TECH
+177,xAPI,176,TECH
+178,xAPI Statement,177,TECH
+179,Actor Verb Object,178,TECH
+180,Learning Record Store,177,TECH
+181,Learning Record,179|180,TECH
+182,Data Portability,180,TECH
+183,Student-Controlled Data,182,TECH
+184,Learning Management System,49,TECH
+185,Interoperability Standards,177|184,TECH
+186,IMS Global Standards,185,TECH
+187,IEEE Learning Standards,185,TECH
+188,Device Access,49,TECH
+189,Internet Connectivity,188,TECH
+190,Offline Access,163|189,TECH
+191,Student Progress Dashboard,122|172,TECH
+192,Student Data,3,PRIV
+193,Personally Identifiable Data,192,PRIV
+194,Student Data Privacy,193,PRIV
+195,FERPA,194,PRIV
+196,COPPA,194,PRIV
+197,GDPR,194,PRIV
+198,Privacy Inflection Point,116|194,PRIV
+199,Detailed Learning History,181|198,PRIV
+200,Behavioral Data,199,PRIV
+201,Data Governance,194,PRIV
+202,Data Minimization,201,PRIV
+203,Informed Consent,40|201,PRIV
+204,Data Retention Policy,201,PRIV
+205,Data Ownership,183|201,PRIV
+206,Trust Paradox,198|201,PRIV
+207,Family Trust,40|206,PRIV
+208,Algorithmic Bias,64,PRIV
+209,Algorithmic Bias Auditing,200|201|208,PRIV
+210,Algorithmic Transparency,208,PRIV
+211,Data Breach,192,PRIV
+212,Vendor Risk,211,PRIV
+213,Centralized Student Records,199|211,PRIV
+214,Cybersecurity in Schools,211,PRIV
+215,Responsible AI with Minors,94|194,PRIV
+216,Age-Appropriate AI Design,215,PRIV
+217,Governance Readiness,195|196|197|198|201|202|203|204|205|209|210,PRIV
+218,Adaptive Learning,5|45,MORN
+219,Mastery Learning,172|218,MORN
+220,Mastery Threshold,219,MORN
+221,Next-Concept Selection,120|121|170|171|172|220,TECH
+222,Adaptation Without Live AI,165|180|221,TECH
+223,Low-Cost Adaptive Design,174|175|222,TECH
+224,Energy-Efficient Learning,96|223,TECH
+225,Selective Chatbot Use,117|160|216|223,TECH
+226,Bloom's Two-Sigma Problem,53|219,MORN
+227,One-on-One Tutoring,4|5,MORN
+228,AI Tutor,62|67|123|226|227,MORN
+229,AI Tutor Strengths,228,MORN
+230,Confidently Wrong Answers,68,MORN
+231,AI Tutor Failures,68|228|230,MORN
+232,Personalized Pacing,218,MORN
+233,Gap Filling,27|218,MORN
+234,Academic Morning,8|218,MORN
+235,Compressed Academic Morning,59|60|155|232|233|234,MORN
+236,Reduced Direct Instruction,10|235,MORN
+237,Freed-Up School Time,236,MORN
+238,Cognitive Offloading,228,MORN
+239,Over-Reliance on AI,238,MORN
+240,AI Guardrails,61|228,MORN
+241,Hints Instead of Answers,240,MORN
+242,Socratic Questioning,241,MORN
+243,Open Chatbot Access,67|238|239,MORN
+244,Guided AI vs Open AI,229|231|240|243,MORN
+245,Critical Thinking,21,MORN
+246,Computational Thinking,245,MORN
+247,Decomposition,246,MORN
+248,Pattern Recognition,246,MORN
+249,Abstraction,246,MORN
+250,Algorithmic Thinking,246,MORN
+251,Evidence Evaluation,245,MORN
+252,Argument Analysis,245,MORN
+253,Teaching Thinking with AI,228|245|246,MORN
+254,Skills AI Teaches Well,253,MORN
+255,Morning Screen-Time Limits,46|234,MORN
+256,Curiosity-Led Morning,18|44|234,MORN
+257,Pro-Social Behavior,,SOCL
+258,Hands-On Learning,5,SOCL
+259,Constructivism,5|22,SOCL
+260,Constructionism,258|259,SOCL
+261,Social Constructivism,259,SOCL
+262,Social Constructionism,260|261,SOCL
+263,Zone of Proximal Development,261,SOCL
+264,Learning by Building Together,262|263,SOCL
+265,Collaboration,257,SOCL
+266,Teamwork,265,SOCL
+267,Communication Skills,265,SOCL
+268,Active Listening,267,SOCL
+269,Conflict Resolution,267,SOCL
+270,Shared Goals,266,SOCL
+271,Team Roles,266,SOCL
+272,Team Problem Solving,245|251|252|266|270|271,SOCL
+273,Applying Thinking on Teams,246|264|272,SOCL
+274,Creativity,,SOCL
+275,Creative Confidence,274,SOCL
+276,Divergent Thinking,274,SOCL
+277,Empathy,257,SOCL
+278,Perspective Taking,277,SOCL
+279,Social-Emotional Learning,277,SOCL
+280,Self-Awareness,279,SOCL
+281,Relationship Skills,267|268|279|280,SOCL
+282,Belonging,281,SOCL
+283,Human Connection,282,SOCL
+284,Skills That Need People,254|266|277|283,SOCL
+285,Afternoon Program,8|237,AFTN
+286,Pro-Social Activity,257|285,AFTN
+287,Project-Based Learning,258|272,AFTN
+288,Driving Question,287,AFTN
+289,Public Exhibition,287,AFTN
+290,Phenomenon-Based Learning,287,AFTN
+291,Maker Space,258|260,AFTN
+292,Coding Club,246|247|248|249|250|285,AFTN
+293,Robotics Club,291|292,AFTN
+294,Music Education,285,AFTN
+295,Ensemble Music,286|294,AFTN
+296,Dance,285,AFTN
+297,Theater,285,AFTN
+298,Visual Arts,285,AFTN
+299,Arts Education,274|275|276|294|296|297|298,AFTN
+300,Sports and Athletics,285,AFTN
+301,Team Sports,286|300,AFTN
+302,Clubs and Extracurriculars,285,AFTN
+303,Life-Skills Workshop,285,AFTN
+304,Service Learning,277|278|286,AFTN
+305,Community Partnership,285,AFTN
+306,Structured Afternoon,285,AFTN
+307,Unstructured Afternoon Drift,306,AFTN
+308,Activity-Skill Matching,284|286,AFTN
+309,Afternoon Program Quality,306|307|308,AFTN
+310,Pro-Social Afternoon,273|286|287|293|299|301|302|304,AFTN
+311,Innovation,,ADOPT
+312,Diffusion of Innovations,311,ADOPT
+313,Technology Adoption Curve,312,ADOPT
+314,S-Curve of Adoption,313,ADOPT
+315,Innovators,313,ADOPT
+316,Early Adopters,313,ADOPT
+317,Early Majority,313,ADOPT
+318,Late Majority,313,ADOPT
+319,Laggards,313,ADOPT
+320,Five Innovation Attributes,312,ADOPT
+321,Relative Advantage,320,ADOPT
+322,Compatibility,320,ADOPT
+323,Complexity,320,ADOPT
+324,Trialability,320,ADOPT
+325,Observability,320,ADOPT
+326,Opinion Leader,312,ADOPT
+327,Change Agent,312,ADOPT
+328,The Chasm,316|317,ADOPT
+329,Crossing the Chasm,328,ADOPT
+330,Pragmatist Buyers,317,ADOPT
+331,Whole Product,329|330,ADOPT
+332,Beachhead Strategy,329,ADOPT
+333,Hype Cycle,311,ADOPT
+334,Peak of Inflated Expectations,333,ADOPT
+335,Trough of Disillusionment,333,ADOPT
+336,Plateau of Productivity,333,ADOPT
+337,Adoption Readiness,313|321|322|323|324|325,ADOPT
+338,EdTech Hype Waves,50|333|335,ADOPT
+339,Organizational Change,,CHNG
+340,Organizational Culture,339,CHNG
+341,School Culture,2|340,CHNG
+342,Shared Beliefs and Norms,341,CHNG
+343,School Rituals,341,CHNG
+344,Grammar of Schooling,12|341|342|343,CHNG
+345,Reform Without Real Change,344,CHNG
+346,Schein's Culture Model,340,CHNG
+347,Cultural Artifacts,346,CHNG
+348,Espoused Values,346,CHNG
+349,Lewin's Change Model,339,CHNG
+350,Unfreeze Stage,349,CHNG
+351,Change Stage,349|350,CHNG
+352,Refreeze Stage,349|351,CHNG
+353,Kotter's Eight Steps,339,CHNG
+354,Sense of Urgency,353,CHNG
+355,Guiding Coalition,39|353|354,CHNG
+356,ADKAR Model,339,CHNG
+357,ADKAR Awareness,356,CHNG
+358,ADKAR Desire,356|357,CHNG
+359,ADKAR Knowledge,356|358,CHNG
+360,ADKAR Ability,356|359,CHNG
+361,ADKAR Reinforcement,356|360,CHNG
+362,Bridges' Transition Model,339,CHNG
+363,Endings and Losses,362,CHNG
+364,Neutral Zone,362|363,CHNG
+365,New Beginnings,362|364,CHNG
+366,Change Versus Transition,362,CHNG
+367,Learning Organization,339,CHNG
+368,Senge's Five Disciplines,367,CHNG
+369,Systems Thinking,368,CHNG
+370,Feedback Loop,369,CHNG
+371,Causal Loop Diagram,370,CHNG
+372,Mental Models,368,CHNG
+373,Basic Assumptions,346|372,CHNG
+374,Culture Assessment,341|346|347|348|373,CHNG
+375,Shared Vision,368,CHNG
+376,Change Vision,353|355|375,CHNG
+377,Communicating the Vision,376,CHNG
+378,Removing Obstacles,353|377,CHNG
+379,Short-Term Wins,353|378,CHNG
+380,Building on Change,379,CHNG
+381,Anchoring in Culture,341|353|380,CHNG
+382,Team Learning,368,CHNG
+383,Personal Mastery,368,CHNG
+384,Fullan's Educational Change,339|341,CHNG
+385,Coherence Framework,384,CHNG
+386,Capacity Building,384,CHNG
+387,Implementation Dip,384,CHNG
+388,Managing Expectations,112|333|334|335|336|387,ADOPT
+389,Concerns-Based Adoption Model,4|339,CHNG
+390,Stages of Concern,389,CHNG
+391,Self Concerns,390,CHNG
+392,Task Concerns,390|391,CHNG
+393,Impact Concerns,390|392,CHNG
+394,Levels of Use,389,CHNG
+395,Innovation Configuration,389,CHNG
+396,Whole-Organization Change,339,CHNG
+397,Choosing a Change Model,349|353|356|361|362|365|366|374|381,CHNG
+398,Change Fatigue,339,CHNG
+399,National AI Adoption,94|396,CHNG
+400,Microstrategy,339,MICRO
+401,Holistic Plus Micro Change,396|400,CHNG
+402,Teacher Champion,316|326|327|400,MICRO
+403,Pilot Classroom,324|400,MICRO
+404,Switch Framework,400,MICRO
+405,Direct the Rider,404,MICRO
+406,Bright Spots,400|405,MICRO
+407,Positive Deviance,406,MICRO
+408,Motivate the Elephant,404,MICRO
+409,Early Visible Results,325|379|400|408,MICRO
+410,Shape the Path,404,MICRO
+411,Shrinking the First Step,400|410,MICRO
+412,Peer Observation,4|400,MICRO
+413,Professional Learning Community,382|400,MICRO
+414,Instructional Coaching,4,MICRO
+415,Professional Development,4|383,MICRO
+416,Staff AI Literacy,4|95|415,AIGRO
+417,Resistance to Change,339,MICRO
+418,Sources of Resistance,398|417,MICRO
+419,Legitimate Concern,390|417|418,MICRO
+420,Responding with Empathy,277|278|417|419,MICRO
+421,Fear of Job Loss,4|417,MICRO
+422,Teacher Union,4,MICRO
+423,Stakeholder,2,MICRO
+424,Stakeholder Adoption Map,313|315|318|319|423,ADOPT
+425,Stakeholder Engagement,423,MICRO
+426,Family Communication,40|425,MICRO
+427,Communicating Before Rumors,426,MICRO
+428,Community Communication,425,MICRO
+429,Board Presentation,37|425,MICRO
+430,Student Voice,41|425,MICRO
+431,Union Engagement,421|422|425,MICRO
+432,Matching Strategy to Concern,390|393|394|400,MICRO
+433,Matching Strategy to Adopter,313|400,MICRO
+434,Compounding Small Changes,402|407|409|411|412|413|432|433,MICRO
+435,Teacher as Coach,4|414,PRAC
+436,Teacher as Mentor,4,PRAC
+437,Teacher as Facilitator,4,PRAC
+438,Changing Teacher Role,236|435|436|437,PRAC
+439,Learning Guide,438,PRAC
+440,AI Coaching Teachers,228|438,PRAC
+441,AI-First School,2|94,PRAC
+442,Morning-Afternoon Model,234|285,PRAC
+443,AI-Native School,9|155|441|442,PRAC
+444,AI-Native School Day,235|255|256|309|310|443,PRAC
+445,Schedule Redesign,16|444,PRAC
+446,Block Scheduling,445,PRAC
+447,Staffing Model,438|445,PRAC
+448,Afternoon Specialist Staff,285|305|447,PRAC
+449,Grade-Level Design,13|444,PRAC
+450,Elementary School Model,449,PRAC
+451,Middle School Model,449,PRAC
+452,High School Model,446|449,PRAC
+453,Procurement,38,PRAC
+454,Procurement Criteria,126|130|131|149|186|187|453,PRAC
+455,Vendor Evaluation,212|214|454,PRAC
+456,Vendor Lock-In,455,PRAC
+457,Rushed Procurement Risk,453,PRAC
+458,Contract Due Diligence,455,PRAC
+459,School Readiness Assessment,134|217|337|416|444,PRAC
+460,Pilot Program,388|395|403|426|444|459,PRAC
+461,Pilot Goals,388|460,PRAC
+462,Success Measures,19|460|461,PRAC
+463,Pilot Governance,201|456|460,PRAC
+464,Scaling a Pilot,314|329|331|332|460|463,PRAC
+465,Assessment Redesign,24|25,PRAC
+466,Mastery-Based Assessment,191|219|465,PRAC
+467,Portfolio Assessment,465,PRAC
+468,Performance Assessment,465,PRAC
+469,Teamwork Rubric,266|269|468,PRAC
+470,Academic Integrity,238|465,PRAC
+471,AI Cheating Detector,470,PRAC
+472,Detector False Positives,471,PRAC
+473,Bias Against ELL Writers,208|472,PRAC
+474,Redesign Not Policing,470|473,PRAC
+475,Combined Assessment Plan,466|467|468|469|474,PRAC
+476,Program Evaluation,26|56|309|462|475,PRAC
+477,A/B Testing,52|476,PRAC
+478,Equity of Access,29|188,PRAC
+479,Digital Divide,189|190|478,PRAC
+480,Cost Barrier to AI Schools,32|478,PRAC
+481,Closing or Widening Gaps,28|478|479,PRAC
+482,Sustaining Change,352|381,PRAC
+483,Policy Embedding,15|36|482,PRAC
+484,Hiring for New Roles,447|482,PRAC
+485,Budget Reallocation,161|447|448,PRAC
+486,Culture Change Plan,385|386|397|401|420|424|427|428|431|434|460|483|484,PRAC
+487,Storytelling,,CASE
+488,Real Case Study,58|487,CASE
+489,Composite Story,487,CASE
+490,Illustrated Story,487,CASE
+491,Graphic Novel Scene,490,CASE
+492,Lesson From a Case,488,CASE
+493,Benefits of AI-First Schools,441,CASE
+494,Risks of AI-First Schools,230|239|307|441,CASE
+495,Risk-and-Response Framework,492|493|494,CASE
+496,Strengthen the Positives,495,CASE
+497,Reduce the Negatives,495,CASE
+498,Risk Mitigation,497,CASE
+499,Pilot Risk Checklist,100|460|495|498,PRAC
+500,Two-Sided Story,489|495|496|498,CASE
+501,Alpha School,32|303|442|488,CASE
+502,Alpha Tuition Range,501,CASE
+503,Alpha Adult Guides,439|501,CASE
+504,Nigeria AI Tutoring Pilot,228|488,CASE
+505,Tutor CoPilot,440|488,CASE
+506,Estonia AI Leap,399|488,CASE
+507,David Game College,441|488,CASE
+508,Turkish High School Study,52|244|488,CASE
+509,Design Over Raw AI Power,244|508,MORN
+510,Harvard Physics AI Tutor,52|228|488|509,CASE
+511,Two-to-Three-Hour Learning,54|235|510,MORN
+512,2 Hour Learning,218|501|511,CASE
+513,Unbound Academy,33|34|512,CASE
+514,Software Is Not the Model,503|513,CASE
+515,Affordable Alpha Model,223|224|225|480|485|502|514,CASE
+516,Evaluating Result Claims,55|56|57|251|513,CASE
+517,School Board Recommendation,429|464|476|481|499|515|516,PRAC
+518,Your Brain on ChatGPT,238|488,CASE
+519,Khanmigo,228|242|488,CASE
+520,LAUSD Ed Chatbot,212|457|488,CASE
+521,AllHere Collapse,520,CASE
+522,AltSchool,35|338|488,CASE
+523,Summit Learning,46|488,CASE
+524,Student Walkouts,430|523,CASE
+525,inBloom,207|488,CASE
+526,PowerSchool Data Breach,213|488,CASE
+527,LAUSD iPad Rollout,338|453|488,CASE
+528,Why School Reforms Fail,338|344|345|522|523|527,ADOPT
+529,High Tech High,287|288|289|488,CASE
+530,Finland's Phenomenon Learning,290|488,CASE
+531,El Sistema,295|488,CASE
+532,Stanford Detector Study,473|488,CASE
