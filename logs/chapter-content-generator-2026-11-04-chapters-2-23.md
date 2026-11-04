@@ -89,3 +89,13 @@
 - The six must-have / four should-have governance readiness rule is this chapter's recommended practice (labeled as such), not a legal standard
 - Legal content is labeled general information, not legal advice. External facts to verify before publishing: Sweeney 87% identifiability, FERPA school-official exception and Gonzaga (2002), COPPA 2025 rule update and FTC school-consent guidance, GDPR fine ceiling, California SOPIPA (2014), UK 2020 A-level algorithm, The Markup 2023 Wisconsin DEWS investigation, Stanford 2023 AI-detector study, GAO 2022 ransomware report, the PowerSchool credentials/MFA reporting, inBloom \$100M and 2014 closure (matches the book's appendix)
 - mkdocs build --strict: pass
+
+## Chapter 11: Mastery Learning and the Case for a Compressed Morning
+
+- Budget: 13 Tier A + 3 Tier B = about 7,250 to 10,950 words. Actual: about 4,850 prose words plus about 2,700 words of specs. BELOW the floor (about two thirds of it)
+- Concepts covered: 16 of 16; mascot admonitions: 6 (validator clean after trimming the celebration to 3 sentences)
+- MicroSims: 0 reused; 3 newly specified (judging-evidence-for-shorter-morning, morning-time-budget, tutor-reply-hint-levels)
+- The chapter is deliberately even-handed: it states that the compressed-morning package is "plausible and unproven," that Alpha's results are self-reported, and that Unbound's early results lack a baseline, consistent with the AI-First Stories appendix
+- The 100-minutes-freed (300 hours, about 46 days) figure is an ILLUSTRATIVE scenario built on the ch. 2 schedule and is labeled as such, with the required 1.67x speedup stated
+- The appendix itself says several stories are "written from memory and not yet checked online." External figures to verify before publishing: Bloom 1984 two sigma; Kulik, Kulik and Bangert-Drowns 1990 (about 0.52); Nickow, Oreopoulos and Quan 2020 (0.37, 96 RCTs); VanLehn 2011 (0.76-0.79); RAND Cognitive Tutor (about 0.2 in year 2); Nigeria pilot (about 0.3 SD; the chapter treats it as randomized); Harvard physics randomized study; Turkey study (17%); high-dosage tutoring cost (\$1,000-\$2,500); MIT Media Lab EEG preprint
+- mkdocs build --strict: pass
