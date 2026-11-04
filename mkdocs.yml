@@ -38,8 +38,29 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      # Add chapter entries here as content is generated, e.g.:
-      # - 1. Introduction: chapters/01-introduction/index.md
+      - '1. The Building Blocks of Schools, Students, and Learning': chapters/01-building-blocks-schools-students/index.md
+      - '2. Evidence, Motivation, and the Stakeholders of Schooling': chapters/02-evidence-motivation-stakeholders/index.md
+      - '3. School Structures, Equity, and the Industrial-Era Legacy': chapters/03-school-structures-equity-industrial-era/index.md
+      - '4. Measuring AI Capability: The METR Task-Horizon Studies': chapters/04-measuring-ai-capability-metr/index.md
+      - '5. Projecting AI Growth: Doubling Curves, Limits, and Uncertainty': chapters/05-projecting-ai-growth-doubling-curves/index.md
+      - '6. The Five-Level Model of Intelligent Textbooks': chapters/06-five-level-model-intelligent-textbooks/index.md
+      - '7. Content Economics and Open Educational Resources': chapters/07-content-economics-open-educational/index.md
+      - '8. Tracking Mastery: xAPI, Learning Record Stores, and MicroSims': chapters/08-tracking-mastery-xapi-learning-record/index.md
+      - '9. Learning Graphs, Interoperability Standards, and Access at Scale': chapters/09-learning-graphs-interoperability/index.md
+      - '10. Student Privacy and Data Governance': chapters/10-student-privacy-data-governance/index.md
+      - '11. Mastery Learning and the Case for a Compressed Morning': chapters/11-mastery-learning-case-compressed-morning/index.md
+      - '12. AI Guardrails: Teaching Thinking Without Over-Reliance': chapters/12-ai-guardrails-teaching-thinking-without/index.md
+      - '13. Social Learning and Human Skills': chapters/13-social-learning-human-skills/index.md
+      - '14. The Pro-Social Afternoon': chapters/14-pro-social-afternoon/index.md
+      - '15. Technology Adoption and the Diffusion of Innovation': chapters/15-technology-adoption-diffusion-innovation/index.md
+      - '16. Organizational Change Models': chapters/16-organizational-change-models/index.md
+      - '17. Leading Change: Vision, Culture, and Early-Stage Concerns': chapters/17-leading-change-vision-culture/index.md
+      - '18. Sustaining Change: Systems Thinking and National Adoption': chapters/18-sustaining-change-systems-thinking/index.md
+      - '19. Microstrategies for Leading Change': chapters/19-microstrategies-leading-change/index.md
+      - '20. Designing the AI-Native School Day': chapters/20-designing-ai-native-school-day/index.md
+      - '21. Implementing the AI-Native Model Responsibly': chapters/21-implementing-ai-native-model-responsibly/index.md
+      - '22. AI-First Case Studies I: Promise and Peril': chapters/22-ai-first-case-studies-i-promise-peril/index.md
+      - '23. AI-First Case Studies II: Lessons for Practice': chapters/23-ai-first-case-studies-ii-lessons/index.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
