@@ -30,3 +30,13 @@
 - Catalog sim "The METR Task Horizon Timeline" (ai-strategy-for-education) NOT reused: it states a six-month doubling time and uses unsourced data points, which conflict with the book's five-month figure
 - Doubling time: chapter uses "about five months" as the book's planning figure and notes the estimate depends on models and period measured. METR's original March 2025 preprint reported a different (longer) figure for the full 2019-2025 period; the author should confirm the citation for five months
 - mkdocs build --strict: pass
+
+## Chapter 5: Projecting AI Growth: Doubling Curves, Limits, and Uncertainty
+
+- Budget: 2 Tier A + 9 Tier B + 8 Tier C concepts = about 4,210 to 6,700 words. Actual: about 4,700 prose words plus about 1,500 words of specs
+- Concepts covered: 19 of 19; mascot admonitions: 6 (validator clean)
+- MicroSims: 1 reused (semilog-linearization from pre-calc, score 0.782; its lesson page is an unfinished scaffold but main.html runs); 1 from template (doubling-time-projection-calculator); 1 newly specified (verify-the-ai-summary)
+- Self-review caught and fixed four arithmetic or wording errors before commit (48-month value at a 10-month doubling time, a "one month = factor of eight" overstatement, an energy percentage, a straight-line extrapolation figure)
+- Uses an illustrative 4-to-6-month doubling range to show sensitivity; five months remains the stated planning figure
+- External figures to verify before publishing: Epoch AI compute growth (4-5x per year), IEA data-center electricity (about 1.5% in 2024, about 415 TWh), Stanford AI Index 2025 token prices, the 2023 Harvard/BCG study figures (ch. 4), the 2023 Mata v. Avianca sanctions
+- mkdocs build --strict: pass
