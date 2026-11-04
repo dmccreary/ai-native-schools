@@ -61,3 +61,12 @@
 - Self-review fixed three small errors (device share range, a "one dollar in N" figure, a reused book title)
 - External figures to verify: College Board \$1,300 books and supplies; Chegg's May 2023 share drop; UNESCO 2002/2012/2019 OER milestones; OpenStax launch 2012
 - mkdocs build --strict: pass
+
+## Chapter 8: Tracking Mastery: xAPI, Learning Record Stores, and MicroSims
+
+- Budget: 1 Tier A + 14 Tier B = about 4,000 to 6,350 words. Actual: about 4,070 prose words plus about 1,200 words of specs (at the floor of the budget)
+- Concepts covered: 15 of 15; mascot admonitions: 5 (validator clean)
+- MicroSims: 3 reused from the author's learning-record-store book (xapi-statement-triple, lms-vs-lrs-architecture, class-mastery-heatmap; all live, pages marked instrumented or implemented); 1 newly specified (who-may-see-this-record)
+- Grounded in the author's own LRS project (xAPI producer contract, LRS-Lite draft design). LRS-Lite is described as a draft plan, not a finished product. The "about a kilobyte per statement" and "few dollars a month" figures come from that draft
+- External facts to verify: xAPI timeline (ADL, version 1.0 in 2013, IEEE adoption), SoLAR definition of learning analytics, GDPR portability, FERPA inspection right
+- mkdocs build --strict: pass
