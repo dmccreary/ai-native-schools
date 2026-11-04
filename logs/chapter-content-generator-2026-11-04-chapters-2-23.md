@@ -50,3 +50,14 @@
 - Judgment calls for the author to confirm against the five-level paper: (1) a product's level is the highest defining capability it actually delivers (not cumulative); (2) the Level 1/Level 2 boundary is "responds to the learner's actions" (bookmarks, search and hyperlinks stay Level 1); (3) Level 3 adaptivity needs no language model; (4) the level-specific safeguard table is this book's recommended practice, not law
 - Khanmigo is classified as Level 4 on a Level 3 platform; this is the book's reading and is labeled as such
 - mkdocs build --strict: pass
+
+## Chapter 7: Content Economics and Open Educational Resources
+
+- Budget: 19 Tier A + 5 Tier B + 3 Tier C = about 11,110 to 16,850 words. Actual: about 5,200 prose words plus about 1,100 words of specs. This is BELOW the budget floor (under half). All 27 concepts are defined with worked examples and tables, but Tier A concepts such as Open Educational Resource and Creative Commons License are brief. Left unpadded per the anti-padding rule; a candidate for expansion
+- Corrected the heading from 26 to 27 concepts to match the 27-row table
+- OpenBook QR Score is taken from the author's own OER Evaluator book (10 metrics x 10 points, Q and R halves out of 50, score bands, 5R permissions), not invented. The learning graph's "subscore" is noted as the OER Evaluator's "subtotal"
+- MicroSims: 2 reused from the author's OER Evaluator book (five-r-permissions, total-score-calculator; both live and marked built); 1 specified from a template (cost-per-student-by-level)
+- All per-level costs (\$5.80, \$12.80, \$23.00 per student; \$75 device share; print \$53.33) and the chapter-production hours are ILLUSTRATIVE assumptions, labeled as such in the chapter and in the sim spec. The author should replace them with sourced figures if a data source exists
+- Self-review fixed three small errors (device share range, a "one dollar in N" figure, a reused book title)
+- External figures to verify: College Board \$1,300 books and supplies; Chegg's May 2023 share drop; UNESCO 2002/2012/2019 OER milestones; OpenStax launch 2012
+- mkdocs build --strict: pass
