@@ -250,3 +250,7 @@
 ## Expansion pass: Chapter 13
 
 - Added about 2,760 words of prose (4,450 to about 7,200; floor is 8,620): counting pro-social acts, what Piaget's stages suggest for afternoon design, fading a scaffold, what making teaches, cooperation vs collaboration, Tuckman's stages, writing a shared goal, rotating roles (checked: each student takes each role once), a team deciding with evidence (waste data and savings arithmetic verified), writing an I-statement, positions vs interests, three kinds of empathy, a belonging check-in, and scoring divergent thinking. All data are illustrative and labeled. External facts to verify: Tuckman (1965; adjourning added 1977), Piaget's stage ages (labeled approximate and contested), Fisher and Ury (1981), Guilford/Torrance scoring
+
+## Expansion pass: Chapter 14
+
+- Added about 2,380 words of prose (4,220 to about 6,600; now above the 6,350 floor): a ten-week plan for launching an afternoon, a ten-week ensemble and a theater rehearsal cycle (with dance and visual-arts critique), fair-play rules for team sports, a club start-up checklist, a pair-programming session, a maker space budget at two levels, turning topics into driving questions, planning a public exhibition, a phenomenon crossing five subjects, scoring service projects, a four-session money workshop, and a partnership agreement checklist. Maker space costs are illustrative round numbers, labeled as such; the budget totals and the \$40 allowance split were checked. No new external facts were introduced

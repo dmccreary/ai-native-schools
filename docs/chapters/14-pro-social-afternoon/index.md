@@ -87,6 +87,22 @@ Apply the four features to five possible afternoon activities.
 
 The fourth column carries a condition in three rows, and it matters: the same activity can build skills or merely fill time, depending on whether an adult makes the group stop and ask how it worked.
 
+### Worked Example: Launching an Afternoon in Ten Weeks
+
+An afternoon program does not appear on the first day of school. A school can build it in stages, which also lets it test and adjust.
+
+| Weeks | What is done | Why |
+|---|---|---|
+| 1–2 | Choose three activities from student and family surveys; name an adult lead for each; write each activity's goals | Choice and explicit goals (the E in SAFE) |
+| 3 | Train the adults in the four SAFE practices and a three-minute debrief | Quality depends on the adults |
+| 4 | Pilot one block a week with two activities; collect attendance and a one-question exit survey | A small test |
+| 5–6 | Fix what the pilot showed; add the third activity | Iteration |
+| 7–8 | Expand to two blocks a week; invite families to a first showing | A real audience early |
+| 9 | Rate each activity by the SAFE count; compare with the exit surveys | Check quality, not only attendance |
+| 10 | Report to staff and families; decide which activities to keep, change, or end | Honest review |
+
+The plan starts small on purpose. A school that opens five afternoons of eight activities on day one is likely to meet the unstructured drift of the next section.
+
 ## Structure Versus Drift
 
 A **structured afternoon** is an afternoon with clear goals for each activity, a planned sequence, trained adults, and regular reflection, so that students know what they are doing and why. **Unstructured afternoon drift** is the slide of the afternoon into unplanned free time, passive supervision, or screens, in which adults watch students and nothing is taught. It is the main risk of the whole model: a school that frees the time and does not plan it has replaced a morning of teaching with an afternoon of babysitting. The robot room is a structured afternoon and the gym is drift.
@@ -201,6 +217,36 @@ A group of eight students designs and paints a mural about the school's history,
 
 The mural is a sequenced project with a shared goal, an audience, and a debrief, so it passes the four-feature test and the SAFE practices.
 
+### Worked Example: A Ten-Week Ensemble
+
+Ensemble music is a good model of a structured activity because its sequence is built in. A beginning band of 24 students prepares one piece for a concert.
+
+| Weeks | Rehearsal focus | Pro-social skill practiced |
+|---|---|---|
+| 1–2 | Each section learns its own part; a steady beat together | Keeping a common time |
+| 3–4 | Sections play together at slow tempo; listen for which part leads | Listening to others while playing |
+| 5–6 | Fix the hardest passage; players mark where they enter | Taking responsibility for one's part |
+| 7–8 | Full run-throughs; a student conductor leads one section | Leading and following |
+| 9 | Dress rehearsal and a three-minute debrief on what the group did well | Group reflection |
+| 10 | Concert for families | A real audience |
+
+Notice how much of the sequence is social: the first two weeks are about the beat, which is shared before it is individual. A player who plays every note correctly and does not listen has missed the point, and a good director rehearses the listening as deliberately as the notes.
+
+### Worked Example: A Theater Rehearsal Cycle
+
+Theater adds perspective taking, since each student must understand a character who is not themselves. A six-week cycle for a short play:
+
+| Week | Activity | What it builds |
+|---|---|---|
+| 1 | Improvisation games; read the script aloud | Spontaneity and trust |
+| 2 | Each actor writes a one-page background for their character | Perspective taking |
+| 3 | Blocking: moving through the scenes together | Coordination |
+| 4 | Scene work with notes from the director and from peers | Giving and receiving feedback |
+| 5 | Run-throughs; crew (lights, props) join | Interdependence |
+| 6 | Performance and a debrief | Reflection |
+
+Dance follows a similar path: students learn steps, then learn to move in time with others, then choreograph a short piece together, with the debrief at the end. Visual arts add a critique routine, in which each student shows a work in progress and receives two specific comments, one on what works and one question, which is the critique and revision element that Chapter 14 lists for projects.
+
 ## Sports and Athletics
 
 **Sports and athletics** are organized physical activities, competitive or recreational, in which students develop fitness, skill, and character. Physical activity supports health, and research reviews have found small positive associations between physical activity and academic performance, which makes it a good use of time and not a trade-off against learning.
@@ -210,6 +256,20 @@ The mural is a sequenced project with a shared goal, an audience, and a debrief,
 !!! mascot-tip "Debrief the huddle, not just the score"
     ![Indigo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     The cheapest way to turn any sport or club into a pro-social activity is a three-minute reflection at the end: "What did we do well as a team? What got in our way?" It adds almost no time and supplies the one feature that fun alone does not.
+
+### Worked Example: Fair Play in Team Sports
+
+Team sports can exclude as easily as include. A school sets a few rules that keep a team pro-social, and checks them against the SAFE practices.
+
+| Practice | Rule a school might set | What it protects |
+|---|---|---|
+| Playing time | Every player plays at least half of each game in the intramural season | Inclusion |
+| Teams | Teams are re-drawn every three weeks so students play with different peers | Relationships beyond friend groups |
+| Coaching | Coaches are trained to give one skill note and one teamwork note after each game | Learning, not only winning |
+| Debrief | A three-minute huddle: "What did we do well as a team? What got in our way?" | Reflection |
+| Competition | Standings are shown for teams, not for individual players | Avoids shaming |
+
+None of this makes the game less fun, and it changes what it teaches. A coach who plays only the best players teaches students that their worth depends on their skill.
 
 ## Clubs, Making, and Computing
 
@@ -231,6 +291,55 @@ A **coding club** is a club in which students learn to program, often by buildin
 
 Notice that the technical and the social skills develop in the same activity. A team whose subsystems do not connect has a communication problem before it has an engineering problem.
 
+### Worked Example: Starting a Club
+
+Clubs work best when students lead them. A five-step start-up checklist for any club:
+
+| Step | What happens | Who |
+|---|---|---|
+| 1 | Two or more students propose the club and write a one-sentence purpose | Students |
+| 2 | A teacher sponsor agrees, and the group sets a meeting day | Teacher, students |
+| 3 | The students choose officers, which are roles that rotate each term | Students |
+| 4 | The club sets one goal for the term, with a public showing at the end | Students, sponsor |
+| 5 | The sponsor checks the SAFE practices once a month | Sponsor |
+
+The student leader is the key difference between a club and a class. Leading a meeting is itself a lesson in the facilitation and shared goals of Chapter 13.
+
+### Worked Example: A Pair-Programming Session
+
+A coding club session of 45 minutes can build collaboration and computational thinking at once if students work in pairs with two roles: the *driver*, who types, and the *navigator*, who reads the plan and watches for errors. The pair swaps roles every ten minutes.
+
+| Minutes | Activity | Driver | Navigator |
+|---|---|---|---|
+| 0–5 | Read the challenge: draw a square with a loop | Both | Both |
+| 5–15 | Plan the steps on paper (decomposition) | Student A writes | Student B asks "what is the first step?" |
+| 15–25 | Type and test | Student B types | Student A reads the plan |
+| 25–35 | Debug when it fails | Student A types | Student B suggests where to look |
+| 35–45 | Share with another pair; explain what the loop does | Both | Both |
+
+The routine solves a common problem, in which one student does all the typing. It also gives every student the practice of explaining their thinking to a partner, which is more valuable than the code.
+
+### Worked Example: A Maker Space Budget
+
+A maker space can begin with very little money. The table gives two illustrative budgets and the safety training each level requires.
+
+| | Starter (about \$1,000) | Growth (about \$10,000) |
+|---|---|---|
+| Craft and cardboard supplies | \$150 | \$150 |
+| Hand tools | \$250 | \$250 |
+| Electronics kits (six) | \$150 | \$150 |
+| Glue guns and safety gear | \$100 | \$100 |
+| Storage and consumables | \$350 | \$350 |
+| 3D printer | n/a | \$600 |
+| Soldering stations (four) | n/a | \$320 |
+| Laptop and design software | n/a | \$1,500 |
+| Desktop laser cutter | n/a | \$4,000 |
+| Ventilation and safety equipment | n/a | \$1,200 |
+| Staff training | n/a | \$1,500 |
+| Total | \$1,000 | about \$10,120 |
+
+Tools are tiered by risk. Tier 1 (hand tools, cardboard) needs only basic instruction. Tier 2 (soldering, hot tools) requires a safety session and adult supervision. Tier 3 (laser cutter, 3D printer) requires a certified adult and trained students. The larger cost is the adult who can supervise, and a starter space with a capable adult beats an expensive one with no one to run it.
+
 ## Projects: Project-Based and Phenomenon-Based Learning
 
 **Project-based learning** (PBL) is an instructional approach in which students learn by working over an extended period to investigate and respond to a real and complex question, problem, or challenge, and to produce something they present. It is the afternoon's most flexible form, since a project can draw on any subject and on every skill in Chapter 13. The organization PBLWorks describes seven essential elements of a well-designed project: a challenging problem or question; sustained inquiry; authenticity; student voice and choice; reflection; critique and revision; and a public product. The evidence is encouraging: in a set of studies from Lucas Education Research, students in project-based Advanced Placement courses passed the exam at rates several percentage points higher than students in other courses, though PBL done poorly, as a series of crafts with no inquiry, produces little.
@@ -250,6 +359,48 @@ A teacher proposes three afternoon projects. Check each against the seven elemen
 | "Make a poster about recycling" | No: a topic, not a question | Weak | Displayed in a hallway | A craft activity, not yet a project |
 | "How can our cafeteria waste less food?" | Yes | Yes: real data and staff | Presentation to the cafeteria manager | A strong project |
 | "Write a report on volcanoes" | No | No | Turned in to the teacher only | A traditional assignment |
+
+### Worked Example: Turning Topics into Driving Questions
+
+A driving question turns a topic into a task that students cannot answer by looking it up. Four examples:
+
+| Topic | A weak question (a lookup) | A driving question |
+|---|---|---|
+| Recycling | "What is recycling?" | "How can our school cut its landfill waste by a quarter this term?" |
+| Fractions | "How do you add fractions?" | "How could we scale a recipe to feed our whole grade?" |
+| Local history | "Who founded our town?" | "Whose stories are missing from our town's museum, and how could we add one?" |
+| Ecosystems | "What lives in a pond?" | "Is our school pond healthy enough to keep fish, and what would we change?" |
+
+A good test: if a search engine or a chatbot can answer it in one reply, it is a lookup. A driving question needs data to be collected, choices to be made, and something to be made at the end, which is also what makes it harder to hand to an AI tool.
+
+### Worked Example: Planning a Public Exhibition
+
+A public exhibition gives students a real audience, and it needs as much planning as any performance.
+
+| Weeks before | Task | Who |
+|---|---|---|
+| 4 | Pick a date and audience (families, a panel of experts, community members); book the space | Teacher, principal |
+| 3 | Teams write a one-paragraph description and a 3-minute talk | Teams |
+| 2 | Rehearse talks; give peer critique with two comments each | Teams |
+| 1 | Final run-through; prepare a visual or a demonstration | Teams |
+| Day of | Teams present; the audience fills a short feedback card | Everyone |
+| After | A debrief: what we are proud of; what we would change | Teams, teacher |
+
+The audience's feedback card has two prompts: "One thing I learned" and "One question I still have." It gives students a reason to care about clarity, since someone outside the class will read it.
+
+### Worked Example: A Phenomenon Crosses the Subjects
+
+Phenomenon-based learning starts from an event in the world and follows it across subjects. Suppose the school's creek turns brown after every heavy rain.
+
+| Subject | What students do |
+|---|---|
+| Science | Investigate runoff, erosion, and what makes water cloudy |
+| Mathematics | Measure cloudiness over time and graph it against rainfall |
+| Social studies | Study how the land around the creek is used and who decides |
+| Language arts | Write a letter to the town council with evidence |
+| Art | Draw a map of the watershed for the exhibition |
+
+One question, "why does our creek turn brown?", used five subjects, and every student's contribution fed a shared product. In a traditional day the same content would be spread over five periods with no connection among them.
 
 #### Diagram: Missing Project Element
 
@@ -334,6 +485,50 @@ Students at Lincoln Middle partner with a nearby elementary school to tutor seco
 | Demonstrate | Students present what they learned, and the second graders read to them |
 
 The service is real and needed, it is tied to a skill, and the reflection turns an activity into learning.
+
+### Worked Example: Choosing a Service Project
+
+A service project should be chosen on criteria, not on whichever idea is suggested first. Score each candidate from 0 to 3 on five criteria.
+
+| Criterion | Reading buddies | Park clean-up | Bake-sale fundraiser |
+|---|---|---|---|
+| A real need the partner has named | 3 | 2 | 1 |
+| A clear link to what students are learning | 3 | 1 | 0 |
+| A partner who is ready and has agreed | 3 | 3 | 2 |
+| Feasible in the time available | 3 | 3 | 3 |
+| Student voice in how it is run | 2 | 1 | 2 |
+| Total (out of 15) | 14 | 10 | 8 |
+
+Reading buddies scores highest because it ties directly to literacy and empathy, and the elementary school has asked for it. The bake sale is easy and teaches little. The scoring table keeps the choice from defaulting to the easiest option, and students can score the options themselves, which gives them voice.
+
+### Worked Example: A Four-Session Money Workshop
+
+A life-skills workshop works when students do the skill. A money workshop for eighth graders:
+
+| Session | Activity | What students produce |
+|---|---|---|
+| 1 | Sort 20 spending items into needs and wants | A needs-and-wants list |
+| 2 | Build a weekly budget from a \$40 allowance | A budget |
+| 3 | Compare two ways to save for a \$120 purchase | A savings plan |
+| 4 | Present a plan and defend one choice to a visiting banker | A short talk |
+
+The budget in session 2 might be: save \$8 (20 percent), needs \$12, wants \$15, and give \$5, for a total of \$40. Students check that their plan adds up to the income, and the visiting banker's questions in session 4 are the real audience. At the end students have a document and a skill, which is why such a workshop is a good use of an afternoon block.
+
+### Worked Example: What a Partnership Agreement Covers
+
+A community partnership works best when its terms are written down, even in a simple one-page memorandum of understanding. A checklist of what to include:
+
+| Item | Question it answers |
+|---|---|
+| Purpose and goals | What learning is this partnership for? |
+| Roles | What does the partner provide, and what does the school provide? |
+| Schedule | When, where, and for how long? |
+| Safety and screening | Who has been background-checked, and who supervises students? |
+| Student data | Will the partner see student information? If so, what and why (Chapter 10)? |
+| Equity | How will every student have access, including those without transport? |
+| Review and exit | When will both sides review it, and how can either end it? |
+
+The safety, data, and equity lines are the ones most often forgotten. A partnership with a museum that is a good learning experience for a dozen students, and is out of reach of the rest, has become an equity problem.
 
 ## Matching Activities to Skills
 
