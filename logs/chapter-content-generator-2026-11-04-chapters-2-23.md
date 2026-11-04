@@ -242,3 +242,7 @@
 ## Expansion pass: Chapter 10
 
 - Added about 1,950 words of prose (4,990 to about 6,935, now above the 6,600 floor): a data map, four ways privacy fails, what a clickstream can and cannot show, FERPA's school-official test and directory information, COPPA in a classroom, GDPR features, two levels of algorithmic explanation, a first-72-hours breach plan, and features by age. All legal content is general information and labeled recommended practice; verify the specifics (FERPA 45-day response, the school-official conditions, COPPA school-consent limits, GDPR 72-hour and one-month deadlines) with counsel before relying on them
+
+## Expansion pass: Chapter 11
+
+- Added about 2,260 words of prose (4,850 to about 7,100; the floor is 7,250): an adaptive session item by item, a mastery learning cycle, an honest finding that pacing alone does not create time (the slowest students would need about 1.7 times the daily time), gap filling as an investment, why Bloom's two sigma may overstate, tutoring cost by group size, cutting a lecture into pieces, where 300 freed hours could go, whether the afternoon counts as instructional time (state rules vary), taking a claim apart, and debugging an algorithm. Arithmetic verified. External figure to verify: the edX video-length finding (Guo, Kim and Rubin, 2014; engagement drops after about six minutes)

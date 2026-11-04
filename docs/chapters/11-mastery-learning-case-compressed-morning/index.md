@@ -69,6 +69,39 @@ The evidence for adaptive learning is real and modest. A large randomized study 
 
 A 1990 meta-analysis of mastery-learning studies by Chen-Lin Kulik, James Kulik, and Robert Bangert-Drowns found that mastery learning raised exam performance by about half a standard deviation on average, which in the terms of Chapter 2 moves the average student from the 50th to roughly the 70th percentile. Most of those studies were in college and high school courses, many were short, and the quality varied, so the number is a guide and not a promise.
 
+### Worked Example: An Adaptive Session, Item by Item
+
+Adaptive learning follows a rule. Here is a simple one, with five difficulty levels. Start at level 3. Two correct answers in a row at the same level move the student up one level, and one wrong answer moves the student down one. Maya's ten-question session goes as follows. The results are illustrative.
+
+| Question | Level | Result | Next level |
+|---|---|---|---|
+| 1 | 3 | Correct | 3 (one correct so far) |
+| 2 | 3 | Correct | 4 (two in a row) |
+| 3 | 4 | Wrong | 3 |
+| 4 | 3 | Correct | 3 |
+| 5 | 3 | Correct | 4 |
+| 6 | 4 | Correct | 4 |
+| 7 | 4 | Correct | 5 |
+| 8 | 5 | Wrong | 4 |
+| 9 | 4 | Correct | 4 |
+| 10 | 4 | Correct | 5 |
+
+Six of the ten questions were at levels 4 or 5, where Maya was stretched, and none was wasted on material far below or far above her. A fixed ten-question worksheet at level 3 would have told her teacher only that she can do level 3. The rule also leaves a clear record, since the sequence of levels is itself data about what she can do. It uses no language model: only a rule and a counter.
+
+### Worked Example: A Mastery Learning Cycle
+
+Bloom's mastery learning is a cycle, not a single lesson. Imagine a class of 28 learning equivalent fractions.
+
+| Stage | What happens | Result |
+|---|---|---|
+| Teach | A short lesson with practice | n/a |
+| First check | A formative quiz, with a mastery threshold of 80 percent | 17 of 28 students (61 percent) meet it |
+| Correct and enrich | The 11 below the threshold get different instruction (a new explanation, a manipulative, a peer tutor); the 17 who met it do an extension project | n/a |
+| Second check | A parallel quiz of equal difficulty | 8 of the 11 now meet the threshold |
+| Result | 25 of 28 students (89 percent) have mastered the concept | 3 students need more help and are flagged |
+
+Two points matter. The cycle needs *different* instruction for the second try, not a repeat, since the first explanation already failed these students. And the students who met the threshold were not made to wait, because they did something worthwhile. This is the pattern an adaptive textbook automates: the check, the branch, and the second check happen continuously for every student, and the teacher's time goes to the three who still need a human.
+
 ### Worked Example: Fixed Time Versus Fixed Mastery
 
 Recall Chapter 3's class of 20 students who needed between 70 and 260 hours to master a course. The table contrasts what happens in the two models. The values repeat the illustrative numbers from that example.
@@ -88,6 +121,33 @@ Mastery learning gets every student to the goal with *fewer* total hours in this
 **Personalized pacing** is letting each student move through material at the speed that suits them: faster through what they already know, slower through what is new or difficult. It is the self-paced learning of Chapter 1, made practical by software that tracks progress and offers the next step. **Gap filling** is the diagnosis and repair of missing prerequisite knowledge: finding the root gap, in the sense of Chapter 2, and teaching the missing concept before returning to the grade-level work. It is the remedy for the "missing stair" of Maya's fractions, and, according to the learning-gap analysis of Chapter 1, it is the main reason students who are behind stay behind: they sit through lessons built on foundations they do not have.
 
 Together they address the main weakness of whole-class instruction. Recall Chapter 1's class of 28, in which only 13 students were "in reach" of any single lesson. Adaptive software can serve all 28 at their own readiness. The question is whether it does so *well enough* to replace the time the whole class spends together.
+
+### Worked Example: Pacing Does Not Create Time
+
+Personalized pacing lets each student move at their own speed, and it raises a question that is easy to overlook: what happens to the student who needs more time than the year contains? Take the 20 students of Chapter 3, who need between 70 and 260 hours to master a 150-hour course, and suppose each gets 50 minutes a day for 180 days.
+
+| Hours needed | Days needed at 50 minutes a day | Finishes within the 180-day year? |
+|---|---|---|
+| 70 (fastest) | 84 | Yes, with 96 days to spare |
+| 100 | 120 | Yes |
+| 150 | 180 | Exactly |
+| 200 | 240 | No: 60 days short |
+| 260 (slowest) | 312 | No: 132 days short |
+
+Pacing alone lets fast students move on and lets slow students keep working, and it does nothing to make the year longer. The slowest students would need about 1.7 times the daily time to finish in one year. The design has to answer this honestly: protect extra morning time and coaching for the students who are behind (the gap filling of this section), accept that some will finish the course the following year, or both. A model that advertises personalized pacing without a plan for the slower students has moved the problem and not solved it, and the equity commitments of Chapter 20 apply directly.
+
+### Worked Example: Gap Filling Is an Investment
+
+Gap filling costs time up front and saves it later. Return to Maya, who fails unit-rate problems because of a root gap in equivalent fractions (Chapter 2). Compare two responses over a month. The hour estimates are illustrative.
+
+| | Reteach unit rates | Fill the gap first |
+|---|---|---|
+| Hours in the first week | 3 on unit rates, no progress | 3 on equivalent fractions, with mastery reached |
+| Hours in the second week | 3 more on unit rates, still stuck | 2 on ratios, now moving |
+| Hours in the third week | 3 more, stuck, frustration grows | 2 on unit rates, mastered |
+| Total after three weeks | 9 hours, nothing mastered | 7 hours, three concepts mastered |
+
+The gap-filling path is not only cheaper in hours; it ends with three concepts mastered and a student whose confidence has risen. The reteaching path spends more and teaches nothing, because the lesson being repeated rests on a missing stair. This is the main reason the learning graph of Chapter 9 matters: it is how the software finds the stair.
 
 !!! mascot-thinking "Pace is a variable, not a constant"
     ![Indigo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
@@ -122,6 +182,34 @@ Convert the effect sizes into percentiles with the table of Chapter 2, and compa
 | Well-designed tutoring system | about 0.7 | about 76th | about \$23 (Level 4, Chapter 7) | about \$276,000 |
 
 The last row is the hope behind the AI tutor: an effect in the range of half a standard deviation or more, at a cost of tens of dollars rather than thousands. It is a hope and not a result. The effect size in that row comes from studies of earlier tutoring *systems*, and whether current AI tutors reach it in real classrooms is what the next section examines.
+
+### Worked Example: Why Bloom's Two Sigma May Overstate
+
+The two-sigma figure is an upper bound, and several features of the original studies push it up. Reading them side by side with a typical school trial shows why the pooled average is so much lower.
+
+| Feature | Bloom's small studies | A typical real-school trial |
+|---|---|---|
+| Duration | A few weeks on one unit | A semester or a year |
+| Group size | A few dozen students per condition | Hundreds or thousands |
+| What was tested | The material that had been taught | A broad state-aligned test |
+| Tutors | Trained and closely managed | Varied, with turnover |
+| Dosage | Intensive, with mastery learning built in | Often a few sessions a week |
+| Setting | University lab schools and local classrooms | Many different schools |
+
+None of this makes the studies wrong. It means that a result obtained under tight control and a narrow test should not be expected to carry over unchanged. The practical conclusion is to plan for effects of a third to three-quarters of a standard deviation from well-run tutoring, and not for two.
+
+### Worked Example: What Human Tutoring Costs by Group Size
+
+Tutoring cost depends mostly on how many students share a tutor. Suppose a tutor costs \$40 an hour fully loaded and works with each student for 30 minutes, three times a week, for 30 weeks, or 45 hours.
+
+| Format | Students per tutor | Tutor cost per student for 45 hours | Cost for 1,000 students |
+|---|---|---|---|
+| One-on-one | 1 | \$1,800 | \$1,800,000 |
+| Small group | 3 | \$600 | \$600,000 |
+| Larger group | 6 | \$300 | \$300,000 |
+| AI tutor (Chapter 7, Level 4) | many | about \$23 | about \$23,000 |
+
+One-on-one tutoring for a thousand students costs about eighty times as much as the Level 4 figure. Small-group tutoring, which keeps much of the human contact at a third of the cost, is a sensible middle option for students who are furthest behind, which is why the book treats AI tutoring as the base for everyone and human tutoring as a targeted addition. These costs are illustrative, and a district should price its own.
 
 ## AI Tutors
 
@@ -253,6 +341,50 @@ The compressed morning is 150 minutes, 2.5 hours, and frees \( 250 - 150 = 100 \
 
 The scenario also shows what must be true. Students would need to cover in 150 minutes what the traditional morning covers in 250, which means learning about \( 250 / 150 \approx 1.67 \) times as much per minute. The compression works only if the adaptive morning delivers that gain, and that is what the evidence, so far, does not show. If the morning must be 190 minutes (explanation 70 and practice 110), the freed time falls to 60 minutes a day, or about 28 school days a year, still worth having but less transformative.
 
+### Worked Example: Cutting a Twenty-Minute Lecture Into Pieces
+
+Reduced direct instruction does not mean no explanation. It means explaining in short pieces, with the student doing something between them. Research on online video found that short segments hold attention best: in a large analysis of edX course videos, engagement dropped sharply for videos longer than about six minutes. Here is one 20-minute lecture on unit rates, rebuilt.
+
+| Minute | Traditional lecture | Rebuilt as a student-paced sequence |
+|---|---|---|
+| 0–5 | Teacher explains unit rates | A 5-minute interactive explanation with a slider the student moves |
+| 5–6 | (continues) | The student answers a self-check question and sees feedback |
+| 6–11 | (continues) | A 5-minute second piece: unit price from a table |
+| 11–12 | (continues) | A self-check; the dashboard notes who missed it |
+| 12–17 | (continues) | A 5-minute third piece with a real example |
+| 17–20 | Practice problems, for those who followed | Students needing help meet the teacher; the rest move to practice |
+
+The explanation has not disappeared, and it has been cut into three pieces with checks. A student who understood the first piece moves on in five minutes instead of waiting twenty. One who did not meets the teacher sooner and is not carried along through two more pieces built on the first.
+
+### Worked Example: Where Might 300 Freed Hours Go?
+
+The compressed morning could free about 300 hours a year, but the hours only help if they are planned. An illustrative allocation:
+
+| Use | Hours a year | Share |
+|---|---|---|
+| Project block with public exhibitions | 120 | 40% |
+| Arts and ensembles | 60 | 20% |
+| Sports and clubs | 60 | 20% |
+| Life-skills workshops and service learning | 40 | 13% |
+| Advisory and reflection | 20 | 7% |
+| Total | 300 | 100% |
+
+The largest share goes to the project block, because the evidence in Chapters 13 and 14 favors extended, team-based work. A school can change the split, but it should write the allocation down, since time that is not assigned drifts, which is the risk Chapter 14 names.
+
+### Worked Example: Does the Afternoon Count as Instructional Time?
+
+State rules require a minimum amount of instructional time, and a redesigned day has to meet them. The numbers are illustrative, and each state's definition of instructional time differs, so a district should check its own and ask about waivers. Suppose a state requires 990 hours a year and the school provides 6 instructional hours a day for 180 days.
+
+| | Hours |
+|---|---|
+| Instructional time available: 6 hours × 180 days | 1,080 |
+| Compressed morning: 150 minutes × 180 days | 450 |
+| Remaining time in the day | 630 |
+| Needed from the afternoon to reach 990 | 540 |
+| Share of the afternoon that must count as instruction | 540 ÷ 630, about 86% |
+
+If the state counts only teacher-led academic instruction, most of a project-and-arts afternoon may not qualify, and the school would fall short. If the state counts any supervised, standards-aligned learning, it may. This is a real design constraint, and it is one reason Chapter 21 lists policy embedding, including waivers, among the steps of making the model last.
+
 #### Diagram: Morning Time Budget
 
 <details markdown="1">
@@ -341,6 +473,31 @@ The argument skips a step. Even if both premises are true, students might score 
 ### Worked Example: Computational Thinking in Maya's Textbook
 
 The ready-concepts rule of Chapters 8 and 9 is computational thinking in action. The problem, "what should Maya study next?", is *decomposed* into one question per concept: is it mastered, and are its prerequisites mastered? The *pattern* is that every concept is checked the same way. The *abstraction* ignores everything about a concept except its name, its status, and its prerequisites. The *algorithm* is the rule itself: for each unmastered concept, mark it ready if all its direct prerequisites are mastered. A student who can run, and then write, a rule like this has learned something that applies to scheduling a tournament, sorting a list, or planning a project.
+
+### Worked Example: Taking a Claim Apart
+
+Critical thinking is a habit of taking a claim apart. Apply it to a sentence from a brochure: "Students who use our tutor score 20 percent higher, so our tutor works."
+
+| Part | Text | Question to ask |
+|---|---|---|
+| Premise | Students who use the tutor score 20 percent higher | Higher than whom? On what test? By how many points? |
+| Hidden assumption | The tutor caused the higher scores | Did motivated students choose the tutor? Did they start higher? |
+| Conclusion | The tutor works | Does a difference between two groups show a cause? |
+| Evidence needed | Random assignment or a matched comparison with baselines | Is there a randomized or independent study? |
+
+The argument moves from a correlation to a cause. A student who can write this table has practiced evidence evaluation and argument analysis on a real example, and it is the same table Chapter 2 used to read the MathPath brochure.
+
+### Worked Example: Debugging an Algorithm
+
+Computational thinking includes testing a rule on an example and fixing it when it fails. Here is a first version of the ready-concepts rule, written in plain steps: "For each concept, if all its prerequisites are mastered, it is ready." Test it on a small graph: concept A has no prerequisites, concept B depends on A, and the student has mastered A.
+
+| Step | What the rule does | Result |
+|---|---|---|
+| Check A | A has no prerequisites, so all of them (none) are mastered | A is "ready" |
+| Check B | B's prerequisite A is mastered | B is "ready" |
+| Output | A and B | A is wrong: the student already mastered it |
+
+The test exposed a bug: the rule never asks whether the concept is already mastered. The fix adds a condition: "if it is *not yet mastered* and all its prerequisites are mastered, it is ready." Running the same example gives only B, which is right. This is the habit of Chapter 12's algorithmic thinking: write the steps, run them on a small case, look for a surprising answer, and repair the rule. It is also the reason a transparent rule is easier to trust than an opaque model: you can run it on a small case yourself.
 
 !!! mascot-encourage "Thinking skills are learned by practice"
     ![Indigo encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
