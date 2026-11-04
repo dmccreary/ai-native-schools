@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="An interactive intelligent textbook about how AI is enabling more pro-social behaviors in schools. The theme is "Mornings with AI, Afternoons with Each Other".">
+        <meta name="description" content="The core vocabulary of education, schools, teachers, students, curriculum, the school day, and learning science that the rest of the book builds on.">
       
       
         <meta name="author" content="Dan McCreary">
@@ -26,7 +26,7 @@
     
     
       
-        <title>1. The Building Blocks of Schools, Students, and Learning - AI-Native Schools</title>
+        <title>The Building Blocks of Schools, Students, and Learning - AI-Native Schools</title>
       
     
     
@@ -55,6 +55,8 @@
       <link rel="stylesheet" href="../../css/extra.css">
     
       <link rel="stylesheet" href="../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -116,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1. The Building Blocks of Schools, Students, and Learning
+              The Building Blocks of Schools, Students, and Learning
             
           </span>
         </div>
@@ -514,6 +516,561 @@
   <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
       Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#before-we-change-anything-lets-name-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before We Change Anything, Let's Name It
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#education-and-learning-two-words-that-are-not-synonyms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Education and Learning: Two Words That Are Not Synonyms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Education and Learning: Two Words That Are Not Synonyms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-is-this-education-learning-or-both" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Is This Education, Learning, or Both?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schools-students-teachers-and-classrooms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schools, Students, Teachers, and Classrooms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schools, Students, Teachers, and Classrooms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#school" class="md-nav__link">
+    <span class="md-ellipsis">
+      School
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-listing-a-schools-jobs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Listing a School's Jobs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student" class="md-nav__link">
+    <span class="md-ellipsis">
+      Student
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-one-student-several-starting-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: One Student, Several Starting Points
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teacher" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teacher
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-the-arithmetic-of-a-teachers-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: The Arithmetic of a Teacher's Week
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classroom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classroom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-how-much-one-on-one-time-is-there" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: How Much One-on-One Time Is There?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curriculum-and-learning-outcomes-what-schools-intend-to-teach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curriculum and Learning Outcomes: What Schools Intend to Teach
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Curriculum and Learning Outcomes: What Schools Intend to Teach">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#curriculum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curriculum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-one-standard-three-curricula" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: One Standard, Three Curricula
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-outcome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Outcome
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-rewriting-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Rewriting Outcomes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blooms-taxonomy-and-higher-order-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bloom's Taxonomy and Higher-Order Thinking
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloom's Taxonomy and Higher-Order Thinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-blooms-taxonomy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Bloom's Taxonomy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#higher-order-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Higher-Order Thinking
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-one-topic-at-six-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: One Topic at Six Levels
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Example: One Topic at Six Levels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-bloom-level-task-sorter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Bloom Level Task Sorter
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-school-day-and-direct-instruction" class="md-nav__link">
+    <span class="md-ellipsis">
+      The School Day and Direct Instruction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The School Day and Direct Instruction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#school-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      School Day
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direct-instruction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Direct Instruction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-an-i-do-we-do-you-do-lesson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: An I-Do, We-Do, You-Do Lesson
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Example: An I-Do, We-Do, You-Do Lesson">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-where-the-minutes-go-in-a-traditional-school-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Where the Minutes Go in a Traditional School Day
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-learning-gap" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Learning Gap
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Learning Gap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-how-wide-is-one-classroom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: How Wide Is One Classroom?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Example: How Wide Is One Classroom?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-one-lesson-many-readiness-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: One Lesson, Many Readiness Levels
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-paced-learning-and-student-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Self-Paced Learning and Student Agency
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Self-Paced Learning and Student Agency">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#self-paced-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Self-Paced Learning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-two-students-one-unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Two Students, One Unit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Student Agency
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-four-degrees-of-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Four Degrees of Agency
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formative-assessment-checking-learning-while-it-happens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formative Assessment: Checking Learning While It Happens
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Formative Assessment: Checking Learning While It Happens">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-a-hinge-question-in-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: A Hinge Question in Action
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spaced-practice-and-retrieval-practice-how-learning-lasts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spaced Practice and Retrieval Practice: How Learning Lasts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spaced Practice and Retrieval Practice: How Learning Lasts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spaced-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spaced Practice
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieval-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrieval Practice
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-planning-three-reviews" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Planning Three Reviews
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Example: Planning Three Reviews">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-spacing-and-retrieval-retention-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Spacing and Retrieval Retention Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#educational-technology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Educational Technology
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Educational Technology">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-two-uses-of-the-same-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Two Uses of the Same Tool
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paying-for-it-public-school-funding-and-per-pupil-spending" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paying for It: Public School Funding and Per-Pupil Spending
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Paying for It: Public School Funding and Per-Pupil Spending">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-school-funding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Public School Funding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#per-pupil-spending" class="md-nav__link">
+    <span class="md-ellipsis">
+      Per-Pupil Spending
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-computing-per-pupil-spending" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Computing Per-Pupil Spending
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#putting-the-building-blocks-together" class="md-nav__link">
+    <span class="md-ellipsis">
+      Putting the Building Blocks Together
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Putting the Building Blocks Together">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-building-blocks-concept-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Building Blocks Concept Map
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
     </span>
   </a>
   
@@ -1239,6 +1796,561 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#before-we-change-anything-lets-name-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before We Change Anything, Let's Name It
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#education-and-learning-two-words-that-are-not-synonyms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Education and Learning: Two Words That Are Not Synonyms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Education and Learning: Two Words That Are Not Synonyms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-is-this-education-learning-or-both" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Is This Education, Learning, or Both?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schools-students-teachers-and-classrooms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schools, Students, Teachers, and Classrooms
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schools, Students, Teachers, and Classrooms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#school" class="md-nav__link">
+    <span class="md-ellipsis">
+      School
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-listing-a-schools-jobs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Listing a School's Jobs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student" class="md-nav__link">
+    <span class="md-ellipsis">
+      Student
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-one-student-several-starting-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: One Student, Several Starting Points
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#teacher" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teacher
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-the-arithmetic-of-a-teachers-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: The Arithmetic of a Teacher's Week
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#classroom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Classroom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-how-much-one-on-one-time-is-there" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: How Much One-on-One Time Is There?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#curriculum-and-learning-outcomes-what-schools-intend-to-teach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curriculum and Learning Outcomes: What Schools Intend to Teach
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Curriculum and Learning Outcomes: What Schools Intend to Teach">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#curriculum" class="md-nav__link">
+    <span class="md-ellipsis">
+      Curriculum
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-one-standard-three-curricula" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: One Standard, Three Curricula
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-outcome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Outcome
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-rewriting-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Rewriting Outcomes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blooms-taxonomy-and-higher-order-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bloom's Taxonomy and Higher-Order Thinking
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloom's Taxonomy and Higher-Order Thinking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-blooms-taxonomy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Bloom's Taxonomy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#higher-order-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      Higher-Order Thinking
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-one-topic-at-six-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: One Topic at Six Levels
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Example: One Topic at Six Levels">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-bloom-level-task-sorter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Bloom Level Task Sorter
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-school-day-and-direct-instruction" class="md-nav__link">
+    <span class="md-ellipsis">
+      The School Day and Direct Instruction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The School Day and Direct Instruction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#school-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      School Day
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direct-instruction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Direct Instruction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-an-i-do-we-do-you-do-lesson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: An I-Do, We-Do, You-Do Lesson
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Example: An I-Do, We-Do, You-Do Lesson">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-where-the-minutes-go-in-a-traditional-school-day" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Where the Minutes Go in a Traditional School Day
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-learning-gap" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Learning Gap
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Learning Gap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-how-wide-is-one-classroom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: How Wide Is One Classroom?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Example: How Wide Is One Classroom?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-one-lesson-many-readiness-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: One Lesson, Many Readiness Levels
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#self-paced-learning-and-student-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Self-Paced Learning and Student Agency
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Self-Paced Learning and Student Agency">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#self-paced-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Self-Paced Learning
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-two-students-one-unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Two Students, One Unit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Student Agency
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-four-degrees-of-agency" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Four Degrees of Agency
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formative-assessment-checking-learning-while-it-happens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formative Assessment: Checking Learning While It Happens
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Formative Assessment: Checking Learning While It Happens">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-a-hinge-question-in-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: A Hinge Question in Action
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spaced-practice-and-retrieval-practice-how-learning-lasts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spaced Practice and Retrieval Practice: How Learning Lasts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Spaced Practice and Retrieval Practice: How Learning Lasts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spaced-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Spaced Practice
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieval-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrieval Practice
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-planning-three-reviews" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Planning Three Reviews
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Example: Planning Three Reviews">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-spacing-and-retrieval-retention-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Spacing and Retrieval Retention Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#educational-technology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Educational Technology
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Educational Technology">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-two-uses-of-the-same-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Two Uses of the Same Tool
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paying-for-it-public-school-funding-and-per-pupil-spending" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paying for It: Public School Funding and Per-Pupil Spending
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Paying for It: Public School Funding and Per-Pupil Spending">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-school-funding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Public School Funding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#per-pupil-spending" class="md-nav__link">
+    <span class="md-ellipsis">
+      Per-Pupil Spending
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#worked-example-computing-per-pupil-spending" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Computing Per-Pupil Spending
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#putting-the-building-blocks-together" class="md-nav__link">
+    <span class="md-ellipsis">
+      Putting the Building Blocks Together
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Putting the Building Blocks Together">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-building-blocks-concept-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Building Blocks Concept Map
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1364,13 +2476,1479 @@
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
 <p>This chapter assumes only the prerequisites listed in the <a href="../../course-description/">course description</a>.</p>
 <hr />
-<p>TODO: Generate Chapter Content</p>
+<h2 id="before-we-change-anything-lets-name-it">Before We Change Anything, Let's Name It<a class="headerlink" href="#before-we-change-anything-lets-name-it" title="Permanent link">&para;</a></h2>
+<p>This book argues that the school day is about to change more in the next few years than it has in the last hundred. Before we can talk sensibly about that change, we need a shared vocabulary for the thing being changed. Teachers, principals, board members, and parents all use words like <em>curriculum</em>, <em>learning</em>, and <em>assessment</em>, but they often mean slightly different things by them. Those small differences turn into large arguments once money, schedules, and children's futures are on the table.</p>
+<p>So this chapter does something deliberately modest. It describes how schools work <em>today</em>, using terms that education researchers and practitioners would recognize, and it does so without any artificial intelligence in the picture. Every later chapter leans on these words. When Chapter 11 argues that adaptive textbooks can compress academic work into a shorter morning, it depends on what you learn here about direct instruction, the learning gap, and self-paced learning. When Chapter 20 redesigns the school day, it starts from the school day described here.</p>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Hello — I'm Indigo</p>
+<p><img alt="Indigo waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png" />
+I'm Indigo, a barn owl, and like most owls I prefer to look carefully before I swoop. I'll pop up in these chapters to do six jobs:</p>
+<ol>
+<li><strong>Welcome</strong> you at the start of each chapter and tell you why it matters.</li>
+<li><strong>Think</strong> with you when an idea asks you to rebuild a mental model.</li>
+<li><strong>Tip</strong> you off to a shortcut or a useful test you can use right away.</li>
+<li><strong>Warn</strong> you about a common trap, and show you how to step around it.</li>
+<li><strong>Encourage</strong> you when a passage is genuinely hard.</li>
+<li><strong>Celebrate</strong> with you when you finish something worth naming.</li>
+</ol>
+<p>If I'm not doing one of those six things, I'm not in the chapter. Let's find the balance.</p>
+</div>
+<p>We will move from the broadest ideas to the most specific ones. First come education and learning, then the institutions and people involved, then what schools try to teach and how they describe it, and finally the daily mechanics of teaching, practice, and checking for understanding. Along the way we follow one composite student, Maya, a seventh grader at a public middle school, and her math teacher, Ms. Rivera. Neither is a real person. They are composites built to make the ideas concrete.</p>
+<h2 id="education-and-learning-two-words-that-are-not-synonyms">Education and Learning: Two Words That Are Not Synonyms<a class="headerlink" href="#education-and-learning-two-words-that-are-not-synonyms" title="Permanent link">&para;</a></h2>
+<p>The broadest concept in this book is <strong>education</strong>: the organized, intentional effort by a society, community, or family to help people acquire knowledge, skills, values, and ways of thinking. The key words are <em>organized</em> and <em>intentional</em>. A grandmother deliberately teaching a grandchild to bake bread is education. So is a university lecture, an apprenticeship, a driver's education course, and a public school. Education is something people <em>do for</em> or <em>with</em> a learner, and it always has a purpose behind it.</p>
+<p><strong>Learning</strong> is different. Learning is a relatively lasting change in a person's knowledge, skills, or understanding that results from experience. Learning happens inside the learner. It can happen with no education involved at all: a child who touches a hot stove learns something durable without anyone intending to teach. And education can happen with little learning: a lecture delivered to a room of students who forget it by Friday was education in intent and not much learning in result.</p>
+<p>The phrase "relatively lasting" matters more than it first appears. Researchers distinguish <strong>performance</strong>, what a learner can do right now, from learning, what the learner can still do days or weeks later. A student who crams the night before a test may perform well in the morning and retain little by the next month. That student showed strong performance and weak learning. This gap between how learning <em>feels</em> in the moment and what actually lasts will come back later in this chapter, when we reach spaced and retrieval practice, and it shapes nearly every argument in the book about what an AI tutor should and should not do.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Learning happens in the learner</p>
+<p><img alt="Indigo thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+Notice where each word lives. Education lives in the plans, people, and places a society builds; learning lives only inside the student's head. Every reform in this book is a bet that changing the first will change the second — so always ask what evidence shows the second actually moved.</p>
+</div>
+<p>A third word, <em>schooling</em>, is often blurred with both. Schooling is education delivered through the specific institution of a school. Most of this book is about schooling, because that is the institution AI is about to reshape. The table below summarizes the three terms you have just met; it adds no new ideas, but it is a useful reference when later chapters use the words carefully.</p>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>What it is</th>
+<th>Where it lives</th>
+<th>Can it happen without the others?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Education</td>
+<td>Organized, intentional effort to help people learn</td>
+<td>Families, communities, institutions</td>
+<td>Yes — a lecture no one remembers is education with little learning</td>
+</tr>
+<tr>
+<td>Learning</td>
+<td>A relatively lasting change in knowledge or skill from experience</td>
+<td>Inside the learner</td>
+<td>Yes — a child learns from touching a hot stove with no teacher present</td>
+</tr>
+<tr>
+<td>Schooling</td>
+<td>Education delivered through the institution of a school</td>
+<td>Schools</td>
+<td>No — schooling is one form of education</td>
+</tr>
+</tbody>
+</table>
+<h3 id="worked-example-is-this-education-learning-or-both">Worked Example: Is This Education, Learning, or Both?<a class="headerlink" href="#worked-example-is-this-education-learning-or-both" title="Permanent link">&para;</a></h3>
+<p>Consider four short scenes from Maya's week and decide which concept each one illustrates.</p>
+<ol>
+<li><strong>Monday, 9:10 a.m.</strong> Ms. Rivera explains how to add fractions with unlike denominators. Maya is texting under her desk and absorbs none of it. <em>This is education (intentional, organized teaching) with almost no learning.</em></li>
+<li><strong>Monday, 6:00 p.m.</strong> Maya watches an older cousin fix a bicycle chain, and the next weekend fixes her own. <em>This is learning with no formal education; the cousin was not trying to teach.</em></li>
+<li><strong>Wednesday.</strong> Maya's grandfather spends an evening deliberately teaching her to read a bus map, and she navigates to the library alone the following Saturday. <em>This is both: intentional education outside school, and lasting learning.</em></li>
+<li><strong>Friday.</strong> Maya scores 95 percent on a vocabulary quiz she crammed for that morning; three weeks later she recalls four of the twenty words. <em>This is strong performance with weak learning, which is exactly the distinction researchers warn about.</em></li>
+</ol>
+<p>The fourth scene is the one that matters most for the rest of this book. A school that measures only Friday's quiz will believe it is succeeding even when little lasting learning occurred.</p>
+<h2 id="schools-students-teachers-and-classrooms">Schools, Students, Teachers, and Classrooms<a class="headerlink" href="#schools-students-teachers-and-classrooms" title="Permanent link">&para;</a></h2>
+<p>With education and learning defined, we can name the institution and the people where most formal education for children happens.</p>
+<h3 id="school">School<a class="headerlink" href="#school" title="Permanent link">&para;</a></h3>
+<p>A <strong>school</strong> is an institution, usually with dedicated buildings and staff, that a society sets up to provide education to a defined group of learners on a regular schedule. In the United States, public schools serve roughly 49 million students in about 99,000 schools, according to the National Center for Education Statistics, with private schools and homeschooling serving millions more. A school is more than a building. It is a bundle of decisions about who attends, what they study, who teaches them, when they show up, how they are grouped, and how their progress is judged.</p>
+<p>That bundle has been remarkably stable. Historians David Tyack and Larry Cuban called the durable structure underneath it the "grammar of schooling": age-graded classes, one teacher per room, subjects divided into periods, and a bell schedule. Chapter 3 traces where that grammar came from. For now, notice that most of the features we think of as "what a school is" were design choices made more than a century ago, and design choices can be revisited.</p>
+<p>A school also performs several jobs at once, and confusing them causes trouble in any reform conversation. Schools teach academic content. They also provide safe supervision for children while parents work, meals for students who need them, a place to make friends, access to counseling and special-education services, sports, the arts, and a sense of community. A reform that improves academic learning but breaks the supervision or community job will meet fierce resistance, and it should.</p>
+<h3 id="worked-example-listing-a-schools-jobs">Worked Example: Listing a School's Jobs<a class="headerlink" href="#worked-example-listing-a-schools-jobs" title="Permanent link">&para;</a></h3>
+<p>Suppose a parent asks the principal of Maya's school, "What is this school actually <em>for</em>?" A complete answer lists at least six distinct jobs:</p>
+<ol>
+<li><strong>Academic instruction</strong> in reading, writing, mathematics, science, history, and other subjects.</li>
+<li><strong>Supervision</strong>: a safe, adult-supervised place for children roughly from 8 a.m. to 3 p.m.</li>
+<li><strong>Nutrition</strong>: breakfast and lunch, often free or reduced-price for students from low-income families.</li>
+<li><strong>Support services</strong>: special education, counseling, health screening, English-language support.</li>
+<li><strong>Social development</strong>: friendships, teamwork, conflict resolution, belonging.</li>
+<li><strong>Enrichment</strong>: music, art, athletics, clubs.</li>
+</ol>
+<p>When a later chapter proposes moving academic instruction into a shorter morning, this list is a checklist. Every job still has to be done by someone, somewhere, during the day.</p>
+<h3 id="student">Student<a class="headerlink" href="#student" title="Permanent link">&para;</a></h3>
+<p>A <strong>student</strong> is a person enrolled in a course of study at an educational institution. That definition is administrative; the more useful view for this book is that each student arrives as a different learner. Students differ in prior knowledge, reading level, interests, motivation, language background, disabilities, home circumstances, sleep, and confidence. A seventh grader like Maya might read at a ninth-grade level, do math at a fifth-grade level, love drawing, and be quietly anxious about speaking in front of the class.</p>
+<p>Traditional schools group students mainly by <em>age</em>, not by readiness. Two students born a week apart sit in the same grade regardless of what each already knows. This is efficient for scheduling and fair in a rough sense, but it means every classroom contains students at very different starting points. That fact drives the concept of the learning gap later in this chapter.</p>
+<h3 id="worked-example-one-student-several-starting-points">Worked Example: One Student, Several Starting Points<a class="headerlink" href="#worked-example-one-student-several-starting-points" title="Permanent link">&para;</a></h3>
+<p>Here is a profile of Maya, drawn as a composite, to make "each student is different" concrete:</p>
+<ul>
+<li><strong>Reading:</strong> finishes young-adult novels quickly; reads about two grade levels above her grade.</li>
+<li><strong>Mathematics:</strong> never fully mastered fractions in fifth grade, so ratio problems in seventh grade stall her.</li>
+<li><strong>Interests:</strong> drawing, graphic novels, animals.</li>
+<li><strong>Constraints:</strong> cares for a younger brother after school, so homework time is short.</li>
+<li><strong>Confidence:</strong> high in English class, low in math class, and she hides confusion rather than ask.</li>
+</ul>
+<p>Notice that "seventh grader" describes almost nothing useful about what Maya needs next. Her next step in reading and her next step in math are years apart.</p>
+<h3 id="teacher">Teacher<a class="headerlink" href="#teacher" title="Permanent link">&para;</a></h3>
+<p>A <strong>teacher</strong> is a professional whose job is to help students learn: planning instruction, explaining ideas, designing practice, assessing progress, giving feedback, managing a group of young people, and building relationships with them and their families. In most countries, public school teachers hold a license that requires a degree, supervised practice, and examinations.</p>
+<p>The job is far larger than the time spent talking at the front of a room. Teachers make hundreds of small decisions every hour: who to call on, when to slow down, whether a student's silence means confusion or boredom, how to calm a conflict. Researchers who study classroom teaching consistently find that the teacher is the most important school-based factor in how much students learn. That is why this book will argue that AI should change <em>what teachers spend their time on</em>, not whether schools need them.</p>
+<h3 id="worked-example-the-arithmetic-of-a-teachers-week">Worked Example: The Arithmetic of a Teacher's Week<a class="headerlink" href="#worked-example-the-arithmetic-of-a-teachers-week" title="Permanent link">&para;</a></h3>
+<p>Ms. Rivera teaches five sections of seventh-grade math, each with 28 students. That is <span class="arithmatex">\( 5 \times 28 = 140 \)</span> students. Suppose she wants to give each student five minutes of written feedback on one homework assignment per week:</p>
+<div class="arithmatex">\[
+140 \text{ students} \times 5 \text{ minutes} = 700 \text{ minutes} \approx 11.7 \text{ hours}
+\]</div>
+<p>That is nearly twelve hours a week for one round of feedback on one assignment, on top of roughly 25 hours of teaching and the time needed to plan lessons. The arithmetic explains why so much student work gets a checkmark rather than a comment. It also explains why any tool that takes routine feedback off a teacher's desk is attractive, and why a tool that gives <em>bad</em> feedback is dangerous: it scales errors across 140 students at once.</p>
+<h3 id="classroom">Classroom<a class="headerlink" href="#classroom" title="Permanent link">&para;</a></h3>
+<p>A <strong>classroom</strong> is the room, and the group of students and teacher within it, where scheduled instruction happens. It is both a physical space and a social one. The physical classroom has seats, a board or screen, and supplies. The social classroom has norms (raise your hand, do your own work), routines (warm-up, lesson, practice, exit ticket), and a culture that can make students feel safe to try or afraid to be wrong.</p>
+<p>The classroom's central constraint is simple: one adult, many students, fixed time. That constraint shapes almost every teaching method.</p>
+<h3 id="worked-example-how-much-one-on-one-time-is-there">Worked Example: How Much One-on-One Time Is There?<a class="headerlink" href="#worked-example-how-much-one-on-one-time-is-there" title="Permanent link">&para;</a></h3>
+<p>Maya's math period lasts 50 minutes and has 28 students. If Ms. Rivera spent the <em>entire</em> period moving from student to student, with no whole-class teaching, no transitions, and no interruptions, each student would get:</p>
+<div class="arithmatex">\[
+\frac{50 \text{ minutes}}{28 \text{ students}} \approx 1.8 \text{ minutes per student}
+\]</div>
+<p>In practice, after taking attendance, opening the lesson, and managing transitions, a student might get less than a minute of individual attention per period. This single number is a large part of why one-to-one tutoring is so effective and so expensive, a theme Chapter 11 explores through Bloom's two-sigma problem.</p>
+<h2 id="curriculum-and-learning-outcomes-what-schools-intend-to-teach">Curriculum and Learning Outcomes: What Schools Intend to Teach<a class="headerlink" href="#curriculum-and-learning-outcomes-what-schools-intend-to-teach" title="Permanent link">&para;</a></h2>
+<p>Schools do not leave the content of education to chance. They describe it.</p>
+<h3 id="curriculum">Curriculum<a class="headerlink" href="#curriculum" title="Permanent link">&para;</a></h3>
+<p>A <strong>curriculum</strong> is the planned body of knowledge, skills, and experiences that a school or system intends students to learn, along with the sequence in which they will learn it. In the United States, states usually set <strong>standards</strong> (broad statements of what students should know at each grade), districts adopt or write a curriculum aligned to those standards, and teachers turn the curriculum into daily lessons. Textbooks, unit plans, pacing guides, and assessments are all parts of a curriculum's machinery.</p>
+<p>Researchers often distinguish three versions of any curriculum. This distinction, used in international studies such as TIMSS, is one of the most useful ideas a school leader can carry:</p>
+<ul>
+<li><strong>The intended curriculum</strong> is what the documents say students should learn.</li>
+<li><strong>The enacted curriculum</strong> is what teachers actually teach in their classrooms.</li>
+<li><strong>The attained curriculum</strong> is what students actually learn and can show.</li>
+</ul>
+<p>Every gap between the three is a place where learning leaks out. A standard can be in the documents and never taught because the class ran out of time. A topic can be taught and never learned because it moved too fast.</p>
+<h3 id="worked-example-one-standard-three-curricula">Worked Example: One Standard, Three Curricula<a class="headerlink" href="#worked-example-one-standard-three-curricula" title="Permanent link">&para;</a></h3>
+<p>Take a seventh-grade math standard: <em>students compute unit rates involving ratios of fractions.</em> Trace it through Maya's school year:</p>
+<table>
+<thead>
+<tr>
+<th>Curriculum layer</th>
+<th>What happened</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Intended</td>
+<td>The state standard and district pacing guide schedule three weeks of unit rates in October</td>
+<td>Pacing guide</td>
+</tr>
+<tr>
+<td>Enacted</td>
+<td>A fire drill, a school assembly, and a review day cut instruction to eight class periods</td>
+<td>Ms. Rivera's lesson plans</td>
+</tr>
+<tr>
+<td>Attained</td>
+<td>Students fluent with fractions mastered unit rates; Maya and several others did not, because the lessons assumed fraction skills they lacked</td>
+<td>Unit test results</td>
+</tr>
+</tbody>
+</table>
+<p>The table shows the same standard looking fully covered on paper and only partly learned in practice. Most of this book's proposals are about narrowing the distance between the intended and attained curriculum for each individual student.</p>
+<h3 id="learning-outcome">Learning Outcome<a class="headerlink" href="#learning-outcome" title="Permanent link">&para;</a></h3>
+<p>A <strong>learning outcome</strong> is a specific, observable statement of what a learner will be able to do after instruction. Where a curriculum describes a whole course, a learning outcome describes one target. Good outcomes have three properties: they name an observable action, they name specific content, and they make it possible to tell whether the learner succeeded.</p>
+<p>Compare two statements:</p>
+<ul>
+<li><em>Weak:</em> "Students will understand fractions."</li>
+<li><em>Strong:</em> "Students will add two fractions with unlike denominators and simplify the result, correctly solving at least four of five problems."</li>
+</ul>
+<p>The weak version uses <em>understand</em>, which cannot be observed directly. You cannot watch someone understand. The strong version names an action (add and simplify), specific content (unlike denominators), and a criterion (four of five). A teacher, a parent, or a piece of software could check it.</p>
+<div class="admonition mascot-tip">
+<p class="admonition-title">The watch-them-do-it test</p>
+<p><img alt="Indigo giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
+Here's a shortcut for checking any learning outcome: ask, "Could I watch a student do this and agree with a colleague on whether they succeeded?" If the verb is <em>understand</em>, <em>know</em>, <em>appreciate</em>, or <em>learn about</em>, the answer is no — swap in a verb you can see, like <em>explain</em>, <em>calculate</em>, <em>compare</em>, or <em>design</em>.</p>
+</div>
+<h3 id="worked-example-rewriting-outcomes">Worked Example: Rewriting Outcomes<a class="headerlink" href="#worked-example-rewriting-outcomes" title="Permanent link">&para;</a></h3>
+<p>Here are three outcomes taken from a typical unit plan, rewritten to pass the test above.</p>
+<table>
+<thead>
+<tr>
+<th>Original outcome</th>
+<th>Problem</th>
+<th>Rewritten outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Students will know the causes of the Civil War</td>
+<td><em>Know</em> is not observable</td>
+<td>Students will explain three causes of the Civil War, citing one primary source for each</td>
+</tr>
+<tr>
+<td>Students will appreciate poetry</td>
+<td><em>Appreciate</em> is not observable and not assessable</td>
+<td>Students will identify two uses of figurative language in an unfamiliar poem and describe the effect of each</td>
+</tr>
+<tr>
+<td>Students will learn about ecosystems</td>
+<td><em>Learn about</em> names a topic, not an action</td>
+<td>Students will predict how removing one species changes a given food web and justify the prediction</td>
+</tr>
+</tbody>
+</table>
+<p>Outcomes matter to this book for a practical reason. An adaptive textbook can only decide what a student should do next if it knows what the student is trying to be able to do. Precise learning outcomes are the raw material for the learning graphs and mastery tracking introduced in Chapters 8 and 9.</p>
+<h2 id="blooms-taxonomy-and-higher-order-thinking">Bloom's Taxonomy and Higher-Order Thinking<a class="headerlink" href="#blooms-taxonomy-and-higher-order-thinking" title="Permanent link">&para;</a></h2>
+<p>Learning outcomes differ not only in content but in the <em>kind</em> of thinking they demand. Reciting a definition and designing an experiment are both outcomes, but they ask for very different mental work.</p>
+<p><strong>Bloom's Taxonomy</strong> is a framework for classifying learning outcomes by the kind of cognitive work they require. Benjamin Bloom and colleagues published the original version in 1956. In 2001, Lorin Anderson and David Krathwohl published a revision that renamed the levels as verbs and moved <em>Create</em> to the top. The revised taxonomy has six levels, listed here from least to most complex:</p>
+<ol>
+<li><strong>Remember</strong> — retrieve facts and terms from memory (list, define, recall).</li>
+<li><strong>Understand</strong> — explain ideas in one's own words (summarize, explain, classify, compare).</li>
+<li><strong>Apply</strong> — use a procedure or idea in a given situation (calculate, solve, use).</li>
+<li><strong>Analyze</strong> — break material into parts and see how they relate (compare, organize, differentiate).</li>
+<li><strong>Evaluate</strong> — make judgments against criteria (judge, critique, justify).</li>
+<li><strong>Create</strong> — put elements together into something new (design, compose, construct).</li>
+</ol>
+<p>The levels are cumulative in a loose sense. You cannot evaluate an argument about ecosystems without remembering what a food web is, understanding how energy moves through it, and analyzing which species depend on which. This book uses the 2001 revision throughout, including in its own learning outcomes in the course description.</p>
+<p>The MicroSim below, reused from the companion book <em>Automating Instructional Design</em>, lets you hover over each level to see its meaning, typical verbs, and examples.</p>
+<h4 id="diagram-blooms-taxonomy">Diagram: Bloom's Taxonomy<a class="headerlink" href="#diagram-blooms-taxonomy" title="Permanent link">&para;</a></h4>
+<iframe src="https://dmccreary.github.io/automating-instructional-design/sims/bloom-taxonomy/main.html" width="100%" height="452px" scrolling="no"></iframe>
+
+<p><a class="md-button" href="https://dmccreary.github.io/automating-instructional-design/sims/bloom-taxonomy/main.html">Run the Bloom's Taxonomy MicroSim fullscreen</a></p>
+<details>
+<summary>Bloom's Taxonomy (reused MicroSim)</summary>
+<p>Type: infographic
+<strong>sim-id:</strong> bloom-taxonomy<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Reused<br/>
+<strong>Source:</strong> https://dmccreary.github.io/automating-instructional-design/sims/bloom-taxonomy/<br/>
+<strong>Source Repo:</strong> https://github.com/dmccreary/automating-instructional-design/tree/main/docs/sims/bloom-taxonomy<br/>
+<strong>Bloom Level:</strong> Remember<br/>
+<strong>Bloom Verb:</strong> recall<br/>
+<strong>Learning Objective:</strong> The learner will recall the six levels of the 2001 revised Bloom's Taxonomy in order, with one typical verb for each.</p>
+<p>Reused from the MicroSim catalog (WHAT match score 0.7534).</p>
+</details>
+<h3 id="higher-order-thinking">Higher-Order Thinking<a class="headerlink" href="#higher-order-thinking" title="Permanent link">&para;</a></h3>
+<p><strong>Higher-order thinking</strong> refers to the cognitive work in the top three levels of Bloom's Taxonomy: analyzing, evaluating, and creating. The lower three levels (remember, understand, apply) are sometimes called lower-order thinking. The labels are not a ranking of importance. Higher-order thinking depends on a large store of remembered and understood knowledge; a student cannot critique a historical argument without knowing the history.</p>
+<p>Higher-order thinking matters to this book for two reasons. First, it is the kind of thinking employers, universities, and citizens most need, and the kind that traditional lecture-and-test schooling exercises least. Studies of classroom tasks repeatedly find that most assignments sit at the Remember and Apply levels. Second, it is exactly the kind of thinking a student can skip by asking a chatbot for the answer. Chapter 12 returns to this risk under the name <em>cognitive offloading</em>.</p>
+<div class="admonition mascot-warning">
+<p class="admonition-title">The pyramid is not a ladder you climb once</p>
+<p><img alt="Indigo warning" class="mascot-admonition-img" src="../../img/mascot/warning.png" />
+A common trap is reading Bloom's Taxonomy as "teach facts first, then never return to them," or as "lower levels are for weak students." Both are wrong: experts move up and down the levels constantly, and a hard Remember task (recall 50 capitals) can be harder than an easy Analyze task. Classify an outcome by the <em>kind</em> of thinking it asks for, not by how difficult or impressive it sounds.</p>
+</div>
+<h3 id="worked-example-one-topic-at-six-levels">Worked Example: One Topic at Six Levels<a class="headerlink" href="#worked-example-one-topic-at-six-levels" title="Permanent link">&para;</a></h3>
+<p>The water cycle can be taught at every level of the taxonomy. Here is a set of tasks on the same topic, one per level:</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Task</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Remember</td>
+<td>List the four main stages of the water cycle</td>
+</tr>
+<tr>
+<td>Understand</td>
+<td>Explain in your own words why puddles disappear on a sunny day</td>
+</tr>
+<tr>
+<td>Apply</td>
+<td>Use the water cycle to predict where dew will form on a cool morning</td>
+</tr>
+<tr>
+<td>Analyze</td>
+<td>Compare rainfall data from two cities and identify which stage of the cycle explains the difference</td>
+</tr>
+<tr>
+<td>Evaluate</td>
+<td>Judge which of two proposed school rain-garden designs will capture more runoff, and defend your judgment</td>
+</tr>
+<tr>
+<td>Create</td>
+<td>Design an experiment to measure evaporation rates in different locations around the school</td>
+</tr>
+</tbody>
+</table>
+<p>A unit that contained only the first two rows would be easy to teach and test. It would also leave students unable to <em>use</em> what they know. In the sim specified below, you practice classifying tasks from many subjects.</p>
+<h4 id="diagram-bloom-level-task-sorter">Diagram: Bloom Level Task Sorter<a class="headerlink" href="#diagram-bloom-level-task-sorter" title="Permanent link">&para;</a></h4>
+<details>
+<summary>Bloom Level Task Sorter</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> bloom-level-task-sorter<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified<br/>
+<strong>Bloom Level:</strong> Understand<br/>
+<strong>Bloom Verb:</strong> classify<br/>
+<strong>Learning Objective:</strong> The learner will classify twelve classroom tasks into the six levels of the 2001 revised Bloom's Taxonomy, correctly placing at least ten of twelve on the first attempt.</p>
+<p><strong>Template:</strong> https://github.com/dmccreary/automating-instructional-design/tree/main/docs/sims/bloom-taxonomy<br/></p>
+<p><strong>Prerequisites:</strong> Bloom's Taxonomy, the six levels (Remember, Understand, Apply, Analyze, Evaluate, Create), learning outcome, higher-order thinking (all defined in the section "Bloom's Taxonomy and Higher-Order Thinking" above).</p>
+<p><strong>Evidence of Mastery:</strong> The learner assigns each of the 12 tasks to one of six level bins and submits it. An assignment is correct when it matches the "Correct level" column in Content. Mastery is 10 of 12 correct on the first attempt. Reading level descriptions and hovering over bins is exploration, not evidence.</p>
+<p><strong>Misconceptions:</strong> (1) The verb alone decides the level (for example, any task containing "explain" must be Understand). (2) Harder or longer tasks are always at higher levels. (3) Writing anything is automatically Create.</p>
+<p><strong>Instructional Rationale:</strong> Classifying is an Understand-level skill: the learner must recognize which level definition fits an unfamiliar task and commit to an answer before seeing feedback. Mixing subjects prevents the learner from sorting by topic instead of by kind of thinking.</p>
+<p><strong>Content:</strong></p>
+<p>Six bins, in this order, each with its one-line definition shown on request:</p>
+<table>
+<thead>
+<tr>
+<th>Bin</th>
+<th>Definition shown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Remember</td>
+<td>Retrieve facts and terms from memory</td>
+</tr>
+<tr>
+<td>Understand</td>
+<td>Explain ideas in your own words</td>
+</tr>
+<tr>
+<td>Apply</td>
+<td>Use a procedure or idea in a given situation</td>
+</tr>
+<tr>
+<td>Analyze</td>
+<td>Break material into parts and see how they relate</td>
+</tr>
+<tr>
+<td>Evaluate</td>
+<td>Make judgments against criteria</td>
+</tr>
+<tr>
+<td>Create</td>
+<td>Put elements together into something new</td>
+</tr>
+</tbody>
+</table>
+<p>Twelve tasks:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Task shown to the learner</th>
+<th>Correct level</th>
+<th>Why (shown as feedback)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>List the planets in order from the Sun.</td>
+<td>Remember</td>
+<td>The learner only retrieves a memorized sequence.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>State the year the U.S. Constitution was signed.</td>
+<td>Remember</td>
+<td>Recalling a single fact is retrieval, even though it is a history task.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Explain in your own words why ice floats on water.</td>
+<td>Understand</td>
+<td>Restating an idea in one's own words shows comprehension, not a new use of it.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Summarize the main argument of a newspaper editorial in three sentences.</td>
+<td>Understand</td>
+<td>Summarizing condenses meaning without judging or restructuring it.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Use the area formula to find how much paint is needed to cover a 3 m by 4 m wall.</td>
+<td>Apply</td>
+<td>A known procedure is carried out in a given situation.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Conjugate five new regular -ar verbs in the Spanish preterite tense.</td>
+<td>Apply</td>
+<td>A learned rule is applied to new cases; nothing is analyzed or invented.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Compare two accounts of the same battle and identify where they disagree.</td>
+<td>Analyze</td>
+<td>The learner breaks two sources into parts and examines how they relate.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Break a persuasive speech into its claims, its evidence, and its emotional appeals.</td>
+<td>Analyze</td>
+<td>Separating a whole into its structural parts is analysis.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Judge which of two experiment designs better tests whether fertilizer increases plant growth, and defend your choice.</td>
+<td>Evaluate</td>
+<td>The learner makes and justifies a judgment against a criterion (a fair test).</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Score a classmate's essay with the class rubric and justify each score.</td>
+<td>Evaluate</td>
+<td>Applying criteria to reach a defended judgment is evaluation.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Design an experiment to test whether background music affects reaction time.</td>
+<td>Create</td>
+<td>The learner produces an original plan that did not exist before.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Write an original short story that uses foreshadowing.</td>
+<td>Create</td>
+<td>The learner composes a new work, not a summary or analysis of an existing one.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Provenance:</strong> Bin definitions are from the chapter section "Bloom's Taxonomy and Higher-Order Thinking," which follows Anderson and Krathwohl (2001). Tasks are illustrative, written for this sim.</p>
+<p><strong>Rules:</strong> Each task has exactly one correct level, given in Content. A task is scored on its first submitted placement only. The score counts first-attempt correct placements out of 12. Mastery is a score &gt;= 10.</p>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>The learner sees one task at a time and the six bins.</li>
+<li>The learner places the task in a bin and submits it. The sim marks it correct or incorrect and shows the feedback text.</li>
+<li>If incorrect, the learner may place it again; the second attempt does not change the score. After the second attempt, the correct level and reason are shown.</li>
+<li>The next task appears. After all 12, the learner sees the score and a list of any misplaced tasks with their correct levels.</li>
+<li>The learner should notice that tasks 3 and 7 both involve explaining or comparing, yet sit at different levels, and that task 2 is short but still Remember while task 12 is a writing task at Create.</li>
+</ol>
+<p><strong>Feedback:</strong> 12 tasks, shuffled once per session, two attempts each. Correct: "Correct — [level]. [Why text]." Incorrect: "Not quite. [Why text for the correct answer, without naming the level]." After the second attempt the correct level is revealed and the task counts as missed. A running score "First-try correct: n of 12" is shown. Final message for a score &gt;= 10: "You can classify tasks by the kind of thinking they ask for." For a score &lt; 10: "Review the level definitions and try again; the tasks will be reshuffled."</p>
+<p><strong>Starting State:</strong> Task 1 of the shuffled order is shown with the six empty bins and the score "First-try correct: 0 of 12." The prompt reads "What kind of thinking does this task ask for?"</p>
+<p><strong>Chapter Anchors:</strong> The chapter names six levels in the order Remember, Understand, Apply, Analyze, Evaluate, Create. The chapter states that higher-order thinking means the top three levels. The objective's mastery bar is 10 of 12.</p>
+</details>
+<h2 id="the-school-day-and-direct-instruction">The School Day and Direct Instruction<a class="headerlink" href="#the-school-day-and-direct-instruction" title="Permanent link">&para;</a></h2>
+<p>We now know what schools intend to teach. The next question is how they spend their time teaching it.</p>
+<h3 id="school-day">School Day<a class="headerlink" href="#school-day" title="Permanent link">&para;</a></h3>
+<p>The <strong>school day</strong> is the daily schedule during which students attend school: start and end times, the division of time into periods or blocks, and the transitions, meals, and breaks between them. A typical U.S. public school day runs about six and a half to seven hours, for about 180 days a year, according to NCES surveys. Middle and high schools usually divide the day into six to eight subject periods of 45 to 55 minutes each, separated by passing time. Elementary schools more often keep one class with one teacher for most of the day, with blocks for reading, math, and specials such as art and physical education.</p>
+<p>The school day is one of the most stubborn parts of the grammar of schooling. Bus routes, teacher contracts, parents' work hours, athletics, and state instructional-time requirements are all built around it. That is why proposals to change <em>what happens</em> during the day, as this book makes, are far more realistic than proposals to change its total length.</p>
+<p>Before you look at how the minutes are actually spent, one more term is needed.</p>
+<h3 id="direct-instruction">Direct Instruction<a class="headerlink" href="#direct-instruction" title="Permanent link">&para;</a></h3>
+<p><strong>Direct instruction</strong> is a teacher-led method in which the teacher explicitly explains and models new content, guides students through practice, checks understanding, and then has students practice independently. The pattern is often summarized as <em>I do, we do, you do</em>. In lowercase, "direct instruction" names this general approach. In capitals, "Direct Instruction" refers to a specific, tightly scripted program developed by Siegfried Engelmann and colleagues in the 1960s, which performed strongly in the large federal Project Follow Through evaluation.</p>
+<p>Direct instruction has a good research record for teaching well-defined skills to novices, especially when lessons are broken into small steps, students practice frequently, and the teacher checks understanding before moving on. Barak Rosenshine's widely used <em>Principles of Instruction</em> summarize this evidence. The method's weakness is not that explanation is bad. It is that a single explanation, at a single pace, is delivered to a whole classroom of students who are ready for different things.</p>
+<h3 id="worked-example-an-i-do-we-do-you-do-lesson">Worked Example: An I-Do, We-Do, You-Do Lesson<a class="headerlink" href="#worked-example-an-i-do-we-do-you-do-lesson" title="Permanent link">&para;</a></h3>
+<p>Here is how Ms. Rivera's 50-minute lesson on unit rates might run:</p>
+<ol>
+<li><strong>Warm-up (5 minutes).</strong> Students solve two review problems on fractions while she takes attendance.</li>
+<li><strong>I do (10 minutes).</strong> She models, aloud, how to find the price per ounce for a 12-ounce bottle costing $3.00: <span class="arithmatex">\( \$3.00 \div 12 = \$0.25 \)</span> per ounce, explaining each step.</li>
+<li><strong>We do (10 minutes).</strong> The class solves three problems together; she cold-calls students for each step and watches for errors.</li>
+<li><strong>You do (20 minutes).</strong> Students practice ten problems independently while she circulates.</li>
+<li><strong>Exit ticket (5 minutes).</strong> Each student solves one problem on a slip of paper she collects at the door.</li>
+</ol>
+<p>This is a well-designed lesson. Yet for Maya, step 2 already assumes fraction division skills she lacks, while for two classmates who mastered unit rates last year, steps 2 and 3 are fifteen minutes of waiting. Both problems come from pacing the whole room together, not from the quality of the teaching.</p>
+<p>The sim below asks you to estimate how a full day of minutes like these adds up.</p>
+<h4 id="diagram-where-the-minutes-go-in-a-traditional-school-day">Diagram: Where the Minutes Go in a Traditional School Day<a class="headerlink" href="#diagram-where-the-minutes-go-in-a-traditional-school-day" title="Permanent link">&para;</a></h4>
+<details>
+<summary>Where the Minutes Go in a Traditional School Day</summary>
+<p>Type: chart
+<strong>sim-id:</strong> school-day-minute-map<br/>
+<strong>Library:</strong> Chart.js<br/>
+<strong>Status:</strong> Specified<br/>
+<strong>Bloom Level:</strong> Analyze<br/>
+<strong>Bloom Verb:</strong> differentiate<br/>
+<strong>Learning Objective:</strong> The learner will differentiate the minutes of an illustrative middle-school day into whole-class direct instruction, practice, and non-instructional time, estimating the direct-instruction total to within 10 minutes.</p>
+<p><strong>Template:</strong> https://github.com/dmccreary/ai-strategy-for-education/tree/main/docs/sims/school-day-comparison-timeline<br/></p>
+<p><strong>Prerequisites:</strong> school day, direct instruction, the I-do/we-do/you-do pattern, classroom (all defined in the section "The School Day and Direct Instruction" above).</p>
+<p><strong>Evidence of Mastery:</strong> Before the chart is revealed, the learner enters two estimates: (a) total minutes of whole-class direct instruction in the day, and (b) which category is the largest single use of time. Estimate (a) is correct when it is within ±10 minutes of 100. Estimate (b) is correct when it is "Whole-class direct instruction" or "Practice" (they tie at 100 minutes each). Viewing the chart after reveal is exploration.</p>
+<p><strong>Misconceptions:</strong> (1) Most of the school day is spent with a teacher explaining new material. (2) Almost all of a seven-hour day is academic time. (3) Non-instructional time (passing, lunch, settling in) is negligible.</p>
+<p><strong>Instructional Rationale:</strong> Analyze-level differentiation requires the learner to separate a familiar whole (a school day) into categories and see their proportions. Committing to an estimate before the reveal exposes the learner's mental model so the chart can correct it.</p>
+<p><strong>Content:</strong></p>
+<p>The illustrative schedule, shown as a list before the reveal:</p>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Block</th>
+<th>Minutes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8:00–8:10</td>
+<td>Homeroom</td>
+<td>10</td>
+</tr>
+<tr>
+<td>8:10–8:15</td>
+<td>Passing</td>
+<td>5</td>
+</tr>
+<tr>
+<td>8:15–9:05</td>
+<td>Period 1: English</td>
+<td>50</td>
+</tr>
+<tr>
+<td>9:05–9:10</td>
+<td>Passing</td>
+<td>5</td>
+</tr>
+<tr>
+<td>9:10–10:00</td>
+<td>Period 2: Mathematics</td>
+<td>50</td>
+</tr>
+<tr>
+<td>10:00–10:05</td>
+<td>Passing</td>
+<td>5</td>
+</tr>
+<tr>
+<td>10:05–10:55</td>
+<td>Period 3: Science</td>
+<td>50</td>
+</tr>
+<tr>
+<td>10:55–11:00</td>
+<td>Passing</td>
+<td>5</td>
+</tr>
+<tr>
+<td>11:00–11:50</td>
+<td>Period 4: Social Studies</td>
+<td>50</td>
+</tr>
+<tr>
+<td>11:50–12:20</td>
+<td>Lunch</td>
+<td>30</td>
+</tr>
+<tr>
+<td>12:20–12:25</td>
+<td>Passing</td>
+<td>5</td>
+</tr>
+<tr>
+<td>12:25–1:15</td>
+<td>Period 5: World Language</td>
+<td>50</td>
+</tr>
+<tr>
+<td>1:15–1:20</td>
+<td>Passing</td>
+<td>5</td>
+</tr>
+<tr>
+<td>1:20–2:10</td>
+<td>Period 6: Art</td>
+<td>50</td>
+</tr>
+<tr>
+<td>2:10–2:15</td>
+<td>Passing</td>
+<td>5</td>
+</tr>
+<tr>
+<td>2:15–3:05</td>
+<td>Period 7: Physical Education</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<p>Each of the five academic periods (Periods 1–5) is divided as: 5 minutes settling and attendance, 20 minutes whole-class direct instruction, 20 minutes guided and independent practice, 5 minutes wrap-up.</p>
+<p>Category totals revealed in the chart:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Minutes</th>
+<th>Share of 425 minutes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Whole-class direct instruction</td>
+<td>100</td>
+<td>23.5%</td>
+</tr>
+<tr>
+<td>Guided and independent practice</td>
+<td>100</td>
+<td>23.5%</td>
+</tr>
+<tr>
+<td>Arts and physical education</td>
+<td>100</td>
+<td>23.5%</td>
+</tr>
+<tr>
+<td>Settling, attendance, and wrap-up</td>
+<td>50</td>
+<td>11.8%</td>
+</tr>
+<tr>
+<td>Passing time</td>
+<td>35</td>
+<td>8.2%</td>
+</tr>
+<tr>
+<td>Lunch</td>
+<td>30</td>
+<td>7.1%</td>
+</tr>
+<tr>
+<td>Homeroom</td>
+<td>10</td>
+<td>2.4%</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>425</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Provenance:</strong> Illustrative composite schedule written for this chapter; the sim must label it "Illustrative schedule." Period lengths follow the chapter's statement that middle-school periods run 45 to 55 minutes.</p>
+<p><strong>Rules:</strong> Shares are minutes ÷ 425, shown to one decimal place. Estimate (a) is correct when |estimate − 100| &lt;= 10. Estimate (a) accepts whole numbers from 0 to 425. Estimate (b) is chosen from the seven category names; either of the two tied categories named in Evidence of Mastery is correct.</p>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>The learner reads the schedule and enters estimate (a) and selects estimate (b).</li>
+<li>The learner reveals the chart. The day appears as categories with minutes and shares, and the learner's estimates appear beside the true values.</li>
+<li>The learner selects any category to see which blocks of the schedule contribute to it.</li>
+<li>The learner should notice that whole-class direct instruction is less than a quarter of the day, and that non-instructional categories (settling, passing, lunch, homeroom) add up to 125 minutes, more than direct instruction.</li>
+</ol>
+<p><strong>Feedback:</strong> One attempt per estimate before reveal. Estimate (a) correct: "Within 10 minutes — 100 minutes of the 425-minute day is whole-class direct instruction." Incorrect, too high: "Higher than the schedule shows. Teachers explain new material for about 20 minutes of each 50-minute academic period, and only five of the seven periods are academic." Incorrect, too low: "Lower than the schedule shows — five academic periods with about 20 minutes of explanation each make 100 minutes." Estimate (b) correct: "Right — direct instruction and practice tie at 100 minutes, and arts and PE also take 100." Incorrect: "That category is smaller. Three categories tie at 100 minutes each." After reveal, the estimates cannot be changed; a "Try again" action clears them and hides the chart.</p>
+<p><strong>Starting State:</strong> The schedule list is visible, the chart is hidden, and the prompt reads "In this seven-hour day, how many minutes does a student spend listening to a teacher explain new material to the whole class?"</p>
+<p><strong>Chapter Anchors:</strong> The chapter states that a typical U.S. school day runs about six and a half to seven hours and that middle-school periods run 45 to 55 minutes. The worked example lesson uses a 50-minute period. The illustrative day totals 425 minutes, with 100 minutes of whole-class direct instruction.</p>
+</details>
+<h2 id="the-learning-gap">The Learning Gap<a class="headerlink" href="#the-learning-gap" title="Permanent link">&para;</a></h2>
+<p>Direct instruction to a whole class works best when students arrive at roughly the same starting point. They rarely do.</p>
+<p>A <strong>learning gap</strong> is the difference between what a student is expected to know or be able to do at a given point, as defined by learning outcomes, and what the student actually knows or can do. The term is used at two scales. For an individual, it names specific missing pieces: Maya's gap is fraction operations from fifth grade. For a group, it describes average differences between groups of students, such as the gaps that widened during pandemic school closures.</p>
+<p>Learning gaps compound. Mathematics is the clearest case, because so much of it is built on earlier skills. A student who misses fractions struggles with ratios, then with proportional reasoning, then with algebra. Each year's lessons assume last year's outcomes were attained. When they were not, the student falls further behind even while sitting through every lesson. Chapter 9 will show how a learning graph makes these prerequisite chains explicit, which is the first step toward closing gaps one concept at a time.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">A gap is a missing prerequisite, not a missing effort</p>
+<p><img alt="Indigo thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png" />
+Think of a learning gap like a missing stair in the middle of a staircase. Running harder up the stairs doesn't help; someone has to go back and build the stair. Many students who look unmotivated are standing at a missing stair, and the lesson in front of them assumes it is there.</p>
+</div>
+<h3 id="worked-example-how-wide-is-one-classroom">Worked Example: How Wide Is One Classroom?<a class="headerlink" href="#worked-example-how-wide-is-one-classroom" title="Permanent link">&para;</a></h3>
+<p>It is common for a single classroom to span several grade levels of readiness. Here is an illustrative seventh-grade math class of 28 students, with each student's readiness expressed as a grade level:</p>
+<table>
+<thead>
+<tr>
+<th>Readiness (grade level)</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Number of students</td>
+<td>1</td>
+<td>2</td>
+<td>4</td>
+<td>6</td>
+<td>7</td>
+<td>5</td>
+<td>2</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Suppose a lesson is "in reach" for a student if it sits at their readiness level or one level above it. Ms. Rivera pitches her lesson at grade 7. Then:</p>
+<ul>
+<li>Students at grades 6 and 7 find it in reach: <span class="arithmatex">\( 6 + 7 = 13 \)</span> students.</li>
+<li>Students at grades 3–5 find it too hard: <span class="arithmatex">\( 1 + 2 + 4 = 7 \)</span> students.</li>
+<li>Students at grades 8–10 already know it: <span class="arithmatex">\( 5 + 2 + 1 = 8 \)</span> students.</li>
+</ul>
+<p>Fewer than half of the class, 13 of 28, is in the zone where this lesson can produce learning. Moving the pitch does not fix it, as the next sim lets you confirm: no single pitch reaches more than 13 of these 28 students.</p>
+<h4 id="diagram-one-lesson-many-readiness-levels">Diagram: One Lesson, Many Readiness Levels<a class="headerlink" href="#diagram-one-lesson-many-readiness-levels" title="Permanent link">&para;</a></h4>
+<details>
+<summary>One Lesson, Many Readiness Levels</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> one-lesson-many-readiness-levels<br/>
+<strong>Library:</strong> p5.js<br/>
+<strong>Status:</strong> Specified<br/>
+<strong>Bloom Level:</strong> Analyze<br/>
+<strong>Bloom Verb:</strong> examine<br/>
+<strong>Learning Objective:</strong> The learner will examine how the pitch of a single whole-class lesson determines how many students in a mixed-readiness class are in reach, too far behind, or already ahead, and identify the pitch that reaches the most students.</p>
+<p><strong>Prerequisites:</strong> learning gap, direct instruction, classroom, readiness expressed as a grade level, the "in reach" rule (all defined in the section "The Learning Gap" above).</p>
+<p><strong>Evidence of Mastery:</strong> The learner answers three questions with committed answers: (Q1) the pitch that puts the most students in reach — correct answer 7; (Q2) the number of students in reach at that best pitch — correct answer 13; (Q3) the number of students at pitch 7 for whom the lesson is too hard — correct answer 7. Mastery is 3 of 3. Moving the pitch freely is exploration.</p>
+<p><strong>Misconceptions:</strong> (1) Teaching "to the middle" reaches most of the class. (2) A skilled enough teacher can find one pitch that works for everyone. (3) Students ahead of the lesson are learning something; in this model they are waiting.</p>
+<p><strong>Instructional Rationale:</strong> Analyzing requires the learner to see how one variable (pitch) splits a fixed group into parts. Predicting before exploring, then testing every pitch, lets the learner discover for themselves that the best single pitch still misses more than half the class.</p>
+<p><strong>Content:</strong></p>
+<p>Class of 28 students, each shown as an individual marker grouped by readiness:</p>
+<table>
+<thead>
+<tr>
+<th>Readiness (grade level)</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Students</td>
+<td>1</td>
+<td>2</td>
+<td>4</td>
+<td>6</td>
+<td>7</td>
+<td>5</td>
+<td>2</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Three student states, with the label shown in the legend:</p>
+<ul>
+<li>In reach: the lesson is at the student's readiness level or one level above.</li>
+<li>Too hard: the lesson is more than one level above the student's readiness.</li>
+<li>Already known: the lesson is below the student's readiness.</li>
+</ul>
+<p>In-reach counts for every pitch, used to check the sim:</p>
+<table>
+<thead>
+<tr>
+<th>Pitch</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>In reach</td>
+<td>1</td>
+<td>3</td>
+<td>6</td>
+<td>10</td>
+<td>13</td>
+<td>12</td>
+<td>7</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Provenance:</strong> The class distribution is illustrative, written for this chapter; the sim must label it "Illustrative class." The in-reach rule is defined in the chapter section "The Learning Gap."</p>
+<p><strong>Rules:</strong> Lesson pitch p: min 3, max 10, step 1, default 7, unit grade level. For a student with readiness r: in reach when 0 &lt;= p − r &lt;= 1; too hard when p − r &gt; 1; already known when p − r &lt; 0. Counts are recomputed whenever p changes. The best pitch is the one with the highest in-reach count; in this class it is unique (p = 7).</p>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>Before the pitch can be changed, the learner answers Q1 and Q2 as predictions.</li>
+<li>The learner moves the pitch from 3 to 10. Each student marker changes state and the three counts update at once.</li>
+<li>The learner should notice that the in-reach count rises to 13 at pitch 7 and falls on either side, and that at every pitch at least 15 students are too hard or already known.</li>
+<li>The learner sets the pitch to 7 and answers Q3.</li>
+<li>The learner submits all three answers for checking.</li>
+</ol>
+<p><strong>Feedback:</strong> Three questions, fixed order, two attempts each. Q1 correct: "Yes — pitch 7 puts 13 students in reach, the most of any pitch." Q1 incorrect: "Try each pitch and watch the in-reach count; it peaks at one value." Q2 correct: "Right — 13 of 28, fewer than half the class." Q2 incorrect: "Count the students at readiness 6 and 7 when the pitch is 7." Q3 correct: "Correct — the 7 students at readiness 3, 4 and 5 are more than one level behind." Q3 incorrect: "Count students whose readiness is more than one level below the pitch." After the second wrong attempt, the answer and its explanation are shown. A score "n of 3" is shown after submission.</p>
+<p><strong>Starting State:</strong> The pitch is at 7 but locked, all 28 markers are shown by readiness without state colors, and the prompt reads "Where should one lesson be pitched to reach the most students — and how many will it reach?"</p>
+<p><strong>Chapter Anchors:</strong> The chapter uses a class of 28 with the distribution above, pitches the lesson at grade 7, and states that 13 students are in reach, 7 find it too hard, and 8 already know it. The chapter states that no single pitch reaches more than 13 of the 28 students.</p>
+</details>
+<h2 id="self-paced-learning-and-student-agency">Self-Paced Learning and Student Agency<a class="headerlink" href="#self-paced-learning-and-student-agency" title="Permanent link">&para;</a></h2>
+<p>If one pace cannot fit a whole class, an obvious alternative is to let each student move at their own pace. That idea is old, and it comes with an important companion idea about who makes decisions.</p>
+<h3 id="self-paced-learning">Self-Paced Learning<a class="headerlink" href="#self-paced-learning" title="Permanent link">&para;</a></h3>
+<p><strong>Self-paced learning</strong> is an arrangement in which each student moves through learning material at their own speed, advancing when ready rather than when the class calendar says to. The material is usually broken into small units, each with a check, so a student who needs more time on fractions takes it, and a student who already knows unit rates moves on.</p>
+<p>Self-pacing has a long history. In 1968 the psychologist Fred Keller described the Personalized System of Instruction, in which college students worked through written units at their own pace and took short unit tests, advancing only after passing. Studies of the system found good results, but it spread slowly. Before cheap computers, self-pacing required a teacher to manage dozens of students on dozens of different pages, with a separate test ready for each. That logistical burden, not a lack of evidence, kept it on the margins. Much of this book's argument is that interactive textbooks remove that burden.</p>
+<p>Self-pacing also has real risks. Without structure, some students drift, procrastinate, or move quickly through material without learning it. Students who most need support are often the least able to regulate their own pace. A self-paced system needs frequent checks, visible progress, deadlines that still exist, and adults who notice when a student stalls.</p>
+<h3 id="worked-example-two-students-one-unit">Worked Example: Two Students, One Unit<a class="headerlink" href="#worked-example-two-students-one-unit" title="Permanent link">&para;</a></h3>
+<p>Imagine Ms. Rivera reorganizes her ratios unit into eight short lessons, each ending in a five-question check that a student must pass at four of five to advance.</p>
+<table>
+<thead>
+<tr>
+<th>Student</th>
+<th>Starting point</th>
+<th>Path through the unit</th>
+<th>Days to finish</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maya</td>
+<td>Missing fraction skills</td>
+<td>Two review lessons on fractions first, then all eight lessons, retaking the check for lesson 3 once</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Jordan</td>
+<td>Mastered ratios last year</td>
+<td>Passes the checks for lessons 1–5 on the first day, completes lessons 6–8</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p>Under whole-class pacing both students would spend the same ten days on the unit: Maya would leave without the foundation, and Jordan would spend six days waiting. Under self-pacing, Maya takes longer and actually learns it; Jordan finishes early and has ten days for something else. Notice the new problem this creates: <em>what does Jordan do with those ten days?</em> That question, scaled up to a whole school, is the central question of this book.</p>
+<h3 id="student-agency">Student Agency<a class="headerlink" href="#student-agency" title="Permanent link">&para;</a></h3>
+<p><strong>Student agency</strong> is the capacity and opportunity for students to make meaningful choices about their own learning: what to study, how to study it, how to show what they learned, and when to move on. The OECD's <em>Learning Compass 2030</em> describes agency as a student's ability to set goals, reflect, and act responsibly to bring about change. Agency has two parts that are easy to blur. <em>Capacity</em> is the student's skill and confidence in making decisions. <em>Opportunity</em> is whether the school actually gives them decisions to make.</p>
+<p>Agency is a matter of degree. A student who chooses which of two essay prompts to answer has a little agency. A student who chooses a semester-long research question, plans the steps, and decides how to present the result has a great deal. Most traditional schools give students little agency over academic work, because a whole-class schedule leaves little room for choice.</p>
+<p>Self-paced learning and student agency are related but distinct. Self-pacing is about <em>speed</em>: a student controls how fast they move through a fixed sequence. Agency is about <em>choice</em>: a student controls what and how. A self-paced program can offer almost no agency (every student does the same lessons in the same order, only at different speeds), and a project can offer great agency with a fixed deadline.</p>
+<h3 id="worked-example-four-degrees-of-agency">Worked Example: Four Degrees of Agency<a class="headerlink" href="#worked-example-four-degrees-of-agency" title="Permanent link">&para;</a></h3>
+<p>The same assignment, a report on a local ecosystem, can be offered at different degrees of agency:</p>
+<table>
+<thead>
+<tr>
+<th>Degree</th>
+<th>What the student decides</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>None</td>
+<td>Nothing</td>
+<td>Everyone writes a five-paragraph report on the pond behind the school, due Friday</td>
+</tr>
+<tr>
+<td>Low</td>
+<td>One choice within a set</td>
+<td>Choose the pond, the creek, or the park woodland</td>
+</tr>
+<tr>
+<td>Moderate</td>
+<td>Topic and format</td>
+<td>Choose any local ecosystem and present it as a report, a video, or a field guide</td>
+</tr>
+<tr>
+<td>High</td>
+<td>Question, method, and product</td>
+<td>Pose your own question about a local ecosystem, plan how to investigate it, and decide how to share what you found</td>
+</tr>
+</tbody>
+</table>
+<p>Higher agency is not automatically better. A student new to research may flounder at the "High" row without support, while a confident student may be bored at "None." Good teaching gradually hands over more decisions as students build the capacity to make them well.</p>
+<h2 id="formative-assessment-checking-learning-while-it-happens">Formative Assessment: Checking Learning While It Happens<a class="headerlink" href="#formative-assessment-checking-learning-while-it-happens" title="Permanent link">&para;</a></h2>
+<p>Self-paced learning depends on knowing when a student is ready to move on. Whole-class teaching depends on knowing whether to slow down. Both depend on assessment.</p>
+<p><strong>Formative assessment</strong> is the process of gathering evidence of student learning <em>during</em> instruction and using it to adjust teaching and learning while there is still time to act. It is contrasted with <strong>summative assessment</strong>, which measures learning at the end of a unit or course to assign a grade or report results. The terms come from Michael Scriven's 1967 work on evaluation, and Benjamin Bloom applied them to classroom learning shortly after. A useful shorthand: formative assessment is a check-up, summative assessment is an autopsy.</p>
+<p>The definition's key phrase is <em>uses it to adjust</em>. A quiz is not formative because of its format. It is formative only if the results change what happens next: the teacher reteaches, the student practices a specific skill, or the class moves on with evidence that it is ready. In their influential 1998 review <em>Inside the Black Box</em>, Paul Black and Dylan Wiliam concluded that strengthening formative assessment produced some of the largest learning gains of any classroom intervention they reviewed.</p>
+<p>Common formative techniques include exit tickets (one or two questions at the end of a lesson), hinge questions (a single multiple-choice question mid-lesson whose wrong answers each reveal a specific misconception), mini whiteboards that every student holds up at once, and short low-stakes quizzes.</p>
+<h3 id="worked-example-a-hinge-question-in-action">Worked Example: A Hinge Question in Action<a class="headerlink" href="#worked-example-a-hinge-question-in-action" title="Permanent link">&para;</a></h3>
+<p>Midway through her unit-rate lesson, Ms. Rivera asks one question and has every student hold up the letter of their answer:</p>
+<p><em>A 6-pack of juice costs $4.50. What is the price per bottle?</em></p>
+<ul>
+<li>A. $0.75 (correct: <span class="arithmatex">\( 4.50 \div 6 = 0.75 \)</span>)</li>
+<li>B. $1.33 (divided 6 by 4.50 — reversed the division)</li>
+<li>C. $27.00 (multiplied instead of divided)</li>
+<li>D. $1.50 (guessed from rounding)</li>
+</ul>
+<p>She sees 17 A's, 8 B's, and 3 C's. Instead of moving on, she pulls the 11 students with B or C to the side board for five minutes on <em>which quantity goes on top</em>, while the other 17 begin practice. That is formative assessment: the evidence changed what happened next for 11 students, in the same period, before the misconception was practiced ten more times.</p>
+<p>The following table contrasts the two kinds of assessment you have now seen.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Formative assessment</th>
+<th>Summative assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>When</td>
+<td>During learning</td>
+<td>At the end of a unit or course</td>
+</tr>
+<tr>
+<td>Purpose</td>
+<td>Adjust teaching and learning</td>
+<td>Judge and report what was learned</td>
+</tr>
+<tr>
+<td>Typical stakes</td>
+<td>Low or none</td>
+<td>Often high (grades, promotion, accountability)</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>Hinge question, exit ticket</td>
+<td>Unit exam, state test, final project</td>
+</tr>
+<tr>
+<td>Who acts on the result</td>
+<td>Teacher and student, right away</td>
+<td>Teachers, families, administrators, later</td>
+</tr>
+</tbody>
+</table>
+<p>The constraint, again, is the classroom. A teacher can run one hinge question per lesson for 28 students and act on the result. Running a different check for each student after every small step, and responding to each, is beyond what one adult can do. That is exactly the work an interactive textbook can take on, as Chapter 8 shows.</p>
+<h2 id="spaced-practice-and-retrieval-practice-how-learning-lasts">Spaced Practice and Retrieval Practice: How Learning Lasts<a class="headerlink" href="#spaced-practice-and-retrieval-practice-how-learning-lasts" title="Permanent link">&para;</a></h2>
+<p>Earlier we separated performance from learning. Two of the most reliable findings in all of learning science explain how to turn short-term performance into lasting learning, and both are underused in most schools.</p>
+<h3 id="spaced-practice">Spaced Practice<a class="headerlink" href="#spaced-practice" title="Permanent link">&para;</a></h3>
+<p><strong>Spaced practice</strong> (also called distributed practice) is the strategy of spreading study or practice sessions over time, with gaps between them, instead of concentrating them in one long session. The opposite, <strong>massed practice</strong>, is cramming: doing all the practice at once.</p>
+<p>The finding goes back to Hermann Ebbinghaus, who in 1885 measured his own forgetting of nonsense syllables and charted what is now called the <em>forgetting curve</em>: memory fades quickly at first, then more slowly. He also found that reviews spread over days held up far better than the same number of reviews done in one sitting. More than a century of later research, summarized in a large 2006 meta-analysis by Nicholas Cepeda and colleagues, confirms that spacing improves long-term retention across ages, subjects, and kinds of material.</p>
+<p>Why does spacing work? A useful explanation is that a review is most valuable when the memory has started to fade. Pulling back a half-forgotten idea takes effort, and that effort strengthens the memory more than reviewing something you already have in mind. Psychologist Robert Bjork calls this a <strong>desirable difficulty</strong>: a condition that makes practice feel harder and slower but improves long-term learning.</p>
+<h3 id="retrieval-practice">Retrieval Practice<a class="headerlink" href="#retrieval-practice" title="Permanent link">&para;</a></h3>
+<p><strong>Retrieval practice</strong> is the strategy of learning by actively recalling information from memory, through practice questions, flashcards, or trying to write down what you remember, rather than by rereading or reviewing the material. It is sometimes called the <em>testing effect</em>, because low-stakes testing turns out to be one of the most powerful ways to learn, not just a way to measure learning.</p>
+<p>In a well-known 2006 study, Henry Roediger and Jeffrey Karpicke had students read a short passage and then either reread it or take a recall test on it. Five minutes later, the rereading group remembered slightly more. One week later, the retrieval group remembered substantially more. Rereading produced better short-term performance; retrieval produced better learning. A 2013 review by John Dunlosky and colleagues rated retrieval practice and spaced practice the two highest-utility study strategies of the ten they examined, while rereading and highlighting, the strategies students use most, rated low.</p>
+<div class="admonition mascot-encourage">
+<p class="admonition-title">This one fights your instincts</p>
+<p><img alt="Indigo encouraging" class="mascot-admonition-img" src="../../img/mascot/encouraging.png" />
+If spacing and retrieval feel wrong to you, that's normal — they <em>feel</em> less productive than rereading, which is exactly why students and teachers avoid them. You already made sense of the performance-versus-learning distinction earlier in this chapter; this is that same idea in action. Try the sim below and predict before you look, so your own guess becomes the evidence.</p>
+</div>
+<h3 id="worked-example-planning-three-reviews">Worked Example: Planning Three Reviews<a class="headerlink" href="#worked-example-planning-three-reviews" title="Permanent link">&para;</a></h3>
+<p>Maya has a science test on cell structure on day 30. She has time for three short review sessions after the first lesson on day 0. Compare three plans:</p>
+<table>
+<thead>
+<tr>
+<th>Plan</th>
+<th>When she reviews</th>
+<th>How she reviews</th>
+<th>What the research predicts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cram</td>
+<td>Three sessions back-to-back on day 0</td>
+<td>Rereads her notes</td>
+<td>Feels confident on day 0; most is forgotten by day 30</td>
+</tr>
+<tr>
+<td>Spaced reread</td>
+<td>Days 1, 3, and 7</td>
+<td>Rereads her notes</td>
+<td>Much better retention on day 30 than cramming</td>
+</tr>
+<tr>
+<td>Spaced retrieval</td>
+<td>Days 1, 4, and 12</td>
+<td>Closes her notes and writes down everything she remembers, then checks</td>
+<td>The strongest retention of the three on day 30</td>
+</tr>
+</tbody>
+</table>
+<p>The total study time is the same in all three plans. Only the timing and the method change. This is why spacing and retrieval matter so much for the AI-native model: an adaptive textbook can schedule reviews for each student at the right moment, something no teacher with 140 students can do by hand.</p>
+<h4 id="diagram-spacing-and-retrieval-retention-explorer">Diagram: Spacing and Retrieval Retention Explorer<a class="headerlink" href="#diagram-spacing-and-retrieval-retention-explorer" title="Permanent link">&para;</a></h4>
+<details>
+<summary>Spacing and Retrieval Retention Explorer</summary>
+<p>Type: chart
+<strong>sim-id:</strong> spacing-retrieval-retention-explorer<br/>
+<strong>Library:</strong> Chart.js<br/>
+<strong>Status:</strong> Specified<br/>
+<strong>Bloom Level:</strong> Understand<br/>
+<strong>Bloom Verb:</strong> compare<br/>
+<strong>Learning Objective:</strong> The learner will compare predicted retention under massed, evenly spaced, and expanding review schedules, each done by rereading or by retrieval, and correctly predict which schedule and method retain the most on a day-30 exam.</p>
+<p><strong>Template:</strong> https://github.com/dmccreary/learning-sciences/tree/main/docs/sims/spaced-retrieval-timeline<br/></p>
+<p><strong>Prerequisites:</strong> learning versus performance, forgetting curve, spaced practice, massed practice, retrieval practice, desirable difficulty (all defined in the sections "Education and Learning" and "Spaced Practice and Retrieval Practice" above).</p>
+<p><strong>Evidence of Mastery:</strong> Before any curve is shown, the learner makes two committed predictions: (P1) which of the four schedules gives the highest day-30 retention — correct answer "Expanding"; (P2) which method, reread or retrieval, gives higher day-30 retention for the same schedule — correct answer "Retrieval." A third check (P3) asks, after the learner has viewed the exam-day options, which schedule gives the highest retention on a day-1 exam — correct answer "Massed." Mastery is 3 of 3. Switching schedules and exam days after the predictions is exploration.</p>
+<p><strong>Misconceptions:</strong> (1) Cramming is efficient because it gives the best score on tomorrow's test, so it must be the best way to learn. (2) Rereading is as good as testing yourself. (3) The total time spent studying is what matters, not when it happens.</p>
+<p><strong>Instructional Rationale:</strong> Understanding a comparison is strongest when the learner first commits to a prediction that may be wrong and then sees the curves. Including a day-1 exam option lets the learner discover why cramming feels effective while still failing at day 30.</p>
+<p><strong>Content:</strong></p>
+<p>Four schedules (review times in days after the first lesson at day 0):</p>
+<table>
+<thead>
+<tr>
+<th>Schedule</th>
+<th>Review times (days)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No review</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Massed</td>
+<td>0.042, 0.083, 0.125 (1, 2 and 3 hours after the lesson)</td>
+</tr>
+<tr>
+<td>Evenly spaced</td>
+<td>1, 3, 7</td>
+</tr>
+<tr>
+<td>Expanding</td>
+<td>1, 4, 12</td>
+</tr>
+</tbody>
+</table>
+<p>Two methods: Reread, Retrieval.</p>
+<p>Three exam days: 1, 7, 30.</p>
+<p>Predicted retention at the exam (model values, rounded to whole percents), used to check the sim:</p>
+<table>
+<thead>
+<tr>
+<th>Schedule</th>
+<th>Exam day 1, Reread</th>
+<th>Exam day 1, Retrieval</th>
+<th>Exam day 7, Reread</th>
+<th>Exam day 7, Retrieval</th>
+<th>Exam day 30, Reread</th>
+<th>Exam day 30, Retrieval</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>No review</td>
+<td>72%</td>
+<td>72%</td>
+<td>10%</td>
+<td>10%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Massed</td>
+<td>76%</td>
+<td>78%</td>
+<td>12%</td>
+<td>14%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Evenly spaced</td>
+<td>72%</td>
+<td>72%</td>
+<td>60%</td>
+<td>74%</td>
+<td>20%</td>
+<td>43%</td>
+</tr>
+<tr>
+<td>Expanding</td>
+<td>72%</td>
+<td>72%</td>
+<td>72%</td>
+<td>83%</td>
+<td>40%</td>
+<td>65%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Provenance:</strong> The model is illustrative, written for this chapter to show the direction of effects reported by Ebbinghaus (1885), Cepeda et al. (2006), and Roediger and Karpicke (2006). Its numbers are not measured data, and the sim must label every curve "Illustrative model, not experimental data."</p>
+<p><strong>Rules:</strong> Retention R(t) = exp(−(t − t_last) / S), where t is days since the first lesson, t_last is the time of the most recent review (0 at the start), and S is memory stability in days. Initial S = 3 days. At each review at time t, compute R at that moment, then update S_new = S × (1 + k × (1 − R)), with k = 2 for Reread and k = 4 for Retrieval, and set t_last = t. A review whose time is greater than or equal to the exam day is skipped. Retention is shown as a percent rounded to the nearest whole number. The curve is plotted from day 0 to the selected exam day.</p>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>The learner makes predictions P1 and P2 and submits them. Nothing is plotted before submission.</li>
+<li>The sim plots the four schedules for the Reread method, exam day 30, and marks the day-30 retention of each.</li>
+<li>The learner switches the method to Retrieval. The four curves update; the Reread curves remain visible as faint references for comparison.</li>
+<li>The learner switches the exam day to 1, then 7. The learner should notice that Massed is highest on day 1, but falls to 0% by day 30, while Expanding with Retrieval holds 65%.</li>
+<li>The learner answers P3 and submits it.</li>
+</ol>
+<p><strong>Feedback:</strong> P1 and P2 have one attempt each and are scored before the curves appear. P1 correct: "Yes — expanding gaps let each review come when the memory has faded a little, which strengthens it most." P1 incorrect, chose Massed: "Massed reviews come before any forgetting happens, so they add little lasting strength." P1 incorrect, chose Evenly spaced: "Close — spacing helps, but longer later gaps help more in this model." P1 incorrect, chose No review: "Without review, retention falls close to zero within a month." P2 correct: "Right — retrieval strengthens memory more than rereading." P2 incorrect: "Rereading feels effective, but recalling from memory builds more lasting strength." P3 has two attempts. P3 correct: "Yes — cramming wins tomorrow's test, which is why it feels like it works." P3 incorrect: "Look at the day-1 exam: the spaced reviews have not happened yet." After the second wrong attempt, the answer is shown. Score "n of 3" is shown at the end.</p>
+<p><strong>Starting State:</strong> No curves are drawn. The four schedules are listed with their review days, and the prompt reads "Maya has three short reviews before a test on day 30. Which schedule, and which way of reviewing, will help her remember the most?"</p>
+<p><strong>Chapter Anchors:</strong> The chapter's worked example uses a test on day 30, three reviews, a cram plan on day 0, an evenly spaced plan on days 1, 3 and 7, and an expanding retrieval plan on days 1, 4 and 12. The chapter states that rereading gave better recall after five minutes and retrieval gave better recall after one week in Roediger and Karpicke (2006).</p>
+</details>
+<div class="admonition mascot-tip">
+<p class="admonition-title">The two-question study habit</p>
+<p><img alt="Indigo giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png" />
+Want to put this to work tomorrow? Open each class with two quick questions on material from last week and last month — not yesterday. That single habit adds both spacing and retrieval to a lesson in under five minutes, without changing the rest of your plan.</p>
+</div>
+<h2 id="educational-technology">Educational Technology<a class="headerlink" href="#educational-technology" title="Permanent link">&para;</a></h2>
+<p>Everything in this chapter so far could happen with paper, chalk, and a teacher. The last group of concepts concerns the tools schools add to that picture and the money that pays for all of it.</p>
+<p><strong>Educational technology</strong>, often shortened to <em>edtech</em>, is the use of tools, devices, software, and media to support teaching and learning, together with the practices for using them well. The definition includes the practice, not just the device: a projector is hardware, but how a teacher uses it to show student work for discussion is educational technology.</p>
+<p>Edtech has a long and humbling history. In the 1920s the psychologist Sidney Pressey built a machine that gave students multiple-choice questions and advanced only when they answered correctly. In the 1950s B. F. Skinner promoted "teaching machines" that broke material into small steps with immediate feedback. In 1960 the University of Illinois launched PLATO, a computer-based instruction system that pioneered features later familiar online. Each wave came with predictions that it would transform schools. The historian Larry Cuban documented a recurring pattern across decades: new technology is purchased with great enthusiasm, then used far less, and in more traditional ways, than its promoters expected. His 2001 book on school computers was titled <em>Oversold and Underused</em>.</p>
+<p>The following table gathers the edtech waves just described, along with later ones, so you can see the pattern at a glance.</p>
+<table>
+<thead>
+<tr>
+<th>Era</th>
+<th>Technology</th>
+<th>Promise</th>
+<th>What mostly happened</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1920s</td>
+<td>Pressey's testing machine</td>
+<td>Automate drill and free teachers</td>
+<td>Little adoption; seen as a curiosity</td>
+</tr>
+<tr>
+<td>1950s–1960s</td>
+<td>Skinner's teaching machines, programmed instruction</td>
+<td>Each student learns at their own pace with instant feedback</td>
+<td>Brief enthusiasm, then decline</td>
+</tr>
+<tr>
+<td>1960s–1970s</td>
+<td>PLATO and mainframe instruction</td>
+<td>Computer-based lessons at scale</td>
+<td>Influential, but costly and limited to a few institutions</td>
+</tr>
+<tr>
+<td>1980s</td>
+<td>Classroom microcomputers</td>
+<td>Computers in every school</td>
+<td>Machines often sat in labs, used for typing and games</td>
+</tr>
+<tr>
+<td>1990s–2000s</td>
+<td>Internet, interactive whiteboards</td>
+<td>Access to the world's information; engaging lessons</td>
+<td>Whiteboards often used as expensive projector screens</td>
+</tr>
+<tr>
+<td>2000s–2010s</td>
+<td>One-to-one laptops and tablets, learning management systems, online video lessons</td>
+<td>Personalized learning for every student</td>
+<td>Mixed results; strongest where teaching practice changed too</td>
+</tr>
+</tbody>
+</table>
+<p>The lesson of this history is not that technology fails. It is that technology alone rarely changes the <em>grammar of schooling</em>: the age-graded classroom, the bell schedule, the single pace. When the tool is bolted onto an unchanged school day, it tends to be absorbed into old habits.</p>
+<h3 id="worked-example-two-uses-of-the-same-tool">Worked Example: Two Uses of the Same Tool<a class="headerlink" href="#worked-example-two-uses-of-the-same-tool" title="Permanent link">&para;</a></h3>
+<p>A district buys a tablet for every seventh grader. Consider how two classrooms use them for the same unit:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Classroom A</th>
+<th>Classroom B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>How tablets are used</td>
+<td>Students read the textbook as a PDF and type answers to the same worksheet</td>
+<td>Students work through self-paced lessons with immediate checks; the teacher's dashboard shows who is stuck</td>
+</tr>
+<tr>
+<td>Learning job the tool does</td>
+<td>None that paper didn't already do</td>
+<td>Practice with feedback, and formative assessment data for the teacher</td>
+</tr>
+<tr>
+<td>What the teacher does</td>
+<td>Lectures, then grades typed worksheets</td>
+<td>Pulls small groups based on the dashboard</td>
+</tr>
+<tr>
+<td>Change to the grammar of schooling</td>
+<td>None</td>
+<td>Pace becomes individual; teacher time shifts from lecturing to targeted help</td>
+</tr>
+</tbody>
+</table>
+<p>Both classrooms "use technology." Only one used it to change how learning works. This distinction, between digitizing the old model and changing the model, is the thread that connects this chapter to the five-level model of intelligent textbooks in Chapter 6.</p>
+<h2 id="paying-for-it-public-school-funding-and-per-pupil-spending">Paying for It: Public School Funding and Per-Pupil Spending<a class="headerlink" href="#paying-for-it-public-school-funding-and-per-pupil-spending" title="Permanent link">&para;</a></h2>
+<p>Every design choice in a school, from class size to the tablet cart, is constrained by money. Two terms describe where it comes from and how it is usually measured.</p>
+<h3 id="public-school-funding">Public School Funding<a class="headerlink" href="#public-school-funding" title="Permanent link">&para;</a></h3>
+<p><strong>Public school funding</strong> is the system of revenues, mainly taxes, that pays for public schools. In the United States, funding comes from three levels of government. Local revenue comes mostly from property taxes. State revenue comes from income and sales taxes and is often distributed through formulas meant to help districts with less local wealth. Federal revenue, historically under 10 percent of the total, is targeted at specific purposes such as supporting students from low-income families (Title I) and students with disabilities (IDEA). The federal share rose temporarily during the pandemic-relief years. State and local sources have each historically provided a little under half of the total.</p>
+<p>Because local revenue depends on property values, districts in wealthier areas can raise more money with the same tax rate than districts in poorer areas. State formulas reduce this gap but rarely close it. School funding lawsuits in many states have turned on exactly this question. Equity in funding comes back in Chapter 3 and again in Chapter 21, where the book asks whether an AI-native school would narrow or widen such gaps.</p>
+<h3 id="per-pupil-spending">Per-Pupil Spending<a class="headerlink" href="#per-pupil-spending" title="Permanent link">&para;</a></h3>
+<p><strong>Per-pupil spending</strong> is the total amount spent on a group of public schools in a year divided by the number of students enrolled, giving the average cost to educate one student for one year. It is the standard unit for comparing school costs across districts, states, and countries. Most published figures use <em>current</em> spending, which covers day-to-day operations such as salaries, benefits, supplies, and transportation, and excludes construction and debt payments.</p>
+<p>According to the U.S. Census Bureau's annual survey of school finances, U.S. public schools spent about $15,600 per pupil in current spending in fiscal year 2022, with wide variation between states. Roughly 60 percent of current spending goes to instruction, mostly teacher salaries and benefits. Check the latest Census release before citing these figures, since they rise most years.</p>
+<h3 id="worked-example-computing-per-pupil-spending">Worked Example: Computing Per-Pupil Spending<a class="headerlink" href="#worked-example-computing-per-pupil-spending" title="Permanent link">&para;</a></h3>
+<p>An illustrative district reports the following for one year:</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Current spending (salaries, benefits, supplies, transportation, services)</td>
+<td>$180,000,000</td>
+</tr>
+<tr>
+<td>Construction of a new middle school (capital outlay)</td>
+<td>$40,000,000</td>
+</tr>
+<tr>
+<td>Enrollment</td>
+<td>12,000 students</td>
+</tr>
+</tbody>
+</table>
+<p>Per-pupil current spending excludes the construction cost:</p>
+<div class="arithmatex">\[
+\text{per-pupil spending} = \frac{\$180{,}000{,}000}{12{,}000 \text{ students}} = \$15{,}000 \text{ per student}
+\]</div>
+<p>Including the construction would give <span class="arithmatex">\( \$220{,}000{,}000 \div 12{,}000 \approx \$18{,}333 \)</span>, a misleading figure for comparing everyday costs, because a new building is a once-in-decades expense.</p>
+<p>Now divide by the school year to get a daily figure. With 180 school days:</p>
+<div class="arithmatex">\[
+\frac{\$15{,}000}{180 \text{ days}} \approx \$83 \text{ per student per day}
+\]</div>
+<p>Keep that daily figure in mind. Later chapters compare it with the cost of interactive textbooks, which the course description describes as heading toward pennies per student per day, and with the tuition of private AI-first schools.</p>
+<div class="admonition mascot-warning">
+<p class="admonition-title">An average hides the spread</p>
+<p><img alt="Indigo warning" class="mascot-admonition-img" src="../../img/mascot/warning.png" />
+A common trap is treating one per-pupil number as "what a student costs." Averages blend students who need far more (special education, English learners) with students who need less, and they mix current spending with capital spending. When comparing two figures, first check that both use current spending and the same year.</p>
+</div>
+<h2 id="putting-the-building-blocks-together">Putting the Building Blocks Together<a class="headerlink" href="#putting-the-building-blocks-together" title="Permanent link">&para;</a></h2>
+<p>You have now met 21 concepts, and they are not a list of unrelated vocabulary words. They depend on one another in a structure. <em>Learning outcome</em> depends on <em>learning</em>. <em>Bloom's Taxonomy</em> classifies learning outcomes, and <em>higher-order thinking</em> is defined by the taxonomy's top levels. <em>Direct instruction</em> requires a <em>teacher</em>, a <em>classroom</em>, and an idea of <em>learning</em>. <em>Per-pupil spending</em> only makes sense once you know what <em>public school funding</em> is.</p>
+<p>This structure has a name in this book: a <strong>learning graph</strong>, a map of concepts in which each arrow points from a concept to a prerequisite it depends on. Chapter 9 explains learning graphs in detail. The map below shows the dependencies among this chapter's 21 concepts, taken directly from the book's own learning graph, and asks you to read it.</p>
+<h4 id="diagram-building-blocks-concept-map">Diagram: Building Blocks Concept Map<a class="headerlink" href="#diagram-building-blocks-concept-map" title="Permanent link">&para;</a></h4>
+<details>
+<summary>Building Blocks Concept Map</summary>
+<p>Type: graph-model
+<strong>sim-id:</strong> building-blocks-concept-map<br/>
+<strong>Library:</strong> vis-network<br/>
+<strong>Status:</strong> Specified<br/>
+<strong>Bloom Level:</strong> Understand<br/>
+<strong>Bloom Verb:</strong> explain<br/>
+<strong>Learning Objective:</strong> The learner will explain which earlier concepts each Chapter 1 concept depends on by identifying its direct prerequisites in the chapter's concept map, correctly answering at least five of six prerequisite questions.</p>
+<p><strong>Template:</strong> https://github.com/dmccreary/automating-instructional-design/tree/main/docs/sims/chapter1-concept-map<br/></p>
+<p><strong>Prerequisites:</strong> all 21 concepts defined in this chapter, and the meaning of a dependency arrow (an arrow points from a concept to a prerequisite it depends on), defined in the section "Putting the Building Blocks Together" above.</p>
+<p><strong>Evidence of Mastery:</strong> The learner answers six prerequisite questions by selecting nodes in the map. An answer is correct when the selected set exactly equals the direct-prerequisite set given in Content. Mastery is 5 of 6 correct. Clicking nodes to read definitions is exploration.</p>
+<p><strong>Misconceptions:</strong> (1) The concepts are independent vocabulary words. (2) Advanced-sounding concepts (Higher-Order Thinking) must have many prerequisites. (3) Arrows point from a prerequisite to what it enables; in this book they point from a concept to what it depends on.</p>
+<p><strong>Instructional Rationale:</strong> Explaining relationships is an Understand-level skill, shown here by locating each concept's prerequisites. Answering by selecting nodes in the actual graph forces the learner to read arrow direction correctly, which later chapters on learning graphs depend on.</p>
+<p><strong>Content:</strong></p>
+<p>Nodes (21), each with the one-sentence definition shown when the node is selected:</p>
+<table>
+<thead>
+<tr>
+<th>Node</th>
+<th>Definition shown</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Education</td>
+<td>The organized, intentional effort to help people acquire knowledge, skills, values, and ways of thinking.</td>
+</tr>
+<tr>
+<td>Learning</td>
+<td>A relatively lasting change in knowledge, skills, or understanding that results from experience.</td>
+</tr>
+<tr>
+<td>Student</td>
+<td>A person enrolled in a course of study at an educational institution.</td>
+</tr>
+<tr>
+<td>Teacher</td>
+<td>A professional whose job is to help students learn through planning, explaining, assessing, and feedback.</td>
+</tr>
+<tr>
+<td>School</td>
+<td>An institution a society sets up to provide education to a defined group of learners on a regular schedule.</td>
+</tr>
+<tr>
+<td>Curriculum</td>
+<td>The planned body of knowledge, skills, and experiences a school intends students to learn, and its sequence.</td>
+</tr>
+<tr>
+<td>Educational Technology</td>
+<td>Tools, devices, software, and media used to support teaching and learning, with the practices for using them well.</td>
+</tr>
+<tr>
+<td>Classroom</td>
+<td>The room, and the group of students and teacher within it, where scheduled instruction happens.</td>
+</tr>
+<tr>
+<td>School Day</td>
+<td>The daily schedule of periods, transitions, meals, and breaks during which students attend school.</td>
+</tr>
+<tr>
+<td>Public School Funding</td>
+<td>The system of revenues, mainly local, state, and federal taxes, that pays for public schools.</td>
+</tr>
+<tr>
+<td>Per-Pupil Spending</td>
+<td>Total annual spending on public schools divided by the number of students enrolled.</td>
+</tr>
+<tr>
+<td>Learning Outcome</td>
+<td>A specific, observable statement of what a learner will be able to do after instruction.</td>
+</tr>
+<tr>
+<td>Learning Gap</td>
+<td>The difference between what a student is expected to know and what the student actually knows.</td>
+</tr>
+<tr>
+<td>Bloom's Taxonomy</td>
+<td>A framework that classifies learning outcomes into six levels of cognitive work.</td>
+</tr>
+<tr>
+<td>Higher-Order Thinking</td>
+<td>The cognitive work of the top three Bloom levels: analyzing, evaluating, and creating.</td>
+</tr>
+<tr>
+<td>Formative Assessment</td>
+<td>Gathering evidence of learning during instruction and using it to adjust teaching and learning.</td>
+</tr>
+<tr>
+<td>Direct Instruction</td>
+<td>A teacher-led method of explaining, modeling, guided practice, and independent practice.</td>
+</tr>
+<tr>
+<td>Spaced Practice</td>
+<td>Spreading practice sessions over time instead of concentrating them in one session.</td>
+</tr>
+<tr>
+<td>Retrieval Practice</td>
+<td>Learning by actively recalling information from memory rather than rereading it.</td>
+</tr>
+<tr>
+<td>Student Agency</td>
+<td>The capacity and opportunity for students to make meaningful choices about their own learning.</td>
+</tr>
+<tr>
+<td>Self-Paced Learning</td>
+<td>An arrangement in which each student advances through material at their own speed.</td>
+</tr>
+</tbody>
+</table>
+<p>Edges (20), each pointing from a concept to a prerequisite it depends on:</p>
+<table>
+<thead>
+<tr>
+<th>From (depends)</th>
+<th>To (prerequisite)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Curriculum</td>
+<td>Education</td>
+</tr>
+<tr>
+<td>School</td>
+<td>Education</td>
+</tr>
+<tr>
+<td>Educational Technology</td>
+<td>Education</td>
+</tr>
+<tr>
+<td>Student Agency</td>
+<td>Student</td>
+</tr>
+<tr>
+<td>Student Agency</td>
+<td>Learning</td>
+</tr>
+<tr>
+<td>Self-Paced Learning</td>
+<td>Student Agency</td>
+</tr>
+<tr>
+<td>Learning Outcome</td>
+<td>Learning</td>
+</tr>
+<tr>
+<td>School Day</td>
+<td>School</td>
+</tr>
+<tr>
+<td>Public School Funding</td>
+<td>School</td>
+</tr>
+<tr>
+<td>Per-Pupil Spending</td>
+<td>Public School Funding</td>
+</tr>
+<tr>
+<td>Learning Gap</td>
+<td>Learning Outcome</td>
+</tr>
+<tr>
+<td>Classroom</td>
+<td>School</td>
+</tr>
+<tr>
+<td>Direct Instruction</td>
+<td>Teacher</td>
+</tr>
+<tr>
+<td>Direct Instruction</td>
+<td>Learning</td>
+</tr>
+<tr>
+<td>Direct Instruction</td>
+<td>Classroom</td>
+</tr>
+<tr>
+<td>Spaced Practice</td>
+<td>Learning</td>
+</tr>
+<tr>
+<td>Retrieval Practice</td>
+<td>Learning</td>
+</tr>
+<tr>
+<td>Bloom's Taxonomy</td>
+<td>Learning Outcome</td>
+</tr>
+<tr>
+<td>Higher-Order Thinking</td>
+<td>Bloom's Taxonomy</td>
+</tr>
+<tr>
+<td>Formative Assessment</td>
+<td>Learning Outcome</td>
+</tr>
+</tbody>
+</table>
+<p>Six questions, in this order:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Question</th>
+<th>Correct selection</th>
+<th>Why (shown as feedback)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Select every direct prerequisite of Per-Pupil Spending.</td>
+<td>Public School Funding</td>
+<td>You need to know where school money comes from before you can divide it per student.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Select every direct prerequisite of Higher-Order Thinking.</td>
+<td>Bloom's Taxonomy</td>
+<td>Higher-order thinking is defined as the top three levels of the taxonomy.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Select every direct prerequisite of Self-Paced Learning.</td>
+<td>Student Agency</td>
+<td>Letting a student control their pace is one form of giving them agency.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Select every direct prerequisite of Learning Gap.</td>
+<td>Learning Outcome</td>
+<td>A gap is measured against an expected outcome.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Select every direct prerequisite of Direct Instruction.</td>
+<td>Teacher, Learning, Classroom</td>
+<td>Direct instruction is a teacher leading a classroom toward learning; it needs all three.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Select every direct prerequisite of Formative Assessment.</td>
+<td>Learning Outcome</td>
+<td>Formative assessment checks progress toward a specific outcome.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Provenance:</strong> Nodes and edges are taken from <code>docs/learning-graph/learning-graph.json</code> in this repository, restricted to the 21 Chapter 1 concepts; copy the values listed here into the sim rather than reading the file at run time. Definitions come from the chapter prose.</p>
+<p><strong>Rules:</strong> Foundational nodes (Education, Learning, Student, Teacher) have no outgoing edges and must be visually distinguished as having no prerequisites. A question's answer is correct only when the selected set equals the correct set exactly (no missing and no extra nodes). The learner can zoom and reset the view with buttons; mouse-wheel zoom is disabled.</p>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>The learner explores the map, selecting nodes to read their definitions.</li>
+<li>The learner starts the quiz. Question 1 appears; the learner selects one or more nodes and submits.</li>
+<li>The sim marks the answer and highlights the correct prerequisite nodes and their edges.</li>
+<li>The learner continues through question 6, then sees the score.</li>
+<li>The learner should notice that Higher-Order Thinking has only one direct prerequisite even though it sounds advanced, and that four concepts have no prerequisites at all.</li>
+</ol>
+<p><strong>Feedback:</strong> Six questions, fixed order, two attempts each. Correct: "Correct. [Why text]." Incorrect with missing nodes: "You're missing at least one prerequisite. Follow every arrow leaving [concept]." Incorrect with extra nodes: "At least one selected concept is not a direct prerequisite. Only count arrows that leave [concept] directly." After the second wrong attempt, the correct nodes are highlighted with the Why text. Score "n of 6" is shown at the end.</p>
+<p><strong>Starting State:</strong> The full map of 21 nodes and 20 edges is shown, with no node selected, and the prompt reads "Every concept in this chapter rests on others. Which ones?"</p>
+<p><strong>Chapter Anchors:</strong> The chapter states that it covers 21 concepts, that arrows point from a concept to a prerequisite it depends on, that Learning Outcome depends on Learning, that Higher-Order Thinking is defined by Bloom's Taxonomy, that Direct Instruction requires a Teacher, a Classroom, and Learning, and that Per-Pupil Spending depends on Public School Funding.</p>
+</details>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">&para;</a></h2>
+<p>The vocabulary in this chapter describes a school system that works, often well, within a hard constraint: one teacher, one pace, many students, fixed time.</p>
+<ul>
+<li><strong>Education</strong> is the organized effort; <strong>learning</strong> is the lasting change inside the learner. Strong performance on today's test is not the same as learning.</li>
+<li>A <strong>school</strong> does many jobs besides academic instruction, and any redesign of the <strong>school day</strong> must still do all of them.</li>
+<li>Every <strong>student</strong> arrives at a different starting point, while a <strong>classroom</strong> gives one <strong>teacher</strong> less than two minutes per student per period for individual attention.</li>
+<li>A <strong>curriculum</strong> exists in three versions (intended, enacted, attained), and precise <strong>learning outcomes</strong> with observable verbs are how you tell the three apart.</li>
+<li><strong>Bloom's Taxonomy</strong> classifies outcomes by the kind of thinking they ask for, and <strong>higher-order thinking</strong> (analyze, evaluate, create) depends on a strong base of the lower levels.</li>
+<li><strong>Direct instruction</strong> is effective for novices but paces the whole room together, which turns ordinary differences in readiness into <strong>learning gaps</strong>.</li>
+<li><strong>Self-paced learning</strong> and <strong>student agency</strong> answer the one-pace problem in different ways (speed versus choice) and both need structure to work.</li>
+<li><strong>Formative assessment</strong> uses evidence during learning to change what happens next; <strong>spaced practice</strong> and <strong>retrieval practice</strong> turn performance into lasting learning.</li>
+<li><strong>Educational technology</strong> has repeatedly been oversold when bolted onto an unchanged school day; it matters when it changes which learning job is done and by whom.</li>
+<li><strong>Public school funding</strong> comes from local, state, and federal sources, and <strong>per-pupil spending</strong> of roughly $15,000 a year, about $83 a school day in our example, is the baseline any new model will be compared against.</li>
+</ul>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">You can now describe how a school works</p>
+<p><img alt="Indigo celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png" />
+You just built the vocabulary to describe a traditional school day from the per-pupil budget down to a single hinge question — and to spot exactly where one pace for 28 students leaves learning on the table. Chapter 2 asks who has a stake in changing that, and why. One step at a time, together.</p>
+</div>
 
 
 
 
 
 
+
+  
+  
 
 
 
@@ -1460,6 +4038,12 @@
     
     
       <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/katex.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
       
     
   </body>
