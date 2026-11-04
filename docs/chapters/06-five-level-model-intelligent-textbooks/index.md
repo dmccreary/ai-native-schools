@@ -93,6 +93,61 @@ An **intelligent textbook** is a textbook that uses software to go beyond fixed 
 
 Maya opens her science textbook as a PDF. The PDF lets her search for the word "mitochondria," jump to a chapter from a bookmark, and zoom in on a diagram. It cannot change the diagram when she asks "what if the cell has no mitochondria?" It cannot notice that she read the chapter in four minutes and skipped the practice. It cannot give her a harder problem when the easy ones are done. All of these gaps arise because the PDF has no way to receive her actions and respond. Each of the higher levels adds one such capability.
 
+### Worked Example: What a Textbook Is Made Of
+
+A textbook is a bundle of parts, and each part is a place where software can later add something. Seeing the parts clarifies what each level changes.
+
+| Part of a textbook | What it does for the learner | What a higher level can add |
+|---|---|---|
+| Explanations | Present the ideas in order | Several explanations; interactive models (Level 2) |
+| Worked examples | Show a method applied | Examples that change with the learner's inputs (Level 2) |
+| Exercises | Give practice | Immediate feedback and next-problem choice (Levels 2 and 3) |
+| End-of-chapter assessment | Checks understanding | Continuous mastery checks (Level 3) |
+| Teacher's edition and answer key | Supports the teacher | A dashboard showing who needs help (Level 3) |
+| Glossary and index | Find terms | Hover definitions; a concept map (Level 2) |
+| Fixed sequence of chapters | One path for everyone | A path chosen from the learner's record (Level 3) |
+
+Each level takes parts that were fixed on the page and makes one of them respond. That is why the levels are cumulative in what they can do, and why a product can be strong in one part and static in another.
+
+### Worked Example: The Hidden Costs of Print
+
+Chapter 7 priced a print textbook at about \$53 per student per year, using an \$80 book used for six years in four core subjects. That figure counts only the purchase. Real print programs also lose and replace books, and they store, move, and inventory them. Suppose 8 percent of books must be replaced each year (a replacement cost of \( 0.08 \times \$80 = \$6.40 \) per book-year) and handling and storage add \$2.00 per book-year.
+
+| Cost per book per year | Amount |
+|---|---|
+| Purchase spread over six years | \$13.33 |
+| Lost and damaged books replaced | \$6.40 |
+| Storage, distribution, and inventory | \$2.00 |
+| Total | \$21.73 |
+
+For four subjects the total is \( 4 \times \$21.73 \approx \$87 \) per student per year, about 63 percent more than the \$53 purchase-only figure. The Chapter 7 comparison with digital levels therefore *understates* the print cost. A fairness caution applies the other way: digital programs have hidden costs too, which is why that chapter's total cost of ownership included devices and training.
+
+### Worked Example: Not All PDFs Are Equal
+
+A PDF textbook is not one thing. Three versions of the same book can look identical on screen and differ completely for a student who uses a screen reader, a program that reads the page aloud.
+
+| Kind of PDF | How it is made | What a screen reader can do | Result |
+|---|---|---|---|
+| Scanned image | A photograph of each printed page | Nothing: there is no text to read | Unusable for a blind student |
+| Text PDF | Exported from a word processor | Reads the words, perhaps in the wrong order | Partly usable |
+| Tagged PDF | Built with headings, lists, and image descriptions (the PDF/UA standard, ISO 14289) | Reads in order, announces headings, describes images | Usable |
+
+The practical point for a district is the first safeguard in Chapter 6's list: an accessibility check at every level, starting with Level 1. A scanned PDF delivered as an "e-book" can quietly exclude exactly the students who most need digital access.
+
+### Worked Example: One Book, Four Deliveries
+
+The same chapter of content can be delivered four ways. Only the last responds to the learner.
+
+| | Print | PDF | Static web page | Interactive web page |
+|---|---|---|---|---|
+| Searchable | No | Yes | Yes | Yes |
+| Updated without reprinting | No | By reissuing the file | Yes | Yes |
+| Works with no connection | Yes | Yes | If saved | If saved |
+| Responds to the learner's actions | No | No | No | Yes (sliders, self-checks) |
+| Level | 1 | 1 | 1 | 2 |
+
+Going from the first column to the third is a change of *medium*. Only the move to the fourth is a change of *level*. That distinction is the single most common confusion in vendor claims about "digital" and "interactive" products.
+
 ## Classification Frameworks and Shared Vocabulary
 
 A **classification framework** is a system for sorting things into a small number of named categories according to stated criteria, so that people can describe and compare them consistently. You have already met one: Bloom's Taxonomy of Chapter 1 sorts learning outcomes into six levels by the kind of thinking they demand. Others include the periodic table for chemical elements and the system that biologists use to classify living things.
@@ -100,6 +155,33 @@ A **classification framework** is a system for sorting things into a small numbe
 A good classification framework creates a **shared vocabulary**: a common set of terms with agreed meanings that lets people from different groups talk about the same thing without misunderstanding. When a teacher, a principal, a vendor, and a board member all say "Level 3," they should mean the same thing. Without a shared vocabulary, a conversation about AI textbooks becomes a series of different people using the same words for different things.
 
 The framework in this book is borrowed from a field that faced the same problem: self-driving cars.
+
+### Worked Example: Is the Five-Level Model a Good Framework?
+
+A classification framework should be tested like any other tool. Six criteria are commonly used. The table scores the five-level model against each, honestly, including where it is weak.
+
+| Criterion | What it asks | How the five-level model fares |
+|---|---|---|
+| Defined by observable features | Can two people check the same product and agree? | Strong: each level names a capability you can test in a demonstration |
+| Mutually exclusive | Does each product fit one level? | Good with the rule "highest capability actually delivered"; weaker for products that mix features |
+| Collectively exhaustive | Does every relevant product fit somewhere? | Good for textbooks; a general chatbot with no course content is outside the scope |
+| Ordered | Does a higher level really do more? | Yes; each level adds one new capability |
+| Stable | Will the definitions survive new technology? | Reasonable, since levels describe capability and not a particular technique |
+| Useful for decisions | Does the level change what you do? | Strong: it sets cost, privacy duties, and safeguards |
+
+Compare a poor framework: "Basic, Standard, Premium." It sorts by price or marketing and not by capability, so two "Premium" products can differ by two levels, and the label tells a buyer nothing about privacy or cost. The five-level model is not perfect, since the boundary between Levels 1 and 2 is a judgment call (does search count as responding?), and it is a proposal that may be refined. But it passes the test that matters: two careful reviewers using it will usually reach the same answer.
+
+### Worked Example: Three People, One Word
+
+A shared vocabulary is easiest to appreciate by watching its absence. Three people at a meeting each hear "this is an adaptive textbook."
+
+| Person | What they picture | What it would be in the five-level model | Privacy duty it implies |
+|---|---|---|---|
+| A publisher's salesperson | Rules that make questions harder after right answers | Level 3 if answers are stored per student; otherwise Level 2 | Records of each student |
+| A teacher | Worksheets that differ by reading level | Possibly Level 1 (fixed, differentiated content) | None |
+| A parent | The tablet choosing videos for their child | A recommendation feature; Level 3 if it stores history | Depends on what is stored |
+
+The word "adaptive" led to three different purchases. With the levels, the first question becomes "Does it store a record of each student, and does it change what it shows from that record?" which has one answer.
 
 ## The SAE Levels: A Model from Self-Driving Cars
 
@@ -142,6 +224,20 @@ Type: infographic
 
 Reused from the MicroSim catalog (WHAT match score 0.7992).
 </details>
+
+### Worked Example: Mapping the Car Levels to Textbook Levels
+
+The parallel with self-driving cars is not just a slogan. Four questions that define the SAE levels have counterparts for textbooks. The mapping is this book's own analogy and not part of the SAE standard.
+
+| Question | In a car | In a textbook |
+|---|---|---|
+| Who does the main work? | The driver, then the system as the level rises | The author's fixed text, then the software choosing what comes next |
+| Who monitors? | The human at Levels 0 to 2; the system in defined conditions from Level 3 up | The student and teacher at Levels 1 and 2; the software tracks progress from Level 3 up |
+| What happens when it fails? | The human takes over (Level 3), or the system stops safely (Level 4) | The teacher steps in; at Levels 4 and 5 a human reviews logs and content |
+| Where does it work? | Defined roads and conditions | Defined subjects and ages |
+| What threshold changes the rules? | Level 3: the system takes control, so liability questions arise | Level 3: the system tracks individuals, so privacy questions arise |
+
+The last row is the reason the textbook framework is more than a metaphor. In both fields, the level at which the system takes on a new kind of responsibility is the level at which the rules must change.
 
 !!! mascot-thinking "Levels describe capability, not quality"
     ![Indigo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
@@ -212,6 +308,32 @@ The **intelligent textbook movement** is the growing effort, from researchers, o
 
 The **growth of Level 2 textbooks** is the most visible result. Because a Level 2 textbook is made of ordinary web pages and small simulations, it costs little to host and nothing to copy, and AI authoring tools lower the cost of writing it. Dozens of open Level 2 textbooks, and hundreds of reusable MicroSims, now exist in the catalog that supports this book's own tooling, and the number is rising quickly. As Chapter 7 explains, this is the economic force that makes Level 2 content cheap and often free.
 
+### Worked Example: What Drives the Movement
+
+The intelligent textbook movement did not begin because a single tool appeared. Several forces arrived together, and understanding them helps predict where it goes.
+
+| Force | What changed | Why it matters |
+|---|---|---|
+| Authoring cost | AI tools made it practical for one person to draft chapters and simulations (Chapter 7) | A Level 2 book no longer needs a publisher's team |
+| Open licenses | Creative Commons let authors share and remix | Content and simulations can be reused legally |
+| Reusable MicroSims | Small browser-based simulations can be embedded anywhere | A good sim is written once and used in many books |
+| Standards | xAPI, LTI, and open formats | Books can plug into schools' existing systems |
+| Hosting | Static sites on free or cheap hosts | Distribution costs almost nothing |
+| Demand | Teachers and families want more than a PDF | There is a ready audience |
+
+None of these requires a large language model in front of every student. That is part of why the movement can spread at the low cost the book argues for.
+
+### Worked Example: Growth Through Reuse
+
+Level 2 growth is helped by an effect that print never had: an interactive element built for one book can be reused in another. This book is a small example. Of its 78 simulation blocks, 13 are reused from existing books and 65 are new specifications, so about 17 percent of its interactive elements were free to adopt. Suppose, as an illustration, that building a simulation from scratch takes about 8 hours and adapting an existing one takes about 1 hour, at \$50 an hour.
+
+| Scenario | Simulations reused | Hours saved | Cost saved |
+|---|---|---|---|
+| This book today | 13 of 78 | \( 13 \times 7 = 91 \) | \( 91 \times \$50 = \$4,550 \) |
+| A catalog twice as rich: 40 percent reuse | 31 of 78 | \( 31 \times 7 = 217 \) | \$10,850 |
+
+The more sims exist, the more any new book can borrow, which lowers the cost of the next book. That feedback is the reinforcing loop of Chapter 18 applied to content, and it is a main reason the Level 2 supply keeps growing.
+
 !!! mascot-tip "Check for the reset test"
     ![Indigo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     Here's a quick way to tell Level 2 from Level 3: change something on the page, then reload it. If the page forgets you, it's Level 2. If it remembers where you were, what you got wrong, or what you should do next, it's keeping a record about you, and that's Level 3.
@@ -255,6 +377,21 @@ A **Level 4 chatbot textbook** is a textbook that adds a conversational AI, usua
 **Conversational tutoring** is instruction carried out through dialogue: the tutor asks questions, listens to the student's answers, gives hints, and adjusts its next question to the response. It imitates what a good human tutor does and is the reason one-to-one tutoring has been so effective in the research (Chapter 11). A well-designed conversational tutor does not hand over answers. It asks "what is the problem asking you to find?" and lets the student do the thinking, which is the hint ladder of Chapter 2.
 
 A common example is Khan Academy's Khanmigo, launched in 2023 as a tutoring assistant layered on a platform that already tracked student progress. By this model's definitions it is a Level 4 chat tutor on top of a Level 3 platform. This classification is the book's reading of the product, and the vendor may describe it differently.
+
+### Worked Example: Anatomy of a Good Tutoring Conversation
+
+Conversational tutoring is built from a small number of moves. Here is a short dialogue, with each tutor move named, using the juice problem from earlier chapters.
+
+| Turn | What is said | Tutor move |
+|---|---|---|
+| 1 | Maya: "I don't get unit rates." Tutor: "When you read 'price per bottle,' what is it asking you to find?" | Clarification question; hint level 1 |
+| 2 | Maya: "How much one bottle costs?" Tutor: "Yes. What do you know about the 6-pack?" | Confirms; narrows the plan |
+| 3 | Maya: "It costs \$4.50, and has 6 bottles. Do I multiply?" Tutor: "Try it: if you multiply, what do you get, and does it fit the story?" | Probes an assumption; lets her test it |
+| 4 | Maya: "27. No, the pack is only \$4.50, so it must be divide." | Self-correction, with no answer given |
+| 5 | Maya: "0.75." Tutor: "How could you check that?" | Asks for evidence |
+| 6 | Maya: "0.75 times 6 is 4.50." Tutor: "Exactly. Now try 8 pencils for \$2.00." | Confirms; transfers to a new problem |
+
+The tutor never states the answer and never says "wrong." It asks six questions, one of which Maya answers by checking her own work. The dialogue is also a test for any product: a tutor that cannot do this, or that does it only when the student volunteers the right answer, is a chatbot with a teaching label.
 
 ### Worked Example: Two Chat Tutors, Same Question
 

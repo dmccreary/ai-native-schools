@@ -230,3 +230,7 @@
 ## Expansion pass: Chapter 4
 
 - Added about 1,900 words of prose (5,400 to about 7,300) as worked examples for full-treatment concepts that lacked them: three waves of AI, machine learning from counts, next-token probabilities, generative AI beyond text, human working time variation, estimating a horizon by log interpolation, per-step reliability compounding over long tasks, doubling time as a monthly growth rate, and a token-cost example. All arithmetic verified. Still below the 9,500 floor, but the added material is substantive and not repetition
+
+## Expansion pass: Chapter 6
+
+- Added about 2,100 words of prose (6,100 to about 8,200): the anatomy of a textbook, hidden print costs (shows the ch. 7 print baseline is conservative, about \$87 vs \$53), PDF accessibility, one book in four deliveries, testing the five-level model as a framework (with its real weaknesses), three people hearing "adaptive", an SAE-to-textbook mapping labeled as this book's analogy, drivers of the intelligent textbook movement, growth through reuse (using this book's own 13 of 78 reused sims), and an annotated tutoring dialogue. Arithmetic verified. Still below the 12,750 floor
