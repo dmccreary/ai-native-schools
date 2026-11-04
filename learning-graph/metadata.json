@@ -1,0 +1,10 @@
+{
+  "title": "AI-Native Schools: Mornings with AI, Afternoons with Each Other",
+  "description": "An interactive intelligent textbook about how AI is enabling more pro-social behaviors in schools. It covers the METR task-horizon evidence, the five-level model of intelligent textbooks, the shorter academic morning, the pro-social afternoon, school culture change, and real stories of AI-first schools that worked and failed.",
+  "creator": "Dan McCreary",
+  "date": "2026-11-03",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
