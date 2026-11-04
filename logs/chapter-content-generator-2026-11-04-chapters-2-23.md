@@ -40,3 +40,13 @@
 - Uses an illustrative 4-to-6-month doubling range to show sensitivity; five months remains the stated planning figure
 - External figures to verify before publishing: Epoch AI compute growth (4-5x per year), IEA data-center electricity (about 1.5% in 2024, about 415 TWh), Stanford AI Index 2025 token prices, the 2023 Harvard/BCG study figures (ch. 4), the 2023 Mata v. Avianca sanctions
 - mkdocs build --strict: pass
+
+## Chapter 6: The Five-Level Model of Intelligent Textbooks
+
+- Budget: 17 Tier A + 17 Tier B = about 12,750 to 19,550 words. Actual: about 6,100 prose words plus about 2,000 words of specs. This is BELOW the budget floor (about half). Every concept is defined and the chapter has worked examples, tables and four sims, but the Tier A foundation concepts (Textbook, Digital Textbook, Classification Framework) are brief. Left unpadded per the anti-padding rule; a candidate for expansion
+- Fixed the "33 concepts" heading to 34 to match the 34-row table (the scaffold's heading was one short)
+- Concepts covered: 34 of 34; mascot admonitions: 7 (validator clean)
+- MicroSims: 2 reused, both the author's own (book-levels 0.8163, sae-comparison 0.7992); 2 newly specified (product-level-classifier, level-specific-safeguard-matcher)
+- Judgment calls for the author to confirm against the five-level paper: (1) a product's level is the highest defining capability it actually delivers (not cumulative); (2) the Level 1/Level 2 boundary is "responds to the learner's actions" (bookmarks, search and hyperlinks stay Level 1); (3) Level 3 adaptivity needs no language model; (4) the level-specific safeguard table is this book's recommended practice, not law
+- Khanmigo is classified as Level 4 on a Level 3 platform; this is the book's reading and is labeled as such
+- mkdocs build --strict: pass
