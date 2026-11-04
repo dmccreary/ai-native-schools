@@ -130,3 +130,13 @@
 - The SAFE rule is from Durlak, Weissberg and Pachan (2010); the four-feature pro-social test, the afternoon week plan, and the 450-hour figure are this chapter's illustrative design
 - External facts to verify: Durlak et al. 2010 (68 studies, SAFE), Sala & Gobet 2020, El Sistema (1975, Abreu) and Baker 2014, FIRST (1989, Kamen), PBLWorks seven elements, the Lucas Education Research AP results, Finland's 2016 multidisciplinary-module requirement, High Tech High (2000, lottery), Celio et al. 2011 service-learning meta-analysis (62 studies)
 - mkdocs build --strict: pass
+
+## Chapter 15: Technology Adoption and the Diffusion of Innovation
+
+- Budget: 2 Tier A + 16 Tier B + 10 Tier C (28 rows) = about 6,200 to 9,900 words. Actual: about 4,650 prose words plus about 2,750 words of specs (about 75% of the floor)
+- Concepts covered: 28 of 28; mascot admonitions: 5 (validator clean)
+- MicroSims: 1 reused (technology-adoption from the ethics-course book, score 0.8046; its regions link out to Wikipedia on click); 3 newly specified (choose-chasm-crossing-move, where-on-hype-cycle, which-attribute-is-the-barrier). Two catalog hype-cycle sims returned 404 and were not used
+- Self-review corrected a chasm-sim item whose "best move" did not follow from its scenario
+- The 5-attribute scores for Level 2 vs Level 4, the Eastside barrier diagnosis, and the hype-cycle placement of generative AI are illustrative readings and are labeled as such. Estonia's AI Leap is presented as a method example with results not yet known (consistent with the appendix)
+- External facts to verify: Rogers (1962; 5th ed. 2003), the Ryan and Gross (1943) hybrid-corn study, adopter percentages, Moore (1991), Gartner's hype cycle (mid-1990s) and the academic critique, the 2012 "year of the MOOC" and the 2013 Thrun quote, MOOC completion under 10 percent, LAUSD iPad rollout (2013), Estonia TI-Hupe (2025)
+- mkdocs build --strict: pass
