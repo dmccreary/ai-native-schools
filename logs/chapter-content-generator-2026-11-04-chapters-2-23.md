@@ -70,3 +70,13 @@
 - Grounded in the author's own LRS project (xAPI producer contract, LRS-Lite draft design). LRS-Lite is described as a draft plan, not a finished product. The "about a kilobyte per statement" and "few dollars a month" figures come from that draft
 - External facts to verify: xAPI timeline (ADL, version 1.0 in 2013, IEEE adoption), SoLAR definition of learning analytics, GDPR portability, FERPA inspection right
 - mkdocs build --strict: pass
+
+## Chapter 9: Learning Graphs, Interoperability Standards, and Access at Scale
+
+- Budget: 14 Tier B + 1 Tier C = about 3,490 to 5,600 words. Actual: about 4,100 prose words plus about 1,700 words of specs (within budget)
+- Concepts covered: 15 of 15; mascot admonitions: 5 (validator clean)
+- Worked examples use real data from this book's own learning graph (532 concepts, 961 dependencies, 14 foundational, 28 terminal, longest chain 26, Five-Month Doubling = 15 prerequisites in 7 layers), computed from learning-graph.json
+- MicroSims: 1 reused (this book's own graph-viewer, via relative iframe); 2 newly specified (ready-concepts-finder, generate-once-vs-live-cost), the first from a template
+- Illustrative assumptions (labeled): 3 MB page size, 1.5 Mbps connection, \$22,400 production cost (from ch. 7), \$2.00 per million tokens
+- External facts to verify: 1EdTech/IMS Global standards list and 2022 rename, IEEE xAPI and LOM, Pew 2018 homework-gap figure, Emergency Connectivity Fund, GitHub Pages limits
+- mkdocs build --strict: pass
