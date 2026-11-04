@@ -85,6 +85,58 @@ Imagine the same job at each rung of the ladder: finding scam emails for a schoo
 
 Each rung does more than the one before and brings a new way to fail. The agent row is the one to remember: because it acts on its own over many steps, an agent's errors can compound, which is why the length of task it can handle reliably, the subject of the rest of this chapter, matters so much.
 
+### Worked Example: Three Waves of AI
+
+The terms above were not invented at once. Artificial intelligence has risen in waves, and each wave explains why a different rung of the ladder dominates the news at a different time.
+
+| Period | What people built | Rung of the ladder | What happened next |
+|---|---|---|---|
+| 1950s | Alan Turing asked in 1950 whether machines can think; the 1955 proposal for a Dartmouth summer workshop gave the field its name | AI without machine learning | Rule-based programs solved puzzles and played checkers, then stalled on messy real-world problems |
+| 1970s and late 1980s | Expert systems that encoded specialists' rules | AI without machine learning | Two "AI winters": funding and interest collapsed when the systems proved brittle and costly to maintain |
+| 2012 | A deep neural network called AlexNet won an image-recognition contest by a wide margin | Machine learning | Learning from data replaced hand-written rules across vision, speech, and translation |
+| 2017 | Google researchers published the transformer design behind modern language models | Machine learning, toward LLMs | Models could be trained on far more text, far faster |
+| November 2022 | ChatGPT reached the public | Large language models, generative AI | Mass adoption, and the education questions of this book |
+
+Two lessons follow. The current wave is built on machine learning and large language models, not on rules, which is why its behavior is statistical and sometimes wrong in odd ways. And earlier waves ended in winters when expectations outran results, a pattern the hype cycle of Chapter 15 describes.
+
+### Worked Example: How a Machine Learns a Rule From Counts
+
+"Learning from examples" can sound mysterious, so here is the smallest honest version. A spam filter is shown 1,000 labeled emails, 200 spam and 800 not spam. For three words it counts how often each appears in each group. These counts are illustrative.
+
+| Word | Share of spam emails containing it | Share of non-spam emails containing it | How much more likely in spam |
+|---|---|---|---|
+| "free" | 60% | 3% | \( 0.60/0.03 = 20 \) times |
+| "winner" | 30% | 2% | \( 0.30/0.02 = 15 \) times |
+| "meeting" | 5% | 50% | \( 0.05/0.50 = 0.1 \) times, so 10 times *less* likely |
+
+A new email contains "free," "winner," and "meeting." Before reading it, spam is 200 of 1,000 emails, which is odds of 1 to 4, or 0.25. Multiply the odds by each word's ratio: \( 0.25 \times 20 \times 15 \times 0.1 = 7.5 \), which is odds of 7.5 to 1, or a probability of \( 7.5/8.5 \approx 88\% \) that the email is spam. Nobody wrote a rule saying "free is suspicious." The counts produced it. Real systems use thousands of features and cleverer arithmetic, but the idea is the same, and it shows the weakness too: a scam that uses none of the words the filter has seen gets no help from the counts.
+
+### Worked Example: What a Language Model Does at Each Step
+
+A large language model produces text one small piece at a time. The pieces are called *tokens*, which are chunks of text roughly three-quarters of an English word long. At each step the model assigns a probability to every possible next token, picks one, adds it to the text, and repeats. Suppose the text so far is "The capital of France is" and the model's probabilities, which are illustrative, are:
+
+| Next token | Probability |
+|---|---|
+| " Paris" | 92% |
+| " the" | 3% |
+| " a" | 2% |
+| " located" | 1% |
+| anything else | 2% |
+
+The model almost always continues with " Paris," because that continuation was overwhelmingly common in its training text. Now change the prompt to a question the training text never settled, such as "The mayor of the school district's biggest town is." The probabilities flatten across many plausible names, and the model still picks one, fluently. That is the mechanism behind the hallucination of Chapter 5: the model is always choosing a likely continuation, whether or not a true one exists. It also explains why a model grounded in a vetted document (Chapter 12) behaves better: the document concentrates the probability on supported text.
+
+### Worked Example: Generative AI Beyond Text
+
+Generative AI covers more than chatbots, and each kind has its own benefit and risk in a school.
+
+| Kind of output | A school use | A benefit | A risk and a response |
+|---|---|---|---|
+| Text | Drafting practice questions | Saves planning time | Errors; a teacher reviews every set |
+| Images | Illustrating a vocabulary card | Fast custom visuals | Inaccurate details or biased depictions; check against a trusted source |
+| Audio | Reading a passage aloud in a student's home language | Access for English-language learners | Wrong pronunciation; ask a fluent speaker to sample it |
+| Code | A student's first program | Quick feedback on errors | Students copy code they do not understand; require them to explain it |
+| Video | A short explainer clip | Engagement | Realistic fakes; teach students to ask where a clip came from |
+
 The table below summarizes the ladder using examples. It adds no new terms; it organizes the five you have just met, plus the case of ordinary software that is not AI at all.
 
 | Category | What it does | Example |
@@ -229,6 +281,10 @@ A **task success rate** is the fraction of attempts at a task, or at a set of si
 A **task horizon** is the length of task, measured in human working time, that an AI system can complete at a stated level of success. It answers the question, "how long a task can this AI handle?" Putting the three ideas together gives METR's key number.
 
 The **50 percent time horizon** is the task length, in human working time, at which an AI system succeeds about half the time. Tasks shorter than the horizon are mostly completed, and tasks longer than it mostly fail. If a model has a 50 percent time horizon of one hour, it completes about half of the one-hour tasks and fewer of the longer ones. METR chose 50 percent because it is the middle of the transition from "usually works" to "usually fails," which makes it a stable point to measure. The price of that choice, as we will see, is that 50 percent is a coin flip, not a reliable worker.
+
+### Worked Example: One Task, Three Human Times
+
+Human working time is not a single fixed number, since skilled people vary. Suppose METR times three professionals on the same task and records 22, 35, and 48 minutes. A single value is needed, and the choice matters: the average is \( (22 + 35 + 48)/3 = 35 \) minutes, and the middle value, the median, is also 35. Had one person gotten distracted and taken 120 minutes, the average would jump to \( (22 + 35 + 120)/3 \approx 59 \) minutes while the median would stay at 35, which is why a robust summary such as the median, or the geometric mean for times that differ by large factors, is the safer choice. The practical point for a reader is that every "task length" in a horizon chart is itself an estimate with a spread, and a careful study says how it was chosen.
 
 ### How the Number Is Produced
 
@@ -400,6 +456,26 @@ Answers: Q1 = 80%; Q2 = 15 minutes (the 80 percent horizon is H/4); Q3 = 80% (60
 **Chapter Anchors:** The chapter's worked example uses task lengths of 1, 4, 15, 60, 240, and 960 minutes, a 50 percent horizon of 60 minutes, and an 80 percent horizon of 15 minutes.
 </details>
 
+### Worked Example: Estimating a Horizon From Noisy Data
+
+Real success rates do not land exactly on 50 percent, so the horizon has to be estimated between two measured points. Suppose a second model produces these results, which are illustrative.
+
+| Human working time | Task success rate |
+|---|---|
+| 2 minutes | 95% |
+| 8 minutes | 82% |
+| 30 minutes | 61% |
+| 120 minutes | 33% |
+| 480 minutes | 12% |
+
+The 50 percent point lies between 30 minutes (61 percent) and 120 minutes (33 percent). Because task length is spread over a very wide range, the interpolation is done on the logarithm of the time, not on the time itself. The success rate falls 28 points between the two measured lengths, and 50 percent is 11 of those 28 points down from 61, a fraction of \( 11/28 \approx 0.39 \) of the way along. The two lengths differ by a factor of \( 120/30 = 4 \), so the horizon is
+
+\[
+30 \times 4^{0.39} \approx 30 \times 1.72 \approx 52 \text{ minutes}.
+\]
+
+A reader who interpolated on the plain number line would have placed the point 39 percent of the way from 30 to 120, at about 65 minutes, a 25 percent overestimate. The method matters because the whole argument of the chapter rests on reading a number off a curve. It is also a reminder that the headline figure carries a margin of error, which METR reports as a range.
+
 ### Long-Running Tasks and AI Agents
 
 A **long-running task** is a task that needs many steps over an extended period, from hours to days, so that early mistakes can compound and the worker must plan, track progress, and recover from errors. Teaching examples are *grade thirty essays and write feedback* (about five hours), *design and prepare a two-week unit with materials* (a few days), and *build an interactive classroom simulation* (a few days). Long-running tasks matter because most valuable work is long-running, and the early AI systems were good at short bursts only.
@@ -414,6 +490,19 @@ An AI agent, defined earlier, is the kind of system that can attempt a long-runn
 | Grade thirty short essays with written comments | 5 hours |
 | Plan a two-week unit with materials and assessments | 20 hours |
 | Build and test an interactive classroom simulation | 40 hours |
+
+### Worked Example: Why Long Tasks Are Harder Than Short Ones
+
+A long task is a chain of steps, and an agent has to get every step right, or notice and repair its mistakes. Suppose each step succeeds independently with some probability, and the task succeeds only if all the steps do. Then the chance of finishing is the per-step success rate multiplied by itself once per step. The table shows the result for three per-step reliabilities.
+
+| Steps in the task | 90% per step | 95% per step | 99% per step |
+|---|---|---|---|
+| 5 | 59% | 77% | 95% |
+| 10 | 35% | 60% | 90% |
+| 20 | 12% | 36% | 82% |
+| 50 | 0.5% | 8% | 61% |
+
+An agent that is right 95 times in 100 at each step finishes a twenty-step task only about 36 percent of the time. To complete it 80 percent of the time, each step would need to succeed about 98.9 percent of the time, since \( 0.8^{1/20} \approx 0.989 \). This is one reason the 80 percent horizon sits well below the 50 percent horizon, and why a rising horizon means more than "smarter": it means more reliable at every step, and better at noticing and recovering from errors. The model is simple, since real steps are not independent and good agents retry, but it shows why reliability is the quantity to watch.
 
 !!! mascot-warning "A coin flip is not a colleague"
     ![Indigo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
@@ -438,6 +527,10 @@ where \( T \) is the doubling time in months. The formula is the whole of the ar
     If exponents make you nervous, you're in good company; human intuition is built for steady, additive change. You already did similar arithmetic in Chapter 1 when you divided a budget by a day count. Here, just keep doubling a number on paper (1, 2, 4, 8, 16) until the pattern feels solid, then read the table below.
 
 METR found that the 50 percent time horizon of leading AI models has been growing exponentially. This book uses **five-month doubling**, a doubling time of about every five months, as its planning figure for the task horizon. The estimated doubling time depends on which models and which period are measured, so treat "about five months" as a planning figure and not a constant of nature. Chapter 5 returns to the sensitivity of forecasts to this number.
+
+### Worked Example: Doubling Time as a Monthly Growth Rate
+
+People often meet growth as a percentage and doubling time as a period, so it helps to convert between them. If a quantity doubles every 5 months, it grows by a constant factor \( g \) each month with \( g^5 = 2 \), so \( g = 2^{1/5} \approx 1.149 \). The horizon therefore grows about 14.9 percent a month. Over a year the factor is \( 1.149^{12} = 2^{12/5} \approx 5.3 \), a gain of about 430 percent. A quick check is the "rule of 70": the doubling time in periods is about 70 divided by the percentage growth per period, and \( 70/14.9 \approx 4.7 \) months, close to the true 5. A bank account at 5 percent a year doubles in about 14 years by the same rule. Seen as a monthly rate, five-month doubling sounds like a steady 15 percent, and seen as a yearly factor it sounds like a five-fold annual jump, which are the same fact described two ways.
 
 ### Worked Example: What Five-Month Doubling Implies
 
@@ -468,6 +561,18 @@ Capability is only half of what a school needs to know. The other half is price.
 Inference costs have been falling fast. The Stanford AI Index 2025 reported that the cost of querying a model with the performance of GPT-3.5 dropped from about \$20 per million tokens in November 2022 to about \$0.07 per million tokens in October 2024, more than a 280-fold decrease in under two years. That is about nineteen-fold a year. Two cautions apply. The fall describes a *fixed level of capability*: the cheapest way to reach the performance of an older model gets cheaper, while the most capable models still cost more. And prices depend on providers' pricing decisions, which can change.
 
 For schools, falling inference cost is what makes AI tutoring something a public school could afford, as opposed to something only a tuition-funded private school could. The arithmetic is short.
+
+### Worked Example: What a Token Costs in Everyday Terms
+
+Prices per million tokens are hard to picture. A token is about three-quarters of an English word, so 1,000 words is roughly 1,333 tokens. A student asks a tutor to explain a concept in a 100-word question (about 133 tokens) and receives a 1,500-word explanation (about 2,000 tokens), for 2,133 tokens in all.
+
+| Price per million tokens | Cost of this one exchange | Cost of 1,000 such exchanges |
+|---|---|---|
+| \$20.00 (November 2022) | about \$0.043 | about \$43 |
+| \$2.00 (an illustrative stronger-model price) | about \$0.004 | about \$4.30 |
+| \$0.07 (October 2024, GPT-3.5-level) | about \$0.00015 | about \$0.15 |
+
+At the 2022 price, a classroom of 28 students each asking one such question would cost about \$1.20. At the 2024 price it is about four-tenths of a cent. The long, detailed answer matters more than the short question, because the model's output is usually priced higher than its input and is longer. A design that asks the tutor for short hints, as Chapter 12 recommends, is therefore cheaper as well as better for learning.
 
 ### Worked Example: Cost per Student per Year
 

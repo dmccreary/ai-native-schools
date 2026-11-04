@@ -226,3 +226,7 @@
 - Case facts come only from the book's AI-First Stories appendix and the project facts. The appendix warns that several stories were written from memory and not yet checked online. The LAUSD "Ed"/AllHere account includes the appendix's statement that the superintendent has not been charged with a crime; it is a developing story and was written without naming individuals other than as the appendix does. VERIFY every case before publication
 - The "Affordable Alpha" cost (about \$64 net added per student per year) combines ILLUSTRATIVE figures from chapters 7, 12 and 21 and explicitly excludes devices, facilities and transport; the chapter says the comparison to Alpha's tuition must be made with care (increment vs whole-school cost)
 - mkdocs build --strict: pass
+
+## Expansion pass: Chapter 4
+
+- Added about 1,900 words of prose (5,400 to about 7,300) as worked examples for full-treatment concepts that lacked them: three waves of AI, machine learning from counts, next-token probabilities, generative AI beyond text, human working time variation, estimating a horizon by log interpolation, per-step reliability compounding over long tasks, doubling time as a monthly growth rate, and a token-cost example. All arithmetic verified. Still below the 9,500 floor, but the added material is substantive and not repetition
