@@ -131,14 +131,17 @@
 }
 
 /* ---- Mascot image floated LEFT of admonition body text ---- */
-/* The .md-typeset prefix outranks Material's `.md-typeset img { height: auto }`,
-   which otherwise stretches tall poses well past --mascot-size. */
+/* The .md-typeset prefix outranks Material's `.md-typeset img { height: auto }`.
+   All seven Indigo poses are narrower than they are tall, so the box is sized
+   by height only and width follows the image's own aspect ratio — a fixed
+   square box + object-fit: contain would letterbox the owl and leave visible
+   blank space to its left/right before the admonition text starts. */
 .md-typeset img.mascot-admonition-img {
   float: left;
-  width: var(--mascot-size);
   height: var(--mascot-size);
+  width: auto;
+  max-width: var(--mascot-size);
   /* margin: top right bottom left */
   margin: 0 .5em 0 0;
-  object-fit: contain;
   pointer-events: none;  /* belt-and-suspenders; real exclusion is via glightbox skip_classes */
 }
