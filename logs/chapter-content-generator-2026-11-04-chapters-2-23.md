@@ -150,3 +150,12 @@
 - Notes that the often-cited "70 percent of change efforts fail" figure is poorly sourced (citing Hughes 2011)
 - External facts to verify: Kotter (1995, 1996), Lewin (1947), Hiatt/Prosci ADKAR (2006), Bridges (1991), Schein, Senge (1990), Fullan and the implementation dip, CBAM (Hall, Hord, Univ. of Texas, 1970s), Deal and Peterson on school culture, Hughes (2011)
 - mkdocs build --strict: pass
+
+## Chapter 17: Leading Change: Vision, Culture, and Early-Stage Concerns
+
+- Budget: 20 Tier B + 5 Tier C (25 rows) = about 5,340 to 8,600 words. Actual: about 4,250 prose words plus about 2,300 words of specs (about 80% of the floor)
+- Concepts covered: 25 of 25; mascot admonitions: 5 (validator clean)
+- Scope split with Ch. 18 follows the learning graph: this chapter covers Lewin's three stages, all eight Kotter steps, shared vision and personal mastery, Bridges' endings and losses, Schein's overview plus norms and rituals, ADKAR Awareness/Desire/Knowledge, and CBAM stages 0-2 (self concerns) and innovation configuration. Ch. 18 owns the later stages
+- MicroSims: 0 reused; 3 newly specified (force-field-balance, which-kotter-step, which-self-concern). The force strengths, the loss inventory and the innovation-configuration map are illustrative and labeled
+- External facts to verify: Lewin (1947) and force field analysis, Kotter (1996) step names and the majority-convinced point, Senge's compliance vs commitment (enrollment), Bridges (1991) change vs transition and losses, Schein's three levels, ADKAR (Hiatt 2006), CBAM stages of concern 0-6 and the SoCQ (Hall and Hord)
+- mkdocs build --strict: pass
