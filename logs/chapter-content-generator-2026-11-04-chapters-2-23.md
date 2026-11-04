@@ -99,3 +99,14 @@
 - The 100-minutes-freed (300 hours, about 46 days) figure is an ILLUSTRATIVE scenario built on the ch. 2 schedule and is labeled as such, with the required 1.67x speedup stated
 - The appendix itself says several stories are "written from memory and not yet checked online." External figures to verify before publishing: Bloom 1984 two sigma; Kulik, Kulik and Bangert-Drowns 1990 (about 0.52); Nickow, Oreopoulos and Quan 2020 (0.37, 96 RCTs); VanLehn 2011 (0.76-0.79); RAND Cognitive Tutor (about 0.2 in year 2); Nigeria pilot (about 0.3 SD; the chapter treats it as randomized); Harvard physics randomized study; Turkey study (17%); high-dosage tutoring cost (\$1,000-\$2,500); MIT Media Lab EEG preprint
 - mkdocs build --strict: pass
+
+## Chapter 12: AI Guardrails: Teaching Thinking Without Over-Reliance
+
+- Budget: 18 Tier B + 5 Tier C (23 rows) = about 5,230 to 8,400 words. Actual: about 4,800 prose words plus about 2,600 words of specs (slightly below the floor)
+- Corrected the heading from 24 to 23 concepts to match the 23-row table
+- Concepts covered: 23 of 23; mascot admonitions: 6 (validator clean)
+- MicroSims: 0 reused; 3 newly specified (ai-tutor-design-judge, four-thinking-skills-sorter, mastery-threshold-chooser)
+- Notable finding recorded in the chapter: the "4 of the last 5 correct" mastery rule used as the simple example in ch. 8 passes a student who truly knows 70% of the material about 53% of the time. The pass probabilities were computed exactly (binomial) and every sim criterion was checked by script
+- The five-guardrail rule and the 120-minute screen cap are this chapter's recommended practice and illustrative design, labeled as such
+- External facts to verify: Paul and Elder's six Socratic question types, the Microsoft Research / Carnegie Mellon 2025 survey, AAP family-media-plan guidance, the Turkish study's 17% figure (taken from the book's own appendix), sycophancy as a documented tendency
+- mkdocs build --strict: pass
