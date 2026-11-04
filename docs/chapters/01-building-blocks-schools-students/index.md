@@ -299,7 +299,7 @@ Type: microsim
 **sim-id:** bloom-level-task-sorter<br/>
 **Library:** p5.js<br/>
 **Status:** Specified<br/>
-**Bloom Level:** Apply<br/>
+**Bloom Level:** Understand<br/>
 **Bloom Verb:** classify<br/>
 **Learning Objective:** The learner will classify twelve classroom tasks into the six levels of the 2001 revised Bloom's Taxonomy, correctly placing at least ten of twelve on the first attempt.
 
@@ -311,7 +311,7 @@ Type: microsim
 
 **Misconceptions:** (1) The verb alone decides the level (for example, any task containing "explain" must be Understand). (2) Harder or longer tasks are always at higher levels. (3) Writing anything is automatically Create.
 
-**Instructional Rationale:** Classifying is an Apply-level use of the taxonomy: the learner must apply the level definitions to unfamiliar tasks and commit to an answer before seeing feedback. Mixing subjects prevents the learner from sorting by topic instead of by kind of thinking.
+**Instructional Rationale:** Classifying is an Understand-level skill: the learner must recognize which level definition fits an unfamiliar task and commit to an answer before seeing feedback. Mixing subjects prevents the learner from sorting by topic instead of by kind of thinking.
 
 **Content:**
 
