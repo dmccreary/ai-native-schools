@@ -238,3 +238,7 @@
 ## Expansion pass: Chapter 7
 
 - Added about 2,100 words of prose (5,200 to about 7,350) and one reused sim (quality-reusability-quadrant from OER Evaluator): publisher edition economics, who chooses vs who pays, review-vs-error tradeoff, the human-review cost floor under falling AI prices, which licenses grant which 5Rs, license compatibility, reading Q and R together, an accessibility metric up close, marginal cost of a digital copy, and penny-a-day vs the full per-day price. Arithmetic verified (one wording fix: the Level 4 per-day cost is about 0.15 percent of per-pupil daily spending). The error-rate and review-catch figures are explicitly assumed. Still below the 11,110 floor
+
+## Expansion pass: Chapter 10
+
+- Added about 1,950 words of prose (4,990 to about 6,935, now above the 6,600 floor): a data map, four ways privacy fails, what a clickstream can and cannot show, FERPA's school-official test and directory information, COPPA in a classroom, GDPR features, two levels of algorithmic explanation, a first-72-hours breach plan, and features by age. All legal content is general information and labeled recommended practice; verify the specifics (FERPA 45-day response, the school-official conditions, COPPA school-consent limits, GDPR 72-hour and one-month deadlines) with counsel before relying on them

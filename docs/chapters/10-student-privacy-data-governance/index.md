@@ -75,6 +75,29 @@ This chapter takes that problem seriously. It explains what student data is and 
 
 **Student data privacy** is the protection of student data from unauthorized access, use, and disclosure, and the right of students and families to know about and control how it is used. It has two sides. One is *security*: keeping outsiders out. The other is *appropriate use*: making sure that people who legitimately hold the data use it only for the purposes for which it was collected.
 
+### Worked Example: A Data Map for One School
+
+Governance begins with knowing what data exists. A data map lists each tool, the data it holds, and where that data goes. Here is a small, illustrative map for Lincoln Middle School's three tools.
+
+| Tool | Level | Data it holds | Identifying? | Who can see it | Kept for |
+|---|---|---|---|---|---|
+| Open Level 2 textbook | 2 | None about students | No | Not applicable | Not applicable |
+| Adaptive math platform | 3 | Student ID, every answer, time on task, mastery estimates | Yes (ID, linkable) | Teacher, student, family, vendor | One year after the student leaves |
+| School information system | n/a | Name, birth date, address, grades, attendance, disability flags | Yes (direct) | Office staff, teachers, district | Per state records law |
+
+Reading across the map shows two things at once. The Level 2 textbook adds no privacy burden, which is the main reason it is the book's default recommendation. And the adaptive platform holds the most behavior-rich data of the three, which is why it needs the strongest review. A school that cannot produce a map like this for every tool is missing the second must-have practice at the end of this chapter.
+
+### Worked Example: Four Ways Privacy Fails
+
+Student data privacy covers both keeping outsiders out (security) and making sure insiders use data appropriately. The four combinations show that both halves matter.
+
+| | Access is authorized | Access is unauthorized |
+|---|---|---|
+| **Used for the stated purpose** | Normal operation: a teacher reads her own class's mastery data | A breach where the stolen data is never used: still a failure of security |
+| **Used for another purpose** | Misuse by an insider: a staff member browses a neighbor's child's records, or a vendor trains a model on identifiable data | A breach followed by fraud or exposure |
+
+A security checklist addresses only the right-hand column. The bottom-left cell, authorized people using data for the wrong reason, is where many everyday violations occur, and it is addressed by purpose limits, access logs, and training, which is why governance is more than cybersecurity.
+
 ### Worked Example: Is This Field Identifying?
 
 Mr. Chen's daughter has a record in a Level 3 textbook. Consider several fields in it.
@@ -159,6 +182,19 @@ Two kinds of data drive the change. A **detailed learning history** is a long, t
 
 Neither kind of data is dangerous by existing. The danger is in how much is kept, for how long, by whom, and for what use, which is why the rest of the chapter is about rules and governance.
 
+### Worked Example: What a Clickstream Can and Cannot Tell You
+
+Behavioral data invites over-interpretation. The same signal can mean very different things, and acting on a guess can harm a student. Each signal below is illustrative.
+
+| Signal in the data | What it might mean | What it might also mean | A safer use |
+|---|---|---|---|
+| Long pauses before answering | Careful thinking | Difficulty reading, an attention difficulty, or distraction | Prompt a teacher check-in; do not label the student |
+| Rapid, random clicking | Guessing | Boredom, or a rushed student who knows the material | Offer harder or different material |
+| Logging in at 2 a.m. | Late-night studying | Trouble sleeping, or a home situation | Do not draw conclusions; consider whether to collect login times at all |
+| Many requests for hints | Confusion | A student gaming the hint ladder | Look at the pattern over time and ask the student |
+
+Two rules follow. Data that supports a human conversation is a good use, and data used to assign a label or a consequence without one is risky. And data that no decision needs, such as exact login times, should not be collected, which is data minimization again.
+
 ### Worked Example: What Changes at Level 3
 
 The table compares what Maya's school holds under a Level 2 textbook and a Level 3 textbook for the same unit.
@@ -195,6 +231,46 @@ Many U.S. states have added their own student-privacy laws. California's Student
 | COPPA | United States | Personal information of children under 13 online | Notice and verifiable parental consent; school consent allowed for educational use only |
 | GDPR | European Union | Personal data of people in the EU | Lawful basis, data minimization, rights to access, erase, and port data; large fines |
 | State laws | Varies by state | Student data from educational technology operators | Often ban targeted advertising and non-educational profiling |
+
+### Worked Example: FERPA and the "School Official" Test
+
+FERPA allows a school to share identifiable education records with a vendor without parental consent if the vendor qualifies as a school official under three conditions. Apply them to two vendors.
+
+| Condition | Vendor A: adaptive math platform | Vendor B: free app that sells ads |
+|---|---|---|
+| Performs a service the school would otherwise do itself | Yes: it provides practice and tracking | Partly: it offers practice |
+| Is under the school's direct control for the use and upkeep of the records | Yes: the contract limits use and requires deletion on request | No: its terms let it use data for advertising |
+| Uses the records only for the authorized purpose and does not re-disclose them | Yes: the contract forbids both | No: its terms allow sharing with advertisers |
+| Result | May receive records under the exception | May not; parental consent would be required, and the school should not use it |
+
+FERPA also has a separate category, *directory information*, such as name, grade level, and photograph, which a school may release if it has given families notice and a chance to opt out. A common mistake is treating a photo or an email address as harmless: a school that lets a vendor use directory information still has to honor each family's opt-out. Parents also have a right to inspect their child's records, and the school must respond within 45 days.
+
+### Worked Example: COPPA in a Classroom
+
+COPPA applies when a service collects personal information from a child under 13. The FTC allows a school to consent on behalf of parents, with limits. Consider a tool a sixth grader, age 11, will use.
+
+| Question | Answer for this tool | Why it matters |
+|---|---|---|
+| Is the child under 13? | Yes | COPPA applies |
+| Is the data used only for the school's educational purpose? | Yes, if the contract says so | School consent is allowed only for this |
+| Does the vendor use the data for advertising or build profiles for other purposes? | It must not | A commercial use requires parental consent, which a school cannot give |
+| Is the data kept only as long as needed? | Retention schedule: yes | Data should not be kept indefinitely |
+| Do parents have notice and a way to review and delete? | The school provides the notice | The school takes on responsibility for the vendor's practices |
+
+If the tool wanted to show ads or build a marketing profile, the school's consent would not cover it, and the tool should not be used with this child. The same product used by a 14-year-old falls outside COPPA, though FERPA, state law, and the school's own policy still apply.
+
+### Worked Example: GDPR for a School With a European Student
+
+A U.S. international school enrolls a student who lives in the European Union, and GDPR may apply to that student's data. Two features of the law show how it differs from FERPA.
+
+| Feature | What it requires | A school example |
+|---|---|---|
+| A lawful basis for every use | One of six bases: consent, contract, legal obligation, vital interests, public task, or legitimate interests | A school uses "public task" or "contract" for core records and asks consent only for optional extras such as a photo in a newsletter |
+| Rights of the data subject | Access, correction, erasure, portability, and others | A parent asks for a copy of all data the school holds about their child, and the school must answer within one month |
+| Breach notice | Tell the regulator within 72 hours of becoming aware of a breach, and tell individuals promptly when the risk is high | A vendor breach discovered on a Friday must be reported by Monday |
+| Penalties | Up to 20 million euros or 4 percent of worldwide revenue | A reason that international vendors take the law seriously |
+
+Even a school that is not subject to GDPR can use these features as a model of good practice, since they describe what a careful privacy regime looks like.
 
 !!! mascot-warning "Legal is not the same as trusted"
     ![Indigo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
@@ -239,6 +315,18 @@ Real cases exist in education. In 2020, the United Kingdom replaced cancelled ex
 **Algorithmic bias auditing** is the systematic testing of a system's outputs across groups of people to find unfair differences. An audit compares measures such as how often each group is recommended for an opportunity, how often each group is wrongly flagged, and how accurate the system is for each group. One common screening test comes from employment law, where the "four-fifths rule" treats a group's selection rate as a warning sign when it is less than 80 percent of the rate of the most-selected group. A result below that line does not prove unfairness; it tells the auditors where to look.
 
 **Algorithmic transparency** is the ability of the people affected by a system, and those responsible for it, to know what it does, what data it uses, and why it made a particular decision. A transparent system documents its rules, explains its recommendations in plain language, and lets families ask how a decision about their child was made. The simple mastery rule of Chapter 8, "four of the last five answers correct," is transparent: a parent can check it. A complex model that no one can explain is much harder to audit or contest, which is one more reason the book's design favors transparent, rule-based adaptation at Level 3.
+
+### Worked Example: Two Levels of Explanation
+
+Algorithmic transparency has levels, and a family needs a different one from an auditor. Take a single decision: the Level 3 textbook recommends that Maya study equivalent fractions next.
+
+| Audience | Explanation | What it lets them do |
+|---|---|---|
+| Maya and her family | "You haven't yet answered at least four of your last five equivalent-fractions questions correctly, and you need it before ratios." | Understand, question, and contest the choice |
+| The teacher | The mastery rule, the five recent answers, and the prerequisite map for ratios | Check whether the rule worked as intended |
+| An auditor | The code of the rule, the thresholds, and the recommendation counts by subgroup | Test for bias and errors |
+
+Notice that the whole explanation fits in a sentence because the rule is simple and stored in the open. A recommendation from a model that cannot state its reasons gives the family only "the system chose it," and an auditor only a statistical pattern. That difference is a practical reason to prefer transparent, rule-based adaptation wherever it is good enough.
 
 ### Worked Example: A Four-Fifths Audit
 
@@ -330,6 +418,20 @@ A **data breach** is an incident in which unauthorized people gain access to pro
 
 **Cybersecurity in schools** is the set of measures that protect school computers, networks, and data from attack. Schools are frequent targets of ransomware, a kind of attack that locks a school's systems until a payment is made. A 2022 report from the U.S. Government Accountability Office found that ransomware attacks on school districts caused weeks of lost learning time and months of recovery. Core measures are well known: multi-factor authentication for every account that can reach student data, prompt software updates, regular backups kept offline, giving each person only the access they need, and training staff to recognize phishing.
 
+### Worked Example: The First 72 Hours of a Breach
+
+A school's response in the first days decides how much harm follows. This is an illustrative plan; actual deadlines depend on state law and contracts, and counsel should be called early.
+
+| When | Action | Why |
+|---|---|---|
+| Hour 0 to 4 | Contain: disconnect the affected system, reset credentials, switch on multi-factor authentication | Stops further access |
+| Hour 4 to 24 | Assess: what data, how many students, how did it happen; preserve logs | You cannot notify accurately without scope |
+| Hour 24 to 72 | Notify: counsel, the vendor, the insurer, law enforcement, and any regulator with a short deadline; decide what to tell families | Several rules, such as GDPR, require notice within 72 hours |
+| Day 3 to 30 | Tell families clearly what happened, what data, and what to do; offer help such as credit freezes for older students | Communicating before rumors (Chapter 19) |
+| Afterward | Fix the cause; update the plan; report to the board | Learning from the incident |
+
+A plan that exists on paper before the breach, with named people and phone numbers, turns an emergency into a procedure. A district that first reads its breach clause the day after an incident has already lost days.
+
 ### Worked Example: What Each Failure Teaches
 
 | Case | What went wrong | Which practice would have helped |
@@ -349,6 +451,18 @@ Chatbots and adaptive systems that talk with children raise questions beyond dat
 **Age-appropriate AI design** is the design of AI tools to fit the age and development of their users. Practices include high privacy by default, collecting as little as possible, avoiding features that pressure children to keep using the tool, clear language, filters tuned to the age group, and teacher visibility. The United Kingdom's Age Appropriate Design Code, in force since 2021, is a widely cited model. Chapter 12 returns to guardrails for AI tutors.
 
 The **trust paradox** is the tension at the center of personalization: the system needs more data to serve a student well, and families will give more data only if they trust the system, and trust requires that the system holds back. A school that collects too much loses trust, and a school that collects too little cannot adapt. **Family trust** is the confidence that parents and guardians have that a school will act in their children's interest, and it is built by consistent behavior over time rather than by statements. The way out of the paradox is the set of practices in this chapter: collect the minimum, say what you hold, let families see and take their data, delete on schedule, and report problems quickly and honestly.
+
+### Worked Example: Features by Age
+
+Responsible AI with minors means that one rule does not fit every age. A school might set the following defaults. They are recommended practice, and COPPA and the school's own counsel set the legal floor.
+
+| Age | Law and guidance | Chat with an AI tutor | Data and visibility |
+|---|---|---|---|
+| Under 13 | COPPA: school consent for educational use only; UNESCO suggests no classroom generative AI under 13 | Not open chat; supervised, structured prompts with a teacher present | Minimum data; no profiling; the teacher sees the logs |
+| 13 to 15 | UNESCO's suggested minimum age; many EU countries set the age of digital consent between 13 and 16 | A guided hint-first tutor; open topic chat only with limits | Teacher-visible logs; family notice |
+| 16 to 17 | Greater autonomy; GDPR's default consent age is 16 | A guided tutor with more freedom; open chat for approved projects | Student sees their own data; a family-visible summary |
+
+All three tiers share the rules of Chapter 12: hints first, no pressure to keep using the tool, clear language, and a way to reach a person. The point of the table is not the exact ages but the habit of asking, for every feature, "is this suited to the youngest student who will use it?"
 
 !!! mascot-encourage "Governance feels heavy at first"
     ![Indigo encouraging](../../img/mascot/encouraging.png){ class="mascot-admonition-img" }
