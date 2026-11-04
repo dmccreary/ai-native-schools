@@ -178,3 +178,13 @@
 - Fear-of-job-loss guidance is written to avoid promising what a leader cannot guarantee, and cites Tutor CoPilot from the book's own appendix
 - External facts to verify: Heath and Heath (2010) Switch tactics, Sternin's Vietnam positive-deviance case (1990s), Desimone's five PD features, Kraft, Blazar and Hogan (2018) coaching effects (about 0.5 SD on instruction, 0.18 SD on achievement), DuFour and Eaker PLC questions, Ford and Ford (2009) "resistance as a resource", NEA AI policy and the 2025 AFT national AI academy, Hart (1992) ladder of participation
 - mkdocs build --strict: pass
+
+## Chapter 20: Designing the AI-Native School Day
+
+- Budget: 20 Tier B + 6 Tier C (26 rows) = about 5,850 to 9,400 words. Actual: about 5,000 prose words plus about 2,350 words of specs (about 85% of the floor)
+- Concepts covered: 26 of 26; mascot admonitions: 5 (validator clean)
+- MicroSims: 0 reused; 3 newly specified (false-accusations-calculator, vendor-scorecard, scale-extend-or-stop). A catalog school-day timeline sim was NOT reused because it makes unsourced claims about Alpha School's day
+- Designs here are ILLUSTRATIVE and labeled as such: grade-band minutes and screen caps, the 280-student middle-school schedule, adult-hour comparison (about 10 percent more adult-hours; explicitly a shape-of-change illustration and not a budget), the teacher time-allocation table, the false-accusation arithmetic, the vendor scorecard weights, and the pilot decision rule
+- The chapter distinguishes AI-first (technology-led, as with Alpha and Unbound) from AI-native (this book's pedagogy-led design). That framing is this book's, consistent with the appendix, and the author should confirm it matches the intended definitions
+- External facts to verify: OpenAI withdrew its AI text classifier in July 2023; Liang et al. (2023) detector bias against non-native English writers; Alison King (1993) "guide on the side"; the Mastery Transcript Consortium (2017); the New York Performance Standards Consortium waiver; the LA "Ed" figures (taken from the book's appendix); US pupil-teacher ratio of about 15 to 1
+- mkdocs build --strict: pass
