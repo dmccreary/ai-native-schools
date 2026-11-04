@@ -5,6 +5,15 @@
 **Reading level:** College / professional development (K-12 teachers, administrators, board members, parents)
 **cis_max:** 29180. Edge direction validated; 0 chapter-order violations (see chapter 1 log)
 
+
+## Overall Summary (chapters 2-23)
+
+- 22 chapters generated sequentially, each committed, pushed and deployed with `mkdocs gh-deploy` before the next began. Final `mkdocs build --strict`: pass; no TODO placeholders remain; every chapter passes validate-chapter-mascots.py
+- Totals: about 113,800 words of chapter prose plus about 57,500 words of MicroSim specifications; 78 MicroSim blocks (13 reused from existing catalog sims, 65 new specifications)
+- Chapter prose is BELOW the CIS-driven budget floor in chapters 4, 6, 7, 10, 11, 13 and 14 (about 45 to 85 percent of the floor); left unpadded under the anti-padding rule. These are the best candidates for expansion if the author wants more depth. Chapters 3, 5, 9, 12, 16, 18, 21 and 23 are within or near budget
+- Scaffold corrections made along the way: concept-count headings in ch. 6, 7, 12 and 13 (the heading disagreed with the table); chapter 1 sorter Bloom level fixed (Apply to Understand); KaTeX rendering configured in mkdocs.yml
+- Things the author should review before publishing: (1) the five-month doubling figure and its citation (METR's original preprint reported a longer period; the chapters use the book's stated planning figure and say the estimate depends on models and period); (2) every external statistic listed in each chapter section above; (3) the AI-First Stories appendix itself says several accounts are unchecked, and chapters 11, 22 and 23 rely on it; (4) judgment calls on the five-level model boundaries (ch. 6) and on the AI-first vs AI-native definitions (ch. 20); (5) all dollar figures labeled illustrative
+
 ## Chapter 2: Evidence, Motivation, and the Stakeholders of Schooling
 
 - Started 2026-11-04 07:4x, finished 2026-11-04 07:56:29
