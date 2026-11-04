@@ -168,3 +168,13 @@
 - National AI adoption: Estonia presented as a coherent, capacity-building approach with results still unfolding; South Korea's 2025 AI digital textbooks presented as a rapid mandate that, as reported, met resistance and was reclassified as supplementary material. BOTH are written from memory and hedged ("as reported"); the author should verify the South Korea details before publishing
 - External facts to verify: Bridges' neutral zone and four P's, ADKAR Ability/Reinforcement, CBAM levels of use (0 to VI), Tyack and Tobin (1994), Cuban, Abrahamson's "repetitive change syndrome", Fullan and Quinn (2016) coherence framework, Meadows
 - mkdocs build --strict: pass
+
+## Chapter 19: Microstrategies for Leading Change
+
+- Budget: 15 Tier B + 20 Tier C (35 rows) = about 5,500 to 9,000 words. Actual: about 4,900 prose words plus about 2,600 words of specs (about 90% of the floor)
+- Concepts covered: 35 of 35; mascot admonitions: 6 (validator clean)
+- MicroSims: 0 reused; 3 newly specified (rider-elephant-path, choose-the-microstrategy, empathy-or-not)
+- Self-review caught two defects before commit: the concept table had placeholder "See graph" values in the impact-score column (restored from the scaffold), and a new character name collided with an existing one (renamed)
+- Fear-of-job-loss guidance is written to avoid promising what a leader cannot guarantee, and cites Tutor CoPilot from the book's own appendix
+- External facts to verify: Heath and Heath (2010) Switch tactics, Sternin's Vietnam positive-deviance case (1990s), Desimone's five PD features, Kraft, Blazar and Hogan (2018) coaching effects (about 0.5 SD on instruction, 0.18 SD on achievement), DuFour and Eaker PLC questions, Ford and Ford (2009) "resistance as a resource", NEA AI policy and the 2025 AFT national AI academy, Hart (1992) ladder of participation
+- mkdocs build --strict: pass
