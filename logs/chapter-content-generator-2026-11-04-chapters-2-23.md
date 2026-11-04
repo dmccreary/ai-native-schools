@@ -110,3 +110,13 @@
 - The five-guardrail rule and the 120-minute screen cap are this chapter's recommended practice and illustrative design, labeled as such
 - External facts to verify: Paul and Elder's six Socratic question types, the Microsoft Research / Carnegie Mellon 2025 survey, AAP family-media-plan guidance, the Turkish study's 17% figure (taken from the book's own appendix), sycophancy as a documented tendency
 - mkdocs build --strict: pass
+
+## Chapter 13: Social Learning and Human Skills
+
+- Budget: 7 Tier A + 20 Tier B + 1 Tier C (28 rows) = about 8,620 to 13,450 words. Actual: about 4,450 prose words plus about 2,600 words of specs. BELOW the floor (about half). All 28 concepts are defined; the learning theories, team structure, listening, SEL and creativity each have a worked example, but Tier A concepts (Pro-Social Behavior, Collaboration, Teamwork, Empathy, Creativity) are brief. Candidate for expansion
+- Corrected the heading from 29 to 28 concepts to match the 28-row table. Initially wrote a different H1 title from memory; caught and restored the scaffold's original title "Social Learning and Human Skills" before commit (checked all earlier chapter titles against the nav: they match)
+- Mascot admonitions: 6 (validator clean after trimming one tip)
+- MicroSims: 1 reused (zpd-visualization, score 0.827, live); 3 newly specified (which-learning-theory, why-is-this-team-stuck, listening-responses from a template)
+- "Social constructionism" is used in the book's own sense (constructionism done as a team) and the chapter flags the different sociological meaning
+- External facts to verify: Piaget, Vygotsky, Wood-Bruner-Ross (1976), Papert (Mindstorms 1980), Dewey (1938), the Dale's Cone debunking, Johnson & Johnson five elements, Slavin's two key features, CASEL five competencies, Durlak et al. 2011 (213 programs, about 11 percentile points), Fisher & Ury (1981), Guilford and Torrance, Bandura, Kelley & Kelley, Walton & Cohen belonging research, Holt-Lunstad, the 2023 Surgeon General loneliness advisory
+- mkdocs build --strict: pass
