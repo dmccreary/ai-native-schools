@@ -188,3 +188,13 @@
 - The chapter distinguishes AI-first (technology-led, as with Alpha and Unbound) from AI-native (this book's pedagogy-led design). That framing is this book's, consistent with the appendix, and the author should confirm it matches the intended definitions
 - External facts to verify: OpenAI withdrew its AI text classifier in July 2023; Liang et al. (2023) detector bias against non-native English writers; Alison King (1993) "guide on the side"; the Mastery Transcript Consortium (2017); the New York Performance Standards Consortium waiver; the LA "Ed" figures (taken from the book's appendix); US pupil-teacher ratio of about 15 to 1
 - mkdocs build --strict: pass
+
+## Chapter 21: Implementing the AI-Native Model Responsibly
+
+- Budget: 26 Tier C concepts = about 3,120 to 5,200 words. Actual: about 4,600 prose words plus about 2,150 words of specs (within budget)
+- Concepts covered: 26 of 26; mascot admonitions: 5 (validator clean)
+- MicroSims: 0 reused; 3 newly specified (contract-clause-review, coach-capacity-calculator, is-the-gap-closing). All arithmetic rechecked (coach counts 4/13/34; gap results; A/B effect size 0.25; savings of about 490k-570k from ch. 7 figures)
+- Honest finding recorded in the chapter: content savings (about 570k for 12,000 students) do NOT pay for the afternoon staff in the illustrative example (about 1.2M), leaving a gap of about 630k that must come from partners, reassigned teacher time, grants or phasing. The \$60,000 loaded specialist cost and the coach capacity of 12 are illustrative
+- Contract guidance is labeled not legal advice
+- External facts to verify: ESSER spending deadline (2024), the Student Data Privacy Consortium National Data Privacy Agreement, Stanovich's Matthew effect, Tutor CoPilot (from the book's appendix), Emergency Connectivity Fund, LA "Ed" figures (from the appendix), Alpha tuition range (from the project facts)
+- mkdocs build --strict: pass
