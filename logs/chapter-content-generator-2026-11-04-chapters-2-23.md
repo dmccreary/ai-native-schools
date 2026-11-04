@@ -120,3 +120,13 @@
 - "Social constructionism" is used in the book's own sense (constructionism done as a team) and the chapter flags the different sociological meaning
 - External facts to verify: Piaget, Vygotsky, Wood-Bruner-Ross (1976), Papert (Mindstorms 1980), Dewey (1938), the Dale's Cone debunking, Johnson & Johnson five elements, Slavin's two key features, CASEL five competencies, Durlak et al. 2011 (213 programs, about 11 percentile points), Fisher & Ury (1981), Guilford and Torrance, Bandura, Kelley & Kelley, Walton & Cohen belonging research, Holt-Lunstad, the 2023 Surgeon General loneliness advisory
 - mkdocs build --strict: pass
+
+## Chapter 14: The Pro-Social Afternoon
+
+- Budget: 2 Tier A + 23 Tier B + 1 Tier C (26 rows) = about 6,350 to 10,100 words. Actual: about 4,200 prose words plus about 2,750 words of specs. BELOW the floor (about two thirds). All 26 concepts are defined; many of the arts, sports and club concepts share one worked example instead of one each
+- Concepts covered: 26 of 26; mascot admonitions: 6 (validator clean after trimming one warning)
+- MicroSims: 0 reused; 3 newly specified (afternoon-program-quality-judge, missing-project-element, match-activity-to-skill)
+- The chapter is candid that the arts research does not show test-score gains (Sala & Gobet 2020), that El Sistema's evidence is contested, and that "supervised" is not "structured"
+- The SAFE rule is from Durlak, Weissberg and Pachan (2010); the four-feature pro-social test, the afternoon week plan, and the 450-hour figure are this chapter's illustrative design
+- External facts to verify: Durlak et al. 2010 (68 studies, SAFE), Sala & Gobet 2020, El Sistema (1975, Abreu) and Baker 2014, FIRST (1989, Kamen), PBLWorks seven elements, the Lucas Education Research AP results, Finland's 2016 multidisciplinary-module requirement, High Tech High (2000, lottery), Celio et al. 2011 service-learning meta-analysis (62 studies)
+- mkdocs build --strict: pass
