@@ -159,3 +159,12 @@
 - MicroSims: 0 reused; 3 newly specified (force-field-balance, which-kotter-step, which-self-concern). The force strengths, the loss inventory and the innovation-configuration map are illustrative and labeled
 - External facts to verify: Lewin (1947) and force field analysis, Kotter (1996) step names and the majority-convinced point, Senge's compliance vs commitment (enrollment), Bridges (1991) change vs transition and losses, Schein's three levels, ADKAR (Hiatt 2006), CBAM stages of concern 0-6 and the SoCQ (Hall and Hord)
 - mkdocs build --strict: pass
+
+## Chapter 18: Sustaining Change: Systems Thinking and National Adoption
+
+- Budget: 25 Tier C concepts = about 3,000 to 5,000 words. Actual: about 4,000 prose words plus about 2,600 words of specs (within budget)
+- Concepts covered: 25 of 25; mascot admonitions: 5 (validator clean)
+- MicroSims: 0 reused; 3 newly specified (what-level-of-use, artifact-value-or-assumption, reinforcing-or-balancing). Self-review fixed a causal-loop sign error (a minus sign placed on the wrong link in the breach-risk loop) before commit; all six loop sign counts were rechecked
+- National AI adoption: Estonia presented as a coherent, capacity-building approach with results still unfolding; South Korea's 2025 AI digital textbooks presented as a rapid mandate that, as reported, met resistance and was reclassified as supplementary material. BOTH are written from memory and hedged ("as reported"); the author should verify the South Korea details before publishing
+- External facts to verify: Bridges' neutral zone and four P's, ADKAR Ability/Reinforcement, CBAM levels of use (0 to VI), Tyack and Tobin (1994), Cuban, Abrahamson's "repetitive change syndrome", Fullan and Quinn (2016) coherence framework, Meadows
+- mkdocs build --strict: pass
