@@ -1,0 +1,83 @@
+{
+  "title": "Find the Missing Safeguard",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Read six pilot plans against the seven-risk pilot checklist and find the one risk each plan fails to address.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Find the Missing Safeguard",
+    "learningObjectives": [
+      "The learner will attribute the weakness of each of six pilot plans to the one risk it fails to address, correctly attributing at least five of six on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The seven risks and the pilot risk checklist, from the section \"A Pilot Risk Checklist\" in Chapter 22."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 434
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify one item at a time with immediate feedback; first-attempt scoring",
+    "keyQuestions": [
+      "Which line of the checklist does the plan not answer?"
+    ],
+    "commonMisconceptions": [
+      "A detailed plan covers every risk.",
+      "Privacy is the only risk that needs a contract.",
+      "An afternoon plan covers the screen-time risk."
+    ],
+    "assessmentOpportunities": [
+      "A plan has a screen cap, hint-first tutor, log review, loaner devices, a roles statement, and a SAFE-rated afternoon. What is missing?",
+      "Does a plan for the afternoon cover the screen-time risk?",
+      "Is privacy the only risk that needs a written document?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Category buttons",
+      "type": "button",
+      "description": "Choose the risk for the current plan."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the choice. Two tries per plan; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next plan. Finish shows the score."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Reshuffles and begins a new run."
+    },
+    {
+      "name": "Show checklist",
+      "type": "checkbox",
+      "description": "Shows the checklist."
+    }
+  ],
+  "chapter": "22-ai-first-case-studies-i-promise-peril"
+}

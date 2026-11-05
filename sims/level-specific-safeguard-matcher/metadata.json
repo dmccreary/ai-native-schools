@@ -1,0 +1,81 @@
+{
+  "title": "Level-Specific Safeguard Matcher",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Choose the lowest of five textbook levels at which each of eight safeguards should first be required.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Graduated, level-specific policy for digital textbooks",
+    "learningObjectives": [
+      "The learner will apply the level-specific policy by choosing the lowest level at which each of eight safeguards should first be required, correctly matching at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The five levels, level-specific policy, and graduated regulation, from Chapter 6."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 730
+    },
+    "canvasHeight": 730,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Match each risk to the capability that first creates it, with a stacked summary at the end",
+    "keyQuestions": [
+      "Which capability creates this risk?",
+      "What is the first level with that capability?"
+    ],
+    "commonMisconceptions": [
+      "All safeguards should apply at every level from the start",
+      "Privacy review is needed only for chatbots",
+      "A product with no AI model needs no data governance"
+    ],
+    "assessmentOpportunities": [
+      "At what level should an accessibility check first be required?",
+      "At what level does a privacy review of student records begin?",
+      "An adaptive product uses fixed rules and no AI model. Does it need data governance?",
+      "Is human review of AI-generated lessons needed at Level 4?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Level 1 to Level 5",
+      "description": "choose the lowest level at which the safeguard should first apply."
+    },
+    {
+      "name": "Submit",
+      "description": "commits your choice. Two attempts per safeguard; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves on; after the eighth it shows your score and the stacked view."
+    },
+    {
+      "name": "Show level definitions",
+      "description": "checkbox that shows what each level adds."
+    },
+    {
+      "name": "Try again",
+      "description": "reshuffles the safeguards and starts over."
+    }
+  ],
+  "chapter": "06-five-level-model-intelligent-textbooks"
+}

@@ -1,0 +1,134 @@
+{
+  "chapter": "Evidence, Motivation, and the Stakeholders of Schooling",
+  "chapter_file": "docs/chapters/02-evidence-motivation-stakeholders/index.md",
+  "quiz_file": "docs/chapters/02-evidence-motivation-stakeholders/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "introductory",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch02-q001",
+      "number": 1,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Evidence-Based Practice",
+      "tags": [
+        "evidence-based-practice",
+        "essa",
+        "evidence-levels"
+      ]
+    },
+    {
+      "id": "ch02-q002",
+      "number": 2,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Randomized Controlled Trial",
+      "tags": [
+        "randomized-controlled-trial",
+        "selection-bias"
+      ]
+    },
+    {
+      "id": "ch02-q003",
+      "number": 3,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "medium",
+      "concept_tested": "Effect Size",
+      "tags": [
+        "effect-size",
+        "kraft-benchmarks"
+      ]
+    },
+    {
+      "id": "ch02-q004",
+      "number": 4,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Effect Size",
+      "tags": [
+        "effect-size",
+        "cohens-d"
+      ]
+    },
+    {
+      "id": "ch02-q005",
+      "number": 5,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Case Study Method",
+      "tags": [
+        "case-study-method",
+        "randomized-controlled-trial"
+      ]
+    },
+    {
+      "id": "ch02-q006",
+      "number": 6,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Prerequisite Concept",
+      "tags": [
+        "prerequisite-concept",
+        "prior-knowledge",
+        "root-gap"
+      ]
+    },
+    {
+      "id": "ch02-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Intrinsic Motivation",
+      "tags": [
+        "intrinsic-motivation",
+        "self-determination-theory"
+      ]
+    },
+    {
+      "id": "ch02-q008",
+      "number": 8,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Student Boredom",
+      "tags": [
+        "student-boredom",
+        "engagement"
+      ]
+    },
+    {
+      "id": "ch02-q009",
+      "number": 9,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "medium",
+      "concept_tested": "Productive Struggle",
+      "tags": [
+        "productive-struggle",
+        "hint-ladder"
+      ]
+    },
+    {
+      "id": "ch02-q010",
+      "number": 10,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Screen Time",
+      "tags": [
+        "screen-time",
+        "parent-and-family"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 21,
+  "chapter_concepts_tested": 9
+}

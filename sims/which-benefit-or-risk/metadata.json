@@ -1,0 +1,83 @@
+{
+  "title": "Which Benefit or Risk?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Distinguish eight statements from AI-first school stories as one of two benefits or one of six risks.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Which Benefit or Risk?",
+    "learningObjectives": [
+      "The learner will distinguish eight statements drawn from AI-first school stories as one of two benefits or one of six risks, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Benefits of AI-first schools, risks of AI-first schools, and the risk-and-response framework, from the section \"A Framework for Reading Cases\" in Chapter 22."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 454
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify one item at a time with immediate feedback; first-attempt scoring",
+    "keyQuestions": [
+      "What does the statement say about the effect on students?"
+    ],
+    "commonMisconceptions": [
+      "A story shows only a benefit or only a risk.",
+      "Any complaint about AI is a privacy risk.",
+      "A high price is only a cost issue, not an equity issue."
+    ],
+    "assessmentOpportunities": [
+      "\"Tuition of $40,000 to $65,000 a year limits who can attend.\" Which bin?",
+      "Is every complaint about AI a privacy risk?",
+      "Can one story show both a benefit and a risk?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Category buttons",
+      "type": "button",
+      "description": "Choose the benefit or risk for the current statement."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the choice. Two tries per statement; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next statement. Finish shows the score."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Reshuffles and begins a new run."
+    },
+    {
+      "name": "Show definitions",
+      "type": "checkbox",
+      "description": "Shows the definitions."
+    }
+  ],
+  "chapter": "22-ai-first-case-studies-i-promise-peril"
+}

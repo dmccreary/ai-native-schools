@@ -1,0 +1,85 @@
+{
+  "title": "Is This a Normal Dip?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Judge whether each of three pilot performance series shows a normal implementation dip, a deep or late dip, or no dip, using a stated rule.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Is This a Normal Dip?",
+    "learningObjectives": [
+      "The learner will judge whether each of three pilot performance series shows a normal implementation dip, an unusually deep or late dip, or no dip, applying the stated rule, and correctly judging all three."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The implementation dip, managing expectations, and the rule for a normal dip, from the section \"Fullan, the Implementation Dip, and CBAM\" in Chapter 16."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Chart.js",
+    "version": "4.4.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 728
+    },
+    "responsive": true,
+    "dependencies": [
+      "Chart.js 4.4.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "Series A falls from 70 to 63 at month 3. What is the depth?",
+      "Series B bottoms at 54 in month 5. Why is it deep or late?"
+    ],
+    "commonMisconceptions": [
+      "Any drop below baseline means the pilot is failing",
+      "No drop means the pilot is going well",
+      "A dip that lasts a year is normal"
+    ],
+    "assessmentOpportunities": [
+      "Series A falls from 70 to 63 at month 3. What is the depth?",
+      "Series B bottoms at 54 in month 5. Why is it deep or late?",
+      "Does any drop below baseline mean a pilot is failing?",
+      "Does no drop mean the pilot is going well?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Lowest month menus",
+      "type": "select",
+      "description": "Choose the month of the lowest point, or none below the baseline."
+    },
+    {
+      "name": "Judgment menus",
+      "type": "select",
+      "description": "Choose one of the three judgments."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Commits the answer for that series; one attempt."
+    },
+    {
+      "name": "Show menu",
+      "type": "select",
+      "description": "On narrow screens, picks which series to show."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Clears all answers."
+    }
+  ],
+  "chapter": "16-organizational-change-models"
+}

@@ -1,0 +1,135 @@
+{
+  "chapter": "Social Learning and Human Skills",
+  "chapter_file": "docs/chapters/13-social-learning-human-skills/index.md",
+  "quiz_file": "docs/chapters/13-social-learning-human-skills/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch13-q001",
+      "number": 1,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Zone of Proximal Development",
+      "tags": [
+        "zone-of-proximal-development",
+        "social-constructivism",
+        "scaffolding"
+      ]
+    },
+    {
+      "id": "ch13-q002",
+      "number": 2,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "medium",
+      "concept_tested": "Constructionism",
+      "tags": [
+        "constructionism",
+        "constructivism"
+      ]
+    },
+    {
+      "id": "ch13-q003",
+      "number": 3,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Collaboration",
+      "tags": [
+        "collaboration",
+        "cooperation"
+      ]
+    },
+    {
+      "id": "ch13-q004",
+      "number": 4,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Active Listening",
+      "tags": [
+        "active-listening",
+        "communication-skills"
+      ]
+    },
+    {
+      "id": "ch13-q005",
+      "number": 5,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Teamwork",
+      "tags": [
+        "teamwork",
+        "shared-goals",
+        "individual-accountability"
+      ]
+    },
+    {
+      "id": "ch13-q006",
+      "number": 6,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Conflict Resolution",
+      "tags": [
+        "conflict-resolution",
+        "perspective-taking"
+      ]
+    },
+    {
+      "id": "ch13-q007",
+      "number": 7,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Divergent Thinking",
+      "tags": [
+        "divergent-thinking",
+        "creativity"
+      ]
+    },
+    {
+      "id": "ch13-q008",
+      "number": 8,
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Team Roles",
+      "tags": [
+        "team-roles",
+        "team-problem-solving"
+      ]
+    },
+    {
+      "id": "ch13-q009",
+      "number": 9,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Empathy",
+      "tags": [
+        "empathy",
+        "pro-social-behavior",
+        "social-emotional-learning"
+      ]
+    },
+    {
+      "id": "ch13-q010",
+      "number": 10,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Hands-On Learning",
+      "tags": [
+        "hands-on-learning",
+        "constructivism"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 28,
+  "chapter_concepts_tested": 10
+}

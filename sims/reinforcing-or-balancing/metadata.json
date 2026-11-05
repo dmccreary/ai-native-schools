@@ -1,0 +1,80 @@
+{
+  "title": "Reinforcing or Balancing?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify six causal loops from school change as reinforcing or balancing by counting the minus signs around each loop.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Reinforcing or Balancing?",
+    "learningObjectives": [
+      "The learner will distinguish six causal loops from school change as reinforcing or balancing by counting the minus signs around each, correctly classifying at least five of six on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Feedback loops, reinforcing and balancing loops, causal loop diagrams, and the counting rule, from the section \"Seeing the System\" in Chapter 18."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "9.1.9",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 644
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network 9.1.9 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "A loop has two minus signs. Which type is it?",
+      "Can a loop with a minus sign be reinforcing?"
+    ],
+    "commonMisconceptions": [
+      "Reinforcing means good and balancing means bad",
+      "A loop with a minus sign cannot be reinforcing",
+      "The number of variables decides the type"
+    ],
+    "assessmentOpportunities": [
+      "A loop has two minus signs. Which type is it?",
+      "Can a loop with a minus sign be reinforcing?",
+      "Does the number of variables decide the type?",
+      "Is a reinforcing loop always good?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Reinforcing and Balancing",
+      "type": "button",
+      "description": "Choose the loop type; two tries per loop."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next loop after the feedback."
+    },
+    {
+      "name": "Zoom in, Zoom out, Reset view",
+      "type": "button",
+      "description": "Zoom the diagram; mouse-wheel zoom is off."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the loops for a practice run."
+    }
+  ],
+  "chapter": "18-sustaining-change-systems-thinking"
+}

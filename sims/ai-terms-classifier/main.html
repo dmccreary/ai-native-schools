@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>AI Terms Classifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="app">
+        <h1 id="title">AI Terms Classifier</h1>
+        <div id="sub">Illustrative examples, written for this chapter. Click the narrowest region that fits, then press Submit.</div>
+        <div id="layout">
+            <div id="nest" aria-label="Six nested categories"></div>
+            <div id="side">
+                <div id="status"><span id="count">Example 1 of 8</span><b id="score">First-try correct: 0 of 8</b></div>
+                <div id="prompt">Which is the narrowest category that fits this system?</div>
+                <div id="card"></div>
+                <div id="picked">Selected: <b id="pickedName">none</b><div id="pickedDef">Click a region to select it and read its definition.</div></div>
+                <div id="buttons">
+                    <button id="submit" disabled>Submit</button>
+                    <button id="next" disabled>Next</button>
+                    <button id="again" hidden>Try again</button>
+                </div>
+                <div id="feedback" class="empty"></div>
+            </div>
+        </div>
+    </main>
+    <script src="ai-terms-classifier.js"></script>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
+</body>
+</html>

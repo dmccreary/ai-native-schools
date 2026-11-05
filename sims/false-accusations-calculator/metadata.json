@@ -1,0 +1,84 @@
+{
+  "title": "False Accusations Calculator",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate how many human-written essays an AI detector wrongly flags, the share of flags that are false, and the share of false flags that fall on English-language learners.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "False Accusations Calculator",
+    "learningObjectives": [
+      "The learner will calculate how many human-written essays an AI detector wrongly flags, the share of flagged essays that are false accusations, and the share of false flags that fall on English-language learners, correctly answering three of three questions."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "15-20 minutes",
+    "prerequisites": [
+      "AI cheating detector, detector false positives, and bias against ELL writers, from the section \"Academic Integrity and the Detector Problem\" in Chapter 20."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 656
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit answers before the results unlock, then explore the inputs",
+    "keyQuestions": [
+      "How many flags are true flags, and how many are wrong flags?",
+      "Who receives the wrong flags?"
+    ],
+    "commonMisconceptions": [
+      "A 1 percent false-positive rate means 1 percent of accusations are wrong.",
+      "A detector's errors fall evenly on all students.",
+      "A small subgroup cannot account for most of the false flags."
+    ],
+    "assessmentOpportunities": [
+      "With a 1 percent false-positive rate, are 1 percent of accusations wrong?",
+      "Do a detector's errors fall evenly on all students?",
+      "What should a school do instead of relying on a detector?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Answer box and Check",
+      "type": "button",
+      "description": "Type a number and check it. Two tries per question."
+    },
+    {
+      "name": "Next question / See the results",
+      "type": "button",
+      "description": "Moves on after a question is finished."
+    },
+    {
+      "name": "Six sliders",
+      "type": "slider",
+      "description": "Essays checked, share written by AI, sensitivity, the two false-positive rates, and the ELL share. They unlock after the questions."
+    },
+    {
+      "name": "Defaults",
+      "type": "button",
+      "description": "Puts the sliders back to their starting values."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Returns to Question 1 and locks the sliders."
+    }
+  ],
+  "chapter": "20-designing-ai-native-school-day"
+}

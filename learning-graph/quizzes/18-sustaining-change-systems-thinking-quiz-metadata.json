@@ -1,0 +1,134 @@
+{
+  "chapter": "Sustaining Change: Systems Thinking and National Adoption",
+  "chapter_file": "docs/chapters/18-sustaining-change-systems-thinking/index.md",
+  "quiz_file": "docs/chapters/18-sustaining-change-systems-thinking/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch18-q001",
+      "number": 1,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "New Beginnings",
+      "tags": [
+        "new-beginnings",
+        "change-versus-transition"
+      ]
+    },
+    {
+      "id": "ch18-q002",
+      "number": 2,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Impact Concerns",
+      "tags": [
+        "impact-concerns",
+        "task-concerns"
+      ]
+    },
+    {
+      "id": "ch18-q003",
+      "number": 3,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Causal Loop Diagram",
+      "tags": [
+        "causal-loop-diagram",
+        "feedback-loop"
+      ]
+    },
+    {
+      "id": "ch18-q004",
+      "number": 4,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Reform Without Real Change",
+      "tags": [
+        "reform-without-real-change",
+        "grammar-of-schooling"
+      ]
+    },
+    {
+      "id": "ch18-q005",
+      "number": 5,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Levels of Use",
+      "tags": [
+        "levels-of-use",
+        "task-concerns"
+      ]
+    },
+    {
+      "id": "ch18-q006",
+      "number": 6,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Neutral Zone",
+      "tags": [
+        "neutral-zone",
+        "change-versus-transition"
+      ]
+    },
+    {
+      "id": "ch18-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Choosing a Change Model",
+      "tags": [
+        "choosing-a-change-model",
+        "change-fatigue",
+        "capacity-building"
+      ]
+    },
+    {
+      "id": "ch18-q008",
+      "number": 8,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Coherence Framework",
+      "tags": [
+        "coherence-framework",
+        "change-fatigue"
+      ]
+    },
+    {
+      "id": "ch18-q009",
+      "number": 9,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Feedback Loop",
+      "tags": [
+        "feedback-loop",
+        "systems-thinking",
+        "whole-organization-change"
+      ]
+    },
+    {
+      "id": "ch18-q010",
+      "number": 10,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "National AI Adoption",
+      "tags": [
+        "national-ai-adoption",
+        "capacity-building"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 25,
+  "chapter_concepts_tested": 10
+}

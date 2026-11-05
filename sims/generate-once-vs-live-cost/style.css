@@ -1,0 +1,36 @@
+/* Generate Once Versus Live - Chart.js line chart with a question panel and controls */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; overflow: hidden; font-family: Arial, Helvetica, sans-serif; }
+#app { height: 650px; background: aliceblue; border: 1px solid silver; padding: 8px 12px; }
+#title { margin: 0; font-size: 22px; text-align: center; }
+#sub { font-size: 13px; color: dimgray; font-style: italic; text-align: center; margin: 2px 0 6px; }
+#panel {
+    background: white; border: 1px solid steelblue; border-radius: 10px; padding: 6px 10px;
+    height: 168px; font-size: 15px; overflow: hidden;
+}
+.row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.row.left { justify-content: flex-start; margin-top: 4px; }
+#cprompt { font-weight: bold; color: midnightblue; font-size: 16px; margin-top: 2px; }
+#csetup { margin-top: 2px; line-height: 1.3; }
+#answer { font-size: 15px; padding: 3px 6px; }
+button {
+    font-size: 15px; padding: 4px 12px; border-radius: 6px; border: 1px solid gray;
+    background: whitesmoke; cursor: pointer;
+}
+button.go { background: gold; }
+button:disabled { opacity: 0.45; cursor: default; }
+#cfeedback { margin-top: 5px; border-radius: 8px; padding: 0; line-height: 1.3; }
+#cfeedback.ok, #cfeedback.retry, #cfeedback.miss { padding: 4px 8px; border: 1px solid; }
+#cfeedback.ok { background: honeydew; border-color: forestgreen; color: darkgreen; }
+#cfeedback.retry { background: seashell; border-color: darkorange; color: saddlebrown; }
+#cfeedback.miss { background: mistyrose; border-color: firebrick; color: darkred; }
+#readout { line-height: 1.45; }
+#readout .big { font-weight: bold; color: midnightblue; font-size: 16px; }
+#chartBox { position: relative; height: 270px; margin-top: 6px; background: white; border: 1px solid silver; border-radius: 6px; padding: 4px; }
+#controls { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 18px; margin-top: 6px; font-size: 14px; }
+.ctl { display: flex; flex-direction: column; }
+.ctl input[type=range] { width: 100%; margin: 2px 0 0; }
+.ctl select { font-size: 14px; margin-top: 2px; }
+.ctl.locked { color: gray; }
+.ctl-row { grid-column: 1 / span 2; display: flex; gap: 8px; align-items: center; margin-top: 2px; }
+.hint, #lockNote { color: dimgray; font-size: 13px; }

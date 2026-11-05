@@ -1,0 +1,78 @@
+{
+  "title": "Ask the Right Question",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Match six result claims to the question that best exposes the weakness in each.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Ask the Right Question",
+    "learningObjectives": [
+      "The learner will classify six result claims by the question that best exposes the weakness in each, correctly matching at least five of six on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "The six questions for evaluating result claims, from the section \"Evaluating Result Claims\" in Chapter 23, and Chapters 2 and 3."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 420
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify one item at a time with immediate feedback; first-attempt scoring",
+    "keyQuestions": [
+      "What is missing from the claim?"
+    ],
+    "commonMisconceptions": [
+      "Any claim with a number is evidence.",
+      "One question is enough for every claim.",
+      "A strong result needs no questions."
+    ],
+    "assessmentOpportunities": [
+      "\"94 percent of teachers said they love the program.\" Which question exposes it?",
+      "Is any claim with a number evidence?",
+      "\"A new preprint shows an AI tutor doubles learning.\" Which question?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Category buttons",
+      "type": "button",
+      "description": "Choose the question for the current claim."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the choice. Two tries per claim; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next claim. Finish shows the score."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Reshuffles and begins a new run."
+    }
+  ],
+  "chapter": "23-ai-first-case-studies-ii-lessons"
+}

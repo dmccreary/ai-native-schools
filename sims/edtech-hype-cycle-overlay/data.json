@@ -1,0 +1,141 @@
+{
+  "title": "The EdTech Hype Cycle",
+  "orientation": "landscape",
+  "image": "edtech-hype-cycle.svg",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 2,
+      "label": "Peak of inflated expectations",
+      "x": 26.2,
+      "y": 8.8,
+      "radius": 4,
+      "color": "#8E44AD",
+      "panel": "top",
+      "hint": "Fireworks bursting over a cheering crowd on the highest summit.",
+      "description": "Publicity builds, success stories are repeated, and expectations exceed what the technology can do. The peak is the point of maximum hype, not the point of maximum usefulness. In schools it is the moment when districts announce large purchases on the strength of promises.",
+      "tip": "The risk here is buying at the peak. Ask what the evidence shows, not what the press release says. (source: S1)"
+    },
+    {
+      "id": 3,
+      "label": "Film, 1913",
+      "x": 33.4,
+      "y": 24.4,
+      "radius": 4,
+      "color": "#E67E22",
+      "panel": "top",
+      "hint": "An old movie projector with two reels, throwing a beam of light, near the top of the hill.",
+      "description": "In a July 1913 interview, Thomas Edison predicted that books would soon be obsolete in the public schools, replaced by motion pictures. It is one of the earliest EdTech peaks: a bold promise that a new medium would replace the old one. Film became a useful supplement in classrooms, not a replacement for books.",
+      "tip": "Edison's prediction is a classic peak signal: the claim is that the new thing replaces teaching, not that it helps it. (source: S3, S4)"
+    },
+    {
+      "id": 4,
+      "label": "Generative AI, 2022",
+      "x": 40.9,
+      "y": 45.0,
+      "radius": 4,
+      "color": "#E67E22",
+      "panel": "top",
+      "hint": "A glowing speech bubble with three dots, sliding down the far side of the hill.",
+      "description": "ChatGPT was released on November 30, 2022, a clear innovation trigger. In 2023 came predictions that AI tutors would replace teachers, and New York City schools blocked ChatGPT in January and lifted the block in May. Reports of wrong answers, students offloading their thinking, and the 2024 collapse of the company behind the Los Angeles district's chatbot moved generative AI toward the trough. The chapter places it here, on the way down, and says reasonable people will disagree about the exact stage.",
+      "tip": "The response is to learn during the slide, not to flee it. A randomized study found that open chatbot access lowered later exam scores, while a tutor with guardrails largely avoided that harm. (source: S18, S20, S23, S21)"
+    },
+    {
+      "id": 9,
+      "label": "Slope of enlightenment",
+      "x": 77.5,
+      "y": 58.0,
+      "radius": 4,
+      "color": "#8E44AD",
+      "panel": "top",
+      "hint": "A gentle stone staircase climbing out of the valley, with a few people on the steps.",
+      "description": "A smaller group keeps experimenting and learns what the technology is actually good for. The climb is slower and quieter than the rush to the peak. The schools that gain most from a technology are often the ones that kept running small pilots during the trough, so they are ready when the slope arrives.",
+      "tip": "Ms. Okafor's district should expect a trough after the pilot at Lincoln Middle. What remains after the early enthusiasm fades is what works. (source: chapter 15)"
+    },
+    {
+      "id": 10,
+      "label": "MOOCs, 2012",
+      "x": 82.0,
+      "y": 47.1,
+      "radius": 4,
+      "color": "#E67E22",
+      "panel": "top",
+      "hint": "A framed certificate with a gold seal and red ribbon, standing on an easel on the high flat ground.",
+      "description": "The massive open online course was the clearest EdTech wave before AI. In November 2012 the New York Times called it the year of the MOOC. By 2013 the Udacity founder, Sebastian Thrun, said that his company had a lousy product, and completion rates for the free courses were often under ten percent. MOOCs did not vanish: they settled into a useful niche in professional and continuing education.",
+      "tip": "MOOCs show the whole cycle in about a decade: peak, trough, then a plateau with a narrower but real job. (source: S9, S10, S11, S13)"
+    },
+    {
+      "id": 11,
+      "label": "Plateau of productivity",
+      "x": 94.0,
+      "y": 44.0,
+      "radius": 4,
+      "color": "#8E44AD",
+      "panel": "top",
+      "hint": "A calm open-air classroom with a red roof, a teacher at a board and students working at desks.",
+      "description": "The technology is understood, its benefits are realized, and it is adopted for what it does well. Nothing here is exciting, and that is the point: the tool has become part of ordinary teaching. For generative AI the chapter's plateau is guided AI built into everyday tools, with guardrails, and it has not been reached yet.",
+      "tip": "The benefit of the cycle: some technologies do reach the plateau. Judge a tool by what it does at the plateau, not at the peak. (source: chapter 15)"
+    },
+    {
+      "id": 1,
+      "label": "Innovation trigger",
+      "x": 7.2,
+      "y": 72.6,
+      "radius": 4,
+      "color": "#8E44AD",
+      "panel": "bottom",
+      "hint": "A small red and white rocket lifting off from a launch pad in a cloud of smoke.",
+      "description": "A breakthrough or product launch sparks interest. The hype cycle, a model introduced by the Gartner analyst Jackie Fenn in 1995, starts here, and the curve rises steeply from this point. At the trigger there are often no proven uses yet, only possibilities.",
+      "tip": "The hype cycle describes expectations, not quality, and it is not a scientific law. Studies have found that many technologies do not follow it. Gartner's first name for this stage was the technology trigger. (source: S1, S2)"
+    },
+    {
+      "id": 5,
+      "label": "Teaching machines, 1950s",
+      "x": 47.2,
+      "y": 68.3,
+      "radius": 4,
+      "color": "#E67E22",
+      "panel": "bottom",
+      "hint": "A tilted wooden box with a small window, a paper roll on top and a crank on its side, half lost in the fog.",
+      "description": "In 1954 B. F. Skinner proposed teaching machines that gave immediate feedback in small steps. Interest grew quickly, and by the late 1960s it faded, as costs, student boredom and thin evidence caught up with the promise. Many ideas from the movement, such as small steps and instant feedback, returned later in computer-based learning.",
+      "tip": "A wave can leave the trough without its original machine. The idea survived even though the box did not. (source: S5, S6, S25)"
+    },
+    {
+      "id": 6,
+      "label": "Trough of disillusionment",
+      "x": 52.5,
+      "y": 66.0,
+      "radius": 4,
+      "color": "#8E44AD",
+      "panel": "bottom",
+      "hint": "Low gray fog lying in the bottom of the valley.",
+      "description": "The technology fails to meet the inflated expectations, interest fades, and early projects are abandoned. The trough is the low point of confidence, the moment when claims meet evidence. It is not necessarily the end of the technology.",
+      "tip": "The risk here is abandoning a useful tool at the trough. The response is to treat the trough as a learning period, with small, cheap pilots. (source: chapter 15)"
+    },
+    {
+      "id": 7,
+      "label": "One-to-one tablets, 2013",
+      "x": 56.6,
+      "y": 73.0,
+      "radius": 4,
+      "color": "#E67E22",
+      "panel": "bottom",
+      "hint": "A tipped-over gray cart with tablets spilled on the ground beside it, one with a cracked screen.",
+      "description": "In 2013 the Los Angeles Unified School District began a plan to give every student an iPad. Within days, students at one high school had bypassed the security settings, and the program soon ran into curriculum and contract problems. After the FBI seized contract documents in December 2014, the district cancelled the contract. A federal inquiry later ended with no charges.",
+      "tip": "The tablet story is the risk of buying at the peak: a district-wide rollout, before a small pilot had built the whole product. (source: S15, S16, S17)"
+    },
+    {
+      "id": 8,
+      "label": "Classroom computers, 1980s",
+      "x": 62.5,
+      "y": 59.0,
+      "radius": 4,
+      "color": "#E67E22",
+      "panel": "bottom",
+      "hint": "A beige desktop computer with a green screen on a small table, with a teacher and a student beside it.",
+      "description": "The Apple II reached schools in 1977, and in the 1980s computers spread into classrooms with large promises attached. After the first boom faded, a smaller group of teachers kept experimenting with computers for programming and writing and worked out effective practices. That quieter work is the slope of enlightenment.",
+      "tip": "Minnesota's state consortium chose the Apple II for its schools in 1978 and packaged its software with guides for teachers who had never used a computer. (source: S7, S8)"
+    }
+  ]
+}

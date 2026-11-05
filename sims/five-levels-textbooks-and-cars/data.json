@@ -1,0 +1,214 @@
+{
+  "title": "Five Levels: Textbooks and Self-Driving Cars",
+  "image": "five-levels-textbooks-and-cars.svg",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#7d8a99", "#2f80c4", "#2f9e57", "#e08a1e", "#d4a017", "#8e5cc9"],
+  "zones": [
+    {
+      "id": "sae-0",
+      "label": "SAE 0: No driving automation",
+      "color": "#5f6b7a",
+      "x1": 0.4, "y1": 0.6, "x2": 16.3, "y2": 49.4,
+      "summary": "The human does everything.",
+      "facts": [
+        "Who drives: the human, with both hands on the wheel. The car can only sound a warning.",
+        "Example from the chapter: a car with only warning sounds.",
+        "SAE J3016 has six levels, 0 to 5. The textbook model has five and starts at Level 1, so this column has no textbook partner below it.",
+        "SAE levels are defined by who is responsible for driving, not by how good the car is."
+      ]
+    },
+    {
+      "id": "sae-1",
+      "label": "SAE 1: Driver assistance",
+      "color": "#2f80c4",
+      "x1": 17.1, "y1": 0.6, "x2": 32.9, "y2": 49.4,
+      "summary": "The human drives; the system helps with steering or speed.",
+      "facts": [
+        "Who drives: the human. The system helps with one job, such as keeping a set distance from the car ahead.",
+        "Example from the chapter: adaptive cruise control.",
+        "The human still watches the road and is responsible for the drive."
+      ]
+    },
+    {
+      "id": "sae-2",
+      "label": "SAE 2: Partial automation",
+      "color": "#2f9e57",
+      "x1": 33.7, "y1": 0.6, "x2": 49.6, "y2": 49.4,
+      "summary": "The system steers and manages speed; the human must watch at all times.",
+      "facts": [
+        "Example from the chapter: lane-centering plus cruise control.",
+        "Graduated regulation at this level: a human supervision requirement.",
+        "Level 2 systems were already on the road while Level 5 remained a goal. Saying so plainly is what the chapter calls realistic expectations.",
+        "This is the last car level before the threshold line, where the system takes primary control."
+      ]
+    },
+    {
+      "id": "sae-3",
+      "label": "SAE 3: Conditional automation",
+      "color": "#e08a1e",
+      "x1": 50.4, "y1": 0.6, "x2": 66.3, "y2": 49.4,
+      "summary": "The system drives in some conditions; the human must take over when asked.",
+      "facts": [
+        "Example from the chapter: a traffic-jam pilot that hands back control.",
+        "This is the car model's threshold: the system takes primary control, so liability questions arise.",
+        "Benefit: the driver can look away in a jam. Risk: the driver may not be ready when the bell rings. Response: rules get stricter here, with liability and safety-case requirements.",
+        "The textbook model puts its own threshold at Level 3 too, directly below."
+      ]
+    },
+    {
+      "id": "sae-4",
+      "label": "SAE 4: High automation",
+      "color": "#c0392b",
+      "x1": 67.1, "y1": 0.6, "x2": 82.9, "y2": 49.4,
+      "summary": "The system drives itself in a defined area; no human is needed there.",
+      "facts": [
+        "Example from the chapter: a driverless taxi in a mapped city.",
+        "The posts mark the edge of the defined area. Outside it, the system does not drive.",
+        "When it fails, the system stops safely rather than handing control to a person."
+      ]
+    },
+    {
+      "id": "sae-5",
+      "label": "SAE 5: Full automation",
+      "color": "#8e5cc9",
+      "x1": 83.7, "y1": 0.6, "x2": 99.6, "y2": 49.4,
+      "summary": "The system drives anywhere a human could.",
+      "facts": [
+        "Example from the chapter: not yet available.",
+        "No steering wheel, any road: the mountain pass is as drivable as the city street.",
+        "The standard made clear that Level 5 was still a goal, so buyers learned to ask \"which level?\" before trusting a car."
+      ]
+    },
+    {
+      "id": "claim-vs-delivery",
+      "label": "Claimed vs. delivered level",
+      "color": "#c2306e",
+      "x1": 0.4, "y1": 50.6, "x2": 16.3, "y2": 99.4,
+      "summary": "A product's level is the highest defining capability it actually delivers to students in use, not the highest one in its brochure.",
+      "facts": [
+        "Risk: a vendor level claim is a self-report, and the usual error is an overclaim. The brochure shows five bars; the magnifying glass finds two.",
+        "Response: run the product level assessment. Test what the product does for students, and ask for a demonstration of each defining capability.",
+        "Ms. Okafor's \"autonomous AI textbook\" email turned out to be a Level 4 chat tutor beside fixed chapters, two levels below its claim.",
+        "\"AI-powered\" is not a level. Ask what it does for the student, using what data, stored where, and for how long."
+      ]
+    },
+    {
+      "id": "book-1",
+      "label": "Level 1: Static",
+      "color": "#2f80c4",
+      "x1": 17.1, "y1": 50.6, "x2": 32.9, "y2": 99.4,
+      "summary": "Fixed content with no interactivity, like traditional print and PDF textbooks.",
+      "facts": [
+        "Knows about the student: nothing.",
+        "Benefit: cheap to produce and copy, works everywhere, and raises no privacy questions. It is by far the most common level in use today.",
+        "Risk: one pace for everyone, one path, no feedback.",
+        "First safeguard: an accessibility check of every page, so every student can use it."
+      ]
+    },
+    {
+      "id": "book-2",
+      "label": "Level 2: Interactive",
+      "color": "#2f9e57",
+      "x1": 33.7, "y1": 50.6, "x2": 49.6, "y2": 99.4,
+      "summary": "Content that responds to the learner's actions: simulations, quizzes, learning graphs and recommended paths.",
+      "facts": [
+        "Knows about the student: nothing stored. Reload the page and it forgets you.",
+        "Benefit: the sweet spot of the book's low-cost design, with essentially no privacy burden.",
+        "Risk: poorly built or inaccurate simulations.",
+        "Safeguard added: an independent accuracy check of simulations by a subject expert."
+      ]
+    },
+    {
+      "id": "book-3",
+      "label": "Level 3: Adaptive",
+      "color": "#e08a1e",
+      "x1": 50.4, "y1": 50.6, "x2": 66.3, "y2": 99.4,
+      "summary": "Content driven by each student's goals and progress, which requires storing student records.",
+      "facts": [
+        "Knows about the student: a stored record of each student, such as Maya's goal, mastery of each concept, and the errors she made.",
+        "This is the privacy inflection point, the textbook's version of the car threshold above it.",
+        "Risk: privacy, bias and data breaches.",
+        "Safeguards added: a review of how records are stored, who sees them and when they are deleted; parent notice and consent; a bias audit of how next steps are chosen."
+      ]
+    },
+    {
+      "id": "book-4",
+      "label": "Level 4: Chatbot",
+      "color": "#c0392b",
+      "x1": 67.1, "y1": 50.6, "x2": 82.9, "y2": 99.4,
+      "summary": "Conversational tutoring through chatbots and large language models.",
+      "facts": [
+        "Knows about the student: the record plus the conversation.",
+        "Benefit: a patient tutor when a student is stuck. A hint-first tutor asks Maya what the problem is asking her to find, rather than giving her the answer.",
+        "Risk: hallucination, and students asking for answers instead of thinking. Each conversation also has a computing cost.",
+        "Safeguards added: hint-first rules and chat logs reviewed weekly; age limits and supervision rules for open-ended chat."
+      ]
+    },
+    {
+      "id": "book-5",
+      "label": "Level 5: Autonomous",
+      "color": "#8e5cc9",
+      "x1": 83.7, "y1": 50.6, "x2": 99.6, "y2": 99.4,
+      "summary": "Real-time content generation and fully personalized instruction.",
+      "facts": [
+        "Knows about the student: everything above, in real time.",
+        "Benefit: a lesson written for one student, such as Maya's equivalent-fractions lesson built from drawn tiles at her reading level.",
+        "Risk: unreviewed content and loss of human oversight. If the lesson has an error, Maya learns the error.",
+        "Safeguard added: human review of AI-generated lessons before students see them. Status: not yet reliable."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which car level is a traffic-jam pilot that hands control back to the driver when asked?",
+      "correct_zone": "sae-3",
+      "explanation": "SAE Level 3, conditional automation: the system drives in some conditions and the human must take over when asked."
+    },
+    {
+      "question": "Which car level uses lane-centering plus cruise control, with the human watching at all times?",
+      "correct_zone": "sae-2",
+      "explanation": "SAE Level 2, partial automation."
+    },
+    {
+      "question": "Which car level is a driverless taxi in a mapped city?",
+      "correct_zone": "sae-4",
+      "explanation": "SAE Level 4, high automation: the system drives itself in a defined area."
+    },
+    {
+      "question": "Which car level has no partner in the textbook model, because the textbook model starts at static content?",
+      "correct_zone": "sae-0",
+      "explanation": "SAE J3016 has six levels starting at 0; the textbook model has five starting at 1."
+    },
+    {
+      "question": "Which textbook level is the privacy inflection point, because it keeps a record about each student?",
+      "correct_zone": "book-3",
+      "explanation": "Level 3, adaptive. It mirrors the car threshold at SAE Level 3, where liability questions arise."
+    },
+    {
+      "question": "A page with a slider, a graph and a self-check quiz that forgets you when you reload it. Which level?",
+      "correct_zone": "book-2",
+      "explanation": "Level 2, interactive: it responds to actions but stores nothing about the student."
+    },
+    {
+      "question": "Which textbook level's main new risk is hallucination and students asking for answers instead of thinking?",
+      "correct_zone": "book-4",
+      "explanation": "Level 4, chatbot. The safeguard is hint-first rules with logs reviewed weekly."
+    },
+    {
+      "question": "Which textbook level needs human review of lessons before students see them?",
+      "correct_zone": "book-5",
+      "explanation": "Level 5, autonomous: no author has checked the generated content in advance."
+    },
+    {
+      "question": "Which textbook level is the most common in use today and raises no privacy questions?",
+      "correct_zone": "book-1",
+      "explanation": "Level 1, static: print and PDF textbooks."
+    },
+    {
+      "question": "A vendor says \"autonomous AI textbook\", but the demo shows a chat box beside fixed chapters. Which part of the poster gives the rule for settling this?",
+      "correct_zone": "claim-vs-delivery",
+      "explanation": "A product's level is the highest defining capability it delivers in use, so this product is Level 4, not Level 5."
+    }
+  ]
+}

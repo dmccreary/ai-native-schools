@@ -1,0 +1,127 @@
+{
+  "title": "Answer Machine vs. Thinking Tutor",
+  "image": "answer-machine-vs-thinking-tutor.svg",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#E07B39", "#C7164E", "#2A2E3A", "#6A3FB5", "#2D8A4E", "#1389A6"],
+  "zones": [
+    {
+      "id": "open-ai-move",
+      "label": "Answer machine",
+      "color": "#E07B39",
+      "x1": 0.6, "y1": 2.5, "x2": 19.4, "y2": 97.5,
+      "summary": "A general-purpose chatbot answers the homework question in one big, finished reply.",
+      "facts": [
+        "Open chatbot access means unrestricted use of a general-purpose chatbot, with no limits on what it will do. It is built to be helpful, and to a student that usually means doing the task.",
+        "The benefit is real: the reply is instant, patient and available at any hour, which the lightning bolt stands for.",
+        "The reply sits at Level 4 of the hint ladder. It states the final answer, so nothing is left for the student to work out.",
+        "The answer can be confidently wrong. A student who is new to the topic has no basis for questioning fluent text that shows no doubt.",
+        "In Chapter 12's worked example, Dev asks for the price per bottle and the chatbot simply replies \"$0.75 per bottle.\""
+      ]
+    },
+    {
+      "id": "open-ai-result",
+      "label": "Left with: offloading",
+      "color": "#C7164E",
+      "x1": 19.4, "y1": 2.5, "x2": 38.8, "y2": 97.5,
+      "summary": "The student hands the thinking to the tool and is left with an answer, not a skill.",
+      "facts": [
+        "Over-reliance on AI is cognitive offloading that has become a default. Its three signs: asking for the answer before trying, accepting the output without checking it, and being unable to do the task when the tool is taken away.",
+        "The thought cloud is empty and the sheet on the table is blank, because the work happened somewhere else.",
+        "In the Turkish randomized study described in Chapter 12, students with open GPT-4 access did much better on practice problems and about 17 percent worse on later exams taken without AI (source: Chapter 12).",
+        "The risk is quiet. The homework looks finished, so a teacher may not see the gap until a test without the tool."
+      ]
+    },
+    {
+      "id": "same-question",
+      "label": "The same question",
+      "color": "#2A2E3A",
+      "x1": 38.8, "y1": 2.5, "x2": 61.2, "y2": 48.8,
+      "summary": "Both phones receive the identical question: a six-pack of juice costs $4.50, so what is the price per bottle?",
+      "facts": [
+        "This is the juice problem used throughout Chapter 12 and in the Tutor Reply Hint Levels practice MicroSim.",
+        "The two tutors may run on the same underlying model. In the Turkish study, the harmful and the helpful conditions used the same system and differed only in whether it gave answers or hints (source: Chapter 12).",
+        "So the difference between the two sides of this poster is design, not power.",
+        "Ms. Okafor's first probe of a vendor's tutor is exactly this: type a homework question and read only the first reply."
+      ]
+    },
+    {
+      "id": "guardrails",
+      "label": "The guardrails",
+      "color": "#6A3FB5",
+      "x1": 38.8, "y1": 50.0, "x2": 61.2, "y2": 97.5,
+      "summary": "Design rules that keep a tutor's behavior within safe and educational limits, with hints first at the center.",
+      "facts": [
+        "Instructions such as \"never give the final answer first\" sit at the center, which is why the shield holds a hint lightbulb.",
+        "Grounding ties answers to the course's vetted content (the book). Tool checks hand arithmetic to a calculator and compare results with an answer key (the calculator).",
+        "Logs that teachers can review (the eye) catch errors. Limits on topics, session length and users' ages (the hourglass and the padlock) keep the tutor in its role, and escalation routes a distressed student to a person.",
+        "Around the tutor, the school adds a mastery threshold, selective chatbot use for students who have tried honestly and are still stuck, and a morning screen-time cap such as 120 of 150 minutes.",
+        "Chapter 12's five-guardrail rule: a tutor without hints instead of answers is likely to harm learning, whatever else it has."
+      ]
+    },
+    {
+      "id": "guided-ai-result",
+      "label": "Left with: thinking",
+      "color": "#2D8A4E",
+      "x1": 61.2, "y1": 2.5, "x2": 80.6, "y2": 97.5,
+      "summary": "The student does the work on paper and practices the four thinking skills along the way.",
+      "facts": [
+        "Decomposition (the puzzle pieces): breaking the problem into smaller parts, such as the total and the count.",
+        "Pattern recognition (the repeating shapes): noticing that differently worded word problems all ask for total divided by count.",
+        "Abstraction (the subway-map graph): replacing \"6 bottles cost $4.50\" with \"n items cost C\" so one method fits every such problem.",
+        "Algorithmic thinking (the linked steps): writing steps precise enough that someone else, or a computer, could follow them every time.",
+        "This protects the productive struggle that makes learning last. In the Turkish study, the hint-giving design removed most of the harm (source: Chapter 12)."
+      ]
+    },
+    {
+      "id": "guided-ai-move",
+      "label": "Thinking tutor",
+      "color": "#1389A6",
+      "x1": 80.6, "y1": 2.5, "x2": 99.4, "y2": 97.5,
+      "summary": "The tutor offers the smallest nudge that keeps the student moving, and gives the full solution only after honest effort.",
+      "facts": [
+        "The chain of short bubbles climbs the hint ladder slowly: first ask what the problem is asking (Level 1), then narrow the plan (Level 2).",
+        "Socratic questioning lets the student find the mistake. When Dev divides 6 by $4.50 and gets $1.33, the tutor asks, \"If one bottle cost $1.33, what would six cost?\" Six at $1.33 is about $8, not $4.50.",
+        "The last bubble is the student's own correct answer, reached without the tutor ever saying \"you're wrong.\"",
+        "The benefit is kept and the risk is managed: the tutor is still patient and available at any hour, but it holds back the answer."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Where does the tool hand the student the final answer in a single reply?",
+      "correct_zone": "open-ai-move",
+      "explanation": "The open chatbot's one big reply is a Level 4 answer: nothing is left for the student to do."
+    },
+    {
+      "question": "Where do you see the sign of over-reliance: a student who could not do the task if the tool were taken away?",
+      "correct_zone": "open-ai-result",
+      "explanation": "The leaning-back student with the empty thought cloud has offloaded the thinking to the tool."
+    },
+    {
+      "question": "Which zone shows the tutor asking, \"If one bottle cost $1.33, what would six cost?\"",
+      "correct_zone": "guided-ai-move",
+      "explanation": "That is Socratic questioning: the tutor helps the student find the mistake instead of announcing it."
+    },
+    {
+      "question": "Where is the student practicing abstraction, such as rewriting the problem as \"n items cost C\"?",
+      "correct_zone": "guided-ai-result",
+      "explanation": "The full thought cloud holds the four thinking skills, including abstraction."
+    },
+    {
+      "question": "Which zone holds grounding, tool checks, teacher-visible logs and topic limits?",
+      "correct_zone": "guardrails",
+      "explanation": "These are the guardrails that make the right-hand phone different from the left."
+    },
+    {
+      "question": "Which zone shows what both tutors start from, a question they may answer with the same underlying model?",
+      "correct_zone": "same-question",
+      "explanation": "Both phones receive the same juice-price question. The difference between them is design."
+    },
+    {
+      "question": "A district caps the morning at 120 minutes of screen time. Which zone does that rule belong to?",
+      "correct_zone": "guardrails",
+      "explanation": "Screen-time limits are one of the limits a school sets around its tutor."
+    }
+  ]
+}

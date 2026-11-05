@@ -1,0 +1,84 @@
+{
+  "title": "Seat Time vs. Mastery",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate how many of twenty students master a fixed-length course and how many hours the early finishers sit idle, then compare with a mastery-based schedule.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Seat time, the Carnegie unit, and mastery",
+    "learningObjectives": [
+      "The learner will calculate, for a fixed course length, how many of twenty students master the course and how many hours the early finishers sit idle, correctly answering three of three prediction questions."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Seat time, the Carnegie unit, mastery, and hours needed to master, from Chapter 3."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 832
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Calculate first, then explore a parameter",
+    "keyQuestions": [
+      "How many students master a fixed-length course?",
+      "How many hours do the early finishers sit idle?"
+    ],
+    "commonMisconceptions": [
+      "A fixed course length gives every student the same chance to learn",
+      "Students who finish early are using the extra time productively",
+      "Allowing different times means the course takes more total time"
+    ],
+    "assessmentOpportunities": [
+      "With a 150-hour course, how many master it and how many idle hours result?",
+      "How many master a 200-hour course, and at what cost?",
+      "Does a mastery-based schedule take more total time?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Q1, Q2, Q3 boxes",
+      "type": "input",
+      "description": "Type the three answers with the length locked at 150 hours."
+    },
+    {
+      "name": "Check answers",
+      "type": "button",
+      "description": "Checks all unanswered questions. Two attempts each."
+    },
+    {
+      "name": "Length slider",
+      "type": "slider",
+      "description": "Sets the course length from 60 to 300 hours after the questions are checked."
+    },
+    {
+      "name": "Mastery-based view",
+      "type": "checkbox",
+      "description": "Shows every student taking exactly the hours they need."
+    },
+    {
+      "name": "Reset",
+      "type": "button",
+      "description": "Returns to the opening state."
+    }
+  ],
+  "chapter": "03-school-structures-equity-industrial-era"
+}

@@ -1,0 +1,2732 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An interactive intelligent textbook about how AI is enabling more pro-social behaviors in schools. The theme is "Mornings with AI, Afternoons with Each Other".">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/ai-native-schools/chapters/21-implementing-ai-native-model-responsibly/quiz/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../references/">
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Quiz - AI-Native Schools</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-270094HPGG"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-270094HPGG",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-270094HPGG",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-implementing-the-ai-native-model-responsibly" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="AI-Native Schools" class="md-header__button md-logo" aria-label="AI-Native Schools" data-md-component="logo">
+      
+  <img src="../../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI-Native Schools
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/ai-native-schools" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="AI-Native Schools" class="md-nav__button md-logo" aria-label="AI-Native Schools" data-md-component="logo">
+      
+  <img src="../../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    AI-Native Schools
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/ai-native-schools" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../01-building-blocks-schools-students/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    1. The Building Blocks of Schools, Students, and Learning
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../02-evidence-motivation-stakeholders/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    2. Evidence, Motivation, and the Stakeholders of Schooling
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../03-school-structures-equity-industrial-era/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    3. School Structures, Equity, and the Industrial-Era Legacy
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../04-measuring-ai-capability-metr/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    4. Measuring AI Capability: The METR Task-Horizon Studies
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../05-projecting-ai-growth-doubling-curves/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    5. Projecting AI Growth: Doubling Curves, Limits, and Uncertainty
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../06-five-level-model-intelligent-textbooks/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    6. The Five-Level Model of Intelligent Textbooks
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../07-content-economics-open-educational/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    7. Content Economics and Open Educational Resources
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../08-tracking-mastery-xapi-learning-record/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    8. Tracking Mastery: xAPI, Learning Record Stores, and MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../09-learning-graphs-interoperability/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    9. Learning Graphs, Interoperability Standards, and Access at Scale
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../10-student-privacy-data-governance/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    10. Student Privacy and Data Governance
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../11-mastery-learning-case-compressed-morning/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    11. Mastery Learning and the Case for a Compressed Morning
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../12-ai-guardrails-teaching-thinking-without/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    12. AI Guardrails: Teaching Thinking Without Over-Reliance
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../13-social-learning-human-skills/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    13. Social Learning and Human Skills
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../14-pro-social-afternoon/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    14. The Pro-Social Afternoon
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../15-technology-adoption-diffusion-innovation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    15. Technology Adoption and the Diffusion of Innovation
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../16-organizational-change-models/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    16. Organizational Change Models
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../17-leading-change-vision-culture/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    17. Leading Change: Vision, Culture, and Early-Stage Concerns
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../18-sustaining-change-systems-thinking/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    18. Sustaining Change: Systems Thinking and National Adoption
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../19-microstrategies-leading-change/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    19. Microstrategies for Leading Change
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../20-designing-ai-native-school-day/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    20. Designing the AI-Native School Day
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_22" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    21. Implementing the AI-Native Model Responsibly
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_22" id="__nav_4_22_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_22_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_22">
+            <span class="md-nav__icon md-icon"></span>
+            21. Implementing the AI-Native Model Responsibly
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-is-vendor-lock-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. What is vendor lock-in?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-how-does-a-delayed-access-design-answer-the-ethical-objection-to-ab-testing-in-schools" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. How does a delayed-access design answer the ethical objection to A/B testing in schools?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-during-contract-due-diligence-counsel-reviews-four-clauses-in-an-ai-tutoring-contract-which-one-should-be-marked-as-a-red-flag" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. During contract due diligence, counsel reviews four clauses in an AI tutoring contract. Which one should be marked as a red flag?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-a-district-plans-to-scale-a-program-to-250-teachers-if-one-coach-can-support-about-12-teachers-well-how-many-coaches-will-the-district-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. A district plans to scale a program to 250 teachers. If one coach can support about 12 teachers well, how many coaches will the district need?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-after-one-year-a-schools-lower-income-students-rose-from-a-mastery-score-of-60-to-66-and-higher-income-students-rose-from-75-to-84-the-principals-report-says-scores-rose-for-every-group-what-does-the-chapters-analysis-reveal" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. After one year, a school's lower-income students rose from a mastery score of 60 to 66, and higher-income students rose from 75 to 84. The principal's report says, "Scores rose for every group." What does the chapter's analysis reveal?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-why-does-the-chapter-favor-redesign-not-policing-as-the-response-to-ai-and-academic-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Why does the chapter favor "redesign not policing" as the response to AI and academic integrity?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-a-school-runs-a-delayed-access-ab-test-of-a-revised-lesson-page-group-a-with-the-revised-page-has-a-mean-quiz-score-of-82-group-b-with-the-original-has-76-both-groups-have-a-standard-deviation-of-24-what-is-the-effect-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. A school runs a delayed-access A/B test of a revised lesson page. Group A, with the revised page, has a mean quiz score of 8.2; Group B, with the original, has 7.6. Both groups have a standard deviation of 2.4. What is the effect size?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-a-district-estimates-400000-a-year-in-content-savings-from-switching-to-an-open-level-2-textbook-its-afternoon-program-needs-15-additional-specialists-at-60000-each-what-conclusion-does-the-chapters-reasoning-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. A district estimates $400,000 a year in content savings from switching to an open Level 2 textbook. Its afternoon program needs 15 additional specialists at $60,000 each. What conclusion does the chapter's reasoning support?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-a-vendors-representative-tells-a-purchasing-officer-that-a-favorable-price-is-good-through-the-end-of-the-month-and-the-districts-one-time-funds-must-be-spent-soon-the-38-page-contract-has-not-been-reviewed-which-course-of-action-is-best-justified-by-the-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. A vendor's representative tells a purchasing officer that a favorable price is good "through the end of the month," and the district's one-time funds must be spent soon. The 38-page contract has not been reviewed. Which course of action is best justified by the chapter?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-a-districts-pilot-plan-uses-one-success-measure-the-state-test-score-at-the-end-of-the-year-analyzed-against-the-chapters-guidance-on-success-measures-what-is-the-main-weakness" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. A district's pilot plan uses one success measure: the state test score at the end of the year. Analyzed against the chapter's guidance on success measures, what is the main weakness?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotated References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../22-ai-first-case-studies-i-promise-peril/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    22. AI-First Case Studies I: Promise and Peril
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../23-ai-first-case-studies-ii-lessons/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    23. AI-First Case Studies II: Lessons for Practice
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../appendices/ai-first-stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-is-vendor-lock-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. What is vendor lock-in?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-how-does-a-delayed-access-design-answer-the-ethical-objection-to-ab-testing-in-schools" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. How does a delayed-access design answer the ethical objection to A/B testing in schools?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-during-contract-due-diligence-counsel-reviews-four-clauses-in-an-ai-tutoring-contract-which-one-should-be-marked-as-a-red-flag" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. During contract due diligence, counsel reviews four clauses in an AI tutoring contract. Which one should be marked as a red flag?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-a-district-plans-to-scale-a-program-to-250-teachers-if-one-coach-can-support-about-12-teachers-well-how-many-coaches-will-the-district-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. A district plans to scale a program to 250 teachers. If one coach can support about 12 teachers well, how many coaches will the district need?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-after-one-year-a-schools-lower-income-students-rose-from-a-mastery-score-of-60-to-66-and-higher-income-students-rose-from-75-to-84-the-principals-report-says-scores-rose-for-every-group-what-does-the-chapters-analysis-reveal" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. After one year, a school's lower-income students rose from a mastery score of 60 to 66, and higher-income students rose from 75 to 84. The principal's report says, "Scores rose for every group." What does the chapter's analysis reveal?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-why-does-the-chapter-favor-redesign-not-policing-as-the-response-to-ai-and-academic-integrity" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Why does the chapter favor "redesign not policing" as the response to AI and academic integrity?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-a-school-runs-a-delayed-access-ab-test-of-a-revised-lesson-page-group-a-with-the-revised-page-has-a-mean-quiz-score-of-82-group-b-with-the-original-has-76-both-groups-have-a-standard-deviation-of-24-what-is-the-effect-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. A school runs a delayed-access A/B test of a revised lesson page. Group A, with the revised page, has a mean quiz score of 8.2; Group B, with the original, has 7.6. Both groups have a standard deviation of 2.4. What is the effect size?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-a-district-estimates-400000-a-year-in-content-savings-from-switching-to-an-open-level-2-textbook-its-afternoon-program-needs-15-additional-specialists-at-60000-each-what-conclusion-does-the-chapters-reasoning-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. A district estimates $400,000 a year in content savings from switching to an open Level 2 textbook. Its afternoon program needs 15 additional specialists at $60,000 each. What conclusion does the chapter's reasoning support?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-a-vendors-representative-tells-a-purchasing-officer-that-a-favorable-price-is-good-through-the-end-of-the-month-and-the-districts-one-time-funds-must-be-spent-soon-the-38-page-contract-has-not-been-reviewed-which-course-of-action-is-best-justified-by-the-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. A vendor's representative tells a purchasing officer that a favorable price is good "through the end of the month," and the district's one-time funds must be spent soon. The 38-page contract has not been reviewed. Which course of action is best justified by the chapter?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-a-districts-pilot-plan-uses-one-success-measure-the-state-test-score-at-the-end-of-the-year-analyzed-against-the-chapters-guidance-on-success-measures-what-is-the-main-weakness" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. A district's pilot plan uses one success measure: the state test score at the end of the year. Analyzed against the chapter's guidance on success measures, what is the main weakness?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/ai-native-schools/blob/main/docs/chapters/21-implementing-ai-native-model-responsibly/quiz.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-implementing-the-ai-native-model-responsibly">Quiz: Implementing the AI-Native Model Responsibly<a class="headerlink" href="#quiz-implementing-the-ai-native-model-responsibly" title="Permanent link">&para;</a></h1>
+<p>Test your understanding of responsible procurement, pilot governance and evaluation, capacity-paced scaling, equity monitoring, and sustaining the model with these review questions.</p>
+<hr />
+<h4 id="1-what-is-vendor-lock-in">1. What is vendor lock-in?<a class="headerlink" href="#1-what-is-vendor-lock-in" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Dependence on one vendor so strong that switching becomes too costly</li>
+<li>A contract clause that guarantees a vendor's price for the full term</li>
+<li>A security feature that locks student data so only the vendor can see it</li>
+<li>An agreement among vendors not to compete for the same school district</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. Vendor lock-in happens when data lives in proprietary formats, content cannot be moved, staff are trained only on one product, and the contract has no exit, leaving the vendor able to raise prices or reduce quality. The defenses are open standards such as xAPI, LTI, and OneRoster, a contract right to export data, short terms with termination rights, and above all a fallback, such as an open Level 2 textbook the district can host itself.</p>
+<p><strong>Concept Tested:</strong> Vendor Lock-In</p>
+<p><strong>See:</strong> <a href="../#vendor-lock-in">Vendor Lock-In</a></p>
+</details>
+<hr />
+<h4 id="2-how-does-a-delayed-access-design-answer-the-ethical-objection-to-ab-testing-in-schools">2. How does a delayed-access design answer the ethical objection to A/B testing in schools?<a class="headerlink" href="#2-how-does-a-delayed-access-design-answer-the-ethical-objection-to-ab-testing-in-schools" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>It lets families choose which version their child receives</li>
+<li>It gives the new version only to the students who are furthest behind</li>
+<li>It randomizes when each group gets the new version, so all receive it</li>
+<li>It tests the new version on teachers before any students see it</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. The objection to A/B testing is that some students are denied a possibly better version. In a delayed-access design, everyone gets the new version, but the order is randomized, so the group that starts later serves as the comparison. In the chapter's example, students were randomly assigned to the improved or original page for one week, and then the original group switched. Letting families choose would reintroduce the selection bias that randomization is meant to remove.</p>
+<p><strong>Concept Tested:</strong> A/B Testing</p>
+<p><strong>See:</strong> <a href="../#success-measures-and-program-evaluation">Success Measures and Program Evaluation</a></p>
+</details>
+<hr />
+<h4 id="3-during-contract-due-diligence-counsel-reviews-four-clauses-in-an-ai-tutoring-contract-which-one-should-be-marked-as-a-red-flag">3. During contract due diligence, counsel reviews four clauses in an AI tutoring contract. Which one should be marked as a red flag?<a class="headerlink" href="#3-during-contract-due-diligence-counsel-reviews-four-clauses-in-an-ai-tutoring-contract-which-one-should-be-marked-as-a-red-flag" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>"Data is deleted within 60 days of termination, with written confirmation."</li>
+<li>"Vendor may use identifiable student data to improve and train its own AI models."</li>
+<li>"Vendor will notify the district of any breach within 72 hours."</li>
+<li>"The district owns all student data and may export it in a standard format at any time."</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. The chapter's due-diligence checklist says the vendor may use data only to provide the service and may not use identifiable student data to train its own models or for marketing. Using it to train the vendor's AI is a use beyond the service, so it is a red flag that ends the conversation until it is removed. The other three clauses are acceptable: a stated deletion deadline with proof, a firm breach-notice deadline, and district ownership with portability.</p>
+<p><strong>Concept Tested:</strong> Contract Due Diligence</p>
+<p><strong>See:</strong> <a href="../#worked-example-reading-eight-clauses">Worked Example: Reading Eight Clauses</a></p>
+</details>
+<hr />
+<h4 id="4-a-district-plans-to-scale-a-program-to-250-teachers-if-one-coach-can-support-about-12-teachers-well-how-many-coaches-will-the-district-need">4. A district plans to scale a program to 250 teachers. If one coach can support about 12 teachers well, how many coaches will the district need?<a class="headerlink" href="#4-a-district-plans-to-scale-a-program-to-250-teachers-if-one-coach-can-support-about-12-teachers-well-how-many-coaches-will-the-district-need" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>About 12</li>
+<li>About 20</li>
+<li>About 25</li>
+<li>About 21</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. The number of coaches is the number of teachers divided by 12, rounded up: 250 / 12 is about 20.8, which rounds up to 21. Rounding down to 20 would leave some teachers without adequate coaching. The chapter's point is that the coach, not the technology, is the speed limit for scaling: if the district cannot hire or train enough coaches, it should slow the scaling rather than thin the coaching.</p>
+<p><strong>Concept Tested:</strong> Scaling a Pilot</p>
+<p><strong>See:</strong> <a href="../#worked-example-coach-capacity-as-the-speed-limit">Worked Example: Coach Capacity as the Speed Limit</a></p>
+</details>
+<hr />
+<h4 id="5-after-one-year-a-schools-lower-income-students-rose-from-a-mastery-score-of-60-to-66-and-higher-income-students-rose-from-75-to-84-the-principals-report-says-scores-rose-for-every-group-what-does-the-chapters-analysis-reveal">5. After one year, a school's lower-income students rose from a mastery score of 60 to 66, and higher-income students rose from 75 to 84. The principal's report says, "Scores rose for every group." What does the chapter's analysis reveal?<a class="headerlink" href="#5-after-one-year-a-schools-lower-income-students-rose-from-a-mastery-score-of-60-to-66-and-higher-income-students-rose-from-75-to-84-the-principals-report-says-scores-rose-for-every-group-what-does-the-chapters-analysis-reveal" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Both groups improved, but the gap between them widened from 15 to 18 points</li>
+<li>The gap closed, since both groups improved by a similar amount</li>
+<li>The program failed, since lower-income students did not reach the higher group</li>
+<li>The result cannot be judged without the state test scores for the year</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. The gap was 75 - 60 = 15 points before and 84 - 66 = 18 points after, so it widened even though both groups improved. Higher-income students gained 9 points and lower-income students 6. The chapter warns that a tool that helps everyone on average can still widen gaps, the Matthew effect Stanovich described, and that a school must measure the gap for each subgroup before and after, not only the average. The report's statement is true and incomplete.</p>
+<p><strong>Concept Tested:</strong> Closing or Widening Gaps</p>
+<p><strong>See:</strong> <a href="../#worked-example-everyone-improves-the-gap-widens">Worked Example: Everyone Improves, the Gap Widens</a></p>
+</details>
+<hr />
+<h4 id="6-why-does-the-chapter-favor-redesign-not-policing-as-the-response-to-ai-and-academic-integrity">6. Why does the chapter favor "redesign not policing" as the response to AI and academic integrity?<a class="headerlink" href="#6-why-does-the-chapter-favor-redesign-not-policing-as-the-response-to-ai-and-academic-integrity" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Because AI detectors are too expensive for most districts to license</li>
+<li>Because detectors falsely accuse students, especially English learners</li>
+<li>Because students who use AI are always honest about it when asked</li>
+<li>Because federal law prohibits schools from using AI detectors on student work</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. Redesign not policing means changing what and how a school assesses rather than trying to catch students with detectors. Chapter 20 showed that detectors produce false accusations, with the heaviest burden on English-language learners, while redesigned assessments, such as in-class work, process evidence, and oral defense, make AI less useful for cheating and measure what matters better. The chapter does not rest the case on cost or a legal ban.</p>
+<p><strong>Concept Tested:</strong> Redesign Not Policing</p>
+<p><strong>See:</strong> <a href="../#assessment-and-integrity-in-practice">Assessment and Integrity in Practice</a></p>
+</details>
+<hr />
+<h4 id="7-a-school-runs-a-delayed-access-ab-test-of-a-revised-lesson-page-group-a-with-the-revised-page-has-a-mean-quiz-score-of-82-group-b-with-the-original-has-76-both-groups-have-a-standard-deviation-of-24-what-is-the-effect-size">7. A school runs a delayed-access A/B test of a revised lesson page. Group A, with the revised page, has a mean quiz score of 8.2; Group B, with the original, has 7.6. Both groups have a standard deviation of 2.4. What is the effect size?<a class="headerlink" href="#7-a-school-runs-a-delayed-access-ab-test-of-a-revised-lesson-page-group-a-with-the-revised-page-has-a-mean-quiz-score-of-82-group-b-with-the-original-has-76-both-groups-have-a-standard-deviation-of-24-what-is-the-effect-size" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>About 0.6</li>
+<li>About 0.10</li>
+<li>About 1.4</li>
+<li>About 0.25</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. The effect size is the difference in means divided by the standard deviation: (8.2 - 7.6) / 2.4 = 0.6 / 2.4 = 0.25. The 0.6 answer is the raw difference in points, not standardized. As in the chapter's example, an effect of 0.25 is meaningful by the education benchmarks of Chapter 2. The chapter adds that one study of one page should be checked in another class before the school generalizes from it.</p>
+<p><strong>Concept Tested:</strong> Program Evaluation</p>
+<p><strong>See:</strong> <a href="../#worked-example-a-delayed-access-ab-test">Worked Example: A Delayed-Access A/B Test</a></p>
+</details>
+<hr />
+<h4 id="8-a-district-estimates-400000-a-year-in-content-savings-from-switching-to-an-open-level-2-textbook-its-afternoon-program-needs-15-additional-specialists-at-60000-each-what-conclusion-does-the-chapters-reasoning-support">8. A district estimates $400,000 a year in content savings from switching to an open Level 2 textbook. Its afternoon program needs 15 additional specialists at $60,000 each. What conclusion does the chapter's reasoning support?<a class="headerlink" href="#8-a-district-estimates-400000-a-year-in-content-savings-from-switching-to-an-open-level-2-textbook-its-afternoon-program-needs-15-additional-specialists-at-60000-each-what-conclusion-does-the-chapters-reasoning-support" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>The model is self-financing, since content savings exceed the afternoon cost</li>
+<li>The model should be abandoned, since it cannot be paid for from savings</li>
+<li>Savings leave a gap of about $500,000 to fill through partners, grants, or phasing</li>
+<li>The district should cut the afternoon program to match the content savings exactly</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Fifteen specialists at $60,000 cost $900,000, so the $400,000 in savings leaves a gap of about $500,000. The chapter's worked example reaches the same kind of conclusion: content savings alone do not pay for the afternoon, so a district must find the rest through community partners and volunteers, reassigning teacher time from lecturing, grants, and phasing in. The model's claim is narrower: it can be done within the order of magnitude of public budgets, unlike AI-first tuition of $40,000 to $65,000.</p>
+<p><strong>Concept Tested:</strong> Budget Reallocation</p>
+<p><strong>See:</strong> <a href="../#worked-example-is-it-self-financing">Worked Example: Is It Self-Financing?</a></p>
+</details>
+<hr />
+<h4 id="9-a-vendors-representative-tells-a-purchasing-officer-that-a-favorable-price-is-good-through-the-end-of-the-month-and-the-districts-one-time-funds-must-be-spent-soon-the-38-page-contract-has-not-been-reviewed-which-course-of-action-is-best-justified-by-the-chapter">9. A vendor's representative tells a purchasing officer that a favorable price is good "through the end of the month," and the district's one-time funds must be spent soon. The 38-page contract has not been reviewed. Which course of action is best justified by the chapter?<a class="headerlink" href="#9-a-vendors-representative-tells-a-purchasing-officer-that-a-favorable-price-is-good-through-the-end-of-the-month-and-the-districts-one-time-funds-must-be-spent-soon-the-38-page-contract-has-not-been-reviewed-which-course-of-action-is-best-justified-by-the-chapter" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Decline the deadline, send the contract to counsel, ask for an extension, keep a fallback</li>
+<li>Sign now to lock in the price, then negotiate the contract terms after the pilot begins</li>
+<li>Sign a shorter version of the contract that omits the data terms to save time</li>
+<li>Cancel all AI purchases, since any deadline pressure proves the vendor cannot be trusted</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. Rushed procurement risk is the danger that pressure from hype, deadlines, or expiring budgets leads a school to skip its protections; the Los Angeles "Ed" chatbot, which spent about $3 million before the company collapsed, shows the cost. The chapter's rule is no purchase before the criteria are met, whatever the deadline, and says a good vendor will extend a price for a district doing due diligence. Signing first gives up leverage, omitting data terms removes the protections, and cancelling everything overreacts.</p>
+<p><strong>Concept Tested:</strong> Rushed Procurement Risk</p>
+<p><strong>See:</strong> <a href="../#rushed-procurement-risk">Rushed Procurement Risk</a></p>
+</details>
+<hr />
+<h4 id="10-a-districts-pilot-plan-uses-one-success-measure-the-state-test-score-at-the-end-of-the-year-analyzed-against-the-chapters-guidance-on-success-measures-what-is-the-main-weakness">10. A district's pilot plan uses one success measure: the state test score at the end of the year. Analyzed against the chapter's guidance on success measures, what is the main weakness?<a class="headerlink" href="#10-a-districts-pilot-plan-uses-one-success-measure-the-state-test-score-at-the-end-of-the-year-analyzed-against-the-chapters-guidance-on-success-measures-what-is-the-main-weakness" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>State tests cannot be used in pilots, since they are required for accountability</li>
+<li>A single measure is fine, as long as an independent evaluator scores it</li>
+<li>A single lagging measure can be corrupted and misses equity, cost, and privacy</li>
+<li>The measure should be replaced with a teacher satisfaction survey alone</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. A balanced set of success measures covers learning, engagement and attendance, teacher time and well-being, equity by subgroup, cost per student, privacy incidents, and student and family experience, chosen before the pilot. A mix of leading indicators that move early and lagging ones like annual tests is useful. The chapter applies Chapter 2's warning that when a single measure becomes the target it is corrupted, so a set is safer than one. Replacing the test with one survey repeats the same mistake.</p>
+<p><strong>Concept Tested:</strong> Success Measures</p>
+<p><strong>See:</strong> <a href="../#success-measures-and-program-evaluation">Success Measures and Program Evaluation</a></p>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<h2 id="feedback">Feedback</h2>
+<p>Ask a question, suggest an improvement, or share how you applied this material.</p>
+<script src="https://giscus.app/client.js"
+        data-repo="dmccreary/ai-native-schools"
+        data-repo-id="R_kgDOVhwbJQ"
+        data-category="General"
+        data-category-id="DIC_kwDOVhwbJc4DKceW"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Content">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../references/" class="md-footer__link md-footer__link--next" aria-label="Next: Annotated References">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Annotated References
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../../js/katex.js"></script>
+      
+        <script src="../../../js/extra.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

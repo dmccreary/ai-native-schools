@@ -1,0 +1,79 @@
+{
+  "title": "Mastery Threshold Chooser",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Examine a table of pass probabilities for five mastery rules and select every rule that meets each of four requirements.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Mastery Threshold Chooser",
+    "learningObjectives": [
+      "The learner will examine a table of pass probabilities for five mastery rules and select the rule or rules that meet each of four stated requirements, correctly answering at least three of four."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Mastery threshold, false pass, false fail, and pass probability, from the section \"The Mastery Threshold\" in Chapter 12"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 652
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, get feedback with the reason, and review what was missed",
+    "keyQuestions": [
+      "How often does each rule pass a student who has not mastered the skill?",
+      "How often does it hold back one who has?"
+    ],
+    "commonMisconceptions": [
+      "A stricter rule is always better",
+      "\"Four of five\" is a high standard",
+      "A rule that never passes a weak student also passes every strong one"
+    ],
+    "assessmentOpportunities": [
+      "Which rule passes a 70 percent student about half the time?",
+      "Is a stricter rule always better?",
+      "Which rule meets: 70% student under 50% and 90% student at least 90%?"
+    ]
+  },
+  "chapter": "12-ai-guardrails-teaching-thinking-without",
+  "controls": [
+    {
+      "name": "Five rule buttons",
+      "type": "button",
+      "description": "mark or unmark a rule. Marked rules are shaded in the table."
+    },
+    {
+      "name": "Check",
+      "type": "button",
+      "description": "commits the marked set. Two checks per requirement; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "moves to the next requirement after feedback. On the results screen, Previous missed and Next missed step through what you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "starts a practice run. Practice runs do not change the first-run score."
+    }
+  ]
+}

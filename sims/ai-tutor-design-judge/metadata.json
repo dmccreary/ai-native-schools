@@ -1,0 +1,79 @@
+{
+  "title": "AI Tutor Design Judge",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Judge six fictional AI tutor designs as likely to harm learning, mixed, or likely to help, by applying the five-guardrail rule.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "AI Tutor Design Judge",
+    "learningObjectives": [
+      "The learner will judge whether each of six AI tutor designs is likely to harm learning, a mixed case, or likely to help, by applying the five-guardrail rule, correctly judging at least five of six on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "AI guardrails, hints instead of answers, guided AI versus open AI, and the five guardrails G1 to G5, from the section \"Guardrails: Guided AI Versus Open AI\" in Chapter 12"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 744
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, get feedback with the reason, and review what was missed",
+    "keyQuestions": [
+      "Is G1 present?",
+      "How many guardrails are present in all?"
+    ],
+    "commonMisconceptions": [
+      "More guardrails always make a tutor safe, even without hints",
+      "A friendly tutor is a good tutor",
+      "A tutor built on a powerful model needs fewer guardrails"
+    ],
+    "assessmentOpportunities": [
+      "A tutor has G2, G3, G4, and G5 but gives answers on request. Verdict?",
+      "A tutor has G1 and G4 only. Verdict?",
+      "Does a more powerful model need fewer guardrails?"
+    ]
+  },
+  "chapter": "12-ai-guardrails-teaching-thinking-without",
+  "controls": [
+    {
+      "name": "Choice buttons",
+      "type": "button",
+      "description": "commit an answer. A wrong first answer gives a hint and lets you choose again; only the first answer counts."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "opens or closes the reference table. Reading it is exploration, not evidence."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "moves to the next item after feedback. On the results screen, Previous missed and Next missed step through what you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "starts a practice run with the items reshuffled. Practice runs do not change the first-run score."
+    }
+  ]
+}

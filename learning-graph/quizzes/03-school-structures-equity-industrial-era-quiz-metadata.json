@@ -1,0 +1,134 @@
+{
+  "chapter": "School Structures, Equity, and the Industrial-Era Legacy",
+  "chapter_file": "docs/chapters/03-school-structures-equity-industrial-era/index.md",
+  "quiz_file": "docs/chapters/03-school-structures-equity-industrial-era/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "introductory",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch03-q001",
+      "number": 1,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Carnegie Unit",
+      "tags": [
+        "carnegie-unit",
+        "credit-hours"
+      ]
+    },
+    {
+      "id": "ch03-q002",
+      "number": 2,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Seat Time",
+      "tags": [
+        "seat-time",
+        "mastery"
+      ]
+    },
+    {
+      "id": "ch03-q003",
+      "number": 3,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Charter School",
+      "tags": [
+        "charter-school",
+        "school-models"
+      ]
+    },
+    {
+      "id": "ch03-q004",
+      "number": 4,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Educational Equity",
+      "tags": [
+        "educational-equity",
+        "equality"
+      ]
+    },
+    {
+      "id": "ch03-q005",
+      "number": 5,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Learning Gains",
+      "tags": [
+        "learning-gains",
+        "effect-size"
+      ]
+    },
+    {
+      "id": "ch03-q006",
+      "number": 6,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Achievement Gap",
+      "tags": [
+        "achievement-gap",
+        "opportunity"
+      ]
+    },
+    {
+      "id": "ch03-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Preprint",
+      "tags": [
+        "preprint",
+        "peer-review",
+        "evidence-quality"
+      ]
+    },
+    {
+      "id": "ch03-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Teacher Workload",
+      "tags": [
+        "teacher-workload",
+        "teacher-burnout",
+        "ai-tools"
+      ]
+    },
+    {
+      "id": "ch03-q009",
+      "number": 9,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "medium",
+      "concept_tested": "Industrial-Era School Model",
+      "tags": [
+        "industrial-era-school-model",
+        "grammar-of-schooling"
+      ]
+    },
+    {
+      "id": "ch03-q010",
+      "number": 10,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Independent Evaluation",
+      "tags": [
+        "independent-evaluation",
+        "self-reported-results"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 20,
+  "chapter_concepts_tested": 10
+}

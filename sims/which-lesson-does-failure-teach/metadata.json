@@ -1,0 +1,78 @@
+{
+  "title": "Which Lesson Does the Failure Teach?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Match seven real failures of technology-first school programs to the lesson each one teaches.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Which Lesson Does the Failure Teach?",
+    "learningObjectives": [
+      "The learner will classify seven real failures as teaching one of seven lessons, correctly matching at least six of seven on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The seven cases and their lessons, from the section \"When Technology Came First\" in Chapter 23."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 530
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify one item at a time with immediate feedback; first-attempt scoring",
+    "keyQuestions": [
+      "What caused the failure?"
+    ],
+    "commonMisconceptions": [
+      "All the failures show the same mistake.",
+      "Technology failures are caused by weak technology.",
+      "A data failure is a security failure only."
+    ],
+    "assessmentOpportunities": [
+      "A district committed about $6 million to an AI chatbot startup that collapsed. Which lesson?",
+      "Were these failures caused by weak technology?",
+      "Is a data breach only a security failure?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Category buttons",
+      "type": "button",
+      "description": "Choose the lesson for the current failure."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the choice. Two tries per failure; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next failure. Finish shows the score."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Reshuffles and begins a new run."
+    }
+  ],
+  "chapter": "23-ai-first-case-studies-ii-lessons"
+}

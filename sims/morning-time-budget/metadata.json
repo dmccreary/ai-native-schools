@@ -1,0 +1,80 @@
+{
+  "title": "Morning Time Budget",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate the minutes, hours, and school days a compressed academic morning frees, and the speedup it requires, then explore the trade-off with sliders.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Morning Time Budget",
+    "learningObjectives": [
+      "The learner will calculate the minutes freed per day, the hours freed per year, and the equivalent school days freed by a compressed academic morning, and the speedup it requires, correctly answering three of three questions."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Academic morning, compressed academic morning, reduced direct instruction, and freed-up school time, from the section \"The Compressed Academic Morning\" in Chapter 11"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 670
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Calculate and commit three answers, then explore with sliders",
+    "keyQuestions": [
+      "How long is the compressed morning?",
+      "How much faster must students learn to cover the same material?"
+    ],
+    "commonMisconceptions": [
+      "Compression means students learn less",
+      "The time freed is the same whatever the morning contains",
+      "A compressed morning needs no faster learning per minute"
+    ],
+    "assessmentOpportunities": [
+      "Settling 10, explanation 50, practice 90. How many minutes are freed per day?",
+      "For the same settings and 180 days, how many hours are freed per year?",
+      "Settling 10, explanation 70, practice 110, 180 days, 6.5-hour day. How many school days are freed?",
+      "What speedup does a 190-minute morning require?"
+    ]
+  },
+  "chapter": "11-mastery-learning-case-compressed-morning",
+  "controls": [
+    {
+      "name": "Your answer and Check",
+      "type": "input",
+      "description": "type a number and press Check. Two tries per question; only the first counts."
+    },
+    {
+      "name": "Next question",
+      "type": "button",
+      "description": "moves to the next question after feedback. On the last question it reads Unlock the sliders."
+    },
+    {
+      "name": "Five sliders",
+      "type": "slider",
+      "description": "settling and wrap-up (0 to 50 min), explanation (0 to 100 min), practice (0 to 150 min), school days per year (150 to 200), and length of school day (6 to 7 hours). They unlock after the three questions."
+    },
+    {
+      "name": "Reset sliders",
+      "type": "button",
+      "description": "returns the sliders to 10, 50, and 90 minutes, 180 days, and 6.5 hours."
+    }
+  ]
+}

@@ -1,0 +1,2732 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An interactive intelligent textbook about how AI is enabling more pro-social behaviors in schools. The theme is "Mornings with AI, Afternoons with Each Other".">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/ai-native-schools/chapters/08-tracking-mastery-xapi-learning-record/quiz/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../references/">
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Quiz - AI-Native Schools</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-270094HPGG"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-270094HPGG",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-270094HPGG",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-tracking-mastery-xapi-learning-record-stores-and-microsims" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="AI-Native Schools" class="md-header__button md-logo" aria-label="AI-Native Schools" data-md-component="logo">
+      
+  <img src="../../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI-Native Schools
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/ai-native-schools" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="AI-Native Schools" class="md-nav__button md-logo" aria-label="AI-Native Schools" data-md-component="logo">
+      
+  <img src="../../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    AI-Native Schools
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/ai-native-schools" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../01-building-blocks-schools-students/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    1. The Building Blocks of Schools, Students, and Learning
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../02-evidence-motivation-stakeholders/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    2. Evidence, Motivation, and the Stakeholders of Schooling
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../03-school-structures-equity-industrial-era/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    3. School Structures, Equity, and the Industrial-Era Legacy
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../04-measuring-ai-capability-metr/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    4. Measuring AI Capability: The METR Task-Horizon Studies
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../05-projecting-ai-growth-doubling-curves/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    5. Projecting AI Growth: Doubling Curves, Limits, and Uncertainty
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../06-five-level-model-intelligent-textbooks/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    6. The Five-Level Model of Intelligent Textbooks
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../07-content-economics-open-educational/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    7. Content Economics and Open Educational Resources
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_9" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    8. Tracking Mastery: xAPI, Learning Record Stores, and MicroSims
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_9" id="__nav_4_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_9">
+            <span class="md-nav__icon md-icon"></span>
+            8. Tracking Mastery: xAPI, Learning Record Stores, and MicroSims
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-in-an-xapi-statement-built-on-the-actor-verb-object-pattern-what-does-the-object-identify" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. In an xAPI statement built on the Actor Verb Object pattern, what does the object identify?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-does-a-learning-record-store-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. What does a Learning Record Store do?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-why-does-a-static-website-carry-almost-no-privacy-burden-for-a-level-2-textbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Why does a static website carry almost no privacy burden for a Level 2 textbook?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-a-textbook-uses-the-rule-mastered-means-at-least-four-of-the-last-five-answers-correct-a-students-last-five-answers-oldest-first-are-concept-x-right-wrong-right-right-right-concept-y-right-right-right-wrong-wrong-concept-z-wrong-right-right-right-right-which-concepts-count-as-mastered" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. A textbook uses the rule "mastered means at least four of the last five answers correct." A student's last five answers, oldest first, are: Concept X: right, wrong, right, right, right. Concept Y: right, right, right, wrong, wrong. Concept Z: wrong, right, right, right, right. Which concepts count as mastered?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-in-a-learning-graph-concept-4-depends-on-3-concept-5-depends-on-1-and-2-concept-7-depends-on-5-and-6-concept-8-depends-on-7-a-student-has-mastered-1-2-3-and-6-but-not-4-5-7-or-8-which-concepts-are-ready-to-study-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. In a learning graph, concept 4 depends on 3; concept 5 depends on 1 and 2; concept 7 depends on 5 and 6; concept 8 depends on 7. A student has mastered 1, 2, 3, and 6 but not 4, 5, 7, or 8. Which concepts are ready to study next?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-why-does-an-lms-centric-design-miss-much-of-what-a-student-does-in-an-interactive-textbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Why does an LMS-centric design miss much of what a student does in an interactive textbook?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-a-teachers-class-mastery-heatmap-shows-one-dark-column-for-ratios-across-most-students-and-one-dark-row-for-a-single-student-across-many-concepts-what-responses-does-the-chapters-reasoning-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. A teacher's class mastery heatmap shows one dark column for "Ratios" across most students and one dark row for a single student across many concepts. What responses does the chapter's reasoning support?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-a-vendor-is-designing-the-data-practices-for-a-districts-adaptive-textbook-which-practice-is-consistent-with-the-chapters-principles-of-student-controlled-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. A vendor is designing the data practices for a district's adaptive textbook. Which practice is consistent with the chapter's principles of student-controlled data?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-what-is-data-portability" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. What is data portability?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-a-board-member-objects-that-a-level-3-adaptive-textbook-will-be-costly-because-every-students-request-has-to-go-to-a-large-language-model-how-does-the-chapters-design-loop-answer-this-objection" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. A board member objects that a Level 3 adaptive textbook will be costly because "every student's request has to go to a large language model." How does the chapter's design loop answer this objection?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotated References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../09-learning-graphs-interoperability/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    9. Learning Graphs, Interoperability Standards, and Access at Scale
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../10-student-privacy-data-governance/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    10. Student Privacy and Data Governance
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../11-mastery-learning-case-compressed-morning/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    11. Mastery Learning and the Case for a Compressed Morning
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../12-ai-guardrails-teaching-thinking-without/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    12. AI Guardrails: Teaching Thinking Without Over-Reliance
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../13-social-learning-human-skills/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    13. Social Learning and Human Skills
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../14-pro-social-afternoon/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    14. The Pro-Social Afternoon
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../15-technology-adoption-diffusion-innovation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    15. Technology Adoption and the Diffusion of Innovation
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../16-organizational-change-models/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    16. Organizational Change Models
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../17-leading-change-vision-culture/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    17. Leading Change: Vision, Culture, and Early-Stage Concerns
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../18-sustaining-change-systems-thinking/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    18. Sustaining Change: Systems Thinking and National Adoption
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../19-microstrategies-leading-change/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    19. Microstrategies for Leading Change
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../20-designing-ai-native-school-day/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    20. Designing the AI-Native School Day
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../21-implementing-ai-native-model-responsibly/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    21. Implementing the AI-Native Model Responsibly
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../22-ai-first-case-studies-i-promise-peril/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    22. AI-First Case Studies I: Promise and Peril
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../23-ai-first-case-studies-ii-lessons/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    23. AI-First Case Studies II: Lessons for Practice
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../appendices/ai-first-stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-in-an-xapi-statement-built-on-the-actor-verb-object-pattern-what-does-the-object-identify" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. In an xAPI statement built on the Actor Verb Object pattern, what does the object identify?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-does-a-learning-record-store-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. What does a Learning Record Store do?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-why-does-a-static-website-carry-almost-no-privacy-burden-for-a-level-2-textbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Why does a static website carry almost no privacy burden for a Level 2 textbook?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-a-textbook-uses-the-rule-mastered-means-at-least-four-of-the-last-five-answers-correct-a-students-last-five-answers-oldest-first-are-concept-x-right-wrong-right-right-right-concept-y-right-right-right-wrong-wrong-concept-z-wrong-right-right-right-right-which-concepts-count-as-mastered" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. A textbook uses the rule "mastered means at least four of the last five answers correct." A student's last five answers, oldest first, are: Concept X: right, wrong, right, right, right. Concept Y: right, right, right, wrong, wrong. Concept Z: wrong, right, right, right, right. Which concepts count as mastered?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-in-a-learning-graph-concept-4-depends-on-3-concept-5-depends-on-1-and-2-concept-7-depends-on-5-and-6-concept-8-depends-on-7-a-student-has-mastered-1-2-3-and-6-but-not-4-5-7-or-8-which-concepts-are-ready-to-study-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. In a learning graph, concept 4 depends on 3; concept 5 depends on 1 and 2; concept 7 depends on 5 and 6; concept 8 depends on 7. A student has mastered 1, 2, 3, and 6 but not 4, 5, 7, or 8. Which concepts are ready to study next?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-why-does-an-lms-centric-design-miss-much-of-what-a-student-does-in-an-interactive-textbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Why does an LMS-centric design miss much of what a student does in an interactive textbook?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-a-teachers-class-mastery-heatmap-shows-one-dark-column-for-ratios-across-most-students-and-one-dark-row-for-a-single-student-across-many-concepts-what-responses-does-the-chapters-reasoning-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. A teacher's class mastery heatmap shows one dark column for "Ratios" across most students and one dark row for a single student across many concepts. What responses does the chapter's reasoning support?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-a-vendor-is-designing-the-data-practices-for-a-districts-adaptive-textbook-which-practice-is-consistent-with-the-chapters-principles-of-student-controlled-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. A vendor is designing the data practices for a district's adaptive textbook. Which practice is consistent with the chapter's principles of student-controlled data?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-what-is-data-portability" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. What is data portability?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-a-board-member-objects-that-a-level-3-adaptive-textbook-will-be-costly-because-every-students-request-has-to-go-to-a-large-language-model-how-does-the-chapters-design-loop-answer-this-objection" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. A board member objects that a Level 3 adaptive textbook will be costly because "every student's request has to go to a large language model." How does the chapter's design loop answer this objection?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/ai-native-schools/blob/main/docs/chapters/08-tracking-mastery-xapi-learning-record/quiz.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-tracking-mastery-xapi-learning-record-stores-and-microsims">Quiz: Tracking Mastery: xAPI, Learning Record Stores, and MicroSims<a class="headerlink" href="#quiz-tracking-mastery-xapi-learning-record-stores-and-microsims" title="Permanent link">&para;</a></h1>
+<p>Test your understanding of xAPI statements, Learning Record Stores, mastery data, and student-controlled data with these review questions.</p>
+<hr />
+<h4 id="1-in-an-xapi-statement-built-on-the-actor-verb-object-pattern-what-does-the-object-identify">1. In an xAPI statement built on the Actor Verb Object pattern, what does the object identify?<a class="headerlink" href="#1-in-an-xapi-statement-built-on-the-actor-verb-object-pattern-what-does-the-object-identify" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>The student who performed the action, written as a code</li>
+<li>The activity the action was done to, such as a quiz question or simulation</li>
+<li>The outcome of the action, such as a score or whether it was correct</li>
+<li>The course and page the activity belongs to, along with the time</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. An xAPI statement reads as a three-part sentence: the actor is who did something, the verb is what they did, and the object is what they did it to, such as a particular quiz question or simulation. The first option describes the actor. The outcome belongs in the optional result, and the course or page belongs in the optional context. Each statement also carries a timestamp.</p>
+<p><strong>Concept Tested:</strong> Actor Verb Object</p>
+<p><strong>See:</strong> <a href="../#xapi-a-standard-way-to-say-what-happened">xAPI: A Standard Way to Say What Happened</a></p>
+</details>
+<hr />
+<h4 id="2-what-does-a-learning-record-store-do">2. What does a Learning Record Store do?<a class="headerlink" href="#2-what-does-a-learning-record-store-do" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>It decides which lesson each student should study next</li>
+<li>It enrolls students in courses and keeps the official gradebook</li>
+<li>It runs the simulations and quizzes inside the student's browser</li>
+<li>It receives xAPI statements, stores them, and returns them on request</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. A Learning Record Store is the memory of the arrangement, the place where statements from all sims, quizzes, and activities end up. The chapter stresses that an LRS does not decide anything about instruction; choosing the next lesson is done by a mastery rule and a learning graph. Enrolling students and keeping the gradebook are jobs of a learning management system, and MicroSims run in the web browser.</p>
+<p><strong>Concept Tested:</strong> Learning Record Store</p>
+<p><strong>See:</strong> <a href="../#the-learning-record-store">The Learning Record Store</a></p>
+</details>
+<hr />
+<h4 id="3-why-does-a-static-website-carry-almost-no-privacy-burden-for-a-level-2-textbook">3. Why does a static website carry almost no privacy burden for a Level 2 textbook?<a class="headerlink" href="#3-why-does-a-static-website-carry-almost-no-privacy-burden-for-a-level-2-textbook" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>It has no server program and no database, so the page itself holds no student data</li>
+<li>It encrypts every student's answers before sending them to the publisher</li>
+<li>It requires students to log in with district accounts before reading</li>
+<li>It deletes each student's records automatically at the end of the year</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. A static website is made of fixed files that a server hands over exactly as stored, without running a program to build each page. With no server program and no database, there is little for an attacker to break into and no student data to leak from the page itself. The chapter calls this the technical reason Level 2 textbooks carry almost no privacy burden. Logins, stored records, and deletion schedules belong to Level 3 designs that keep student data.</p>
+<p><strong>Concept Tested:</strong> Static Website</p>
+<p><strong>See:</strong> <a href="../#the-pieces-web-pages-browsers-and-microsims">The Pieces: Web Pages, Browsers, and MicroSims</a></p>
+</details>
+<hr />
+<h4 id="4-a-textbook-uses-the-rule-mastered-means-at-least-four-of-the-last-five-answers-correct-a-students-last-five-answers-oldest-first-are-concept-x-right-wrong-right-right-right-concept-y-right-right-right-wrong-wrong-concept-z-wrong-right-right-right-right-which-concepts-count-as-mastered">4. A textbook uses the rule "mastered means at least four of the last five answers correct." A student's last five answers, oldest first, are: Concept X: right, wrong, right, right, right. Concept Y: right, right, right, wrong, wrong. Concept Z: wrong, right, right, right, right. Which concepts count as mastered?<a class="headerlink" href="#4-a-textbook-uses-the-rule-mastered-means-at-least-four-of-the-last-five-answers-correct-a-students-last-five-answers-oldest-first-are-concept-x-right-wrong-right-right-right-concept-y-right-right-right-wrong-wrong-concept-z-wrong-right-right-right-right-which-concepts-count-as-mastered" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>X, Y, and Z, since each has at least three correct answers</li>
+<li>Only Z, since its most recent answers are all correct</li>
+<li>X and Z only, since each has four of five correct</li>
+<li>Only X, since its first answer was correct</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Concept X has four of five correct and Concept Z has four of five correct, so both meet the rule. Concept Y has only three of five, so it is not mastered. The rule counts correct answers among the last five, not their order, so the second and fourth options apply criteria the rule never states. The chapter notes the rule is simple and imperfect, but it is stated in advance and applied the same way to every student, which makes it checkable.</p>
+<p><strong>Concept Tested:</strong> Mastery Data</p>
+<p><strong>See:</strong> <a href="../#worked-example-a-mastery-rule">Worked Example: A Mastery Rule</a></p>
+</details>
+<hr />
+<h4 id="5-in-a-learning-graph-concept-4-depends-on-3-concept-5-depends-on-1-and-2-concept-7-depends-on-5-and-6-concept-8-depends-on-7-a-student-has-mastered-1-2-3-and-6-but-not-4-5-7-or-8-which-concepts-are-ready-to-study-next">5. In a learning graph, concept 4 depends on 3; concept 5 depends on 1 and 2; concept 7 depends on 5 and 6; concept 8 depends on 7. A student has mastered 1, 2, 3, and 6 but not 4, 5, 7, or 8. Which concepts are ready to study next?<a class="headerlink" href="#5-in-a-learning-graph-concept-4-depends-on-3-concept-5-depends-on-1-and-2-concept-7-depends-on-5-and-6-concept-8-depends-on-7-a-student-has-mastered-1-2-3-and-6-but-not-4-5-7-or-8-which-concepts-are-ready-to-study-next" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Only concept 7, since it is the next unit in the course</li>
+<li>Concepts 4 and 5, since each is unmastered with all prerequisites mastered</li>
+<li>Concepts 4, 5, 7, and 8, since none of them has been mastered yet</li>
+<li>Only concept 8, since it is the most advanced unmastered concept</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. The chapter's rule is that a concept is ready when the student has not mastered it but has mastered all of its prerequisites. Concept 4 needs 3 (mastered) and concept 5 needs 1 and 2 (mastered), so both are ready. Concept 7 needs 5, which is not mastered, and concept 8 needs 7, so neither is ready. Listing every unmastered concept ignores the prerequisites. This lookup uses a record, a rule, and a map, with no live AI model.</p>
+<p><strong>Concept Tested:</strong> Learning Dependency</p>
+<p><strong>See:</strong> <a href="../#learning-dependencies-and-the-learning-graph">Learning Dependencies and the Learning Graph</a></p>
+</details>
+<hr />
+<h4 id="6-why-does-an-lms-centric-design-miss-much-of-what-a-student-does-in-an-interactive-textbook">6. Why does an LMS-centric design miss much of what a student does in an interactive textbook?<a class="headerlink" href="#6-why-does-an-lms-centric-design-miss-much-of-what-a-student-does-in-an-interactive-textbook" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Because an LMS records only what it was built for, so outside sims leave no trace</li>
+<li>Because an LMS deletes activity data at the end of each grading period</li>
+<li>Because an LMS cannot store grades for more than one course at the same time</li>
+<li>Because an LMS stores activity records only for students older than thirteen</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. A learning management system traditionally records grades and submissions, and it is not designed to take in activity from a simulation or an app outside it. In an LMS-centric design, every activity must report through the LMS. In an LRS-centric design, any activity sends xAPI statements directly to the record store, and the LMS becomes one more source and consumer. The chapter's comparison shows the gradebook keeps "67 percent" while the LRS keeps each attempt and where the student got stuck.</p>
+<p><strong>Concept Tested:</strong> Learning Management System</p>
+<p><strong>See:</strong> <a href="../#the-learning-record-store">The Learning Record Store</a></p>
+</details>
+<hr />
+<h4 id="7-a-teachers-class-mastery-heatmap-shows-one-dark-column-for-ratios-across-most-students-and-one-dark-row-for-a-single-student-across-many-concepts-what-responses-does-the-chapters-reasoning-support">7. A teacher's class mastery heatmap shows one dark column for "Ratios" across most students and one dark row for a single student across many concepts. What responses does the chapter's reasoning support?<a class="headerlink" href="#7-a-teachers-class-mastery-heatmap-shows-one-dark-column-for-ratios-across-most-students-and-one-dark-row-for-a-single-student-across-many-concepts-what-responses-does-the-chapters-reasoning-support" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Reteach ratios to the whole class, and give the one student individual support</li>
+<li>Give individual support to every student, since the class average is low</li>
+<li>Reteach every concept to the whole class, since both patterns show weak teaching</li>
+<li>Move the one student to a lower grade, and skip ratios for the rest of the class</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. In the heatmap, a dark column means a concept-wide weakness: most students stumbled there, so a whole-class reteach or a better explanation is the response. A dark row means one student is struggling across many concepts, so the response is individual support. The chapter's tip is to look for dark columns and rows before averages, because an average blends the two and hides both. Treating both patterns the same way misreads the data.</p>
+<p><strong>Concept Tested:</strong> Learning Analytics</p>
+<p><strong>See:</strong> <a href="../#learning-analytics">Learning Analytics</a></p>
+</details>
+<hr />
+<h4 id="8-a-vendor-is-designing-the-data-practices-for-a-districts-adaptive-textbook-which-practice-is-consistent-with-the-chapters-principles-of-student-controlled-data">8. A vendor is designing the data practices for a district's adaptive textbook. Which practice is consistent with the chapter's principles of student-controlled data?<a class="headerlink" href="#8-a-vendor-is-designing-the-data-practices-for-a-districts-adaptive-textbook-which-practice-is-consistent-with-the-chapters-principles-of-student-controlled-data" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Recording every mouse movement in case the data becomes useful later</li>
+<li>Keeping each student's record permanently so it can follow them to college</li>
+<li>Collecting only what instruction needs and letting families export the record</li>
+<li>Sharing identifiable records with any partner that offers free tools to the school</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Student-controlled data has five parts: collect the minimum necessary, let the student and family see the record, let them take it in a standard format, limit who sees identifiable records, and remove it when no longer needed. Recording mouse movements "in case" violates minimum necessary and adds noise. A permanent record ignores removal. Outside parties should see identifiable records only under a written agreement for a stated purpose, never for advertising.</p>
+<p><strong>Concept Tested:</strong> Student-Controlled Data</p>
+<p><strong>See:</strong> <a href="../#data-portability-and-student-controlled-data">Data Portability and Student-Controlled Data</a></p>
+</details>
+<hr />
+<h4 id="9-what-is-data-portability">9. What is data portability?<a class="headerlink" href="#9-what-is-data-portability" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>The ability to view a learning record on a phone as well as a laptop</li>
+<li>The ability of a vendor to sell its student records to another company</li>
+<li>The ability of a static website to run without an internet connection</li>
+<li>The ability to move one's data between systems in a standard format</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. Data portability means a mastery record built in one school, textbook, or product can follow the student to the next in a standard format. Without it, every change of school or vendor starts the child back at "unknown," and the records are held hostage by whoever stores them. The EU's GDPR gives individuals a legal right to portability, and xAPI makes it practical because every compliant system reads the same statements. Viewing on different devices is a different idea.</p>
+<p><strong>Concept Tested:</strong> Data Portability</p>
+<p><strong>See:</strong> <a href="../#data-portability-and-student-controlled-data">Data Portability and Student-Controlled Data</a></p>
+</details>
+<hr />
+<h4 id="10-a-board-member-objects-that-a-level-3-adaptive-textbook-will-be-costly-because-every-students-request-has-to-go-to-a-large-language-model-how-does-the-chapters-design-loop-answer-this-objection">10. A board member objects that a Level 3 adaptive textbook will be costly because "every student's request has to go to a large language model." How does the chapter's design loop answer this objection?<a class="headerlink" href="#10-a-board-member-objects-that-a-level-3-adaptive-textbook-will-be-costly-because-every-students-request-has-to-go-to-a-large-language-model-how-does-the-chapters-design-loop-answer-this-objection" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>It agrees, and recommends limiting adaptive textbooks to small pilot classes only</li>
+<li>At use time, adaptation is a lookup using the record, a rule, and the graph</li>
+<li>It shows that the LMS performs the adaptation, so no extra system is needed</li>
+<li>It shows that the MicroSims send each answer to an AI model running in the browser</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. The chapter's loop uses a static site, browser-run MicroSims, xAPI statements, a record store, a mastery rule, and a learning graph. No step requires a live large language model. AI may have helped write the content once, but when a student uses the textbook the work is lookups, rules, and a record. That keeps the Level 3 cost per student modest and limits the privacy risk to one bounded record store. The LMS does not perform adaptation in this design.</p>
+<p><strong>Concept Tested:</strong> xAPI</p>
+<p><strong>See:</strong> <a href="../#putting-it-together-adapting-without-a-live-ai-model">Putting It Together: Adapting Without a Live AI Model</a></p>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<h2 id="feedback">Feedback</h2>
+<p>Ask a question, suggest an improvement, or share how you applied this material.</p>
+<script src="https://giscus.app/client.js"
+        data-repo="dmccreary/ai-native-schools"
+        data-repo-id="R_kgDOVhwbJQ"
+        data-category="General"
+        data-category-id="DIC_kwDOVhwbJc4DKceW"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Content">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../references/" class="md-footer__link md-footer__link--next" aria-label="Next: Annotated References">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Annotated References
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../../js/katex.js"></script>
+      
+        <script src="../../../js/extra.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

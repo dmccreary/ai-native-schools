@@ -1,0 +1,77 @@
+{
+  "title": "METR Measurement Workflow",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Read the six steps that turn AI task results into a 50 percent time horizon, then answer five questions about the steps.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "How a 50 percent time horizon is measured",
+    "learningObjectives": [
+      "The learner will explain the six steps that turn AI task results into a 50 percent time horizon, correctly answering at least four of five questions about the steps."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Benchmark task suite, human working time, task success rate, task horizon, and 50 percent time horizon, from the section \"METR and the Task-Horizon Idea\" in Chapter 4."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Mermaid",
+    "version": "11.4.1",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 560
+    },
+    "canvasHeight": 560,
+    "responsive": true,
+    "dependencies": [
+      "Mermaid 11.4.1 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a process diagram, then answer questions that use the order and the unit of measure",
+    "keyQuestions": [
+      "What does each step produce?",
+      "Where does the 50 percent horizon come from?"
+    ],
+    "commonMisconceptions": [
+      "The horizon measures how long the AI takes to run",
+      "A 50 percent horizon means the AI is reliable on tasks up to that length",
+      "The task suite is a single test with one score"
+    ],
+    "assessmentOpportunities": [
+      "What unit measures how long a task is?",
+      "A model has a 50 percent horizon of 2 hours. What does that mean?",
+      "A model succeeds on 9 of 10 attempts. What is the task success rate?",
+      "Why is human time used instead of AI running time?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Steps in the flowchart",
+      "description": "click (or tab to and press Enter) to read a step's description. The step turns gold; steps you have read turn green."
+    },
+    {
+      "name": "Start the questions",
+      "description": "shows question 1 of 5."
+    },
+    {
+      "name": "Answer options and Submit",
+      "description": "choose one option and press Submit. One attempt per question; the correct option is then shown."
+    },
+    {
+      "name": "Next and Try again",
+      "description": "move through the questions, and restart them after the score."
+    }
+  ],
+  "chapter": "04-measuring-ai-capability-metr"
+}

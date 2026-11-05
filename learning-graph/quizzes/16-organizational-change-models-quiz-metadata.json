@@ -1,0 +1,131 @@
+{
+  "chapter": "Organizational Change Models",
+  "chapter_file": "docs/chapters/16-organizational-change-models/index.md",
+  "quiz_file": "docs/chapters/16-organizational-change-models/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch16-q001",
+      "number": 1,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Organizational Change",
+      "tags": [
+        "lewin",
+        "organizational-change"
+      ]
+    },
+    {
+      "id": "ch16-q002",
+      "number": 2,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "ADKAR Model",
+      "tags": [
+        "adkar-model"
+      ]
+    },
+    {
+      "id": "ch16-q003",
+      "number": 3,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Organizational Culture",
+      "tags": [
+        "organizational-culture",
+        "schein"
+      ]
+    },
+    {
+      "id": "ch16-q004",
+      "number": 4,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "ADKAR Model",
+      "tags": [
+        "adkar-model",
+        "diagnosis"
+      ]
+    },
+    {
+      "id": "ch16-q005",
+      "number": 5,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Organizational Change",
+      "tags": [
+        "bridges-transition-model",
+        "organizational-change"
+      ]
+    },
+    {
+      "id": "ch16-q006",
+      "number": 6,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Implementation Dip",
+      "tags": [
+        "implementation-dip",
+        "fullans-educational-change"
+      ]
+    },
+    {
+      "id": "ch16-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Concerns-Based Adoption Model",
+      "tags": [
+        "concerns-based-adoption-model",
+        "model-selection"
+      ]
+    },
+    {
+      "id": "ch16-q008",
+      "number": 8,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Senge's Five Disciplines",
+      "tags": [
+        "senges-five-disciplines",
+        "learning-organization"
+      ]
+    },
+    {
+      "id": "ch16-q009",
+      "number": 9,
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "School Culture",
+      "tags": [
+        "school-culture",
+        "organizational-culture"
+      ]
+    },
+    {
+      "id": "ch16-q010",
+      "number": 10,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Managing Expectations",
+      "tags": [
+        "managing-expectations",
+        "implementation-dip"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 11,
+  "chapter_concepts_tested": 8
+}

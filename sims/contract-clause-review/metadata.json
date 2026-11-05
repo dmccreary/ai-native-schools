@@ -1,0 +1,84 @@
+{
+  "title": "Contract Clause Review",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Judge eight clauses from a fictional AI product contract as acceptable, needing change, or a red flag.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Contract Clause Review",
+    "learningObjectives": [
+      "The learner will judge eight contract clauses from an AI product contract as acceptable, needing change, or a red flag, correctly judging at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Contract due diligence, vendor lock-in, data ownership, breach notice, deletion, and the contract checklist, from the section \"Buying Responsibly\" in Chapter 21 and from Chapter 10."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 376
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify one item at a time with immediate feedback; first-attempt scoring",
+    "keyQuestions": [
+      "Is there a deadline, a cap, and an exit?",
+      "Does the clause allow any use beyond the service?"
+    ],
+    "commonMisconceptions": [
+      "A vague promise is as good as a stated deadline.",
+      "Any clause that favors the vendor is a red flag.",
+      "Student data may be used to train a vendor's models if the vendor says it is anonymous."
+    ],
+    "assessmentOpportunities": [
+      "\"Vendor will notify the district of a breach in a timely manner.\" What is the verdict?",
+      "Is every clause that favors the vendor a red flag?",
+      "A vendor says the student data it trains on is anonymous. Is that enough?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Category buttons",
+      "type": "button",
+      "description": "Choose the verdict for the current clause."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the choice. Two tries per clause; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next clause. Finish shows the score."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Reshuffles and begins a new run."
+    },
+    {
+      "name": "Show definitions",
+      "type": "checkbox",
+      "description": "Shows the definitions."
+    }
+  ],
+  "chapter": "21-implementing-ai-native-model-responsibly"
+}

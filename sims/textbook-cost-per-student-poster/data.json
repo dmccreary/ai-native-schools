@@ -1,0 +1,101 @@
+{
+  "title": "What a Textbook Costs per Student",
+  "image": "textbook-cost-per-student.svg",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#4a7fc1", "#e8b33a", "#7b5cc4", "#f28c28", "#5d6b7a"],
+  "zones": [
+    {
+      "id": "print-baseline",
+      "label": "Print baseline",
+      "color": "#4a7fc1",
+      "x1": 2.0, "y1": 4.0, "x2": 26.5, "y2": 97.0,
+      "summary": "About $53.33 per student per year (illustrative), drawn as one tall pile of closed books.",
+      "facts": [
+        "Illustrative: an $80 book used for six years in four core subjects is $80 ÷ 6 × 4, about $53.33 per student per year (Chapter 7).",
+        "The whole cost is one item, content. That is why the pile is a single color, the same blue as the small content block at the bottom of each digital stack.",
+        "For Mr. Patel's 12,000-student district, print costs about $640,000 a year (illustrative, Chapter 7).",
+        "Compare the piles: content that cost about $53 in print costs $1.80 at every digital level. Falling content cost is the benefit this poster shows."
+      ]
+    },
+    {
+      "id": "level-2",
+      "label": "Level 2",
+      "color": "#c39226",
+      "x1": 27.5, "y1": 52.0, "x2": 50.0, "y2": 97.0,
+      "summary": "$5.80 per student per year (illustrative): an interactive textbook served as ordinary web pages.",
+      "facts": [
+        "Content and hosting, $1.80 (blue): the penny-per-day target, 180 school days × $0.01 (illustrative, Chapter 7).",
+        "Teacher training, $4.00 (gold), is already the largest block. A free textbook still costs money to run well.",
+        "Total $1.80 + $4.00 = $5.80, or $69,600 a year for 12,000 students (illustrative, Chapter 7).",
+        "The device is not in this stack. The figure assumes the school already owns its laptops."
+      ]
+    },
+    {
+      "id": "level-3",
+      "label": "Level 3",
+      "color": "#7b5cc4",
+      "x1": 51.0, "y1": 52.0, "x2": 74.5, "y2": 97.0,
+      "summary": "$12.80 per student per year (illustrative): an adaptive textbook that keeps each student's records.",
+      "facts": [
+        "Adds a records platform, such as a Learning Record Store, at $3.00 (purple) and privacy governance at $2.00 (green), for data-protection reviews and audits (illustrative, Chapter 7).",
+        "Training rises from $4.00 to $6.00 (gold).",
+        "Total $1.80 + $3.00 + $2.00 + $6.00 = $12.80, or $153,600 a year for 12,000 students (illustrative, Chapter 7).",
+        "Governance and training are the hidden costs: they are not in a software price, but a school that skips them puts student data at risk."
+      ]
+    },
+    {
+      "id": "level-4",
+      "label": "Level 4",
+      "color": "#d0711a",
+      "x1": 75.5, "y1": 52.0, "x2": 99.0, "y2": 97.0,
+      "summary": "$23.00 per student per year (illustrative): an adaptive textbook with a chatbot tutor.",
+      "facts": [
+        "Adds AI inference, the glowing block with the chat bubble: 20,000 tokens × 1 session × 180 days is 3.6 million tokens, × $2.00 per million = $7.20 (illustrative, Chapter 7).",
+        "Adds guardrail log review at $1.00 (the thin red block), and training rises to $8.00 (gold).",
+        "Total $1.80 + $3.00 + $2.00 + $1.00 + $8.00 + $7.20 = $23.00, or $276,000 a year for 12,000 students (illustrative, Chapter 7).",
+        "Even $23.00 is about 0.15 percent of the $15,600 per-pupil spending of Chapter 1, and still well under half the print pile."
+      ]
+    },
+    {
+      "id": "device",
+      "label": "The device (faded)",
+      "color": "#5d6b7a",
+      "x1": 27.5, "y1": 4.0, "x2": 99.0, "y2": 51.0,
+      "summary": "About $75 per student per year (illustrative), drawn faded and behind the stacks because the table leaves it out.",
+      "facts": [
+        "Illustrative: a $300 school laptop used for four years is $75 a year. The laptop's height above the table is drawn on the same scale as the blocks (Chapter 7).",
+        "With a new device, total cost of ownership is $80.80 at Level 2, $87.80 at Level 3 and $98.00 at Level 4 (illustrative, Chapter 7).",
+        "When devices must be bought, the device is the largest cost at every digital level, about 77 to 93 percent of the total. That is the risk of comparing software prices alone.",
+        "The response is a total-cost-of-ownership model with stated assumptions, like Mr. Patel's table. Replace every illustrative figure with your district's own quotes."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which option costs about $53.33 per student per year, all in one content item?",
+      "correct_zone": "print-baseline",
+      "explanation": "An $80 book used six years in four subjects is about $53.33 a year (illustrative, Chapter 7)."
+    },
+    {
+      "question": "Which level costs $5.80 per student per year, with training as its biggest block?",
+      "correct_zone": "level-2",
+      "explanation": "$1.80 content and hosting plus $4.00 training (illustrative, Chapter 7)."
+    },
+    {
+      "question": "Which level first adds a records platform and privacy governance, but no AI inference?",
+      "correct_zone": "level-3",
+      "explanation": "Level 3 adds $3.00 for records and $2.00 for governance, for $12.80 (illustrative, Chapter 7)."
+    },
+    {
+      "question": "Which level adds $7.20 of AI inference and $1.00 of guardrail log review?",
+      "correct_zone": "level-4",
+      "explanation": "Level 4 totals $23.00 (illustrative, Chapter 7)."
+    },
+    {
+      "question": "Which cost is larger than any whole digital stack, yet is left out of the per-student totals?",
+      "correct_zone": "device",
+      "explanation": "A $300 laptop over four years is $75 a year, more than the $23.00 Level 4 stack (illustrative, Chapter 7)."
+    }
+  ]
+}

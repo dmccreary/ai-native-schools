@@ -1,0 +1,84 @@
+{
+  "title": "One Lesson, Many Readiness Levels",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Predict where one whole-class lesson should be pitched for a class spread across eight readiness levels, then move the pitch to see who is in reach.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "The learning gap and whole-class instruction",
+    "learningObjectives": [
+      "The learner will examine how the pitch of a single whole-class lesson determines how many students in a mixed-readiness class are in reach, too far behind, or already ahead, and identify the pitch that reaches the most students."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Learning gap, direct instruction, classroom, readiness as a grade level, and the \"in reach\" rule, from Chapter 1."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 808
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict, check, then explore one variable",
+    "keyQuestions": [
+      "Which pitch puts the most students in reach?",
+      "How many students does the best pitch miss?"
+    ],
+    "commonMisconceptions": [
+      "Teaching to the middle reaches most of the class",
+      "A skilled enough teacher can find one pitch that works for everyone",
+      "Students ahead of the lesson are still learning something"
+    ],
+    "assessmentOpportunities": [
+      "Which pitch reaches the most students, and how many?",
+      "At pitch 7, how many find the lesson too hard?",
+      "Can one pitch reach the whole class?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Q1 and Q2 boxes",
+      "type": "input",
+      "description": "Type your predictions for the best pitch and the number of students it reaches."
+    },
+    {
+      "name": "Check Q1 and Q2",
+      "type": "button",
+      "description": "Checks both predictions. The pitch slider unlocks once both are checked."
+    },
+    {
+      "name": "Pitch slider",
+      "type": "slider",
+      "description": "Sets the lesson pitch from grade 3 to grade 10 after it unlocks."
+    },
+    {
+      "name": "Q3 box and Check Q3",
+      "type": "button",
+      "description": "Type and check how many students find the pitch-7 lesson too hard."
+    },
+    {
+      "name": "Reset",
+      "type": "button",
+      "description": "Returns to the opening state with the pitch locked at 7."
+    }
+  ],
+  "chapter": "01-building-blocks-schools-students"
+}

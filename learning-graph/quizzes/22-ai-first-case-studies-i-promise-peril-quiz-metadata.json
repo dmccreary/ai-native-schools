@@ -1,0 +1,137 @@
+{
+  "chapter": "AI-First Case Studies I: Promise and Peril",
+  "chapter_file": "docs/chapters/22-ai-first-case-studies-i-promise-peril/index.md",
+  "quiz_file": "docs/chapters/22-ai-first-case-studies-i-promise-peril/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "advanced",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch22-q001",
+      "number": 1,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Alpha Tuition Range",
+      "tags": [
+        "alpha-tuition-range",
+        "alpha-school",
+        "cost-and-equity"
+      ]
+    },
+    {
+      "id": "ch22-q002",
+      "number": 2,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Composite Story",
+      "tags": [
+        "composite-story",
+        "real-case-study",
+        "storytelling"
+      ]
+    },
+    {
+      "id": "ch22-q003",
+      "number": 3,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Risk Mitigation",
+      "tags": [
+        "risk-mitigation",
+        "reduce-the-negatives"
+      ]
+    },
+    {
+      "id": "ch22-q004",
+      "number": 4,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Software Is Not the Model",
+      "tags": [
+        "software-is-not-the-model",
+        "unbound-academy",
+        "alpha-adult-guides"
+      ]
+    },
+    {
+      "id": "ch22-q005",
+      "number": 5,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Pilot Risk Checklist",
+      "tags": [
+        "pilot-risk-checklist",
+        "risks-of-ai-first-schools"
+      ]
+    },
+    {
+      "id": "ch22-q006",
+      "number": 6,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Design Over Raw AI Power",
+      "tags": [
+        "design-over-raw-ai-power",
+        "turkish-high-school-study",
+        "harvard-physics-ai-tutor"
+      ]
+    },
+    {
+      "id": "ch22-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Summit Learning",
+      "tags": [
+        "summit-learning",
+        "screen-time"
+      ]
+    },
+    {
+      "id": "ch22-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Risk-and-Response Framework",
+      "tags": [
+        "risk-and-response-framework",
+        "lesson-from-a-case"
+      ]
+    },
+    {
+      "id": "ch22-q009",
+      "number": 9,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Unbound Academy",
+      "tags": [
+        "unbound-academy",
+        "self-reported-results"
+      ]
+    },
+    {
+      "id": "ch22-q010",
+      "number": 10,
+      "correct_answer": "B",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concept_tested": "Real Case Study",
+      "tags": [
+        "real-case-study",
+        "two-to-three-hour-learning",
+        "2-hour-learning"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 23,
+  "chapter_concepts_tested": 10
+}

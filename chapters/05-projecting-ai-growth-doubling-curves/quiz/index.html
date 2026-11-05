@@ -1,0 +1,2732 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An interactive intelligent textbook about how AI is enabling more pro-social behaviors in schools. The theme is "Mornings with AI, Afternoons with Each Other".">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/ai-native-schools/chapters/05-projecting-ai-growth-doubling-curves/quiz/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../references/">
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Quiz - AI-Native Schools</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-270094HPGG"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-270094HPGG",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-270094HPGG",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-projecting-ai-growth-doubling-curves-limits-and-uncertainty" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="AI-Native Schools" class="md-header__button md-logo" aria-label="AI-Native Schools" data-md-component="logo">
+      
+  <img src="../../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI-Native Schools
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/ai-native-schools" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="AI-Native Schools" class="md-nav__button md-logo" aria-label="AI-Native Schools" data-md-component="logo">
+      
+  <img src="../../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    AI-Native Schools
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/ai-native-schools" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../01-building-blocks-schools-students/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    1. The Building Blocks of Schools, Students, and Learning
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../02-evidence-motivation-stakeholders/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    2. Evidence, Motivation, and the Stakeholders of Schooling
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../03-school-structures-equity-industrial-era/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    3. School Structures, Equity, and the Industrial-Era Legacy
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../04-measuring-ai-capability-metr/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    4. Measuring AI Capability: The METR Task-Horizon Studies
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    5. Projecting AI Growth: Doubling Curves, Limits, and Uncertainty
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_6">
+            <span class="md-nav__icon md-icon"></span>
+            5. Projecting AI Growth: Doubling Curves, Limits, and Uncertainty
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-defines-a-logarithmic-scale-on-a-chart-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. What defines a logarithmic scale on a chart axis?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-in-the-chapters-comparison-linear-and-exponential-projections-from-a-50-minute-horizon-are-nearly-the-same-at-12-months-why-does-this-matter" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. In the chapter's comparison, linear and exponential projections from a 50-minute horizon are nearly the same at 12 months. Why does this matter?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-on-a-base-ten-log-scale-chart-a-trend-line-with-a-five-month-doubling-time-climbs-two-full-gridlines-a-factor-of-100-about-how-long-did-that-take" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. On a base-ten log-scale chart, a trend line with a five-month doubling time climbs two full gridlines, a factor of 100. About how long did that take?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-on-a-log-scale-chart-of-ai-task-horizons-the-trend-line-begins-to-bend-downward-what-does-that-indicate" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. On a log-scale chart of AI task horizons, the trend line begins to bend downward. What does that indicate?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-a-school-board-is-unsure-whether-ai-progress-will-continue-halve-or-stall-which-decision-is-a-no-regret-move-under-the-chapters-planning-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. A school board is unsure whether AI progress will continue, halve, or stall. Which decision is a no-regret move under the chapter's planning approach?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-what-is-ai-hallucination" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. What is AI hallucination?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-a-consultant-tells-a-district-in-three-years-the-ai-task-horizon-will-be-122-hours-what-does-the-chapter-say-an-honest-forecast-should-add" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. A consultant tells a district, "In three years the AI task horizon will be 122 hours." What does the chapter say an honest forecast should add?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-the-books-design-uses-ai-mainly-to-write-content-once-and-serve-it-as-ordinary-web-pages-rather-than-running-a-live-chatbot-session-for-every-student-all-day-what-reasoning-from-the-chapter-supports-that-choice" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. The book's design uses AI mainly to write content once and serve it as ordinary web pages, rather than running a live chatbot session for every student all day. What reasoning from the chapter supports that choice?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-according-to-the-chapter-when-does-trend-extrapolation-tend-to-fail" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. According to the chapter, when does trend extrapolation tend to fail?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-a-teacher-estimates-that-building-a-full-interactive-unit-takes-about-800-minutes-of-skilled-human-work-starting-from-a-50-percent-horizon-of-50-minutes-and-five-month-doubling-when-would-the-50-percent-horizon-reach-that-length-on-the-central-trend" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. A teacher estimates that building a full interactive unit takes about 800 minutes of skilled human work. Starting from a 50 percent horizon of 50 minutes and five-month doubling, when would the 50 percent horizon reach that length on the central trend?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotated References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../06-five-level-model-intelligent-textbooks/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    6. The Five-Level Model of Intelligent Textbooks
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../07-content-economics-open-educational/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    7. Content Economics and Open Educational Resources
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../08-tracking-mastery-xapi-learning-record/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    8. Tracking Mastery: xAPI, Learning Record Stores, and MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../09-learning-graphs-interoperability/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    9. Learning Graphs, Interoperability Standards, and Access at Scale
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../10-student-privacy-data-governance/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    10. Student Privacy and Data Governance
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../11-mastery-learning-case-compressed-morning/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    11. Mastery Learning and the Case for a Compressed Morning
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../12-ai-guardrails-teaching-thinking-without/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    12. AI Guardrails: Teaching Thinking Without Over-Reliance
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../13-social-learning-human-skills/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    13. Social Learning and Human Skills
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../14-pro-social-afternoon/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    14. The Pro-Social Afternoon
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../15-technology-adoption-diffusion-innovation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    15. Technology Adoption and the Diffusion of Innovation
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../16-organizational-change-models/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    16. Organizational Change Models
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../17-leading-change-vision-culture/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    17. Leading Change: Vision, Culture, and Early-Stage Concerns
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../18-sustaining-change-systems-thinking/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    18. Sustaining Change: Systems Thinking and National Adoption
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../19-microstrategies-leading-change/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    19. Microstrategies for Leading Change
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../20-designing-ai-native-school-day/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    20. Designing the AI-Native School Day
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../21-implementing-ai-native-model-responsibly/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    21. Implementing the AI-Native Model Responsibly
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../22-ai-first-case-studies-i-promise-peril/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    22. AI-First Case Studies I: Promise and Peril
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../23-ai-first-case-studies-ii-lessons/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    23. AI-First Case Studies II: Lessons for Practice
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../appendices/ai-first-stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-defines-a-logarithmic-scale-on-a-chart-axis" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. What defines a logarithmic scale on a chart axis?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-in-the-chapters-comparison-linear-and-exponential-projections-from-a-50-minute-horizon-are-nearly-the-same-at-12-months-why-does-this-matter" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. In the chapter's comparison, linear and exponential projections from a 50-minute horizon are nearly the same at 12 months. Why does this matter?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-on-a-base-ten-log-scale-chart-a-trend-line-with-a-five-month-doubling-time-climbs-two-full-gridlines-a-factor-of-100-about-how-long-did-that-take" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. On a base-ten log-scale chart, a trend line with a five-month doubling time climbs two full gridlines, a factor of 100. About how long did that take?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-on-a-log-scale-chart-of-ai-task-horizons-the-trend-line-begins-to-bend-downward-what-does-that-indicate" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. On a log-scale chart of AI task horizons, the trend line begins to bend downward. What does that indicate?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-a-school-board-is-unsure-whether-ai-progress-will-continue-halve-or-stall-which-decision-is-a-no-regret-move-under-the-chapters-planning-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. A school board is unsure whether AI progress will continue, halve, or stall. Which decision is a no-regret move under the chapter's planning approach?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-what-is-ai-hallucination" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. What is AI hallucination?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-a-consultant-tells-a-district-in-three-years-the-ai-task-horizon-will-be-122-hours-what-does-the-chapter-say-an-honest-forecast-should-add" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. A consultant tells a district, "In three years the AI task horizon will be 122 hours." What does the chapter say an honest forecast should add?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-the-books-design-uses-ai-mainly-to-write-content-once-and-serve-it-as-ordinary-web-pages-rather-than-running-a-live-chatbot-session-for-every-student-all-day-what-reasoning-from-the-chapter-supports-that-choice" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. The book's design uses AI mainly to write content once and serve it as ordinary web pages, rather than running a live chatbot session for every student all day. What reasoning from the chapter supports that choice?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-according-to-the-chapter-when-does-trend-extrapolation-tend-to-fail" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. According to the chapter, when does trend extrapolation tend to fail?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-a-teacher-estimates-that-building-a-full-interactive-unit-takes-about-800-minutes-of-skilled-human-work-starting-from-a-50-percent-horizon-of-50-minutes-and-five-month-doubling-when-would-the-50-percent-horizon-reach-that-length-on-the-central-trend" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. A teacher estimates that building a full interactive unit takes about 800 minutes of skilled human work. Starting from a 50 percent horizon of 50 minutes and five-month doubling, when would the 50 percent horizon reach that length on the central trend?
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/ai-native-schools/blob/main/docs/chapters/05-projecting-ai-growth-doubling-curves/quiz.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-projecting-ai-growth-doubling-curves-limits-and-uncertainty">Quiz: Projecting AI Growth: Doubling Curves, Limits, and Uncertainty<a class="headerlink" href="#quiz-projecting-ai-growth-doubling-curves-limits-and-uncertainty" title="Permanent link">&para;</a></h1>
+<p>Test your understanding of log-scale charts, multi-year AI forecasts, their assumptions and limits, and how to plan under uncertainty with these review questions.</p>
+<hr />
+<h4 id="1-what-defines-a-logarithmic-scale-on-a-chart-axis">1. What defines a logarithmic scale on a chart axis?<a class="headerlink" href="#1-what-defines-a-logarithmic-scale-on-a-chart-axis" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Equal distances along the axis represent equal multiples rather than equal amounts</li>
+<li>Equal distances along the axis represent equal amounts, such as 0, 100, 200, 300</li>
+<li>The axis starts at zero and doubles its spacing with each new gridline</li>
+<li>The axis shows percentages of the final value rather than raw numbers</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. On a logarithmic scale, equal distances stand for equal multiples: in the base-ten version the gridlines read 1, 10, 100, 1,000, and the distance from 1 to 10 equals the distance from 10 to 100. The second option describes an ordinary linear axis. A log axis cannot start at zero, and its gridlines are evenly spaced, not doubling in spacing. This property is why constant doubling plots as a straight line on a log-scale chart.</p>
+<p><strong>Concept Tested:</strong> Logarithmic Scale</p>
+<p><strong>See:</strong> <a href="../#reading-a-logarithmic-chart">Reading a Logarithmic Chart</a></p>
+</details>
+<hr />
+<h4 id="2-in-the-chapters-comparison-linear-and-exponential-projections-from-a-50-minute-horizon-are-nearly-the-same-at-12-months-why-does-this-matter">2. In the chapter's comparison, linear and exponential projections from a 50-minute horizon are nearly the same at 12 months. Why does this matter?<a class="headerlink" href="#2-in-the-chapters-comparison-linear-and-exponential-projections-from-a-50-minute-horizon-are-nearly-the-same-at-12-months-why-does-this-matter" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>It shows the exponential trend is an illusion that disappears in real data</li>
+<li>It proves that linear growth is the safer assumption for school planning</li>
+<li>Early data cannot tell the two shapes apart, though they diverge hugely later</li>
+<li>It shows that both models reach the same value at every later point as well</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. At 12 months the linear projection gives 2.8 hours and the exponential about 4.4 hours, so early data look similar. By 36 months the exponential value is about 18 times the linear one, and by 48 months about 73 times. The chapter says people who understand a doubling trend and people extrapolating a straight line are disagreeing about the shape, not the facts. The near-match early on is exactly what makes the shape hard to see, not a sign either model is wrong.</p>
+<p><strong>Concept Tested:</strong> Linear Growth</p>
+<p><strong>See:</strong> <a href="../#linear-versus-exponential-growth">Linear Versus Exponential Growth</a></p>
+</details>
+<hr />
+<h4 id="3-on-a-base-ten-log-scale-chart-a-trend-line-with-a-five-month-doubling-time-climbs-two-full-gridlines-a-factor-of-100-about-how-long-did-that-take">3. On a base-ten log-scale chart, a trend line with a five-month doubling time climbs two full gridlines, a factor of 100. About how long did that take?<a class="headerlink" href="#3-on-a-base-ten-log-scale-chart-a-trend-line-with-a-five-month-doubling-time-climbs-two-full-gridlines-a-factor-of-100-about-how-long-did-that-take" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>About 10 months</li>
+<li>About 20 months</li>
+<li>About 50 months</li>
+<li>About 33 months</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. Each base-ten gridline is a tenfold increase and contains a little over three doublings, since <span class="arithmatex">\( 2^{3.32} \approx 10 \)</span>. Two gridlines is a factor of 100, or about 6.6 doublings, and at five months each that is about 33 months. The 10-month answer counts one doubling per gridline. The 20-month answer counts two doublings per gridline. Reading a log chart means translating distance into doublings and doublings into time.</p>
+<p><strong>Concept Tested:</strong> Log-Scale Chart</p>
+<p><strong>See:</strong> <a href="../#reading-a-logarithmic-chart">Reading a Logarithmic Chart</a></p>
+</details>
+<hr />
+<h4 id="4-on-a-log-scale-chart-of-ai-task-horizons-the-trend-line-begins-to-bend-downward-what-does-that-indicate">4. On a log-scale chart of AI task horizons, the trend line begins to bend downward. What does that indicate?<a class="headerlink" href="#4-on-a-log-scale-chart-of-ai-task-horizons-the-trend-line-begins-to-bend-downward-what-does-that-indicate" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>The horizon has started to shrink, so AI systems are losing capability</li>
+<li>Growth is slowing, so the doubling time is getting longer</li>
+<li>Growth has become faster than exponential, so doublings are speeding up</li>
+<li>The data have switched from a log scale to a linear scale</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. On a log-scale chart, a straight line means a constant doubling time. A line that bends upward means growth faster than exponential, and a line that bends downward means growth is slowing. A downward bend does not mean the horizon is falling; it can still be rising, just by smaller multiples per period. The chapter's rules for reading a log chart are to check the axis, read straight as constant doubling, and treat distance as a ratio.</p>
+<p><strong>Concept Tested:</strong> Log-Scale Chart</p>
+<p><strong>See:</strong> <a href="../#reading-a-logarithmic-chart">Reading a Logarithmic Chart</a></p>
+</details>
+<hr />
+<h4 id="5-a-school-board-is-unsure-whether-ai-progress-will-continue-halve-or-stall-which-decision-is-a-no-regret-move-under-the-chapters-planning-approach">5. A school board is unsure whether AI progress will continue, halve, or stall. Which decision is a no-regret move under the chapter's planning approach?<a class="headerlink" href="#5-a-school-board-is-unsure-whether-ai-progress-will-continue-halve-or-stall-which-decision-is-a-no-regret-move-under-the-chapters-planning-approach" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Train all teachers in AI literacy</li>
+<li>Sign a five-year contract with one AI tutor vendor</li>
+<li>Buy a device fleet sized for the central forecast</li>
+<li>Postpone all AI decisions until the trend is settled</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. A no-regret move pays off in every scenario. Training teachers in AI literacy is useful even if the trend stalls, because students already use chatbots. A five-year single-vendor contract is a bet on one future and is wasteful if the vendor fails, so the chapter recommends one-year terms instead. Sizing purchases to the central forecast ignores the range. Waiting gives up no-regret gains, such as data governance and pacing pilots, that are worth doing regardless.</p>
+<p><strong>Concept Tested:</strong> Planning Under Uncertainty</p>
+<p><strong>See:</strong> <a href="../#worked-example-a-three-scenario-table-for-lincoln-middle">Worked Example: A Three-Scenario Table for Lincoln Middle</a></p>
+</details>
+<hr />
+<h4 id="6-what-is-ai-hallucination">6. What is AI hallucination?<a class="headerlink" href="#6-what-is-ai-hallucination" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>An AI system refusing to answer a question it was not trained on</li>
+<li>An AI system slowing down when too many users send requests at once</li>
+<li>An AI system copying text word for word from the data it was trained on</li>
+<li>An AI system generating confident content that is false or unsupported</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>D</strong>. Hallucination is fluent, confident output that is false or unsupported, such as an invented fact, a fabricated quotation, or a citation to a paper that does not exist. It happens because an LLM generates likely-sounding text with no built-in check on truth. The 2023 case of a lawyer sanctioned for citing invented court cases is the chapter's example. Grounding, citation checking, and human verification reduce but do not eliminate it.</p>
+<p><strong>Concept Tested:</strong> AI Hallucination</p>
+<p><strong>See:</strong> <a href="../#ai-hallucination-and-ai-literacy">AI Hallucination and AI Literacy</a></p>
+</details>
+<hr />
+<h4 id="7-a-consultant-tells-a-district-in-three-years-the-ai-task-horizon-will-be-122-hours-what-does-the-chapter-say-an-honest-forecast-should-add">7. A consultant tells a district, "In three years the AI task horizon will be 122 hours." What does the chapter say an honest forecast should add?<a class="headerlink" href="#7-a-consultant-tells-a-district-in-three-years-the-ai-task-horizon-will-be-122-hours-what-does-the-chapter-say-an-honest-forecast-should-add" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>A guarantee that the figure will be reached, backed by the vendor's track record</li>
+<li>A more precise starting value, since that is the main source of error</li>
+<li>A range, since a one-month change in doubling time shifts the answer two- or threefold</li>
+<li>A list of schools that have already reached that horizon in their classrooms</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. Forecast uncertainty grows the further a forecast looks, and in an exponential forecast the doubling time dominates because it sits in the exponent. Moving from five to four or six months shifts the three-year answer by a factor of about two or three, and the four- and six-month ends differ by a factor of eight. The chapter says precision about the doubling time matters more than precision about the starting value, so the second option is the tempting reversal.</p>
+<p><strong>Concept Tested:</strong> Forecast Uncertainty</p>
+<p><strong>See:</strong> <a href="../#forecast-uncertainty">Forecast Uncertainty</a></p>
+</details>
+<hr />
+<h4 id="8-the-books-design-uses-ai-mainly-to-write-content-once-and-serve-it-as-ordinary-web-pages-rather-than-running-a-live-chatbot-session-for-every-student-all-day-what-reasoning-from-the-chapter-supports-that-choice">8. The book's design uses AI mainly to write content once and serve it as ordinary web pages, rather than running a live chatbot session for every student all day. What reasoning from the chapter supports that choice?<a class="headerlink" href="#8-the-books-design-uses-ai-mainly-to-write-content-once-and-serve-it-as-ordinary-web-pages-rather-than-running-a-live-chatbot-session-for-every-student-all-day-what-reasoning-from-the-chapter-supports-that-choice" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>Chatbot tutoring uses more electricity than all other data center work combined</li>
+<li>Content written once costs about one run of energy, however many students read it</li>
+<li>Web pages cannot hallucinate, so they need no review by teachers before use</li>
+<li>Live chatbots are banned in public school classrooms under the EU AI Act</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>B</strong>. The chapter notes that writing a chapter once and serving it to a million students costs about the same energy as one run, not a million. Its AI prediction for schools is about content that can be written once and served cheaply, not a private human-level tutor for every student. Chatbot tutoring is modest in energy, about 12 watt-hours per session in the example, so the first option overstates it. AI-written content still needs checking, and the EU AI Act is cited for AI literacy, not a chatbot ban.</p>
+<p><strong>Concept Tested:</strong> AI Prediction for Schools</p>
+<p><strong>See:</strong> <a href="../#worked-example-the-energy-of-a-tutoring-year">Worked Example: The Energy of a Tutoring Year</a></p>
+</details>
+<hr />
+<h4 id="9-according-to-the-chapter-when-does-trend-extrapolation-tend-to-fail">9. According to the chapter, when does trend extrapolation tend to fail?<a class="headerlink" href="#9-according-to-the-chapter-when-does-trend-extrapolation-tend-to-fail" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>When the forces that produced the past pattern change</li>
+<li>When the trend has been measured for more than a few years</li>
+<li>When the data are plotted on a logarithmic scale</li>
+<li>When the trend involves costs rather than capabilities</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>A</strong>. Trend extrapolation extends a past pattern on the assumption that the forces behind it continue. It works over short spans and fails exactly when those forces change, which is when the forecast matters most. Moore's law held for decades and then slowed near physical limits, and many exponential-looking trends turn out to be the early part of an S-curve. A long record or a log scale does not by itself make extrapolation fail.</p>
+<p><strong>Concept Tested:</strong> Trend Extrapolation</p>
+<p><strong>See:</strong> <a href="../#projecting-the-trend">Projecting the Trend</a></p>
+</details>
+<hr />
+<h4 id="10-a-teacher-estimates-that-building-a-full-interactive-unit-takes-about-800-minutes-of-skilled-human-work-starting-from-a-50-percent-horizon-of-50-minutes-and-five-month-doubling-when-would-the-50-percent-horizon-reach-that-length-on-the-central-trend">10. A teacher estimates that building a full interactive unit takes about 800 minutes of skilled human work. Starting from a 50 percent horizon of 50 minutes and five-month doubling, when would the 50 percent horizon reach that length on the central trend?<a class="headerlink" href="#10-a-teacher-estimates-that-building-a-full-interactive-unit-takes-about-800-minutes-of-skilled-human-work-starting-from-a-50-percent-horizon-of-50-minutes-and-five-month-doubling-when-would-the-50-percent-horizon-reach-that-length-on-the-central-trend" title="Permanent link">&para;</a></h4>
+<div class="upper-alpha">
+<ol>
+<li>About 80 months</li>
+<li>About 16 months</li>
+<li>About 20 months</li>
+<li>About 4 months</li>
+</ol>
+</div>
+<details class="question">
+<summary>Show Answer</summary>
+<p>The correct answer is <strong>C</strong>. The target is 800 / 50 = 16 times the starting horizon, which is four doublings, since <span class="arithmatex">\( 2^4 = 16 \)</span>. Four doublings at five months each is 20 months. The 16-month answer confuses the growth factor with months, the 4-month answer gives the number of doublings, and the 80-month answer multiplies 16 by five. As the chapter shows, a 50 percent horizon still means failure half the time, so a reliable result would come later.</p>
+<p><strong>Concept Tested:</strong> Three-to-Four-Year Forecast</p>
+<p><strong>See:</strong> <a href="../#worked-example-when-could-ai-build-a-textbook-chapter">Worked Example: When Could AI Build a Textbook Chapter?</a></p>
+</details>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<h2 id="feedback">Feedback</h2>
+<p>Ask a question, suggest an improvement, or share how you applied this material.</p>
+<script src="https://giscus.app/client.js"
+        data-repo="dmccreary/ai-native-schools"
+        data-repo-id="R_kgDOVhwbJQ"
+        data-category="General"
+        data-category-id="DIC_kwDOVhwbJc4DKceW"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Content">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Content
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../references/" class="md-footer__link md-footer__link--next" aria-label="Next: Annotated References">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Annotated References
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../../js/katex.js"></script>
+      
+        <script src="../../../js/extra.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

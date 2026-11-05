@@ -1,0 +1,78 @@
+{
+  "title": "Four Thinking Skills Sorter",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify eight school activities as decomposition, pattern recognition, abstraction, or algorithmic thinking.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Four Thinking Skills Sorter",
+    "learningObjectives": [
+      "The learner will classify eight student activities as decomposition, pattern recognition, abstraction, or algorithmic thinking, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Decomposition, pattern recognition, abstraction, and algorithmic thinking, from the section \"Teaching Thinking with AI\" in Chapter 12"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 618
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, get feedback with the reason, and review what was missed",
+    "keyQuestions": [
+      "What is the defining move in this activity?"
+    ],
+    "commonMisconceptions": [
+      "Any step-by-step activity is an algorithm",
+      "Abstraction means making something harder to understand",
+      "Breaking a task into steps is the same as writing an algorithm"
+    ],
+    "assessmentOpportunities": [
+      "A student lists the steps to make a sandwich so a robot could follow them. Which skill?",
+      "Is every step-by-step activity an algorithm?",
+      "Does abstraction make a problem harder to understand?"
+    ]
+  },
+  "chapter": "12-ai-guardrails-teaching-thinking-without",
+  "controls": [
+    {
+      "name": "Choice buttons",
+      "type": "button",
+      "description": "commit an answer. A wrong first answer gives a hint and lets you choose again; only the first answer counts."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "opens or closes the reference table. Reading it is exploration, not evidence."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "moves to the next item after feedback. On the results screen, Previous missed and Next missed step through what you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "starts a practice run with the items reshuffled. Practice runs do not change the first-run score."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "title": "Building Blocks Concept Map",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Explore how the 21 Chapter 1 concepts depend on one another, then select the direct prerequisites of six concepts on the map.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Concept dependencies in Chapter 1",
+    "learningObjectives": [
+      "The learner will explain which earlier concepts each Chapter 1 concept depends on by identifying its direct prerequisites in the chapter's concept map, correctly answering at least five of six prerequisite questions."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "All 21 concepts in Chapter 1, and the meaning of a dependency arrow from the section \"Putting the Building Blocks Together.\""
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "9.1.9",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 720
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network 9.1.9 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Read a dependency map and select answers on the map itself",
+    "keyQuestions": [
+      "Which concepts do the arrows leaving this concept point to?",
+      "Which concepts have no prerequisites?"
+    ],
+    "commonMisconceptions": [
+      "The concepts are independent vocabulary words",
+      "Advanced-sounding concepts such as Higher-Order Thinking must have many prerequisites",
+      "Arrows point from a prerequisite to what it enables"
+    ],
+    "assessmentOpportunities": [
+      "What are the direct prerequisites of Direct Instruction?",
+      "How many direct prerequisites does Higher-Order Thinking have?",
+      "Which concepts have no prerequisites?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Concept nodes",
+      "type": "click",
+      "description": "In explore mode, click to read a definition. In the quiz, click to select or unselect."
+    },
+    {
+      "name": "Start quiz",
+      "type": "button",
+      "description": "Begins the six questions."
+    },
+    {
+      "name": "Clear selection",
+      "type": "button",
+      "description": "Unselects every concept for the current question."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the selected concepts against the direct prerequisites."
+    },
+    {
+      "name": "Next question",
+      "type": "button",
+      "description": "Moves on after feedback."
+    },
+    {
+      "name": "Zoom in, Zoom out, Reset",
+      "type": "button",
+      "description": "Change the view of the map. The mouse wheel does not zoom."
+    }
+  ],
+  "chapter": "01-building-blocks-schools-students"
+}

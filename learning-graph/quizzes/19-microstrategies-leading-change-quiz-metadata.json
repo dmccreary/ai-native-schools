@@ -1,0 +1,136 @@
+{
+  "chapter": "Microstrategies for Leading Change",
+  "chapter_file": "docs/chapters/19-microstrategies-leading-change/index.md",
+  "quiz_file": "docs/chapters/19-microstrategies-leading-change/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch19-q001",
+      "number": 1,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Switch Framework",
+      "tags": [
+        "switch-framework",
+        "direct-the-rider",
+        "motivate-the-elephant"
+      ]
+    },
+    {
+      "id": "ch19-q002",
+      "number": 2,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Positive Deviance",
+      "tags": [
+        "positive-deviance",
+        "bright-spots"
+      ]
+    },
+    {
+      "id": "ch19-q003",
+      "number": 3,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Shape the Path",
+      "tags": [
+        "shape-the-path",
+        "switch-framework"
+      ]
+    },
+    {
+      "id": "ch19-q004",
+      "number": 4,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Shrinking the First Step",
+      "tags": [
+        "shrinking-the-first-step",
+        "microstrategy"
+      ]
+    },
+    {
+      "id": "ch19-q005",
+      "number": 5,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Compounding Small Changes",
+      "tags": [
+        "compounding-small-changes"
+      ]
+    },
+    {
+      "id": "ch19-q006",
+      "number": 6,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Instructional Coaching",
+      "tags": [
+        "instructional-coaching",
+        "professional-development"
+      ]
+    },
+    {
+      "id": "ch19-q007",
+      "number": 7,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Matching Strategy to Concern",
+      "tags": [
+        "matching-strategy-to-concern",
+        "peer-observation",
+        "pilot-classroom"
+      ]
+    },
+    {
+      "id": "ch19-q008",
+      "number": 8,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Legitimate Concern",
+      "tags": [
+        "legitimate-concern",
+        "resistance-to-change",
+        "sources-of-resistance"
+      ]
+    },
+    {
+      "id": "ch19-q009",
+      "number": 9,
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Fear of Job Loss",
+      "tags": [
+        "fear-of-job-loss",
+        "responding-with-empathy"
+      ]
+    },
+    {
+      "id": "ch19-q010",
+      "number": 10,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Union Engagement",
+      "tags": [
+        "union-engagement",
+        "teacher-union",
+        "communicating-before-rumors",
+        "family-communication"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 35,
+  "chapter_concepts_tested": 10
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Name That Change Model",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Match each of eight school change situations to the change model that best addresses it.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Name That Change Model",
+    "learningObjectives": [
+      "The learner will classify eight school change situations by the model that best addresses them, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "The eight models (Kotter, Lewin, ADKAR, Bridges, Schein, Senge, Fullan, and CBAM), from the section \"The Models at a Glance\" in Chapter 16."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "Teachers are grieving the loss of a familiar role. Which model?",
+      "Scores fell before they rose and leaders are worried. Which model expects this?"
+    ],
+    "commonMisconceptions": [
+      "One model fits every change problem",
+      "The models compete and only one is right",
+      "A model for individuals can be used to diagnose a culture"
+    ],
+    "assessmentOpportunities": [
+      "Teachers are grieving the loss of a familiar role. Which model?",
+      "Scores fell before they rose and leaders are worried. Which model expects this?",
+      "Can a model for individuals, such as ADKAR, diagnose a whole culture?",
+      "Is one model right for every change problem?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "8 choice buttons",
+      "type": "button",
+      "description": "Choose one of the models; two tries per situation."
+    },
+    {
+      "name": "Show questions",
+      "type": "button",
+      "description": "Opens a table of the models and their meanings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves on after the feedback."
+    },
+    {
+      "name": "Previous missed, Next missed",
+      "type": "button",
+      "description": "On the results screen, page through the missed items."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the items for a practice run."
+    }
+  ],
+  "chapter": "16-organizational-change-models"
+}

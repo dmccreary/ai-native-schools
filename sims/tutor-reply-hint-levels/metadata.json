@@ -1,0 +1,79 @@
+{
+  "title": "Tutor Reply Hint Levels",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify eight AI tutor replies to the same juice-price question by hint level, from 1 (asks a question) to 4 (gives the answer).",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Tutor Reply Hint Levels",
+    "learningObjectives": [
+      "The learner will classify eight AI tutor replies to the same question by hint level (1 to 4), correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Productive struggle, the four-level hint ladder, cognitive offloading, and AI tutor, from Chapter 2 and Chapter 11"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 562
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, get feedback with the reason, and review what was missed",
+    "keyQuestions": [
+      "What is left for the student to do after this reply?",
+      "Does this reply suit a first response?"
+    ],
+    "commonMisconceptions": [
+      "A reply that is polite and detailed is a good hint",
+      "A long explanation is a Level 1 hint",
+      "A hint that shows a worked example of the same problem is not giving the answer"
+    ],
+    "assessmentOpportunities": [
+      "\"Divide the total by the number of bottles.\" Which level?",
+      "Is a worked example of a similar problem a Level 1 hint?",
+      "Why does a polite reply that states the answer still count as Level 4?"
+    ]
+  },
+  "chapter": "11-mastery-learning-case-compressed-morning",
+  "controls": [
+    {
+      "name": "Choice buttons",
+      "type": "button",
+      "description": "commit an answer. A wrong first answer gives a hint and lets you choose again; only the first answer counts."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "opens or closes the reference table. Reading it is exploration, not evidence."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "moves to the next item after feedback. On the results screen, Previous missed and Next missed step through what you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "starts a practice run with the items reshuffled. Practice runs do not change the first-run score."
+    }
+  ]
+}

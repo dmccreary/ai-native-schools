@@ -1,0 +1,81 @@
+{
+  "title": "Who May See This Record?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Judge whether each of eight requests to see or use a student's learning record should be allowed, allowed only with an agreement and family notice, or refused.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Access to student learning records",
+    "learningObjectives": [
+      "The learner will judge whether each of eight requests to see or use a student's learning record should be allowed, allowed only with an agreement and family notice, or not allowed, correctly judging at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Learning record, student-controlled data and its five parts, and data portability, from the section \"Data Portability and Student-Controlled Data\" in Chapter 8."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 660
+    },
+    "canvasHeight": 660,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Judge concrete requests against stated principles, with feedback on each case",
+    "keyQuestions": [
+      "Who is asking, and do they have an educational need?",
+      "Is the purpose within what the family was told?"
+    ],
+    "commonMisconceptions": [
+      "Anyone at the school may see any student's record",
+      "A vendor may use records for any purpose once it has them",
+      "A family may only look at the record, never take a copy"
+    ],
+    "assessmentOpportunities": [
+      "A teacher views her own class's mastery records to plan. Response?",
+      "The vendor wants identifiable records to train a new commercial product. Response?",
+      "A district-approved tutoring partner asks for one student's fractions mastery. Response?",
+      "May a family take a copy of the record?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Allow, Agreement and family notice, Do not allow",
+      "description": "choose a response."
+    },
+    {
+      "name": "Submit",
+      "description": "commits it. Two attempts per request; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves on; after the eighth it shows your score."
+    },
+    {
+      "name": "Show the responses and principles",
+      "description": "checkbox that shows what each response means and the five principles."
+    },
+    {
+      "name": "Try again",
+      "description": "reshuffles the requests and starts over."
+    }
+  ],
+  "chapter": "08-tracking-mastery-xapi-learning-record"
+}

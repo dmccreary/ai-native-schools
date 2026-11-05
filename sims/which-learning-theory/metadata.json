@@ -1,0 +1,79 @@
+{
+  "title": "Which Learning Theory Is It?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify eight classroom scenarios as constructivism, social constructivism, constructionism, or social constructionism.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Which Learning Theory?",
+    "learningObjectives": [
+      "The learner will classify eight classroom scenarios as constructivism, social constructivism, constructionism, or social constructionism, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Constructivism, social constructivism, zone of proximal development, constructionism, and social constructionism, from the section \"How Students Learn: Four Theories\" in Chapter 13"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 618
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, get feedback with the reason, and review what was missed",
+    "keyQuestions": [
+      "Is something being made?",
+      "Is a helper or a group involved?"
+    ],
+    "commonMisconceptions": [
+      "Constructivism and constructionism are the same",
+      "Any group activity is social constructivism",
+      "Building something alone is not learning by building"
+    ],
+    "assessmentOpportunities": [
+      "Are constructivism and constructionism the same?",
+      "Is every group activity social constructivism?",
+      "A student builds a model bridge alone and improves it after a test. Which theory?"
+    ]
+  },
+  "chapter": "13-social-learning-human-skills",
+  "controls": [
+    {
+      "name": "Choice buttons",
+      "type": "button",
+      "description": "commit an answer. A wrong first answer gives a hint and lets you choose again; only the first answer counts."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "opens or closes the reference table. Reading it is exploration, not evidence."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "moves to the next item after feedback. On the results screen, Previous missed and Next missed step through what you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "starts a practice run with the items reshuffled. Practice runs do not change the first-run score."
+    }
+  ]
+}

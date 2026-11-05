@@ -1,0 +1,89 @@
+{
+  "title": "Generate Once Versus Generate for Each Student",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Compare the yearly cost of generating a textbook once and serving it to everyone with generating content live for each student, and find the break-even number of students.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Fixed versus per-student cost",
+    "learningObjectives": [
+      "The learner will compare the total yearly cost of generating content once and serving it to all students with the cost of generating it live for each student, and determine the number of students at which the two are equal, to within 100 students."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Generate once serve many and web page hosting (Chapter 9), and AI inference cost (Chapter 4)."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Chart.js",
+    "version": "4.4.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 650
+    },
+    "canvasHeight": 650,
+    "responsive": true,
+    "dependencies": [
+      "Chart.js 4.4.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Calculate points, then locate the break-even on a chart",
+    "keyQuestions": [
+      "Which cost is fixed and which grows with students?",
+      "Where do the two lines cross?"
+    ],
+    "commonMisconceptions": [
+      "Live generation is always more expensive",
+      "Serving static pages costs as much as generating them",
+      "The cost of generate-once grows with the number of students"
+    ],
+    "assessmentOpportunities": [
+      "Generate-once cost per student for 12,000 students?",
+      "Live total for 12,000 students at $7.20 each?",
+      "Break-even number of students?",
+      "Does the generate-once total grow with students?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Your answer box and Check",
+      "description": "type a number and press Check (or Enter). Two attempts per question; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves on; after question 3 it unlocks the controls."
+    },
+    {
+      "name": "Production cost",
+      "description": "slider from $5,000 to $100,000."
+    },
+    {
+      "name": "Tokens per student per year",
+      "description": "slider from 1 million to 10 million."
+    },
+    {
+      "name": "Price per million tokens",
+      "description": "menu of $0.07, $0.20, $2.00, and $20.00."
+    },
+    {
+      "name": "Students",
+      "description": "slider from 100 to 1,000,000 on a log scale, rounded to the nearest 100."
+    },
+    {
+      "name": "Redo questions and Defaults",
+      "description": "start the questions again, or reset the controls."
+    }
+  ],
+  "chapter": "09-learning-graphs-interoperability"
+}

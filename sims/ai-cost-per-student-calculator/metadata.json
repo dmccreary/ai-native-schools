@@ -1,0 +1,89 @@
+{
+  "title": "AI Cost per Student Calculator",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate the yearly AI inference cost per student from tokens per session, sessions per day, school days, and price per million tokens, then explore how price changes the result.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "AI inference cost per student",
+    "learningObjectives": [
+      "The learner will calculate the yearly AI inference cost per student from tokens per session, sessions per day, school days, and price per million tokens, to within one cent, in three of three challenges."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "AI inference cost, token, and price per million tokens, from the section \"AI Inference Cost\" in Chapter 4."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 640
+    },
+    "canvasHeight": 640,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit three calculations before the controls unlock, then explore",
+    "keyQuestions": [
+      "How many tokens does a student use in a year?",
+      "How much does the price per million tokens change the result?"
+    ],
+    "commonMisconceptions": [
+      "Cost depends only on the number of sessions",
+      "Cheaper models are always worse",
+      "The cost of a capable AI tutor is out of reach for a public school"
+    ],
+    "assessmentOpportunities": [
+      "A district uses 20,000 tokens per session, 1 session a day, 180 days, at $20.00 per million tokens. What is the yearly cost per student?",
+      "The same usage at $0.07 per million tokens?",
+      "Which input changed the cost most between 2022 and 2024?",
+      "Is a capable AI tutor out of reach for a public school on cost alone?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Your answer box and Check",
+      "description": "type a dollar amount for the challenge and press Check (or Enter). Two attempts per challenge; only the first counts toward the score."
+    },
+    {
+      "name": "Next",
+      "description": "moves to the next challenge. After challenge 3 it unlocks the controls."
+    },
+    {
+      "name": "Tokens per session",
+      "description": "slider from 5,000 to 100,000 in steps of 5,000."
+    },
+    {
+      "name": "Sessions per day",
+      "description": "slider from 1 to 5."
+    },
+    {
+      "name": "School days",
+      "description": "slider from 150 to 200 in steps of 10."
+    },
+    {
+      "name": "Price per million tokens",
+      "description": "menu of $20.00, $2.00, $0.20, and $0.07."
+    },
+    {
+      "name": "Redo challenges and Defaults",
+      "description": "start the challenges again, or reset the controls."
+    }
+  ],
+  "chapter": "04-measuring-ai-capability-metr"
+}

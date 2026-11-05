@@ -1,0 +1,136 @@
+{
+  "chapter": "Implementing the AI-Native Model Responsibly",
+  "chapter_file": "docs/chapters/21-implementing-ai-native-model-responsibly/index.md",
+  "quiz_file": "docs/chapters/21-implementing-ai-native-model-responsibly/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "advanced",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch21-q001",
+      "number": 1,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Vendor Lock-In",
+      "tags": [
+        "vendor-lock-in",
+        "interoperability"
+      ]
+    },
+    {
+      "id": "ch21-q002",
+      "number": 2,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "A/B Testing",
+      "tags": [
+        "ab-testing",
+        "randomized-controlled-trial"
+      ]
+    },
+    {
+      "id": "ch21-q003",
+      "number": 3,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Contract Due Diligence",
+      "tags": [
+        "contract-due-diligence",
+        "student-data-privacy"
+      ]
+    },
+    {
+      "id": "ch21-q004",
+      "number": 4,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Scaling a Pilot",
+      "tags": [
+        "scaling-a-pilot",
+        "instructional-coaching"
+      ]
+    },
+    {
+      "id": "ch21-q005",
+      "number": 5,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Closing or Widening Gaps",
+      "tags": [
+        "closing-or-widening-gaps",
+        "equity",
+        "matthew-effect"
+      ]
+    },
+    {
+      "id": "ch21-q006",
+      "number": 6,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Redesign Not Policing",
+      "tags": [
+        "redesign-not-policing",
+        "combined-assessment-plan"
+      ]
+    },
+    {
+      "id": "ch21-q007",
+      "number": 7,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Program Evaluation",
+      "tags": [
+        "program-evaluation",
+        "ab-testing",
+        "effect-size"
+      ]
+    },
+    {
+      "id": "ch21-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Budget Reallocation",
+      "tags": [
+        "budget-reallocation",
+        "afternoon-specialist-staff",
+        "cost-barrier-to-ai-schools"
+      ]
+    },
+    {
+      "id": "ch21-q009",
+      "number": 9,
+      "correct_answer": "A",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concept_tested": "Rushed Procurement Risk",
+      "tags": [
+        "rushed-procurement-risk",
+        "contract-due-diligence",
+        "vendor-lock-in"
+      ]
+    },
+    {
+      "id": "ch21-q010",
+      "number": 10,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Success Measures",
+      "tags": [
+        "success-measures",
+        "pilot-governance"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 26,
+  "chapter_concepts_tested": 10
+}

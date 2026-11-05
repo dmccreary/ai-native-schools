@@ -1,0 +1,1952 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An interactive intelligent textbook about how AI is enabling more pro-social behaviors in schools. The theme is "Mornings with AI, Afternoons with Each Other".">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/ai-native-schools/learning-graph/quiz-generation-report/">
+      
+      
+        <link rel="prev" href="../faq-coverage-gaps/">
+      
+      
+        <link rel="next" href="../mascot-test/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Quiz Generation Report - AI-Native Schools</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-270094HPGG"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-270094HPGG",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-270094HPGG",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#quiz-generation-quality-report" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="AI-Native Schools" class="md-header__button md-logo" aria-label="AI-Native Schools" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI-Native Schools
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Quiz Generation Report
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/ai-native-schools" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AI-Native Schools" class="md-nav__button md-logo" aria-label="AI-Native Schools" data-md-component="logo">
+      
+  <img src="../../img/mascot/neutral.png" alt="logo">
+
+    </a>
+    AI-Native Schools
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/ai-native-schools" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Learning Graph
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teachers-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teacher's Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../course-description-assessment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description Assessment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concept-list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concept List
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quality-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Graph Quality Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concept-taxonomy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Concept Taxonomy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../taxonomy-distribution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Taxonomy Distribution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary-quality-report/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary Quality Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq-quality-report/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ Quality Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq-coverage-gaps/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ Coverage Gaps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Quiz Generation Report
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Quiz Generation Report
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overall-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overall Statistics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#per-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Per-Chapter Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blooms-taxonomy-distribution-overall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bloom's Taxonomy Distribution (Overall)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#answer-balance-overall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Answer Balance (Overall)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validation-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation Checks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Known Limitations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommendations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#output-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output Files
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mascot-test/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mascot Test Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../appendices/ai-first-stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overall-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overall Statistics
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#per-chapter-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Per-Chapter Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blooms-taxonomy-distribution-overall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bloom's Taxonomy Distribution (Overall)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#answer-balance-overall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Answer Balance (Overall)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validation-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Validation Checks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#known-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Known Limitations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommendations
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#output-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output Files
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/ai-native-schools/blob/main/docs/learning-graph/quiz-generation-report.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="quiz-generation-quality-report">Quiz Generation Quality Report<a class="headerlink" href="#quiz-generation-quality-report" title="Permanent link">&para;</a></h1>
+<p>Generated: 2026-11-04
+Skill: Quiz Generator v0.5
+Execution Mode: Serial (1 agent)
+Wall-clock Time: about 27 minutes for generation, about 35 minutes in all</p>
+<h2 id="overall-statistics">Overall Statistics<a class="headerlink" href="#overall-statistics" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Total Chapters:</strong> 23</li>
+<li><strong>Total Questions:</strong> 230</li>
+<li><strong>Questions per Chapter:</strong> 10</li>
+<li><strong>Average Explanation Length:</strong> 76 words (target 50–100)</li>
+<li><strong>Format Validation:</strong> 0 problems across all 230 questions</li>
+<li><strong>Overall Quality Score:</strong> 84/100</li>
+</ul>
+<p>Every chapter scored 90 or higher on content readiness. The shortest chapter
+(Chapter 8) has about 5,500 words, the glossary defines all 532 learning-graph
+concepts, and every chapter lists its concepts at the top.</p>
+<h2 id="per-chapter-summary">Per-Chapter Summary<a class="headerlink" href="#per-chapter-summary" title="Permanent link">&para;</a></h2>
+<p>Bloom's columns are Remember / Understand / Apply / Analyze / Evaluate.
+Coverage is the number of distinct chapter concepts tested out of the
+chapter's concept list.</p>
+<table>
+<thead>
+<tr>
+<th>Ch</th>
+<th>Chapter</th>
+<th>Type</th>
+<th>Qs</th>
+<th>Bloom's (R/U/Ap/An/E)</th>
+<th>Answers (A/B/C/D)</th>
+<th>Coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>The Building Blocks of Schools, Students, and Learning</td>
+<td>introductory</td>
+<td>10</td>
+<td>4 / 4 / 2 / 0 / 0</td>
+<td>3 / 3 / 2 / 2</td>
+<td>10/21</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Evidence, Motivation, and the Stakeholders of Schooling</td>
+<td>introductory</td>
+<td>10</td>
+<td>4 / 3 / 2 / 1 / 0</td>
+<td>3 / 2 / 3 / 2</td>
+<td>9/21</td>
+</tr>
+<tr>
+<td>3</td>
+<td>School Structures, Equity, and the Industrial-Era Legacy</td>
+<td>introductory</td>
+<td>10</td>
+<td>4 / 4 / 1 / 1 / 0</td>
+<td>3 / 2 / 2 / 3</td>
+<td>10/20</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Measuring AI Capability: The METR Task-Horizon Studies</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>1 / 3 / 3 / 3</td>
+<td>10/19</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Projecting AI Growth: Doubling Curves, Limits, and Uncertainty</td>
+<td>intermediate</td>
+<td>10</td>
+<td>3 / 3 / 3 / 1 / 0</td>
+<td>3 / 2 / 3 / 2</td>
+<td>9/19</td>
+</tr>
+<tr>
+<td>6</td>
+<td>The Five-Level Model of Intelligent Textbooks</td>
+<td>intermediate</td>
+<td>10</td>
+<td>3 / 3 / 3 / 1 / 0</td>
+<td>2 / 3 / 2 / 3</td>
+<td>10/34</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Content Economics and Open Educational Resources</td>
+<td>intermediate</td>
+<td>10</td>
+<td>3 / 3 / 3 / 1 / 0</td>
+<td>3 / 2 / 3 / 2</td>
+<td>10/27</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Tracking Mastery: xAPI, Learning Record Stores, and MicroSims</td>
+<td>intermediate</td>
+<td>10</td>
+<td>3 / 2 / 3 / 2 / 0</td>
+<td>3 / 3 / 2 / 2</td>
+<td>10/15</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Learning Graphs, Interoperability Standards, and Access at Scale</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>3 / 2 / 2 / 3</td>
+<td>10/15</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Student Privacy and Data Governance</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>2 / 3 / 3 / 2</td>
+<td>10/26</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Mastery Learning and the Case for a Compressed Morning</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>3 / 2 / 2 / 3</td>
+<td>10/16</td>
+</tr>
+<tr>
+<td>12</td>
+<td>AI Guardrails: Teaching Thinking Without Over-Reliance</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>2 / 3 / 3 / 2</td>
+<td>10/23</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Social Learning and Human Skills</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>3 / 2 / 3 / 2</td>
+<td>10/28</td>
+</tr>
+<tr>
+<td>14</td>
+<td>The Pro-Social Afternoon</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>2 / 3 / 2 / 3</td>
+<td>10/26</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Technology Adoption and the Diffusion of Innovation</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>3 / 2 / 3 / 2</td>
+<td>10/28</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Organizational Change Models</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>2 / 3 / 2 / 3</td>
+<td>8/11</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Leading Change: Vision, Culture, and Early-Stage Concerns</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>3 / 2 / 2 / 3</td>
+<td>10/25</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Sustaining Change: Systems Thinking and National Adoption</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>3 / 2 / 3 / 2</td>
+<td>10/25</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Microstrategies for Leading Change</td>
+<td>intermediate</td>
+<td>10</td>
+<td>2 / 3 / 3 / 2 / 0</td>
+<td>2 / 3 / 2 / 3</td>
+<td>10/35</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Designing the AI-Native School Day</td>
+<td>advanced</td>
+<td>10</td>
+<td>1 / 2 / 3 / 3 / 1</td>
+<td>1 / 3 / 3 / 3</td>
+<td>10/26</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Implementing the AI-Native Model Responsibly</td>
+<td>advanced</td>
+<td>10</td>
+<td>1 / 2 / 3 / 3 / 1</td>
+<td>3 / 2 / 3 / 2</td>
+<td>10/26</td>
+</tr>
+<tr>
+<td>22</td>
+<td>AI-First Case Studies I: Promise and Peril</td>
+<td>advanced</td>
+<td>10</td>
+<td>1 / 2 / 3 / 3 / 1</td>
+<td>3 / 2 / 2 / 3</td>
+<td>10/23</td>
+</tr>
+<tr>
+<td>23</td>
+<td>AI-First Case Studies II: Lessons for Practice</td>
+<td>advanced</td>
+<td>10</td>
+<td>1 / 2 / 3 / 3 / 1</td>
+<td>2 / 3 / 3 / 2</td>
+<td>9/23</td>
+</tr>
+</tbody>
+</table>
+<p>Chapters 1–3 are treated as introductory, 4–19 as intermediate, and 20–23 as
+advanced, because the last four chapters ask readers to design, implement and
+judge real cases.</p>
+<h2 id="blooms-taxonomy-distribution-overall">Bloom's Taxonomy Distribution (Overall)<a class="headerlink" href="#blooms-taxonomy-distribution-overall" title="Permanent link">&para;</a></h2>
+<p>The target is the weighted average of the per-chapter targets (3 introductory,
+16 intermediate and 4 advanced chapters).</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Count</th>
+<th>Actual</th>
+<th>Target</th>
+<th>Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Remember</td>
+<td>52</td>
+<td>22.6%</td>
+<td>25.2%</td>
+<td>-2.6% ✓</td>
+</tr>
+<tr>
+<td>Understand</td>
+<td>66</td>
+<td>28.7%</td>
+<td>29.6%</td>
+<td>-0.9% ✓</td>
+</tr>
+<tr>
+<td>Apply</td>
+<td>65</td>
+<td>28.3%</td>
+<td>27.2%</td>
+<td>+1.1% ✓</td>
+</tr>
+<tr>
+<td>Analyze</td>
+<td>43</td>
+<td>18.7%</td>
+<td>15.4%</td>
+<td>+3.3% ✓</td>
+</tr>
+<tr>
+<td>Evaluate</td>
+<td>4</td>
+<td>1.7%</td>
+<td>1.7%</td>
+<td>0.0% ✓</td>
+</tr>
+<tr>
+<td>Create</td>
+<td>0</td>
+<td>0.0%</td>
+<td>0.9%</td>
+<td>-0.9% ✓</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Bloom's Distribution Score:</strong> 24/25. Every level is within ±5% of target.
+Most Apply, Analyze and Evaluate questions are school scenarios, such as a board
+meeting, a vendor pitch, a parent's question or a teacher's classroom.</p>
+<h2 id="answer-balance-overall">Answer Balance (Overall)<a class="headerlink" href="#answer-balance-overall" title="Permanent link">&para;</a></h2>
+<ul>
+<li>A: 25.2% (58/230)</li>
+<li>B: 24.8% (57/230)</li>
+<li>C: 25.2% (58/230)</li>
+<li>D: 24.8% (57/230)</li>
+</ul>
+<p>No chapter uses one letter more than 3 times, and no letter appears more than
+twice in a row. <strong>Answer Balance Score:</strong> 15/15.</p>
+<h2 id="validation-checks">Validation Checks<a class="headerlink" href="#validation-checks" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10 questions, 4 options each, exact admonition format</td>
+<td>Pass (230/230)</td>
+</tr>
+<tr>
+<td>Answer letter in explanation matches metadata</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Every <strong>See:</strong> link points to a real heading in the chapter</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>No "all of the above" or "none of the above"</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>No duplicate question stems across the book</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Explanations between 40 and 130 words</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Book facts (METR "about every five months"; Alpha tuition by campus)</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Correct option clearly longer (20%+) than every distractor</td>
+<td>1 of 230 (a two-word option)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="known-limitations">Known Limitations<a class="headerlink" href="#known-limitations" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Concept coverage is 234 of 532 chapter concepts (44%).</strong> Ten questions per
+  chapter cannot reach the 75% target when chapters list 15–35 concepts. The
+  questions focus on each chapter's main ideas: concepts named in the title,
+  given their own section, or shown in bold.</li>
+<li><strong>The correct option is the longest one in 121 of 230 questions (53%).</strong>
+  Most of these are near ties. Six clear cases were fixed by rewording, but a
+  test-wise reader could still find a slight "pick the longest" pattern.</li>
+<li><strong>Some apply questions use illustrative numbers</strong> worked out with the
+  chapter's own method, so they do not repeat the chapter's worked examples.
+  These numbers are invented for the exercise and are not facts.</li>
+<li><strong>Still-developing cases</strong> (South Korea's AI textbooks, the LAUSD/AllHere
+  chatbot, Unbound Academy) keep the chapters' "as reported" wording. These
+  questions should be rechecked when the chapters are updated.</li>
+<li><strong>Chapter 16</strong> tests Lewin's and Bridges' models, which the learning graph
+  places in Chapter 17. They are tagged with the broader concept
+  "Organizational Change."</li>
+</ul>
+<h2 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link">&para;</a></h2>
+<ol>
+<li>When chapters are revised, rerun the validator and rebuild
+   <code>quiz-bank.json</code> so the bank matches the quizzes.</li>
+<li>Raise coverage in concept-heavy chapters (6, 13, 15 and 19) with a second
+   quiz set drawn from <code>quiz-bank.json</code>, or with 12–15 questions per quiz.</li>
+<li>Lengthen some distractors in the near-tie questions to remove the slight
+   "pick the longest" cue.</li>
+<li>Use <code>quiz-bank.json</code> for LMS export and for practice questions in the
+   chatbot.</li>
+</ol>
+<h2 id="output-files">Output Files<a class="headerlink" href="#output-files" title="Permanent link">&para;</a></h2>
+<ul>
+<li><code>docs/chapters/*/quiz.md</code>: 23 quiz pages</li>
+<li><code>docs/learning-graph/quizzes/*-quiz-metadata.json</code>: per-chapter metadata</li>
+<li><code>docs/learning-graph/quiz-bank.json</code>: all 230 questions with options, answers,
+  explanations, Bloom's levels and concepts</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<h2 id="feedback">Feedback</h2>
+<p>Ask a question, suggest an improvement, or share how you applied this material.</p>
+<script src="https://giscus.app/client.js"
+        data-repo="dmccreary/ai-native-schools"
+        data-repo-id="R_kgDOVhwbJQ"
+        data-category="General"
+        data-category-id="DIC_kwDOVhwbJc4DKceW"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../faq-coverage-gaps/" class="md-footer__link md-footer__link--prev" aria-label="Previous: FAQ Coverage Gaps">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                FAQ Coverage Gaps
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../mascot-test/" class="md-footer__link md-footer__link--next" aria-label="Next: Mascot Test Page">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Mascot Test Page
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/katex.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

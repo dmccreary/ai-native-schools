@@ -1,0 +1,85 @@
+{
+  "title": "Force Field Balance",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate the driving, restraining, and net forces for a school change, before and after reducing two restraining forces, then explore with sliders.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Force Field Balance",
+    "learningObjectives": [
+      "The learner will calculate the total driving force, the total restraining force, and the net force for a change situation, before and after reducing two restraining forces, correctly answering three of three questions."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Force field analysis, driving forces, restraining forces, and the unfreeze stage, from the section \"Lewin: Unfreeze, Change, Refreeze\" in Chapter 17."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 804
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "Driving forces are 4, 3, 3, and 4. What is the total?",
+      "Restraining forces are 4, 3, 1, and 1. What is the net if driving is 14?"
+    ],
+    "commonMisconceptions": [
+      "The way to overcome resistance is to push harder",
+      "A balanced situation is stable and safe",
+      "All forces are equally easy to change"
+    ],
+    "assessmentOpportunities": [
+      "Driving forces are 4, 3, 3, and 4. What is the total?",
+      "Restraining forces are 4, 3, 1, and 1. What is the net if driving is 14?",
+      "Is a balanced field stable and safe?",
+      "Why reduce a restraining force rather than push harder?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Q1, Q2, Q3 answer boxes",
+      "type": "input",
+      "description": "Type a whole number for each question."
+    },
+    {
+      "name": "Check answers",
+      "type": "button",
+      "description": "Checks the answers; two tries per question."
+    },
+    {
+      "name": "Unlock the sliders",
+      "type": "button",
+      "description": "Shows the totals and the eight sliders after all three questions are settled."
+    },
+    {
+      "name": "Eight strength sliders",
+      "type": "slider",
+      "description": "Set each force from 1 to 5."
+    },
+    {
+      "name": "Reset strengths",
+      "type": "button",
+      "description": "Returns every force to its starting strength."
+    }
+  ],
+  "chapter": "17-leading-change-vision-culture"
+}

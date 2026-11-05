@@ -1,0 +1,85 @@
+{
+  "title": "Choose the Move to Cross the Chasm",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Choose, for six situations, the move that best helps an innovation cross the chasm from early adopters to the early majority.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Choose the Move to Cross the Chasm",
+    "learningObjectives": [
+      "The learner will apply Moore's chasm ideas by choosing, for each of six situations, the move that best helps an innovation cross from early adopters to the early majority, correctly choosing at least five of six on the first attempt."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The chasm, pragmatist buyers, crossing the chasm, the beachhead strategy, the whole product, and opinion leaders, from the sections \"Adopter Categories and the Adoption Curve\" and \"The Chasm\" in Chapter 15."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 568
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "A district gave a little support to all 40 schools at once and none has a visible success. Which move?",
+      "Teachers say the tool has no training and does not connect to their login. Which move?"
+    ],
+    "commonMisconceptions": [
+      "More features will persuade pragmatists",
+      "Spreading effort across every group is safer than focusing",
+      "Enthusiasm from innovators proves the product is ready for everyone"
+    ],
+    "assessmentOpportunities": [
+      "A district gave a little support to all 40 schools at once and none has a visible success. Which move?",
+      "Teachers say the tool has no training and does not connect to their login. Which move?",
+      "Will more features persuade pragmatists?",
+      "A skeptical teacher asks, \"Has anyone like me made this work?\" Which move?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "4 choice buttons",
+      "type": "button",
+      "description": "Choose one of the moves; two tries per situation."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Opens a table of the moves and their meanings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves on after the feedback."
+    },
+    {
+      "name": "Previous missed, Next missed",
+      "type": "button",
+      "description": "On the results screen, page through the missed items."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the items for a practice run."
+    }
+  ],
+  "chapter": "15-technology-adoption-diffusion-innovation"
+}

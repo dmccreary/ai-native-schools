@@ -1,0 +1,81 @@
+{
+  "title": "Ready Concepts Finder",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Select exactly the ready concepts in a 16-concept learning graph for six different sets of mastered concepts.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Finding ready concepts in a learning graph",
+    "learningObjectives": [
+      "The learner will solve six problems by selecting exactly the set of ready concepts in a 16-concept learning graph for a given set of mastered concepts, correctly answering at least five of six on the first attempt."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Learning dependency, foundational concept, directed acyclic graph, learning path, and the ready rule, from the section \"Learning Graphs: Maps of Concepts\" in Chapter 9."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "9.1.9",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 720
+    },
+    "canvasHeight": 720,
+    "responsive": true,
+    "dependencies": [
+      "vis-network 9.1.9 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Apply a rule node by node on a graph, with the evidence highlighted after each answer",
+    "keyQuestions": [
+      "Is this concept already mastered?",
+      "Are all of its direct prerequisites mastered?"
+    ],
+    "commonMisconceptions": [
+      "A concept is ready as soon as one prerequisite is mastered",
+      "A concept already mastered can still be ready",
+      "Only one concept can be ready at a time"
+    ],
+    "assessmentOpportunities": [
+      "Nothing is mastered. Which concepts are ready?",
+      "Can a mastered concept be ready?",
+      "Long-Running Task needs Task Horizon and AI Agent. Only AI Agent is mastered. Is it ready?",
+      "Can more than one concept be ready at once?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Concepts in the graph",
+      "description": "click to pick or unpick a concept and see its prerequisites. Mastered concepts cannot be picked."
+    },
+    {
+      "name": "Submit",
+      "description": "commits your set. Two attempts per problem; only the first counts."
+    },
+    {
+      "name": "Clear picks",
+      "description": "removes all your picks."
+    },
+    {
+      "name": "Next",
+      "description": "moves on; after problem 6 it shows your score."
+    },
+    {
+      "name": "Try again",
+      "description": "starts over at problem 1."
+    }
+  ],
+  "chapter": "09-learning-graphs-interoperability"
+}

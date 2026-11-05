@@ -1,0 +1,77 @@
+{
+  "title": "Task Horizon Curve Explorer",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate a model's chance of finishing tasks of different lengths from its 50 percent time horizon, then move the horizon and watch the success curve shift.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Success curves and the 50 percent time horizon",
+    "learningObjectives": [
+      "The learner will calculate a model's chance of completing tasks of different human working times from its 50 percent time horizon, to within 2 percentage points, and identify the task length at which the chance reaches 80 percent."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Human working time, task success rate, task horizon, 50 percent time horizon, and the rule P = 1/(1 + t/H), from the section \"METR and the Task-Horizon Idea\" in Chapter 4."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 615
+    },
+    "canvasHeight": 615,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit three calculations before the slider unlocks, then explore the whole curve",
+    "keyQuestions": [
+      "What is the chance of success at t = H?",
+      "At what task length does the chance reach 80 percent?"
+    ],
+    "commonMisconceptions": [
+      "A model with a 1-hour horizon is reliable on all tasks up to 1 hour",
+      "Success drops to zero just past the horizon",
+      "The 80 percent horizon is about the same as the 50 percent horizon"
+    ],
+    "assessmentOpportunities": [
+      "H = 60 minutes. What is the chance on a 15-minute task?",
+      "Where is the 80 percent point for any H?",
+      "Does the chance drop to zero just past the horizon?",
+      "Is a model with a 1-hour horizon reliable on all tasks up to an hour?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Your answer box and Check",
+      "description": "type a percent or a number of minutes and press Check (or Enter). Two attempts per question; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves on; after question 3 it unlocks the slider."
+    },
+    {
+      "name": "Horizon H",
+      "description": "slider from 15 to 960 minutes in steps of 15."
+    },
+    {
+      "name": "Redo challenges and Defaults",
+      "description": "start the questions again, or return H to 60 minutes."
+    }
+  ],
+  "chapter": "04-measuring-ai-capability-metr"
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Doubling Time Projection Calculator",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate how many months a 50-minute task horizon takes to reach 40 hours for doubling times of 4, 5, and 6 months, then explore other doubling times and targets.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Projecting a doubling trend",
+    "learningObjectives": [
+      "The learner will calculate how many months a 50-minute task horizon takes to reach 40 hours for doubling times of 4, 5, and 6 months, to within one month, and describe how the answer changes with the doubling time."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Exponential growth, doubling time, number of doublings, trend extrapolation, and forecast uncertainty, from Chapter 5."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 685
+    },
+    "canvasHeight": 685,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit three calculations before the controls unlock, then explore sensitivity",
+    "keyQuestions": [
+      "How many doublings does the target need?",
+      "How far does the date move when the doubling time changes by one month?"
+    ],
+    "commonMisconceptions": [
+      "A small change in doubling time makes only a small change in the date",
+      "The time to reach a target is proportional to the target",
+      "A forecast has one answer"
+    ],
+    "assessmentOpportunities": [
+      "Start 50 minutes, target 40 hours, doubling every 5 months. How many months?",
+      "The same at a 4-month and a 6-month doubling time?",
+      "Does 160 hours take four times as long as 40 hours?",
+      "Does a forecast have one answer?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Your answer box and Check",
+      "description": "type a whole number of months and press Check (or Enter). Two attempts per question; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves on; after question 3 it unlocks the controls."
+    },
+    {
+      "name": "Doubling time",
+      "description": "slider from 3 to 12 months."
+    },
+    {
+      "name": "Target",
+      "description": "menu of 5, 40, or 160 hours."
+    },
+    {
+      "name": "Redo challenges and Defaults",
+      "description": "start the questions again, or reset to 5 months and 40 hours."
+    }
+  ],
+  "chapter": "05-projecting-ai-growth-doubling-curves"
+}

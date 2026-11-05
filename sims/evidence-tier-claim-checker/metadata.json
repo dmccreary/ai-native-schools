@@ -1,0 +1,84 @@
+{
+  "title": "Evidence Tier Claim Checker",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Judge the evidence behind ten fictional vendor claims by placing each in one of five evidence levels, from Strong to No evidence of effect.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Evidence levels for education products",
+    "learningObjectives": [
+      "The learner will judge the strength of the evidence behind ten vendor claims by assigning each to one of five evidence levels, correctly placing at least eight of ten on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Evidence-based practice, randomized controlled trial, selection bias, and the five evidence levels, from Chapter 2."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 834
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Judge, commit an answer, and read the reason",
+    "keyQuestions": [
+      "How were the groups formed?",
+      "Does a large sample make a claim strong?"
+    ],
+    "commonMisconceptions": [
+      "A large sample makes a claim strong whatever the study design",
+      "Teacher satisfaction is evidence of learning",
+      "Any before-and-after gain shows the program worked"
+    ],
+    "assessmentOpportunities": [
+      "Which level is a teacher satisfaction survey?",
+      "Does a large self-selected sample make a claim Strong?",
+      "What separates Strong from Moderate?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Five level buttons",
+      "type": "button",
+      "description": "Choose Strong, Moderate, Promising, Demonstrates a rationale, or No evidence of effect for the current claim."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Shows or hides the one-line definition of each level."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next claim after feedback."
+    },
+    {
+      "name": "Previous missed and Next missed",
+      "type": "button",
+      "description": "On the results screen, step through the claims you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the claims for a practice run."
+    }
+  ],
+  "chapter": "02-evidence-motivation-stakeholders"
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Verify the AI Summary",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Judge whether each of six statements in an AI-written summary is supported by a short source passage.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Checking AI output against a source",
+    "learningObjectives": [
+      "The learner will judge whether each of six statements in an AI-written summary is supported by a source passage, correctly judging at least five of six on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "AI hallucination, grounding in a source, and AI literacy, from the section \"AI Hallucination and AI Literacy\" in Chapter 5."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 740
+    },
+    "canvasHeight": 740,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Judge each claim against a source, with the matching sentence highlighted as feedback",
+    "keyQuestions": [
+      "Which sentence of the passage says this?",
+      "Is the statement changed, invented, or exact?"
+    ],
+    "commonMisconceptions": [
+      "A confident, fluent statement is probably correct",
+      "A statement that sounds plausible is supported",
+      "A summary that is mostly right can be trusted whole"
+    ],
+    "assessmentOpportunities": [
+      "The summary says the pilot lasted a full semester. Supported?",
+      "The summary says students were assigned at random. Supported?",
+      "The summary says a university team ran the evaluation, and the passage does not say who did. Supported?",
+      "Five of six statements check out. Can you trust the summary whole?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Supported, Not supported",
+      "description": "choose your judgment for the statement."
+    },
+    {
+      "name": "Submit",
+      "description": "commits it. Two attempts per statement; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves to the next statement; after the sixth it shows your score."
+    },
+    {
+      "name": "Show the rule",
+      "description": "checkbox that shows how to judge a statement."
+    },
+    {
+      "name": "Try again",
+      "description": "starts over from statement 1."
+    }
+  ],
+  "chapter": "05-projecting-ai-growth-doubling-curves"
+}

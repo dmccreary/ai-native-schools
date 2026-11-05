@@ -1,0 +1,80 @@
+{
+  "title": "Judging the Evidence for a Shorter Morning",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Judge the strength of the evidence behind eight claims about AI tutoring and the compressed morning, using the five evidence levels from Chapter 2.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Judging the Evidence for a Shorter Morning",
+    "learningObjectives": [
+      "The learner will judge the strength of the evidence behind eight claims about AI tutoring and the compressed morning by assigning each to one of the five evidence levels from Chapter 2, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "The five evidence levels, randomized controlled trial, and self-reported results, from Chapters 2 and 3",
+      "The studies described in the section \"AI Tutors\" in Chapter 11"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 704
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, get feedback with the reason, and review what was missed",
+    "keyQuestions": [
+      "Was there random assignment?",
+      "Was there a comparison group?"
+    ],
+    "commonMisconceptions": [
+      "A famous or often-quoted result is strong evidence",
+      "A school's own reported gains are evidence of effect",
+      "A published meta-analysis is the same as a randomized trial"
+    ],
+    "assessmentOpportunities": [
+      "A school reports its own test gains with no comparison group. Which level?",
+      "Is a published meta-analysis the same as a randomized trial?",
+      "A tutor is built on solid research but has not been evaluated yet. Which level?"
+    ]
+  },
+  "chapter": "11-mastery-learning-case-compressed-morning",
+  "controls": [
+    {
+      "name": "Choice buttons",
+      "type": "button",
+      "description": "commit an answer. A wrong first answer gives a hint and lets you choose again; only the first answer counts."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "opens or closes the reference table. Reading it is exploration, not evidence."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "moves to the next item after feedback. On the results screen, Previous missed and Next missed step through what you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "starts a practice run with the items reshuffled. Practice runs do not change the first-run score."
+    }
+  ]
+}

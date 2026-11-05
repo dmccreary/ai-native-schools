@@ -1,0 +1,84 @@
+{
+  "title": "Spacing and Retrieval Retention Explorer",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Predict which review schedule and method keep the most memory for a day-30 exam, then compare forgetting curves for massed, spaced, and expanding reviews.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Spaced practice and retrieval practice",
+    "learningObjectives": [
+      "The learner will compare predicted retention under massed, evenly spaced, and expanding review schedules, each done by rereading or by retrieval, and correctly predict which schedule and method retain the most on a day-30 exam."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Learning versus performance, forgetting curve, spaced practice, massed practice, retrieval practice, and desirable difficulty, from Chapter 1."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Chart.js",
+    "version": "4.4.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 660
+    },
+    "responsive": true,
+    "dependencies": [
+      "Chart.js 4.4.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit a prediction, then compare model curves",
+    "keyQuestions": [
+      "Which schedule keeps the most memory on day 30?",
+      "Why does cramming win on day 1?"
+    ],
+    "commonMisconceptions": [
+      "Cramming is efficient because it gives the best score on tomorrow's test",
+      "Rereading is as good as testing yourself",
+      "The total time spent studying is what matters, not when it happens"
+    ],
+    "assessmentOpportunities": [
+      "Which schedule and method give the highest day-30 retention?",
+      "Why does massed review win on day 1 but fail on day 30?",
+      "Why can equal study time give different results?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "P1 and P2 buttons",
+      "type": "button",
+      "description": "Choose a schedule and a method as predictions, then press Submit predictions."
+    },
+    {
+      "name": "Review method",
+      "type": "button",
+      "description": "Switch between Reread and Retrieval after the predictions."
+    },
+    {
+      "name": "Exam day",
+      "type": "button",
+      "description": "Switch the exam to day 1, 7, or 30."
+    },
+    {
+      "name": "P3 buttons and Check P3",
+      "type": "button",
+      "description": "Choose and check the best schedule for a day-1 exam."
+    },
+    {
+      "name": "Reset",
+      "type": "button",
+      "description": "Returns to the opening state with no curves."
+    }
+  ],
+  "chapter": "01-building-blocks-schools-students"
+}
