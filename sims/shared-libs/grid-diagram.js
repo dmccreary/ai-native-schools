@@ -66,6 +66,9 @@ class GridDiagramSim {
     });
 
     this._renderZones();
+    this._renderHeaders();
+    this._fitChips();
+    window.addEventListener('resize', () => this._fitChips());
     this._buildDetailPanel();
     this._buildControls();
 
@@ -80,6 +83,36 @@ class GridDiagramSim {
       this._reportHeight();
       this.resizeObserver = new ResizeObserver(() => this._reportHeight());
       this.resizeObserver.observe(document.body);
+    });
+  }
+
+  // Optional always-visible column headers, e.g. over the two halves of a
+  // comparison poster. data.json: "headers": [{ "text", "x", "y", "color" }]
+  // where x/y are the header's center in percent of the image.
+  _renderHeaders() {
+    (this.data.headers || []).forEach(h => {
+      const el = document.createElement('div');
+      el.className   = 'poster-header';
+      el.textContent = h.text;
+      el.style.left  = h.x + '%';
+      el.style.top   = h.y + '%';
+      if (h.color) el.style.setProperty('--header-color', h.color);
+      this.overlayEl.appendChild(el);
+    });
+  }
+
+  // Shrink each label chip until its longest word fits inside its zone.
+  // A word such as "automation" cannot wrap, so in a narrow column it would
+  // otherwise spill past the edge of the pill. Runs on load and on resize.
+  _fitChips() {
+    if (!this.showLabels || !this.overlayEl) return;
+    this.overlayEl.querySelectorAll('.zone-chip').forEach(chip => {
+      chip.style.fontSize = '';
+      let size = parseFloat(getComputedStyle(chip).fontSize);
+      while (chip.scrollWidth > chip.clientWidth + 1 && size > 8) {
+        size -= 0.5;
+        chip.style.fontSize = size + 'px';
+      }
     });
   }
 

@@ -1,18 +1,39 @@
 {
   "title": "The Factory Day vs. the AI-Native Day",
-  "image": "factory-vs-ai-native-day.svg",
+  "image": "factory-vs-ai-native-day-with-header-band.png",
   "layout": "grid",
   "showLabels": true,
-  "palette": ["#C7164E", "#2A2E3A", "#E07B39", "#1389A6", "#2D8A4E", "#6A3FB5"],
+  "palette": [
+    "#C7164E",
+    "#2A2E3A",
+    "#E07B39",
+    "#1389A6",
+    "#2D8A4E",
+    "#6A3FB5"
+  ],
+  "headers": [
+    {
+      "text": "Factory School Model",
+      "x": 25,
+      "y": 7.5,
+      "color": "#8A3D2B"
+    },
+    {
+      "text": "AI-Native School Model",
+      "x": 75,
+      "y": 7.5,
+      "color": "#2A9D8F"
+    }
+  ],
   "zones": [
     {
       "id": "factory-teacher",
       "label": "Factory teacher: lecturer and grader",
       "color": "#C7164E",
       "x1": 2.5,
-      "y1": 14.0,
+      "y1": 31.2,
       "x2": 47.5,
-      "y2": 36.0,
+      "y2": 51.6,
       "summary": "One adult delivers the lesson to the whole room, then grades everyone's work, often late into the evening.",
       "facts": [
         "One teacher per room made schooling affordable, but it means one adult must serve every learner's pace (Chapter 3).",
@@ -27,9 +48,9 @@
       "label": "Factory morning: one lesson, one pace",
       "color": "#2A2E3A",
       "x1": 2.5,
-      "y1": 37.5,
+      "y1": 53.3,
       "x2": 47.5,
-      "y2": 63.5,
+      "y2": 72.8,
       "summary": "Students grouped by age hear the same lesson at the same pace until the bell rings.",
       "facts": [
         "Bell schedule: a typical middle school has six to eight periods of 45 to 55 minutes, announced by a bell (Chapter 3).",
@@ -44,9 +65,9 @@
       "label": "Factory afternoon: more of the same",
       "color": "#E07B39",
       "x1": 2.5,
-      "y1": 65.0,
+      "y1": 74.5,
       "x2": 47.5,
-      "y2": 92.2,
+      "y2": 94.5,
       "summary": "After lunch the same rows, the same pace and the same bell carry on, one subject at a time.",
       "facts": [
         "In a traditional school the core academic subjects are spread through the whole day instead of being concentrated in the morning (Chapter 11).",
@@ -61,9 +82,9 @@
       "label": "AI-native teacher: coach and mentor",
       "color": "#1389A6",
       "x1": 52.5,
-      "y1": 14.0,
+      "y1": 31.2,
       "x2": 97.5,
-      "y2": 36.0,
+      "y2": 51.6,
       "summary": "The same adults do nearly the opposite work: coaching, mentoring and facilitating instead of lecturing.",
       "facts": [
         "Alison King's 1993 phrase sums up the shift: from \"sage on the stage\" to \"guide on the side\" (Chapter 20).",
@@ -79,9 +100,9 @@
       "label": "AI-native morning: compressed and self-paced",
       "color": "#2D8A4E",
       "x1": 52.5,
-      "y1": 37.5,
+      "y1": 53.3,
       "x2": 97.5,
-      "y2": 63.5,
+      "y2": 72.8,
       "summary": "A compressed academic morning of about two to three hours, in which each student works at their own pace toward mastery (Chapter 11).",
       "facts": [
         "In Chapter 11's illustration the compressed morning is 150 minutes instead of 250, which frees 100 minutes a day, or about 300 hours a year.",
@@ -97,9 +118,9 @@
       "label": "AI-native afternoon: pro-social",
       "color": "#6A3FB5",
       "x1": 52.5,
-      "y1": 65.0,
+      "y1": 74.5,
       "x2": 97.5,
-      "y2": 92.2,
+      "y2": 94.5,
       "summary": "The freed time goes to people: projects, arts, sports, clubs, making, service and life-skills workshops (Chapter 14).",
       "facts": [
         "A pro-social activity needs other people, has a shared goal, has a real audience or real stakes, and ends with a short reflection on how the group worked (Chapter 14).",

@@ -4,12 +4,16 @@
   "layout": "grid",
   "showLabels": true,
   "palette": ["#d9534f", "#e0a030", "#4f86c6", "#2d8a4e", "#9b6fc4", "#3fa58e"],
+  "headers": [
+    { "text": "Seat Time", "x": 25, "y": 6.5, "color": "#b5433f" },
+    { "text": "Mastery Learning", "x": 75, "y": 6.5, "color": "#2d8a4e" }
+  ],
   "zones": [
     {
       "id": "seat-calendar",
       "label": "Seat time: the calendar",
       "color": "#d9534f",
-      "x1": 0.5, "y1": 8.0, "x2": 28.0, "y2": 94.0,
+      "x1": 0.5, "y1": 20.0, "x2": 28.0, "y2": 94.8,
       "summary": "Time is fixed and learning varies. The calendar, the clock and the bell decide when the class moves on.",
       "facts": [
         "Seat time is the hours a student is present in class, used as the measure of how much instruction they received. A student who already knows the material and a student who is lost earn the same seat time.",
@@ -22,7 +26,7 @@
       "id": "seat-cracked-blocks",
       "label": "Seat time: the cracked blocks",
       "color": "#e0a030",
-      "x1": 28.0, "y1": 67.5, "x2": 49.5, "y2": 94.0,
+      "x1": 28.0, "y1": 71.7, "x2": 49.5, "y2": 94.8,
       "summary": "Gaps build up silently. The class moved on before the first two concepts were solid.",
       "facts": [
         "In Chapter 3's class of 20 students and a fixed 150-hour course, 14 students master it and 6 do not. Those 6 get a low grade and the class moves on, leaving a hole in their foundation.",
@@ -35,7 +39,7 @@
       "id": "seat-wobbling-top",
       "label": "Seat time: the wobbling top",
       "color": "#9b6fc4",
-      "x1": 28.0, "y1": 8.0, "x2": 49.5, "y2": 67.5,
+      "x1": 28.0, "y1": 20.0, "x2": 49.5, "y2": 71.7,
       "summary": "Later concepts rest on earlier ones, so a hidden gap makes everything above it unstable.",
       "facts": [
         "Each block sits on the blocks below it, the way a learning dependency links a concept to its prerequisite (Chapters 8 and 9).",
@@ -48,7 +52,7 @@
       "id": "mastery-solid-blocks",
       "label": "Mastery: the solid blocks",
       "color": "#2d8a4e",
-      "x1": 50.5, "y1": 67.5, "x2": 72.0, "y2": 94.0,
+      "x1": 50.5, "y1": 71.7, "x2": 72.0, "y2": 94.8,
       "summary": "Learning is fixed and time varies. A student stays on a block until it is solid, then climbs.",
       "facts": [
         "Mastery learning asks a student to show mastery of a concept, typically 80 to 90 percent on a check, before moving on. Benjamin Bloom described it in 1968 (Chapter 11).",
@@ -61,7 +65,7 @@
       "id": "mastery-spread",
       "label": "Mastery: spread of students",
       "color": "#3fa58e",
-      "x1": 50.5, "y1": 8.0, "x2": 72.0, "y2": 67.5,
+      "x1": 50.5, "y1": 20.0, "x2": 72.0, "y2": 71.7,
       "summary": "Every block is whole, but students finish at different times. Some are at the top while others are still low on the stairs.",
       "facts": [
         "Personalized pacing lets each student move faster through what they know and slower through what is new or difficult (Chapter 11).",
@@ -74,7 +78,7 @@
       "id": "mastery-response",
       "label": "Mastery: help and shared work",
       "color": "#4f86c6",
-      "x1": 72.0, "y1": 8.0, "x2": 99.5, "y2": 94.0,
+      "x1": 72.0, "y1": 20.0, "x2": 99.5, "y2": 94.8,
       "summary": "The school's response to the spread: tutoring and gap filling for students who are stuck, and shared afternoon work that does not depend on pace.",
       "facts": [
         "The coach hands the stuck student the missing block. Gap filling finds the root gap and teaches it first: Maya spends 7 hours and masters three concepts instead of 9 hours and none (Chapter 11).",

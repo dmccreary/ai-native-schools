@@ -75,6 +75,25 @@ body {
   inset: 0;
 }
 
+/* Always-visible column headers (data.json "headers"), placed in a calm band
+   the image leaves empty for them. Not clickable, so zones stay the targets. */
+.poster-header {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: var(--header-color, #333);
+  color: white;
+  font-size: clamp(14px, 2.8cqw, 34px);
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 0.3em 1em;
+  border-radius: 1em;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* ── Zone rectangles ─────────────────────────────────────────────────────── */
 .grid-zone {
   position: absolute;
@@ -98,8 +117,10 @@ body {
   font-size: clamp(12px, 2.1cqw, 26px);
   font-weight: 700;
   line-height: 1.25;
-  padding: 0.35em 0.9em;
-  border-radius: 999px;
+  padding: 0.35em 0.7em;
+  /* ~1em radius = full pill on one line, rounded box when the label wraps,
+     so wrapped text never sits under a curved corner */
+  border-radius: 1em;
   border: 2px solid rgba(255, 255, 255, 0.9);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);

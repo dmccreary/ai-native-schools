@@ -20,6 +20,8 @@ The script prints the zone rectangles (percent of width and height) for data.jso
 import sys
 
 W, H = 1600, 800
+BAND = 120                     # empty band above the scene for the overlay's column headers
+TOTAL_H = H + BAND
 FLOOR = 720
 DIV = 800                      # centre of the divider between the halves
 ROW_H, COL_W = 90, 66          # slab height, tread width
@@ -62,11 +64,17 @@ def check(cx, cy, r=21):
             f'stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>')
 
 
-out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">']
+out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {TOTAL_H}" width="{W}" height="{TOTAL_H}">']
 out.append('''<defs>
 <linearGradient id="wallL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7ecdc"/><stop offset="1" stop-color="#efdcc2"/></linearGradient>
 <linearGradient id="wallR" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8f5ea"/><stop offset="1" stop-color="#d4ebd8"/></linearGradient>
 </defs>''')
+
+# ---- header band: plain wall colour, left empty for the overlay's headers ---
+out.append(f'<rect x="0" y="0" width="{DIV}" height="{BAND + 1}" fill="#f7ecdc"/>')
+out.append(f'<rect x="{DIV}" y="0" width="{W - DIV}" height="{BAND + 1}" fill="#e8f5ea"/>')
+out.append(f'<rect x="{DIV - 6}" y="0" width="12" height="{BAND + 1}" fill="#5a6270"/>')
+out.append(f'<g transform="translate(0,{BAND})">')
 
 # ---- walls and floors ----------------------------------------------------
 out.append(f'<rect x="0" y="0" width="{DIV}" height="{H}" fill="url(#wallL)"/>')
@@ -219,13 +227,14 @@ out.append('<rect x="1350" y="140" width="210" height="170" rx="10" fill="#cfe8f
            '<line x1="1350" y1="225" x2="1560" y2="225" stroke="#8fb47e" stroke-width="6"/>'
            '<circle cx="1510" cy="270" r="26" fill="#ffd77a"/>')
 
+out.append('</g>')
 out.append('</svg>')
 
 dest = sys.argv[1] if len(sys.argv) > 1 else "seat-time-vs-mastery-poster.svg"
 with open(dest, "w") as f:
     f.write("\n".join(out))
 
-# ---- zone rectangles for data.json (percent of W and H) -------------------
+# ---- zone rectangles for data.json (percent of W and TOTAL_H, band included) ---
 def pct(v, total):
     return round(100 * v / total, 1)
 
@@ -239,4 +248,4 @@ zones = {
     "mastery-response":     (1152, 64, W - 8, 752),
 }
 for zid, (x1, y1, x2, y2) in zones.items():
-    print(f"{zid:22s} x1={pct(x1, W)} y1={pct(y1, H)} x2={pct(x2, W)} y2={pct(y2, H)}")
+    print(f"{zid:22s} x1={pct(x1, W)} y1={pct(y1 + BAND, TOTAL_H)} x2={pct(x2, W)} y2={pct(y2 + BAND, TOTAL_H)}")
