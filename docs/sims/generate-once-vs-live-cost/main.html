@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Generate Once Versus Generate for Each Student</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <main id="app">
+        <h1 id="title">Generate Once Versus Generate for Each Student</h1>
+        <div id="sub">Illustrative: a $22,400 production cost, 3.6 million tokens per student per year, and a $2.00 price per million tokens are the Chapter 4 and Chapter 7 example values.</div>
+        <div id="panel">
+            <div id="challenge">
+                <div class="row"><span id="cnum">Question 1 of 3</span><b id="cscore">Score: 0 of 3</b></div>
+                <div id="cprompt"></div>
+                <div id="csetup"></div>
+                <div class="row left">
+                    <label for="answer"><b>Your answer:</b></label>
+                    <input id="answer" type="text" size="12" aria-label="Your answer">
+                    <button id="check" class="go">Check</button>
+                    <button id="next" disabled>Next</button>
+                </div>
+                <div id="cfeedback"></div>
+            </div>
+            <div id="readout" hidden></div>
+        </div>
+        <div id="chartBox"><canvas id="chart" aria-label="Total yearly cost versus number of students" role="img"></canvas></div>
+        <div id="controls">
+            <div class="ctl"><label for="prod">Production cost: <b id="prodV"></b></label><input id="prod" type="range" min="5000" max="100000" step="100" value="22400"></div>
+            <div class="ctl"><label for="tokens">Tokens per student per year: <b id="tokensV"></b></label><input id="tokens" type="range" min="1000000" max="10000000" step="100000" value="3600000"></div>
+            <div class="ctl"><label for="price">Price per million tokens:</label>
+                <select id="price">
+                    <option value="0.07">$0.07 (Oct 2024, Stanford AI Index)</option>
+                    <option value="0.2">$0.20 (illustrative)</option>
+                    <option value="2" selected>$2.00 (illustrative)</option>
+                    <option value="20">$20.00 (Nov 2022, Stanford AI Index)</option>
+                </select></div>
+            <div class="ctl"><label for="students">Students: <b id="studentsV"></b> <span class="hint">(log scale)</span></label><input id="students" type="range" min="0" max="1000" step="1" value="520"></div>
+            <div class="ctl-row"><button id="redo" hidden>Redo questions</button><button id="defaults" hidden>Defaults</button><span id="lockNote">The controls unlock after the three questions.</span></div>
+        </div>
+    </main>
+    <script src="generate-once-vs-live-cost.js"></script>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
+</body>
+</html>

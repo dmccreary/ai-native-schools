@@ -1,0 +1,84 @@
+{
+  "title": "Equal vs. Equitable Tutoring",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Compare an equal split of 45 tutoring hours with an equitable one by finding the allocation that brings three students to a score of 80.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Equality and equity in allocating support",
+    "learningObjectives": [
+      "The learner will distinguish an equal allocation of tutoring hours from an equitable allocation by finding the split of 45 hours that brings all three students to a score of 80, and by stating the score gap that results from each."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Achievement gap, educational equity, equality, and learning gains, from Chapter 3."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 752
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Calculate, then search for the allocation that closes the gap",
+    "keyQuestions": [
+      "How many students reach the target with an equal split?",
+      "Which allocation matches hours to need?"
+    ],
+    "commonMisconceptions": [
+      "Treating everyone the same is always fair",
+      "Equity means taking resources from students who are doing well",
+      "Equity requires giving everyone the same outcome by any means"
+    ],
+    "assessmentOpportunities": [
+      "What is the score gap with 15 hours each?",
+      "Which allocation brings all three students to 80?",
+      "Is treating everyone the same always fair?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Q1 and Q2 boxes",
+      "type": "input",
+      "description": "Type how many students reach 80 and the score gap under the equal split."
+    },
+    {
+      "name": "Check Q1 and Q2",
+      "type": "button",
+      "description": "Checks both answers and unlocks the hour sliders."
+    },
+    {
+      "name": "Hours for A, B, C",
+      "type": "slider",
+      "description": "Set each student's tutoring hours from 0 to 45 in steps of 5. The total cannot exceed 45."
+    },
+    {
+      "name": "Submit allocation",
+      "type": "button",
+      "description": "Checks whether all three students reach 80. Three submissions are allowed."
+    },
+    {
+      "name": "Reset",
+      "type": "button",
+      "description": "Returns to the opening state."
+    }
+  ],
+  "chapter": "03-school-structures-equity-industrial-era"
+}

@@ -241,6 +241,10 @@ Notice what the table says. The strongest evidence, the randomized studies, supp
 
 #### Diagram: Judging the Evidence for a Shorter Morning
 
+<iframe src="../../sims/judging-evidence-for-shorter-morning/main.html" height="708px" width="100%" scrolling="no"></iframe>
+
+[Run the Judging the Evidence for a Shorter Morning MicroSim Fullscreen](../../sims/judging-evidence-for-shorter-morning/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Judging the Evidence for a Shorter Morning</summary>
 Type: microsim
@@ -387,6 +391,10 @@ If the state counts only teacher-led academic instruction, most of a project-and
 
 #### Diagram: Morning Time Budget
 
+<iframe src="../../sims/morning-time-budget/main.html" height="674px" width="100%" scrolling="no"></iframe>
+
+[Run the Morning Time Budget MicroSim Fullscreen](../../sims/morning-time-budget/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Morning Time Budget</summary>
 Type: microsim
@@ -509,6 +517,10 @@ The sim below ties the thread of this chapter together. It asks you to read an A
 
 #### Diagram: Tutor Reply Hint Levels
 
+<iframe src="../../sims/tutor-reply-hint-levels/main.html" height="566px" width="100%" scrolling="no"></iframe>
+
+[Run the Tutor Reply Hint Levels MicroSim Fullscreen](../../sims/tutor-reply-hint-levels/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Tutor Reply Hint Levels</summary>
 Type: microsim
@@ -592,3 +604,5 @@ The story has both sides. The benefit: a morning that fills each student's gaps 
 !!! mascot-celebration "You can weigh the case for a shorter morning"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just weighed the evidence on mastery learning, tutoring, and AI tutors, and worked out how many hours a compressed morning could free and what it must deliver. Chapter 12 turns to the guardrails that keep an AI tutor helping. One step at a time, together.
+
+[See Annotated References](./references.md)

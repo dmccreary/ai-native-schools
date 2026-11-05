@@ -1,0 +1,81 @@
+{
+  "title": "Product Level Classifier",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Judge the real level of eight fictional learning products and label each vendor claim an overclaim, accurate, or an underclaim.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Judging vendor level claims",
+    "learningObjectives": [
+      "The learner will judge the level of eight fictional learning products by assigning each the highest defining capability it delivers, and will identify whether the vendor's claimed level is an overclaim, accurate, or an underclaim, correctly assigning at least seven of eight levels on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "The five levels and their defining capabilities, vendor level claims, and AI-powered marketing claims, from Chapter 6."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 660
+    },
+    "canvasHeight": 660,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Judge described features against definitions, then compare with the claim",
+    "keyQuestions": [
+      "What is the highest capability this product delivers?",
+      "Is the vendor's claim higher, equal, or lower?"
+    ],
+    "commonMisconceptions": [
+      "\"AI-powered\" means a high level",
+      "An adaptive textbook must use a large language model",
+      "A chat box added to a static book makes it autonomous"
+    ],
+    "assessmentOpportunities": [
+      "A PDF with search and a hyperlinked glossary is sold as an \"AI-powered interactive textbook.\" Its level?",
+      "A flashcard app stores each user's answers and schedules the next card. Its level?",
+      "A tutor chat that can also write extra practice problems. Is it Level 5?",
+      "Does an adaptive textbook need a large language model?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Level 1 to Level 5",
+      "description": "assign the level of the highest capability the product delivers."
+    },
+    {
+      "name": "Submit",
+      "description": "commits it. Two attempts per product; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves on; after the eighth it shows your score and the claim summary."
+    },
+    {
+      "name": "Show level definitions",
+      "description": "checkbox that shows the defining capability of each level."
+    },
+    {
+      "name": "Try again",
+      "description": "reshuffles the products and starts over."
+    }
+  ],
+  "chapter": "06-five-level-model-intelligent-textbooks"
+}

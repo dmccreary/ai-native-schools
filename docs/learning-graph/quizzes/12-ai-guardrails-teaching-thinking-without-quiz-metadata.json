@@ -1,0 +1,135 @@
+{
+  "chapter": "AI Guardrails: Teaching Thinking Without Over-Reliance",
+  "chapter_file": "docs/chapters/12-ai-guardrails-teaching-thinking-without/index.md",
+  "quiz_file": "docs/chapters/12-ai-guardrails-teaching-thinking-without/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch12-q001",
+      "number": 1,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "AI Tutor Failures",
+      "tags": [
+        "ai-tutor-failures",
+        "confidently-wrong-answers",
+        "sycophancy"
+      ]
+    },
+    {
+      "id": "ch12-q002",
+      "number": 2,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Guided AI vs Open AI",
+      "tags": [
+        "guided-ai-vs-open-ai",
+        "open-chatbot-access"
+      ]
+    },
+    {
+      "id": "ch12-q003",
+      "number": 3,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "AI Guardrails",
+      "tags": [
+        "ai-guardrails",
+        "hints-instead-of-answers"
+      ]
+    },
+    {
+      "id": "ch12-q004",
+      "number": 4,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Mastery Threshold",
+      "tags": [
+        "mastery-threshold",
+        "false-fails"
+      ]
+    },
+    {
+      "id": "ch12-q005",
+      "number": 5,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Abstraction",
+      "tags": [
+        "abstraction",
+        "decomposition",
+        "pattern-recognition",
+        "algorithmic-thinking"
+      ]
+    },
+    {
+      "id": "ch12-q006",
+      "number": 6,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "medium",
+      "concept_tested": "Socratic Questioning",
+      "tags": [
+        "socratic-questioning",
+        "hints-instead-of-answers"
+      ]
+    },
+    {
+      "id": "ch12-q007",
+      "number": 7,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Selective Chatbot Use",
+      "tags": [
+        "selective-chatbot-use",
+        "energy-efficient-learning"
+      ]
+    },
+    {
+      "id": "ch12-q008",
+      "number": 8,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Over-Reliance on AI",
+      "tags": [
+        "over-reliance-on-ai",
+        "ai-tutor-strengths"
+      ]
+    },
+    {
+      "id": "ch12-q009",
+      "number": 9,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Next-Concept Selection",
+      "tags": [
+        "next-concept-selection",
+        "adaptation-without-live-ai"
+      ]
+    },
+    {
+      "id": "ch12-q010",
+      "number": 10,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Morning Screen-Time Limits",
+      "tags": [
+        "morning-screen-time-limits",
+        "curiosity-led-morning"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 23,
+  "chapter_concepts_tested": 10
+}

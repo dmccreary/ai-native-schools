@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>METR Measurement Workflow</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="metr-measurement-workflow.js"></script>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({
+            startOnLoad: false,
+            theme: 'default',
+            flowchart: { useMaxWidth: true, htmlLabels: true, curve: 'basis', nodeSpacing: 20, rankSpacing: 22, padding: 6 },
+            themeVariables: { fontSize: '14px' }
+        });
+        await mermaid.run({ querySelector: '.mermaid' });
+        setupDiagram();
+    </script>
+</head>
+<body>
+    <main id="app">
+        <h1 id="title">METR Measurement Workflow</h1>
+        <div id="sub">As described in a 2025 preprint: METR, <i>Measuring AI Ability to Complete Long Tasks</i>.</div>
+        <div class="container">
+            <div class="diagram-panel">
+                <div class="mermaid">
+flowchart TD
+    S1["Step 1: Assemble a benchmark task suite"] -->|about 170 tasks| S2["Step 2: Time skilled humans"]
+    S2 -->|human working time per task| S3["Step 3: Run the AI model"]
+    S3 -->|several attempts per task| S4["Step 4: Record the task success rate"]
+    S4 -->|success rate per task| S5["Step 5: Fit a success curve"]
+    S5 -->|curve against human time| S6["Step 6: Read off the horizon"]
+    classDef step fill:#e8f1fb,stroke:#4682b4,stroke-width:2px,color:#000
+    class S1,S2,S3,S4,S5,S6 step
+                </div>
+            </div>
+            <div class="info-panel">
+                <div id="stepBox">
+                    <div id="stepTitle">How do you turn a pile of AI test results into one number?</div>
+                    <div id="stepText">Click each of the six steps to read what it does. Then press <b>Start the questions</b>.</div>
+                    <div id="viewed">Steps read: 0 of 6</div>
+                </div>
+                <div id="quiz">
+                    <div id="qhead"><span id="qnum"></span><b id="qscore"></b></div>
+                    <div id="qtext"></div>
+                    <div id="options" role="radiogroup" aria-label="Answer options"></div>
+                    <div id="qbuttons">
+                        <button id="startBtn" class="go">Start the questions</button>
+                        <button id="submitBtn" hidden disabled>Submit</button>
+                        <button id="nextBtn" hidden disabled>Next</button>
+                        <button id="againBtn" hidden>Try again</button>
+                    </div>
+                    <div id="qfeedback"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
+</body>
+</html>

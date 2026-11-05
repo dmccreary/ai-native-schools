@@ -283,6 +283,10 @@ The handout works because it states what the system does, in order, and commits 
 
 #### Diagram: Who May See This Record?
 
+<iframe src="../../sims/who-may-see-this-record/main.html" height="664px" width="100%" scrolling="no"></iframe>
+
+[Run the Who May See This Record? MicroSim Fullscreen](../../sims/who-may-see-this-record/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Who May See This Record?</summary>
 Type: microsim
@@ -349,6 +353,29 @@ Eight requests:
     ![Indigo warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
     A common trap is collecting everything "in case it's useful later." Every extra field raises the damage if the store is breached and the work of protecting it. Before collecting any item, ask what decision it will inform, and plan when it will be deleted.
 
+#### Diagram: Anatomy of a Learning Record
+
+<iframe src="../../sims/anatomy-of-a-learning-record/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the Anatomy of a Learning Record MicroSim Fullscreen](../../sims/anatomy-of-a-learning-record/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>Anatomy of a Learning Record</summary>
+Type: infographic overlay (callout)
+**sim-id:** anatomy-of-a-learning-record<br/>
+**Library:** diagram.js (shared callout overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** trace<br/>
+**Learning Objective:** The learner will trace one student action from a MicroSim to a teacher's dashboard, naming the parts of an xAPI statement and the role of the Learning Record Store, and explain how the record is kept under student control.
+
+**Visual:** a student at a laptop moves a slider in a MicroSim; an envelope of three linked tiles (actor, verb, object) with a result badge travels to a filing-cabinet Learning Record Store, which feeds a teacher's dashboard and a learning graph whose next node lights up. A key on a lanyard stands for student-controlled data. The image has no text; 11 numbered callouts supply every label.
+
+**Modes:** Explore (hover for a description and tip) and Quiz (click the named part).
+
+**Story balance:** the benefit (adaptation with a lookup, no live AI model) sits beside the risk (a detailed learning history is sensitive) and the response (data minimization and student-controlled records).
+</details>
+
 ## Putting It Together: Adapting Without a Live AI Model
 
 The chapter's pieces now make a complete loop, and it is the loop at the heart of the book's low-cost design.
@@ -378,3 +405,5 @@ The story has both sides, as always. The benefit: a textbook that moves each stu
 !!! mascot-celebration "You can explain how it knows"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just followed a click all the way to a mastery estimate and a next-lesson choice, and you can say exactly what is recorded, where it lives, and who may see it. That's a clear answer for a worried parent. Chapter 9 looks at learning graphs and the standards that let these tools work together. One step at a time, together.
+
+[See Annotated References](./references.md)

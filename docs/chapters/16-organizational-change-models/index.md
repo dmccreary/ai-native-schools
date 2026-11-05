@@ -115,6 +115,10 @@ None of the four conflicts with the others. They are tools for different jobs: K
 
 #### Diagram: Name That Change Model
 
+<iframe src="../../sims/name-that-change-model/main.html" height="704px" width="100%" scrolling="no"></iframe>
+
+[Run the Name That Change Model MicroSim Fullscreen](../../sims/name-that-change-model/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Name That Change Model</summary>
 Type: microsim
@@ -276,6 +280,10 @@ She sends Draft 2. It is less exciting and it is far more likely to survive mont
 
 #### Diagram: Is This a Normal Dip?
 
+<iframe src="../../sims/is-this-a-normal-dip/main.html" height="732px" width="100%" scrolling="no"></iframe>
+
+[Run the Is This a Normal Dip? MicroSim Fullscreen](../../sims/is-this-a-normal-dip/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Is This a Normal Dip?</summary>
 Type: microsim
@@ -367,3 +375,5 @@ The story has both sides. The benefit: decades of research on change, in a form 
 !!! mascot-celebration "You can sort the advice into a toolbox"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned what each major change model is for, how culture decides whether a reform takes hold, and why a first-term dip is normal and worth planning for. Chapter 17 digs into the early stages of leading change: urgency, coalitions, vision, losses, and concerns. One step at a time, together.
+
+[See Annotated References](./references.md)

@@ -84,6 +84,27 @@ An **AI-native school** is the design this book proposes: a school built around 
 
 The **morning-afternoon model** is the structure at the core of the AI-native school: an academic morning of adaptive, mastery-based learning, followed by an afternoon of pro-social activity with other people. The **AI-native school day** is the day that results, with the particular schedule, the screen limits (Chapter 12), the curiosity block (Chapter 2), and the afternoon program (Chapter 14) fitted together.
 
+#### Diagram: The Factory Day vs. the AI-Native Day
+
+<iframe src="../../sims/factory-vs-ai-native-day/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the The Factory Day vs. the AI-Native Day MicroSim Fullscreen](../../sims/factory-vs-ai-native-day/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>The Factory Day vs. the AI-Native Day</summary>
+Type: infographic overlay (grid)
+**sim-id:** factory-vs-ai-native-day<br/>
+**Library:** grid-diagram.js (shared grid overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** compare<br/>
+**Learning Objective:** The learner will compare the industrial-era school day with the AI-native school day, explaining for the morning, the afternoon and the teacher's role what changes, why it changes, and which risk each change brings and how a school responds. (Bloom level: Analyze; verb: compare.)
+
+**Visual:** An interactive poster of two school buildings in cross-section: the industrial-era factory day on the left and the AI-native day on the right, with six zones for the teacher's role, the morning and the afternoon in each school. The image has no text; 6 rectangular zones supply every label.
+
+**Modes:** Explore (hover or click for a description) and Quiz.
+</details>
+
 ## The AI-Native School Day by Grade
 
 The design is not the same for a six-year-old and a sixteen-year-old. Young children need more play, movement, and adult attention and much less screen time. Older students need more academic depth, credits, and preparation for what follows. The table gives an illustrative design for four grade bands. Every number is a starting point for a school to adjust, not a finding.
@@ -228,6 +249,10 @@ Students who are 10 percent of the human writers receive about 69 percent of the
 
 #### Diagram: False Accusations Calculator
 
+<iframe src="../../sims/false-accusations-calculator/main.html" height="660px" width="100%" scrolling="no"></iframe>
+
+[Run the False Accusations Calculator MicroSim Fullscreen](../../sims/false-accusations-calculator/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>False Accusations Calculator</summary>
 Type: microsim
@@ -323,6 +348,10 @@ Vendor A's weighted score is \( 20 \times 4/5 + 20 \times 5/5 + 15 \times 3/5 + 
 
 #### Diagram: Vendor Scorecard
 
+<iframe src="../../sims/vendor-scorecard/main.html" height="664px" width="100%" scrolling="no"></iframe>
+
+[Run the Vendor Scorecard MicroSim Fullscreen](../../sims/vendor-scorecard/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Vendor Scorecard</summary>
 Type: microsim
@@ -411,6 +440,10 @@ The rule: **scale** if all five goals are met; **stop** if there is a serious pr
 
 #### Diagram: Scale, Extend, or Stop?
 
+<iframe src="../../sims/scale-extend-or-stop/main.html" height="452px" width="100%" scrolling="no"></iframe>
+
+[Run the Scale, Extend, or Stop? MicroSim Fullscreen](../../sims/scale-extend-or-stop/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Scale, Extend, or Stop?</summary>
 Type: microsim
@@ -486,3 +519,5 @@ The story has both sides. The benefit: a school day designed from what students 
 !!! mascot-celebration "You can draft an AI-native school day"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just turned the whole book into a schedule, a staffing plan, an assessment record, a procurement scorecard, and a pilot with a rule that decides in advance. That's a design a school can actually test. Chapter 21 covers implementing it responsibly, and Chapters 22 and 23 return to the real stories. One step at a time, together.
+
+[See Annotated References](./references.md)

@@ -228,6 +228,10 @@ The tool below practices the central evaluation skill of this section: matching 
 
 #### Diagram: Evidence Tier Claim Checker
 
+<iframe src="../../sims/evidence-tier-claim-checker/main.html" height="838px" width="100%" scrolling="no"></iframe>
+
+[Run the Evidence Tier Claim Checker MicroSim Fullscreen](../../sims/evidence-tier-claim-checker/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Evidence Tier Claim Checker</summary>
 Type: microsim
@@ -322,6 +326,10 @@ Ms. Rivera sees that Maya fails unit-rate problems (concept 7). Reteaching unit 
 The practical rule is this: the **root gap** is a failed concept all of whose own prerequisites passed. A failed concept whose prerequisites also failed is a symptom, not the cause. Fix the root gap and the dependent failures often resolve; reteach a symptom and nothing changes. The sim below lets you practice that diagnosis.
 
 #### Diagram: Prerequisite Chain Diagnosis
+
+<iframe src="../../sims/prerequisite-chain-diagnosis/main.html" height="724px" width="100%" scrolling="no"></iframe>
+
+[Run the Prerequisite Chain Diagnosis MicroSim Fullscreen](../../sims/prerequisite-chain-diagnosis/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Prerequisite Chain Diagnosis</summary>
@@ -585,6 +593,10 @@ The terms in this section fit together through a single idea: how hard the task 
 
 #### Diagram: Challenge and Prior Knowledge Zone Explorer
 
+<iframe src="../../sims/challenge-knowledge-zone-explorer/main.html" height="764px" width="100%" scrolling="no"></iframe>
+
+[Run the Challenge and Prior Knowledge Zone Explorer MicroSim Fullscreen](../../sims/challenge-knowledge-zone-explorer/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Challenge and Prior Knowledge Zone Explorer</summary>
 Type: microsim
@@ -732,6 +744,10 @@ The sim below practices telling which stakeholder holds which decision.
 
 #### Diagram: School Decision Stakeholder Match
 
+<iframe src="../../sims/school-decision-stakeholder-match/main.html" height="748px" width="100%" scrolling="no"></iframe>
+
+[Run the School Decision Stakeholder Match MicroSim Fullscreen](../../sims/school-decision-stakeholder-match/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>School Decision Stakeholder Match</summary>
 Type: microsim
@@ -846,3 +862,5 @@ This story shows both sides, as every story in this book does. The benefit is re
 !!! mascot-celebration "You can weigh a claim and name who it affects"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned to ask "compared with whom, chosen how, measured by whom?" of any brochure, to read an effect size as a percentile, and to name the five groups who share a school decision. Chapter 3 looks at where the structure of school came from, and why it is so hard to change. One step at a time, together.
+
+[See Annotated References](./references.md)

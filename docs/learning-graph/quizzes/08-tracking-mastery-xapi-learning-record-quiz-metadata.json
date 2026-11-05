@@ -1,0 +1,134 @@
+{
+  "chapter": "Tracking Mastery: xAPI, Learning Record Stores, and MicroSims",
+  "chapter_file": "docs/chapters/08-tracking-mastery-xapi-learning-record/index.md",
+  "quiz_file": "docs/chapters/08-tracking-mastery-xapi-learning-record/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch08-q001",
+      "number": 1,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Actor Verb Object",
+      "tags": [
+        "actor-verb-object",
+        "xapi-statement"
+      ]
+    },
+    {
+      "id": "ch08-q002",
+      "number": 2,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Learning Record Store",
+      "tags": [
+        "learning-record-store",
+        "learning-record"
+      ]
+    },
+    {
+      "id": "ch08-q003",
+      "number": 3,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Static Website",
+      "tags": [
+        "static-website",
+        "web-browser",
+        "microsim"
+      ]
+    },
+    {
+      "id": "ch08-q004",
+      "number": 4,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Mastery Data",
+      "tags": [
+        "mastery-data",
+        "mastery-rule"
+      ]
+    },
+    {
+      "id": "ch08-q005",
+      "number": 5,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Learning Dependency",
+      "tags": [
+        "learning-dependency",
+        "learning-graph"
+      ]
+    },
+    {
+      "id": "ch08-q006",
+      "number": 6,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Learning Management System",
+      "tags": [
+        "learning-management-system",
+        "learning-record-store"
+      ]
+    },
+    {
+      "id": "ch08-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Learning Analytics",
+      "tags": [
+        "learning-analytics",
+        "mastery-data"
+      ]
+    },
+    {
+      "id": "ch08-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Student-Controlled Data",
+      "tags": [
+        "student-controlled-data",
+        "data-minimization"
+      ]
+    },
+    {
+      "id": "ch08-q009",
+      "number": 9,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Data Portability",
+      "tags": [
+        "data-portability",
+        "xapi"
+      ]
+    },
+    {
+      "id": "ch08-q010",
+      "number": 10,
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "xAPI",
+      "tags": [
+        "xapi",
+        "learning-record-store",
+        "learning-graph"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 15,
+  "chapter_concepts_tested": 10
+}

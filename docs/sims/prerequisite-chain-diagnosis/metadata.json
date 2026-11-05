@@ -1,0 +1,89 @@
+{
+  "title": "Prerequisite Chain Diagnosis",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Trace a student's failure on a fractions-to-proportions prerequisite map back to the root gap in five illustrative cases.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Prerequisite concepts and root gaps",
+    "learningObjectives": [
+      "The learner will attribute a student's failure on a target concept to its root gap by examining a prerequisite map and a set of pass/fail results, correctly identifying the root gap in at least four of five cases."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Prior knowledge, prerequisite concept, root gap, and the meaning of a dependency arrow, from Chapter 2."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-network",
+    "version": "9.1.9",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 720
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-network 9.1.9 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Diagnose cases on a dependency map, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Which failed concept has all of its prerequisites passed?",
+      "Is the target concept the root gap?"
+    ],
+    "commonMisconceptions": [
+      "The target concept the student failed is always the place to reteach",
+      "Every failed concept needs reteaching",
+      "A concept that failed must have a failed prerequisite"
+    ],
+    "assessmentOpportunities": [
+      "Define the root gap.",
+      "Where is the root gap when Unit rates and Proportional equations fail but their prerequisites pass?",
+      "Is the failed target always the place to reteach?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Concept nodes",
+      "type": "click",
+      "description": "In explore mode, click to read a description. In a case, click to select the root gap."
+    },
+    {
+      "name": "Start the cases",
+      "type": "button",
+      "description": "Begins the five cases."
+    },
+    {
+      "name": "Clear",
+      "type": "button",
+      "description": "Unselects the selected concept."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the selected concept against the root gap."
+    },
+    {
+      "name": "Next case",
+      "type": "button",
+      "description": "Moves on after feedback."
+    },
+    {
+      "name": "Zoom in, Zoom out, Reset",
+      "type": "button",
+      "description": "Change the view of the map. The mouse wheel does not zoom."
+    }
+  ],
+  "chapter": "02-evidence-motivation-stakeholders"
+}

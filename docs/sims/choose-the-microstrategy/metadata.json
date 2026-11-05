@@ -1,0 +1,85 @@
+{
+  "title": "Choose the Microstrategy",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Choose the microstrategy that best fits each of eight teacher situations, by diagnosing the concern first.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Choose the Microstrategy",
+    "learningObjectives": [
+      "The learner will apply the matching tables by choosing the microstrategy that best fits each of eight teacher situations, correctly choosing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "The six microstrategies and the matching tables in the section \"Matching the Strategy to the Person\" in Chapter 19."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 624
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "A teacher says, \"I want to see what this looks like in a real class.\" Which microstrategy?",
+      "A late-majority teacher wants data from a classroom in the same building. Which microstrategy?"
+    ],
+    "commonMisconceptions": [
+      "The same microstrategy works for every teacher",
+      "More training solves every concern",
+      "A mandate is a strategy"
+    ],
+    "assessmentOpportunities": [
+      "A teacher says, \"I want to see what this looks like in a real class.\" Which microstrategy?",
+      "A late-majority teacher wants data from a classroom in the same building. Which microstrategy?",
+      "Does more training solve every concern?",
+      "Is a mandate a microstrategy?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "6 choice buttons",
+      "type": "button",
+      "description": "Choose one of the microstrategies; two tries per situation."
+    },
+    {
+      "name": "Show descriptions",
+      "type": "button",
+      "description": "Opens a table of the microstrategies and their meanings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves on after the feedback."
+    },
+    {
+      "name": "Previous missed, Next missed",
+      "type": "button",
+      "description": "On the results screen, page through the missed items."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the items for a practice run."
+    }
+  ],
+  "chapter": "19-microstrategies-leading-change"
+}

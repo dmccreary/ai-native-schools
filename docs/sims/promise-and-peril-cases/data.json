@@ -1,0 +1,301 @@
+{
+  "title": "Promise and Peril: Five AI-First Cases",
+  "image": "promise-and-peril-cases.svg",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": [
+    "#2D8A4E",
+    "#C7164E",
+    "#1F6FB2",
+    "#f2b33d",
+    "#6A3FB5"
+  ],
+  "zones": [
+    {
+      "id": "alpha-benefit",
+      "label": "Alpha: benefit",
+      "color": "#2D8A4E",
+      "x1": 1.0,
+      "y1": 37.56,
+      "x2": 20.0,
+      "y2": 56.89,
+      "summary": "A short academic morning frees most of the day for projects, workshops and people.",
+      "facts": [
+        "In the picture: a clock with a small shaded wedge, a paintbrush and a ball.",
+        "Students spend about two hours a day on adaptive academic software, which the school calls 2 Hour Learning, and the rest of the day on workshops and projects led by adult guides (source: S1, S2).",
+        "The school began in Austin, Texas, in 2014 and now has campuses in several cities (source: S1, S2)."
+      ]
+    },
+    {
+      "id": "alpha-risk",
+      "label": "Alpha: risk",
+      "color": "#C7164E",
+      "x1": 1.0,
+      "y1": 58.22,
+      "x2": 20.0,
+      "y2": 77.56,
+      "summary": "Cost and equity: the model is sold at private-school prices, and its results are self-reported.",
+      "facts": [
+        "In the picture: tall stacks of coins beside a locked gate, with a child standing outside it.",
+        "Tuition is about $40,000 a year at the original Austin campus (source: S2) and about $65,000 a year at newer campuses such as Boston and New York (source: S3, S4). The higher figure is not the price at every campus.",
+        "Alpha's claims of faster learning rest on its own analysis of test data, which has not been independently reviewed (source: S1, S2)."
+      ]
+    },
+    {
+      "id": "alpha-response",
+      "label": "Alpha: no response",
+      "color": "#1F6FB2",
+      "x1": 1.0,
+      "y1": 78.89,
+      "x2": 20.0,
+      "y2": 98.22,
+      "summary": "Left empty on purpose: the sources checked show no response from the school to the cost risk.",
+      "facts": [
+        "In the picture: an empty blue band with a dashed border. Nothing was invented to fill it.",
+        "None of the sources checked for this poster describe a step Alpha took to make the model affordable to most families, or an independent evaluation of its results (source: S1, S2, S3).",
+        "The response in Chapter 22 is the book's, not the school's: offer the same structure to every student with open Level 2 and Level 3 textbooks, learning graphs and a structured afternoon (source: Ch22).",
+        "A district like the book's composite Lincoln Middle School can borrow the structure without the price tag."
+      ]
+    },
+    {
+      "id": "unbound-benefit",
+      "label": "Unbound: benefit",
+      "color": "#2D8A4E",
+      "x1": 20.75,
+      "y1": 37.56,
+      "x2": 39.75,
+      "y2": 56.89,
+      "summary": "Free to families: the same adaptive morning software, with no tuition.",
+      "facts": [
+        "In the picture: a house with an open door, and a coin crossed out.",
+        "Unbound Academy is a tuition-free online charter school in Arizona for grades 4 to 8 that uses Alpha's 2 Hour Learning software (source: S5, S6, S1).",
+        "The Arizona State Board for Charter Schools approved it by a 4–3 vote in December 2024 (source: S7, S8)."
+      ]
+    },
+    {
+      "id": "unbound-risk",
+      "label": "Unbound: risk",
+      "color": "#C7164E",
+      "x1": 20.75,
+      "y1": 58.22,
+      "x2": 39.75,
+      "y2": 77.56,
+      "summary": "The software without the afternoon: early results fell far short of the school's own targets.",
+      "facts": [
+        "In the picture: a chart whose short bars stop well under a high dashed target line, beside a student alone at a laptop.",
+        "A slideshow prepared for the school's board reportedly showed about 10 percent of students proficient in math and 28 percent in English language arts after the 2025–26 year, against first-year targets of 60 and 65 percent (source: S11, S12).",
+        "The school claims 2.8 times faster learning on its own growth tests (source: S5, S12). Neither figure says where students started, so growth is unclear.",
+        "Pennsylvania denied a related cyber charter application in January 2025, and at least four states besides Arizona declined the school (source: S9, S10, S1)."
+      ]
+    },
+    {
+      "id": "unbound-response",
+      "label": "Unbound: no response",
+      "color": "#1F6FB2",
+      "x1": 20.75,
+      "y1": 78.89,
+      "x2": 39.75,
+      "y2": 98.22,
+      "summary": "Left empty on purpose: no response from the school to its weak early results was found.",
+      "facts": [
+        "In the picture: an empty blue band with a dashed border. Nothing was invented to fill it.",
+        "The sources checked report the results but no change the school made because of them (source: S10, S11, S12).",
+        "Regulators were cautious before it opened: Arizona approved it 4–3, and other states said no. That was caution by regulators, not a response by the school (source: S7, S9, S10).",
+        "The book's response: hold claims to Chapter 2's evidence standard, and ask for starting points and an independent evaluation (source: Ch22)."
+      ]
+    },
+    {
+      "id": "turkey-benefit",
+      "label": "Turkey: benefit",
+      "color": "#2D8A4E",
+      "x1": 40.5,
+      "y1": 37.56,
+      "x2": 59.5,
+      "y2": 56.89,
+      "summary": "With AI help, practice scores rose.",
+      "facts": [
+        "In the picture: a worksheet full of green checks, with an arrow pointing up.",
+        "In a randomized field experiment with nearly 1,000 high school math students in Turkey, an open GPT-4 chatbot raised practice scores by 48 percent and a hint-giving tutor by 127 percent (source: S13, S14).",
+        "Hamsa Bastani and colleagues at the Wharton School ran the study. It was released in 2024 and published in PNAS in 2025 (source: S13, S14)."
+      ]
+    },
+    {
+      "id": "turkey-risk",
+      "label": "Turkey: risk",
+      "color": "#C7164E",
+      "x1": 40.5,
+      "y1": 58.22,
+      "x2": 59.5,
+      "y2": 77.56,
+      "summary": "Handing thinking over: once the AI was taken away, the open-chatbot group did worse.",
+      "facts": [
+        "In the picture: a crutch leaning beside an exam sheet, with an arrow pointing down.",
+        "On later exams without AI, students who had used the open chatbot scored 17 percent lower than students who never had it (source: S13, S14).",
+        "The authors say students used the chatbot as a crutch, asking it for answers (source: S13).",
+        "It was one school, one subject and the short term, so the size of the effect should not be applied to every setting (source: Ch22)."
+      ]
+    },
+    {
+      "id": "turkey-response",
+      "label": "Turkey: response",
+      "color": "#1F6FB2",
+      "x1": 40.5,
+      "y1": 78.89,
+      "x2": 59.5,
+      "y2": 98.22,
+      "summary": "Guardrails: a tutor that gave hints instead of answers removed most of the harm.",
+      "facts": [
+        "In the picture: a road guardrail with a lightbulb above it.",
+        "The GPT Tutor version was set up to give hints, not answers. Its students scored about the same as the no-AI group on the exam (source: S13, S14).",
+        "Lesson: design matters more than raw AI power (source: Ch22).",
+        "Chapter 22's pilot checklist turns this into a test: before a pilot, check whether the tutor's first reply is a hint or an answer."
+      ]
+    },
+    {
+      "id": "harvard-benefit",
+      "label": "Harvard: benefit",
+      "color": "#2D8A4E",
+      "x1": 60.25,
+      "y1": 37.56,
+      "x2": 79.25,
+      "y2": 56.89,
+      "summary": "Students learned more, in less time, than in an active-learning class.",
+      "facts": [
+        "In the picture: a stopwatch with a small shaded wedge, beside a short gray bar and a tall green bar.",
+        "In a randomized crossover study of 194 students in Harvard's introductory physics course, published in Scientific Reports in June 2025, median learning gains with the AI tutor were more than double those of the in-class lesson (source: S15, S16).",
+        "The median student spent 49 minutes with the tutor, against about 60 minutes of learning time in class (source: S15)."
+      ]
+    },
+    {
+      "id": "harvard-risk",
+      "label": "Harvard: risk",
+      "color": "#C7164E",
+      "x1": 60.25,
+      "y1": 58.22,
+      "x2": 79.25,
+      "y2": 77.56,
+      "summary": "Generalization: one course at one university, with well-prepared students.",
+      "facts": [
+        "In the picture: one brick college hall on a small island, with the faint dashed outlines of other schools nearby.",
+        "The study covered one course, two topics and short tests at one university (source: S15, S16).",
+        "The authors do not assume AI tutoring will always beat class learning, especially for complex synthesis and higher-order thinking (source: S15).",
+        "Whether it works for a middle schooler who is stuck on fractions, like the book's composite student Maya, is still untested (source: Ch22)."
+      ]
+    },
+    {
+      "id": "harvard-response",
+      "label": "Harvard: response",
+      "color": "#1F6FB2",
+      "x1": 60.25,
+      "y1": 78.89,
+      "x2": 79.25,
+      "y2": 98.22,
+      "summary": "Design: a tutor built on proven teaching practice, one step at a time.",
+      "facts": [
+        "In the picture: a blueprint with a staircase of steps and a guide rail.",
+        "The tutor revealed one step at a time, kept replies short, asked students to try first, and was given the correct solutions to cut down on made-up answers (source: S15, S16).",
+        "Preparing it took several months of development, and the authors say the result depends on that design (source: S15).",
+        "Lesson: a well-designed tutor can help, and design is the condition (source: Ch22)."
+      ]
+    },
+    {
+      "id": "summit-benefit",
+      "label": "Summit: benefit",
+      "color": "#2D8A4E",
+      "x1": 80.0,
+      "y1": 37.56,
+      "x2": 99.0,
+      "y2": 56.89,
+      "summary": "Personalized pacing on a platform that many schools adopted.",
+      "facts": [
+        "In the picture: a winding path of stepping stones, with two students at different points on the way to a flag.",
+        "Summit Public Schools built the platform, and Facebook engineers helped from 2014 to get it ready for schools across the country by 2015 (source: S21, S22).",
+        "By late 2018, about 380 schools used it (source: S18)."
+      ]
+    },
+    {
+      "id": "summit-risk",
+      "label": "Summit: risk",
+      "color": "#C7164E",
+      "x1": 80.0,
+      "y1": 58.22,
+      "x2": 99.0,
+      "y2": 77.56,
+      "summary": "Screen time and too little contact with teachers: students walked out and families protested.",
+      "facts": [
+        "In the picture: a wall of screens, and students walking out through a door, one holding a blank sign.",
+        "In November 2018, nearly 100 students walked out at a Brooklyn high school, saying they spent hours on screens and had to teach themselves (source: S17, S18).",
+        "In Kansas in 2019, students walked out in McPherson and held a sit-in in Wellington. In a McPherson survey, 77 percent of middle school parents said they preferred their child not be in a Summit classroom (source: S19).",
+        "Ten students had transferred out of the McPherson district because of the program by April 2019 (source: S20)."
+      ]
+    },
+    {
+      "id": "summit-response",
+      "label": "Summit: response",
+      "color": "#1F6FB2",
+      "x1": 80.0,
+      "y1": 78.89,
+      "x2": 99.0,
+      "y2": 98.22,
+      "summary": "Protest, not design: schools pulled back after students and families spoke up.",
+      "facts": [
+        "In the picture: a laptop being shut, an unplugged cord and a raised hand.",
+        "The Brooklyn school dropped Summit for 11th and 12th graders right after the walkout (source: S17, S18).",
+        "McPherson's superintendent said parents could opt their children out the next year (source: S20). Summit blamed poor implementation and too little teacher training (source: S18).",
+        "The book's design response: keep the screen morning short, make the afternoon about people, and hear families and students early (source: Ch22)."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which zone shows a free online school whose early results fell far below its own targets?",
+      "correct_zone": "unbound-risk",
+      "explanation": "Unbound's board slideshow reportedly showed about 10 percent proficient in math and 28 percent in English language arts, against targets of 60 and 65 percent."
+    },
+    {
+      "question": "Which response used hints instead of answers to remove most of the harm?",
+      "correct_zone": "turkey-response",
+      "explanation": "The guardrailed GPT Tutor gave hints, and its students did about as well as the no-AI group on the exam."
+    },
+    {
+      "question": "Which empty band marks a case where the sources show no school response to the cost risk?",
+      "correct_zone": "alpha-response",
+      "explanation": "Alpha's response band is empty on purpose. The response in Chapter 22 is the book's proposal, not something the school did."
+    },
+    {
+      "question": "Which zone shows students learning more in less time than in an active-learning class?",
+      "correct_zone": "harvard-benefit",
+      "explanation": "In the Harvard study, median gains with the AI tutor were more than double those of the in-class lesson."
+    },
+    {
+      "question": "Which risk shows students walking out over long hours on screens?",
+      "correct_zone": "summit-risk",
+      "explanation": "Students walked out in Brooklyn in 2018, and Kansas students protested in 2019."
+    },
+    {
+      "question": "Which zone shows practice scores rising with AI help?",
+      "correct_zone": "turkey-benefit",
+      "explanation": "In the Turkish study, the open chatbot raised practice scores by 48 percent and the tutor by 127 percent."
+    },
+    {
+      "question": "Which risk is that a strong result comes from only one course at one university?",
+      "correct_zone": "harvard-risk",
+      "explanation": "The Harvard study covered one introductory physics course, so whether it holds elsewhere is untested."
+    },
+    {
+      "question": "Which benefit is that families pay no tuition?",
+      "correct_zone": "unbound-benefit",
+      "explanation": "Unbound Academy is a tuition-free charter school."
+    },
+    {
+      "question": "Which risk is tuition of about $40,000 to about $65,000 a year, depending on the campus?",
+      "correct_zone": "alpha-risk",
+      "explanation": "About $40,000 at the original Austin campus and about $65,000 at newer campuses such as Boston and New York."
+    },
+    {
+      "question": "Which response came from protest rather than design?",
+      "correct_zone": "summit-response",
+      "explanation": "The Brooklyn school dropped Summit for its upper grades after the walkout, and a Kansas district offered an opt-out."
+    }
+  ]
+}

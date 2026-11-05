@@ -1,0 +1,119 @@
+{
+  "title": "Seat Time vs. Mastery",
+  "image": "seat-time-vs-mastery-poster.svg",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#d9534f", "#e0a030", "#4f86c6", "#2d8a4e", "#9b6fc4", "#3fa58e"],
+  "zones": [
+    {
+      "id": "seat-calendar",
+      "label": "Seat time: the calendar",
+      "color": "#d9534f",
+      "x1": 0.5, "y1": 8.0, "x2": 28.0, "y2": 94.0,
+      "summary": "Time is fixed and learning varies. The calendar, the clock and the bell decide when the class moves on.",
+      "facts": [
+        "Seat time is the hours a student is present in class, used as the measure of how much instruction they received. A student who already knows the material and a student who is lost earn the same seat time.",
+        "The Carnegie unit, defined in 1906, counts a high school course as 120 hours of class time in one subject over a school year. Most U.S. high schools still award credit this way (Chapter 3).",
+        "The conveyor belt is the class moving on together. In Maya's school the bell moves 28 students through each 50-minute period, whether or not they have understood the lesson.",
+        "The benefit is real: seat time is simple to count and audit, and a common schedule lets 30 teachers coordinate 600 students in one building."
+      ]
+    },
+    {
+      "id": "seat-cracked-blocks",
+      "label": "Seat time: the cracked blocks",
+      "color": "#e0a030",
+      "x1": 28.0, "y1": 67.5, "x2": 49.5, "y2": 94.0,
+      "summary": "Gaps build up silently. The class moved on before the first two concepts were solid.",
+      "facts": [
+        "In Chapter 3's class of 20 students and a fixed 150-hour course, 14 students master it and 6 do not. Those 6 get a low grade and the class moves on, leaving a hole in their foundation.",
+        "The 6 students would need 305 more hours between them. Nothing on the report card shows where the hole is.",
+        "The same fixed course leaves 535 idle hours among the 14 who finish early. Fixed time wastes hours at the top and leaves gaps at the bottom.",
+        "A gap like this is the missing stair of Maya's equivalent fractions: running harder up the stairs does not help until someone builds the stair."
+      ]
+    },
+    {
+      "id": "seat-wobbling-top",
+      "label": "Seat time: the wobbling top",
+      "color": "#9b6fc4",
+      "x1": 28.0, "y1": 8.0, "x2": 49.5, "y2": 67.5,
+      "summary": "Later concepts rest on earlier ones, so a hidden gap makes everything above it unstable.",
+      "facts": [
+        "Each block sits on the blocks below it, the way a learning dependency links a concept to its prerequisite (Chapters 8 and 9).",
+        "Maya fails unit-rate problems because of a root gap in equivalent fractions. Reteaching unit rates for three weeks costs 9 hours and masters nothing (Chapter 11).",
+        "The student on top has reached the last concept on schedule but cannot stand steadily on it. A student who looks unmotivated is often standing on a gap like this.",
+        "The fix is to go back down and repair the cracked block, not to push harder at the top."
+      ]
+    },
+    {
+      "id": "mastery-solid-blocks",
+      "label": "Mastery: the solid blocks",
+      "color": "#2d8a4e",
+      "x1": 50.5, "y1": 67.5, "x2": 72.0, "y2": 94.0,
+      "summary": "Learning is fixed and time varies. A student stays on a block until it is solid, then climbs.",
+      "facts": [
+        "Mastery learning asks a student to show mastery of a concept, typically 80 to 90 percent on a check, before moving on. Benjamin Bloom described it in 1968 (Chapter 11).",
+        "The check shape on each block is that threshold. A student below it gets different instruction and a second check, not a repeat of the same lesson.",
+        "In Chapter 11's cycle for a class of 28, 17 students meet the threshold on the first check and 25 after the second. The 3 who still need help are flagged for a teacher.",
+        "With time allowed to vary, all 20 of Chapter 3's students master the course in 2,770 hours, fewer than the 3,000 hours of the fixed 150-hour course."
+      ]
+    },
+    {
+      "id": "mastery-spread",
+      "label": "Mastery: spread of students",
+      "color": "#3fa58e",
+      "x1": 50.5, "y1": 8.0, "x2": 72.0, "y2": 67.5,
+      "summary": "Every block is whole, but students finish at different times. Some are at the top while others are still low on the stairs.",
+      "facts": [
+        "Personalized pacing lets each student move faster through what they know and slower through what is new or difficult (Chapter 11).",
+        "In Chapter 3's class the fastest student needs 70 hours and the slowest needs 260. At 50 minutes a day, the fastest finishes with 96 days to spare and the slowest is 132 days short of the 180-day year.",
+        "This is the risk of mastery: pacing does not create time. Students spread far apart, and slow students fall further behind in time.",
+        "Mastery mainly gets everyone to the goal. The average in Chapter 3's example drops only from 150 to 138.5 hours, about eight percent."
+      ]
+    },
+    {
+      "id": "mastery-response",
+      "label": "Mastery: help and shared work",
+      "color": "#4f86c6",
+      "x1": 72.0, "y1": 8.0, "x2": 99.5, "y2": 94.0,
+      "summary": "The school's response to the spread: tutoring and gap filling for students who are stuck, and shared afternoon work that does not depend on pace.",
+      "facts": [
+        "The coach hands the stuck student the missing block. Gap filling finds the root gap and teaches it first: Maya spends 7 hours and masters three concepts instead of 9 hours and none (Chapter 11).",
+        "A plan for slower students protects extra morning time and coaching for them, accepts that some will finish the course the following year, or both. A model that offers pacing without such a plan has moved the problem, not solved it.",
+        "At the workbench, students from every step build one project together. Shared afternoon work, the pro-social afternoon of Chapter 14, keeps the class a community even when their academic pace differs.",
+        "When the software handles the check and the branch for every student, the teacher's time goes to the few who still need a human."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Where does the picture show that time is fixed and the class moves on together, ready or not?",
+      "correct_zone": "seat-calendar",
+      "explanation": "The calendar, clock, bell and conveyor belt stand for seat time and the Carnegie unit: everyone gets the same hours."
+    },
+    {
+      "question": "Where do gaps in early concepts build up silently because the class moved on?",
+      "correct_zone": "seat-cracked-blocks",
+      "explanation": "The cracked first block and the hole in the second are the 6 students in Chapter 3 who leave a 150-hour course without mastering it."
+    },
+    {
+      "question": "Where can you see that a later concept is unstable because it rests on an earlier one with a gap?",
+      "correct_zone": "seat-wobbling-top",
+      "explanation": "The top blocks sag into the hole below them, the way a learning dependency makes later concepts rely on their prerequisites."
+    },
+    {
+      "question": "Where does a student stay on a concept until it passes the mastery threshold?",
+      "correct_zone": "mastery-solid-blocks",
+      "explanation": "Each whole block carries a check shape: the 80 to 90 percent threshold of mastery learning."
+    },
+    {
+      "question": "Where does the picture show the risk of mastery learning: students finishing far apart in time?",
+      "correct_zone": "mastery-spread",
+      "explanation": "Students stand at different heights on the same solid stairs. Personalized pacing does not add hours to the year."
+    },
+    {
+      "question": "Where is the school's response to students who fall behind in time?",
+      "correct_zone": "mastery-response",
+      "explanation": "A coach fills the gap for the stuck student, and the shared afternoon project brings students of every pace together."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
-title: Learning Graph Viewer
-description: Interactive viewer for the 532-concept AI-Native Schools learning graph, with search, category filtering, and statistics.
+title: "Learning Graph Viewer"
+description: "Interactive viewer for the 532-concept AI-Native Schools learning graph, with search, category filtering, and statistics."
 status: built
 ---
 

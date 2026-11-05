@@ -129,6 +129,10 @@ Two concepts are ready: AI Benchmark and Large Language Model. The student could
 
 #### Diagram: Ready Concepts Finder
 
+<iframe src="../../sims/ready-concepts-finder/main.html" height="724px" width="100%" scrolling="no"></iframe>
+
+[Run the Ready Concepts Finder MicroSim Fullscreen](../../sims/ready-concepts-finder/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Ready Concepts Finder</summary>
 Type: graph-model
@@ -276,6 +280,10 @@ For a very small group, live generation is cheaper, since nothing has to be prod
 
 #### Diagram: Generate Once Versus Generate for Each Student
 
+<iframe src="../../sims/generate-once-vs-live-cost/main.html" height="654px" width="100%" scrolling="no"></iframe>
+
+[Run the Generate Once Versus Generate for Each Student MicroSim Fullscreen](../../sims/generate-once-vs-live-cost/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Generate Once Versus Generate for Each Student</summary>
 Type: chart
@@ -407,3 +415,5 @@ The story has both sides. The benefit: a design that, with the right choices, ca
 !!! mascot-celebration "You can say how it reaches Fairview"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned how a learning graph chooses the next step, which standards let tools cooperate, and why generate-once content with offline access can reach a school with a slow connection and old devices. Chapter 10 takes on the hard question these records raise: protecting student privacy and governing the data. One step at a time, together.
+
+[See Annotated References](./references.md)

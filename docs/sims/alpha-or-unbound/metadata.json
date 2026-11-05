@@ -1,0 +1,79 @@
+{
+  "title": "Alpha or Unbound?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Compare Alpha School and Unbound Academy by placing nine facts as true of Alpha only, Unbound only, or both.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Alpha or Unbound?",
+    "learningObjectives": [
+      "The learner will compare Alpha School and Unbound Academy by placing nine facts as true of Alpha only, Unbound only, or both, correctly placing at least eight of nine on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Alpha School, Unbound Academy, 2 Hour Learning, Alpha adult guides, and \"software is not the model,\" from the sections \"Case 1\" and \"Case 2\" in Chapter 22."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 378
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify one item at a time with immediate feedback; first-attempt scoring",
+    "keyQuestions": [
+      "What do the two schools share?",
+      "What does only one of them have?"
+    ],
+    "commonMisconceptions": [
+      "The two schools are the same program.",
+      "Using the same software means getting the same results.",
+      "A free school and a tuition school differ only in price."
+    ],
+    "assessmentOpportunities": [
+      "Which school uses the 2 Hour Learning software?",
+      "Which school has an in-person afternoon led by adult guides?",
+      "Do the two schools differ only in price?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Category buttons",
+      "type": "button",
+      "description": "Choose the bin for the current fact."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the choice. Two tries per fact; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next fact. Finish shows the score."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Reshuffles and begins a new run."
+    }
+  ],
+  "chapter": "22-ai-first-case-studies-i-promise-peril"
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Source Credibility Checker",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Rate eight fictional sources of evidence about an education product as Lead only, Use with caution, or Reasonable weight by applying a three-part rule.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Judging the quality of evidence",
+    "learningObjectives": [
+      "The learner will judge how much weight each of eight sources of evidence about an educational product deserves by applying the independence, review, and comparison-group rules, correctly rating at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Evaluate",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Independent evaluation, self-reported results, preprint, peer review, and comparison group, from Chapter 3."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 728
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Apply a rule, commit a rating, and read the reason",
+    "keyQuestions": [
+      "Is there a comparison group studied at the same time?",
+      "Is the evaluator independent?",
+      "Has the work been peer reviewed?"
+    ],
+    "commonMisconceptions": [
+      "A study paid for by a vendor can never be independent",
+      "A preprint is the same as a peer-reviewed paper",
+      "A comparison to national norms is a comparison group"
+    ],
+    "assessmentOpportunities": [
+      "Is a comparison with national norms a comparison group?",
+      "Can a vendor-paid study be independent?",
+      "What rating does an independent preprint of a randomized trial get?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Three rating buttons",
+      "type": "button",
+      "description": "Choose Lead only, Use with caution, or Reasonable weight for the current source."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Shows or hides the rule and the three ratings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next source after feedback."
+    },
+    {
+      "name": "Previous missed and Next missed",
+      "type": "button",
+      "description": "On the results screen, step through the sources you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the sources for a practice run."
+    }
+  ],
+  "chapter": "03-school-structures-equity-industrial-era"
+}

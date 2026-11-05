@@ -1,0 +1,137 @@
+{
+  "title": "Anatomy of a Learning Record",
+  "orientation": "landscape",
+  "image": "anatomy-of-a-learning-record.svg",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 3,
+      "label": "Actor: who did it",
+      "x": 31.9,
+      "y": 37.0,
+      "radius": 3.5,
+      "color": "#8E44AD",
+      "panel": "top",
+      "hint": "The left tile in the envelope, showing the outline of a person.",
+      "description": "The actor is who did something, usually a student. In Maya's statements the actor is a code, student-4821, not her name, so someone reading the record without the class roster cannot tell who she is.",
+      "tip": "Using a code instead of a name is the first, cheapest privacy protection in the whole system."
+    },
+    {
+      "id": 4,
+      "label": "Verb: what they did",
+      "x": 37.5,
+      "y": 37.0,
+      "radius": 3.5,
+      "color": "#E67E22",
+      "panel": "top",
+      "hint": "The middle tile in the envelope, showing a pointer clicking.",
+      "description": "The verb is the action, such as answered, completed or experienced. The standard gives each verb a web address plus a readable label, so every system that reads the statement agrees on what the action means. Moving the slider in a simulation is recorded as experienced; clicking Check on a question is answered."
+    },
+    {
+      "id": 2,
+      "label": "xAPI statement (the envelope)",
+      "x": 40.0,
+      "y": 22.2,
+      "radius": 4.5,
+      "color": "#F39C12",
+      "panel": "top",
+      "hint": "A glowing envelope flying away from the laptop along a dashed line.",
+      "description": "An xAPI statement is a single record of one learning event, written as a small structured data object in JSON. Its core is a three-part sentence, actor, verb, object, plus an optional result and a timestamp. Read aloud, one statement says something like: student-4821 answered question 3 of the unit-rates activity, correctly, at 10:15 a.m.",
+      "tip": "A statement takes about a kilobyte or less. It records an event and nothing more."
+    },
+    {
+      "id": 5,
+      "label": "Object: what they did it to",
+      "x": 43.1,
+      "y": 37.0,
+      "radius": 3.5,
+      "color": "#16A085",
+      "panel": "top",
+      "hint": "The right tile in the envelope, showing a solid block.",
+      "description": "The object is the activity the actor acted on, such as one quiz question or one simulation. It is identified by a web address, so the same question always has the same name in every record, in every system."
+    },
+    {
+      "id": 7,
+      "label": "Learning Record Store (LRS)",
+      "x": 57.8,
+      "y": 43.9,
+      "radius": 4.5,
+      "color": "#3498DB",
+      "panel": "top",
+      "hint": "A tall gray filing cabinet with green lights and a slot on top where the envelope arrives.",
+      "description": "A Learning Record Store receives xAPI statements, stores them, and returns them on request. It is the memory of the system: statements from every sim, quiz and activity end up here. The LRS decides nothing about teaching; it answers questions such as \"give me all the statements for student-4821 about unit rates.\"",
+      "tip": "Unlike a learning management system, which records mostly grades and submissions, an LRS can take in activity from any page or app that speaks xAPI."
+    },
+    {
+      "id": 9,
+      "label": "Teacher dashboard (learning analytics)",
+      "x": 79.7,
+      "y": 22.5,
+      "radius": 4.5,
+      "color": "#2980B9",
+      "panel": "top",
+      "hint": "A large monitor showing a bar chart with one short red bar, and a teacher pointing at it.",
+      "description": "Learning analytics reads the records across many students to help teachers decide what to do. The short red bar is one concept most of the class finds hard, which calls for a whole-class reteach. A teacher also looks for the opposite pattern: one student struggling across many concepts, who needs individual support.",
+      "tip": "Before reading an average, ask: is one concept weak for most students, or is one student weak across most concepts? The average hides both."
+    },
+    {
+      "id": 11,
+      "label": "Student-controlled data (the key)",
+      "x": 10.0,
+      "y": 58.2,
+      "radius": 4,
+      "color": "#D4AC0D",
+      "panel": "bottom",
+      "hint": "A gold key hanging on a red lanyard around the student's neck.",
+      "description": "The school's response to the risk is to put the student and family in charge. Collect only what instruction needs, let the family see the record, take a copy in a standard format, limit who can see it, and remove it when it is no longer needed. The school and vendors act as custodians of the record, not owners.",
+      "tip": "Because every compliant system reads the same statements, a record built in one school can follow the student to the next. That is data portability."
+    },
+    {
+      "id": 1,
+      "label": "MicroSim in the browser",
+      "x": 20.1,
+      "y": 54.6,
+      "radius": 4.5,
+      "color": "#E74C3C",
+      "panel": "bottom",
+      "hint": "A laptop screen showing a curve, a dot and a slider being moved by the student.",
+      "description": "A MicroSim is a small interactive model that runs entirely in the student's web browser, with no server program. Because it runs on the student's own device, it is a natural place to notice what the student does: a slider moved, a question answered, an answer checked. Only meaningful actions are reported; mouse movement across the page is noise and is not recorded."
+    },
+    {
+      "id": 6,
+      "label": "Result (score)",
+      "x": 47.0,
+      "y": 48.2,
+      "radius": 4,
+      "color": "#27AE60",
+      "panel": "bottom",
+      "hint": "A green rosette with a check mark and two red ribbons, pinned to the envelope's corner.",
+      "description": "The result is an optional part of a statement that holds the outcome: whether the answer was correct and the score as a fraction of 1. When Maya finishes a five-question check with four right, the result says success with a score of 0.8. Statements about simply exploring a simulation often carry no result at all."
+    },
+    {
+      "id": 8,
+      "label": "Learning record (a sensitive history)",
+      "x": 57.8,
+      "y": 63.1,
+      "radius": 4,
+      "color": "#C0392B",
+      "panel": "bottom",
+      "hint": "An open drawer in the cabinet, packed with colored folders.",
+      "description": "A learning record is the stored collection of statements about one learner: everything Maya did over the semester, in order. That history is what makes adaptation possible, and it is also the risk. A detailed record of a child's mistakes is sensitive data, and every extra field collected \"in case it's useful\" raises the damage if the store is ever breached.",
+      "tip": "Before collecting any item, ask what decision it will inform, and plan when it will be deleted."
+    },
+    {
+      "id": 10,
+      "label": "Learning graph: the next concept lights up",
+      "x": 80.8,
+      "y": 75.6,
+      "radius": 4.5,
+      "color": "#F1C40F",
+      "panel": "bottom",
+      "hint": "A map of circles joined by arrows, with green circles, gray circles and one glowing gold circle.",
+      "description": "A stated rule turns the record into mastery data, such as \"mastered means four of the last five answers correct.\" Green circles are mastered concepts and arrows point to prerequisites. The next concept is one the student has not mastered whose prerequisites are all mastered, so it lights up. That is a lookup, not a live AI model, which is why the textbook can adapt to each student for a few dollars a year.",
+      "tip": "Anyone who can read the rule and the map can check why the software chose this concept."
+    }
+  ]
+}

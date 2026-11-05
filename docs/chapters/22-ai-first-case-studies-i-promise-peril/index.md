@@ -113,6 +113,10 @@ Read the Tutor CoPilot case from the appendix with the four columns.
 
 #### Diagram: Which Benefit or Risk?
 
+<iframe src="../../sims/which-benefit-or-risk/main.html" height="458px" width="100%" scrolling="no"></iframe>
+
+[Run the Which Benefit or Risk? MicroSim Fullscreen](../../sims/which-benefit-or-risk/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Which Benefit or Risk?</summary>
 Type: microsim
@@ -207,6 +211,10 @@ The lesson of the two cases together is the principle this book calls **software
 | Lesson | The morning software alone is not the whole model |
 
 #### Diagram: Alpha or Unbound?
+
+<iframe src="../../sims/alpha-or-unbound/main.html" height="382px" width="100%" scrolling="no"></iframe>
+
+[Run the Alpha or Unbound? MicroSim Fullscreen](../../sims/alpha-or-unbound/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Alpha or Unbound?</summary>
@@ -338,6 +346,10 @@ The plan is strong, and it has one hole: nothing says what happens when the tuto
 
 #### Diagram: Find the Missing Safeguard
 
+<iframe src="../../sims/find-the-missing-safeguard/main.html" height="438px" width="100%" scrolling="no"></iframe>
+
+[Run the Find the Missing Safeguard MicroSim Fullscreen](../../sims/find-the-missing-safeguard/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Find the Missing Safeguard</summary>
 Type: microsim
@@ -390,6 +402,27 @@ Six plans, each addressing six of the seven risks:
 **Chapter Anchors:** The chapter's checklist lists seven risks and the worked example finds a plan with no response to wrong answers. The mastery bar is 5 of 6.
 </details>
 
+#### Diagram: Promise and Peril: Five AI-First Cases
+
+<iframe src="../../sims/promise-and-peril-cases/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the Promise and Peril: Five AI-First Cases MicroSim Fullscreen](../../sims/promise-and-peril-cases/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>Promise and Peril: Five AI-First Cases</summary>
+Type: infographic overlay (grid)
+**sim-id:** promise-and-peril-cases<br/>
+**Library:** grid-diagram.js (shared grid overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** analyze<br/>
+**Learning Objective:** The learner will analyze five AI-first cases by naming the benefit, the risk and the response each one shows, and will explain why two of the cases have no documented response. (Bloom level: Analyze. Verb: analyze.)
+
+**Visual:** An interactive grid poster that reads five AI-first cases (Alpha School, Unbound Academy, the Turkish high school study, the Harvard physics AI tutor and Summit Learning) as a benefit, a risk and a response, with an empty band where no response was found. The image has no text; 15 rectangular zones supply every label.
+
+**Modes:** Explore (hover or click for a description) and Quiz.
+</details>
+
 ## What the Cases Say Together
 
 Read together, the five cases say five things. A structure with an adaptive morning and a people-centered afternoon can work, but at private-school prices (Alpha). The software does not carry the results by itself (Unbound). How the AI is designed decides help or harm (Turkey, Harvard). A technology-led personalized model that crowds out people loses trust fast (Summit). And the way to read any such story is to name its benefit, its risk, its response, and its lesson.
@@ -415,3 +448,5 @@ The story of this chapter has both sides, like all the stories in this book. The
 !!! mascot-celebration "You can read a story the way the book does"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned to sort real cases from composites, to read each case as a benefit, a risk, a response, and a lesson, and to check a pilot plan against seven risks. Chapter 23 continues with the rest of the stories and their lessons. One step at a time, together.
+
+[See Annotated References](./references.md)

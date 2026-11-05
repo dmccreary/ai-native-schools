@@ -1,0 +1,84 @@
+{
+  "title": "Where the Minutes Go in a Traditional School Day",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Estimate how many minutes of an illustrative 425-minute middle-school day are whole-class direct instruction, then reveal a chart of where the minutes go.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "How time is used in a traditional school day",
+    "learningObjectives": [
+      "The learner will differentiate the minutes of an illustrative middle-school day into whole-class direct instruction, practice, and non-instructional time, estimating the direct-instruction total to within 10 minutes."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "School day, direct instruction, the I-do, we-do, you-do pattern, and classroom, from Chapter 1."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "Chart.js",
+    "version": "4.4.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "Chart.js 4.4.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Estimate before the reveal, then compare with the data",
+    "keyQuestions": [
+      "How many minutes of the day are whole-class direct instruction?",
+      "How much of the day is non-instructional?"
+    ],
+    "commonMisconceptions": [
+      "Most of the school day is spent with a teacher explaining new material",
+      "Almost all of a seven-hour day is academic time",
+      "Non-instructional time such as passing, lunch, and settling in is negligible"
+    ],
+    "assessmentOpportunities": [
+      "How many minutes of whole-class direct instruction are in the day?",
+      "How many minutes are non-instructional?",
+      "Why is direct instruction not 7 times 50 minutes?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Estimate (a)",
+      "type": "input",
+      "description": "Type the minutes of whole-class direct instruction, from 0 to 425."
+    },
+    {
+      "name": "Estimate (b)",
+      "type": "select",
+      "description": "Choose the largest single use of time."
+    },
+    {
+      "name": "Reveal the chart",
+      "type": "button",
+      "description": "Scores both estimates and shows the chart."
+    },
+    {
+      "name": "Chart bars",
+      "type": "click",
+      "description": "Click a bar to highlight the schedule rows that make it up."
+    },
+    {
+      "name": "Try again",
+      "type": "button",
+      "description": "Clears the estimates and hides the chart."
+    }
+  ],
+  "chapter": "01-building-blocks-schools-students"
+}

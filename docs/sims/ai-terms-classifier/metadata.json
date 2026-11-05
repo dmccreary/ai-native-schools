@@ -1,0 +1,77 @@
+{
+  "title": "AI Terms Classifier",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Place eight example systems in the narrowest of six nested categories, from Not AI to AI agent.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "The ladder of AI terms",
+    "learningObjectives": [
+      "The learner will classify eight example systems into the narrowest of six categories (Not AI, AI without machine learning, Machine learning, Generative AI, Large language model, AI agent), correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "The terms artificial intelligence, machine learning, generative AI, large language model, and AI agent, from the section \"A Ladder of Terms\" in Chapter 4."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "HTML",
+    "version": "HTML5",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 470
+    },
+    "canvasHeight": 470,
+    "responsive": true,
+    "dependencies": [
+      "None (HTML, CSS, and JavaScript only)"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify examples into nested categories with immediate feedback",
+    "keyQuestions": [
+      "What defining feature does this system have?",
+      "What is the narrowest category whose definition it meets?"
+    ],
+    "commonMisconceptions": [
+      "Any software that feels smart is AI",
+      "All AI is machine learning",
+      "A chatbot and an agent are the same thing"
+    ],
+    "assessmentOpportunities": [
+      "A thermostat switches the heat on below 68°F. Which category?",
+      "A 1990s chess program uses rules its programmers wrote. Which category?",
+      "A tool turns text into new spoken audio. Why is it not a large language model?",
+      "What makes a system an AI agent rather than a chatbot?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Nested regions",
+      "description": "click a region to select it and read its definition. The innermost region you click is the one selected."
+    },
+    {
+      "name": "Submit",
+      "description": "commits your choice. Two attempts per example; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves to the next example; after the eighth it shows your score."
+    },
+    {
+      "name": "Try again",
+      "description": "reshuffles the examples and starts over."
+    }
+  ],
+  "chapter": "04-measuring-ai-capability-metr"
+}

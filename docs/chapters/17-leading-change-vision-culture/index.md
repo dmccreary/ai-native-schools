@@ -93,6 +93,10 @@ The forces balance exactly at 14 and 14, which is why the effort feels stuck. A 
 
 #### Diagram: Force Field Balance
 
+<iframe src="../../sims/force-field-balance/main.html" height="808px" width="100%" scrolling="no"></iframe>
+
+[Run the Force Field Balance MicroSim Fullscreen](../../sims/force-field-balance/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Force Field Balance</summary>
 Type: microsim
@@ -162,6 +166,29 @@ A **change vision** is a clear, compelling picture of the future the change is m
 
 **Short-term wins** are visible, unambiguous successes achieved early, which show that the effort is working and build momentum. They need to be real, visible, and clearly linked to the change. A pilot classroom's gains, a student exhibition, or a teacher's saved evening count. **Building on change** is using the credibility from early wins to take on bigger problems, instead of declaring victory too soon. Kotter treated premature victory as one of the most common mistakes. **Anchoring in culture** is making the new way of working part of "the way we do things here," by embedding it in hiring, orientation, evaluation, schedules, and stories, so that it survives the departure of its champions.
 
+#### Diagram: Kotter's Eight Steps as a Mountain Trail
+
+<iframe src="../../sims/kotter-mountain-trail/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the Kotter's Eight Steps as a Mountain Trail MicroSim Fullscreen](../../sims/kotter-mountain-trail/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>Kotter's Eight Steps as a Mountain Trail</summary>
+Type: infographic overlay (callout)
+**sim-id:** kotter-mountain-trail<br/>
+**Library:** diagram.js (shared callout overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Remember, Understand<br/>
+**Bloom Verb:** identify, explain<br/>
+**Learning Objective:** The learner will identify Kotter's eight steps in order on a picture of a mountain trail, and explain why skipping a step or declaring victory too soon leaves a change effort stranded.
+
+**Visual:** a mountain with a switchback trail and eight camps from a flare at the base (urgency) to a stone cairn at the summit (anchoring in culture), plus a climber sliding down a shortcut gully and a half-built cairn on a false summit. The image has no text; 10 numbered callouts supply every label.
+
+**Modes:** Explore (hover for a description and tip) and Quiz (click the named part).
+
+**Story balance:** the benefit is a clear order of work; the two hazards show skipping steps and declaring victory too soon, and their tips give the response, Lewin's refreeze paired with Kotter's anchoring.
+</details>
+
 ### Worked Example: Kotter at Lincoln
 
 | Step | What Lincoln did | What it looked like |
@@ -178,6 +205,10 @@ A **change vision** is a clear, compelling picture of the future the change is m
 The steps are in order for a reason. A vision announced without urgency is ignored, and a vision with no coalition has no one to carry it.
 
 #### Diagram: Which Kotter Step Is This?
+
+<iframe src="../../sims/which-kotter-step/main.html" height="704px" width="100%" scrolling="no"></iframe>
+
+[Run the Which Kotter Step Is This? MicroSim Fullscreen](../../sims/which-kotter-step/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Which Kotter Step Is This?</summary>
@@ -294,6 +325,29 @@ She does not argue with any of it. She acknowledges each, asks the team what par
 
 Two kinds of cultural material show up early in a change and are worth naming now. **Shared beliefs and norms** are the beliefs held in common and the unwritten rules for behavior: that teachers do not enter each other's rooms uninvited, that parents are informed and not consulted, that the schedule is not to be touched. **School rituals** are the repeated, symbolic events and routines that express and reinforce a school's culture: morning announcements, assemblies, awards, staff meetings, the first day and the last. Rituals matter to change in two ways. They are a source of resistance when a change disrupts a cherished one. And they are a tool, because a new ritual, such as a student exhibition night, builds the new culture in the open.
 
+#### Diagram: Schein's Culture Iceberg
+
+<iframe src="../../sims/schein-culture-iceberg/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the Schein's Culture Iceberg MicroSim Fullscreen](../../sims/schein-culture-iceberg/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>Schein's Culture Iceberg</summary>
+Type: infographic overlay (callout)
+**sim-id:** schein-culture-iceberg<br/>
+**Library:** diagram.js (shared callout overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** explain<br/>
+**Learning Objective:** The learner will locate Schein's three levels of culture on a picture of a school, give an example of each, and explain why a reform aimed only at artifacts and espoused values can leave practice unchanged.
+
+**Visual:** an iceberg in cross-section: a school, timetable, trophy case and pep rally above the water (artifacts); a mission frame and banner at the waterline (espoused values); a lone teacher's room, a cracked clock and rows of desks in the dark ice below (basic assumptions). A reform boat steers at the tip while a diver with a lamp explores the hidden mass. The image has no text; 10 numbered callouts supply every label.
+
+**Modes:** Explore (hover for a description and tip) and Quiz (click the named part).
+
+**Story balance:** culture holds a school steady (benefit), but when stated values and real assumptions disagree, the assumptions win (risk); the response is to assess culture first and work on assumptions through small wins.
+</details>
+
 ### Worked Example: Reading a School's Culture Quickly
 
 Ms. Okafor lists what she sees at Lincoln and where it points.
@@ -356,6 +410,10 @@ An illustrative map for the adaptive morning, with three components.
 With this map, "using it" is no longer a yes or no. A teacher who lets students pace themselves but never opens the dashboard is acceptable on one component and unacceptable on another. The map tells the coach exactly where to help.
 
 #### Diagram: Which Concern Is This?
+
+<iframe src="../../sims/which-self-concern/main.html" height="516px" width="100%" scrolling="no"></iframe>
+
+[Run the Which Concern Is This? MicroSim Fullscreen](../../sims/which-self-concern/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Which Concern Is This?</summary>
@@ -446,3 +504,5 @@ The story has both sides. The benefit: early-stage tools that tell a leader wher
 !!! mascot-celebration "You can diagnose the start of a change"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned the early stages of five change models, built a force field and a loss inventory, and learned to hear the concern behind a teacher's question. That's the start of change done thoughtfully. Chapter 18 follows the change through its middle and late stages and into systems thinking. One step at a time, together.
+
+[See Annotated References](./references.md)

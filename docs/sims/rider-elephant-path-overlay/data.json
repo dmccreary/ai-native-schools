@@ -1,0 +1,119 @@
+{
+  "title": "The Rider, the Elephant and the Path",
+  "orientation": "landscape",
+  "image": "rider-elephant-path.svg",
+  "layout": "side-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Rider, elephant and path: all three",
+      "x": 23.8,
+      "y": 67.8,
+      "radius": 5,
+      "color": "#8E44AD",
+      "hint": "The big gray animal itself, eyes half closed and ears drooping, with a small figure sitting on its neck.",
+      "description": "Chip and Dan Heath's Switch framework (2010) pictures a change as a rider on an elephant, on a path. The rider is the thinking, planning side of a person; the elephant is the feeling side, much stronger and quick to tire; the path is the situation around them. A change succeeds when all three are addressed, and each of the nine moves in this scene is small and cheap.",
+      "tip": "The risk is fixing only one part. A clear plan for the rider with an unmotivated elephant stalls, and a willing elephant still struggles on a rocky path. The response is diagnostic: when a change stalls, ask whether people don't know what to do (rider), know but don't care (elephant), or want to but keep hitting a failing login (path)."
+    },
+    {
+      "id": 2,
+      "label": "Follow the bright spots",
+      "x": 54.4,
+      "y": 40.2,
+      "radius": 4,
+      "color": "#3498DB",
+      "hint": "A glowing, sunlit patch with small flowers on the distant hillside.",
+      "description": "Bright spots are successes already happening inside the system. Instead of asking what is wrong, the leader asks where the change is already working and what those people are doing. This is the idea behind positive deviance, which spread free, local feeding practices in Vietnamese villages in the 1990s.",
+      "tip": "In a district, a bright spot is a classroom where the new tool works with students like yours, run by a teacher with your constraints. Copying it is cheaper and more believable than a practice imported from a conference."
+    },
+    {
+      "id": 3,
+      "label": "Script the critical moves",
+      "x": 33.9,
+      "y": 41.2,
+      "radius": 4,
+      "color": "#3498DB",
+      "hint": "A small rolled paper with lines on it, raised in the figure's back hand.",
+      "description": "The rider gets lost in ambiguity, so the leader spells out the few behaviors that matter most. A script removes the guesswork about where to start. It names concrete actions, not general goals.",
+      "tip": "A one-page script for the first week: what to click and what to say on days one to five."
+    },
+    {
+      "id": 4,
+      "label": "Point to the destination",
+      "x": 87.2,
+      "y": 25.6,
+      "radius": 4,
+      "color": "#3498DB",
+      "hint": "A red-roofed building with a bell tower and a flag on the far hilltop, where the road ends.",
+      "description": "The rider needs to know where the change leads. A vivid picture of the destination tells the thinking mind why the effort is worth it and which way to go. The figure on the animal's neck holds a map and points toward it.",
+      "tip": "Show a vivid picture of the exhibition night that the freed afternoons will make possible."
+    },
+    {
+      "id": 5,
+      "label": "Find the feeling",
+      "x": 20.6,
+      "y": 41.2,
+      "radius": 4,
+      "color": "#E74C3C",
+      "hint": "A red heart shape floating in the air above the animal's back.",
+      "description": "Information alone rarely moves the elephant. People change when they feel something, so the leader helps them see and feel why the change matters. Emotion is the energy for change, not an obstacle to it.",
+      "tip": "Share a story of one student's breakthrough so that teachers feel why the change matters."
+    },
+    {
+      "id": 6,
+      "label": "Shrink the change",
+      "x": 42.2,
+      "y": 86.2,
+      "radius": 4,
+      "color": "#E74C3C",
+      "hint": "A small gray stone on the ground just in front of the front foot.",
+      "description": "The elephant balks at a task that looks huge, so the leader makes the first step small enough to feel easy. A small step taken today builds the confidence to take the next one. The tired elephant can manage one stone, not the whole hill.",
+      "tip": "Ask each teacher to try one ten-minute activity this week."
+    },
+    {
+      "id": 7,
+      "label": "Grow your people",
+      "x": 31.6,
+      "y": 67.5,
+      "radius": 4,
+      "color": "#E74C3C",
+      "hint": "A gold medal with a white star and blue ribbons hanging from the strap around the animal's middle.",
+      "description": "People act in line with who they believe they are. Growing people's identity means helping them see the change as part of who they are becoming. It also means treating early stumbles as part of learning, not as proof of failure.",
+      "tip": "Invite teachers to see themselves as learning coaches, not lecturers: \"we are coaches.\""
+    },
+    {
+      "id": 8,
+      "label": "Tweak the environment",
+      "x": 67.1,
+      "y": 84.7,
+      "radius": 4,
+      "color": "#16A085",
+      "hint": "A wooden post beside the road with two blank arrow boards pointing ahead.",
+      "description": "Change the situation so the right behavior is easier and the wrong one is harder. What looks like resistance is often a situation problem. Removing one point of friction can change behavior more than any amount of persuasion.",
+      "tip": "Fix the single sign-on so the login works on the first try."
+    },
+    {
+      "id": 9,
+      "label": "Build habits",
+      "x": 52.9,
+      "y": 73.7,
+      "radius": 4,
+      "color": "#16A085",
+      "hint": "Smooth, dark ruts worn into the dirt road between the fences.",
+      "description": "A habit is behavior that no longer needs a decision. Once the new practice is built into a regular routine, it no longer drains the rider's attention or the elephant's energy. The worn groove keeps the next trip on course.",
+      "tip": "Add a standing fifteen-minute dashboard check to the weekly team meeting."
+    },
+    {
+      "id": 10,
+      "label": "Rally the herd",
+      "x": 75.9,
+      "y": 52,
+      "radius": 4,
+      "color": "#16A085",
+      "hint": "A line of smaller gray animals already walking up the road toward the hill.",
+      "description": "People look to others to decide how to behave, especially when things are uncertain. Making it visible that many peers have already adopted the change makes it the norm rather than a risk. The tired elephant is more willing to walk when it sees others ahead.",
+      "tip": "Show that most teachers in the neighboring school already use it: \"most of the school is already doing it.\""
+    }
+  ]
+}

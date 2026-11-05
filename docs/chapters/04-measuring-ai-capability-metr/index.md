@@ -152,6 +152,10 @@ The nesting is the key idea. Every LLM is generative AI, every generative system
 
 #### Diagram: AI Terms Classifier
 
+<iframe src="../../sims/ai-terms-classifier/main.html" height="474px" width="100%" scrolling="no"></iframe>
+
+[Run the AI Terms Classifier MicroSim Fullscreen](../../sims/ai-terms-classifier/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>AI Terms Classifier</summary>
 Type: infographic
@@ -301,6 +305,10 @@ The leading model METR tested in the March 2025 paper, Claude 3.7 Sonnet, had a 
 
 #### Diagram: How METR Measures a Task Horizon
 
+<iframe src="../../sims/metr-measurement-workflow/main.html" height="564px" width="100%" scrolling="no"></iframe>
+
+[Run the How METR Measures a Task Horizon MicroSim Fullscreen](../../sims/metr-measurement-workflow/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>How METR Measures a Task Horizon</summary>
 Type: workflow
@@ -387,6 +395,10 @@ Reading the table, the success rate crosses 50 percent at 60 minutes, so this mo
 The shape of the curve in the table, success falling steadily as tasks lengthen, is a simplified model with a stated rule: the chance of success is \( 1/(1 + t/H) \), where \( t \) is the task's human working time and \( H \) is the 50 percent horizon. The sim below lets you try it.
 
 #### Diagram: Task Horizon Curve Explorer
+
+<iframe src="../../sims/task-horizon-curve-explorer/main.html" height="619px" width="100%" scrolling="no"></iframe>
+
+[Run the Task Horizon Curve Explorer MicroSim Fullscreen](../../sims/task-horizon-curve-explorer/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Task Horizon Curve Explorer</summary>
@@ -587,6 +599,10 @@ At the 2024 price, a 28-student class costs about \( 28 \times \$0.25 = \$7 \) a
 
 #### Diagram: AI Cost per Student Calculator
 
+<iframe src="../../sims/ai-cost-per-student-calculator/main.html" height="644px" width="100%" scrolling="no"></iframe>
+
+[Run the AI Cost per Student Calculator MicroSim Fullscreen](../../sims/ai-cost-per-student-calculator/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>AI Cost per Student Calculator</summary>
 Type: microsim
@@ -672,3 +688,5 @@ The story has the benefit and risk this book always pairs. The benefit: if horiz
 !!! mascot-celebration "You can answer 'doubles what?'"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned to name what METR measures, read a task horizon, and explain what five-month doubling means for a three-year plan, along with the limits that come with it. Chapter 5 teaches you to read this kind of curve on a logarithmic chart and to say what could bend it. One step at a time, together.
+
+[See Annotated References](./references.md)

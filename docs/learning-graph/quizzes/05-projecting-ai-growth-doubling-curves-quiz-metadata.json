@@ -1,0 +1,133 @@
+{
+  "chapter": "Projecting AI Growth: Doubling Curves, Limits, and Uncertainty",
+  "chapter_file": "docs/chapters/05-projecting-ai-growth-doubling-curves/index.md",
+  "quiz_file": "docs/chapters/05-projecting-ai-growth-doubling-curves/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch05-q001",
+      "number": 1,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Logarithmic Scale",
+      "tags": [
+        "logarithmic-scale"
+      ]
+    },
+    {
+      "id": "ch05-q002",
+      "number": 2,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Linear Growth",
+      "tags": [
+        "linear-growth",
+        "exponential-growth"
+      ]
+    },
+    {
+      "id": "ch05-q003",
+      "number": 3,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Log-Scale Chart",
+      "tags": [
+        "log-scale-chart",
+        "doubling-time"
+      ]
+    },
+    {
+      "id": "ch05-q004",
+      "number": 4,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Log-Scale Chart",
+      "tags": [
+        "log-scale-chart",
+        "limits-to-ai-growth"
+      ]
+    },
+    {
+      "id": "ch05-q005",
+      "number": 5,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Planning Under Uncertainty",
+      "tags": [
+        "planning-under-uncertainty",
+        "no-regret-moves",
+        "ai-literacy"
+      ]
+    },
+    {
+      "id": "ch05-q006",
+      "number": 6,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "AI Hallucination",
+      "tags": [
+        "ai-hallucination",
+        "chatbot"
+      ]
+    },
+    {
+      "id": "ch05-q007",
+      "number": 7,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Forecast Uncertainty",
+      "tags": [
+        "forecast-uncertainty",
+        "doubling-time"
+      ]
+    },
+    {
+      "id": "ch05-q008",
+      "number": 8,
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "AI Prediction for Schools",
+      "tags": [
+        "ai-prediction-for-schools",
+        "ai-energy-use",
+        "data-center-energy"
+      ]
+    },
+    {
+      "id": "ch05-q009",
+      "number": 9,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Trend Extrapolation",
+      "tags": [
+        "trend-extrapolation",
+        "s-curve"
+      ]
+    },
+    {
+      "id": "ch05-q010",
+      "number": 10,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Three-to-Four-Year Forecast",
+      "tags": [
+        "three-to-four-year-forecast",
+        "planning-window"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 19,
+  "chapter_concepts_tested": 9
+}

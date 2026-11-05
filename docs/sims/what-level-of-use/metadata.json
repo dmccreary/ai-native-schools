@@ -1,0 +1,85 @@
+{
+  "title": "What Level of Use Is This?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify eight teacher behaviors by CBAM level of use, from nonuse to renewal.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "What Level of Use Is This?",
+    "learningObjectives": [
+      "The learner will classify eight teacher behaviors by CBAM level of use, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The eight levels of use, from the section \"CBAM, Completed\" in Chapter 18."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 680
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "A teacher uses it daily but follows each step with the guide and often loses track. Which level?",
+      "Three teachers compare dashboards weekly and redesign the morning together. Which level?"
+    ],
+    "commonMisconceptions": [
+      "Higher levels are better in all cases",
+      "Level of use and stage of concern are the same",
+      "A teacher who uses the tool every day is at a high level"
+    ],
+    "assessmentOpportunities": [
+      "A teacher uses it daily but follows each step with the guide and often loses track. Which level?",
+      "Three teachers compare dashboards weekly and redesign the morning together. Which level?",
+      "Are level of use and stage of concern the same?",
+      "Is a higher level always better?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "8 choice buttons",
+      "type": "button",
+      "description": "Choose one of the levels; two tries per behavior."
+    },
+    {
+      "name": "Show descriptions",
+      "type": "button",
+      "description": "Opens a table of the levels and their meanings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves on after the feedback."
+    },
+    {
+      "name": "Previous missed, Next missed",
+      "type": "button",
+      "description": "On the results screen, page through the missed items."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the items for a practice run."
+    }
+  ],
+  "chapter": "18-sustaining-change-systems-thinking"
+}

@@ -1,0 +1,4280 @@
+{
+  "terms": [
+    {
+      "term": "2 Hour Learning",
+      "related_terms": [
+        "Alpha School",
+        "Unbound Academy",
+        "Two-to-Three-Hour Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "50 Percent Time Horizon",
+      "related_terms": [
+        "Task Horizon",
+        "Task Success Rate"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "5R Permissions",
+      "related_terms": [
+        "Open Educational Resource",
+        "Reusability Subscore"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "A/B Testing",
+      "related_terms": [
+        "Randomized Controlled Trial",
+        "Program Evaluation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Abstraction",
+      "related_terms": [
+        "Computational Thinking",
+        "Decomposition"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Academic Integrity",
+      "related_terms": [
+        "Redesign Not Policing",
+        "AI Cheating Detector"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Academic Morning",
+      "related_terms": [
+        "Compressed Academic Morning",
+        "Morning-Afternoon Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Achievement Gap",
+      "related_terms": [
+        "Educational Equity",
+        "Closing or Widening Gaps"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Active Listening",
+      "related_terms": [
+        "Communication Skills",
+        "Empathy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Activity-Skill Matching",
+      "related_terms": [
+        "Pro-Social Activity",
+        "Afternoon Program"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Actor Verb Object",
+      "related_terms": [
+        "xAPI Statement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Adaptation Without Live AI",
+      "related_terms": [
+        "Low-Cost Adaptive Design",
+        "Next-Concept Selection"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Adaptive Learning",
+      "related_terms": [
+        "Level 3 Adaptive Textbook",
+        "Mastery Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "ADKAR Ability",
+      "related_terms": [
+        "ADKAR Model",
+        "ADKAR Reinforcement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "ADKAR Awareness",
+      "related_terms": [
+        "ADKAR Model",
+        "ADKAR Desire"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "ADKAR Desire",
+      "related_terms": [
+        "ADKAR Model",
+        "ADKAR Knowledge"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "ADKAR Knowledge",
+      "related_terms": [
+        "ADKAR Model",
+        "ADKAR Ability"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "ADKAR Model",
+      "related_terms": [
+        "ADKAR Awareness",
+        "ADKAR Reinforcement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "ADKAR Reinforcement",
+      "related_terms": [
+        "ADKAR Model",
+        "Refreeze Stage"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Adoption Readiness",
+      "related_terms": [
+        "School Readiness Assessment",
+        "Governance Readiness"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Affordable Alpha Model",
+      "related_terms": [
+        "Low-Cost Adaptive Design",
+        "Cost Barrier to AI Schools",
+        "Alpha School"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Afternoon Program",
+      "related_terms": [
+        "Pro-Social Afternoon",
+        "Afternoon Program Quality"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Afternoon Program Quality",
+      "related_terms": [
+        "Structured Afternoon",
+        "Teamwork Rubric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Afternoon Specialist Staff",
+      "related_terms": [
+        "Staffing Model",
+        "Community Partnership"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Age-Appropriate AI Design",
+      "related_terms": [
+        "Responsible AI with Minors"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Age-Based Grade Levels",
+      "related_terms": [],
+      "contrasts_with": [
+        "Self-Paced Learning",
+        "Mastery Learning"
+      ]
+    },
+    {
+      "term": "AI Agent",
+      "related_terms": [
+        "Long-Running Task",
+        "Task Horizon"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Benchmark",
+      "related_terms": [
+        "Benchmark Task Suite",
+        "METR"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Capability",
+      "related_terms": [
+        "AI Benchmark",
+        "Task Horizon"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Cheating Detector",
+      "related_terms": [
+        "Detector False Positives",
+        "Stanford Detector Study"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Coaching Teachers",
+      "related_terms": [
+        "Tutor CoPilot",
+        "Instructional Coaching"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Energy Use",
+      "related_terms": [
+        "Data Center Energy",
+        "Energy-Efficient Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Guardrails",
+      "related_terms": [
+        "Hints Instead of Answers",
+        "Guided AI vs Open AI"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Hallucination",
+      "related_terms": [
+        "Confidently Wrong Answers",
+        "AI Tutor Failures"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI in Education",
+      "related_terms": [
+        "AI Tutor",
+        "Intelligent Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Inference Cost",
+      "related_terms": [
+        "Falling AI Costs",
+        "Selective Chatbot Use"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Literacy",
+      "related_terms": [
+        "Staff AI Literacy",
+        "AI Hallucination"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Prediction for Schools",
+      "related_terms": [
+        "Three-to-Four-Year Forecast",
+        "Freed-Up School Time"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Tutor",
+      "related_terms": [
+        "AI Tutor Strengths",
+        "AI Tutor Failures",
+        "Khanmigo"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Tutor Failures",
+      "related_terms": [
+        "Confidently Wrong Answers",
+        "Over-Reliance on AI"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI Tutor Strengths",
+      "related_terms": [
+        "AI Tutor",
+        "Skills AI Teaches Well"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI-First School",
+      "related_terms": [
+        "AI-Native School",
+        "Benefits of AI-First Schools",
+        "Risks of AI-First Schools"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI-Generated Content",
+      "related_terms": [
+        "Generative AI",
+        "Generate Once Serve Many"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI-Native School",
+      "related_terms": [
+        "Morning-Afternoon Model"
+      ],
+      "contrasts_with": [
+        "AI-First School"
+      ]
+    },
+    {
+      "term": "AI-Native School Day",
+      "related_terms": [
+        "Morning-Afternoon Model",
+        "Schedule Redesign"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AI-Powered Marketing Claims",
+      "related_terms": [
+        "Vendor Level Claim",
+        "Hype Cycle"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Algorithmic Bias",
+      "related_terms": [
+        "Algorithmic Bias Auditing",
+        "Bias Against ELL Writers"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Algorithmic Bias Auditing",
+      "related_terms": [
+        "Algorithmic Bias",
+        "Algorithmic Transparency"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Algorithmic Thinking",
+      "related_terms": [
+        "Computational Thinking"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Algorithmic Transparency",
+      "related_terms": [
+        "Algorithmic Bias Auditing",
+        "Adaptation Without Live AI"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AllHere Collapse",
+      "related_terms": [
+        "LAUSD Ed Chatbot",
+        "Vendor Risk"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Alpha Adult Guides",
+      "related_terms": [
+        "Learning Guide",
+        "Alpha School"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Alpha School",
+      "related_terms": [
+        "Alpha Tuition Range",
+        "Alpha Adult Guides",
+        "2 Hour Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Alpha Tuition Range",
+      "related_terms": [
+        "Alpha School",
+        "Cost Barrier to AI Schools",
+        "Affordable Alpha Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "AltSchool",
+      "related_terms": [
+        "Software Is Not the Model",
+        "Microschool"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Anchoring in Culture",
+      "related_terms": [
+        "Kotter's Eight Steps",
+        "Sustaining Change"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Applying Thinking on Teams",
+      "related_terms": [
+        "Team Problem Solving",
+        "Computational Thinking"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Argument Analysis",
+      "related_terms": [
+        "Critical Thinking",
+        "Evidence Evaluation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Artificial Intelligence",
+      "related_terms": [
+        "Machine Learning",
+        "Generative AI"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Arts Education",
+      "related_terms": [
+        "Music Education",
+        "Visual Arts"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Assessment Redesign",
+      "related_terms": [
+        "Redesign Not Policing",
+        "Combined Assessment Plan"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Basic Assumptions",
+      "related_terms": [
+        "Schein's Culture Model",
+        "Mental Models"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Beachhead Strategy",
+      "related_terms": [
+        "Crossing the Chasm",
+        "Pilot Program"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Behavioral Data",
+      "related_terms": [
+        "Detailed Learning History",
+        "Data Minimization"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Bell Schedule",
+      "related_terms": [
+        "Block Scheduling",
+        "Schedule Redesign"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Belonging",
+      "related_terms": [
+        "Human Connection",
+        "El Sistema"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Benchmark Task Suite",
+      "related_terms": [
+        "AI Benchmark",
+        "METR"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Benefits of AI-First Schools",
+      "related_terms": [
+        "Risks of AI-First Schools",
+        "Strengthen the Positives"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Bias Against ELL Writers",
+      "related_terms": [
+        "Stanford Detector Study",
+        "Algorithmic Bias"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Block Scheduling",
+      "related_terms": [
+        "Schedule Redesign",
+        "Bell Schedule"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Bloom's Taxonomy",
+      "related_terms": [
+        "Higher-Order Thinking",
+        "Learning Outcome"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Bloom's Two-Sigma Problem",
+      "related_terms": [
+        "One-on-One Tutoring",
+        "Effect Size"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Board Presentation",
+      "related_terms": [
+        "School Board Recommendation",
+        "School Board"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Bridges' Transition Model",
+      "related_terms": [
+        "Endings and Losses",
+        "Neutral Zone",
+        "Change Versus Transition"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Bright Spots",
+      "related_terms": [
+        "Positive Deviance",
+        "Direct the Rider"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Browser-Based Simulation",
+      "related_terms": [
+        "MicroSim",
+        "Web Browser"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Budget Reallocation",
+      "related_terms": [
+        "Public School Funding",
+        "Cost Modeling"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Building on Change",
+      "related_terms": [
+        "Short-Term Wins",
+        "Scaling a Pilot"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Capacity Building",
+      "related_terms": [
+        "Professional Development",
+        "Instructional Coaching"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Carnegie Unit",
+      "related_terms": [
+        "Seat Time"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Case Study Method",
+      "related_terms": [
+        "Real Case Study",
+        "Lesson From a Case"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Causal Loop Diagram",
+      "related_terms": [
+        "Feedback Loop",
+        "Systems Thinking"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Centralized Student Records",
+      "related_terms": [
+        "PowerSchool Data Breach",
+        "Data Breach"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Change Agent",
+      "related_terms": [
+        "Opinion Leader",
+        "Guiding Coalition"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Change Fatigue",
+      "related_terms": [
+        "Coherence Framework",
+        "Teacher Burnout"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Change Stage",
+      "related_terms": [
+        "Lewin's Change Model",
+        "Implementation Dip"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Change Versus Transition",
+      "related_terms": [
+        "Bridges' Transition Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Change Vision",
+      "related_terms": [
+        "Communicating the Vision",
+        "Kotter's Eight Steps"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Changing Teacher Role",
+      "related_terms": [
+        "Teacher as Coach",
+        "Learning Guide",
+        "Reduced Direct Instruction"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Charter School",
+      "related_terms": [
+        "Virtual School",
+        "Unbound Academy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Chatbot",
+      "related_terms": [
+        "Level 4 Chatbot Textbook",
+        "Conversational Tutoring"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Choosing a Change Model",
+      "related_terms": [
+        "Kotter's Eight Steps",
+        "ADKAR Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Classification Framework",
+      "related_terms": [
+        "Five-Level Textbook Model",
+        "SAE J3016 Standard"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Classroom",
+      "related_terms": [
+        "School",
+        "Direct Instruction"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Closing or Widening Gaps",
+      "related_terms": [
+        "Achievement Gap",
+        "Equity of Access"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Clubs and Extracurriculars",
+      "related_terms": [
+        "Afternoon Program"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Coding Club",
+      "related_terms": [
+        "Robotics Club",
+        "Clubs and Extracurriculars"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Cognitive Offloading",
+      "related_terms": [
+        "Over-Reliance on AI",
+        "Your Brain on ChatGPT"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Coherence Framework",
+      "related_terms": [
+        "Fullan's Educational Change",
+        "Change Fatigue"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Collaboration",
+      "related_terms": [
+        "Teamwork",
+        "Shared Goals"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Combined Assessment Plan",
+      "related_terms": [
+        "Assessment Redesign",
+        "Mastery-Based Assessment"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Communicating Before Rumors",
+      "related_terms": [
+        "Family Communication",
+        "Community Communication"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Communicating the Vision",
+      "related_terms": [
+        "Change Vision",
+        "Family Communication"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Communication Skills",
+      "related_terms": [
+        "Active Listening",
+        "Public Exhibition"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Community Communication",
+      "related_terms": [
+        "Family Communication",
+        "Board Presentation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Community Partnership",
+      "related_terms": [
+        "Afternoon Specialist Staff",
+        "Service Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Compatibility",
+      "related_terms": [
+        "Five Innovation Attributes"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Complexity",
+      "related_terms": [
+        "Five Innovation Attributes"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Composite Story",
+      "related_terms": [
+        "Two-Sided Story"
+      ],
+      "contrasts_with": [
+        "Real Case Study"
+      ]
+    },
+    {
+      "term": "Compounding Small Changes",
+      "related_terms": [
+        "Microstrategy",
+        "Exponential Growth"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Compressed Academic Morning",
+      "related_terms": [
+        "Two-to-Three-Hour Learning",
+        "Freed-Up School Time"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Computational Thinking",
+      "related_terms": [
+        "Decomposition",
+        "Algorithmic Thinking"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Compute Scaling",
+      "related_terms": [
+        "Limits to AI Growth",
+        "Data Center Energy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Concept Node",
+      "related_terms": [
+        "Learning Graph",
+        "Foundational Concept"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Concerns-Based Adoption Model",
+      "related_terms": [
+        "Stages of Concern",
+        "Levels of Use",
+        "Innovation Configuration"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Confidently Wrong Answers",
+      "related_terms": [
+        "AI Hallucination",
+        "AI Tutor Failures"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Conflict Resolution",
+      "related_terms": [
+        "Relationship Skills",
+        "Perspective Taking"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Constructionism",
+      "related_terms": [
+        "Constructivism",
+        "Learning by Building Together"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Constructivism",
+      "related_terms": [
+        "Social Constructivism",
+        "Constructionism"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Content Commoditization",
+      "related_terms": [
+        "Publisher Disruption",
+        "Value Beyond Content"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Content Creation Cost",
+      "related_terms": [
+        "Falling Production Cost",
+        "AI-Generated Content"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Contract Due Diligence",
+      "related_terms": [
+        "Data Ownership",
+        "Vendor Evaluation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Conversational Tutoring",
+      "related_terms": [
+        "Level 4 Chatbot Textbook",
+        "Socratic Questioning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "COPPA",
+      "related_terms": [
+        "FERPA",
+        "Responsible AI with Minors"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Cost Barrier to AI Schools",
+      "related_terms": [
+        "Affordable Alpha Model",
+        "Alpha Tuition Range"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Cost Modeling",
+      "related_terms": [
+        "Total Cost of Ownership",
+        "Cost Per Student"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Cost Per Student",
+      "related_terms": [
+        "Cost Modeling",
+        "Per-Pupil Spending"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Creative Commons License",
+      "related_terms": [
+        "Open License",
+        "5R Permissions"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Creative Confidence",
+      "related_terms": [
+        "Creativity"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Creativity",
+      "related_terms": [
+        "Divergent Thinking",
+        "Creative Confidence"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Critical Thinking",
+      "related_terms": [
+        "Evidence Evaluation",
+        "Argument Analysis"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Crossing the Chasm",
+      "related_terms": [
+        "Beachhead Strategy",
+        "Whole Product"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Cultural Artifacts",
+      "related_terms": [
+        "Schein's Culture Model",
+        "School Rituals"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Culture Assessment",
+      "related_terms": [
+        "Schein's Culture Model",
+        "School Readiness Assessment"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Culture Change Plan",
+      "related_terms": [
+        "Culture Assessment",
+        "Anchoring in Culture"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Curiosity",
+      "related_terms": [
+        "Curiosity-Driven Learning",
+        "Intrinsic Motivation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Curiosity-Driven Learning",
+      "related_terms": [
+        "Curiosity-Led Morning",
+        "Student Agency"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Curiosity-Led Morning",
+      "related_terms": [
+        "Curiosity-Driven Learning",
+        "Academic Morning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Curriculum",
+      "related_terms": [
+        "Learning Outcome",
+        "Learning Graph"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Cybersecurity in Schools",
+      "related_terms": [
+        "Data Breach",
+        "Vendor Risk"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Dance",
+      "related_terms": [
+        "Arts Education"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Data Breach",
+      "related_terms": [
+        "PowerSchool Data Breach",
+        "Cybersecurity in Schools"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Data Center Energy",
+      "related_terms": [
+        "AI Energy Use",
+        "Limits to AI Growth"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Data Governance",
+      "related_terms": [
+        "Data Retention Policy",
+        "Governance Readiness"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Data Minimization",
+      "related_terms": [
+        "Data Governance",
+        "Trust Paradox"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Data Ownership",
+      "related_terms": [
+        "Student-Controlled Data",
+        "Contract Due Diligence"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Data Portability",
+      "related_terms": [
+        "Interoperability Standards",
+        "Vendor Lock-In"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Data Retention Policy",
+      "related_terms": [
+        "Data Governance",
+        "Data Minimization"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "David Game College",
+      "related_terms": [
+        "Learning Guide",
+        "AI-First School"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Decomposition",
+      "related_terms": [
+        "Computational Thinking",
+        "Pattern Recognition"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Design Over Raw AI Power",
+      "related_terms": [
+        "Guided AI vs Open AI",
+        "Turkish High School Study",
+        "Harvard Physics AI Tutor"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Detailed Learning History",
+      "related_terms": [
+        "Learning Record",
+        "Privacy Inflection Point"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Detector False Positives",
+      "related_terms": [
+        "AI Cheating Detector",
+        "Bias Against ELL Writers"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Device Access",
+      "related_terms": [
+        "Digital Divide",
+        "Internet Connectivity"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Diffusion of Innovations",
+      "related_terms": [
+        "Technology Adoption Curve",
+        "Five Innovation Attributes"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Digital Divide",
+      "related_terms": [
+        "Device Access",
+        "Internet Connectivity"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Digital Textbook",
+      "related_terms": [
+        "PDF Textbook",
+        "Intelligent Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Direct Instruction",
+      "related_terms": [
+        "Lecture-Based Teaching",
+        "Reduced Direct Instruction"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Direct the Rider",
+      "related_terms": [
+        "Switch Framework",
+        "Bright Spots"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Directed Acyclic Graph",
+      "related_terms": [
+        "Learning Graph",
+        "Learning Dependency"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Divergent Thinking",
+      "related_terms": [
+        "Creativity"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Doubling Time",
+      "related_terms": [
+        "Five-Month Doubling",
+        "Exponential Growth"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Driving Question",
+      "related_terms": [
+        "Project-Based Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Early Adopters",
+      "related_terms": [
+        "Opinion Leader",
+        "Early Majority"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Early Majority",
+      "related_terms": [
+        "Pragmatist Buyers",
+        "The Chasm"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Early Visible Results",
+      "related_terms": [
+        "Short-Term Wins",
+        "Observability"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "EdTech Hype Waves",
+      "related_terms": [
+        "History of EdTech",
+        "Hype Cycle"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Education",
+      "related_terms": [
+        "Learning",
+        "School",
+        "K-12 Education"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Education Policy",
+      "related_terms": [
+        "Level-Specific Policy",
+        "Policy Embedding"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Educational Equity",
+      "related_terms": [
+        "Equity of Access",
+        "Digital Divide"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Educational Technology",
+      "related_terms": [
+        "History of EdTech",
+        "EdTech Hype Waves"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Effect Size",
+      "related_terms": [
+        "Learning Gains",
+        "Bloom's Two-Sigma Problem"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "El Sistema",
+      "related_terms": [
+        "Ensemble Music",
+        "Belonging"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Elementary School Model",
+      "related_terms": [
+        "Grade-Level Design"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Embedded Simulation",
+      "related_terms": [
+        "MicroSim",
+        "Browser-Based Simulation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Empathy",
+      "related_terms": [
+        "Perspective Taking",
+        "Social-Emotional Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Endings and Losses",
+      "related_terms": [
+        "Bridges' Transition Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Energy-Efficient Learning",
+      "related_terms": [
+        "AI Energy Use",
+        "Selective Chatbot Use"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Ensemble Music",
+      "related_terms": [
+        "Music Education",
+        "El Sistema"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Equity of Access",
+      "related_terms": [
+        "Educational Equity",
+        "Digital Divide"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Espoused Values",
+      "related_terms": [
+        "Schein's Culture Model",
+        "Basic Assumptions"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Estonia AI Leap",
+      "related_terms": [
+        "National AI Adoption",
+        "Capacity Building"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Evaluating Result Claims",
+      "related_terms": [
+        "Self-Reported Results",
+        "Independent Evaluation",
+        "Preprint"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Evidence Evaluation",
+      "related_terms": [
+        "Critical Thinking",
+        "Evaluating Result Claims"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Evidence-Based Practice",
+      "related_terms": [
+        "Randomized Controlled Trial",
+        "Evaluating Result Claims"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Exponential Growth",
+      "related_terms": [
+        "Doubling Time"
+      ],
+      "contrasts_with": [
+        "Linear Growth"
+      ]
+    },
+    {
+      "term": "Falling AI Costs",
+      "related_terms": [
+        "AI Inference Cost",
+        "Falling Production Cost"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Falling Production Cost",
+      "related_terms": [
+        "Content Creation Cost",
+        "Content Commoditization"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Family Communication",
+      "related_terms": [
+        "Communicating Before Rumors",
+        "Family Trust"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Family Trust",
+      "related_terms": [
+        "Trust Paradox",
+        "inBloom"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Fear of Job Loss",
+      "related_terms": [
+        "Self Concerns",
+        "Teacher Union"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Feedback Loop",
+      "related_terms": [
+        "Systems Thinking",
+        "Causal Loop Diagram"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "FERPA",
+      "related_terms": [
+        "COPPA",
+        "Student Data Privacy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Finland's Phenomenon Learning",
+      "related_terms": [
+        "Phenomenon-Based Learning",
+        "Collaboration"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Five Innovation Attributes",
+      "related_terms": [
+        "Relative Advantage",
+        "Trialability"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Five-Level Textbook Model",
+      "related_terms": [
+        "Level 1 Static Textbook",
+        "Level Classification",
+        "SAE J3016 Standard"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Five-Month Doubling",
+      "related_terms": [
+        "METR",
+        "Doubling Time",
+        "Trend Extrapolation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Forecast Uncertainty",
+      "related_terms": [
+        "Prediction Failure Scenario",
+        "Planning Under Uncertainty"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Formative Assessment",
+      "related_terms": [],
+      "contrasts_with": [
+        "Summative Assessment"
+      ]
+    },
+    {
+      "term": "Foundational Concept",
+      "related_terms": [
+        "Concept Node",
+        "Prerequisite Concept"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Free Textbook",
+      "related_terms": [
+        "Open Educational Resource",
+        "Universal Textbook Access"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Freed-Up School Time",
+      "related_terms": [
+        "Pro-Social Afternoon",
+        "Unstructured Afternoon Drift"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Full Personalization",
+      "related_terms": [
+        "Level 5 Autonomous Textbook",
+        "Personalized Pacing"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Fullan's Educational Change",
+      "related_terms": [
+        "Coherence Framework",
+        "Capacity Building",
+        "Implementation Dip"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Gap Filling",
+      "related_terms": [
+        "Learning Gap",
+        "Learning Graph"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "GDPR",
+      "related_terms": [
+        "FERPA",
+        "Data Minimization"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Generate Once Serve Many",
+      "related_terms": [
+        "Low-Cost Adaptive Design"
+      ],
+      "contrasts_with": [
+        "Real-Time Content Generation"
+      ]
+    },
+    {
+      "term": "Generative AI",
+      "related_terms": [
+        "Large Language Model",
+        "AI-Generated Content"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Governance Readiness",
+      "related_terms": [
+        "Data Governance",
+        "School Readiness Assessment"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Grade-Level Design",
+      "related_terms": [
+        "Elementary School Model",
+        "Middle School Model",
+        "High School Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Graduated Regulation",
+      "related_terms": [
+        "Level-Specific Policy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Grammar of Schooling",
+      "related_terms": [
+        "Reform Without Real Change",
+        "Industrial-Era School Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Graphic Novel Scene",
+      "related_terms": [
+        "Illustrated Story",
+        "Storytelling"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Growth of Level 2 Textbooks",
+      "related_terms": [
+        "Level 2 Interactive Textbook",
+        "Intelligent Textbook Movement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Guided AI vs Open AI",
+      "related_terms": [
+        "Design Over Raw AI Power",
+        "Open Chatbot Access"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Guiding Coalition",
+      "related_terms": [
+        "Kotter's Eight Steps",
+        "Change Agent"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Hands-On Learning",
+      "related_terms": [
+        "Maker Space",
+        "Constructionism"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Harvard Physics AI Tutor",
+      "related_terms": [
+        "AI Tutor",
+        "Design Over Raw AI Power"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "High School Model",
+      "related_terms": [
+        "Grade-Level Design"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "High Tech High",
+      "related_terms": [
+        "Project-Based Learning",
+        "Public Exhibition"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Higher-Order Thinking",
+      "related_terms": [
+        "Critical Thinking",
+        "Bloom's Taxonomy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Hints Instead of Answers",
+      "related_terms": [
+        "AI Guardrails",
+        "Productive Struggle"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Hiring for New Roles",
+      "related_terms": [
+        "Staffing Model",
+        "Changing Teacher Role"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "History of EdTech",
+      "related_terms": [
+        "EdTech Hype Waves",
+        "Reform Without Real Change"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Holistic Plus Micro Change",
+      "related_terms": [
+        "Whole-Organization Change",
+        "Microstrategy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Human Connection",
+      "related_terms": [
+        "Belonging",
+        "Skills That Need People"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Human Working Time",
+      "related_terms": [
+        "Task Horizon"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Hype Cycle",
+      "related_terms": [
+        "Peak of Inflated Expectations",
+        "Trough of Disillusionment",
+        "EdTech Hype Waves"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "IEEE Learning Standards",
+      "related_terms": [
+        "Interoperability Standards",
+        "xAPI"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Illustrated Story",
+      "related_terms": [
+        "Graphic Novel Scene",
+        "Storytelling"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Immediate Feedback",
+      "related_terms": [
+        "Formative Assessment",
+        "Adaptive Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Impact Concerns",
+      "related_terms": [
+        "Stages of Concern"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Implementation Dip",
+      "related_terms": [
+        "Managing Expectations",
+        "Neutral Zone"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "IMS Global Standards",
+      "related_terms": [
+        "Interoperability Standards"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "inBloom",
+      "related_terms": [
+        "Family Trust",
+        "Data Ownership",
+        "Learning Record Store"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Independent Evaluation",
+      "related_terms": [
+        "Program Evaluation"
+      ],
+      "contrasts_with": [
+        "Self-Reported Results"
+      ]
+    },
+    {
+      "term": "Industrial-Era School Model",
+      "related_terms": [
+        "Age-Based Grade Levels",
+        "Bell Schedule",
+        "Grammar of Schooling"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Informed Consent",
+      "related_terms": [
+        "Family Trust",
+        "Student-Controlled Data"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Innovation",
+      "related_terms": [
+        "Diffusion of Innovations"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Innovation Configuration",
+      "related_terms": [
+        "Concerns-Based Adoption Model",
+        "Levels of Use"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Innovators",
+      "related_terms": [
+        "Early Adopters",
+        "Technology Adoption Curve"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Instructional Coaching",
+      "related_terms": [
+        "Professional Development",
+        "Capacity Building"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Intelligent Textbook",
+      "related_terms": [
+        "Five-Level Textbook Model",
+        "Level 2 Interactive Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Intelligent Textbook Movement",
+      "related_terms": [
+        "Intelligent Textbook",
+        "Growth of Level 2 Textbooks"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Interactive Visualization",
+      "related_terms": [
+        "MicroSim",
+        "Embedded Simulation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Internet Connectivity",
+      "related_terms": [
+        "Offline Access",
+        "Digital Divide"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Interoperability Standards",
+      "related_terms": [
+        "IMS Global Standards",
+        "IEEE Learning Standards",
+        "xAPI"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Intrinsic Motivation",
+      "related_terms": [
+        "Curiosity",
+        "Student Engagement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "K-12 Education",
+      "related_terms": [
+        "Education",
+        "Age-Based Grade Levels"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Khanmigo",
+      "related_terms": [
+        "Socratic Questioning",
+        "Level 4 Chatbot Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Kotter's Eight Steps",
+      "related_terms": [
+        "Sense of Urgency",
+        "Guiding Coalition",
+        "Short-Term Wins"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Laggards",
+      "related_terms": [
+        "Late Majority",
+        "Resistance to Change"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Large Language Model",
+      "related_terms": [
+        "Generative AI",
+        "Chatbot",
+        "AI Hallucination"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Late Majority",
+      "related_terms": [
+        "Laggards",
+        "Early Majority"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "LAUSD Ed Chatbot",
+      "related_terms": [
+        "AllHere Collapse",
+        "Rushed Procurement Risk"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "LAUSD iPad Rollout",
+      "related_terms": [
+        "Why School Reforms Fail",
+        "Procurement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning",
+      "related_terms": [
+        "Learning Outcome",
+        "Learning Gains"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Analytics",
+      "related_terms": [
+        "Learning Record Store",
+        "Student Progress Dashboard"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning by Building Together",
+      "related_terms": [
+        "Social Constructionism",
+        "Project-Based Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Dependency",
+      "related_terms": [
+        "Prerequisite Concept",
+        "Learning Graph"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Gains",
+      "related_terms": [
+        "Effect Size",
+        "Learning Outcome"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Gap",
+      "related_terms": [
+        "Gap Filling",
+        "Achievement Gap"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Graph",
+      "related_terms": [
+        "Concept Node",
+        "Learning Dependency",
+        "Directed Acyclic Graph"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Guide",
+      "related_terms": [
+        "Alpha Adult Guides",
+        "Changing Teacher Role"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Management System",
+      "related_terms": [
+        "Interoperability Standards",
+        "Learning Record Store"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Organization",
+      "related_terms": [
+        "Senge's Five Disciplines",
+        "Team Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Outcome",
+      "related_terms": [
+        "Bloom's Taxonomy",
+        "Curriculum"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Path",
+      "related_terms": [
+        "Path Recommendation",
+        "Next-Concept Selection"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Record",
+      "related_terms": [
+        "Learning Record Store",
+        "Mastery Data"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Learning Record Store",
+      "related_terms": [
+        "xAPI",
+        "Learning Record",
+        "Student-Controlled Data"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Lecture-Based Teaching",
+      "related_terms": [],
+      "contrasts_with": [
+        "Project-Based Learning",
+        "Teacher as Facilitator"
+      ]
+    },
+    {
+      "term": "Legitimate Concern",
+      "related_terms": [
+        "Responding with Empathy",
+        "Resistance to Change"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Lesson From a Case",
+      "related_terms": [
+        "Real Case Study",
+        "Risk-and-Response Framework"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level 1 Static Textbook",
+      "related_terms": [
+        "Print Textbook",
+        "Level 2 Interactive Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level 2 Cost Per Student",
+      "related_terms": [
+        "Penny-Per-Day Vision",
+        "Level 3 Cost Per Student"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level 2 Interactive Textbook",
+      "related_terms": [
+        "MicroSim",
+        "Level 3 Adaptive Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level 3 Adaptive Textbook",
+      "related_terms": [
+        "Privacy Inflection Point",
+        "Adaptive Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level 3 Cost Per Student",
+      "related_terms": [
+        "Level 2 Cost Per Student",
+        "Level 4 Cost Per Student"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level 4 Chatbot Textbook",
+      "related_terms": [
+        "Conversational Tutoring",
+        "AI Tutor"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level 4 Cost Per Student",
+      "related_terms": [
+        "AI Inference Cost",
+        "Selective Chatbot Use"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level 5 Autonomous Textbook",
+      "related_terms": [
+        "Real-Time Content Generation",
+        "Full Personalization"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level Adoption Timeline",
+      "related_terms": [
+        "Growth of Level 2 Textbooks",
+        "Levels 3 to 5 on the Horizon"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level Classification",
+      "related_terms": [
+        "Product Level Assessment",
+        "Five-Level Textbook Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level Terminology Precision",
+      "related_terms": [
+        "Shared Vocabulary",
+        "AI-Powered Marketing Claims"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Level-Specific Policy",
+      "related_terms": [
+        "Graduated Regulation",
+        "Procurement Criteria"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Levels 3 to 5 on the Horizon",
+      "related_terms": [
+        "Level Adoption Timeline",
+        "Level 3 Adaptive Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Levels of Driving Automation",
+      "related_terms": [
+        "SAE J3016 Standard",
+        "Shared Vocabulary"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Levels of Use",
+      "related_terms": [
+        "Concerns-Based Adoption Model",
+        "Innovation Configuration"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Lewin's Change Model",
+      "related_terms": [
+        "Unfreeze Stage",
+        "Change Stage",
+        "Refreeze Stage"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Life-Skills Workshop",
+      "related_terms": [
+        "Afternoon Program",
+        "Alpha School"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Limits to AI Growth",
+      "related_terms": [
+        "Compute Scaling",
+        "Prediction Failure Scenario"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Linear Growth",
+      "related_terms": [],
+      "contrasts_with": [
+        "Exponential Growth"
+      ]
+    },
+    {
+      "term": "Log-Scale Chart",
+      "related_terms": [
+        "Logarithmic Scale",
+        "Exponential Growth"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Logarithmic Scale",
+      "related_terms": [
+        "Log-Scale Chart"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Long-Running Task",
+      "related_terms": [
+        "AI Agent",
+        "Task Horizon"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Low-Cost Adaptive Design",
+      "related_terms": [
+        "Adaptation Without Live AI",
+        "Generate Once Serve Many",
+        "Affordable Alpha Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Machine Learning",
+      "related_terms": [
+        "Artificial Intelligence",
+        "Large Language Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Maker Space",
+      "related_terms": [
+        "Hands-On Learning",
+        "Constructionism"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Managing Expectations",
+      "related_terms": [
+        "Implementation Dip",
+        "Realistic Expectations"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Mastery Data",
+      "related_terms": [
+        "Learning Record",
+        "Mastery Threshold"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Mastery Learning",
+      "related_terms": [
+        "Mastery Threshold",
+        "Bloom's Two-Sigma Problem"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Mastery Threshold",
+      "related_terms": [
+        "Mastery Learning",
+        "Mastery Data"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Mastery-Based Assessment",
+      "related_terms": [
+        "Mastery Learning",
+        "Seat Time"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Matching Strategy to Adopter",
+      "related_terms": [
+        "Technology Adoption Curve",
+        "Matching Strategy to Concern"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Matching Strategy to Concern",
+      "related_terms": [
+        "Stages of Concern",
+        "Matching Strategy to Adopter"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Mental Models",
+      "related_terms": [
+        "Basic Assumptions",
+        "Senge's Five Disciplines"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "METR",
+      "related_terms": [
+        "Task Horizon",
+        "50 Percent Time Horizon",
+        "Five-Month Doubling"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Microschool",
+      "related_terms": [
+        "AltSchool",
+        "Learning Guide"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "MicroSim",
+      "related_terms": [
+        "Embedded Simulation",
+        "Browser-Based Simulation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Microstrategy",
+      "related_terms": [
+        "Holistic Plus Micro Change",
+        "Shrinking the First Step"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Middle School Model",
+      "related_terms": [
+        "Grade-Level Design"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Morning Screen-Time Limits",
+      "related_terms": [
+        "Screen Time",
+        "Summit Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Morning-Afternoon Model",
+      "related_terms": [
+        "Academic Morning",
+        "Pro-Social Afternoon",
+        "AI-Native School Day"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Motivate the Elephant",
+      "related_terms": [
+        "Switch Framework",
+        "Shrinking the First Step"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Music Education",
+      "related_terms": [
+        "Ensemble Music",
+        "Arts Education"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "National AI Adoption",
+      "related_terms": [
+        "Estonia AI Leap",
+        "Education Policy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Neutral Zone",
+      "related_terms": [
+        "Bridges' Transition Model",
+        "Implementation Dip"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "New Beginnings",
+      "related_terms": [
+        "Bridges' Transition Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Next-Concept Selection",
+      "related_terms": [
+        "Path Recommendation",
+        "Learning Graph"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Nigeria AI Tutoring Pilot",
+      "related_terms": [
+        "AI Tutor",
+        "Benefits of AI-First Schools"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Observability",
+      "related_terms": [
+        "Five Innovation Attributes",
+        "Early Visible Results"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Offline Access",
+      "related_terms": [
+        "Internet Connectivity",
+        "Static Website"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "One-on-One Tutoring",
+      "related_terms": [
+        "Bloom's Two-Sigma Problem",
+        "AI Tutor"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Open Chatbot Access",
+      "related_terms": [
+        "Guided AI vs Open AI"
+      ],
+      "contrasts_with": [
+        "AI Guardrails"
+      ]
+    },
+    {
+      "term": "Open Educational Resource",
+      "related_terms": [
+        "Open License",
+        "5R Permissions"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Open License",
+      "related_terms": [
+        "Creative Commons License",
+        "Open Educational Resource"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "OpenBook QR Score",
+      "related_terms": [
+        "Quality Subscore",
+        "Reusability Subscore",
+        "Rising Quality Scores"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Opinion Leader",
+      "related_terms": [
+        "Early Adopters",
+        "Teacher Champion"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Organizational Change",
+      "related_terms": [
+        "Whole-Organization Change",
+        "Lewin's Change Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Organizational Culture",
+      "related_terms": [
+        "School Culture",
+        "Schein's Culture Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Over-Reliance on AI",
+      "related_terms": [
+        "Cognitive Offloading",
+        "Turkish High School Study"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Parent and Family",
+      "related_terms": [
+        "Family Trust",
+        "Family Communication"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Path Recommendation",
+      "related_terms": [
+        "Learning Path",
+        "Next-Concept Selection"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pattern Recognition",
+      "related_terms": [
+        "Computational Thinking",
+        "Abstraction"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "PDF Textbook",
+      "related_terms": [
+        "Level 1 Static Textbook",
+        "Digital Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Peak of Inflated Expectations",
+      "related_terms": [
+        "Hype Cycle",
+        "Trough of Disillusionment"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Peer Observation",
+      "related_terms": [
+        "Professional Learning Community",
+        "Instructional Coaching"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Penny-Per-Day Vision",
+      "related_terms": [
+        "Level 2 Cost Per Student",
+        "Universal Textbook Access"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Per-Pupil Spending",
+      "related_terms": [
+        "Cost Per Student",
+        "Cost Barrier to AI Schools"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Performance Assessment",
+      "related_terms": [
+        "Portfolio Assessment",
+        "Public Exhibition"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Personal Mastery",
+      "related_terms": [
+        "Senge's Five Disciplines",
+        "Self-Awareness"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Personalized Pacing",
+      "related_terms": [
+        "Self-Paced Learning",
+        "Adaptive Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Personally Identifiable Data",
+      "related_terms": [
+        "Student Data",
+        "FERPA"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Perspective Taking",
+      "related_terms": [
+        "Empathy",
+        "Conflict Resolution"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Phenomenon-Based Learning",
+      "related_terms": [
+        "Finland's Phenomenon Learning",
+        "Project-Based Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pilot Classroom",
+      "related_terms": [
+        "Pilot Program",
+        "Trialability"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pilot Goals",
+      "related_terms": [
+        "Pilot Program",
+        "Success Measures"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pilot Governance",
+      "related_terms": [
+        "Pilot Program",
+        "Pilot Risk Checklist"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pilot Program",
+      "related_terms": [
+        "Pilot Goals",
+        "Scaling a Pilot",
+        "Pilot Classroom"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pilot Risk Checklist",
+      "related_terms": [
+        "Pilot Program",
+        "Risk Mitigation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Planning Under Uncertainty",
+      "related_terms": [
+        "Prediction Failure Scenario",
+        "Pilot Program"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Planning Window",
+      "related_terms": [
+        "Three-to-Four-Year Forecast",
+        "Planning Under Uncertainty"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Plateau of Productivity",
+      "related_terms": [
+        "Hype Cycle"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Policy Embedding",
+      "related_terms": [
+        "Sustaining Change",
+        "Refreeze Stage"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Portfolio Assessment",
+      "related_terms": [
+        "Performance Assessment",
+        "Combined Assessment Plan"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Positive Deviance",
+      "related_terms": [
+        "Bright Spots"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "PowerSchool Data Breach",
+      "related_terms": [
+        "Centralized Student Records",
+        "Data Breach",
+        "Privacy Inflection Point"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pragmatist Buyers",
+      "related_terms": [
+        "Early Majority",
+        "The Chasm"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Prediction Assumptions",
+      "related_terms": [
+        "Prediction Failure Scenario",
+        "Trend Extrapolation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Prediction Failure Scenario",
+      "related_terms": [
+        "Prediction Assumptions",
+        "Planning Under Uncertainty"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Preprint",
+      "related_terms": [
+        "Evaluating Result Claims",
+        "Your Brain on ChatGPT"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Prerequisite Concept",
+      "related_terms": [
+        "Learning Dependency",
+        "Learning Graph"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Principal",
+      "related_terms": [
+        "School Administrator",
+        "Change Agent"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Print Textbook",
+      "related_terms": [
+        "Level 1 Static Textbook",
+        "Digital Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Prior Knowledge",
+      "related_terms": [
+        "Prerequisite Concept",
+        "Learning Gap"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Privacy Inflection Point",
+      "related_terms": [
+        "Level 3 Adaptive Textbook",
+        "Detailed Learning History"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Private School Tuition",
+      "related_terms": [
+        "Alpha Tuition Range",
+        "Cost Barrier to AI Schools"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pro-Social Activity",
+      "related_terms": [
+        "Pro-Social Behavior",
+        "Activity-Skill Matching"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pro-Social Afternoon",
+      "related_terms": [
+        "Morning-Afternoon Model",
+        "Skills That Need People"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Pro-Social Behavior",
+      "related_terms": [
+        "Pro-Social Activity",
+        "Empathy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Procurement",
+      "related_terms": [
+        "Procurement Criteria",
+        "Vendor Evaluation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Procurement Criteria",
+      "related_terms": [
+        "Level-Specific Policy",
+        "Vendor Evaluation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Product Level Assessment",
+      "related_terms": [
+        "Level Classification",
+        "Vendor Level Claim"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Productive Struggle",
+      "related_terms": [
+        "Hints Instead of Answers",
+        "Cognitive Offloading"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Professional Development",
+      "related_terms": [
+        "Instructional Coaching",
+        "Staff AI Literacy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Professional Learning Community",
+      "related_terms": [
+        "Team Learning",
+        "Peer Observation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Program Evaluation",
+      "related_terms": [
+        "Independent Evaluation",
+        "Success Measures"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Progress Tracking",
+      "related_terms": [
+        "Student Progress Dashboard",
+        "Mastery Data"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Project-Based Learning",
+      "related_terms": [
+        "Driving Question",
+        "Public Exhibition",
+        "High Tech High"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Public Exhibition",
+      "related_terms": [
+        "Project-Based Learning",
+        "Performance Assessment"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Public School Funding",
+      "related_terms": [
+        "Per-Pupil Spending",
+        "Budget Reallocation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Publisher Business Model",
+      "related_terms": [
+        "Textbook Publisher",
+        "Value Beyond Content"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Publisher Disruption",
+      "related_terms": [
+        "Content Commoditization",
+        "Value Beyond Content"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Quality Subscore",
+      "related_terms": [
+        "OpenBook QR Score",
+        "Reusability Subscore"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Randomized Controlled Trial",
+      "related_terms": [
+        "Effect Size",
+        "A/B Testing"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Real Case Study",
+      "related_terms": [
+        "Case Study Method",
+        "Composite Story"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Real-Time Content Generation",
+      "related_terms": [
+        "Level 5 Autonomous Textbook",
+        "Generate Once Serve Many"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Realistic Expectations",
+      "related_terms": [
+        "Managing Expectations",
+        "Hype Cycle"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Redesign Not Policing",
+      "related_terms": [
+        "Assessment Redesign",
+        "Detector False Positives"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reduce the Negatives",
+      "related_terms": [
+        "Strengthen the Positives",
+        "Risk Mitigation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reduced Direct Instruction",
+      "related_terms": [
+        "Direct Instruction",
+        "Changing Teacher Role"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reform Without Real Change",
+      "related_terms": [
+        "Grammar of Schooling",
+        "Why School Reforms Fail"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Refreeze Stage",
+      "related_terms": [
+        "Lewin's Change Model",
+        "Policy Embedding"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Relationship Skills",
+      "related_terms": [
+        "Social-Emotional Learning",
+        "Conflict Resolution"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Relative Advantage",
+      "related_terms": [
+        "Five Innovation Attributes"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Removing Obstacles",
+      "related_terms": [
+        "Kotter's Eight Steps",
+        "Shape the Path"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Resistance to Change",
+      "related_terms": [
+        "Sources of Resistance",
+        "Legitimate Concern"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Responding with Empathy",
+      "related_terms": [
+        "Legitimate Concern",
+        "Empathy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Responsible AI with Minors",
+      "related_terms": [
+        "Age-Appropriate AI Design",
+        "COPPA"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Retrieval Practice",
+      "related_terms": [
+        "Spaced Practice",
+        "Formative Assessment"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Reusability Subscore",
+      "related_terms": [
+        "OpenBook QR Score",
+        "5R Permissions"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Rising Quality Scores",
+      "related_terms": [
+        "OpenBook QR Score",
+        "Textbook Quality"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Risk Mitigation",
+      "related_terms": [
+        "Risk-and-Response Framework",
+        "Pilot Risk Checklist"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Risk-and-Response Framework",
+      "related_terms": [
+        "Lesson From a Case",
+        "Risk Mitigation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Risks of AI-First Schools",
+      "related_terms": [
+        "Benefits of AI-First Schools",
+        "Reduce the Negatives"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Robotics Club",
+      "related_terms": [
+        "Coding Club",
+        "Learning by Building Together"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Rushed Procurement Risk",
+      "related_terms": [
+        "LAUSD Ed Chatbot",
+        "Contract Due Diligence"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "S-Curve of Adoption",
+      "related_terms": [
+        "Technology Adoption Curve",
+        "Exponential Growth"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "SAE J3016 Standard",
+      "related_terms": [
+        "Levels of Driving Automation",
+        "Five-Level Textbook Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Scaling a Pilot",
+      "related_terms": [
+        "Pilot Program",
+        "Building on Change"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Schedule Redesign",
+      "related_terms": [
+        "Block Scheduling",
+        "Bell Schedule"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Schein's Culture Model",
+      "related_terms": [
+        "Cultural Artifacts",
+        "Espoused Values",
+        "Basic Assumptions"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "School",
+      "related_terms": [
+        "AI-Native School",
+        "School Day",
+        "School Culture"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "School Administrator",
+      "related_terms": [
+        "Principal",
+        "School Board"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "School Board",
+      "related_terms": [
+        "Board Presentation",
+        "School Board Recommendation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "School Board Recommendation",
+      "related_terms": [
+        "Board Presentation",
+        "School Board"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "School Culture",
+      "related_terms": [
+        "Organizational Culture",
+        "Shared Beliefs and Norms"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "School Day",
+      "related_terms": [
+        "AI-Native School Day",
+        "Bell Schedule",
+        "Schedule Redesign"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "School Readiness Assessment",
+      "related_terms": [
+        "Adoption Readiness",
+        "Governance Readiness"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "School Rituals",
+      "related_terms": [
+        "Cultural Artifacts",
+        "School Culture"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Screen Time",
+      "related_terms": [
+        "Morning Screen-Time Limits",
+        "Summit Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Seat Time",
+      "related_terms": [
+        "Carnegie Unit",
+        "Mastery-Based Assessment"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Selective Chatbot Use",
+      "related_terms": [
+        "Level 4 Cost Per Student",
+        "Energy-Efficient Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Self Concerns",
+      "related_terms": [
+        "Stages of Concern",
+        "Fear of Job Loss"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Self-Awareness",
+      "related_terms": [
+        "Social-Emotional Learning",
+        "Personal Mastery"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Self-Paced Learning",
+      "related_terms": [
+        "Personalized Pacing",
+        "Mastery Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Self-Reported Results",
+      "related_terms": [
+        "Vendor Level Claim"
+      ],
+      "contrasts_with": [
+        "Independent Evaluation"
+      ]
+    },
+    {
+      "term": "Senge's Five Disciplines",
+      "related_terms": [
+        "Learning Organization",
+        "Systems Thinking",
+        "Personal Mastery"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Sense of Urgency",
+      "related_terms": [
+        "Kotter's Eight Steps",
+        "Unfreeze Stage"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Service Learning",
+      "related_terms": [
+        "Community Partnership",
+        "Project-Based Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Shape the Path",
+      "related_terms": [
+        "Switch Framework",
+        "Removing Obstacles"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Shared Beliefs and Norms",
+      "related_terms": [
+        "School Culture",
+        "Basic Assumptions"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Shared Goals",
+      "related_terms": [
+        "Teamwork",
+        "Shared Vision"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Shared Vision",
+      "related_terms": [
+        "Change Vision",
+        "Senge's Five Disciplines"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Shared Vocabulary",
+      "related_terms": [
+        "Level Terminology Precision",
+        "Five-Level Textbook Model"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Short-Term Wins",
+      "related_terms": [
+        "Early Visible Results",
+        "Building on Change"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Shrinking the First Step",
+      "related_terms": [
+        "Motivate the Elephant",
+        "Microstrategy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Skills AI Teaches Well",
+      "related_terms": [],
+      "contrasts_with": [
+        "Skills That Need People"
+      ]
+    },
+    {
+      "term": "Skills That Need People",
+      "related_terms": [
+        "Pro-Social Afternoon"
+      ],
+      "contrasts_with": [
+        "Skills AI Teaches Well"
+      ]
+    },
+    {
+      "term": "Social Constructionism",
+      "related_terms": [
+        "Learning by Building Together",
+        "Constructionism"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Social Constructivism",
+      "related_terms": [
+        "Zone of Proximal Development",
+        "Constructivism"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Social-Emotional Learning",
+      "related_terms": [
+        "Self-Awareness",
+        "Relationship Skills"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Socratic Questioning",
+      "related_terms": [
+        "Hints Instead of Answers",
+        "Khanmigo"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Software Is Not the Model",
+      "related_terms": [
+        "Unbound Academy",
+        "AltSchool"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Sources of Resistance",
+      "related_terms": [
+        "Resistance to Change",
+        "Change Fatigue"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Spaced Practice",
+      "related_terms": [
+        "Retrieval Practice"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Sports and Athletics",
+      "related_terms": [
+        "Team Sports"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Staff AI Literacy",
+      "related_terms": [
+        "AI Literacy",
+        "Professional Development"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Staffing Model",
+      "related_terms": [
+        "Afternoon Specialist Staff",
+        "Hiring for New Roles"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Stages of Concern",
+      "related_terms": [
+        "Self Concerns",
+        "Task Concerns",
+        "Impact Concerns"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Stakeholder",
+      "related_terms": [
+        "Stakeholder Engagement",
+        "Stakeholder Adoption Map"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Stakeholder Adoption Map",
+      "related_terms": [
+        "Stakeholder",
+        "Technology Adoption Curve",
+        "Matching Strategy to Adopter"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Stakeholder Engagement",
+      "related_terms": [
+        "Stakeholder",
+        "Student Voice"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Standardized Testing",
+      "related_terms": [
+        "Summative Assessment",
+        "Achievement Gap"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Stanford Detector Study",
+      "related_terms": [
+        "Bias Against ELL Writers",
+        "Redesign Not Policing"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Static Website",
+      "related_terms": [
+        "Web Page Hosting",
+        "Generate Once Serve Many"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Storytelling",
+      "related_terms": [
+        "Real Case Study",
+        "Composite Story"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Strengthen the Positives",
+      "related_terms": [
+        "Reduce the Negatives",
+        "Benefits of AI-First Schools"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Structured Afternoon",
+      "related_terms": [
+        "Afternoon Program Quality"
+      ],
+      "contrasts_with": [
+        "Unstructured Afternoon Drift"
+      ]
+    },
+    {
+      "term": "Student",
+      "related_terms": [
+        "Student Agency",
+        "Student Voice"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Agency",
+      "related_terms": [
+        "Student Goal Setting",
+        "Student Voice"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Boredom",
+      "related_terms": [],
+      "contrasts_with": [
+        "Student Engagement",
+        "Curiosity"
+      ]
+    },
+    {
+      "term": "Student Data",
+      "related_terms": [
+        "Personally Identifiable Data",
+        "Student Data Privacy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Data Privacy",
+      "related_terms": [
+        "FERPA",
+        "Data Governance",
+        "Privacy Inflection Point"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Engagement",
+      "related_terms": [
+        "Intrinsic Motivation",
+        "Student Boredom"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Goal Setting",
+      "related_terms": [
+        "Student Agency",
+        "Progress Tracking"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Progress Dashboard",
+      "related_terms": [
+        "Progress Tracking",
+        "Learning Analytics"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Voice",
+      "related_terms": [
+        "Student Walkouts",
+        "Student Agency"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student Walkouts",
+      "related_terms": [
+        "Summit Learning",
+        "Student Voice"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Student-Controlled Data",
+      "related_terms": [
+        "Data Ownership",
+        "Learning Record Store"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Success Measures",
+      "related_terms": [
+        "Pilot Goals",
+        "Program Evaluation"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Summative Assessment",
+      "related_terms": [
+        "Standardized Testing"
+      ],
+      "contrasts_with": [
+        "Formative Assessment"
+      ]
+    },
+    {
+      "term": "Summit Learning",
+      "related_terms": [
+        "Student Walkouts",
+        "Morning Screen-Time Limits"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Sustaining Change",
+      "related_terms": [
+        "Policy Embedding",
+        "Anchoring in Culture"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Switch Framework",
+      "related_terms": [
+        "Direct the Rider",
+        "Motivate the Elephant",
+        "Shape the Path"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Systems Thinking",
+      "related_terms": [
+        "Feedback Loop",
+        "Causal Loop Diagram"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Task Concerns",
+      "related_terms": [
+        "Stages of Concern"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Task Horizon",
+      "related_terms": [
+        "50 Percent Time Horizon",
+        "Human Working Time"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Task Success Rate",
+      "related_terms": [
+        "50 Percent Time Horizon"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teacher",
+      "related_terms": [
+        "Changing Teacher Role",
+        "Teacher as Coach",
+        "Teacher Workload"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teacher as Coach",
+      "related_terms": [
+        "Changing Teacher Role",
+        "Teacher as Mentor"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teacher as Facilitator",
+      "related_terms": [
+        "Changing Teacher Role",
+        "Project-Based Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teacher as Mentor",
+      "related_terms": [
+        "Teacher as Coach",
+        "Human Connection"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teacher Burnout",
+      "related_terms": [
+        "Teacher Workload",
+        "Change Fatigue"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teacher Champion",
+      "related_terms": [
+        "Opinion Leader",
+        "Pilot Classroom"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teacher Union",
+      "related_terms": [
+        "Union Engagement",
+        "Fear of Job Loss"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teacher Workload",
+      "related_terms": [
+        "Teacher Burnout",
+        "AI Coaching Teachers"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teaching Thinking with AI",
+      "related_terms": [
+        "Computational Thinking",
+        "Skills AI Teaches Well"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Team Learning",
+      "related_terms": [
+        "Professional Learning Community",
+        "Learning Organization"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Team Problem Solving",
+      "related_terms": [
+        "Applying Thinking on Teams",
+        "Collaboration"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Team Roles",
+      "related_terms": [
+        "Teamwork"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Team Sports",
+      "related_terms": [
+        "Sports and Athletics",
+        "Teamwork"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teamwork",
+      "related_terms": [
+        "Collaboration",
+        "Team Roles",
+        "Teamwork Rubric"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Teamwork Rubric",
+      "related_terms": [
+        "Teamwork",
+        "Afternoon Program Quality"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Technology Adoption Curve",
+      "related_terms": [
+        "S-Curve of Adoption",
+        "Innovators"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Textbook",
+      "related_terms": [
+        "Print Textbook",
+        "Intelligent Textbook"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Textbook Price",
+      "related_terms": [
+        "Free Textbook",
+        "Cost Per Student"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Textbook Publisher",
+      "related_terms": [
+        "Publisher Business Model",
+        "Publisher Disruption"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Textbook Quality",
+      "related_terms": [
+        "OpenBook QR Score",
+        "Quality Subscore"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "The Chasm",
+      "related_terms": [
+        "Crossing the Chasm",
+        "Pragmatist Buyers"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Theater",
+      "related_terms": [
+        "Arts Education",
+        "Teamwork"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Three-to-Four-Year Forecast",
+      "related_terms": [
+        "AI Prediction for Schools",
+        "Planning Window"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Total Cost of Ownership",
+      "related_terms": [
+        "Cost Modeling",
+        "Vendor Lock-In"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Trend Extrapolation",
+      "related_terms": [
+        "Forecast Uncertainty",
+        "Prediction Assumptions"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Trialability",
+      "related_terms": [
+        "Five Innovation Attributes",
+        "Pilot Classroom"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Trough of Disillusionment",
+      "related_terms": [
+        "Hype Cycle",
+        "Plateau of Productivity"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Trust Paradox",
+      "related_terms": [
+        "Family Trust",
+        "Data Minimization"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Turkish High School Study",
+      "related_terms": [
+        "Hints Instead of Answers",
+        "Guided AI vs Open AI",
+        "Design Over Raw AI Power"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Tutor CoPilot",
+      "related_terms": [
+        "AI Coaching Teachers",
+        "Teacher as Coach"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Two-Sided Story",
+      "related_terms": [
+        "Composite Story",
+        "Risk-and-Response Framework"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Two-to-Three-Hour Learning",
+      "related_terms": [
+        "Compressed Academic Morning",
+        "2 Hour Learning"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Unbound Academy",
+      "related_terms": [
+        "2 Hour Learning",
+        "Software Is Not the Model",
+        "Virtual School"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Unfreeze Stage",
+      "related_terms": [
+        "Lewin's Change Model",
+        "Sense of Urgency"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Union Engagement",
+      "related_terms": [
+        "Teacher Union",
+        "Stakeholder Engagement"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Universal Textbook Access",
+      "related_terms": [
+        "Penny-Per-Day Vision",
+        "Equity of Access"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Unstructured Afternoon Drift",
+      "related_terms": [
+        "Freed-Up School Time"
+      ],
+      "contrasts_with": [
+        "Structured Afternoon"
+      ]
+    },
+    {
+      "term": "Value Beyond Content",
+      "related_terms": [
+        "Publisher Business Model",
+        "Whole Product"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Vendor Evaluation",
+      "related_terms": [
+        "Vendor Risk",
+        "Contract Due Diligence"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Vendor Level Claim",
+      "related_terms": [
+        "Product Level Assessment",
+        "Self-Reported Results"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Vendor Lock-In",
+      "related_terms": [
+        "Data Portability",
+        "Total Cost of Ownership"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Vendor Risk",
+      "related_terms": [
+        "Vendor Evaluation",
+        "AllHere Collapse"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Virtual School",
+      "related_terms": [
+        "Charter School",
+        "Unbound Academy"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Visual Arts",
+      "related_terms": [
+        "Arts Education"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Web Browser",
+      "related_terms": [
+        "Browser-Based Simulation",
+        "Static Website"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Web Page Hosting",
+      "related_terms": [
+        "Static Website",
+        "Level 2 Cost Per Student"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Whole Product",
+      "related_terms": [
+        "Crossing the Chasm",
+        "Value Beyond Content"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Whole-Organization Change",
+      "related_terms": [
+        "Holistic Plus Micro Change",
+        "Organizational Change"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Why School Reforms Fail",
+      "related_terms": [
+        "Reform Without Real Change",
+        "Grammar of Schooling"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "xAPI",
+      "related_terms": [
+        "xAPI Statement",
+        "Learning Record Store"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "xAPI Statement",
+      "related_terms": [
+        "Actor Verb Object",
+        "xAPI"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Your Brain on ChatGPT",
+      "related_terms": [
+        "Cognitive Offloading",
+        "Preprint"
+      ],
+      "contrasts_with": []
+    },
+    {
+      "term": "Zone of Proximal Development",
+      "related_terms": [
+        "Social Constructivism",
+        "Productive Struggle"
+      ],
+      "contrasts_with": []
+    }
+  ]
+}

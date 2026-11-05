@@ -107,6 +107,10 @@ Two red flags end the conversation until they are removed. Three more are fixabl
 
 #### Diagram: Contract Clause Review
 
+<iframe src="../../sims/contract-clause-review/main.html" height="380px" width="100%" scrolling="no"></iframe>
+
+[Run the Contract Clause Review MicroSim Fullscreen](../../sims/contract-clause-review/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Contract Clause Review</summary>
 Type: microsim
@@ -218,6 +222,10 @@ The district has to grow from 4 coaches to 34 in three years. If it cannot hire 
 
 #### Diagram: Coach Capacity Calculator
 
+<iframe src="../../sims/coach-capacity-calculator/main.html" height="506px" width="100%" scrolling="no"></iframe>
+
+[Run the Coach Capacity Calculator MicroSim Fullscreen](../../sims/coach-capacity-calculator/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Coach Capacity Calculator</summary>
 Type: microsim
@@ -296,6 +304,10 @@ Mean mastery scores for a lower-income group and a higher-income group at two sc
 At School 2 both groups improved, and the average improvement was 6.5 points. A report that said "scores rose" would be true, and the gap grew from 14 to 17 points. At School 1 the lower-income group gained more, and the gap closed. The averages alone would make the two schools look alike.
 
 #### Diagram: Is the Gap Closing?
+
+<iframe src="../../sims/is-the-gap-closing/main.html" height="474px" width="100%" scrolling="no"></iframe>
+
+[Run the Is the Gap Closing? MicroSim Fullscreen](../../sims/is-the-gap-closing/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Is the Gap Closing?</summary>
@@ -448,3 +460,5 @@ The story has both sides. The benefit: a model that is carried out with its prot
 !!! mascot-celebration "You can implement it responsibly"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned to read a contract for what protects students, govern and evaluate a pilot, pace a scale-up to coach capacity, watch the gaps, and pay for and sustain the model. That completes the how-to of the book. Chapters 22 and 23 return to the real stories, the ones that worked and the ones that went wrong, and what they teach. One step at a time, together.
+
+[See Annotated References](./references.md)

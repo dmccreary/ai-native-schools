@@ -133,6 +133,10 @@ The difference between them is not budget. The robot room might have cost a few 
 
 #### Diagram: Afternoon Program Quality Judge
 
+<iframe src="../../sims/afternoon-program-quality-judge/main.html" height="652px" width="100%" scrolling="no"></iframe>
+
+[Run the Afternoon Program Quality Judge MicroSim Fullscreen](../../sims/afternoon-program-quality-judge/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Afternoon Program Quality Judge</summary>
 Type: microsim
@@ -404,6 +408,10 @@ One question, "why does our creek turn brown?", used five subjects, and every st
 
 #### Diagram: Missing Project Element
 
+<iframe src="../../sims/missing-project-element/main.html" height="648px" width="100%" scrolling="no"></iframe>
+
+[Run the Missing Project Element MicroSim Fullscreen](../../sims/missing-project-element/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Missing Project Element</summary>
 Type: microsim
@@ -546,6 +554,10 @@ A school that offers only coding and robotics will graduate students strong in o
 
 #### Diagram: Match the Activity to the Skill
 
+<iframe src="../../sims/match-activity-to-skill/main.html" height="678px" width="100%" scrolling="no"></iframe>
+
+[Run the Match the Activity to the Skill MicroSim Fullscreen](../../sims/match-activity-to-skill/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Match the Activity to the Skill</summary>
 Type: microsim
@@ -654,3 +666,5 @@ The story has both sides. The benefit: an afternoon in which students make music
 !!! mascot-celebration "You can design an afternoon that works"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned to tell a structured afternoon from a drifting one, check a project against its essential elements, and match activities to the skills they build. Part 3 is complete, and the book's two halves, the morning and the afternoon, are on the table. Chapter 15 begins Part 4: how schools actually change. One step at a time, together.
+
+[See Annotated References](./references.md)

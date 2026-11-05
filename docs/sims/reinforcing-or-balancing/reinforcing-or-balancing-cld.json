@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "id": "reinforcing-or-balancing-cld",
+    "title": "Reinforcing or Balancing?",
+    "description": "Six illustrative causal loops from school change. Each loop is a ring of variables joined by signed links. Count the minus signs around the loop: an even number (including zero) makes it reinforcing, an odd number makes it balancing.",
+    "version": "1.0.0",
+    "created_date": "2026-11-04",
+    "author": "AI-Native Schools, Chapter 18"
+  },
+  "loops": [
+    {
+      "id": "L1",
+      "type": "reinforcing",
+      "why": "Zero minus signs is even, so the loop amplifies success.",
+      "nodes": [
+        { "id": "results", "label": "Student results", "position": { "x": 0, "y": -120 } },
+        { "id": "confidence", "label": "Teacher confidence", "position": { "x": 160, "y": 95 } },
+        { "id": "quality", "label": "Quality of use", "position": { "x": -160, "y": 95 } }
+      ],
+      "edges": [
+        { "source": "results", "target": "confidence", "sign": "+" },
+        { "source": "confidence", "target": "quality", "sign": "+" },
+        { "source": "quality", "target": "results", "sign": "+" }
+      ],
+      "center": { "x": 0, "y": 25 }
+    },
+    {
+      "id": "L2",
+      "type": "balancing",
+      "why": "One minus sign is odd, so the loop resists being pushed.",
+      "nodes": [
+        { "id": "speed", "label": "Rollout speed", "position": { "x": 0, "y": -120 } },
+        { "id": "overload", "label": "Teacher overload", "position": { "x": 160, "y": 95 } },
+        { "id": "resistance", "label": "Resistance", "position": { "x": -160, "y": 95 } }
+      ],
+      "edges": [
+        { "source": "speed", "target": "overload", "sign": "+" },
+        { "source": "overload", "target": "resistance", "sign": "+" },
+        { "source": "resistance", "target": "speed", "sign": "-" }
+      ],
+      "center": { "x": 0, "y": 25 }
+    },
+    {
+      "id": "L3",
+      "type": "reinforcing",
+      "why": "Zero minus signs is even; trust and good personalization feed each other.",
+      "nodes": [
+        { "id": "trust", "label": "Family trust", "position": { "x": 0, "y": -120 } },
+        { "id": "share", "label": "Willingness to share data", "position": { "x": 160, "y": 95 } },
+        { "id": "personalization", "label": "Quality of personalization", "position": { "x": -160, "y": 95 } }
+      ],
+      "edges": [
+        { "source": "trust", "target": "share", "sign": "+" },
+        { "source": "share", "target": "personalization", "sign": "+" },
+        { "source": "personalization", "target": "trust", "sign": "+" }
+      ],
+      "center": { "x": 0, "y": 25 }
+    },
+    {
+      "id": "L4",
+      "type": "balancing",
+      "why": "One minus sign is odd; more data raises breach risk, which lowers family trust, which limits the data allowed.",
+      "nodes": [
+        { "id": "collected", "label": "Data collected", "position": { "x": 0, "y": -125 } },
+        { "id": "breach", "label": "Breach risk", "position": { "x": 200, "y": 5 } },
+        { "id": "trust", "label": "Family trust", "position": { "x": 0, "y": 135 } },
+        { "id": "allowed", "label": "Data allowed", "position": { "x": -200, "y": -5 } }
+      ],
+      "edges": [
+        { "source": "collected", "target": "breach", "sign": "+" },
+        { "source": "breach", "target": "trust", "sign": "-" },
+        { "source": "trust", "target": "allowed", "sign": "+" },
+        { "source": "allowed", "target": "collected", "sign": "+" }
+      ],
+      "center": { "x": 0, "y": 5 }
+    },
+    {
+      "id": "L5",
+      "type": "reinforcing",
+      "why": "Zero minus signs is even; the loop is a vicious cycle.",
+      "nodes": [
+        { "id": "workload", "label": "Teacher workload", "position": { "x": 0, "y": -120 } },
+        { "id": "burnout", "label": "Burnout", "position": { "x": 160, "y": 95 } },
+        { "id": "absences", "label": "Absences", "position": { "x": -160, "y": 95 } }
+      ],
+      "edges": [
+        { "source": "workload", "target": "burnout", "sign": "+" },
+        { "source": "burnout", "target": "absences", "sign": "+" },
+        { "source": "absences", "target": "workload", "sign": "+" }
+      ],
+      "center": { "x": 0, "y": 25 }
+    },
+    {
+      "id": "L6",
+      "type": "balancing",
+      "why": "One minus sign is odd; complaints push screen time back down.",
+      "nodes": [
+        { "id": "screen", "label": "Screen time", "position": { "x": 0, "y": -120 } },
+        { "id": "complaints", "label": "Family complaints", "position": { "x": 160, "y": 95 } },
+        { "id": "pressure", "label": "Pressure to cut screen time", "position": { "x": -160, "y": 95 } }
+      ],
+      "edges": [
+        { "source": "screen", "target": "complaints", "sign": "+" },
+        { "source": "complaints", "target": "pressure", "sign": "+" },
+        { "source": "pressure", "target": "screen", "sign": "-" }
+      ],
+      "center": { "x": 0, "y": 25 }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Is the Gap Closing?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Compute the gap between higher-income and lower-income students before and after for five schools, and decide whether each gap is closing, widening, or unchanged.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Is the Gap Closing?",
+    "learningObjectives": [
+      "The learner will differentiate five schools' results as closing, widening, or unchanged gaps by computing the gap before and after, correctly classifying at least four of five on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Closing or widening gaps, the Matthew effect, and the achievement gap, from the section \"Equity in Implementation\" in Chapter 21 and from Chapter 3."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 470
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify one item at a time with immediate feedback; first-attempt scoring",
+    "keyQuestions": [
+      "What was the gap before?",
+      "What is the gap after?"
+    ],
+    "commonMisconceptions": [
+      "If both groups improve, the gap must be closing.",
+      "A larger gain for one group always closes the gap.",
+      "An unchanged gap means no change in scores."
+    ],
+    "assessmentOpportunities": [
+      "Lower-income 58 to 63; higher-income 72 to 80. Closing, widening, or unchanged?",
+      "If both groups improve, must the gap be closing?",
+      "Does an unchanged gap mean scores did not change?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Category buttons",
+      "type": "button",
+      "description": "Choose the result for the current school."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the choice. Two tries per school; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next school. Finish shows the score."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Reshuffles and begins a new run."
+    }
+  ],
+  "chapter": "21-implementing-ai-native-model-responsibly"
+}

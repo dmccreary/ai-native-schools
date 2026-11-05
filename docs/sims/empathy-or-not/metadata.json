@@ -1,0 +1,84 @@
+{
+  "title": "Empathy or Not?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify eight replies to a teacher who fears losing their job as dismissive, defensive, reassurance without substance, or empathic and substantive.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Empathy or Not?",
+    "learningObjectives": [
+      "The learner will classify eight replies to a worried teacher as dismissive, defensive, reassurance without substance, or empathic and substantive, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Responding with empathy, legitimate concern, and fear of job loss, from the section \"Resistance, Concerns, and Job Fears\" in Chapter 19."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 444
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify one item at a time with immediate feedback; first-attempt scoring",
+    "keyQuestions": [
+      "Does the reply acknowledge the worry?",
+      "Does it offer a fact, an option, or a commitment?"
+    ],
+    "commonMisconceptions": [
+      "Reassurance is the same as empathy.",
+      "Facts alone answer a worry.",
+      "Disagreeing is always defensive."
+    ],
+    "assessmentOpportunities": [
+      "\"I understand, I'm sure you'll be fine.\" What kind of reply is this?",
+      "Is every reply that disagrees with the teacher defensive?",
+      "What two things does an empathic and substantive reply do?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Category buttons",
+      "type": "button",
+      "description": "Choose the kind of reply for the current reply."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the choice. Two tries per reply; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next reply. Finish shows the score."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Reshuffles and begins a new run."
+    },
+    {
+      "name": "Show definitions",
+      "type": "checkbox",
+      "description": "Shows the definitions."
+    }
+  ],
+  "chapter": "19-microstrategies-leading-change"
+}

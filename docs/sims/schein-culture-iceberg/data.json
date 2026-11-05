@@ -1,0 +1,115 @@
+{
+  "title": "Schein's Culture Iceberg",
+  "orientation": "landscape",
+  "image": "schein-culture-iceberg.svg",
+  "layout": "side-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Cultural artifacts",
+      "x": 32.9,
+      "y": 13.8,
+      "radius": 4,
+      "color": "#C0392B",
+      "hint": "A red building with a bell tower and a flag on the very top of the ice, with a colored grid on posts and a glass case of gold cups nearby.",
+      "description": "Artifacts are the visible and audible products of a culture: the building, the bell schedule, the trophy case, the dress code and the language people use. They sit above the water, so anyone walking through can see them. They are easy to observe and hard to interpret, because the same artifact can mean different things in different schools.",
+      "tip": "What a school puts in its front case, and what it leaves in the back corridor, is an artifact worth reading."
+    },
+    {
+      "id": 2,
+      "label": "School rituals",
+      "x": 50.0,
+      "y": 31.0,
+      "radius": 4,
+      "color": "#E67E22",
+      "hint": "A small crowd on a ledge cheering with raised arms, pom-poms and pennants.",
+      "description": "Rituals are the repeated, symbolic events that express a school's culture: assemblies, pep rallies, awards, staff meetings, the first day and the last. They cut both ways in a change. Disrupting a cherished ritual creates resistance, while a new ritual, such as a student exhibition night, builds the new culture in the open.",
+      "tip": "At Lincoln, the only whole-staff ritual is a Friday announcement, which suggests information flows down, not across."
+    },
+    {
+      "id": 3,
+      "label": "Espoused values",
+      "x": 27.5,
+      "y": 41.0,
+      "radius": 4,
+      "color": "#F1C40F",
+      "hint": "A framed certificate with blank lines and a red seal, half in the water, beside a blue banner on two poles.",
+      "description": "Espoused values are what a school says it believes, found in mission statements, banners, speeches and how people explain themselves. They sit at the waterline: partly visible and partly a matter of belief. Lincoln's mission says \"collaborative learning community,\" but a stated value is not proof of how people really act.",
+      "tip": "The risk lives here: when the stated value and the hidden assumption disagree, the assumption wins."
+    },
+    {
+      "id": 4,
+      "label": "Shared beliefs and norms",
+      "x": 19.7,
+      "y": 51.5,
+      "radius": 4,
+      "color": "#A0522D",
+      "hint": "Three closed wooden doors set in the clear ice just below the surface.",
+      "description": "Norms are the beliefs held in common and the unwritten rules for behavior. Teachers do not enter each other's rooms uninvited, parents are informed but not consulted, and the schedule is not to be touched. No one writes these rules down, but newcomers learn them fast, as when a new teacher is told to \"close your door and do your own thing.\""
+    },
+    {
+      "id": 5,
+      "label": "Basic assumptions (the hidden mass)",
+      "x": 69.1,
+      "y": 50.6,
+      "radius": 4.5,
+      "color": "#1F618D",
+      "hint": "The wide, deep shelf of ice spreading out under the water, far wider than the part above the surface.",
+      "description": "Basic assumptions are the unspoken, taken-for-granted beliefs about how the world works. They are rarely discussed, and people would be shocked to hear them questioned. Like the mass of an iceberg, they hold a school steady: a shared culture carries staff through hard years and lets a new teacher know how things work. Schein's central claim is that these assumptions, not the stated values, drive behavior.",
+      "tip": "This mass reaches out under the boat's path, far beyond the part anyone can see from the deck."
+    },
+    {
+      "id": 6,
+      "label": "Assumption: a good teacher works alone",
+      "x": 20.3,
+      "y": 75.0,
+      "radius": 4,
+      "color": "#5D6D7E",
+      "hint": "A small room frozen into the dark ice, with one figure at a single desk and a closed door.",
+      "description": "This is the assumption Ms. Okafor infers at Lincoln: good teaching is something you do alone, and autonomy outranks collaboration. No one says it, but closed doors, a silent staff room and a teacher who declines a colleague's visit all point to it. It, not the mission, predicts how the school will react to collaborative afternoon teams.",
+      "tip": "Ms. Okafor plans to work on this assumption through small wins: low-risk peer visits, not mandates."
+    },
+    {
+      "id": 7,
+      "label": "Assumption: learning takes a fixed time",
+      "x": 35.0,
+      "y": 86.2,
+      "radius": 4,
+      "color": "#2C3E50",
+      "hint": "A round clock face fused deep into the dark ice, with cracks spreading out from it.",
+      "description": "A second deep assumption is that learning is measured in time: a fixed number of minutes per class and days per course, with everyone moving on together. It is so taken for granted that a mastery-based morning, where students move at their own pace, can feel wrong before anyone can say why. A reform that leaves this assumption untouched tends to keep the clock and quietly drop the mastery."
+    },
+    {
+      "id": 8,
+      "label": "The grammar of schooling",
+      "x": 48.4,
+      "y": 69.4,
+      "radius": 4.5,
+      "color": "#16A085",
+      "hint": "A room frozen in the ice, seen from above, with a board at the front and neat rows of desks all facing it.",
+      "description": "Tyack and Tobin's phrase names the persistent regularities of school: age-graded classes, separate classrooms, subjects split apart, and time and space divided the same way everywhere. Because this structure is embedded in the expectations of teachers, parents and policymakers, reforms that disturb it are absorbed or rejected. It sits deep in the ice for that reason."
+    },
+    {
+      "id": 9,
+      "label": "Reform without real change",
+      "x": 83.4,
+      "y": 37.5,
+      "radius": 4,
+      "color": "#D35400",
+      "hint": "A small orange boat on the right steering toward the tip, with a dotted course line running over the water.",
+      "description": "A reform aimed only at what shows above the water, such as new devices, a new banner or a new schedule grid, sails straight into the hidden mass. The innovation is adopted in name while the actual work of teaching stays the same: the software is running and the lecture goes on. Larry Cuban called the pattern \"oversold and underused.\"",
+      "tip": "The test of real change is whether the practice is different, not whether the dashboard shows logins."
+    },
+    {
+      "id": 10,
+      "label": "Culture assessment (the diver)",
+      "x": 71.6,
+      "y": 79.0,
+      "radius": 4,
+      "color": "#F39C12",
+      "hint": "A swimmer in an orange suit with an air tank, shining a lamp at the side of the ice.",
+      "description": "Culture assessment is the school's response to the risk: find out what the culture actually is before announcing the change. Gather artifacts by walking through and watching, compare them with the espoused values, infer the assumptions where the two disagree by asking \"why do we do it this way?\" again and again, and decide which assumptions will help and which will hinder. It works best as a team exercise, since people see their own assumptions only when others show them."
+    }
+  ]
+}

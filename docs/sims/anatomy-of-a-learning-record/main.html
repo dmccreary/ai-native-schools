@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anatomy of a Learning Record — Interactive Diagram</title>
+  <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+  <link rel="stylesheet" href="../shared-libs/style.css">
+</head>
+<body>
+
+<div id="layout">
+  <svg id="leaders-svg"></svg>
+
+  <div id="diagram-wrapper">
+    <img id="diagram-img" src="anatomy-of-a-learning-record.svg" alt="A student at a laptop moves a slider in a simulation; a glowing envelope holding three linked tiles, a person, a clicking pointer and a block, with a green check-mark rosette, travels along a dashed line to a filing-cabinet server with an open drawer of folders, which feeds a teacher dashboard of bars and a map of concept circles where one gold circle lights up. A gold key hangs on a lanyard around the student's neck." draggable="false">
+    <div id="markers-layer"></div>
+  </div>
+
+  <div id="label-panel">
+    <!-- label rows injected by diagram.js -->
+  </div>
+</div>
+
+<div id="controls">
+  <button class="mode-btn active" id="btn-explore" onclick="sim.setMode('explore')">Explore</button>
+  <button class="mode-btn"        id="btn-quiz"    onclick="sim.setMode('quiz')">Quiz</button>
+  <span id="quiz-score" style="display:none">
+    Score: <strong id="score-val">0</strong> / <strong id="score-total">0</strong>
+  </span>
+</div>
+
+<div id="infobox">
+  <div id="infobox-prompt">Hover over a numbered marker or a label to follow one click from the laptop to the dashboard.</div>
+  <div id="infobox-content">
+    <div id="infobox-label"></div>
+    <div id="infobox-desc"></div>
+    <div id="infobox-ap-tip"></div>
+    <button id="quiz-restart" onclick="sim.restartQuiz()">Try Again</button>
+  </div>
+</div>
+
+<div id="edit-panel">
+  <h3>Edit Mode — drag markers to calibrate positions</h3>
+  <div id="coord-display">Drag a marker to see its live coordinates.</div>
+  <textarea id="json-output" readonly spellcheck="false"></textarea>
+  <div id="edit-actions">
+    <button id="copy-json-btn" onclick="sim.copyJSON()">Copy JSON</button>
+    <span id="copy-confirm"></span>
+  </div>
+</div>
+
+<script src="../shared-libs/diagram.js"></script>
+</body>
+</html>

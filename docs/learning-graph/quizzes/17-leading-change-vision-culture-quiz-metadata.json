@@ -1,0 +1,132 @@
+{
+  "chapter": "Leading Change: Vision, Culture, and Early-Stage Concerns",
+  "chapter_file": "docs/chapters/17-leading-change-vision-culture/index.md",
+  "quiz_file": "docs/chapters/17-leading-change-vision-culture/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch17-q001",
+      "number": 1,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Sense of Urgency",
+      "tags": [
+        "sense-of-urgency",
+        "kotters-eight-steps"
+      ]
+    },
+    {
+      "id": "ch17-q002",
+      "number": 2,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Self Concerns",
+      "tags": [
+        "self-concerns",
+        "stages-of-concern"
+      ]
+    },
+    {
+      "id": "ch17-q003",
+      "number": 3,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Lewin's Change Model",
+      "tags": [
+        "lewins-change-model",
+        "force-field-analysis"
+      ]
+    },
+    {
+      "id": "ch17-q004",
+      "number": 4,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Unfreeze Stage",
+      "tags": [
+        "unfreeze-stage",
+        "removing-obstacles"
+      ]
+    },
+    {
+      "id": "ch17-q005",
+      "number": 5,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "ADKAR Desire",
+      "tags": [
+        "adkar-desire",
+        "adkar-awareness"
+      ]
+    },
+    {
+      "id": "ch17-q006",
+      "number": 6,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Endings and Losses",
+      "tags": [
+        "endings-and-losses",
+        "bridges-transition-model"
+      ]
+    },
+    {
+      "id": "ch17-q007",
+      "number": 7,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Stages of Concern",
+      "tags": [
+        "stages-of-concern",
+        "self-concerns"
+      ]
+    },
+    {
+      "id": "ch17-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Shared Vision",
+      "tags": [
+        "shared-vision",
+        "change-vision"
+      ]
+    },
+    {
+      "id": "ch17-q009",
+      "number": 9,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Schein's Culture Model",
+      "tags": [
+        "scheins-culture-model",
+        "shared-beliefs-and-norms"
+      ]
+    },
+    {
+      "id": "ch17-q010",
+      "number": 10,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Innovation Configuration",
+      "tags": [
+        "innovation-configuration",
+        "concerns-based-adoption-model"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 25,
+  "chapter_concepts_tested": 10
+}

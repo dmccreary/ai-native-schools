@@ -1,0 +1,78 @@
+{
+  "title": "Listening Responses",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify eight replies to a nervous teammate as paraphrase, clarifying question, reflecting feeling, advice, or judgment.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Listening Responses",
+    "learningObjectives": [
+      "The learner will classify eight replies to a teammate's statement as paraphrase, clarifying question, reflecting feeling, advice, or judgment, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Active listening and its parts (paraphrase, clarifying question, reflecting feeling), advice, and judgment, from the section \"Communication, Listening, and Conflict\" in Chapter 13"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 694
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, get feedback with the reason, and review what was missed",
+    "keyQuestions": [
+      "What does this reply do: restate, ask, name a feeling, steer, or judge?"
+    ],
+    "commonMisconceptions": [
+      "Giving advice is a way of listening",
+      "Agreeing with someone is the same as understanding them",
+      "A question is always a clarifying question"
+    ],
+    "assessmentOpportunities": [
+      "\"Have you tried writing notes on cards?\" Which kind?",
+      "Is agreeing with someone the same as understanding them?",
+      "Name the three kinds of reply that are active listening."
+    ]
+  },
+  "chapter": "13-social-learning-human-skills",
+  "controls": [
+    {
+      "name": "Choice buttons",
+      "type": "button",
+      "description": "commit an answer. A wrong first answer gives a hint and lets you choose again; only the first answer counts."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "opens or closes the reference table. Reading it is exploration, not evidence."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "moves to the next item after feedback. On the results screen, Previous missed and Next missed step through what you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "starts a practice run with the items reshuffled. Practice runs do not change the first-run score."
+    }
+  ]
+}

@@ -243,6 +243,27 @@ The last row is the reason the textbook framework is more than a metaphor. In bo
     ![Indigo thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
     Notice what the car levels measure: who is responsible for the driving, not how good the car is. A well-built Level 2 system can be safer than a sloppy Level 3 one. The same holds for textbooks: a level tells you what the product *does* and what it *needs from the student*, never whether it is any good.
 
+#### Diagram: Five Levels: Textbooks and Self-Driving Cars
+
+<iframe src="../../sims/five-levels-textbooks-and-cars/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the Five Levels: Textbooks and Self-Driving Cars MicroSim Fullscreen](../../sims/five-levels-textbooks-and-cars/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>Five Levels: Textbooks and Self-Driving Cars</summary>
+Type: infographic overlay (grid)
+**sim-id:** five-levels-textbooks-and-cars<br/>
+**Library:** grid-diagram.js (shared grid overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** compare<br/>
+**Learning Objective:** The learner will compare the six SAE J3016 levels of driving automation with the five levels of intelligent textbooks, and explain why both frameworks put their key threshold at Level 3.
+
+**Visual:** An interactive grid poster that sets the six SAE J3016 levels of driving automation above the five levels of intelligent textbooks, with the shared Level 3 threshold and the rule for testing a vendor's level claim. The image has no text; 12 rectangular zones supply every label.
+
+**Modes:** Explore (hover or click for a description) and Quiz.
+</details>
+
 ## The Five Levels at a Glance
 
 The **five-level textbook model** classifies intelligent textbooks into five levels by what the textbook can do and how much it needs to know about each student:
@@ -451,6 +472,10 @@ On the central trend of Chapter 5, the horizon needed to write and check a lesso
 
 #### Diagram: Product Level Classifier
 
+<iframe src="../../sims/product-level-classifier/main.html" height="664px" width="100%" scrolling="no"></iframe>
+
+[Run the Product Level Classifier MicroSim Fullscreen](../../sims/product-level-classifier/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Product Level Classifier</summary>
 Type: microsim
@@ -568,6 +593,10 @@ Each safeguard keeps applying at higher levels, so a Level 4 product needs the L
 
 #### Diagram: Level-Specific Safeguard Matcher
 
+<iframe src="../../sims/level-specific-safeguard-matcher/main.html" height="734px" width="100%" scrolling="no"></iframe>
+
+[Run the Level-Specific Safeguard Matcher MicroSim Fullscreen](../../sims/level-specific-safeguard-matcher/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Level-Specific Safeguard Matcher</summary>
 Type: microsim
@@ -652,3 +681,5 @@ The story shows both sides. The benefit is clear: the levels let a school buy th
 !!! mascot-celebration "You can place any product on the ladder"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned all five levels, the logic borrowed from self-driving cars, and the four-step assessment that sees through "AI-powered." That's the book's central tool, and everything from here builds on it. Chapter 7 asks what each level costs, and why Level 2 is heading toward free. One step at a time, together.
+
+[See Annotated References](./references.md)

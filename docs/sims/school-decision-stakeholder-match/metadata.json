@@ -1,0 +1,84 @@
+{
+  "title": "School Decision Stakeholder Match",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Match ten school decisions to the stakeholder who typically holds them: teacher, principal, district administrator, school board, or family.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Stakeholders and decision rights in a school district",
+    "learningObjectives": [
+      "The learner will classify ten school decisions by the stakeholder who typically holds the decision, correctly matching at least eight of ten on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The roles of parent and family, teacher, principal, school administrator, and school board, from Chapter 2."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 744
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify, commit an answer, and read the reason",
+    "keyQuestions": [
+      "Who has the authority to make this decision?",
+      "Is this a classroom, school, district, or family decision?"
+    ],
+    "commonMisconceptions": [
+      "The principal decides everything at a school",
+      "The school board runs daily operations",
+      "Families have no decisions of their own"
+    ],
+    "assessmentOpportunities": [
+      "Who approves a $900,000 district-wide contract?",
+      "Does the school board set one school's bell schedule?",
+      "Name one decision that belongs to families."
+    ]
+  },
+  "controls": [
+    {
+      "name": "Five stakeholder buttons",
+      "type": "button",
+      "description": "Choose Teacher, Principal, District administrator, School board, or Parent and family for the current decision."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Shows or hides the one-line description of each role."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next decision after feedback."
+    },
+    {
+      "name": "Previous missed and Next missed",
+      "type": "button",
+      "description": "On the results screen, step through the decisions you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the decisions for a practice run."
+    }
+  ],
+  "chapter": "02-evidence-motivation-stakeholders"
+}

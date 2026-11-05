@@ -1,0 +1,163 @@
+{
+  "title": "Crossing the Chasm",
+  "orientation": "landscape",
+  "image": "crossing-the-chasm.svg",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 5,
+      "label": "Whole product (the bridge)",
+      "x": 39.5,
+      "y": 52.5,
+      "radius": 4,
+      "color": "#E67E22",
+      "panel": "top",
+      "hint": "A half-built plank bridge reaching from the left cliff toward the far rim, with spare planks stacked beside it.",
+      "description": "The whole product is the complete solution a pragmatist needs: the core tool plus everything that makes it work on Monday morning. Each plank is one piece, such as single sign-on, a one-hour training, an accessibility check, a plan for students without home devices, a parent letter, and clear answers about student privacy.",
+      "tip": "The bridge is only half built because a pilot rarely builds the whole product. The pilot's real value is the list of planks still missing."
+    },
+    {
+      "id": 6,
+      "label": "Crossing by hope (the risk)",
+      "x": 42.6,
+      "y": 50.5,
+      "radius": 4,
+      "color": "#E74C3C",
+      "panel": "top",
+      "hint": "A figure leaping off the end of the unfinished bridge, arms raised, over the open gap.",
+      "description": "The most common failure: a district sees a pilot succeed and spreads it, unchanged, to every school. The tool that delighted volunteers lands on teachers who have no training, no integration and no colleague to ask, and it stalls. Moore's word for an innovation that thrives with visionaries and then dies at the gap is that it fell into the chasm.",
+      "tip": "The school's response to this risk is to finish the bridge before asking the majority to walk across it: build the whole product and pick a beachhead first."
+    },
+    {
+      "id": 8,
+      "label": "Bowling pins (the next groups)",
+      "x": 47.1,
+      "y": 35,
+      "radius": 3.5,
+      "color": "#F39C12",
+      "panel": "top",
+      "hint": "A short row of white pins standing near the far rim of the canyon.",
+      "description": "Moore pictures each group won as a bowling pin that helps knock over the pin beside it. Once seventh-grade math works completely, eighth-grade math is a short step, because the teachers, the content and the whole product are similar. Then seventh-grade science, and so on.",
+      "tip": "Choose the next group by how much of the existing whole product it can reuse, not by how eager it is."
+    },
+    {
+      "id": 10,
+      "label": "Early majority: pragmatists (about 34%)",
+      "x": 51,
+      "y": 55,
+      "radius": 4.5,
+      "color": "#3498DB",
+      "panel": "top",
+      "hint": "The broad hillside rising from the far rim of the canyon toward the summit.",
+      "description": "Pragmatists will adopt, but only after seeing that it works for people like them. They want proof, ease and support, and they will not take a risk for a vision. In a district of 400 teachers, this is about 136 people, and a majority is not reached until they are persuaded.",
+      "tip": "The figures on this slope carry clipboards: pragmatists check the details before they commit."
+    },
+    {
+      "id": 9,
+      "label": "References: peers talking to peers",
+      "x": 51.9,
+      "y": 26,
+      "radius": 3.5,
+      "color": "#1ABC9C",
+      "panel": "top",
+      "hint": "Two figures near the summit facing each other, with empty speech bubbles above them.",
+      "description": "Pragmatists take their cue from other pragmatists. The question they ask is, \"Has anyone like me made this work?\" A trusted colleague in a similar school answering yes does more than any conference talk or vendor demo.",
+      "tip": "When choosing a messenger, pick the respected skeptic who changed their mind, not the biggest enthusiast."
+    },
+    {
+      "id": 11,
+      "label": "Crack 2: early to late majority",
+      "x": 56.2,
+      "y": 36,
+      "radius": 3.5,
+      "color": "#34495E",
+      "panel": "top",
+      "hint": "A deep, narrow crack running down from the very top of the hill.",
+      "description": "A second, smaller gap sits between the early and late majority. Pragmatists are comfortable with something new once it is proven; conservatives are not comfortable with new things at all. To reach them, the innovation has to become simpler, cheaper and fully supported, until using it is the easier option."
+    },
+    {
+      "id": 12,
+      "label": "Late majority: conservatives (about 34%)",
+      "x": 65.3,
+      "y": 34,
+      "radius": 4.5,
+      "color": "#16A085",
+      "panel": "top",
+      "hint": "The long slope on the right side of the summit with a line of figures walking down it.",
+      "description": "Conservatives adopt after most others have, often skeptically and because the norm has shifted. They want the innovation to be the default, with nothing left to figure out. In a 400-teacher district, this is another 136 teachers.",
+      "tip": "For this group, support and simplicity matter more than any new feature."
+    },
+    {
+      "id": 1,
+      "label": "Innovators (about 2.5%)",
+      "x": 15.6,
+      "y": 82,
+      "radius": 4,
+      "color": "#8E44AD",
+      "panel": "bottom",
+      "hint": "Two figures carrying lanterns on the low ground at the far left.",
+      "description": "Innovators, whom Moore calls technology enthusiasts, try something new because it is new. They will put up with a tool that is unfinished or broken. They bring ideas in from outside, but peers do not always follow them.",
+      "tip": "In a district of 400 teachers, this is about 10 people."
+    },
+    {
+      "id": 2,
+      "label": "Crack 1: innovators to early adopters",
+      "x": 23.8,
+      "y": 86,
+      "radius": 3.5,
+      "color": "#34495E",
+      "panel": "bottom",
+      "hint": "A small crack in the ground between the lantern carriers and the next group.",
+      "description": "A small gap between innovators and early adopters. An idea that only technologists love gets stuck here. Early adopters want to see a big payoff for their students, not just a clever tool."
+    },
+    {
+      "id": 3,
+      "label": "Early adopters: visionaries (about 13.5%)",
+      "x": 31.9,
+      "y": 66,
+      "radius": 4,
+      "color": "#E67E22",
+      "panel": "bottom",
+      "hint": "Figures with telescopes standing on the ridge that ends at the cliff edge.",
+      "description": "Visionaries adopt early because they see a chance for a big payoff, and they will accept risk and an incomplete product to get it. They are often respected, but they want a solution shaped to their own vision. In the chapter's example, Ms. Okafor's six pilot teachers are among the district's roughly 64 innovators and early adopters.",
+      "tip": "Visionaries make great pilots and poor references for pragmatists. Their success says \"this is exciting,\" not \"this is safe.\""
+    },
+    {
+      "id": 4,
+      "label": "The chasm",
+      "x": 41.3,
+      "y": 76,
+      "radius": 5,
+      "color": "#E74C3C",
+      "panel": "bottom",
+      "hint": "The deep, dark canyon splitting the ground, with water at the bottom.",
+      "description": "The chasm is the gap between early adopters and the early majority. Visionaries cannot give pragmatists the proof they need, and pragmatists will not adopt until people like them do. So many innovations that thrive with the first 16 percent of adopters stall completely here.",
+      "tip": "The far rim is higher than the near cliff: crossing means meeting a higher standard, not just covering a distance."
+    },
+    {
+      "id": 7,
+      "label": "Beachhead (the landing boat)",
+      "x": 42.4,
+      "y": 93.5,
+      "radius": 4,
+      "color": "#2ECC71",
+      "panel": "bottom",
+      "hint": "A small wooden boat pulled up on a strip of sand at the foot of the far wall.",
+      "description": "A beachhead strategy puts all the effort into winning one narrow, well-defined group first, the way an army lands on one beach before advancing. For a school district, a beachhead might be seventh-grade math at two more schools, made to work completely and visibly, with the whole product in place.",
+      "tip": "A good beachhead is small enough to finish, similar enough to the next groups to spread, and visible enough to produce reference stories."
+    },
+    {
+      "id": 13,
+      "label": "Laggards: skeptics (about 16%)",
+      "x": 83.1,
+      "y": 70,
+      "radius": 4,
+      "color": "#7F8C8D",
+      "panel": "bottom",
+      "hint": "A few gray figures standing apart on the low ground at the far right.",
+      "description": "Laggards adopt last, if at all. The word is not a criticism: they often have good reasons, such as limited resources, experience of past reforms that failed, or loyalty to practices that already work. They are often the people who point out real risks worth answering.",
+      "tip": "Treat a laggard's objection as free testing: if it names a real risk, the whole product should answer it."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Prerequisite Chain Diagnosis using vis-network</title>
+    <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; background: white; }
+        #app { height: 720px; display: flex; flex-direction: column; border: 1px solid silver; background: aliceblue; }
+        #title { margin: 0; padding: 8px 10px 6px; font-size: 22px; text-align: center; }
+        #body { flex: 1; display: flex; flex-direction: column; min-height: 0; gap: 8px; padding: 0 8px 8px; }
+        #net-wrap { position: relative; flex: none; height: 440px; background: white; border: 1px solid silver; border-radius: 8px; }
+        #network { position: absolute; top: 48px; left: 0; right: 0; bottom: 0; }
+        #legend { position: relative; margin: 4px 6px 0; font-size: 13px; background: rgba(255,255,255,0.92); padding: 4px 6px; border-radius: 6px; z-index: 5; pointer-events: none; line-height: 1.5; }
+        #legend span.sw { display: inline-block; width: 14px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 4px; }
+        #note { position: absolute; right: 8px; bottom: 6px; font-size: 12px; font-style: italic; color: dimgray; z-index: 5; pointer-events: none; }
+        #panel { flex: 1; display: flex; gap: 8px; min-height: 0; }
+        #textcol { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; min-height: 0; }
+        #btncol { width: 270px; flex: none; display: flex; flex-direction: column; gap: 6px; }
+        .card { background: white; border: 1px solid silver; border-radius: 8px; padding: 6px 10px; font-size: 15px; line-height: 1.35; }
+        #status { font-weight: bold; font-size: 14px; color: #333; }
+        #prompt { font-size: 16px; }
+        #info { flex: 1; min-height: 0; overflow: auto; }
+        #info.good { background: honeydew; border: 2px solid seagreen; }
+        #info.bad { background: mistyrose; border: 2px solid firebrick; }
+        #info.hint { background: lightyellow; border: 2px solid darkgoldenrod; }
+        .lead { font-weight: bold; }
+        .row { display: flex; gap: 6px; }
+        .row button { flex: 1; }
+        button { font-family: Arial, Helvetica, sans-serif; font-size: 15px; padding: 7px 4px; white-space: nowrap; border: 2px solid dimgray; border-radius: 8px; background: white; cursor: pointer; }
+        button:hover:not(:disabled) { background: aliceblue; border-color: navy; }
+        button:disabled { color: dimgray; background: whitesmoke; border-color: silver; cursor: default; }
+        button.primary { background: navy; border-color: navy; color: white; font-weight: bold; }
+        button.primary:disabled { background: lightsteelblue; border-color: lightsteelblue; color: white; }
+        button:focus-visible { outline: 3px solid black; outline-offset: 2px; }
+        @media (max-width: 620px) {
+            #net-wrap { height: 300px; }
+            #panel { flex-direction: column; }
+            #btncol { width: auto; }
+            #title { font-size: 18px; }
+            #legend { font-size: 11px; }
+            #note { display: none; }
+            #network { top: 58px; }
+        }
+
+    </style>
+</head>
+<body>
+<main>
+<div id="app">
+    <h1 id="title">Prerequisite Chain Diagnosis</h1>
+    <div id="body">
+        <div id="net-wrap">
+            <div id="legend">
+                <span class="sw" style="background:#fff;border:3px solid #b8901a"></span>No prerequisites
+                &nbsp;<span class="sw" style="background:#c8f0d2;border:1px solid #1f7a3f"></span>Pass
+                &nbsp;<span class="sw" style="background:#f9d0d0;border:1px solid #b22222"></span>Fail
+                &nbsp;<span class="sw" style="background:#fff;border:3px solid #7b2fbf"></span>Target<br/>
+                Arrow: concept → a prerequisite it depends on
+            </div>
+            <div id="network" role="img" aria-label="Prerequisite map of eight fraction and proportion concepts. Arrows point from each concept to the prerequisites it depends on."></div>
+            <div id="note"></div>
+        </div>
+        <div id="panel">
+          <div id="textcol">
+            <div class="card"><div id="status" aria-live="polite"></div><div id="prompt"></div></div>
+            <div class="card" id="info" aria-live="polite"></div>
+          </div>
+          <div id="btncol">
+            <div class="row"><button id="startBtn" class="primary">Start the cases</button></div>
+            <div class="row"><button id="clearBtn">Clear</button><button id="submitBtn" class="primary">Submit</button></div>
+            <div class="row"><button id="nextBtn" class="primary">Next</button></div>
+            <div class="row"><button id="zoomInBtn" aria-label="Zoom in">Zoom in</button><button id="zoomOutBtn" aria-label="Zoom out">Zoom out</button><button id="fitBtn">Reset</button></div>
+          </div>
+        </div>
+    </div>
+</div>
+</main>
+<script src="prerequisite-chain-diagnosis.js"></script>
+<br/>
+<a href=".">Back to Lesson Plan</a>
+</body>
+</html>

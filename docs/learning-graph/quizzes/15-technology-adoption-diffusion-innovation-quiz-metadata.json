@@ -1,0 +1,136 @@
+{
+  "chapter": "Technology Adoption and the Diffusion of Innovation",
+  "chapter_file": "docs/chapters/15-technology-adoption-diffusion-innovation/index.md",
+  "quiz_file": "docs/chapters/15-technology-adoption-diffusion-innovation/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch15-q001",
+      "number": 1,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Technology Adoption Curve",
+      "tags": [
+        "technology-adoption-curve",
+        "innovators",
+        "early-adopters"
+      ]
+    },
+    {
+      "id": "ch15-q002",
+      "number": 2,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Trialability",
+      "tags": [
+        "trialability",
+        "five-innovation-attributes"
+      ]
+    },
+    {
+      "id": "ch15-q003",
+      "number": 3,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "The Chasm",
+      "tags": [
+        "the-chasm",
+        "pragmatist-buyers",
+        "whole-product"
+      ]
+    },
+    {
+      "id": "ch15-q004",
+      "number": 4,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Complexity",
+      "tags": [
+        "complexity",
+        "adoption-readiness"
+      ]
+    },
+    {
+      "id": "ch15-q005",
+      "number": 5,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Opinion Leader",
+      "tags": [
+        "opinion-leader",
+        "early-majority"
+      ]
+    },
+    {
+      "id": "ch15-q006",
+      "number": 6,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Trough of Disillusionment",
+      "tags": [
+        "trough-of-disillusionment",
+        "hype-cycle",
+        "edtech-hype-waves"
+      ]
+    },
+    {
+      "id": "ch15-q007",
+      "number": 7,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Early Majority",
+      "tags": [
+        "early-majority",
+        "s-curve-of-adoption"
+      ]
+    },
+    {
+      "id": "ch15-q008",
+      "number": 8,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Change Agent",
+      "tags": [
+        "change-agent",
+        "opinion-leader"
+      ]
+    },
+    {
+      "id": "ch15-q009",
+      "number": 9,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Beachhead Strategy",
+      "tags": [
+        "beachhead-strategy",
+        "crossing-the-chasm",
+        "whole-product"
+      ]
+    },
+    {
+      "id": "ch15-q010",
+      "number": 10,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Five Innovation Attributes",
+      "tags": [
+        "five-innovation-attributes",
+        "diffusion-of-innovations"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 28,
+  "chapter_concepts_tested": 10
+}

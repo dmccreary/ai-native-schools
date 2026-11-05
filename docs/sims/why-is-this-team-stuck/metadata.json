@@ -1,0 +1,79 @@
+{
+  "title": "Why Is This Team Stuck?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Attribute the main cause of a student team's difficulty in six short vignettes to one of five causes.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Why Is This Team Stuck?",
+    "learningObjectives": [
+      "The learner will attribute the main cause of a team's difficulty in each of six short vignettes to one of five causes, correctly attributing at least five of six on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Shared goals, team roles, individual accountability, active listening, and conflict resolution, from Chapter 13"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 674
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, get feedback with the reason, and review what was missed",
+    "keyQuestions": [
+      "Which detail in the vignette points to the cause?",
+      "Would working harder fix it?"
+    ],
+    "commonMisconceptions": [
+      "A struggling team lacks knowledge or effort",
+      "The quiet member is the problem",
+      "Every team problem is a conflict"
+    ],
+    "assessmentOpportunities": [
+      "Everyone works hard, but on different versions of the project. Main cause?",
+      "Is every team problem a conflict?",
+      "One student does all the work and the grade cannot show it. Main cause?"
+    ]
+  },
+  "chapter": "13-social-learning-human-skills",
+  "controls": [
+    {
+      "name": "Choice buttons",
+      "type": "button",
+      "description": "commit an answer. A wrong first answer gives a hint and lets you choose again; only the first answer counts."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "opens or closes the reference table. Reading it is exploration, not evidence."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "moves to the next item after feedback. On the results screen, Previous missed and Next missed step through what you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "starts a practice run with the items reshuffled. Practice runs do not change the first-run score."
+    }
+  ]
+}

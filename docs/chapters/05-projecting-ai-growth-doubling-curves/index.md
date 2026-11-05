@@ -183,6 +183,10 @@ The sim below lets you try these sensitivities yourself.
 
 #### Diagram: Doubling Time Projection Calculator
 
+<iframe src="../../sims/doubling-time-projection-calculator/main.html" height="689px" width="100%" scrolling="no"></iframe>
+
+[Run the Doubling Time Projection Calculator MicroSim Fullscreen](../../sims/doubling-time-projection-calculator/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Doubling Time Projection Calculator</summary>
 Type: microsim
@@ -302,6 +306,10 @@ A teacher gives students a short passage and an AI-written summary of it that co
 
 #### Diagram: Verify the AI Summary
 
+<iframe src="../../sims/verify-the-ai-summary/main.html" height="744px" width="100%" scrolling="no"></iframe>
+
+[Run the Verify the AI Summary MicroSim Fullscreen](../../sims/verify-the-ai-summary/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Verify the AI Summary</summary>
 Type: microsim
@@ -420,3 +428,5 @@ The story has both sides. The benefit: if the trend holds, high-quality adaptive
 !!! mascot-celebration "You can read the curve and its limits"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned to read a log-scale chart, project the five-month doubling over a planning window, state the assumptions behind it, and pick moves that survive being wrong. Chapter 6 turns from the forecast to the product: the five-level model that lets you say exactly what kind of intelligent textbook you're being sold. One step at a time, together.
+
+[See Annotated References](./references.md)

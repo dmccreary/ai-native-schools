@@ -209,6 +209,10 @@ The assignment "do fractions worksheet 4" would give her one of these. The artif
 
 #### Diagram: Which Learning Theory Is It?
 
+<iframe src="../../sims/which-learning-theory/main.html" height="622px" width="100%" scrolling="no"></iframe>
+
+[Run the Which Learning Theory Is It? MicroSim Fullscreen](../../sims/which-learning-theory/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Which Learning Theory Is It?</summary>
 Type: microsim
@@ -374,6 +378,10 @@ Within ten minutes the team has a plan. Nothing the team lacked was knowledge. T
 
 #### Diagram: Why Is This Team Stuck?
 
+<iframe src="../../sims/why-is-this-team-stuck/main.html" height="678px" width="100%" scrolling="no"></iframe>
+
+[Run the Why Is This Team Stuck? MicroSim Fullscreen](../../sims/why-is-this-team-stuck/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Why Is This Team Stuck?</summary>
 Type: microsim
@@ -484,6 +492,10 @@ Dev says to the team, "I think this whole project is pointless; nobody cares abo
 The last three are active listening. The first two are common and well-meant, and they end the conversation. Dev's real concern, probably that earlier student projects led nowhere, only surfaces after he has been heard.
 
 #### Diagram: Listening Responses
+
+<iframe src="../../sims/listening-responses/main.html" height="698px" width="100%" scrolling="no"></iframe>
+
+[Run the Listening Responses MicroSim Fullscreen](../../sims/listening-responses/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Listening Responses</summary>
@@ -675,3 +687,5 @@ The story has both sides, as always. The benefit: an afternoon in which students
 !!! mascot-celebration "You can say why the afternoon matters"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned four learning theories, what makes a team work, how active listening differs from advice, and how social-emotional skills grow inside real projects. That's the case for the afternoon, grounded in theory. Chapter 14 turns it into practice: what actually fills those hours. One step at a time, together.
+
+[See Annotated References](./references.md)

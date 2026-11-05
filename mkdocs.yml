@@ -38,32 +38,102 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      - '1. The Building Blocks of Schools, Students, and Learning': chapters/01-building-blocks-schools-students/index.md
-      - '2. Evidence, Motivation, and the Stakeholders of Schooling': chapters/02-evidence-motivation-stakeholders/index.md
-      - '3. School Structures, Equity, and the Industrial-Era Legacy': chapters/03-school-structures-equity-industrial-era/index.md
-      - '4. Measuring AI Capability: The METR Task-Horizon Studies': chapters/04-measuring-ai-capability-metr/index.md
-      - '5. Projecting AI Growth: Doubling Curves, Limits, and Uncertainty': chapters/05-projecting-ai-growth-doubling-curves/index.md
-      - '6. The Five-Level Model of Intelligent Textbooks': chapters/06-five-level-model-intelligent-textbooks/index.md
-      - '7. Content Economics and Open Educational Resources': chapters/07-content-economics-open-educational/index.md
-      - '8. Tracking Mastery: xAPI, Learning Record Stores, and MicroSims': chapters/08-tracking-mastery-xapi-learning-record/index.md
-      - '9. Learning Graphs, Interoperability Standards, and Access at Scale': chapters/09-learning-graphs-interoperability/index.md
-      - '10. Student Privacy and Data Governance': chapters/10-student-privacy-data-governance/index.md
-      - '11. Mastery Learning and the Case for a Compressed Morning': chapters/11-mastery-learning-case-compressed-morning/index.md
-      - '12. AI Guardrails: Teaching Thinking Without Over-Reliance': chapters/12-ai-guardrails-teaching-thinking-without/index.md
-      - '13. Social Learning and Human Skills': chapters/13-social-learning-human-skills/index.md
-      - '14. The Pro-Social Afternoon': chapters/14-pro-social-afternoon/index.md
-      - '15. Technology Adoption and the Diffusion of Innovation': chapters/15-technology-adoption-diffusion-innovation/index.md
-      - '16. Organizational Change Models': chapters/16-organizational-change-models/index.md
-      - '17. Leading Change: Vision, Culture, and Early-Stage Concerns': chapters/17-leading-change-vision-culture/index.md
-      - '18. Sustaining Change: Systems Thinking and National Adoption': chapters/18-sustaining-change-systems-thinking/index.md
-      - '19. Microstrategies for Leading Change': chapters/19-microstrategies-leading-change/index.md
-      - '20. Designing the AI-Native School Day': chapters/20-designing-ai-native-school-day/index.md
-      - '21. Implementing the AI-Native Model Responsibly': chapters/21-implementing-ai-native-model-responsibly/index.md
-      - '22. AI-First Case Studies I: Promise and Peril': chapters/22-ai-first-case-studies-i-promise-peril/index.md
-      - '23. AI-First Case Studies II: Lessons for Practice': chapters/23-ai-first-case-studies-ii-lessons/index.md
+      - '1. The Building Blocks of Schools, Students, and Learning':
+        - Content: chapters/01-building-blocks-schools-students/index.md
+        - Quiz: chapters/01-building-blocks-schools-students/quiz.md
+        - Annotated References: chapters/01-building-blocks-schools-students/references.md
+      - '2. Evidence, Motivation, and the Stakeholders of Schooling':
+        - Content: chapters/02-evidence-motivation-stakeholders/index.md
+        - Quiz: chapters/02-evidence-motivation-stakeholders/quiz.md
+        - Annotated References: chapters/02-evidence-motivation-stakeholders/references.md
+      - '3. School Structures, Equity, and the Industrial-Era Legacy':
+        - Content: chapters/03-school-structures-equity-industrial-era/index.md
+        - Quiz: chapters/03-school-structures-equity-industrial-era/quiz.md
+        - Annotated References: chapters/03-school-structures-equity-industrial-era/references.md
+      - '4. Measuring AI Capability: The METR Task-Horizon Studies':
+        - Content: chapters/04-measuring-ai-capability-metr/index.md
+        - Quiz: chapters/04-measuring-ai-capability-metr/quiz.md
+        - Annotated References: chapters/04-measuring-ai-capability-metr/references.md
+      - '5. Projecting AI Growth: Doubling Curves, Limits, and Uncertainty':
+        - Content: chapters/05-projecting-ai-growth-doubling-curves/index.md
+        - Quiz: chapters/05-projecting-ai-growth-doubling-curves/quiz.md
+        - Annotated References: chapters/05-projecting-ai-growth-doubling-curves/references.md
+      - '6. The Five-Level Model of Intelligent Textbooks':
+        - Content: chapters/06-five-level-model-intelligent-textbooks/index.md
+        - Quiz: chapters/06-five-level-model-intelligent-textbooks/quiz.md
+        - Annotated References: chapters/06-five-level-model-intelligent-textbooks/references.md
+      - '7. Content Economics and Open Educational Resources':
+        - Content: chapters/07-content-economics-open-educational/index.md
+        - Quiz: chapters/07-content-economics-open-educational/quiz.md
+        - Annotated References: chapters/07-content-economics-open-educational/references.md
+      - '8. Tracking Mastery: xAPI, Learning Record Stores, and MicroSims':
+        - Content: chapters/08-tracking-mastery-xapi-learning-record/index.md
+        - Quiz: chapters/08-tracking-mastery-xapi-learning-record/quiz.md
+        - Annotated References: chapters/08-tracking-mastery-xapi-learning-record/references.md
+      - '9. Learning Graphs, Interoperability Standards, and Access at Scale':
+        - Content: chapters/09-learning-graphs-interoperability/index.md
+        - Quiz: chapters/09-learning-graphs-interoperability/quiz.md
+        - Annotated References: chapters/09-learning-graphs-interoperability/references.md
+      - '10. Student Privacy and Data Governance':
+        - Content: chapters/10-student-privacy-data-governance/index.md
+        - Quiz: chapters/10-student-privacy-data-governance/quiz.md
+        - Annotated References: chapters/10-student-privacy-data-governance/references.md
+      - '11. Mastery Learning and the Case for a Compressed Morning':
+        - Content: chapters/11-mastery-learning-case-compressed-morning/index.md
+        - Quiz: chapters/11-mastery-learning-case-compressed-morning/quiz.md
+        - Annotated References: chapters/11-mastery-learning-case-compressed-morning/references.md
+      - '12. AI Guardrails: Teaching Thinking Without Over-Reliance':
+        - Content: chapters/12-ai-guardrails-teaching-thinking-without/index.md
+        - Quiz: chapters/12-ai-guardrails-teaching-thinking-without/quiz.md
+        - Annotated References: chapters/12-ai-guardrails-teaching-thinking-without/references.md
+      - '13. Social Learning and Human Skills':
+        - Content: chapters/13-social-learning-human-skills/index.md
+        - Quiz: chapters/13-social-learning-human-skills/quiz.md
+        - Annotated References: chapters/13-social-learning-human-skills/references.md
+      - '14. The Pro-Social Afternoon':
+        - Content: chapters/14-pro-social-afternoon/index.md
+        - Quiz: chapters/14-pro-social-afternoon/quiz.md
+        - Annotated References: chapters/14-pro-social-afternoon/references.md
+      - '15. Technology Adoption and the Diffusion of Innovation':
+        - Content: chapters/15-technology-adoption-diffusion-innovation/index.md
+        - Quiz: chapters/15-technology-adoption-diffusion-innovation/quiz.md
+        - Annotated References: chapters/15-technology-adoption-diffusion-innovation/references.md
+      - '16. Organizational Change Models':
+        - Content: chapters/16-organizational-change-models/index.md
+        - Quiz: chapters/16-organizational-change-models/quiz.md
+        - Annotated References: chapters/16-organizational-change-models/references.md
+      - '17. Leading Change: Vision, Culture, and Early-Stage Concerns':
+        - Content: chapters/17-leading-change-vision-culture/index.md
+        - Quiz: chapters/17-leading-change-vision-culture/quiz.md
+        - Annotated References: chapters/17-leading-change-vision-culture/references.md
+      - '18. Sustaining Change: Systems Thinking and National Adoption':
+        - Content: chapters/18-sustaining-change-systems-thinking/index.md
+        - Quiz: chapters/18-sustaining-change-systems-thinking/quiz.md
+        - Annotated References: chapters/18-sustaining-change-systems-thinking/references.md
+      - '19. Microstrategies for Leading Change':
+        - Content: chapters/19-microstrategies-leading-change/index.md
+        - Quiz: chapters/19-microstrategies-leading-change/quiz.md
+        - Annotated References: chapters/19-microstrategies-leading-change/references.md
+      - '20. Designing the AI-Native School Day':
+        - Content: chapters/20-designing-ai-native-school-day/index.md
+        - Quiz: chapters/20-designing-ai-native-school-day/quiz.md
+        - Annotated References: chapters/20-designing-ai-native-school-day/references.md
+      - '21. Implementing the AI-Native Model Responsibly':
+        - Content: chapters/21-implementing-ai-native-model-responsibly/index.md
+        - Quiz: chapters/21-implementing-ai-native-model-responsibly/quiz.md
+        - Annotated References: chapters/21-implementing-ai-native-model-responsibly/references.md
+      - '22. AI-First Case Studies I: Promise and Peril':
+        - Content: chapters/22-ai-first-case-studies-i-promise-peril/index.md
+        - Quiz: chapters/22-ai-first-case-studies-i-promise-peril/quiz.md
+        - Annotated References: chapters/22-ai-first-case-studies-i-promise-peril/references.md
+      - '23. AI-First Case Studies II: Lessons for Practice':
+        - Content: chapters/23-ai-first-case-studies-ii-lessons/index.md
+        - Quiz: chapters/23-ai-first-case-studies-ii-lessons/quiz.md
+        - Annotated References: chapters/23-ai-first-case-studies-ii-lessons/references.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
+      - Teacher's Guide: teachers-guide/index.md
       - Course Description Assessment: learning-graph/course-description-assessment.md
       - Concept List: learning-graph/concept-list.md
       - Graph Quality Analysis: learning-graph/quality-metrics.md
@@ -72,11 +142,90 @@ nav:
       - Glossary Quality Report: learning-graph/glossary-quality-report.md
       - FAQ Quality Report: learning-graph/faq-quality-report.md
       - FAQ Coverage Gaps: learning-graph/faq-coverage-gaps.md
+      - Quiz Generation Report: learning-graph/quiz-generation-report.md
       - Mascot Test Page: learning-graph/mascot-test.md
 
   - MicroSims:
       - List of MicroSims: sims/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
+      - Afternoon Program Quality Judge: sims/afternoon-program-quality-judge/index.md
+      - AI Cost per Student Calculator: sims/ai-cost-per-student-calculator/index.md
+      - AI Terms Classifier: sims/ai-terms-classifier/index.md
+      - AI Tutor Design Judge: sims/ai-tutor-design-judge/index.md
+      - "Alpha or Unbound?": sims/alpha-or-unbound/index.md
+      - Anatomy of a Learning Record: sims/anatomy-of-a-learning-record/index.md
+      - "Answer Machine vs. Thinking Tutor": sims/answer-machine-vs-thinking-tutor/index.md
+      - "Artifact, Value, or Assumption?": sims/artifact-value-or-assumption/index.md
+      - Ask the Right Question: sims/ask-the-right-question/index.md
+      - Bloom Level Task Sorter: sims/bloom-level-task-sorter/index.md
+      - Building Blocks Concept Map: sims/building-blocks-concept-map/index.md
+      - Challenge and Prior Knowledge Zone Explorer: sims/challenge-knowledge-zone-explorer/index.md
+      - Choose the Microstrategy: sims/choose-the-microstrategy/index.md
+      - Choose the Move to Cross the Chasm: sims/choose-chasm-crossing-move/index.md
+      - Coach Capacity Calculator: sims/coach-capacity-calculator/index.md
+      - Contract Clause Review: sims/contract-clause-review/index.md
+      - Cost Per Student by Level: sims/cost-per-student-by-level/index.md
+      - Crossing the Chasm: sims/crossing-the-chasm-overlay/index.md
+      - Doubling Time Projection Calculator: sims/doubling-time-projection-calculator/index.md
+      - "The EdTech Hype Cycle": sims/edtech-hype-cycle-overlay/index.md
+      - "Empathy or Not?": sims/empathy-or-not/index.md
+      - Equal Versus Equitable Tutoring: sims/equal-vs-equitable-tutoring/index.md
+      - Evidence Tier Claim Checker: sims/evidence-tier-claim-checker/index.md
+      - "The Factory Day vs. the AI-Native Day": sims/factory-vs-ai-native-day/index.md
+      - False Accusations Calculator: sims/false-accusations-calculator/index.md
+      - Find the Missing Safeguard: sims/find-the-missing-safeguard/index.md
+      - "Five Levels: Textbooks and Self-Driving Cars": sims/five-levels-textbooks-and-cars/index.md
+      - Force Field Balance: sims/force-field-balance/index.md
+      - Four Thinking Skills Sorter: sims/four-thinking-skills-sorter/index.md
+      - Four-Fifths Bias Audit Calculator: sims/four-fifths-bias-audit-calculator/index.md
+      - Generate Once Versus Generate for Each Student: sims/generate-once-vs-live-cost/index.md
+      - Governance Readiness Judge: sims/governance-readiness-judge/index.md
+      - How METR Measures a Task Horizon: sims/metr-measurement-workflow/index.md
+      - "Is the Gap Closing?": sims/is-the-gap-closing/index.md
+      - "Is This a Normal Dip?": sims/is-this-a-normal-dip/index.md
+      - "Is This Data Identifying?": sims/is-this-data-identifying/index.md
+      - Judging the Evidence for a Shorter Morning: sims/judging-evidence-for-shorter-morning/index.md
+      - Kotter's Eight Steps as a Mountain Trail: sims/kotter-mountain-trail/index.md
+      - Level-Specific Safeguard Matcher: sims/level-specific-safeguard-matcher/index.md
+      - Listening Responses: sims/listening-responses/index.md
+      - Mastery Threshold Chooser: sims/mastery-threshold-chooser/index.md
+      - Match the Activity to the Skill: sims/match-activity-to-skill/index.md
+      - Missing Project Element: sims/missing-project-element/index.md
+      - Morning Time Budget: sims/morning-time-budget/index.md
+      - Name That Change Model: sims/name-that-change-model/index.md
+      - "One Lesson, Many Readiness Levels": sims/one-lesson-many-readiness-levels/index.md
+      - Prerequisite Chain Diagnosis: sims/prerequisite-chain-diagnosis/index.md
+      - Product Level Classifier: sims/product-level-classifier/index.md
+      - "Promise and Peril: Five AI-First Cases": sims/promise-and-peril-cases/index.md
+      - Ready Concepts Finder: sims/ready-concepts-finder/index.md
+      - "Reinforcing or Balancing?": sims/reinforcing-or-balancing/index.md
+      - "Rider, Elephant, or Path?": sims/rider-elephant-path/index.md
+      - The Rider, the Elephant and the Path: sims/rider-elephant-path-overlay/index.md
+      - "Scale, Extend, or Stop?": sims/scale-extend-or-stop/index.md
+      - Schein's Culture Iceberg: sims/schein-culture-iceberg/index.md
+      - School Decision Stakeholder Match: sims/school-decision-stakeholder-match/index.md
+      - Schooling and EdTech Timeline: sims/schooling-edtech-timeline/index.md
+      - Seat Time Versus Mastery: sims/seat-time-vs-mastery/index.md
+      - "Seat Time vs. Mastery": sims/seat-time-vs-mastery-poster/index.md
+      - Source Credibility Checker: sims/source-credibility-checker/index.md
+      - Spacing and Retrieval Retention Explorer: sims/spacing-retrieval-retention-explorer/index.md
+      - "The Student Record Vault": sims/student-record-vault/index.md
+      - Task Horizon Curve Explorer: sims/task-horizon-curve-explorer/index.md
+      - Tutor Reply Hint Levels: sims/tutor-reply-hint-levels/index.md
+      - Vendor Scorecard: sims/vendor-scorecard/index.md
+      - Verify the AI Summary: sims/verify-the-ai-summary/index.md
+      - "What a Textbook Costs per Student": sims/textbook-cost-per-student-poster/index.md
+      - "What Level of Use Is This?": sims/what-level-of-use/index.md
+      - "Where Is It on the Hype Cycle?": sims/where-on-hype-cycle/index.md
+      - Where the Minutes Go in a Traditional School Day: sims/school-day-minute-map/index.md
+      - "Which Attribute Is the Barrier?": sims/which-attribute-is-the-barrier/index.md
+      - "Which Benefit or Risk?": sims/which-benefit-or-risk/index.md
+      - "Which Concern Is This?": sims/which-self-concern/index.md
+      - "Which Kotter Step Is This?": sims/which-kotter-step/index.md
+      - "Which Learning Theory Is It?": sims/which-learning-theory/index.md
+      - "Which Lesson Does the Failure Teach?": sims/which-lesson-does-failure-teach/index.md
+      - "Who May See This Record?": sims/who-may-see-this-record/index.md
+      - "Why Is This Team Stuck?": sims/why-is-this-team-stuck/index.md
 
   - Appendices:
       - AI-First Stories: appendices/ai-first-stories.md
@@ -90,9 +239,11 @@ nav:
 # Theme configuration
 theme:
   name: material
+  # overrides/partials/comments.html adds the Giscus feedback box to every page
+  custom_dir: overrides
   # Once a logo is generated, point this at docs/img/logo.png or a mascot pose:
-  # logo: img/mascot/neutral.png
-  # favicon: img/favicon.ico
+  logo: img/mascot/neutral.png
+  favicon: img/favicon.ico
   palette:
     primary: 'indigo'
     accent: 'orange'
@@ -164,6 +315,7 @@ extra_css:
 # Custom JavaScript — KaTeX config must load before the KaTeX library
 extra_javascript:
   - js/katex.js
+  - js/extra.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js
   - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js
 
@@ -173,6 +325,7 @@ exclude_docs: |
   **/image-prompts*.md
   **/cover-prompt.md
   **/cover-image-prompt.md
+  **img/mascot/character-sheet.md
   **/TODO.md
 
 # Rebuild on changes during `mkdocs serve`
@@ -184,6 +337,14 @@ watch:
 extra:
   # Suppress the "Made with Material for MkDocs" footer line
   generator: false
+
+  # Giscus feedback (GitHub Discussions) rendered at the end of every page
+  # by overrides/partials/comments.html
+  giscus:
+    repo: dmccreary/ai-native-schools
+    repo_id: R_kgDOVhwbJQ
+    category: General
+    category_id: DIC_kwDOVhwbJc4DKceW
 
   # MicroSim build-status indicators shown next to nav entries.
   # The status value is set per-page in the index.md frontmatter:
@@ -208,7 +369,7 @@ extra:
   textbook_name: 'AI-Native Schools'
   textbook_version: '0.1'
 
-  # Google Analytics — uncomment once a property ID exists:
-  # analytics:
-  #   provider: google
-  #   property: G-XXXXXXXXXX
+  # Google Analytics (GA4 property "AI-Native Schools")
+  analytics:
+    provider: google
+    property: G-270094HPGG

@@ -1,0 +1,135 @@
+{
+  "chapter": "Designing the AI-Native School Day",
+  "chapter_file": "docs/chapters/20-designing-ai-native-school-day/index.md",
+  "quiz_file": "docs/chapters/20-designing-ai-native-school-day/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "advanced",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch20-q001",
+      "number": 1,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "AI-Native School",
+      "tags": [
+        "ai-native-school",
+        "ai-first-school",
+        "morning-afternoon-model"
+      ]
+    },
+    {
+      "id": "ch20-q002",
+      "number": 2,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Staffing Model",
+      "tags": [
+        "staffing-model",
+        "changing-teacher-role"
+      ]
+    },
+    {
+      "id": "ch20-q003",
+      "number": 3,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Detector False Positives",
+      "tags": [
+        "detector-false-positives",
+        "ai-cheating-detector"
+      ]
+    },
+    {
+      "id": "ch20-q004",
+      "number": 4,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Bias Against ELL Writers",
+      "tags": [
+        "bias-against-ell-writers",
+        "equity"
+      ]
+    },
+    {
+      "id": "ch20-q005",
+      "number": 5,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Procurement Criteria",
+      "tags": [
+        "procurement-criteria",
+        "vendor-evaluation",
+        "procurement"
+      ]
+    },
+    {
+      "id": "ch20-q006",
+      "number": 6,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Pilot Goals",
+      "tags": [
+        "pilot-goals",
+        "pilot-program"
+      ]
+    },
+    {
+      "id": "ch20-q007",
+      "number": 7,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Academic Integrity",
+      "tags": [
+        "academic-integrity",
+        "assessment-redesign"
+      ]
+    },
+    {
+      "id": "ch20-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Learning Guide",
+      "tags": [
+        "learning-guide",
+        "changing-teacher-role",
+        "teacher-as-coach"
+      ]
+    },
+    {
+      "id": "ch20-q009",
+      "number": 9,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Equity of Access",
+      "tags": [
+        "equity-of-access"
+      ]
+    },
+    {
+      "id": "ch20-q010",
+      "number": 10,
+      "correct_answer": "B",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concept_tested": "Pilot Program",
+      "tags": [
+        "pilot-program",
+        "ai-first-school",
+        "school-readiness-assessment"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 26,
+  "chapter_concepts_tested": 10
+}

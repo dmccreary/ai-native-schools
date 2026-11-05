@@ -128,11 +128,36 @@ The last row of the example in the worked table, "if one bottle cost \$1.33, wha
     ![Indigo giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     Test any AI tutor with three probes: ask a homework question and read only the first reply, state a wrong answer firmly and see whether it corrects you, and ask it to write something you're supposed to write. If it fails any of the three, it isn't ready for students.
 
+#### Diagram: Answer Machine vs. Thinking Tutor
+
+<iframe src="../../sims/answer-machine-vs-thinking-tutor/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the Answer Machine vs. Thinking Tutor MicroSim Fullscreen](../../sims/answer-machine-vs-thinking-tutor/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>Answer Machine vs. Thinking Tutor</summary>
+Type: infographic overlay (grid)
+**sim-id:** answer-machine-vs-thinking-tutor<br/>
+**Library:** grid-diagram.js (shared grid overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** compare<br/>
+**Learning Objective:** The learner will compare an open AI chatbot with a guided AI tutor answering the same homework question, and explain how guardrails change what the student is left with.
+
+**Visual:** An interactive grid infographic of the same homework question handled two ways: an open chatbot that gives the answer and leaves the student with nothing to do, and a guided AI tutor that gives hints and leaves the student doing the thinking, with the guardrails that make the difference. The image has no text; 6 rectangular zones supply every label.
+
+**Modes:** Explore (hover or click for a description) and Quiz.
+</details>
+
 ### Worked Example: Judging Tutor Designs Against Five Guardrails
 
 A school is comparing six AI tutors. A useful rule checks five guardrails: **G1** hints instead of answers; **G2** grounded in the course's content; **G3** math and facts checked by a trusted tool; **G4** logs teachers can review; **G5** age and topic limits. The first is essential, because it is the property that separated help from harm in the Turkish study. The rule is: a tutor with no G1 is likely to harm learning, whatever else it has; a tutor with G1 and at least four of the five in all is likely to help; a tutor with G1 and fewer than four is a mixed case that needs more guardrails.
 
 #### Diagram: AI Tutor Design Judge
+
+<iframe src="../../sims/ai-tutor-design-judge/main.html" height="748px" width="100%" scrolling="no"></iframe>
+
+[Run the AI Tutor Design Judge MicroSim Fullscreen](../../sims/ai-tutor-design-judge/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>AI Tutor Design Judge</summary>
@@ -221,6 +246,10 @@ The four parts of computational thinking, introduced in Chapter 11, are each wor
 
 #### Diagram: Four Thinking Skills Sorter
 
+<iframe src="../../sims/four-thinking-skills-sorter/main.html" height="622px" width="100%" scrolling="no"></iframe>
+
+[Run the Four Thinking Skills Sorter MicroSim Fullscreen](../../sims/four-thinking-skills-sorter/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Four Thinking Skills Sorter</summary>
 Type: microsim
@@ -303,6 +332,10 @@ The rule in Chapter 8, "four of the last five," turns out to be lenient. Suppose
 Read the table across: a stricter rule is better at refusing the 70-percent student and worse at passing the 90-percent one. A "10 of 10" rule rarely passes a weak student, but it holds back a student who really knows the material and has an off day: the 90-percent student passes only about 35 percent of the time. There is no perfect rule, only a choice that fits the cost of each error. For a prerequisite that many later concepts depend on, a stricter rule is wise. For a low-stakes review, a lenient one is fine.
 
 #### Diagram: Mastery Threshold Chooser
+
+<iframe src="../../sims/mastery-threshold-chooser/main.html" height="656px" width="100%" scrolling="no"></iframe>
+
+[Run the Mastery Threshold Chooser MicroSim Fullscreen](../../sims/mastery-threshold-chooser/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Mastery Threshold Chooser</summary>
@@ -447,3 +480,5 @@ The story has both sides. The benefit: a tutor that is available at 8 p.m., pati
 !!! mascot-celebration "You can tell whether a tutor helps or harms"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned the guardrails that separate a helpful AI tutor from a harmful one, how to test a tutor in two minutes, and how most of the adaptation can run on stored records and simple rules. That completes the morning half of the book. Chapter 13 begins the afternoon: how students learn from and with each other. One step at a time, together.
+
+[See Annotated References](./references.md)

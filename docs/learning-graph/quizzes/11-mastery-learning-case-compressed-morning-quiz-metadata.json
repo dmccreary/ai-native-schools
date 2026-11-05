@@ -1,0 +1,136 @@
+{
+  "chapter": "Mastery Learning and the Case for a Compressed Morning",
+  "chapter_file": "docs/chapters/11-mastery-learning-case-compressed-morning/index.md",
+  "quiz_file": "docs/chapters/11-mastery-learning-case-compressed-morning/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch11-q001",
+      "number": 1,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Mastery Learning",
+      "tags": [
+        "mastery-learning",
+        "seat-time"
+      ]
+    },
+    {
+      "id": "ch11-q002",
+      "number": 2,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "medium",
+      "concept_tested": "Bloom's Two-Sigma Problem",
+      "tags": [
+        "blooms-two-sigma-problem",
+        "one-on-one-tutoring",
+        "effect-size"
+      ]
+    },
+    {
+      "id": "ch11-q003",
+      "number": 3,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "AI Tutor",
+      "tags": [
+        "ai-tutor",
+        "hint-first-design"
+      ]
+    },
+    {
+      "id": "ch11-q004",
+      "number": 4,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Freed-Up School Time",
+      "tags": [
+        "freed-up-school-time",
+        "compressed-academic-morning"
+      ]
+    },
+    {
+      "id": "ch11-q005",
+      "number": 5,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Reduced Direct Instruction",
+      "tags": [
+        "reduced-direct-instruction",
+        "mastery-learning"
+      ]
+    },
+    {
+      "id": "ch11-q006",
+      "number": 6,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Adaptive Learning",
+      "tags": [
+        "adaptive-learning",
+        "mastery-data"
+      ]
+    },
+    {
+      "id": "ch11-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Cognitive Offloading",
+      "tags": [
+        "cognitive-offloading",
+        "productive-struggle"
+      ]
+    },
+    {
+      "id": "ch11-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Argument Analysis",
+      "tags": [
+        "argument-analysis",
+        "critical-thinking",
+        "evidence-evaluation"
+      ]
+    },
+    {
+      "id": "ch11-q009",
+      "number": 9,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Personalized Pacing",
+      "tags": [
+        "personalized-pacing",
+        "gap-filling",
+        "equity"
+      ]
+    },
+    {
+      "id": "ch11-q010",
+      "number": 10,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Compressed Academic Morning",
+      "tags": [
+        "compressed-academic-morning",
+        "academic-morning",
+        "instructional-time"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 16,
+  "chapter_concepts_tested": 10
+}

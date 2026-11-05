@@ -1,0 +1,84 @@
+{
+  "title": "Vendor Scorecard",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate the weighted scores of two vendors and apply the knockout rule to decide which vendor may proceed.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Vendor Scorecard",
+    "learningObjectives": [
+      "The learner will calculate the weighted scores of two vendors from criterion scores and weights, and apply the knockout rule to decide which vendor may proceed, correctly answering three of three questions."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Procurement criteria, vendor evaluation, weighted scoring, and the knockout rule, from the section \"Procurement and Vendor Evaluation\" in Chapter 20."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 660
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit answers before the results unlock, then explore the inputs",
+    "keyQuestions": [
+      "What is each vendor's weighted score?",
+      "Does either vendor fail a knockout criterion?"
+    ],
+    "commonMisconceptions": [
+      "The highest total score always wins.",
+      "A weak score on one criterion can be offset by strong scores elsewhere.",
+      "Weights are the same as scores."
+    ],
+    "assessmentOpportunities": [
+      "Vendor A totals 75 and Vendor B 74. Does Vendor A win?",
+      "Can a weak privacy score be offset by strong scores elsewhere?",
+      "What is the weighted value of a score of 4 on a criterion with weight 15?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Answer box or menu, and Check",
+      "type": "select",
+      "description": "Type a number, or choose a vendor for Question 3. Two tries per question."
+    },
+    {
+      "name": "Next question / See the results",
+      "type": "button",
+      "description": "Moves on after a question is finished."
+    },
+    {
+      "name": "Fourteen score menus",
+      "type": "select",
+      "description": "Each vendor's score from 1 to 5 on each criterion. They unlock after the questions."
+    },
+    {
+      "name": "Defaults",
+      "type": "button",
+      "description": "Puts the scores back to their starting values."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Returns to Question 1 and locks the menus."
+    }
+  ],
+  "chapter": "20-designing-ai-native-school-day"
+}

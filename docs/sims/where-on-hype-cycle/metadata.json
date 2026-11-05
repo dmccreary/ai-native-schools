@@ -1,0 +1,85 @@
+{
+  "title": "Where Is It on the Hype Cycle?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Place eight events from the history of educational technology on the five stages of the hype cycle.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Where Is It on the Hype Cycle?",
+    "learningObjectives": [
+      "The learner will classify eight events in the history of educational technology by the stage of the hype cycle they illustrate, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The five stages of the hype cycle and EdTech hype waves, from the section \"The Hype Cycle and Educational Technology\" in Chapter 15."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 644
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "A district announces a plan to give every student a tablet. Which stage?",
+      "Does the trough mean a technology has failed?"
+    ],
+    "commonMisconceptions": [
+      "The trough means a technology has failed",
+      "The peak is when a technology is most useful",
+      "Every technology follows the cycle exactly"
+    ],
+    "assessmentOpportunities": [
+      "A district announces a plan to give every student a tablet. Which stage?",
+      "Does the trough mean a technology has failed?",
+      "Randomized studies show which uses of an AI tutor help and which harm. Which stage?",
+      "Is the peak the moment a technology is most useful?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "5 choice buttons",
+      "type": "button",
+      "description": "Choose one of the stages; two tries per event."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Opens a table of the stages and their meanings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves on after the feedback."
+    },
+    {
+      "name": "Previous missed, Next missed",
+      "type": "button",
+      "description": "On the results screen, page through the missed items."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the items for a practice run."
+    }
+  ],
+  "chapter": "15-technology-adoption-diffusion-innovation"
+}

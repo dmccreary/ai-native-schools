@@ -1,0 +1,132 @@
+{
+  "chapter": "Learning Graphs, Interoperability Standards, and Access at Scale",
+  "chapter_file": "docs/chapters/09-learning-graphs-interoperability/index.md",
+  "quiz_file": "docs/chapters/09-learning-graphs-interoperability/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch09-q001",
+      "number": 1,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Foundational Concept",
+      "tags": [
+        "foundational-concept",
+        "concept-node"
+      ]
+    },
+    {
+      "id": "ch09-q002",
+      "number": 2,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Directed Acyclic Graph",
+      "tags": [
+        "directed-acyclic-graph",
+        "learning-path"
+      ]
+    },
+    {
+      "id": "ch09-q003",
+      "number": 3,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "IEEE Learning Standards",
+      "tags": [
+        "ieee-learning-standards",
+        "xapi"
+      ]
+    },
+    {
+      "id": "ch09-q004",
+      "number": 4,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "IMS Global Standards",
+      "tags": [
+        "ims-global-standards",
+        "lti"
+      ]
+    },
+    {
+      "id": "ch09-q005",
+      "number": 5,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Generate Once Serve Many",
+      "tags": [
+        "generate-once-serve-many",
+        "web-page-hosting"
+      ]
+    },
+    {
+      "id": "ch09-q006",
+      "number": 6,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Offline Access",
+      "tags": [
+        "offline-access",
+        "five-level-model"
+      ]
+    },
+    {
+      "id": "ch09-q007",
+      "number": 7,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Internet Connectivity",
+      "tags": [
+        "internet-connectivity",
+        "bandwidth"
+      ]
+    },
+    {
+      "id": "ch09-q008",
+      "number": 8,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Student Progress Dashboard",
+      "tags": [
+        "student-progress-dashboard"
+      ]
+    },
+    {
+      "id": "ch09-q009",
+      "number": 9,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Browser-Based Simulation",
+      "tags": [
+        "browser-based-simulation",
+        "device-access",
+        "equity"
+      ]
+    },
+    {
+      "id": "ch09-q010",
+      "number": 10,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Interoperability Standards",
+      "tags": [
+        "interoperability-standards",
+        "lock-in"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 15,
+  "chapter_concepts_tested": 10
+}

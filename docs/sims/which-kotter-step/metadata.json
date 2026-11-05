@@ -1,0 +1,85 @@
+{
+  "title": "Which Kotter Step Is This?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify eight leadership actions from one school's change effort by the Kotter step each carries out.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Which Kotter Step Is This?",
+    "learningObjectives": [
+      "The learner will classify eight leadership actions by the Kotter step each carries out, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Kotter's eight steps, from the section \"Kotter: From Urgency to Anchoring\" in Chapter 17."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 700
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "The vision is repeated at every staff meeting, in newsletters, and at family nights. Which step?",
+      "The district fixes the login problem that blocked teachers. Which step?"
+    ],
+    "commonMisconceptions": [
+      "Steps can be done in any order",
+      "Communicating the vision is a single announcement",
+      "A win means the change is finished"
+    ],
+    "assessmentOpportunities": [
+      "The vision is repeated at every staff meeting, in newsletters, and at family nights. Which step?",
+      "The district fixes the login problem that blocked teachers. Which step?",
+      "Does a short-term win mean the change is finished?",
+      "Is communicating the vision a single announcement?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "8 choice buttons",
+      "type": "button",
+      "description": "Choose one of the steps; two tries per action."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Opens a table of the steps and their meanings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves on after the feedback."
+    },
+    {
+      "name": "Previous missed, Next missed",
+      "type": "button",
+      "description": "On the results screen, page through the missed items."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the items for a practice run."
+    }
+  ],
+  "chapter": "17-leading-change-vision-culture"
+}

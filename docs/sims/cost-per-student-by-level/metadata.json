@@ -1,0 +1,89 @@
+{
+  "title": "Cost per Student by Level",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate the yearly cost per student and the district cost for Level 2, 3, and 4 textbooks from itemized costs, then explore AI usage, token price, and devices.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Total cost of ownership by textbook level",
+    "learningObjectives": [
+      "The learner will calculate the yearly cost per student and the district cost for Level 2, Level 3, and Level 4 textbooks from itemized costs, to within one cent per student, in three of three challenges."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "15 minutes",
+    "prerequisites": [
+      "Cost per student, cost modeling, total cost of ownership, and the cost items for each level, from the section \"Putting a Cost on Each Level\" in Chapter 7."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 690
+    },
+    "canvasHeight": 690,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit three calculations before the controls unlock, then explore the cost structure",
+    "keyQuestions": [
+      "Which items does each level add?",
+      "How large is the device share next to the software items?"
+    ],
+    "commonMisconceptions": [
+      "Software price is the main cost of a digital textbook",
+      "A free textbook has no cost",
+      "Higher levels always cost far more"
+    ],
+    "assessmentOpportunities": [
+      "What does Level 3 cost per student per year without a device?",
+      "Level 4 at 3.6 million tokens and $2.00 per million?",
+      "Is a free textbook free to run?",
+      "Is software the main cost of a digital textbook?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Your answer box and Check",
+      "description": "type a dollar amount and press Check (or Enter). Two attempts per challenge; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves on; after challenge 3 it unlocks the controls."
+    },
+    {
+      "name": "Tokens per session, Sessions per day, School days",
+      "description": "sliders for AI usage at Level 4."
+    },
+    {
+      "name": "Price per million tokens",
+      "description": "menu of $0.07, $0.20, $2.00, and $20.00."
+    },
+    {
+      "name": "Students",
+      "description": "slider from 100 to 20,000."
+    },
+    {
+      "name": "Device purchased",
+      "description": "checkbox that adds $75.00 per student per year at every level."
+    },
+    {
+      "name": "Redo challenges and Defaults",
+      "description": "start the challenges again, or reset the controls."
+    }
+  ],
+  "chapter": "07-content-economics-open-educational"
+}

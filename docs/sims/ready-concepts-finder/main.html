@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Ready Concepts Finder</title>
+    <script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@9.1.9/styles/vis-network.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="app">
+        <h1 id="title">Ready Concepts Finder</h1>
+        <div id="sub">Sixteen concepts from this book's learning graph. An arrow points from a concept to a prerequisite.</div>
+        <div id="graphWrap">
+            <div id="network"></div>
+            <div id="legend">
+                <span><i class="sw known"></i>Mastered</span>
+                <span><i class="sw open"></i>Not mastered</span>
+                <span><i class="sw sel"></i>Your pick</span>
+                <span><i class="sw ready"></i>Ready (answer)</span>
+            </div>
+        </div>
+        <div id="panel">
+            <div class="row"><span id="pnum">Problem 1 of 6</span><b id="pscore">First-try correct: 0 of 6</b></div>
+            <div id="prompt">Which concepts could this student start on?</div>
+            <div id="mastered"></div>
+            <div id="info">Click a concept to pick or unpick it and see its prerequisites. Ready = not mastered, and every direct prerequisite mastered.</div>
+            <div class="row left">
+                <button id="submit" class="go">Submit</button>
+                <button id="clear">Clear picks</button>
+                <button id="next" disabled>Next</button>
+                <button id="again" hidden>Try again</button>
+            </div>
+            <div id="feedback"></div>
+        </div>
+    </main>
+    <script src="ready-concepts-finder.js"></script>
+    <br/>
+    <a href=".">Back to Lesson Plan</a>
+</body>
+</html>

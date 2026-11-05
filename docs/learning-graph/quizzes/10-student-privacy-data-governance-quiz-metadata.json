@@ -1,0 +1,134 @@
+{
+  "chapter": "Student Privacy and Data Governance",
+  "chapter_file": "docs/chapters/10-student-privacy-data-governance/index.md",
+  "quiz_file": "docs/chapters/10-student-privacy-data-governance/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch10-q001",
+      "number": 1,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "COPPA",
+      "tags": [
+        "coppa",
+        "informed-consent"
+      ]
+    },
+    {
+      "id": "ch10-q002",
+      "number": 2,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Personally Identifiable Data",
+      "tags": [
+        "personally-identifiable-data",
+        "student-data-privacy"
+      ]
+    },
+    {
+      "id": "ch10-q003",
+      "number": 3,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Algorithmic Bias Auditing",
+      "tags": [
+        "algorithmic-bias-auditing",
+        "algorithmic-bias",
+        "four-fifths-rule"
+      ]
+    },
+    {
+      "id": "ch10-q004",
+      "number": 4,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Governance Readiness",
+      "tags": [
+        "governance-readiness",
+        "data-governance"
+      ]
+    },
+    {
+      "id": "ch10-q005",
+      "number": 5,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "FERPA",
+      "tags": [
+        "ferpa",
+        "vendor-risk"
+      ]
+    },
+    {
+      "id": "ch10-q006",
+      "number": 6,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Data Minimization",
+      "tags": [
+        "data-minimization",
+        "data-governance"
+      ]
+    },
+    {
+      "id": "ch10-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Centralized Student Records",
+      "tags": [
+        "centralized-student-records",
+        "data-breach",
+        "family-trust"
+      ]
+    },
+    {
+      "id": "ch10-q008",
+      "number": 8,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Behavioral Data",
+      "tags": [
+        "behavioral-data",
+        "data-minimization"
+      ]
+    },
+    {
+      "id": "ch10-q009",
+      "number": 9,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Algorithmic Transparency",
+      "tags": [
+        "algorithmic-transparency"
+      ]
+    },
+    {
+      "id": "ch10-q010",
+      "number": 10,
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Trust Paradox",
+      "tags": [
+        "trust-paradox",
+        "family-trust",
+        "data-retention-policy"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 26,
+  "chapter_concepts_tested": 10
+}

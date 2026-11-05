@@ -1,0 +1,83 @@
+{
+  "title": "Rider, Elephant, or Path?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify nine change tactics as directing the rider, motivating the elephant, or shaping the path, the three parts of the Switch framework.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Rider, Elephant, or Path?",
+    "learningObjectives": [
+      "The learner will classify nine change tactics as directing the rider, motivating the elephant, or shaping the path, correctly placing at least eight of nine on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The Switch framework, direct the rider, motivate the elephant, shape the path, and the nine tactics, from the section \"The Switch Framework\" in Chapter 19."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 382
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify one item at a time with immediate feedback; first-attempt scoring",
+    "keyQuestions": [
+      "Is the tactic aimed at the thinking mind, the feeling mind, or the situation?"
+    ],
+    "commonMisconceptions": [
+      "Giving people information is always enough.",
+      "Emotion is an obstacle to change.",
+      "Changing the environment is not really leading."
+    ],
+    "assessmentOpportunities": [
+      "\"Fix the single sign-on so the login works on the first try.\" Which part does it serve?",
+      "Is a vivid picture of the destination aimed at feelings?",
+      "Why is shaping the path still leadership?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Category buttons",
+      "type": "button",
+      "description": "Choose the part for the current tactic."
+    },
+    {
+      "name": "Submit",
+      "type": "button",
+      "description": "Checks the choice. Two tries per tactic; only the first counts."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next tactic. Finish shows the score."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Reshuffles and begins a new run."
+    },
+    {
+      "name": "Show definitions",
+      "type": "checkbox",
+      "description": "Shows the definitions."
+    }
+  ],
+  "chapter": "19-microstrategies-leading-change"
+}

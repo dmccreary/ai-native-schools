@@ -106,7 +106,34 @@ A useful organizing model for microstrategies comes from Chip and Dan Heath's 20
 
 The most important lesson of the framework is diagnostic. When a change stalls, ask which of the three is the problem. A teacher who "doesn't know what to do" needs a rider fix, a teacher who "knows but doesn't care" needs an elephant fix, and a teacher who "wants to, but the login keeps failing" needs a path fix. More of the wrong kind of help does nothing.
 
+#### Diagram: The Rider, the Elephant and the Path
+
+<iframe src="../../sims/rider-elephant-path-overlay/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the The Rider, the Elephant and the Path MicroSim Fullscreen](../../sims/rider-elephant-path-overlay/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>The Rider, the Elephant and the Path</summary>
+Type: infographic overlay (callout)
+**sim-id:** rider-elephant-path-overlay<br/>
+**Library:** diagram.js (shared callout overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Remember, Understand<br/>
+**Bloom Verb:** locate, explain<br/>
+**Learning Objective:** The learner will locate the nine moves of the Switch framework on a picture of the rider, the elephant and the path, and explain why a change stalls when only one of the three parts is addressed.
+
+**Visual:** a tired elephant with a small rider holding a map and a script, a heart and a small stone in front of it, a badge on its harness, a fenced path with a worn groove, a blank signpost, a herd walking ahead, a glowing bright spot and a school on a far hilltop. The image has no text; 10 numbered callouts supply every label.
+
+**Modes:** Explore (hover for a description and tip) and Quiz (click the named part).
+
+**Story balance:** the moves are small and cheap (benefit), but a clear rider on an unmotivated elephant stalls (risk); the response is to address all three parts.
+</details>
+
 #### Diagram: Rider, Elephant, or Path?
+
+<iframe src="../../sims/rider-elephant-path/main.html" height="386px" width="100%" scrolling="no"></iframe>
+
+[Run the Rider, Elephant, or Path? MicroSim Fullscreen](../../sims/rider-elephant-path/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Rider, Elephant, or Path?</summary>
@@ -272,6 +299,10 @@ Most of the chapter so far lists tools. This section is about choosing among the
 
 #### Diagram: Choose the Microstrategy
 
+<iframe src="../../sims/choose-the-microstrategy/main.html" height="628px" width="100%" scrolling="no"></iframe>
+
+[Run the Choose the Microstrategy MicroSim Fullscreen](../../sims/choose-the-microstrategy/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Choose the Microstrategy</summary>
 Type: microsim
@@ -366,6 +397,10 @@ A teacher says, "I'm afraid this means my job won't exist in five years."
 | "That's a real worry, and it makes sense. Here is what the plan assumes about teachers' roles, and what we can and can't promise. What would you want in writing?" | Empathic and substantive | Acknowledges, informs, and asks |
 
 #### Diagram: Empathy or Not?
+
+<iframe src="../../sims/empathy-or-not/main.html" height="448px" width="100%" scrolling="no"></iframe>
+
+[Run the Empathy or Not? MicroSim Fullscreen](../../sims/empathy-or-not/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Empathy or Not?</summary>
@@ -499,3 +534,5 @@ The story has both sides. The benefit: moves small enough to start tomorrow and 
 !!! mascot-celebration "You can name your Monday move"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned the small, concrete moves that carry a change, how to match each move to the person in front of you, and how to treat resistance as information. That completes Part 4 on culture and change. Chapter 20 puts it all together in the design of an AI-native school day. One step at a time, together.
+
+[See Annotated References](./references.md)

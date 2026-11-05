@@ -1,0 +1,129 @@
+{
+  "title": "Kotter's Eight Steps as a Mountain Trail",
+  "orientation": "landscape",
+  "image": "kotter-mountain-trail.svg",
+  "layout": "dual-panel",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 7,
+      "label": "Building on change",
+      "x": 49.4,
+      "y": 26.5,
+      "radius": 4,
+      "color": "#9B59B6",
+      "panel": "left",
+      "hint": "A wide camp high on the mountain with a whole row of colored tents.",
+      "description": "Building on change is using the credibility from early wins to take on bigger problems, instead of declaring victory too soon. The camp is wider than the ones below it because more people have joined the climb. Each success makes the next, larger step believable.",
+      "tip": "Lincoln used its pilot results to add two more grades and a second school, with the first pilot serving as a reference."
+    },
+    {
+      "id": 5,
+      "label": "Removing obstacles",
+      "x": 41.6,
+      "y": 47.5,
+      "radius": 4,
+      "color": "#27AE60",
+      "panel": "left",
+      "hint": "Fallen logs lying across the trail, with a climber pushing one of them aside.",
+      "description": "Removing obstacles is clearing the barriers in structures, systems and skills that stand between people and the change. A bell schedule, a contract term, a broken login or an undermining supervisor can block a willing teacher. Lewin's lesson applies here: removing a barrier works better than pushing people over it.",
+      "tip": "Lincoln fixed logins, adjusted the bell schedule for the pilot and lent devices, and its team keeps a list of obstacles it resolves each month."
+    },
+    {
+      "id": 3,
+      "label": "Change vision",
+      "x": 36.2,
+      "y": 62.5,
+      "radius": 4,
+      "color": "#E67E22",
+      "panel": "left",
+      "hint": "A climber standing beside a telescope on a tripod, aimed up at the summit.",
+      "description": "A change vision is a clear, compelling picture of the future the change is meant to create, simple enough to explain in a few minutes. A good vision says what will be different for students and why it is worth the difficulty. The telescope points at the summit so everyone knows where the trail is going.",
+      "tip": "Lincoln's vision fits in one sentence: \"Mornings with AI, afternoons with each other.\""
+    },
+    {
+      "id": 9,
+      "label": "Risk: skipping steps",
+      "x": 22.2,
+      "y": 73.5,
+      "radius": 4,
+      "color": "#E74C3C",
+      "panel": "left",
+      "hint": "A dark, steep chute down the left side of the mountain with a climber tumbling down it.",
+      "description": "The gully looks like a shortcut, but a climber who leaves the trail slides back to the bottom. Kotter found that organizations often skipped early steps, such as building urgency, in their hurry to reach later ones, and the skipped steps came back to cause failure. A vision announced without urgency is ignored, and a vision with no coalition has no one to carry it.",
+      "tip": "The response is to follow the order of work: check for urgency, a coalition and a shared vision before asking teachers to change their mornings."
+    },
+    {
+      "id": 1,
+      "label": "Sense of urgency",
+      "x": 29.4,
+      "y": 76.9,
+      "radius": 4,
+      "color": "#C0392B",
+      "panel": "left",
+      "hint": "A red flare burning on a pole at the base camp, next to an orange tent.",
+      "description": "A sense of urgency is the shared belief, among enough people, that change is needed now and that staying the same is riskier than changing. Urgency is not panic: it comes from facing real facts. Without it, nobody has a reason to start the hard climb.",
+      "tip": "Lincoln shared the data that only 13 of 28 students are in reach of a single lesson, and the staff discussed the learning-gap chart together."
+    },
+    {
+      "id": 8,
+      "label": "Anchoring in culture",
+      "x": 55.0,
+      "y": 7.8,
+      "radius": 4,
+      "color": "#34495E",
+      "panel": "right",
+      "hint": "A tall, finished stack of stones standing on the highest point of the mountain.",
+      "description": "Anchoring in culture is making the new way of working part of \"the way we do things here.\" The change is written into hiring, orientation, evaluation, schedules and stories, so it survives the departure of its champions. Lewin called the same idea refreezing: a change has not happened until it is the normal way of working.",
+      "tip": "Lincoln wrote the model into hiring, orientation and the calendar, and new teachers are shown the pilot in their first week."
+    },
+    {
+      "id": 6,
+      "label": "Short-term wins",
+      "x": 65.6,
+      "y": 35.0,
+      "radius": 4,
+      "color": "#2ECC71",
+      "panel": "right",
+      "hint": "A small green flag planted on a ledge, with a climber cheering beside it.",
+      "description": "Short-term wins are visible, unambiguous successes achieved early, which show that the effort is working and build momentum. They need to be real, visible and clearly linked to the change. A pilot classroom's gains, a student exhibition or a teacher's saved evening all count.",
+      "tip": "Lincoln shared its pilot gains and held a student exhibition and a celebration night for families at eight weeks."
+    },
+    {
+      "id": 10,
+      "label": "Risk: declaring victory too soon",
+      "x": 81.2,
+      "y": 35.6,
+      "radius": 4,
+      "color": "#E74C3C",
+      "panel": "right",
+      "hint": "A lower peak off to the right with a stack of only two stones, loose stones nearby, and a climber celebrating.",
+      "description": "From the false summit the climb looks finished, but the real summit is still higher. Kotter treated premature victory as one of the most common mistakes: leaders celebrate a good pilot as if the change were done, move their attention elsewhere, and old habits return. The half-built cairn stands for a change that was never anchored.",
+      "tip": "The response is to treat a win as a reason to keep climbing, and to keep going until the new way is in hiring, scheduling and how new teachers are welcomed."
+    },
+    {
+      "id": 4,
+      "label": "Communicating the vision",
+      "x": 66.2,
+      "y": 52.5,
+      "radius": 4,
+      "color": "#3498DB",
+      "panel": "right",
+      "hint": "A climber waving two square flags beside a tall pole with a column of colored pennants.",
+      "description": "Communicating the vision is repeating it through every channel, in actions as well as words, far more often than seems necessary. People hear the vision through the noise of their own concerns. Kotter observed that leaders typically under-communicate by a large factor.",
+      "tip": "Lincoln repeats its vision at every meeting and family night, and the principal's weekly note includes one line on progress."
+    },
+    {
+      "id": 2,
+      "label": "Guiding coalition",
+      "x": 63.7,
+      "y": 76.2,
+      "radius": 4,
+      "color": "#16A085",
+      "panel": "right",
+      "hint": "Four climbers in different colors tied together by a yellow rope.",
+      "description": "A guiding coalition is a group with enough power, credibility, expertise and trust to lead the change. In a school it should include the principal, respected teachers, a union representative, a family representative and technical staff, including voices that are skeptical. A coalition made only of enthusiasts will not be believed by the rest.",
+      "tip": "Lincoln recruited a veteran teacher, a union representative, a parent and the technology director into a team of seven that meets weekly."
+    }
+  ]
+}

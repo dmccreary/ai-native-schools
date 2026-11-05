@@ -1,0 +1,83 @@
+{
+  "title": "Bloom Level Task Sorter",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Sort twelve classroom tasks into the six levels of the revised Bloom's Taxonomy, with a hint and a second try for each task.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Bloom's Taxonomy levels",
+    "learningObjectives": [
+      "The learner will classify twelve classroom tasks into the six levels of the 2001 revised Bloom's Taxonomy, correctly placing at least ten of twelve on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The six levels of Bloom's Taxonomy and the meaning of higher-order thinking, from Chapter 1."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 764
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Classify, commit an answer, and read the reason",
+    "keyQuestions": [
+      "What kind of thinking does this task ask for?",
+      "Does the verb alone decide the level?"
+    ],
+    "commonMisconceptions": [
+      "The verb alone decides the level",
+      "Harder or longer tasks are always at higher levels",
+      "Writing anything is automatically Create"
+    ],
+    "assessmentOpportunities": [
+      "Why are \"explain why ice floats\" and \"compare two accounts\" at different levels?",
+      "Is every writing task Create?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Six level buttons",
+      "type": "button",
+      "description": "Choose Remember, Understand, Apply, Analyze, Evaluate, or Create for the current task."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Shows or hides the one-line definition of each level."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next task after feedback."
+    },
+    {
+      "name": "Previous missed and Next missed",
+      "type": "button",
+      "description": "On the results screen, step through the tasks you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the tasks for a practice run."
+    }
+  ],
+  "chapter": "01-building-blocks-schools-students"
+}

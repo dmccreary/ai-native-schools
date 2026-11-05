@@ -293,6 +293,10 @@ A unit that contained only the first two rows would be easy to teach and test. I
 
 #### Diagram: Bloom Level Task Sorter
 
+<iframe src="../../sims/bloom-level-task-sorter/main.html" height="768px" width="100%" scrolling="no"></iframe>
+
+[Run the Bloom Level Task Sorter MicroSim Fullscreen](../../sims/bloom-level-task-sorter/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Bloom Level Task Sorter</summary>
 Type: microsim
@@ -395,6 +399,10 @@ This is a well-designed lesson. Yet for Maya, step 2 already assumes fraction di
 The sim below asks you to estimate how a full day of minutes like these adds up.
 
 #### Diagram: Where the Minutes Go in a Traditional School Day
+
+<iframe src="../../sims/school-day-minute-map/main.html" height="704px" width="100%" scrolling="no"></iframe>
+
+[Run the Where the Minutes Go in a Traditional School Day MicroSim Fullscreen](../../sims/school-day-minute-map/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Where the Minutes Go in a Traditional School Day</summary>
@@ -501,6 +509,10 @@ Suppose a lesson is "in reach" for a student if it sits at their readiness level
 Fewer than half of the class, 13 of 28, is in the zone where this lesson can produce learning. Moving the pitch does not fix it, as the next sim lets you confirm: no single pitch reaches more than 13 of these 28 students.
 
 #### Diagram: One Lesson, Many Readiness Levels
+
+<iframe src="../../sims/one-lesson-many-readiness-levels/main.html" height="812px" width="100%" scrolling="no"></iframe>
+
+[Run the One Lesson, Many Readiness Levels MicroSim Fullscreen](../../sims/one-lesson-many-readiness-levels/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>One Lesson, Many Readiness Levels</summary>
@@ -674,6 +686,10 @@ The total study time is the same in all three plans. Only the timing and the met
 
 #### Diagram: Spacing and Retrieval Retention Explorer
 
+<iframe src="../../sims/spacing-retrieval-retention-explorer/main.html" height="664px" width="100%" scrolling="no"></iframe>
+
+[Run the Spacing and Retrieval Retention Explorer MicroSim Fullscreen](../../sims/spacing-retrieval-retention-explorer/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Spacing and Retrieval Retention Explorer</summary>
 Type: chart
@@ -829,6 +845,10 @@ This structure has a name in this book: a **learning graph**, a map of concepts 
 
 #### Diagram: Building Blocks Concept Map
 
+<iframe src="../../sims/building-blocks-concept-map/main.html" height="724px" width="100%" scrolling="no"></iframe>
+
+[Run the Building Blocks Concept Map MicroSim Fullscreen](../../sims/building-blocks-concept-map/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Building Blocks Concept Map</summary>
 Type: graph-model
@@ -950,3 +970,5 @@ The vocabulary in this chapter describes a school system that works, often well,
 !!! mascot-celebration "You can now describe how a school works"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just built the vocabulary to describe a traditional school day from the per-pupil budget down to a single hinge question — and to spot exactly where one pace for 28 students leaves learning on the table. Chapter 2 asks who has a stake in changing that, and why. One step at a time, together.
+
+[See Annotated References](./references.md)

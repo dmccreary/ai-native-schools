@@ -1,0 +1,133 @@
+{
+  "chapter": "The Building Blocks of Schools, Students, and Learning",
+  "chapter_file": "docs/chapters/01-building-blocks-schools-students/index.md",
+  "quiz_file": "docs/chapters/01-building-blocks-schools-students/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "introductory",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch01-q001",
+      "number": 1,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Education",
+      "tags": [
+        "education",
+        "learning",
+        "performance"
+      ]
+    },
+    {
+      "id": "ch01-q002",
+      "number": 2,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Curriculum",
+      "tags": [
+        "curriculum",
+        "attained-curriculum"
+      ]
+    },
+    {
+      "id": "ch01-q003",
+      "number": 3,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Learning Outcome",
+      "tags": [
+        "learning-outcome",
+        "observable-verbs"
+      ]
+    },
+    {
+      "id": "ch01-q004",
+      "number": 4,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Higher-Order Thinking",
+      "tags": [
+        "higher-order-thinking",
+        "blooms-taxonomy"
+      ]
+    },
+    {
+      "id": "ch01-q005",
+      "number": 5,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Learning Gap",
+      "tags": [
+        "learning-gap",
+        "prerequisites"
+      ]
+    },
+    {
+      "id": "ch01-q006",
+      "number": 6,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Formative Assessment",
+      "tags": [
+        "formative-assessment",
+        "summative-assessment"
+      ]
+    },
+    {
+      "id": "ch01-q007",
+      "number": 7,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Student Agency",
+      "tags": [
+        "self-paced-learning",
+        "student-agency"
+      ]
+    },
+    {
+      "id": "ch01-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Retrieval Practice",
+      "tags": [
+        "spaced-practice",
+        "retrieval-practice"
+      ]
+    },
+    {
+      "id": "ch01-q009",
+      "number": 9,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Per-Pupil Spending",
+      "tags": [
+        "per-pupil-spending",
+        "current-spending"
+      ]
+    },
+    {
+      "id": "ch01-q010",
+      "number": 10,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Educational Technology",
+      "tags": [
+        "educational-technology",
+        "grammar-of-schooling"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 21,
+  "chapter_concepts_tested": 10
+}

@@ -207,6 +207,29 @@ A **beachhead strategy** is the choice to concentrate all effort on winning one 
 
 A **whole product** is the complete solution a pragmatist needs, including everything around the core product that makes it work in practice: the training, the integration with existing systems, the support, the instructions, and the answers to the worries about privacy and safety. Pragmatists do not buy a "technology"; they buy something that works on Monday morning. For a school, the whole product of a Level 2 textbook includes login and learning-management-system integration (Chapter 9), accessibility, teacher training, a plan for students without devices, and a family communication plan.
 
+#### Diagram: Crossing the Chasm
+
+<iframe src="../../sims/crossing-the-chasm-overlay/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the Crossing the Chasm MicroSim Fullscreen](../../sims/crossing-the-chasm-overlay/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>Crossing the Chasm</summary>
+Type: infographic overlay (callout)
+**sim-id:** crossing-the-chasm-overlay<br/>
+**Library:** diagram.js (shared callout overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Remember, Understand<br/>
+**Bloom Verb:** identify, explain<br/>
+**Learning Objective:** The learner will identify the five adopter groups, the chasm, the whole product and the beachhead on a picture of the adoption curve, and explain why an innovation can stall between early adopters and the early majority.
+
+**Visual:** the adoption bell curve drawn as a landscape. A deep canyon splits the ground between the early adopters and the early majority, and the far rim is higher than the near cliff. A half-built plank bridge (the whole product), a landing boat on a small beach (the beachhead), a row of bowling pins, two pragmatists talking (references), and a figure leaping off the unfinished bridge (crossing by hope). The image has no text; 13 numbered callouts supply every label.
+
+**Modes:** Explore (hover for a description and tip) and Quiz (click the named part). Mastery is finding 11 of 13 callouts in Quiz mode.
+
+**Story balance:** the leaping figure shows the risk of spreading a pilot unchanged; its callout names the response, which is to build the whole product and choose a beachhead first.
+</details>
+
 ### Worked Example: Lincoln's Chasm
 
 The district has about 64 teachers in the innovator and early-adopter groups, and Ms. Okafor's pilot reached six of them. Here is what the chasm looks like in her situation, and what crossing it means.
@@ -222,6 +245,10 @@ The district has about 64 teachers in the innovator and early-adopter groups, an
 The pilot was not wasted. It produced the reference stories of Ms. Rivera and a set of lessons about what the whole product must include. But expanding it unchanged to every school would be crossing the chasm by hope.
 
 #### Diagram: Choose the Move to Cross the Chasm
+
+<iframe src="../../sims/choose-chasm-crossing-move/main.html" height="572px" width="100%" scrolling="no"></iframe>
+
+[Run the Choose the Move to Cross the Chasm MicroSim Fullscreen](../../sims/choose-chasm-crossing-move/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Choose the Move to Cross the Chasm</summary>
@@ -296,6 +323,27 @@ The hype cycle is a useful description and not a scientific law. Academic review
 
 **EdTech hype waves** are the repeated cycles of hype and disappointment that educational technology has gone through, each with its own peak and trough. The history of Chapter 3 gave several: film in 1913, teaching machines in the 1950s, classroom computers in the 1980s, interactive whiteboards, and one-to-one tablets, such as the Los Angeles iPad rollout of 2013, which was cancelled after technical problems, weak curriculum, and a scandal over the contract. The most recent clear wave before AI was the massive open online course. The *New York Times* called 2012 "the year of the MOOC," and universities rushed to join. By 2013, the Udacity founder Sebastian Thrun was quoted saying that the product was "lousy" for many students, and completion rates for the free courses were often under ten percent. MOOCs did not vanish. They settled into a useful niche in professional and continuing education.
 
+#### Diagram: The EdTech Hype Cycle
+
+<iframe src="../../sims/edtech-hype-cycle-overlay/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the The EdTech Hype Cycle MicroSim Fullscreen](../../sims/edtech-hype-cycle-overlay/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>The EdTech Hype Cycle</summary>
+Type: infographic overlay (callout)
+**sim-id:** edtech-hype-cycle-overlay<br/>
+**Library:** diagram.js (shared callout overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** explain<br/>
+**Learning Objective:** The learner will explain the five stages of the hype cycle and, given a wave of educational technology, explain which stage its story illustrates and what a school should do at that stage. (Bloom level: Understand. Bloom verb: explain.)
+
+**Visual:** An interactive infographic of the hype cycle drawn as a landscape, with 11 callouts for the five stages and six waves of educational technology, from film in 1913 to generative AI. The image has no text; 11 numbered callouts supply every label.
+
+**Modes:** Explore (hover or click for a description) and Quiz.
+</details>
+
 ### Worked Example: Where Is Generative AI?
 
 The table places events in the story of generative AI in schools on the hype cycle. It is a reading of the evidence, and you should expect reasonable people to disagree about the exact stage.
@@ -315,6 +363,10 @@ The important implication for a school: if the hype cycle is a fair picture, the
     Notice what the trough of disillusionment really is: the moment when claims meet evidence. Some technologies fall out of use there, and others, like MOOCs, find their real job. A school that watches the trough closely learns what is genuinely useful, and learns it cheaply.
  
 #### Diagram: Where Is It on the Hype Cycle?
+
+<iframe src="../../sims/where-on-hype-cycle/main.html" height="648px" width="100%" scrolling="no"></iframe>
+
+[Run the Where Is It on the Hype Cycle? MicroSim Fullscreen](../../sims/where-on-hype-cycle/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Where Is It on the Hype Cycle?</summary>
@@ -407,6 +459,10 @@ Five teachers, five different attributes. The fix is therefore not a single push
 
 #### Diagram: Which Attribute Is the Barrier?
 
+<iframe src="../../sims/which-attribute-is-the-barrier/main.html" height="608px" width="100%" scrolling="no"></iframe>
+
+[Run the Which Attribute Is the Barrier? MicroSim Fullscreen](../../sims/which-attribute-is-the-barrier/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Which Attribute Is the Barrier?</summary>
 Type: microsim
@@ -496,3 +552,5 @@ The story has both sides. The benefit: a clear method for getting a good idea pa
 !!! mascot-celebration "You can say why a good idea stalls"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned how innovations spread, how to score them on five attributes, why they stall at the chasm, and how to ride the hype cycle without being thrown by it. Chapter 16 widens the lens from a technology to a whole organization and the models of how organizations change. One step at a time, together.
+
+[See Annotated References](./references.md)

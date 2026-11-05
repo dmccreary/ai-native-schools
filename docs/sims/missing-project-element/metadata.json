@@ -1,0 +1,85 @@
+{
+  "title": "Missing Project Element",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Find the one essential project element that each of six fictional project descriptions lacks.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Missing Project Element",
+    "learningObjectives": [
+      "The learner will attribute the weakness of each of six project descriptions to the one essential element it lacks, correctly attributing at least five of six on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The seven essential elements of a project, the driving question, and the public exhibition, from the section \"Projects\" in Chapter 14."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 644
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "Students build a model to a teacher's exact plans and show it at a fair. Which element is missing?",
+      "A project uses invented numbers from a worksheet but is otherwise strong. Which element is missing?"
+    ],
+    "commonMisconceptions": [
+      "A project that produces something is a good project",
+      "A hands-on activity has every element",
+      "Teacher-chosen topics are always acceptable"
+    ],
+    "assessmentOpportunities": [
+      "Students build a model to a teacher's exact plans and show it at a fair. Which element is missing?",
+      "A project uses invented numbers from a worksheet but is otherwise strong. Which element is missing?",
+      "Does producing a product make a project a good project?",
+      "Students present to the city council but never discuss what they learned. What is missing?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "6 choice buttons",
+      "type": "button",
+      "description": "Choose one of the elements; two tries per project."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Opens a table of the elements and their meanings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves on after the feedback."
+    },
+    {
+      "name": "Previous missed, Next missed",
+      "type": "button",
+      "description": "On the results screen, page through the missed items."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the items for a practice run."
+    }
+  ],
+  "chapter": "14-pro-social-afternoon"
+}

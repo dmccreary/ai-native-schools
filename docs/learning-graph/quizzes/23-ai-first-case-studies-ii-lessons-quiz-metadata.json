@@ -1,0 +1,135 @@
+{
+  "chapter": "AI-First Case Studies II: Lessons for Practice",
+  "chapter_file": "docs/chapters/23-ai-first-case-studies-ii-lessons/index.md",
+  "quiz_file": "docs/chapters/23-ai-first-case-studies-ii-lessons/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "advanced",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch23-q001",
+      "number": 1,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "LAUSD iPad Rollout",
+      "tags": [
+        "lausd-ipad-rollout",
+        "edtech-hype-waves"
+      ]
+    },
+    {
+      "id": "ch23-q002",
+      "number": 2,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Why School Reforms Fail",
+      "tags": [
+        "why-school-reforms-fail",
+        "altschool",
+        "inbloom"
+      ]
+    },
+    {
+      "id": "ch23-q003",
+      "number": 3,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Evaluating Result Claims",
+      "tags": [
+        "evaluating-result-claims",
+        "self-reported-results"
+      ]
+    },
+    {
+      "id": "ch23-q004",
+      "number": 4,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "AllHere Collapse",
+      "tags": [
+        "allhere-collapse",
+        "lausd-ed-chatbot",
+        "vendor-evaluation"
+      ]
+    },
+    {
+      "id": "ch23-q005",
+      "number": 5,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Affordable Alpha Model",
+      "tags": [
+        "affordable-alpha-model",
+        "cost-per-student"
+      ]
+    },
+    {
+      "id": "ch23-q006",
+      "number": 6,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Tutor CoPilot",
+      "tags": [
+        "tutor-copilot",
+        "ai-coaching-teachers"
+      ]
+    },
+    {
+      "id": "ch23-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Your Brain on ChatGPT",
+      "tags": [
+        "your-brain-on-chatgpt",
+        "preprint",
+        "evaluating-result-claims"
+      ]
+    },
+    {
+      "id": "ch23-q008",
+      "number": 8,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Affordable Alpha Model",
+      "tags": [
+        "affordable-alpha-model",
+        "alpha-tuition-range"
+      ]
+    },
+    {
+      "id": "ch23-q009",
+      "number": 9,
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Two-Sided Story",
+      "tags": [
+        "two-sided-story",
+        "risk-and-response-framework"
+      ]
+    },
+    {
+      "id": "ch23-q010",
+      "number": 10,
+      "correct_answer": "C",
+      "bloom_level": "Evaluate",
+      "difficulty": "hard",
+      "concept_tested": "School Board Recommendation",
+      "tags": [
+        "school-board-recommendation",
+        "evaluating-result-claims"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 23,
+  "chapter_concepts_tested": 9
+}

@@ -118,6 +118,10 @@ A coach who answers the first teacher with a lecture on student outcomes has ans
 
 #### Diagram: What Level of Use Is This?
 
+<iframe src="../../sims/what-level-of-use/main.html" height="684px" width="100%" scrolling="no"></iframe>
+
+[Run the What Level of Use Is This? MicroSim Fullscreen](../../sims/what-level-of-use/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>What Level of Use Is This?</summary>
 Type: microsim
@@ -208,6 +212,10 @@ Chapter 17 introduced Schein's three levels. They deserve a closer look now, sin
 The assumption, not the mission, predicts how the school will react to collaborative afternoon teams.
 
 #### Diagram: Artifact, Value, or Assumption?
+
+<iframe src="../../sims/artifact-value-or-assumption/main.html" height="496px" width="100%" scrolling="no"></iframe>
+
+[Run the Artifact, Value, or Assumption? MicroSim Fullscreen](../../sims/artifact-value-or-assumption/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Artifact, Value, or Assumption?</summary>
@@ -323,6 +331,10 @@ There is one minus sign, an odd number, so the loop is balancing: pushing the ro
 
 #### Diagram: Reinforcing or Balancing?
 
+<iframe src="../../sims/reinforcing-or-balancing/main.html" height="648px" width="100%" scrolling="no"></iframe>
+
+[Run the Reinforcing or Balancing? MicroSim Fullscreen](../../sims/reinforcing-or-balancing/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Reinforcing or Balancing?</summary>
 Type: causal-loop
@@ -427,3 +439,5 @@ The story has both sides. The benefit: tools that tell a leader why a change has
 !!! mascot-celebration "You can tell a real change from a reform in the room"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned how to carry a change through the neutral zone and the practice gap, to read a culture and a feedback loop, and to tell real change from adoption in name only. Chapter 19 gets practical: concrete moves a leader can make next week. One step at a time, together.
+
+[See Annotated References](./references.md)

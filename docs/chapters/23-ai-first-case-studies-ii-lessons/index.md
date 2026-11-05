@@ -109,6 +109,10 @@ The **Stanford detector study**, by Weixin Liang and colleagues in 2023, found t
 
 #### Diagram: Which Lesson Does the Failure Teach?
 
+<iframe src="../../sims/which-lesson-does-failure-teach/main.html" height="534px" width="100%" scrolling="no"></iframe>
+
+[Run the Which Lesson Does the Failure Teach? MicroSim Fullscreen](../../sims/which-lesson-does-failure-teach/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Which Lesson Does the Failure Teach?</summary>
 Type: microsim
@@ -219,6 +223,10 @@ The both-sided cases carry a benefit and a risk in one story. **David Game Colle
 Apply them to the claims in the cases. Unbound Academy's reported proficiency of 10 percent in math came with no starting point, so it says nothing about how much students grew. Its claim that students learn 2.8 times faster is measured on its own growth tests, which are self-reported. The Nigerian pilot and the Harvard study are randomized, which answers "compared with whom," though each has a short duration and a narrow setting. The MIT study answers "has anyone outside checked it" with "not yet," since it is a preprint with a small sample.
 
 #### Diagram: Ask the Right Question
+
+<iframe src="../../sims/ask-the-right-question/main.html" height="424px" width="100%" scrolling="no"></iframe>
+
+[Run the Ask the Right Question MicroSim Fullscreen](../../sims/ask-the-right-question/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Ask the Right Question</summary>
@@ -357,3 +365,5 @@ The cases of these last two chapters carry the same two-sided message. The model
 !!! mascot-celebration "You've finished the book, and you can make the case"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned to read the failures for what they'd have caught, test every claim with six questions, price the affordable model, and write a board recommendation that names both sides. That's the whole book: evidence, design, change, and the honesty to say what's still unknown. One step at a time, together.
+
+[See Annotated References](./references.md)

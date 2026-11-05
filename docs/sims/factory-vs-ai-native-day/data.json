@@ -1,0 +1,160 @@
+{
+  "title": "The Factory Day vs. the AI-Native Day",
+  "image": "factory-vs-ai-native-day.svg",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#C7164E", "#2A2E3A", "#E07B39", "#1389A6", "#2D8A4E", "#6A3FB5"],
+  "zones": [
+    {
+      "id": "factory-teacher",
+      "label": "Factory teacher: lecturer and grader",
+      "color": "#C7164E",
+      "x1": 2.5,
+      "y1": 14.0,
+      "x2": 47.5,
+      "y2": 36.0,
+      "summary": "One adult delivers the lesson to the whole room, then grades everyone's work, often late into the evening.",
+      "facts": [
+        "One teacher per room made schooling affordable, but it means one adult must serve every learner's pace (Chapter 3).",
+        "A 2022 RAND survey found teachers reported working about 53 hours a week, roughly nine hours more than other working adults. Planning and grading make up much of the difference (Chapter 3).",
+        "Gallup's 2022 survey found K-12 workers reported the highest burnout rate of any occupation it studied, with about four in ten feeling burned out always or very often (Chapter 3).",
+        "In Mr. Hale's illustrative traditional week, whole-class lecture takes 50 percent of his instructional time, supervising practice 20 percent and grading 15 percent (Chapter 20).",
+        "Look for the stacks of ungraded paper, the moon in the window and the lectern waiting by the board."
+      ]
+    },
+    {
+      "id": "factory-morning",
+      "label": "Factory morning: one lesson, one pace",
+      "color": "#2A2E3A",
+      "x1": 2.5,
+      "y1": 37.5,
+      "x2": 47.5,
+      "y2": 63.5,
+      "summary": "Students grouped by age hear the same lesson at the same pace until the bell rings.",
+      "facts": [
+        "Bell schedule: a typical middle school has six to eight periods of 45 to 55 minutes, announced by a bell (Chapter 3).",
+        "Age-based grade levels: Maya is in seventh grade because she is twelve, not because of a test of what she knows (Chapter 3).",
+        "Seat time counts hours in the room, not learning. A student who already knows the material and a student who is lost earn the same seat time (Chapter 3).",
+        "The Carnegie unit, defined in 1906 as 120 hours of class time in one subject over a school year, still underlies most U.S. high school credits (Chapter 3).",
+        "When the bell ends Ms. Rivera's 50-minute lesson on unit rates, half the class has just understood it and the other half is still lost (Chapter 3)."
+      ]
+    },
+    {
+      "id": "factory-afternoon",
+      "label": "Factory afternoon: more of the same",
+      "color": "#E07B39",
+      "x1": 2.5,
+      "y1": 65.0,
+      "x2": 47.5,
+      "y2": 92.2,
+      "summary": "After lunch the same rows, the same pace and the same bell carry on, one subject at a time.",
+      "facts": [
+        "In a traditional school the core academic subjects are spread through the whole day instead of being concentrated in the morning (Chapter 11).",
+        "In Chapter 20's 280-student illustration, the traditional afternoon is 10 sections of 28 students, each taught for 240 minutes in the same format.",
+        "A standard curriculum gives common content to all, but leaves little room for individual interests or pace (Chapter 3).",
+        "In an illustrative fixed 150-hour course, faster students sat through 535 idle hours while six slower students moved on without mastering it (Chapter 3).",
+        "To be fair to the model: it educated tens of millions of children and gave every child a seat. Its weakness is that it treats every child in a batch the same way (Chapter 3)."
+      ]
+    },
+    {
+      "id": "ai-native-teacher",
+      "label": "AI-native teacher: coach and mentor",
+      "color": "#1389A6",
+      "x1": 52.5,
+      "y1": 14.0,
+      "x2": 97.5,
+      "y2": 36.0,
+      "summary": "The same adults do nearly the opposite work: coaching, mentoring and facilitating instead of lecturing.",
+      "facts": [
+        "Alison King's 1993 phrase sums up the shift: from \"sage on the stage\" to \"guide on the side\" (Chapter 20).",
+        "In Mr. Hale's illustrative week, lecture and supervised practice fall from 70 percent of his time to 5 percent, and coaching, facilitation and mentoring rise to 70 percent (Chapter 20).",
+        "Teacher as mentor is a longer-term relationship, like the advisory teacher who knows a student for years (Chapter 20).",
+        "The model does not save on staff. In the 280-student illustration the AI-native day needs about 10 percent more adult-hours, spent on people instead of lectures (Chapter 20).",
+        "Risk: some AI-first schools use learning guides who may not be subject experts. Response: make sure a student who needs a human explanation of a hard concept can get one (Chapter 20).",
+        "Look for the sticky-note planning board, the dashboard on the tablet and the two chairs facing each other."
+      ]
+    },
+    {
+      "id": "ai-native-morning",
+      "label": "AI-native morning: compressed and self-paced",
+      "color": "#2D8A4E",
+      "x1": 52.5,
+      "y1": 37.5,
+      "x2": 97.5,
+      "y2": 63.5,
+      "summary": "A compressed academic morning of about two to three hours, in which each student works at their own pace toward mastery (Chapter 11).",
+      "facts": [
+        "In Chapter 11's illustration the compressed morning is 150 minutes instead of 250, which frees 100 minutes a day, or about 300 hours a year.",
+        "Mastery learning: a student shows mastery, typically 80 to 90 percent on a check, before moving on. Each flag on the winding path marks where one student is (Chapter 11).",
+        "Gap filling finds and repairs a missing prerequisite, like Maya's fractions, before the student returns to grade-level work (Chapter 11).",
+        "Reduced direct instruction: explanation comes in short pieces paced by the student, and the teacher coaches small groups (Chapter 11).",
+        "Risk: too much screen time and students working alone. Response: a screen cap such as 120 of the 150 minutes, a break every 25 to 30 minutes, and protected off-screen time with a teacher or classmates (Chapter 12).",
+        "The evidence: compression is plausible but unproven, so a school should pilot it and measure the results independently (Chapter 11)."
+      ]
+    },
+    {
+      "id": "ai-native-afternoon",
+      "label": "AI-native afternoon: pro-social",
+      "color": "#6A3FB5",
+      "x1": 52.5,
+      "y1": 65.0,
+      "x2": 97.5,
+      "y2": 92.2,
+      "summary": "The freed time goes to people: projects, arts, sports, clubs, making, service and life-skills workshops (Chapter 14).",
+      "facts": [
+        "A pro-social activity needs other people, has a shared goal, has a real audience or real stakes, and ends with a short reflection on how the group worked (Chapter 14).",
+        "Chapter 20's illustrative middle school day has 200 minutes of afternoon programming: a project block, arts or sports, clubs or workshops, and reflection.",
+        "Chapter 11's illustrative plan for 300 freed hours: 120 for projects with public exhibitions, 60 for arts, 60 for sports and clubs, 40 for life skills and service, and 20 for advisory.",
+        "Risk: unstructured drift, like the gym at Lincoln Middle School, where most of about thirty students were on their phones while an adult checked a clipboard. Response: a structured afternoon that is sequenced, active, focused and explicit (the SAFE practices, Chapter 14).",
+        "Afternoon groups are smaller than morning sections: a common target is one adult for 15 to 20 students (Chapter 20)."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Where does one adult grade stacks of papers late into the night?",
+      "correct_zone": "factory-teacher",
+      "explanation": "In the factory model one teacher lectures and grades for every student, and the 2022 RAND survey in Chapter 3 found teachers working about 53 hours a week."
+    },
+    {
+      "question": "Where would Maya hear the same 50-minute lesson as the rest of her age group until the bell rings?",
+      "correct_zone": "factory-morning",
+      "explanation": "Age-based grade levels and the bell schedule move the whole class through one lesson at one pace (Chapter 3)."
+    },
+    {
+      "question": "Where does counting seat time, the idea behind the Carnegie unit, decide what students have learned?",
+      "correct_zone": "factory-morning",
+      "explanation": "The Carnegie unit counts 120 hours of class time, so time in the seat stands in for learning (Chapter 3)."
+    },
+    {
+      "question": "Where do the same rows and the same bell continue after lunch, one subject at a time?",
+      "correct_zone": "factory-afternoon",
+      "explanation": "In a traditional school the academic subjects are spread through the whole day (Chapter 11)."
+    },
+    {
+      "question": "Where does a teacher work as a mentor, meeting one student face to face?",
+      "correct_zone": "ai-native-teacher",
+      "explanation": "Teacher as mentor is one of the four roles in the changing teacher role (Chapter 20)."
+    },
+    {
+      "question": "Where does each student move along a learning path at their own pace?",
+      "correct_zone": "ai-native-morning",
+      "explanation": "The compressed academic morning uses personalized pacing and mastery learning (Chapter 11)."
+    },
+    {
+      "question": "Where would a screen-time cap and a break every 25 to 30 minutes apply?",
+      "correct_zone": "ai-native-morning",
+      "explanation": "Morning screen-time limits answer the risk of too much screen time in the adaptive morning (Chapter 12)."
+    },
+    {
+      "question": "Where do students build, perform and garden together with an adult who debriefs?",
+      "correct_zone": "ai-native-afternoon",
+      "explanation": "The pro-social afternoon fills the freed time with structured work with other people (Chapter 14)."
+    },
+    {
+      "question": "Which part of the day carries the risk the book calls unstructured drift?",
+      "correct_zone": "ai-native-afternoon",
+      "explanation": "Freed time that is not planned slides into passive supervision or screens; the SAFE practices are the response (Chapter 14)."
+    }
+  ]
+}

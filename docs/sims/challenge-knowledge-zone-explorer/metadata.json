@@ -1,0 +1,94 @@
+{
+  "title": "Challenge and Prior Knowledge Zone Explorer",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Predict whether a student is bored, engaged, in productive struggle, or overwhelmed from the gap between task challenge and prior knowledge, then explore the model.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Challenge, prior knowledge, and engagement",
+    "learningObjectives": [
+      "The learner will distinguish whether a student is bored, engaged, in productive struggle, or overwhelmed by examining the gap between a task's challenge and the student's prior knowledge and whether support is available, correctly classifying at least five of six scenarios."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Prior knowledge, student boredom, student engagement, productive struggle, and the four states of the challenge-minus-knowledge gap, from Chapter 2."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 760
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Predict before the reveal, then explore the model",
+    "keyQuestions": [
+      "What is the gap between the task challenge and the student's prior knowledge?",
+      "Does support change the state for this gap?"
+    ],
+    "commonMisconceptions": [
+      "A bored student is always lazy",
+      "Struggle always means the task is too hard",
+      "Making a task easier is always the right response to a struggling student"
+    ],
+    "assessmentOpportunities": [
+      "A task at level 5 for a student at level 7: what state?",
+      "Does struggle always mean the task is too hard?",
+      "Is making the task easier the only fix for a gap of 4?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Four state buttons",
+      "type": "button",
+      "description": "Choose Bored, Engaged, Productive struggle, or Overwhelmed for the current scenario."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Shows or hides the definition of each state."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves to the next scenario after feedback."
+    },
+    {
+      "name": "Explore the model",
+      "type": "button",
+      "description": "On the results screen, opens the map with the sliders and the support checkbox."
+    },
+    {
+      "name": "Task challenge and Prior knowledge sliders",
+      "type": "slider",
+      "description": "In explore mode, set each value from 1 to 10."
+    },
+    {
+      "name": "Support available",
+      "type": "checkbox",
+      "description": "In explore mode, turns the hint ladder on or off."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Starts a practice run."
+    }
+  ],
+  "chapter": "02-evidence-motivation-stakeholders"
+}

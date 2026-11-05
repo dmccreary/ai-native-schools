@@ -1,0 +1,84 @@
+{
+  "title": "Coach Capacity Calculator",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate the number of coaches a rollout needs, rounding up, and the number of teachers a given number of coaches can support.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Coach Capacity Calculator",
+    "learningObjectives": [
+      "The learner will calculate the number of coaches needed for a given number of teachers and coach capacity, and the number of teachers a given number of coaches can support, correctly answering three of three questions."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Scaling a pilot, instructional coaching, coach capacity, and rounding up, from the section \"Scaling Without Breaking\" in Chapter 21 and from Chapter 19."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 502
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit answers before the results unlock, then explore the inputs",
+    "keyQuestions": [
+      "How many coaches does the rollout need?",
+      "How many teachers can the coaches you have support?"
+    ],
+    "commonMisconceptions": [
+      "Coaches needed can be a fraction.",
+      "Scaling speed depends only on the software.",
+      "A thinner coach load has no effect."
+    ],
+    "assessmentOpportunities": [
+      "400 teachers at 12 per coach. How many coaches?",
+      "Can the coaches needed be a fraction?",
+      "Does buying more software licenses speed up the rollout?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Answer box and Check",
+      "type": "button",
+      "description": "Type a number and check it. Two tries per question."
+    },
+    {
+      "name": "Next question / See the results",
+      "type": "button",
+      "description": "Moves on after a question is finished."
+    },
+    {
+      "name": "Three sliders",
+      "type": "slider",
+      "description": "Teachers to support (10 to 600), teachers per coach (6 to 20), and coaches available (1 to 50). They unlock after the questions."
+    },
+    {
+      "name": "Defaults",
+      "type": "button",
+      "description": "Puts the sliders back to 150 teachers, 12 per coach, and 8 coaches."
+    },
+    {
+      "name": "Start over",
+      "type": "button",
+      "description": "Returns to Question 1 and locks the sliders."
+    }
+  ],
+  "chapter": "21-implementing-ai-native-model-responsibly"
+}

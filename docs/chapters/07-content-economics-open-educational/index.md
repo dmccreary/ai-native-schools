@@ -492,7 +492,32 @@ For a 12,000-student district, the Level 2 software and training cost \( 12{,}00
 
 The lesson of the bottom row is the surprising one. When devices must be bought, the device is the largest cost at every digital level, about 77 to 93 percent of the total. This is why Mr. Patel's question cannot be answered by comparing software prices. A school that already owns devices gets Level 2 and Level 3 at a small fraction of the price of print, and a school that has to buy them sees the gap close. It is also why equity (Chapter 3) turns on devices and connectivity as much as on content.
 
+#### Diagram: What a Textbook Costs per Student
+
+<iframe src="../../sims/textbook-cost-per-student-poster/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the What a Textbook Costs per Student MicroSim Fullscreen](../../sims/textbook-cost-per-student-poster/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>What a Textbook Costs per Student</summary>
+Type: infographic overlay (grid)
+**sim-id:** textbook-cost-per-student-poster<br/>
+**Library:** grid-diagram.js (shared grid overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** compare<br/>
+**Learning Objective:** The learner will compare the yearly cost per student of print and of Level 2, 3 and 4 digital textbooks, name the cost items that each level adds, and explain why the cost of a device can outweigh every software item.
+
+**Visual:** An interactive poster that answers a finance director's question with four stacks of cost blocks, print and Levels 2 to 4, drawn to scale, with the faded laptop a school may also have to buy standing behind them. The image has no text; 5 rectangular zones supply every label.
+
+**Modes:** Explore (hover or click for a description) and Quiz.
+</details>
+
 #### Diagram: Cost Per Student by Level
+
+<iframe src="../../sims/cost-per-student-by-level/main.html" height="694px" width="100%" scrolling="no"></iframe>
+
+[Run the Cost Per Student by Level MicroSim Fullscreen](../../sims/cost-per-student-by-level/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Cost Per Student by Level</summary>
@@ -618,3 +643,5 @@ The story has both sides. The benefit is large: a district that adopts an open L
 !!! mascot-celebration "You can answer 'what does it cost per student?'"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned why content is heading toward a penny a day, how to read a QR score with its two halves, and how to build a per-level cost table that includes the devices a software quote leaves out. Chapter 8 moves to Level 3: how a school can track what students master without handing their data over. One step at a time, together.
+
+[See Annotated References](./references.md)

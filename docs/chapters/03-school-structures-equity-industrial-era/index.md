@@ -102,6 +102,27 @@ The bell schedule solves a coordination problem: dozens of teachers and hundreds
 
 The **Carnegie unit** is a standard measure of a high school course, defined in 1906 by the Carnegie Foundation for the Advancement of Teaching as 120 hours of class time in one subject over a school year. It was created to decide which colleges and high schools were eligible for pensions and to give colleges a common way to judge a high school transcript. Most U.S. high schools still award credits on this basis, and a typical diploma requires roughly two dozen credits. A 2015 Carnegie Foundation report called it a century-old standard in a changing education landscape.
 
+#### Diagram: Seat Time vs. Mastery
+
+<iframe src="../../sims/seat-time-vs-mastery-poster/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the Seat Time vs. Mastery MicroSim Fullscreen](../../sims/seat-time-vs-mastery-poster/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>Seat Time vs. Mastery</summary>
+Type: infographic overlay (grid)
+**sim-id:** seat-time-vs-mastery-poster<br/>
+**Library:** grid-diagram.js (shared grid overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Analyze<br/>
+**Bloom Verb:** compare<br/>
+**Learning Objective:** The learner will **compare** seat time with mastery learning by explaining, for each model, what is held fixed, what varies, and what goes wrong, and will describe how a school responds to the students who fall behind in time under mastery learning. (Bloom level: Analyze.)
+
+**Visual:** An interactive poster comparing two staircases of the same five concepts: seat time, where the calendar moves the class on and gaps crack the blocks, and mastery learning, where every block is solid but students spread apart in time. The image has no text; 6 rectangular zones supply every label.
+
+**Modes:** Explore (hover or click for a description) and Quiz.
+</details>
+
 ### Worked Example: What Fixed Time Does to a Class
 
 Suppose a course is set at 150 hours, about one 50-minute period on each of 180 school days, and 20 students need different amounts of time to master it. The table lists the hours each student actually needs. These numbers are illustrative.
@@ -121,6 +142,10 @@ Under a fixed 150-hour course, the 14 students who need 150 hours or fewer maste
 The six slower students would need \( 10 + 20 + 35 + 50 + 80 + 110 = 305 \) more hours between them. If time were allowed to vary and mastery held fixed, every student would master the course, and the total time would be \( 2{,}770 \) hours, less than the \( 20 \times 150 = 3{,}000 \) hours the fixed course uses, with no one left behind. This arithmetic is the whole case for mastery-based approaches, which Chapter 11 develops.
 
 #### Diagram: Seat Time Versus Mastery
+
+<iframe src="../../sims/seat-time-vs-mastery/main.html" height="836px" width="100%" scrolling="no"></iframe>
+
+[Run the Seat Time Versus Mastery MicroSim Fullscreen](../../sims/seat-time-vs-mastery/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Seat Time Versus Mastery</summary>
@@ -247,6 +272,10 @@ The equal split leaves student C 15 points below the goal and sends 15 hours to 
 
 #### Diagram: Equal Versus Equitable Tutoring
 
+<iframe src="../../sims/equal-vs-equitable-tutoring/main.html" height="756px" width="100%" scrolling="no"></iframe>
+
+[Run the Equal Versus Equitable Tutoring MicroSim Fullscreen](../../sims/equal-vs-equitable-tutoring/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Equal Versus Equitable Tutoring</summary>
 Type: microsim
@@ -353,6 +382,10 @@ In 1913, Thomas Edison is reported to have predicted that motion pictures would 
 The pattern from Chapter 1, in which technology arrives with enormous promises and is then absorbed into the old grammar of schooling, repeats across this history. What is new about AI is not that the promises are being made; it is that the underlying capability keeps improving, a point Chapters 4 and 5 take up with data.
 
 #### Diagram: Schooling and EdTech Timeline
+
+<iframe src="../../sims/schooling-edtech-timeline/main.html" height="644px" width="100%" scrolling="no"></iframe>
+
+[Run the Schooling and EdTech Timeline MicroSim Fullscreen](../../sims/schooling-edtech-timeline/main.html){ .md-button .md-button--primary }
 
 <details markdown="1">
 <summary>Schooling and EdTech Timeline</summary>
@@ -501,6 +534,10 @@ The same study moves from the second row to the third when it is published after
 
 #### Diagram: Source Credibility Checker
 
+<iframe src="../../sims/source-credibility-checker/main.html" height="732px" width="100%" scrolling="no"></iframe>
+
+[Run the Source Credibility Checker MicroSim Fullscreen](../../sims/source-credibility-checker/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Source Credibility Checker</summary>
 Type: microsim
@@ -581,3 +618,5 @@ The chapter's story has both sides. The benefit: ideas like mastery-based pacing
 !!! mascot-celebration "You can explain why school is built this way"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just traced the bell, the grade level, and the Carnegie credit back to the problems they solved, and learned to weigh a source by who made it and who checked it. Chapter 4 begins Part 1 of the book's argument: how researchers measure what AI can do, and why that measurement matters to schools. One step at a time, together.
+
+[See Annotated References](./references.md)

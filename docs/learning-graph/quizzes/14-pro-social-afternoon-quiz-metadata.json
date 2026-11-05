@@ -1,0 +1,136 @@
+{
+  "chapter": "The Pro-Social Afternoon",
+  "chapter_file": "docs/chapters/14-pro-social-afternoon/index.md",
+  "quiz_file": "docs/chapters/14-pro-social-afternoon/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch14-q001",
+      "number": 1,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Afternoon Program Quality",
+      "tags": [
+        "afternoon-program-quality",
+        "safe-practices"
+      ]
+    },
+    {
+      "id": "ch14-q002",
+      "number": 2,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Pro-Social Activity",
+      "tags": [
+        "pro-social-activity",
+        "pro-social-afternoon"
+      ]
+    },
+    {
+      "id": "ch14-q003",
+      "number": 3,
+      "correct_answer": "C",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Structured Afternoon",
+      "tags": [
+        "structured-afternoon",
+        "safe-practices",
+        "clubs-and-extracurriculars"
+      ]
+    },
+    {
+      "id": "ch14-q004",
+      "number": 4,
+      "correct_answer": "A",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Unstructured Afternoon Drift",
+      "tags": [
+        "unstructured-afternoon-drift",
+        "afternoon-program"
+      ]
+    },
+    {
+      "id": "ch14-q005",
+      "number": 5,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Driving Question",
+      "tags": [
+        "driving-question",
+        "project-based-learning"
+      ]
+    },
+    {
+      "id": "ch14-q006",
+      "number": 6,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Arts Education",
+      "tags": [
+        "arts-education",
+        "music-education",
+        "ensemble-music"
+      ]
+    },
+    {
+      "id": "ch14-q007",
+      "number": 7,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Activity-Skill Matching",
+      "tags": [
+        "activity-skill-matching",
+        "coding-club",
+        "robotics-club",
+        "maker-space"
+      ]
+    },
+    {
+      "id": "ch14-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Service Learning",
+      "tags": [
+        "service-learning",
+        "empathy"
+      ]
+    },
+    {
+      "id": "ch14-q009",
+      "number": 9,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Community Partnership",
+      "tags": [
+        "community-partnership",
+        "equity"
+      ]
+    },
+    {
+      "id": "ch14-q010",
+      "number": 10,
+      "correct_answer": "B",
+      "bloom_level": "Analyze",
+      "difficulty": "medium",
+      "concept_tested": "Team Sports",
+      "tags": [
+        "team-sports",
+        "sports-and-athletics"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 26,
+  "chapter_concepts_tested": 10
+}

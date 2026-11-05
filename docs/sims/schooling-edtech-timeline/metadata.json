@@ -1,0 +1,89 @@
+{
+  "title": "Schooling and EdTech Timeline",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Explore twenty events in the history of schooling and educational technology from 1848 to 2022, then place eight of them in their eras.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "History of schooling and educational technology",
+    "learningObjectives": [
+      "The learner will classify eight events from the history of schooling and educational technology into one of five eras, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "The industrial-era school model, Carnegie unit, education policy, charter school, virtual school, and the history of EdTech, from Chapter 3."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "vis-timeline",
+    "version": "7.7.3",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 640
+    },
+    "responsive": true,
+    "dependencies": [
+      "vis-timeline 7.7.3 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Explore a timeline, then classify events into eras without dates",
+    "keyQuestions": [
+      "When were the structures of the school day set?",
+      "When did each wave of educational technology arrive?"
+    ],
+    "commonMisconceptions": [
+      "Technology in schools is a recent phenomenon",
+      "Every wave of educational technology was adopted quickly and used as promised",
+      "School structures such as the Carnegie unit and age grading came from the computer age"
+    ],
+    "assessmentOpportunities": [
+      "In which era was the Carnegie unit defined?",
+      "Is technology in schools a recent idea?",
+      "Did age grading come from the computer age?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Timeline events",
+      "type": "click",
+      "description": "Click an event to read its description, date, and era."
+    },
+    {
+      "name": "Structure, Policy, Technology",
+      "type": "checkbox",
+      "description": "Show or hide each group of events."
+    },
+    {
+      "name": "Zoom in, Zoom out, arrows, Fit all",
+      "type": "button",
+      "description": "Change the view of the timeline. The mouse wheel does not zoom."
+    },
+    {
+      "name": "Start the era quiz",
+      "type": "button",
+      "description": "Hides the timeline and shows eight events without dates."
+    },
+    {
+      "name": "Era buttons",
+      "type": "button",
+      "description": "Choose the era for the current event. One attempt each."
+    },
+    {
+      "name": "Explore the timeline and Retry the quiz",
+      "type": "button",
+      "description": "On the results screen, return to the timeline or reshuffle the quiz."
+    }
+  ],
+  "chapter": "03-school-structures-equity-industrial-era"
+}

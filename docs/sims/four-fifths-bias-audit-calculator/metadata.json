@@ -1,0 +1,77 @@
+{
+  "title": "Four-Fifths Bias Audit Calculator",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Calculate selection rates and four-fifths ratios for three student groups, decide which groups an audit flags, then change the counts and watch the flags update.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Screening an AI recommendation system for bias",
+    "learningObjectives": [
+      "The learner will calculate selection rates and four-fifths ratios for three student groups and identify which groups the audit flags, correctly answering three of three questions."
+    ],
+    "bloomsTaxonomy": "Apply",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Algorithmic bias, algorithmic bias auditing, selection rate, and the four-fifths rule, from the section \"Algorithmic Bias, Auditing, and Transparency\" in Chapter 10."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 655
+    },
+    "canvasHeight": 655,
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit three calculations before the sliders unlock, then explore the flags",
+    "keyQuestions": [
+      "What is each group's selection rate?",
+      "Which ratios fall below 0.80?"
+    ],
+    "commonMisconceptions": [
+      "A flagged result proves the system is unfair",
+      "A group with the largest count must have the highest rate",
+      "A ratio is a difference in percentage points"
+    ],
+    "assessmentOpportunities": [
+      "Group B: 72 recommended of 300 eligible. Selection rate?",
+      "Group A's rate is 40.0%. Group B's ratio?",
+      "Group C's rate is 35.0%. Is it flagged?",
+      "Does a flag prove the system is unfair?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "Your answer box and Check",
+      "description": "type a number and press Check (or Enter); for question 3 choose from the menu. Two attempts per question; only the first counts."
+    },
+    {
+      "name": "Next",
+      "description": "moves on; after question 3 it unlocks the sliders."
+    },
+    {
+      "name": "Recommended, group A, B, C",
+      "description": "sliders for the number recommended in each group."
+    },
+    {
+      "name": "Redo challenges and Defaults",
+      "description": "start the questions again, or reset the counts to 200, 72, and 70."
+    }
+  ],
+  "chapter": "10-student-privacy-data-governance"
+}

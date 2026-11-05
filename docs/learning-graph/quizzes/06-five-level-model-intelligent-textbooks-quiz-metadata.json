@@ -1,0 +1,138 @@
+{
+  "chapter": "The Five-Level Model of Intelligent Textbooks",
+  "chapter_file": "docs/chapters/06-five-level-model-intelligent-textbooks/index.md",
+  "quiz_file": "docs/chapters/06-five-level-model-intelligent-textbooks/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch06-q001",
+      "number": 1,
+      "correct_answer": "D",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Level 3 Adaptive Textbook",
+      "tags": [
+        "level-3-adaptive-textbook",
+        "progress-tracking"
+      ]
+    },
+    {
+      "id": "ch06-q002",
+      "number": 2,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "SAE J3016 Standard",
+      "tags": [
+        "sae-j3016-standard",
+        "shared-vocabulary",
+        "graduated-regulation",
+        "realistic-expectations"
+      ]
+    },
+    {
+      "id": "ch06-q003",
+      "number": 3,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Level 2 Interactive Textbook",
+      "tags": [
+        "level-2-interactive-textbook",
+        "embedded-simulation",
+        "path-recommendation"
+      ]
+    },
+    {
+      "id": "ch06-q004",
+      "number": 4,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Level Classification",
+      "tags": [
+        "level-classification",
+        "level-4-chatbot-textbook",
+        "conversational-tutoring"
+      ]
+    },
+    {
+      "id": "ch06-q005",
+      "number": 5,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Five-Level Textbook Model",
+      "tags": [
+        "five-level-textbook-model",
+        "levels-of-driving-automation"
+      ]
+    },
+    {
+      "id": "ch06-q006",
+      "number": 6,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Level-Specific Policy",
+      "tags": [
+        "level-specific-policy",
+        "graduated-regulation"
+      ]
+    },
+    {
+      "id": "ch06-q007",
+      "number": 7,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Full Personalization",
+      "tags": [
+        "full-personalization",
+        "level-5-autonomous-textbook",
+        "real-time-content-generation"
+      ]
+    },
+    {
+      "id": "ch06-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "AI-Powered Marketing Claims",
+      "tags": [
+        "ai-powered-marketing-claims",
+        "intelligent-textbook"
+      ]
+    },
+    {
+      "id": "ch06-q009",
+      "number": 9,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Product Level Assessment",
+      "tags": [
+        "product-level-assessment",
+        "level-terminology-precision"
+      ]
+    },
+    {
+      "id": "ch06-q010",
+      "number": 10,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Vendor Level Claim",
+      "tags": [
+        "vendor-level-claim",
+        "progress-tracking",
+        "level-classification"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 34,
+  "chapter_concepts_tested": 10
+}

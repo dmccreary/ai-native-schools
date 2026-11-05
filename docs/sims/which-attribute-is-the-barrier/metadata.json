@@ -1,0 +1,85 @@
+{
+  "title": "Which Attribute Is the Barrier?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Name the innovation attribute that is the barrier behind each of eight teacher comments about a new tool.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Which Attribute Is the Barrier?",
+    "learningObjectives": [
+      "The learner will attribute each of eight teacher comments to the innovation attribute that is the barrier, correctly attributing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Relative advantage, compatibility, complexity, trialability, and observability, from the section \"The Five Innovation Attributes\" in Chapter 15."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 604
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "\"It would mean giving up the group discussions I believe in.\" Which attribute?",
+      "\"The contract is for three years with no exit.\" Which attribute?"
+    ],
+    "commonMisconceptions": [
+      "Every adoption problem is a training problem",
+      "Teachers who do not adopt are resistant",
+      "Complexity and compatibility are the same"
+    ],
+    "assessmentOpportunities": [
+      "\"It would mean giving up the group discussions I believe in.\" Which attribute?",
+      "\"The contract is for three years with no exit.\" Which attribute?",
+      "Are complexity and compatibility the same?",
+      "Is every adoption problem a training problem?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "5 choice buttons",
+      "type": "button",
+      "description": "Choose one of the attributes; two tries per comment."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Opens a table of the attributes and their meanings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves on after the feedback."
+    },
+    {
+      "name": "Previous missed, Next missed",
+      "type": "button",
+      "description": "On the results screen, page through the missed items."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the items for a practice run."
+    }
+  ],
+  "chapter": "15-technology-adoption-diffusion-innovation"
+}

@@ -1,0 +1,79 @@
+{
+  "title": "Is This Data Identifying?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Classify eight data fields as a direct identifier, identifying in combination, or not identifying.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Is This Data Identifying?",
+    "learningObjectives": [
+      "The learner will classify eight data fields as direct identifiers, identifiers in combination, or not identifying, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Understand",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Student data, personally identifiable data, direct identifier, indirect identifier, and small-group identification, from the section \"What Counts as Student Data\" in Chapter 10"
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 638
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, get feedback with the reason, and review what was missed",
+    "keyQuestions": [
+      "Does this field point to one student on its own?",
+      "Could it point to one student when combined with other facts?"
+    ],
+    "commonMisconceptions": [
+      "Removing names makes data anonymous",
+      "Group data can never identify a person",
+      "Only a name or ID number counts as identifying"
+    ],
+    "assessmentOpportunities": [
+      "A report shows the average reading score for one class of 28 students. Which category?",
+      "A spreadsheet has no names but lists birth date, ZIP code, and gender. Is it anonymous?",
+      "Can group data ever identify a person?"
+    ]
+  },
+  "chapter": "10-student-privacy-data-governance",
+  "controls": [
+    {
+      "name": "Choice buttons",
+      "type": "button",
+      "description": "commit an answer. A wrong first answer gives a hint and lets you choose again; only the first answer counts."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "opens or closes the reference table. Reading it is exploration, not evidence."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "moves to the next item after feedback. On the results screen, Previous missed and Next missed step through what you missed."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "starts a practice run with the items reshuffled. Practice runs do not change the first-run score."
+    }
+  ]
+}

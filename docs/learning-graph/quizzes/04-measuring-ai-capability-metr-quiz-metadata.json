@@ -1,0 +1,136 @@
+{
+  "chapter": "Measuring AI Capability: The METR Task-Horizon Studies",
+  "chapter_file": "docs/chapters/04-measuring-ai-capability-metr/index.md",
+  "quiz_file": "docs/chapters/04-measuring-ai-capability-metr/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch04-q001",
+      "number": 1,
+      "correct_answer": "B",
+      "bloom_level": "Remember",
+      "difficulty": "medium",
+      "concept_tested": "Large Language Model",
+      "tags": [
+        "artificial-intelligence",
+        "machine-learning",
+        "generative-ai",
+        "large-language-model"
+      ]
+    },
+    {
+      "id": "ch04-q002",
+      "number": 2,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Human Working Time",
+      "tags": [
+        "human-working-time",
+        "metr"
+      ]
+    },
+    {
+      "id": "ch04-q003",
+      "number": 3,
+      "correct_answer": "D",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "AI Benchmark",
+      "tags": [
+        "ai-benchmark",
+        "benchmark-task-suite",
+        "saturation"
+      ]
+    },
+    {
+      "id": "ch04-q004",
+      "number": 4,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "50 Percent Time Horizon",
+      "tags": [
+        "50-percent-time-horizon",
+        "task-success-rate"
+      ]
+    },
+    {
+      "id": "ch04-q005",
+      "number": 5,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Task Horizon",
+      "tags": [
+        "task-horizon",
+        "ai-agent"
+      ]
+    },
+    {
+      "id": "ch04-q006",
+      "number": 6,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Five-Month Doubling",
+      "tags": [
+        "five-month-doubling",
+        "exponential-growth"
+      ]
+    },
+    {
+      "id": "ch04-q007",
+      "number": 7,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Long-Running Task",
+      "tags": [
+        "long-running-task",
+        "ai-agent",
+        "reliability"
+      ]
+    },
+    {
+      "id": "ch04-q008",
+      "number": 8,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "AI Capability",
+      "tags": [
+        "ai-capability",
+        "jagged-frontier"
+      ]
+    },
+    {
+      "id": "ch04-q009",
+      "number": 9,
+      "correct_answer": "B",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "AI Inference Cost",
+      "tags": [
+        "ai-inference-cost",
+        "tokens"
+      ]
+    },
+    {
+      "id": "ch04-q010",
+      "number": 10,
+      "correct_answer": "D",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Doubling Time",
+      "tags": [
+        "doubling-time",
+        "forecasting"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 19,
+  "chapter_concepts_tested": 10
+}

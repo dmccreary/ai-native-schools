@@ -1,0 +1,139 @@
+{
+  "chapter": "Content Economics and Open Educational Resources",
+  "chapter_file": "docs/chapters/07-content-economics-open-educational/index.md",
+  "quiz_file": "docs/chapters/07-content-economics-open-educational/quiz.md",
+  "generated_date": "2026-11-04",
+  "chapter_type": "intermediate",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "ch07-q001",
+      "number": 1,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Free Textbook",
+      "tags": [
+        "free-textbook",
+        "open-educational-resource",
+        "open-license"
+      ]
+    },
+    {
+      "id": "ch07-q002",
+      "number": 2,
+      "correct_answer": "A",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "5R Permissions",
+      "tags": [
+        "5r-permissions",
+        "creative-commons-license"
+      ]
+    },
+    {
+      "id": "ch07-q003",
+      "number": 3,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "OpenBook QR Score",
+      "tags": [
+        "openbook-qr-score",
+        "textbook-quality"
+      ]
+    },
+    {
+      "id": "ch07-q004",
+      "number": 4,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Quality Subscore",
+      "tags": [
+        "quality-subscore",
+        "reusability-subscore",
+        "openbook-qr-score"
+      ]
+    },
+    {
+      "id": "ch07-q005",
+      "number": 5,
+      "correct_answer": "A",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Creative Commons License",
+      "tags": [
+        "creative-commons-license",
+        "open-license",
+        "remix"
+      ]
+    },
+    {
+      "id": "ch07-q006",
+      "number": 6,
+      "correct_answer": "C",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Falling Production Cost",
+      "tags": [
+        "falling-production-cost",
+        "ai-generated-content",
+        "content-creation-cost"
+      ]
+    },
+    {
+      "id": "ch07-q007",
+      "number": 7,
+      "correct_answer": "D",
+      "bloom_level": "Apply",
+      "difficulty": "hard",
+      "concept_tested": "Value Beyond Content",
+      "tags": [
+        "value-beyond-content",
+        "publisher-business-model",
+        "publisher-disruption"
+      ]
+    },
+    {
+      "id": "ch07-q008",
+      "number": 8,
+      "correct_answer": "B",
+      "bloom_level": "Understand",
+      "difficulty": "medium",
+      "concept_tested": "Total Cost of Ownership",
+      "tags": [
+        "total-cost-of-ownership",
+        "cost-modeling",
+        "cost-per-student"
+      ]
+    },
+    {
+      "id": "ch07-q009",
+      "number": 9,
+      "correct_answer": "C",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Content Commoditization",
+      "tags": [
+        "content-commoditization",
+        "publisher-disruption"
+      ]
+    },
+    {
+      "id": "ch07-q010",
+      "number": 10,
+      "correct_answer": "A",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Penny-Per-Day Vision",
+      "tags": [
+        "penny-per-day-vision",
+        "level-2-cost-per-student",
+        "level-4-cost-per-student"
+      ]
+    }
+  ],
+  "chapter_concepts_total": 27,
+  "chapter_concepts_tested": 10
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Artifact, Value, or Assumption?",
+  "creator": "Dan McCreary",
+  "subject": "AI-Native Schools",
+  "description": "Sort eight statements about a school into Schein's three layers of culture: artifacts, espoused values, and basic assumptions.",
+  "date": "2026-11-04",
+  "educational": {
+    "gradeLevel": [
+      "Adult / Professional Development"
+    ],
+    "subjectArea": "Education",
+    "topic": "Artifact, Value, or Assumption?",
+    "learningObjectives": [
+      "The learner will distinguish eight statements about a school as cultural artifacts, espoused values, or basic assumptions, correctly placing at least seven of eight on the first attempt."
+    ],
+    "bloomsTaxonomy": "Analyze",
+    "duration": "10 minutes",
+    "prerequisites": [
+      "Cultural artifacts, espoused values, basic assumptions, and culture assessment, from the section \"Culture, Assessed\" in Chapter 18."
+    ],
+    "standards": []
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "2.3.4",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 492
+    },
+    "responsive": true,
+    "dependencies": [
+      "p5.js 2.3.4 from the jsDelivr CDN"
+    ],
+    "accessibility": {
+      "hasAltText": true,
+      "keyboardNavigable": true
+    }
+  },
+  "pedagogical": {
+    "teachingStrategy": "Commit an answer, then read the feedback and the reason",
+    "keyQuestions": [
+      "The school day is divided into fifty-minute periods. Which layer?",
+      "The handbook says parents are partners. Which layer?"
+    ],
+    "commonMisconceptions": [
+      "The mission statement describes the culture",
+      "A visible practice is the same as a belief",
+      "Basic assumptions can be read off the walls"
+    ],
+    "assessmentOpportunities": [
+      "The school day is divided into fifty-minute periods. Which layer?",
+      "The handbook says parents are partners. Which layer?",
+      "Can basic assumptions be read off the walls?",
+      "Is a visible practice the same as a belief?"
+    ]
+  },
+  "controls": [
+    {
+      "name": "3 choice buttons",
+      "type": "button",
+      "description": "Choose one of the layers; two tries per statement."
+    },
+    {
+      "name": "Show definitions",
+      "type": "button",
+      "description": "Opens a table of the layers and their meanings."
+    },
+    {
+      "name": "Next",
+      "type": "button",
+      "description": "Moves on after the feedback."
+    },
+    {
+      "name": "Previous missed, Next missed",
+      "type": "button",
+      "description": "On the results screen, page through the missed items."
+    },
+    {
+      "name": "Play again",
+      "type": "button",
+      "description": "Reshuffles the items for a practice run."
+    }
+  ],
+  "chapter": "18-sustaining-change-systems-thinking"
+}

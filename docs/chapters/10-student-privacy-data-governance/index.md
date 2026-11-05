@@ -114,6 +114,10 @@ The last row is the subtle one. Data about a group can identify an individual wh
 
 #### Diagram: Is This Data Identifying?
 
+<iframe src="../../sims/is-this-data-identifying/main.html" height="642px" width="100%" scrolling="no"></iframe>
+
+[Run the Is This Data Identifying? MicroSim Fullscreen](../../sims/is-this-data-identifying/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Is This Data Identifying?</summary>
 Type: microsim
@@ -342,6 +346,10 @@ Group A has the highest rate, 40 percent. Group C's ratio of 0.88 is above the 0
 
 #### Diagram: Four-Fifths Bias Audit Calculator
 
+<iframe src="../../sims/four-fifths-bias-audit-calculator/main.html" height="659px" width="100%" scrolling="no"></iframe>
+
+[Run the Four-Fifths Bias Audit Calculator MicroSim Fullscreen](../../sims/four-fifths-bias-audit-calculator/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Four-Fifths Bias Audit Calculator</summary>
 Type: microsim
@@ -499,6 +507,10 @@ Oakdale shows the point of the rule. It has every should-have and would look imp
 
 #### Diagram: Governance Readiness Judge
 
+<iframe src="../../sims/governance-readiness-judge/main.html" height="785px" width="100%" scrolling="no"></iframe>
+
+[Run the Governance Readiness Judge MicroSim Fullscreen](../../sims/governance-readiness-judge/main.html){ .md-button .md-button--primary }
+
 <details markdown="1">
 <summary>Governance Readiness Judge</summary>
 Type: microsim
@@ -553,6 +565,27 @@ Six districts:
 **Chapter Anchors:** The chapter lists six must-have practices (M1 to M6) and four should-have practices (S1 to S4), and the rule: not ready if any must-have is missing; ready for Level 3 with all six; well placed for Level 4 with all six and at least three should-haves. The chapter's worked example has Riverton, Oakdale, and Hillcrest. The mastery bar is 5 of 6.
 </details>
 
+#### Diagram: The Student Record Vault
+
+<iframe src="../../sims/student-record-vault/main.html" height="720px" width="100%" scrolling="no"></iframe>
+
+[Run the The Student Record Vault MicroSim Fullscreen](../../sims/student-record-vault/main.html){ .md-button .md-button--primary }
+
+<details markdown="1">
+<summary>The Student Record Vault</summary>
+Type: infographic overlay (callout)
+**sim-id:** student-record-vault<br/>
+**Library:** diagram.js (shared callout overlay engine)<br/>
+**Status:** Built<br/>
+**Bloom Level:** Understand<br/>
+**Bloom Verb:** explain<br/>
+**Learning Objective:** The learner will explain who may see a student's record and why, by locating the four rings of access, the three laws (FERPA, COPPA and GDPR) and the governance practices that protect a record, and by connecting the inBloom and PowerSchool cases to the practices that would have helped.
+
+**Visual:** An interactive infographic of who may come close to a student's record: a glowing folder inside four walls, for the family, the school, the district and vendors, with 14 callouts for FERPA, COPPA, GDPR, governance practices and the inBloom and PowerSchool cases. The image has no text; 14 numbered callouts supply every label.
+
+**Modes:** Explore (hover or click for a description) and Quiz.
+</details>
+
 ## Answering Mr. Chen
 
 Mr. Chen asked why he should trust the system more than the company that was breached. Ms. Okafor's honest answer has four parts. The district will hold less: only what the lesson needs, deleted on a published schedule. It will hold it differently: with multi-factor authentication, vendor contracts that bar misuse, and a written breach plan. It will let families see, take, and delete their data. And it will tell families when something goes wrong, quickly, even when the news is bad. She did not promise it could never happen. She promised the district would be ready.
@@ -573,3 +606,5 @@ The story has both sides, like every story in this book. The benefit: a Level 3 
 !!! mascot-celebration "You can say whether a district is ready"
     ![Indigo celebrating](../../img/mascot/celebration.png){ class="mascot-admonition-img" }
     You just learned what counts as student data, what FERPA, COPPA, and GDPR ask, how to govern and audit, and how to judge readiness with a rule you can apply in minutes. That closes Part 1 of the book's argument, the evidence and the foundations. Chapter 11 turns to the shorter academic morning itself. One step at a time, together.
+
+[See Annotated References](./references.md)
